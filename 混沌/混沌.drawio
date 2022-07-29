@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T21:55:28.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="hB9fnFr-Q01F5CjjxzNz" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T21:56:54.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="mIUnnsIc7Ko__6FPh7uS" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,6 +107,15 @@
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-37" value="OS" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1081.5" y="80" width="199" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-40" value="&lt;div class=&quot;mind-clipboard&quot;&gt;C语言是面向编译器, 无法直接操作硬件; 只有汇编(机器语言)可以操作硬件;&lt;br&gt;所以操作系统是由C和汇编组合而成, 涉及到操作硬件的部分一定是由汇编实现的&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
+          <mxGeometry x="1280.5" y="210" width="459.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-41" value="&lt;font color=&quot;#ff0000&quot;&gt;Compiler&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-42" value="&lt;font color=&quot;#ff0000&quot;&gt;Assembler&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="410" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
