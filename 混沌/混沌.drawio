@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T22:01:03.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="MqmZJTTw6qDvMSxyHkTS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T22:01:51.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="6lvJItoL_uCO-obqdXK1" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
           <mxGeometry x="1360" y="720" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-35" value="&lt;font color=&quot;#ff0000&quot;&gt;编译原理关注的问题是: 一个语言如何转换成另一个语言&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1211" y="565" width="309" height="40" as="geometry" />
+          <mxGeometry x="1860" y="370" width="309" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-36" target="2vaMElDyrSs1qIXfbJuE-37">
           <mxGeometry relative="1" as="geometry" />
@@ -116,11 +116,14 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(156, 39, 176); font-family: 微软雅黑; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;计算机编程语言的本质就是对下一层的抽象&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
           <mxGeometry x="1290" y="180" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2vaMElDyrSs1qIXfbJuE-44" value="&lt;font face=&quot;微软雅黑&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;&lt;b&gt;1.类型系统: 屏蔽对内存单元大小的访问&lt;br&gt;2.抽象对数据的操作: + - * / 等&lt;br&gt;e.g. int a = 1; a += 1; if while for 都是对下一层汇编的抽象&lt;br&gt;3.添加语言自身的特性&lt;br&gt;C: 最纯粹的汇编抽象, 自身没有扩展语言的特性&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-44" value="&lt;font face=&quot;微软雅黑&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;1.类型系统: 屏蔽对内存单元大小的访问&lt;br style=&quot;font-size: 14px;&quot;&gt;2.抽象对数据的操作: + - * / 等&lt;br style=&quot;font-size: 14px;&quot;&gt;e.g. int a = 1; a += 1; if while for 都是对下一层汇编的抽象&lt;br style=&quot;font-size: 14px;&quot;&gt;3.添加语言自身的特性&lt;br style=&quot;font-size: 14px;&quot;&gt;C: 最纯粹的汇编抽象, 自身没有扩展语言的特性&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1310" y="220" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-45" value="编译原理" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1920" y="420" width="199" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-47" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 14px;&quot;&gt;汇编语言抽象了ISA指令集的规则, 提供了人类可读的代码方式。&lt;br style=&quot;font-size: 14px;&quot;&gt;操作CPU的控制器, 控制存储单元和运算单元对缓存中的数据进行CRUD&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="410" width="450" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
