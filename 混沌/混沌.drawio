@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T16:27:58.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="hLsDMEyE3zKTXES62Q8J" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T17:55:01.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="Oxcj8tbQoK-guldvx1TW" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -344,6 +344,9 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-159" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-146" target="2vaMElDyrSs1qIXfbJuE-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-214" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-146" target="2vaMElDyrSs1qIXfbJuE-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-146" value="Concepts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="2755" y="970" width="135" height="40" as="geometry" />
         </mxCell>
@@ -365,7 +368,7 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-151" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(186, 104, 200); font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;编译器，汇编器，解释器&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="2737.5" y="935" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2vaMElDyrSs1qIXfbJuE-154" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;用一门语言,&amp;nbsp; 对其他语言进行解释, 执行逻辑&lt;br style=&quot;font-size: 12px;&quot;&gt;e.g 用C++解释执行bytecode&lt;br style=&quot;font-size: 12px;&quot;&gt;用汇编解释bytecode的叫模板解释器&lt;br style=&quot;font-size: 12px;&quot;&gt;用C++解释bytecode的叫Cpp解释器&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontStyle=0;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-154" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;用一门语言,&amp;nbsp; 对其他语言进行解释, 执行逻辑&lt;br style=&quot;font-size: 12px;&quot;&gt;e.g 用C++解释执行bytecode&lt;br&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;用汇编解释bytecode的叫模板解释器&lt;br style=&quot;font-size: 12px;&quot;&gt;用C++解释bytecode的叫Cpp解释器&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontStyle=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="2975" y="1255" width="245" height="75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-163" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#FF0000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-155" target="2vaMElDyrSs1qIXfbJuE-160">
@@ -384,22 +387,22 @@
           <mxGeometry x="2975" y="1080" width="246.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-160" value="C1&lt;br&gt;(Client Compiler)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="990" width="120" height="40" as="geometry" />
+          <mxGeometry x="3293" y="990" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-161" value="C2&lt;br&gt;(Server Compiler)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="3293" y="1060" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-162" value="Tiered Compilation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="1130" width="120" height="40" as="geometry" />
+          <mxGeometry x="3293" y="1130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-166" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;C1 - run faster, less optimized code&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3540" y="1000" width="230" height="20" as="geometry" />
+          <mxGeometry x="3423" y="1000" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-167" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;C2 - run slower, better-optimized code&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3540" y="1070" width="260" height="20" as="geometry" />
+          <mxGeometry x="3423" y="1070" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-168" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Interpreted execution =&amp;gt; C1 compiled execution =&amp;gt; C2 compiled execution&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3540" y="1130" width="327" height="45" as="geometry" />
+          <mxGeometry x="3423" y="1130" width="327" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-169" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-166" target="2vaMElDyrSs1qIXfbJuE-166">
           <mxGeometry relative="1" as="geometry" />
@@ -417,7 +420,7 @@
           <mxGeometry x="3250" y="1200" width="430" height="210" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-175" value="GCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3740" y="637.5" width="105" height="35" as="geometry" />
+          <mxGeometry x="4030" y="690" width="105" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-178" value="&lt;span style=&quot;font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;类比: 翻译官可以删减冗余信息, 并加入自己的理解或感情&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="3270" y="521" width="320" height="39" as="geometry" />
@@ -429,34 +432,82 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-180" value="前端(GCC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4220" y="585" width="105" height="45" as="geometry" />
+          <mxGeometry x="4435" y="666" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-211" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-181" target="2vaMElDyrSs1qIXfbJuE-208">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-181" value="LLVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3750" y="805" width="105" height="35" as="geometry" />
+          <mxGeometry x="4030" y="992" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-186" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-183" target="2vaMElDyrSs1qIXfbJuE-185">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-183" value="后端(GCC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4220" y="665" width="105" height="45" as="geometry" />
+          <mxGeometry x="4435" y="746" width="105" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-185" value="ISA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4220" y="745" width="105" height="45" as="geometry" />
+          <mxGeometry x="4435" y="826" width="105" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-187" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-188" target="2vaMElDyrSs1qIXfbJuE-190">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-188" value="前端(LLVM-GCC)&lt;br&gt;C-Lang" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4444" y="585" width="105" height="45" as="geometry" />
+          <mxGeometry x="4643" y="666" width="105" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-189" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-190" target="2vaMElDyrSs1qIXfbJuE-191">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-190" value="后端(LLVM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4444" y="665" width="105" height="45" as="geometry" />
+          <mxGeometry x="4643" y="746" width="105" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-191" value="ISA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="4444" y="745" width="105" height="45" as="geometry" />
+          <mxGeometry x="4643" y="826" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-192" value="C语言" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4458" y="621" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-193" value="Object-C, Swift" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4638" y="621" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-194" value="&lt;p&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; font-size: 13px;&quot;&gt;C语言有很多标准, 只要GCC编译器前端支持某种语法, 那么就可以写进C语言, 所以可知, 只要编译器支持, 语言就可以拓展出某种特性;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; font-size: 13px;&quot;&gt;所以说,&amp;nbsp;&lt;span style=&quot;color: rgb(244, 67, 54); text-align: center;&quot;&gt;一切语言的特性均是面向编译器来设计和编写的&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="480" width="403" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-196" value="&lt;div class=&quot;mind-clipboard&quot;&gt;GCC 是伪三明治架构, GCC原名为GNU C Compiler, 在设计初衷就不是为了兼容多个语言的。后期火起来才加入了兼容其他语言&lt;br&gt;由于GCC的前后端代码耦合高度在一起, 不具备扩展性, 如果一个GCC的前端开发者想要添加一门新语言适配GCC, 他需要了解GCC的全部才可能进行开发&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3932.5" y="742" width="300" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-203" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-197" target="2vaMElDyrSs1qIXfbJuE-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-197" value="前端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4859" y="666" width="105" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-204" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-199" target="2vaMElDyrSs1qIXfbJuE-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-199" value="IR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4859" y="739.5" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-200" value="后端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4859" y="817" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-206" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;三明治架构&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4849" y="620" width="125" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-207" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;LLVM一切组件均可独立出来使用, 全部流程均可使用插件机制来进行配置选择, 全部模块化 ---&amp;gt; 高度可定制 ---&amp;gt; 开源后所有的语言均可按照模块化机制接入&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px;&quot;&gt;相比之下, GCC的代码没有进行模块化, 耦合度极高, 扩展性差, 所以LLVM更受欢迎&lt;/font&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3940" y="1049" width="285" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-208" value="eBPF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="993.5" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-212" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;LLVM与gcc是同类型的竞争关系, 要替代gcc&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;新东西出来, 必定需要满足: 已存在东西的所有功能, 且要有自己的新特性, 如此才有竞争力; 所以研究新东西时, 可以基于对现有东西的了解 + 新特性来学习和选型&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3932.5" y="1190" width="435" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-213" value="Graalvm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="3038.13" y="1510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-215" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;基于Hotspot VM的跨平台性, 使用字节码作为IR, 让各类语言都可以在JVM上执行, 可以享有JVM的高性能, GC, 跨平台等特性&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2932.5" y="1550" width="330" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
