@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T16:24:18.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="KZoCutQ-DxoTAWoqR0YS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T16:27:58.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="hLsDMEyE3zKTXES62Q8J" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -350,6 +350,9 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-176" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-148" target="2vaMElDyrSs1qIXfbJuE-175">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-182" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-148" target="2vaMElDyrSs1qIXfbJuE-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-148" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="3038.13" y="820" width="120" height="40" as="geometry" />
         </mxCell>
@@ -413,14 +416,47 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-173" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;1, 编译bytecode的结果会带来执行性能的提升, 但是启动速度慢, 编译会耗时; &lt;br&gt;2, 解释执行不需要编译, 但是解释执行bytecode比较慢(用一个语言翻译另一个语言的逻辑并执行), 所以才会有JIT和解释器的结合&lt;br&gt;&lt;br&gt;当解释器执行执行java方法很慢到达了一个阈值, 那么此时就需要JIT进行编译, 把bytecode直接生成机器码并优化, 提高执行效率&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFCC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3250" y="1200" width="430" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="2vaMElDyrSs1qIXfbJuE-175" value="gcc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="3765" y="635" width="120" height="40" as="geometry" />
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-175" value="GCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="637.5" width="105" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-178" value="&lt;span style=&quot;font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;类比: 翻译官可以删减冗余信息, 并加入自己的理解或感情&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="3270" y="521" width="320" height="39" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-179" value="&lt;span style=&quot;font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;类比: 翻译官在脑中构建英语对应的中文&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="3460" y="422" width="230" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-184" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-180" target="2vaMElDyrSs1qIXfbJuE-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-180" value="前端(GCC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4220" y="585" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-181" value="LLVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="805" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-186" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-183" target="2vaMElDyrSs1qIXfbJuE-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-183" value="后端(GCC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4220" y="665" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-185" value="ISA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4220" y="745" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-187" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-188" target="2vaMElDyrSs1qIXfbJuE-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-188" value="前端(LLVM-GCC)&lt;br&gt;C-Lang" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4444" y="585" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-189" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-190" target="2vaMElDyrSs1qIXfbJuE-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-190" value="后端(LLVM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4444" y="665" width="105" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-191" value="ISA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="4444" y="745" width="105" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
