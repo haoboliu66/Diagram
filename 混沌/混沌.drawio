@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T15:06:55.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="8HZGLQ84fvjcHN9hunQc" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T15:13:47.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="FgDIM33WkGyCnB7hKV_L" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2vaMElDyrSs1qIXfbJuE-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3110" y="525" width="150" height="140" as="geometry" />
+          <mxGeometry x="3110" y="504" width="150" height="140" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-2" value="数字逻辑" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1081.5" y="1030" width="199" height="150" as="geometry" />
@@ -182,6 +182,12 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-63" value="基本原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2755" y="40" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-119" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-64" target="2vaMElDyrSs1qIXfbJuE-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-120" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-64" target="2vaMElDyrSs1qIXfbJuE-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-64" value="编译器结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2755" y="380" width="140" height="40" as="geometry" />
         </mxCell>
@@ -222,7 +228,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-77" value="后端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="575" width="110" height="40" as="geometry" />
+          <mxGeometry x="2950" y="554" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-93" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;strokeColor=#FF0000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="3110" y="185" width="150" height="210" as="geometry" />
@@ -248,19 +254,22 @@
           <mxGeometry x="3130" y="270" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-101" value="优化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3130" y="540" width="110" height="40" as="geometry" />
+          <mxGeometry x="3130" y="519" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-102" value="生成目标语言" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3130" y="610" width="110" height="40" as="geometry" />
+          <mxGeometry x="3130" y="589" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-115" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-114" target="2vaMElDyrSs1qIXfbJuE-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-114" value="IR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3130" y="440" width="110" height="40" as="geometry" />
+          <mxGeometry x="3130" y="420" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-116" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-family: 微软雅黑; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Intermediate Representation&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3250" y="437.5" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-121" value="&lt;div class=&quot;mind-clipboard&quot;&gt;小学英语题目: 用以下单词组成一个句子, 并翻译成中文&lt;br&gt;is this computer my&lt;br&gt;&lt;br&gt;在多种组合中, 如何选择一个真正正确的句子?&amp;nbsp; 语言需要定义语法规则&lt;br&gt;&lt;br&gt;编译原理就是: 将这种小学的题目, 用计算机语言进行实现&lt;br&gt;&lt;br&gt;词法分析: 就是把A语言中的词提炼出来, 得到一组词 is computer&amp;nbsp;my this&lt;br&gt;语法分析: 就是按照定义的语法规则, 推理出一棵树AST&lt;br&gt;在翻译成中文之前, 需要先把英文的句子在脑中构造出来, 这个脑中的完整的英文句子就是IR&lt;br&gt;&amp;nbsp; &amp;nbsp;--- 在翻译过程中, 每个人有每个人的理解, 所以每个人的IR会不一样&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="-280" width="630" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
