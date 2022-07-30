@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T22:12:40.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="EOLSz11ppjtAxaIjJDtF" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T12:20:54.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="Uzco4EbrTr6AF0Q6gZF1" version="20.2.2" type="github">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="599" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
           <mxGeometry x="1360" y="720" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-35" value="&lt;font color=&quot;#ff0000&quot;&gt;编译原理关注的问题是: 一个语言如何转换成另一个语言&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="310" width="309" height="40" as="geometry" />
+          <mxGeometry x="1980" y="720" width="309" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-39" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-36" target="2vaMElDyrSs1qIXfbJuE-37">
           <mxGeometry relative="1" as="geometry" />
@@ -120,10 +120,49 @@
           <mxGeometry x="1310" y="220" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-45" value="编译原理" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="360" width="199" height="50" as="geometry" />
+          <mxGeometry x="2040" y="770" width="199" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-47" target="2vaMElDyrSs1qIXfbJuE-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-47" target="2vaMElDyrSs1qIXfbJuE-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-47" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 14px;&quot;&gt;汇编语言抽象了ISA指令集的规则, 提供了人类可读的代码方式。&lt;br style=&quot;font-size: 14px;&quot;&gt;操作CPU的控制器, 控制存储单元和运算单元对缓存中的数据进行CRUD&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="410" width="450" height="80" as="geometry" />
+          <mxGeometry x="1290" y="410" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-48" target="2vaMElDyrSs1qIXfbJuE-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-48" target="2vaMElDyrSs1qIXfbJuE-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-48" value="编码规则" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="360" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-49" target="2vaMElDyrSs1qIXfbJuE-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-49" target="2vaMElDyrSs1qIXfbJuE-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-49" value="语言结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="500" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-52" value="AT&amp;amp;T" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="330" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-53" value="Intel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="385" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-54" value="operator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="472.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-55" value="operand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="527.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-61" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(244, 67, 54); font-family: 微软雅黑; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;寄存器中的值 or 内存中的值&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="570" width="165" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
