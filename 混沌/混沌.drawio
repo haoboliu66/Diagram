@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T22:42:54.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="PP6cdS_D-wdgUnCo4mPY" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T22:53:13.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="0IUX4KbwwBjNloxJY4Er" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3909" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-174" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1670" width="460" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-139" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="-950" y="570" width="470" height="400" as="geometry" />
         </mxCell>
@@ -844,10 +847,10 @@
           <mxGeometry x="470" y="860.5" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-39" value="Privilege Level" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1381" width="100" height="35" as="geometry" />
+          <mxGeometry x="460" y="1370" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-40" value="Paging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1565" width="100" height="35" as="geometry" />
+          <mxGeometry x="460" y="1690" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=17;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-41" target="HVV8NusCvYSjp4UumD4R-42">
           <mxGeometry relative="1" as="geometry" />
@@ -1131,6 +1134,96 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-168" value="虚拟内存到物理内存的映射需要一张表&lt;br&gt;(GDT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-548.5" y="1203.75" width="242" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-175" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1670" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-176" value="app1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1670" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-177" value="app2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1670" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-178" value="app3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-61.25" y="1670" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-179" value="实模式 - 预先规划分配好内存块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="1620" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-187" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2067" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-202" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-188" target="HVV8NusCvYSjp4UumD4R-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-188" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2067" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-189" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-190" value="app2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1910" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-191" value="app3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1910" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-192" value="基于段的虚拟内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-412" y="1870" width="194" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-194" value="app1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1910" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-195" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-196" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-197" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-198" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-199" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2067" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-201" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-257.5" y="2000" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-203" value="假如此时app3要使用内存, OS发现内存不够用了, 要把某个很久未被使用的段(假设是app1的代码段), 置换到磁盘上, 然后载入app3的段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="2180" width="554" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-204" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2230" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-205" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2230" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-206" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-207" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-208" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-209" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-210" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-211" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="35" y="2230" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-212" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="2320" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-213" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="2325" width="40" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
