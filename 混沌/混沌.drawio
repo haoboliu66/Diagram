@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T22:53:58.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="q1C1NYUOmVoJeQNZLo2d" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T22:54:30.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="SEfGLwlcUPSGvII_Hj_3" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3909" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1192,8 +1192,8 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-201" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-257.5" y="2000" width="285" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-203" value="假如此时app3要使用内存, OS发现内存不够用了, 要把某个很久未被使用的段(假设是app1的代码段), 置换到磁盘上, 然后载入app3的段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="2180" width="554" height="40" as="geometry" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-203" value="假如此时app3要使用内存, OS发现内存不够用了, 要把某个很久未被使用的段(假设是app1的代码段), 置换到磁盘上, 然后载入app3的段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2180" width="554" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-204" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-370" y="2230" width="460" height="70" as="geometry" />
@@ -1227,6 +1227,9 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-214" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;为了应对某个段被置换出内存这种情况, 对应的GDT表项中, 有1个bit表示这个段在不在内存中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-240" y="2410" width="327" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-217" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 14px;&quot;&gt;Segmentation带来的问题: &lt;br style=&quot;font-size: 14px;&quot;&gt;1. 内存外碎片; &lt;br style=&quot;font-size: 14px;&quot;&gt;2. 如果热数据在内存中被swap到磁盘然后又加载回内存, IO损耗较大; (一换换一坨)&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 每次加载到内存的范围很大, 即使我只使用数据段中的一部分, 整个数据段也要都加载进内存; (一加载加载一坨)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-385" y="2450" width="460" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
