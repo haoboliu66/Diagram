@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T21:08:54.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="FUjxFb9nyzoAQc8CF74c" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T21:23:04.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="5pvFo_X0qM1IKkdNncS-" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2559" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -114,8 +114,8 @@
         <mxCell id="2vaMElDyrSs1qIXfbJuE-37" value="OS" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1081" y="-255" width="199" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2vaMElDyrSs1qIXfbJuE-40" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;C语言是面向编译器, 无法直接操作硬件; 只有汇编(机器语言)可以操作硬件;&lt;br style=&quot;font-size: 13px;&quot;&gt;所以操作系统是由C和汇编组合而成, 涉及到操作硬件的部分一定是由汇编实现的&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;fontFamily=Verdana;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="-255" width="440.5" height="70" as="geometry" />
+        <mxCell id="2vaMElDyrSs1qIXfbJuE-40" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;C语言是面向编译器, 无法直接操作硬件; 只有汇编(机器语言)可以操作硬件;&lt;br style=&quot;font-size: 12px;&quot;&gt;所以操作系统是由C和汇编组合而成, 涉及到操作硬件的部分一定是由汇编实现的&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontFamily=Verdana;fontStyle=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="979.75" y="-205" width="440.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-41" value="&lt;font color=&quot;#ff0000&quot;&gt;Compiler&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1190.5" y="175" width="80" height="30" as="geometry" />
@@ -544,7 +544,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-217" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="770" width="70" height="40" as="geometry" />
+          <mxGeometry x="1640" y="805" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-228" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-218" target="2vaMElDyrSs1qIXfbJuE-227">
           <mxGeometry relative="1" as="geometry" />
@@ -711,16 +711,16 @@
           <mxGeometry x="2370" y="685" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-281" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="700" width="100" height="30" as="geometry" />
+          <mxGeometry x="1780" y="735" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-282" value="Registers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="745" width="100" height="30" as="geometry" />
+          <mxGeometry x="1780" y="780" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-283" value="控制器CU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="790" width="100" height="30" as="geometry" />
+          <mxGeometry x="1780" y="825" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-284" value="计算器ALU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="835" width="100" height="30" as="geometry" />
+          <mxGeometry x="1780" y="870" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.081;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;fontSize=15;fontColor=#CC99FF;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-1" target="HVV8NusCvYSjp4UumD4R-4">
           <mxGeometry relative="1" as="geometry">
@@ -850,13 +850,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-41" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="700" width="100" height="30" as="geometry" />
+          <mxGeometry x="1780" y="735" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-42" value="i-cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="670" width="100" height="30" as="geometry" />
+          <mxGeometry x="1930" y="705" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-43" value="d-cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="715" width="100" height="30" as="geometry" />
+          <mxGeometry x="1930" y="750" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=17;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-49" target="HVV8NusCvYSjp4UumD4R-54">
           <mxGeometry relative="1" as="geometry" />
@@ -998,6 +998,9 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-111" value="global表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br&gt;.section描述节信息: rodata&lt;br&gt;.data表示数据段&lt;br&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2110" y="10" width="415" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何整合在一起" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="-175" width="180" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
