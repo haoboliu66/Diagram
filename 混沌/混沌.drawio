@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T22:17:12.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="9vHC1QntI5vfZ-TQ0f5R" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T22:27:00.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="3o5jIQFzn2i91OLgURPH" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2559" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-139" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="650" width="470" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-103" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontColor=#000000;strokeColor=#FF0000;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="4590" y="-376" width="150" height="140" as="geometry" />
         </mxCell>
@@ -1007,6 +1010,48 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-116" value="使用*p 抽象汇编代码的 类似(rdx) 寄存器操作&lt;br&gt;使用 &amp;amp; 抽象汇编代码的lea取地址操作" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2610" y="-190" width="360" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontFamily=Verdana;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="680" width="211" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-119" value="IP - 16 bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="710" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-120" value="段寄存器 16 bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-882" y="708.75" width="75" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-123" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-956" y="857.5" width="386" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-124" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="857.5" width="80" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-125" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="857.5" width="80" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-126" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="857.5" width="80" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-127" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="857.5" width="80" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-138" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-128" target="HVV8NusCvYSjp4UumD4R-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-128" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;内存分段&lt;br&gt;每段64KB, 一共16段, 总共1MB (2^20)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="929.5" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-133" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;控制总线 16bit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-844.5" y="765" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-134" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 10px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;地址总线 20bit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-844.5" y="795" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-135" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 10px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;数据总线 16bit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-844.5" y="825" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-137" value="&lt;div class=&quot;mind-clipboard&quot;&gt;由于内存分为 栈, 堆, 数据段, 代码段&lt;br&gt;所以可知, 需要划分不同种类寄存器来表示不同的地址范围&lt;br&gt;DS, CS, SS, ES etc&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="993.5" width="300" height="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
