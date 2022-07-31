@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T22:40:33.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="GfzpH-0-2slSQwLcELpw" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T22:42:27.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="vqtOWlqA5RdH6PoKfYmS" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3909" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1098,20 +1098,29 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-166" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-159" target="HVV8NusCvYSjp4UumD4R-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-171" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-159" target="HVV8NusCvYSjp4UumD4R-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-159" value="&lt;span style=&quot;color: rgb(50, 50, 50); background-color: rgba(255, 255, 255, 0.01); font-size: 13px;&quot;&gt;虚拟内存(基于段)&lt;br&gt;80286&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-812.5" y="1120" width="195" height="42" as="geometry" />
+          <mxGeometry x="-791.25" y="1130" width="152.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-161" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Segment limit checking&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-1035" y="1242.25" width="195" height="42" as="geometry" />
+          <mxGeometry x="-1056" y="1239.37" width="151" height="47.75" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-162" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Read-only and execute-only segment options&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-812.5" y="1242.25" width="195" height="42" as="geometry" />
+          <mxGeometry x="-896" y="1242.25" width="195" height="42" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-163" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; text-align: left; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Privilege Levels&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-570" y="1242.25" width="195" height="42" as="geometry" />
+          <mxGeometry x="-705" y="1239.37" width="110" height="47.75" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-167" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;物理地址不会暴露给程序, 程序只能访问虚拟地址, 由OS统一管理, 映射到物理地址&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="1117.5" width="345" height="40" as="geometry" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-169" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-167" target="HVV8NusCvYSjp4UumD4R-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-167" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;物理地址不会暴露给程序, 程序只能访问虚拟地址, 由OS统一管理, 映射到物理地址&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#FF3333;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1129" width="275" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-168" value="虚拟内存到物理内存的映射需要一张表&lt;br&gt;(GDT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-548.5" y="1203.75" width="242" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
