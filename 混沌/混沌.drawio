@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T17:53:13.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="lqNq3NQvB0R23ZXRK6ii" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T20:00:09.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="1Y8uNcniFFVhl7quBju1" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2184" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -827,10 +827,10 @@
           <mxGeometry x="470" y="900" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-39" value="Privilege Level" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1151" width="100" height="35" as="geometry" />
+          <mxGeometry x="480" y="1228" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-40" value="Paging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1335" width="100" height="35" as="geometry" />
+          <mxGeometry x="480" y="1412" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=17;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-41" target="HVV8NusCvYSjp4UumD4R-42">
           <mxGeometry relative="1" as="geometry" />
@@ -931,8 +931,14 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-80" value="GDTR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="295" y="929.5" width="105" height="30.5" as="geometry" />
         </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-87" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=17;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-82" target="HVV8NusCvYSjp4UumD4R-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-82" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="140" y="1019.5" width="105" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-86" value="Segment Descriptor&lt;br&gt;(Segment Base Address)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="1080" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
