@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T15:19:44.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="KdBn27TIPyYXs880JISs" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T15:54:39.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="d5UzL-bP8bQOc-KdFdbl" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2184" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -752,7 +752,7 @@
           <mxGeometry x="-473.92" y="1297.5" width="653.92" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-17" value="Intel历史: 架构上从i386已经万事俱备, Pentium处理器之后都是硬件的升级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="991" y="3220" width="500" height="40" as="geometry" />
+          <mxGeometry x="950" y="3200" width="500" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="380" y="370" width="380" height="142.5" as="geometry" />
@@ -783,6 +783,21 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-29" value="汇编" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="860" y="462.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-32" value="函数之间的参数传递" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="943.5" y="3390" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-33" value="参数的类型:&amp;nbsp;&lt;br&gt;1. 内存单元的值 (值拷贝)&lt;br&gt;2. 内存单元的地址 (地址拷贝)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="944" y="3430" width="209" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-34" target="HVV8NusCvYSjp4UumD4R-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-34" value="参数的传递位置:&amp;nbsp;&lt;br&gt;1. 约定栈上的某些位置, 传参取参 (速度慢, 每次还要去内存取)&lt;br&gt;2. 使用寄存器 (速度快, 但寄存器数量有限, 额外的要放到内存)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="943.5" y="3520" width="409.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-35" value="需要寄存器规定的规则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1407" y="3540" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
