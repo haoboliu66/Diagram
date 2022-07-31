@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T22:56:24.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="fJJXjzaoS3luG7QsjByx" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-31T22:58:50.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="22pKd8jM3VQq77yhzQgz" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3909" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1272,6 +1272,15 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-233" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;切割物理内存为4KB的小块 - frame&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-390" y="2690" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-234" value="阶段3: 使用内存分页" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="2620" width="615" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-235" value="阶段1: 预先规划内存layout" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1540" width="615" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-236" value="阶段2: 通过GDT表项进行虚拟内存到物理内存的映射" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1790" width="615" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
