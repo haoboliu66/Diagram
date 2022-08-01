@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T10:24:13.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="fjSaHw3rfsu08031RE2N" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-01T11:11:04.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="z5sUHewcUCcx81--V9a1" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3433" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1027,13 +1027,13 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-108" value="编译后的汇编代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1930" y="30" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-111" value="global表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br&gt;.section描述节信息: rodata&lt;br&gt;.data表示数据段&lt;br&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="HVV8NusCvYSjp4UumD4R-111" value=".globl表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br&gt;.section描述节信息: rodata&lt;br&gt;.data表示数据段&lt;br&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2110" y="10" width="415" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1949.5" y="-445" width="360" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.global? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.globl? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1949.5" y="-351" width="650.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="8086 CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;fontFamily=Verdana;verticalAlign=top;" vertex="1" parent="1">
@@ -1311,6 +1311,9 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-248" value="struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char name[4]; // 当声明数组保存字符串时, 这里分配空间将在汇编代码的栈上分配&lt;br style=&quot;font-size: 11px;&quot;&gt;}&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char *name; // 当声明指针保存字符串时, 字符串保存在rodata中&lt;br style=&quot;font-size: 11px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2690" y="-130" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-249" value="GNU-C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="125" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
