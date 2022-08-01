@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T09:36:01.428Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="3_Ey2HOdmMcnn1uoM3oJ" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-01T09:39:33.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="9kiVUqrjUnuEvHbq8OKo" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3525" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3689" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -787,34 +787,34 @@
           <mxGeometry x="-180" y="560" width="470" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="380" y="370" width="380" height="142.5" as="geometry" />
+          <mxGeometry x="430" y="265" width="380" height="142.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-19" value="计算器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="410" y="460" width="70" height="40" as="geometry" />
+          <mxGeometry x="460" y="355" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-20" value="寄存器组" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="535" y="457.5" width="70" height="40" as="geometry" />
+          <mxGeometry x="585" y="352.5" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-21" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="660" y="457.5" width="70" height="40" as="geometry" />
+          <mxGeometry x="710" y="352.5" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-22" value="高速缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="410" y="390" width="330" height="40" as="geometry" />
+          <mxGeometry x="460" y="285" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-23" value="汇编语言很简单, 不就是操作寄存器嘛" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=17;fontColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="393.75" y="530" width="346.25" height="20" as="geometry" />
+          <mxGeometry x="443.75" y="425" width="346.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=20;fontColor=#FF8000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-28" target="HVV8NusCvYSjp4UumD4R-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-28" value="ISA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="767" y="462.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="817" y="357.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-30" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=20;fontColor=#FF8000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-29" target="HVV8NusCvYSjp4UumD4R-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-29" value="汇编" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="860" y="462.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="910" y="357.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-32" value="函数之间的参数传递" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="990" y="3720" width="166" height="30" as="geometry" />
@@ -1293,6 +1293,12 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-241" value="内存中字符串的存储和访问等操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1010.5" y="3240" width="319.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-242" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;基于Intel i286,i386,i486历史得知:&lt;div&gt;1. 提供了保护模式&lt;/div&gt;&lt;div&gt;2. 真32位机&lt;br&gt;3. 虚拟内存(基于段)&lt;/div&gt;&lt;div&gt;4. 特权级&lt;/div&gt;&lt;div&gt;5. 指令流水线&lt;/div&gt;&lt;div&gt;6. 1级缓存&lt;/div&gt;&lt;div&gt;7. 内存模型 (实模式和保护模式)&lt;/div&gt;&lt;div&gt;8. x87 FPU&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="585" y="535" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-244" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;没有汇编指令可以直接操作CS寄存器来实现program control transfer, 必须通过JMP, CALL, RET, SYSENTER, SYSEXIT, SYSCALL, SYSRET, INT n, IRET, 或异常处理机制&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="888" width="297" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
