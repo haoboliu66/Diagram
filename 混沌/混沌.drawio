@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T09:42:25.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="__gWdO-iELvIyN990SVT" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-01T09:45:22.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="HEw__j3DkDP89x-URYaQ" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3689" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1009,11 +1009,14 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=default;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-98" target="HVV8NusCvYSjp4UumD4R-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-98" value="基础语法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1955" y="-80" width="70" height="40" as="geometry" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-246" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-98" target="HVV8NusCvYSjp4UumD4R-245">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-106" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;1.函数抽象了汇编的参数传递, 代码片段, 返回值&lt;br&gt;2.使用基础数据类型, 数组, 结构体来封装对内存单元的操作&lt;br&gt;3.函数传参优先使用寄存器, 多余的参数使用栈来传递&lt;br&gt;4.指针:使用*p 抽象汇编代码的 类似(rdx) 寄存器操作; 使用 &amp;amp; 抽象汇编代码的lea取地址操作&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="-103.5" width="550" height="87" as="geometry" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-98" value="基础语法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="-110" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-106" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;1.函数抽象了汇编的参数传递, 代码片段, 返回值&lt;br&gt;2.使用基础数据类型, 数组, 结构体来封装对内存单元的操作&lt;br&gt;3.函数传参优先使用寄存器, 多余的参数使用栈来传递&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2104.5" y="-169" width="550" height="87" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-112" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;fontSize=14;fontColor=default;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-108" target="HVV8NusCvYSjp4UumD4R-111">
           <mxGeometry relative="1" as="geometry" />
@@ -1025,10 +1028,10 @@
           <mxGeometry x="2110" y="10" width="415" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1949.5" y="-376" width="360" height="73" as="geometry" />
+          <mxGeometry x="1949.5" y="-445" width="360" height="73" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.global? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1949.5" y="-282" width="650.5" height="160" as="geometry" />
+          <mxGeometry x="1949.5" y="-351" width="650.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="8086 CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;fontFamily=Verdana;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-840" y="600" width="211" height="75" as="geometry" />
@@ -1299,6 +1302,9 @@
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-244" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;没有汇编指令可以直接操作CS寄存器来实现program control transfer, 必须通过JMP, CALL, RET, SYSENTER, SYSEXIT, SYSCALL, SYSRET, INT n, IRET, 或异常处理机制&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-80" y="1350" width="297" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-245" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;指针:使用*p 抽象汇编代码的 类似(rdx) 寄存器操作; 使用 &amp;amp; 抽象汇编代码的lea取地址操作&lt;br&gt;指针与数组操作&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2104.5" y="-70" width="540" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
