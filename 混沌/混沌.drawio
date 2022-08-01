@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T11:11:04.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="z5sUHewcUCcx81--V9a1" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-01T20:17:49.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="LqqbAGt2kalKPfA1YbZI" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3433" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1025,10 +1025,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-108" value="编译后的汇编代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="30" width="120" height="40" as="geometry" />
+          <mxGeometry x="1920" y="6" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-111" value=".globl表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br&gt;.section描述节信息: rodata&lt;br&gt;.data表示数据段&lt;br&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2110" y="10" width="415" height="90" as="geometry" />
+          <mxGeometry x="2110" y="-10" width="340" height="84" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1949.5" y="-445" width="360" height="73" as="geometry" />
@@ -1313,7 +1313,10 @@
           <mxGeometry x="2690" y="-130" width="430" height="130" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-249" value="GNU-C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="125" width="70" height="40" as="geometry" />
+          <mxGeometry x="1920" y="125" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVV8NusCvYSjp4UumD4R-251" value="&lt;div class=&quot;lang-c s-code-block&quot; style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: calc(var(--s-prose-spacing) + 0.4em); margin-left: 0px; padding: var(--su12); border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; line-height: var(--lh-md); font-size: 10px; vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: var(--highlight-bg); border-radius: var(--br-md); color: var(--highlight-color); overflow-wrap: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; background-color: transparent;&quot; class=&quot;hljs language-c&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; color: var(--highlight-keyword);&quot; class=&quot;hljs-meta&quot;&gt;#&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; color: var(--highlight-keyword);&quot; class=&quot;hljs-keyword&quot;&gt;define&lt;/span&gt; container_of(ptr, type, member) ({                      \&lt;br&gt;&amp;nbsp; const typeof( ((type *)0)-&amp;gt;member ) *__mptr = (ptr);    \&lt;br&gt;&amp;nbsp; (type *)( (char *)__mptr - offsetof(type,member) );})&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="107.5" width="340" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
