@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T09:40:16.681Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="im1MUyzF3mx1ER1ZQY4d" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-01T09:41:09.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="TS95Gic_tIr35mxHnkAG" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3689" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HVV8NusCvYSjp4UumD4R-237" value="内存管理的发展" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-1048" y="1560" width="670" height="1480" as="geometry" />
+          <mxGeometry x="-1048" y="1580" width="638" height="1460" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-174" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="-1008" y="1760" width="460" height="70" as="geometry" />
@@ -1274,13 +1274,13 @@
           <mxGeometry x="-1028" y="2780" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-234" value="阶段3: 使用内存分页" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1028" y="2710" width="615" height="60" as="geometry" />
+          <mxGeometry x="-1028" y="2710" width="598" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-235" value="阶段1: 预先规划内存layout" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1008" y="1630" width="615" height="60" as="geometry" />
+          <mxGeometry x="-1024" y="1630" width="604" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-236" value="阶段2: 通过GDT表项进行虚拟内存到物理内存的映射" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-1008" y="1880" width="615" height="60" as="geometry" />
+          <mxGeometry x="-1024" y="1880" width="604" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-238" value="晶体管构成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2070" y="1140" width="140" height="30" as="geometry" />
