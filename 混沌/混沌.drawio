@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T14:27:05.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y5Gm20Ug3_7XRu_yAhwU" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-03T14:27:47.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EJdeDX3Cwmpac2Ubhwpd" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="4120" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1047,10 +1047,10 @@
           <mxGeometry x="2070" y="-20" width="340" height="84" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="-649" width="360" height="73" as="geometry" />
+          <mxGeometry x="1802" y="-739" width="360" height="73" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.globl? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="-555" width="650.5" height="160" as="geometry" />
+          <mxGeometry x="1802" y="-645" width="650.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="8086 CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;fontFamily=Verdana;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="-840" y="600" width="211" height="75" as="geometry" />
@@ -1323,10 +1323,10 @@
           <mxGeometry x="-80" y="1350" width="297" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-245" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;指针:使用*p 抽象汇编代码的 类似(rdx) 寄存器操作; 使用 &amp;amp; 抽象汇编代码的lea取地址操作&lt;br&gt;指针与数组操作&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2094.5" y="-291" width="540" height="50" as="geometry" />
+          <mxGeometry x="2094.5" y="-296" width="540" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-248" value="struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char name[4]; // 当声明数组保存字符串时, 这里分配空间将在汇编代码的栈上分配&lt;br style=&quot;font-size: 11px;&quot;&gt;}&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char *name; // 当声明指针保存字符串时, 字符串保存在rodata中&lt;br style=&quot;font-size: 11px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2470" y="-54" width="429" height="115" as="geometry" />
+          <mxGeometry x="2481" y="-420" width="429" height="115" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-253" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=left;" parent="1" source="HVV8NusCvYSjp4UumD4R-249" target="HVV8NusCvYSjp4UumD4R-251" edge="1">
           <mxGeometry relative="1" as="geometry" />
