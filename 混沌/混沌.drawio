@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T14:27:47.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EJdeDX3Cwmpac2Ubhwpd" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-03T14:31:35.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WfYOANn7naqVBUZQRsVV" version="20.2.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="4120" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1391,6 +1391,33 @@
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-12" value="1.修饰全局变量和函数(当前文件私有)&lt;br&gt;2.修饰局部变量(不再栈上存储, 而是放到.data段)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2274.5" y="-128" width="380" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-16" target="6wYK-iRaseC7UJS33WFG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-16" value="C程序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="-810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-21" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-17" target="6wYK-iRaseC7UJS33WFG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-17" value="编译器(gcc)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="-810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-18" target="6wYK-iRaseC7UJS33WFG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-18" value="汇编器(gas)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3050" y="-810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-22" target="6wYK-iRaseC7UJS33WFG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-22" value="链接器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3200" y="-810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6wYK-iRaseC7UJS33WFG-23" value="机器语言" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="-810" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
