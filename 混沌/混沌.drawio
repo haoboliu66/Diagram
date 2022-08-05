@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T16:18:26.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gezsu-BBTdK3IwWrts7F" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-05T17:08:32.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1zhiFMROtJY9BBIwbzWf" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3893" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3253" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1504,6 +1504,9 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把object files的指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3528.3" y="-1070" width="381.7" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-17" value="&lt;font color=&quot;#000000&quot;&gt;.o文件, .out文件, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="3751.7" y="-840" width="368.3" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
