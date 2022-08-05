@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T14:07:21.931Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9aiLwr9BHi9JrAmkBz_3" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:17:05.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nvrbf8vs36Pv7gXL_7iq" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3695" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1470,19 +1470,28 @@
           <mxGeometry x="3060" y="-780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="由于.i和.s文件都是字符串文件, cat命令可读, 所以没什么好说的, 只要按照ascii或指定的编码放入磁盘即可&lt;br&gt;&lt;br&gt;而汇编器的输出位二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2670" y="-1010" width="490" height="120" as="geometry" />
+          <mxGeometry x="2790" y="-1080" width="490" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-5" value=".i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2910" y="-780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-6" value="ELF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3308" y="-890" width="60" height="30" as="geometry" />
+          <mxGeometry x="3450" y="-820" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-7" value=".o" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3220" y="-780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-8" value="Loader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3570" y="-770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-10" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="-940" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-11" value="符号Symbol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="-990" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-12" value="重定位Relocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="-940" width="108" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
