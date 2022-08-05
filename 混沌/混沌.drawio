@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T15:17:05.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nvrbf8vs36Pv7gXL_7iq" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:19:12.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6rkpiEFlgMlHnV1TrOz1" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3695" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1487,11 +1487,14 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-10" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2790" y="-940" width="490" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-11" value="符号Symbol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3700" y="-990" width="108" height="30" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-11" value="符号解析Symbol Resolution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3664" y="-980" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-12" value="重定位Relocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3700" y="-940" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-13" value="Address &amp;amp; Storage Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3664" y="-1020" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
