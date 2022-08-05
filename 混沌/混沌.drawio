@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T15:49:25.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RC93oBKnXypEQz95kI24" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:51:50.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="eAXdBaQIRka8Z4Cy0tc0" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3695" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1484,8 +1484,11 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-8" value="Loader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3570" y="-770" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-10" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址然后修正所有引用func的指令" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="-1012.5" width="520" height="115" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-10" target="xcac9AL66yzMxzvMdKCw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-10" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址然后修正所有引用func的指令, 这个地址修正的过程就叫Relocation, 每个要被修正的地方叫Relocation Entry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="-1150" width="520" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-11" value="符号解析Symbol Resolution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3850" y="-970" width="180" height="30" as="geometry" />
@@ -1495,6 +1498,12 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-13" value="Address &amp;amp; Storage Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3850" y="-1010" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-14" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址然后修正所有引用func的指令, 这个地址修正的过程就叫Relocation, 每个要被修正的地方叫Relocation Entry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="-1000" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把这些指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="3528.3" y="-1070" width="370" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
