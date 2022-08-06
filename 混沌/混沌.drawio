@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T10:46:12.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ty_hPe59xtGALcFANsg7" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T12:11:42.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4uyeCrqQLTR4WQAjul_U" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3408" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1542,6 +1542,12 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-30" value="链接器为目标文件分配地址和空间:&lt;br style=&quot;font-size: 11px;&quot;&gt;1.在输出的可执行文件中分配空间&lt;br style=&quot;font-size: 11px;&quot;&gt;2.在装载后的虚拟地址中分配虚拟地址空间&lt;br&gt;&lt;br&gt;对于.text和.data段, 两者都要分配; 但是对于&lt;font size=&quot;1&quot;&gt;.bss在文件中没有内容, 就只分配虚拟地址空间&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="4643" y="-1340" width="347" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-31" value="Static Linking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="-1640" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-32" value="Dynamic Linking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="-1560" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
