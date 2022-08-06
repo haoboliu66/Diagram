@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T21:40:24.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oNDj8Rf7OASsiLLUS3_N" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T10:46:12.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ty_hPe59xtGALcFANsg7" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3253" dy="2768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3408" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1493,13 +1493,13 @@
           <mxGeometry x="3260" y="-1150" width="520" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-11" value="符号解析Symbol Resolution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3910" y="-965" width="180" height="30" as="geometry" />
+          <mxGeometry x="4410" y="-1290" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-12" value="重定位Relocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3946" y="-925" width="108" height="30" as="geometry" />
+          <mxGeometry x="4446" y="-1250" width="108" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-13" value="Address &amp;amp; Storage Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3910" y="-1005" width="180" height="30" as="geometry" />
+          <mxGeometry x="4410" y="-1330" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把object files的指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3528.3" y="-1070" width="381.7" height="20" as="geometry" />
@@ -1526,19 +1526,22 @@
           <mxGeometry x="3950.7" y="-1350" width="309.3" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-25" value="ELF Header" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4413" y="-1330" width="137" height="40" as="geometry" />
+          <mxGeometry x="3740" y="-1380" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-26" value=".text" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4413" y="-1290" width="137" height="40" as="geometry" />
+          <mxGeometry x="3740" y="-1340" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-27" value=".data" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4413" y="-1250" width="137" height="40" as="geometry" />
+          <mxGeometry x="3740" y="-1300" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-28" value=".bss" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4413" y="-1210" width="137" height="40" as="geometry" />
+          <mxGeometry x="3740" y="-1260" width="137" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-29" value="Relocation依赖于ELF文件中的哪些结构?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3260" y="-990" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-30" value="链接器为目标文件分配地址和空间:&lt;br style=&quot;font-size: 11px;&quot;&gt;1.在输出的可执行文件中分配空间&lt;br style=&quot;font-size: 11px;&quot;&gt;2.在装载后的虚拟地址中分配虚拟地址空间&lt;br&gt;&lt;br&gt;对于.text和.data段, 两者都要分配; 但是对于&lt;font size=&quot;1&quot;&gt;.bss在文件中没有内容, 就只分配虚拟地址空间&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="4643" y="-1340" width="347" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
