@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T16:16:12.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QPfazGylI7t8PGtVs412" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T16:17:17.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2CjvMO2mtEnU0urL2IOD" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3408" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1387,13 +1387,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-7" value="static" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2094.5" y="-123.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="2094.5" y="-123.5" width="75.5" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-8" value="由于字符串是一片连续空间存储, 必须标记一个结尾\0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2274.5" y="-166.5" width="345.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-12" value="1.修饰全局变量和函数(当前文件私有)&lt;br&gt;2.修饰局部变量(不再栈上存储, 而是放到.data段)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2274.5" y="-128" width="315.5" height="38" as="geometry" />
+          <mxGeometry x="2234.5" y="-130.5" width="315.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6wYK-iRaseC7UJS33WFG-16" target="6wYK-iRaseC7UJS33WFG-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1650,8 +1650,14 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-75" value="Linking Static Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4292.5" y="-1931.5" width="127.5" height="21.5" as="geometry" />
         </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-82" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-77" target="xcac9AL66yzMxzvMdKCw-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-77" value="extern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2094.5" y="-80" width="80" height="30" as="geometry" />
+          <mxGeometry x="2094.5" y="-80" width="75.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-81" value="引用外部定义的变量或函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2234.5" y="-80" width="175.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
