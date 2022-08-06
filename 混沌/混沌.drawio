@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T21:40:18.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="REDuAgnCidotUC1SwsOU" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T21:42:16.896Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ch-NsyDaBYm7bFyGYsX0" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3893" dy="3082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1056,7 +1056,7 @@
           <mxGeometry x="2290" y="-83" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-111" value=".globl表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br style=&quot;font-size: 12px;&quot;&gt;.section描述节信息: rodata&lt;br style=&quot;font-size: 12px;&quot;&gt;.data表示数据段&lt;br style=&quot;font-size: 12px;&quot;&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2450" y="-105" width="340" height="84" as="geometry" />
+          <mxGeometry x="2450" y="-90.5" width="340" height="55" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1719" y="-950" width="360" height="73" as="geometry" />
@@ -1519,7 +1519,7 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把object files的指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3927.8" y="-1185" width="381.7" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-17" value="&lt;font color=&quot;#000000&quot;&gt;.o文件, .out文件, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="xcac9AL66yzMxzvMdKCw-17" value="&lt;font color=&quot;#000000&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="3230" y="-690" width="368.3" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-18" target="xcac9AL66yzMxzvMdKCw-20">
