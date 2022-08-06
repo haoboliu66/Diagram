@@ -1,20 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T23:33:27.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rvbG_YRgNFnMBDG6yW8b" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-06T23:34:46.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yo9hCcFukSyQhu0t180z" version="20.2.3" type="github">
   <diagram id="DuM10fJLJAl_LMzetCjs" name="Page-1">
     <mxGraphModel dx="1906" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Iw_5PqYemz_-hnAskuGm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Iw_5PqYemz_-hnAskuGm-1" target="Iw_5PqYemz_-hnAskuGm-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iw_5PqYemz_-hnAskuGm-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Iw_5PqYemz_-hnAskuGm-1" target="Iw_5PqYemz_-hnAskuGm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iw_5PqYemz_-hnAskuGm-1" value="直方图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Iw_5PqYemz_-hnAskuGm-3" value="灰度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="430" width="86" height="40" as="geometry" />
+          <mxGeometry x="510" y="640" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Iw_5PqYemz_-hnAskuGm-4" value="图片的鲜艳程度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="430" width="140" height="40" as="geometry" />
+          <mxGeometry x="626" y="640" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Iw_5PqYemz_-hnAskuGm-5" value="&amp;nbsp;避免颜色溢出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="430" width="140" height="40" as="geometry" />
+          <mxGeometry x="816" y="640" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iw_5PqYemz_-hnAskuGm-6" value="曝光" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="470" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iw_5PqYemz_-hnAskuGm-9" value="层次感" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="830" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iw_5PqYemz_-hnAskuGm-10" value="对比度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="825" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
