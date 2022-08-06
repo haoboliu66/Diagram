@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T16:17:17.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2CjvMO2mtEnU0urL2IOD" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T16:19:21.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bKGfLSRUjaUKjLV_SMfL" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3408" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-113" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=default;strokeColor=#000000;strokeWidth=1;align=left;" parent="1" source="2vaMElDyrSs1qIXfbJuE-36" target="HVV8NusCvYSjp4UumD4R-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-88" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-36" target="xcac9AL66yzMxzvMdKCw-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-36" value="C" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Verdana;align=center;" parent="1" vertex="1">
@@ -1044,10 +1047,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-108" value="编译后的汇编代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="65.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="1890" y="-18" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-111" value=".globl表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br&gt;.section描述节信息: rodata&lt;br&gt;.data表示数据段&lt;br&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2070" y="43.5" width="340" height="84" as="geometry" />
+          <mxGeometry x="2070" y="-40" width="340" height="84" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1860.5" y="-724" width="360" height="73" as="geometry" />
@@ -1335,10 +1338,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-249" value="GNU-C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="138.75" width="70" height="40" as="geometry" />
+          <mxGeometry x="2680" y="-66.25" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-251" value="&lt;div class=&quot;lang-c s-code-block&quot; style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: calc(var(--s-prose-spacing) + 0.4em); margin-left: 0px; padding: var(--su12); border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; line-height: var(--lh-md); font-size: 10px; vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: var(--highlight-bg); border-radius: var(--br-md); color: var(--highlight-color); overflow-wrap: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; background-color: transparent;&quot; class=&quot;hljs language-c&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; color: var(--highlight-keyword);&quot; class=&quot;hljs-meta&quot;&gt;#&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-size: 10px; vertical-align: baseline; box-sizing: inherit; color: var(--highlight-keyword);&quot; class=&quot;hljs-keyword&quot;&gt;define&lt;/span&gt; container_of(ptr, type, member) ({                      \&lt;br&gt;&amp;nbsp; const typeof( ((type *)0)-&amp;gt;member ) *__mptr = (ptr);    \&lt;br&gt;&amp;nbsp; (type *)( (char *)__mptr - offsetof(type,member) );})&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="132.5" width="340" height="52.5" as="geometry" />
+          <mxGeometry x="2850" y="-72.5" width="340" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-255" value="通过汇编推理C语言" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1425.5" y="37" width="110" height="26" as="geometry" />
@@ -1429,37 +1432,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-26" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="3210" y="-261" width="150" height="71" as="geometry" />
+          <mxGeometry x="3060" y="-371.5" width="150" height="71" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-27" value="硬件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3210" y="-161" width="150" height="40" as="geometry" />
+          <mxGeometry x="3060" y="-277" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-29" value="系统调用接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" parent="1" vertex="1">
-          <mxGeometry x="3210" y="-283" width="150" height="25" as="geometry" />
+          <mxGeometry x="3060" y="-393.5" width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-31" value="运行时库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5CCFF;" parent="1" vertex="1">
-          <mxGeometry x="3270" y="-335" width="90" height="30" as="geometry" />
+          <mxGeometry x="3120" y="-445.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6wYK-iRaseC7UJS33WFG-32" target="6wYK-iRaseC7UJS33WFG-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3315" y="-390" />
-              <mxPoint x="3315" y="-390" />
+              <mxPoint x="3165" y="-500.5" />
+              <mxPoint x="3165" y="-500.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-32" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
-          <mxGeometry x="3210" y="-400" width="150" height="30" as="geometry" />
+          <mxGeometry x="3060" y="-510.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-35" value="libc(ANSI C) glibc(GNU-C)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="3370" y="-335" width="190" height="35" as="geometry" />
+          <mxGeometry x="3220" y="-445.5" width="190" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.196;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="6wYK-iRaseC7UJS33WFG-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3240" y="-370" as="sourcePoint" />
-            <mxPoint x="3240" y="-290" as="targetPoint" />
+            <mxPoint x="3090" y="-480.5" as="sourcePoint" />
+            <mxPoint x="3090" y="-400.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3240" y="-383" />
+              <mxPoint x="3090" y="-493.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1645,7 +1648,7 @@
           <mxGeometry x="5789" y="-1590" width="342" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-74" value="ANSI - ISO C99" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=11;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="3390" y="-296" width="150" height="29" as="geometry" />
+          <mxGeometry x="3240" y="-406.5" width="150" height="29" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-75" value="Linking Static Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4292.5" y="-1931.5" width="127.5" height="21.5" as="geometry" />
@@ -1658,6 +1661,21 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-81" value="引用外部定义的变量或函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2234.5" y="-80" width="175.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-86" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-83" target="xcac9AL66yzMxzvMdKCw-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-83" target="xcac9AL66yzMxzvMdKCw-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-83" value="链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="157.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-84" value="dynamic linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2035" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-85" value="static linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2035" y="122.5" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
