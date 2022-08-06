@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T16:35:31.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="95XbweQr6OrrUF78TD3Q" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T16:36:37.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0lkcJEZEZDNS43-OWyQ8" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="4248" dy="3257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xcac9AL66yzMxzvMdKCw-92" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="2449.5" y="-631" width="990.5" height="80" as="geometry" />
+          <mxGeometry x="2460" y="-631" width="950" height="81" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-237" value="内存管理的发展" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFCC;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1048" y="1590" width="638" height="1420" as="geometry" />
@@ -1431,6 +1431,9 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-23" target="xcac9AL66yzMxzvMdKCw-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-96" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FFFFFF;fillColor=#CCE5FF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6wYK-iRaseC7UJS33WFG-23" target="xcac9AL66yzMxzvMdKCw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-23" value="二进制文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3144.5" y="-612" width="100" height="40" as="geometry" />
         </mxCell>
@@ -1488,7 +1491,7 @@
           <mxGeometry x="2619.5" y="-622" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-6" value="ELF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3130" y="-790" width="60" height="30" as="geometry" />
+          <mxGeometry x="3171.75" y="-690" width="45.5" height="26.44" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-7" value=".o" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2934.5" y="-622" width="60" height="30" as="geometry" />
@@ -1517,7 +1520,7 @@
           <mxGeometry x="3927.8" y="-1185" width="381.7" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-17" value="&lt;font color=&quot;#000000&quot;&gt;.o文件, .out文件, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="-802.69" width="368.3" height="30" as="geometry" />
+          <mxGeometry x="3230" y="-690" width="368.3" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-18" target="xcac9AL66yzMxzvMdKCw-20">
           <mxGeometry relative="1" as="geometry" />
