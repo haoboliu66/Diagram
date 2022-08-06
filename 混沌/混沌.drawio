@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T16:34:55.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="w8KtGdbiaaUSlUP74axb" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T16:35:31.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="95XbweQr6OrrUF78TD3Q" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="4248" dy="3257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1044,19 +1044,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-98" value="基础语法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2299.5" y="-406" width="70" height="40" as="geometry" />
+          <mxGeometry x="2299.5" y="-379" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-106" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;1.函数抽象了汇编的参数传递, 代码片段, 返回值&lt;br&gt;2.使用基础数据类型, 数组, 结构体来封装对内存单元的操作&lt;br&gt;3.函数传参优先使用寄存器, 多余的参数使用栈来传递&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="-491" width="355.5" height="63" as="geometry" />
+          <mxGeometry x="2494" y="-464" width="355.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-254" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=left;" parent="1" source="HVV8NusCvYSjp4UumD4R-108" target="HVV8NusCvYSjp4UumD4R-111" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-108" value="编译后的汇编代码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2289.5" y="-133" width="120" height="40" as="geometry" />
+          <mxGeometry x="2290" y="-83" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-111" value=".globl表示全局符号 (符号名+类型) 包含: 变量和函数&lt;br style=&quot;font-size: 12px;&quot;&gt;.section描述节信息: rodata&lt;br style=&quot;font-size: 12px;&quot;&gt;.data表示数据段&lt;br style=&quot;font-size: 12px;&quot;&gt;.text表示代码段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2449.5" y="-155" width="340" height="84" as="geometry" />
+          <mxGeometry x="2450" y="-105" width="340" height="84" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1719" y="-950" width="360" height="73" as="geometry" />
@@ -1335,10 +1335,10 @@
           <mxGeometry x="-80" y="1350" width="297" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-245" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;指针:使用*p 抽象汇编代码的 类似(rdx) 寄存器操作; 使用 &amp;amp; 抽象汇编代码的lea取地址操作&lt;br&gt;指针与数组操作&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="-411" width="540" height="50" as="geometry" />
+          <mxGeometry x="2494" y="-384" width="540" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-248" value="struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char name[4]; // 当声明数组保存字符串时, 这里分配空间将在汇编代码的栈上分配&lt;br style=&quot;font-size: 11px;&quot;&gt;}&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;struct Stu {&lt;br style=&quot;font-size: 11px;&quot;&gt;int age;&lt;br style=&quot;font-size: 11px;&quot;&gt;char *name; // 当声明指针保存字符串时, 字符串保存在rodata中&lt;br style=&quot;font-size: 11px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2880.5" y="-535" width="429" height="115" as="geometry" />
+          <mxGeometry x="2880.5" y="-508" width="429" height="115" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-253" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=left;" parent="1" source="HVV8NusCvYSjp4UumD4R-249" target="HVV8NusCvYSjp4UumD4R-251" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1350,7 +1350,7 @@
           <mxGeometry x="5264.5" y="-778.94" width="340" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-255" value="通过汇编推理C语言" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2179.5" y="-428" width="110" height="26" as="geometry" />
+          <mxGeometry x="2179.5" y="-401" width="110" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-262" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="HVV8NusCvYSjp4UumD4R-251" target="HVV8NusCvYSjp4UumD4R-261" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1369,16 +1369,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-263" value="sizeof" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="-330.5" width="65.5" height="25.5" as="geometry" />
+          <mxGeometry x="2494" y="-303.5" width="65.5" height="25.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-269" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" parent="1" source="HVV8NusCvYSjp4UumD4R-264" target="HVV8NusCvYSjp4UumD4R-268" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-264" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;编译期, 由编译器进行语法分析时得到的结果值, &lt;/span&gt;&lt;span style=&quot;font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;不生产和执行任何机器指令&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2579.5" y="-331" width="440" height="27.75" as="geometry" />
+          <mxGeometry x="2579.5" y="-304" width="440" height="27.75" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-268" value="&lt;span style=&quot;background-color: initial;&quot;&gt;int a = &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s2&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s3&quot;&gt;printf&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s4&quot;&gt;&quot;%d\n&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s1&quot;&gt;&lt;span&gt;sizeof&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(a++));&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s3&quot;&gt;printf&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s4&quot;&gt;&quot;%d\n&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, a); // a的结果是1&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="3069.5" y="-350" width="170" height="65" as="geometry" />
+          <mxGeometry x="3069.5" y="-323" width="170" height="65" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-1" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;AT&amp;amp;T GNU Assembler (gas)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2584.5" y="440" width="165.5" height="35" as="geometry" />
@@ -1390,19 +1390,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-6" value="字符串null terminator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="-285" width="140" height="31" as="geometry" />
+          <mxGeometry x="2494" y="-258" width="140" height="31" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6wYK-iRaseC7UJS33WFG-7" target="6wYK-iRaseC7UJS33WFG-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-7" value="static" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2494" y="-238.5" width="75.5" height="23.5" as="geometry" />
+          <mxGeometry x="2494" y="-211.5" width="75.5" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-8" value="由于字符串是一片连续空间存储, 必须标记一个结尾\0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2674" y="-281.5" width="345.5" height="24" as="geometry" />
+          <mxGeometry x="2674" y="-254.5" width="345.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-12" value="1.修饰全局变量和函数(当前文件私有)&lt;br&gt;2.修饰局部变量(不再栈上存储, 而是放到.data段)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2634" y="-245.5" width="315.5" height="38" as="geometry" />
+          <mxGeometry x="2634" y="-218.5" width="315.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6wYK-iRaseC7UJS33WFG-16" target="6wYK-iRaseC7UJS33WFG-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1473,7 +1473,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-37" value="int main() {&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; &lt;/span&gt;func(1,2,3);&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; &lt;/span&gt;return 0;&lt;br style=&quot;font-size: 10px;&quot;&gt;}&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;就算不定义func, 编译是可以通过的, 但是在链接时, 找不到对应的.globl的reference, 就会报错" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3069.5" y="-266.5" width="440.5" height="76.5" as="geometry" />
+          <mxGeometry x="3069.5" y="-239.5" width="440.5" height="76.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-1" value=".c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2449.5" y="-622" width="60" height="30" as="geometry" />
@@ -1659,14 +1659,14 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-75" value="Linking Static Libraries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4692" y="-2046.5" width="127.5" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-82" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-77" target="xcac9AL66yzMxzvMdKCw-81">
+        <mxCell id="xcac9AL66yzMxzvMdKCw-95" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#FFFFFF;fillColor=#CCE5FF;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-77" target="xcac9AL66yzMxzvMdKCw-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-77" value="extern" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2494" y="-195" width="75.5" height="20" as="geometry" />
+          <mxGeometry x="2494" y="-168" width="75.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-81" value="引用外部定义的变量或函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2634" y="-195" width="175.5" height="20" as="geometry" />
+          <mxGeometry x="2634" y="-168" width="175.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-86" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#FF0000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-83" target="xcac9AL66yzMxzvMdKCw-85">
           <mxGeometry relative="1" as="geometry" />
@@ -1675,13 +1675,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-83" value="链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2289.5" y="42.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="2299.5" y="117.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-84" value="dynamic linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2434.5" y="85" width="80" height="30" as="geometry" />
+          <mxGeometry x="2444.5" y="160" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-85" value="static linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2434.5" y="7.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="2444.5" y="82.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FFFFFF;fillColor=#CCE5FF;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-90" target="xcac9AL66yzMxzvMdKCw-92">
           <mxGeometry relative="1" as="geometry" />
