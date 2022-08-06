@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T15:39:36.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HxF5oXrpBwlw1iQxd0NQ" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T15:43:57.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8PjhzKlRFM89QoaltlfX" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3408" dy="2844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1640,6 +1640,9 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-72" value="如果变量x没有初始化, gcc不知道其他地方是否定义并初始化了其他同名变量, gcc就会把x这个symbol标记为COMMON, 让链接器最后决定使用哪个symbol;&amp;nbsp;&lt;br&gt;如果变量x被初始化为0, 那么gcc就可以认定x是一个strong symbol, 就会把x放到.bss段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF0000;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5789" y="-1590" width="342" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xcac9AL66yzMxzvMdKCw-74" value="ANSI - ISO C99" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=11;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="-296" width="150" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
