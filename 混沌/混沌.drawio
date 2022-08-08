@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T15:49:42.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rxqspouXogeMSKjAxcZY" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-08T15:53:40.827Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GlufroXuVInSZjBlJ5j3" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3907" dy="3107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1759,11 +1759,20 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-120" value="Relocating symbol references within sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4795.75" y="-1670" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-122" value="relocation entries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="5164.5" y="-1670" width="150" height="30" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-122" value="relocation entries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="5301" y="-1670" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EAX4R4Ubebxns02yucfU-1" value="当汇编器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="4962" y="-1670" width="150" height="30" as="geometry" />
+        <mxCell id="EAX4R4Ubebxns02yucfU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-1" target="xcac9AL66yzMxzvMdKCw-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EAX4R4Ubebxns02yucfU-1" value="当汇编器生成.o文件时, 它无法获知代码和数据最终会在内存的什么地址, 更别说那些extern的变量和函数, 当汇编器遇到一个这样的reference的时候, 就产生一个relocation entry, 指导Linker进行处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="4962" y="-1685" width="308" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EAX4R4Ubebxns02yucfU-4" value=".rel.text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="5460" y="-1700" width="69" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EAX4R4Ubebxns02yucfU-5" value=".rel.data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="5460" y="-1647.5" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
