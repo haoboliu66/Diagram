@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T15:47:27.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vxYq--OdbI0Z44g9ssMB" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-08T15:49:33.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V5xqB129cDDef_JFwZKH" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3907" dy="3107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1753,14 +1753,17 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-117" value="Relocating sections and symbol definitions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4795.75" y="-1735" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-119" value="合并输入文件的.section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="4962" y="-1735" width="150" height="30" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-119" value="Linker合并输入文件的.section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="-1735" width="178" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-120" value="Relocating sections and symbol definitions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="xcac9AL66yzMxzvMdKCw-120" value="Relocating symbol references within sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4795.75" y="-1670" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-122" value="relocation entries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF0000;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="5114.5" y="-1670" width="150" height="30" as="geometry" />
+          <mxGeometry x="5164.5" y="-1670" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EAX4R4Ubebxns02yucfU-1" value="当汇编器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="4962" y="-1670" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
