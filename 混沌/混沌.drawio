@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T15:52:50.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HY3xyB8afb3IoztdfAwS" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T16:36:40.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="R7KhKL-1Gnifqh4_e7mT" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3099" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1687,7 +1687,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-83" value="链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2299.5" y="102.5" width="79.5" height="32.5" as="geometry" />
+          <mxGeometry x="2310.25" y="78.5" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="xcac9AL66yzMxzvMdKCw-84" target="EAX4R4Ubebxns02yucfU-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1696,13 +1696,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-84" value="dynamic linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2444" y="145" width="105.5" height="30" as="geometry" />
+          <mxGeometry x="2449.5" y="110" width="105.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-114" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;fillColor=#CCE5FF;" parent="1" source="xcac9AL66yzMxzvMdKCw-85" target="xcac9AL66yzMxzvMdKCw-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-85" value="static linking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2444" y="67.5" width="85.5" height="27.5" as="geometry" />
+          <mxGeometry x="2451.5" y="51.5" width="85.5" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FFFFFF;fillColor=#CCE5FF;" parent="1" source="xcac9AL66yzMxzvMdKCw-90" target="xcac9AL66yzMxzvMdKCw-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1754,10 +1754,10 @@
           <mxGeometry x="3333.87" y="80" width="71" height="31" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-112" value="static library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2584" y="26" width="86" height="30" as="geometry" />
+          <mxGeometry x="2591.5" y="10" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-113" value="a single file packaging related object modules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2569.5" y="-4" width="120" height="30" as="geometry" />
+          <mxGeometry x="2577" y="-20" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-115" value="associate每一个symbol reference with exactly one symbol definition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="4559.5" y="-1946.5" width="200.5" height="30" as="geometry" />
@@ -1802,46 +1802,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-9" value="ELF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2295.25" y="285" width="79.5" height="32.5" as="geometry" />
+          <mxGeometry x="2290" y="322.02" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-10" value="relocatable object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="230" width="140" height="30" as="geometry" />
+          <mxGeometry x="2424.75" y="267.02" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-11" target="EAX4R4Ubebxns02yucfU-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-11" value="executable object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="285" width="140" height="30" as="geometry" />
+          <mxGeometry x="2424.75" y="322.02" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-12" value="fully linked(relocated), no .rel section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2605" y="282" width="200" height="36" as="geometry" />
+          <mxGeometry x="2599.75" y="319.02" width="200" height="36" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-15" value="shared object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="340" width="140" height="30" as="geometry" />
+          <mxGeometry x="2424.75" y="377.02" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-15" target="EAX4R4Ubebxns02yucfU-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-18" value="缺点: 1.一旦library更新了, 就要重新编译链接;&amp;nbsp;&lt;br&gt;2. 浪费内存空间(进程的text segment的duplicate代码)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2730" y="20" width="270" height="40" as="geometry" />
+          <mxGeometry x="2737.5" y="4" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-22" value="当executable生成时, 完成部分linking statically, complete linking是在program is loaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="115" width="290.5" height="40" as="geometry" />
+          <mxGeometry x="2759.5" y="80" width="290.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-23" value="Dynamic Linking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3435" y="-612" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-28" value="loader调用dynamic-linker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2592" y="120" width="150.5" height="20" as="geometry" />
+          <mxGeometry x="2591.5" y="85" width="150.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-33" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-29" target="EAX4R4Ubebxns02yucfU-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-29" value="application调用dynamic-linker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2596.5" y="163.5" width="150.5" height="20" as="geometry" />
+          <mxGeometry x="2596" y="128.5" width="150.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-32" value="Linux: dlopen调用dynamic-linker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2779.5" y="166" width="180.25" height="15" as="geometry" />
+          <mxGeometry x="2779" y="131" width="180.25" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
