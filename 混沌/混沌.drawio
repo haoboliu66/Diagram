@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T16:43:22.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="q3uYgq6D_bitFQsW2phb" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T16:44:18.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="O_jGkyvaJFEiG778bGVW" version="20.2.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3099" dy="2723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3563" dy="3012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EAX4R4Ubebxns02yucfU-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="560" width="590" height="490" as="geometry" />
+        </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-25" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fillColor=#CCE5FF;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="3410" y="-631" width="150" height="81" as="geometry" />
         </mxCell>
@@ -664,7 +667,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-252" value="汇编语言" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="480" width="70" height="30" as="geometry" />
+          <mxGeometry x="2579" y="610" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-255" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-253" target="2vaMElDyrSs1qIXfbJuE-254" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -676,19 +679,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-253" value="汇编器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2451" y="480" width="69" height="30" as="geometry" />
+          <mxGeometry x="2740" y="610" width="69" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-254" value="ISA指令集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2451" y="545" width="69" height="30" as="geometry" />
+          <mxGeometry x="2740" y="675" width="69" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-258" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 11px;&quot;&gt;汇编语言与ISA强相关&lt;br style=&quot;font-size: 11px;&quot;&gt;X86, ARM&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2260" y="530" width="150" height="45" as="geometry" />
+          <mxGeometry x="2549" y="660" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-261" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-259" target="2vaMElDyrSs1qIXfbJuE-260" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-259" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;汇编代码: 对ISA的编码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2615" y="589.87" width="160" height="28.75" as="geometry" />
+          <mxGeometry x="2904" y="719.87" width="160" height="28.75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-264" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-260" target="2vaMElDyrSs1qIXfbJuE-262" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -697,49 +700,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-260" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;编码规范&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2630" y="639.38" width="130" height="30" as="geometry" />
+          <mxGeometry x="2919" y="769.38" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-268" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-262" target="2vaMElDyrSs1qIXfbJuE-266" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-262" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;Intel编码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2560" y="699.38" width="130" height="30" as="geometry" />
+          <mxGeometry x="2849" y="829.38" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-267" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-263" target="2vaMElDyrSs1qIXfbJuE-266" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-263" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;AT&amp;amp;T编码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2710" y="699.38" width="130" height="30" as="geometry" />
+          <mxGeometry x="2999" y="829.38" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-266" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;ISA&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2660" y="766.88" width="70" height="26.25" as="geometry" />
+          <mxGeometry x="2949" y="896.88" width="70" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-278" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-269" target="2vaMElDyrSs1qIXfbJuE-270" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-269" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;物有本末, 事有始终。知其先后, 则近道矣&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2250" y="730" width="310" height="40" as="geometry" />
+          <mxGeometry x="2539" y="860" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-280" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-270" target="2vaMElDyrSs1qIXfbJuE-279" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-270" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;既然要研究Intel, 就要从历史开始&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2250" y="785" width="310" height="40" as="geometry" />
+          <mxGeometry x="2539" y="915" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-273" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-271" target="2vaMElDyrSs1qIXfbJuE-272" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-271" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;如果要研究汇编, 是不是得找到指定平台的ISA&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2250" y="605" width="310" height="40" as="geometry" />
+          <mxGeometry x="2539" y="735" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-277" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=11;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-272" target="2vaMElDyrSs1qIXfbJuE-269" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-272" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;选择Intel平台, 因为Intel是PC端的统治者, 且为CISC指令集&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2205" y="667.5" width="400" height="40" as="geometry" />
+          <mxGeometry x="2494" y="797.5" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-279" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Intel的开发者最了解Intel平台, 所以要看开发者写的手册: Intel开发手册&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2224.5" y="855" width="360" height="40" as="geometry" />
+          <mxGeometry x="2513.5" y="985" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-281" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1780" y="735" width="100" height="30" as="geometry" />
@@ -1384,10 +1387,10 @@
           <mxGeometry x="3069.5" y="-323" width="170" height="65" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-1" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;AT&amp;amp;T GNU Assembler (gas)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2584.5" y="440" width="165.5" height="35" as="geometry" />
+          <mxGeometry x="2873.5" y="570" width="165.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-2" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;Intel&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="2590" y="497.5" width="60" height="22.5" as="geometry" />
+          <mxGeometry x="2879" y="627.5" width="60" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6wYK-iRaseC7UJS33WFG-6" target="6wYK-iRaseC7UJS33WFG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
