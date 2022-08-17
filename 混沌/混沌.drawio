@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T21:35:45.240Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KXJQ7ShfvnthDsss0IXx" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-17T21:36:27.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="D3VxRxhJbq6Lgeftte9s" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3661" dy="3073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1068,10 +1068,10 @@
           <mxGeometry x="2791.5" y="-385.5" width="340" height="55" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="-1174.69" width="360" height="73" as="geometry" />
+          <mxGeometry x="1730" y="-1160" width="360" height="73" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.globl? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="-1080.69" width="650.5" height="160" as="geometry" />
+          <mxGeometry x="1730" y="-1066" width="650.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="8086 CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;fontFamily=Verdana;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="-840" y="600" width="211" height="75" as="geometry" />
@@ -1494,7 +1494,7 @@
           <mxGeometry x="3116" y="-917" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="由于.i和.s文件都是字符串文件, cat命令可读, 所以没什么好说的, 只要按照ascii或指定的编码放入磁盘即可&lt;br&gt;&lt;br&gt;而汇编器的输出位二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3371" y="-1420" width="490" height="120" as="geometry" />
+          <mxGeometry x="3418.62" y="-1340" width="490" height="120" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-5" value=".i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2961" y="-917" width="60" height="30" as="geometry" />
