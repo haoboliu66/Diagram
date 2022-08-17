@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T20:31:55.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3w7pCqMCUIWhWrPCxrLA" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-17T20:38:46.038Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2d3PuqDGi9MPDpl5suYK" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3779" dy="3146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1855,17 +1855,20 @@
         <mxCell id="EAX4R4Ubebxns02yucfU-32" value="Linux: dlopen调用dynamic-linker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2779" y="131" width="180.25" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="EAX4R4Ubebxns02yucfU-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="EAX4R4Ubebxns02yucfU-35" target="EAX4R4Ubebxns02yucfU-36" edge="1">
+        <mxCell id="LktH6E_ZRHNbnVEM376x-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-35" target="LktH6E_ZRHNbnVEM376x-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-35" value="PIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2449.5" y="185" width="100.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="EAX4R4Ubebxns02yucfU-36" value="gcc -fpic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2590" y="155" width="70" height="25" as="geometry" />
+          <mxGeometry x="2449.5" y="200" width="100.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-2" value="Code that can be loaded without needing any relocations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2584.5" y="185" width="290" height="27.5" as="geometry" />
+          <mxGeometry x="2590.5" y="181.25" width="290" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-6" value="gcc -fpic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="181.25" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-11" value="PIC Data References" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2593.5" y="230" width="146.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
