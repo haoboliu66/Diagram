@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T10:13:08.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jt93XZ22yTlIyJZ3KwPK" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-19T13:35:14.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="d6Yw839crG_ll9-USo3J" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3649" dy="3138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3306" dy="2903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1905,6 +1905,15 @@
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-26" value="两个核心: GOT, PLT, 2个表, 用来查, 也可以写&lt;br&gt;地址无关代码: 静态时访问用相对位移, 在运行时动态映射到进程空间时, 地址怎么整?&lt;br&gt;&lt;br&gt;由于代码段.text加载到内存中, OS不允许修改代码段内容, 是只读; 对于数据段而言, 除了.rodata, 其他数据是可读可写的, 所以维护表, 来存储自己程序的虚拟地址值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4496.5" y="130" width="313.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-27" value="可执行文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2513" y="162.79" width="79.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-28" value="a.out" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2663" y="29" width="79.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-29" value="She-bang" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2663" y="265.69999999999993" width="79.5" height="32.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
