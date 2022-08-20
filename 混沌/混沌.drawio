@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T22:25:39.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bRIwcx1vMbc6Q8Gn2lXY" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-20T22:25:59.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LqYQh8dd29KGQiJrn43n" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1918,7 +1918,7 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-44" value="Intel支持内存不对齐的操作; 但是出于性能考虑, 还是尽可能的进行内存对齐; 不对齐会导致多一次的memory access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1100" y="-1220" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-46" value="16-bit, 2个bytes称为一个word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6600CC;" vertex="1" parent="1">
+        <mxCell id="LktH6E_ZRHNbnVEM376x-46" value="16-bit(2个bytes)称为一个word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6600CC;" vertex="1" parent="1">
           <mxGeometry x="273.75" y="595" width="170" height="45" as="geometry" />
         </mxCell>
       </root>
