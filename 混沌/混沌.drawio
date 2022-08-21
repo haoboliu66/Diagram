@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T21:27:10.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QLDPbnf5fpPAAGcB-ZqW" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-21T21:39:01.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mrdld_U3046gYE_VyqnJ" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1930,14 +1930,20 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-50" value="Linux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3154" y="640" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-51" target="LktH6E_ZRHNbnVEM376x-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-51" value="ELF executable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3351" y="640.63" width="120" height="58.75" as="geometry" />
         </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-56" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-52" target="LktH6E_ZRHNbnVEM376x-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-52" value="ELF Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3629" y="593" width="120.5" height="49" as="geometry" />
+          <mxGeometry x="3559" y="595" width="120.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-53" value="Program Header&lt;br&gt;(Segment信息)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3629.5" y="705" width="120.5" height="45" as="geometry" />
+          <mxGeometry x="3559.5" y="707" width="120.5" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
