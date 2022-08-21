@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T21:13:25.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="T_IPqEwP5ffONII6Q8Rl" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-21T21:27:10.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QLDPbnf5fpPAAGcB-ZqW" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1855,9 +1855,6 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-2" value="Code that can be loaded without needing any relocations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2931.5" y="-8.25" width="290" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-6" value="gcc -fpic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3251" y="-8.25" width="70" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-11" value="PIC Data References" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2934.5" y="40.5" width="146.5" height="30" as="geometry" />
         </mxCell>
@@ -1870,8 +1867,11 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-15" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3296" y="341.59000000000003" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-16" target="LktH6E_ZRHNbnVEM376x-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LktH6E_ZRHNbnVEM376x-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3361.3" y="494.17" as="sourcePoint" />
+            <mxPoint x="3422.7999999999993" y="494.17" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-16" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3296" y="480" width="60" height="30" as="geometry" />
@@ -1923,6 +1923,21 @@
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-49" value="PIC Function References" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2933.5" y="94.79" width="166.5" height="25.21" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-54" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-50" target="LktH6E_ZRHNbnVEM376x-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-50" value="Linux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3154" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-51" value="ELF executable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3351" y="640.63" width="120" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-52" value="ELF Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3629" y="593" width="120.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-53" value="Program Header&lt;br&gt;(Segment信息)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3629.5" y="705" width="120.5" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
