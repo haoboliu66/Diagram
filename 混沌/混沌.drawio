@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T21:10:22.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="D_2fqVv4u98oZhw7--ap" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-21T21:13:25.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="T_IPqEwP5ffONII6Q8Rl" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1802,22 +1802,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-9" value="ELF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2663" y="198.32999999999996" width="79.5" height="32.5" as="geometry" />
+          <mxGeometry x="2663" y="259.99999999999994" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-10" value="relocatable object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2797.75" y="143.32999999999996" width="140" height="30" as="geometry" />
+          <mxGeometry x="2797.75" y="204.99999999999994" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="1" source="EAX4R4Ubebxns02yucfU-11" target="EAX4R4Ubebxns02yucfU-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-11" value="executable object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2797.75" y="198.32999999999996" width="140" height="30" as="geometry" />
+          <mxGeometry x="2797.75" y="259.99999999999994" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-12" value="fully linked(relocated), no .rel section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2972.75" y="195.32999999999996" width="200" height="36" as="geometry" />
+          <mxGeometry x="2972.75" y="256.99999999999994" width="200" height="36" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-15" value="shared object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2797.75" y="253.32999999999996" width="140" height="30" as="geometry" />
+          <mxGeometry x="2797.75" y="314.99999999999994" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#000000;" parent="1" source="EAX4R4Ubebxns02yucfU-15" target="EAX4R4Ubebxns02yucfU-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1868,22 +1868,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-15" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3247.5" y="159.79000000000002" width="60" height="30" as="geometry" />
+          <mxGeometry x="3296" y="341.59000000000003" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-16" target="LktH6E_ZRHNbnVEM376x-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-16" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3247.5" y="298.2" width="60" height="30" as="geometry" />
+          <mxGeometry x="3296" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-17" value="VMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3369" y="298.2" width="60" height="30" as="geometry" />
+          <mxGeometry x="3417.5" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-21" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3320.5" y="208.2" width="210" height="57" as="geometry" />
+          <mxGeometry x="3369" y="390" width="210" height="57" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-22" value="&lt;font color=&quot;#ff0000&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3179" y="91.79" width="284" height="61" as="geometry" />
+          <mxGeometry x="3227.5" y="273.59000000000003" width="284" height="61" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-23" value="Lazy Binding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="4589.08" y="20" width="102.62" height="30" as="geometry" />
@@ -1920,6 +1920,9 @@
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-46" value="16-bit(2个bytes)称为一个word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6600CC;" vertex="1" parent="1">
           <mxGeometry x="273.75" y="595" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-49" value="PIC Function References" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2933.5" y="94.79" width="166.5" height="25.21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
