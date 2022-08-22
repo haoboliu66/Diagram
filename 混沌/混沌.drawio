@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T11:23:18.507Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="X4kTyMK2vdoxHfyLXzCF" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-22T11:24:05.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZSzImIhvk1ARRu8PsOkF" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1913,10 +1913,10 @@
           <mxGeometry x="1190.5" y="734" width="130" height="93" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-43" value="Alignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="910" y="-1380" width="100" height="50" as="geometry" />
+          <mxGeometry x="1903.5" y="-1330" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-44" value="Intel支持内存不对齐的操作; 但是出于性能考虑, 还是尽可能的进行内存对齐; 不对齐会导致多一次的memory access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1099.5" y="-1390" width="300" height="80" as="geometry" />
+          <mxGeometry x="2093" y="-1340" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-46" value="16-bit(2个bytes)称为一个word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6600CC;" vertex="1" parent="1">
           <mxGeometry x="273.75" y="595" width="170" height="45" as="geometry" />
@@ -1949,16 +1949,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-57" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-1169" width="90" height="49" as="geometry" />
+          <mxGeometry x="540" y="-1370" width="90" height="49" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-61" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-58" target="LktH6E_ZRHNbnVEM376x-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-58" value="Registers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="900.5" y="-1169" width="90" height="49" as="geometry" />
+          <mxGeometry x="700.5" y="-1370" width="90" height="49" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-59" value="当前执行指令片段的上下文" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1056" y="-1169" width="184" height="49" as="geometry" />
+          <mxGeometry x="856" y="-1370" width="184" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-62" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-1280" width="90" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LktH6E_ZRHNbnVEM376x-63" value="setjump/longjump" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="525" y="-1440" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
