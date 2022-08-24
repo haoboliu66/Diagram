@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T15:56:03.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j2agiwRSinr_VF966I1k" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-24T20:58:14.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="w6NenIzCvCuvLlYadEzY" version="20.2.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3182" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="2754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1816,6 +1816,9 @@
         <mxCell id="EAX4R4Ubebxns02yucfU-12" value="fully linked(relocated), no .rel section" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2972.75" y="256.99999999999994" width="200" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="V0MIXojpEhyZaVIeRHpQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EAX4R4Ubebxns02yucfU-15" target="V0MIXojpEhyZaVIeRHpQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-15" value="shared object file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="2797.75" y="314.99999999999994" width="140" height="30" as="geometry" />
         </mxCell>
@@ -1986,6 +1989,9 @@
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-74" value="__libc_start_main@plt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3384" y="818" width="220" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="V0MIXojpEhyZaVIeRHpQ-1" value="共享代码, 数据独立" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2973.5" y="312" width="147.25" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
