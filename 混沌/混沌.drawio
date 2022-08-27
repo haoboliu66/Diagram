@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T19:56:01.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5q24kBZBUelJBsYfQCpn" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-27T19:58:05.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vALRlrSBlN7C717CraDQ" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3308" dy="2816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2007,8 +2007,14 @@
         <mxCell id="U6JKeO4AykQqR3Wrpjla-2" value="Glibc函数库(CRT运行时库)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2631" y="-317.5" width="169" height="37.5" as="geometry" />
         </mxCell>
+        <mxCell id="U6JKeO4AykQqR3Wrpjla-6" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U6JKeO4AykQqR3Wrpjla-4" target="U6JKeO4AykQqR3Wrpjla-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="U6JKeO4AykQqR3Wrpjla-4" value="strip" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="3300.25" y="-245" width="105.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U6JKeO4AykQqR3Wrpjla-5" value="去除elf文件中的.symtab&lt;br&gt;.symtab就是目标文件中数据, 代码的索引" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="-250" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
