@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T21:52:39.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="INPScZPbLNVql6h85EXW" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-27T21:53:42.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vjkLL5W4cG5a301uuTCA" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3136" dy="2716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1112,6 +1112,9 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-143" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(244, 67, 54); font-family: 微软雅黑; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;OS面向CPU编程, CPU厂商指导OS开发。CPU为了满足各类OS的开发, 同一个事情肯定提供了多种不同的实现方案, 具体如何实现由OS开发者决定&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-905" y="492.5" width="610" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="U6JKeO4AykQqR3Wrpjla-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVV8NusCvYSjp4UumD4R-145" target="U6JKeO4AykQqR3Wrpjla-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-145" value="(原始)分段机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="270" y="805" width="130" height="35" as="geometry" />
         </mxCell>
@@ -2027,6 +2030,9 @@
         </mxCell>
         <mxCell id="U6JKeO4AykQqR3Wrpjla-9" value="在C语言中, 不能有重复的函数名定义(符号重复); 但是在C++和Java中可以, 因为这两个语言中有method signature (函数名 + 参数列表)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2939" y="45" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U6JKeO4AykQqR3Wrpjla-12" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;直接访问物理内存&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="805" width="170" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
