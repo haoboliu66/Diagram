@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:43:59.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3DjT1ifjjx7G9HLEbI5b" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:44:25.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TgGOhRkMujrmKGtNqQI0" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="6411" dy="4418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4053" dy="3170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-25" value="Assembly Language" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1081.5" y="469.5" width="199" height="50" as="geometry" />
+          <mxGeometry x="1082.5" y="232.63" width="199" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-28" value="CISC&lt;br style=&quot;font-size: 10px;&quot;&gt;(Intel)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1320" y="615" width="67" height="30" as="geometry" />
@@ -143,7 +143,7 @@
           <mxGeometry x="1190.5" y="-152" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-42" value="&lt;font color=&quot;#ff0000&quot;&gt;Assembler&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="529.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="1191" y="292.63" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(156, 39, 176); font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;计算机编程语言的本质就是对下一层的抽象&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1280.5" y="-137" width="330" height="40" as="geometry" />
@@ -170,7 +170,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-47" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 11px;&quot;&gt;汇编语言抽象了ISA指令集的规则, 提供了人类可读的代码方式。&lt;br style=&quot;font-size: 11px;&quot;&gt;操作CPU的控制器, 控制存储单元和运算单元对缓存中的数据进行CRUD&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=0;fontSize=11;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="1285.5" y="479" width="320" height="40.5" as="geometry" />
+          <mxGeometry x="1286.5" y="242.13" width="320" height="40.5" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;fontFamily=Verdana;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-48" target="2vaMElDyrSs1qIXfbJuE-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -179,7 +179,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-48" value="编码规则" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="420.63" width="70" height="28.75" as="geometry" />
+          <mxGeometry x="1701" y="183.76" width="70" height="28.75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;fontFamily=Verdana;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-49" target="2vaMElDyrSs1qIXfbJuE-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -188,22 +188,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-49" value="语言结构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="551.25" width="70" height="28.75" as="geometry" />
+          <mxGeometry x="1701" y="314.38" width="70" height="28.75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-52" value="AT&amp;amp;T" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="403.13" width="70" height="18.75" as="geometry" />
+          <mxGeometry x="1821" y="166.26" width="70" height="18.75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-53" value="Intel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="445" width="70" height="23.75" as="geometry" />
+          <mxGeometry x="1821" y="208.13" width="70" height="23.75" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-54" value="operator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="523.75" width="70" height="26.25" as="geometry" />
+          <mxGeometry x="1821" y="286.88" width="70" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-55" value="operand" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="578.75" width="70" height="31.25" as="geometry" />
+          <mxGeometry x="1821" y="341.88" width="70" height="31.25" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-61" value="&lt;span style=&quot;color: rgb(244, 67, 54); font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;寄存器/内存中的值&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;fontFamily=Verdana;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1807.5" y="610" width="95" height="30" as="geometry" />
+          <mxGeometry x="1808.5" y="373.13" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;fontFamily=Verdana;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-63" target="2vaMElDyrSs1qIXfbJuE-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
