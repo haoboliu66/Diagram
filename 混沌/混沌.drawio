@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T16:03:00.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4gd3O7Wcs1lbb7FzgEpr" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T16:04:34.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Bh267PW6Yhbo-7msYJGU" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3690" dy="2978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2120,20 +2120,35 @@
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-36" value="library interpositioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="3270.5" y="-66" width="105.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-48" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF8000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-39" target="SD8zJs4PqNRvbdDMdBWy-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-39" value="malloc.h 函数原型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3243.94" y="535" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3241.38" y="487.82" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-40" value="内存管理算法1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3090.38" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3080.19" y="665" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-41" value="内存管理算法2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3254.7000000000003" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3241.38" y="665" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-42" value="内存管理算法3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3424.82" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3407.9300000000003" y="665" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-44" value="LD_PRELOAD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3233.19" y="602.04" width="153.62" height="27.96" as="geometry" />
+          <mxGeometry x="3230.63" y="617.04" width="153.62" height="27.96" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-45" target="SD8zJs4PqNRvbdDMdBWy-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-45" target="SD8zJs4PqNRvbdDMdBWy-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-45" target="SD8zJs4PqNRvbdDMdBWy-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-45" value="动态链接器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3241.38" y="551.88" width="132.12" height="28.12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
