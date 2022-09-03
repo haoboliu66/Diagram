@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T13:31:21.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O__7hNhhWcwxDD_g66uA" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T13:34:48.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="x_N3Os8LxnkQp7mmyjId" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3529" dy="2893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="2754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1170,10 +1170,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-167" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;物理地址不会暴露给程序, 程序只能访问虚拟地址, 由OS统一管理, 映射到物理地址&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#FF3333;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-565" y="1129" width="275" height="41" as="geometry" />
+          <mxGeometry x="-593" y="1129" width="275" height="41" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-168" value="虚拟内存到物理内存的映射需要一张表&lt;br&gt;(GDT)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-548.5" y="1195" width="242" height="35" as="geometry" />
+          <mxGeometry x="-576.5" y="1195" width="242" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-175" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;align=center;" parent="1" vertex="1">
           <mxGeometry x="-984" y="1964" width="70" height="70" as="geometry" />
