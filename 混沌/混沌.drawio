@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:45:52.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vr7fREkER3l-K-fr-0wI" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:46:13.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m9ZRY8xfwnQYzPeSCWlf" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3110" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1062,10 +1062,10 @@
           <mxGeometry x="2791" y="-259.5" width="340" height="55" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-114" value="不同的C文件如何关联在一起&lt;br&gt;通过gcc将其他文件进行编译, 得到.text .data即可, 合并之后统一进行处理。 所以只需要定义数据段和代码段即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="-1160" width="360" height="73" as="geometry" />
+          <mxGeometry x="2457.5" y="-1287.94" width="360" height="73" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-115" value="C语言中, 所有数据都是共享的吗? 函数呢?&lt;br&gt;我能不能让某个函数或者数据, 只在当前的.c文件中可见。&lt;br&gt;原理: 通过.global标识指令, 将当前文件中的数据和函数导出, 才能让其他文件看到并引用当前文件中定义的数据和函数&lt;br&gt;既然C是抽象了汇编, 那么C语言如何屏蔽.globl? 定义关键字: static, 让函数和数据local化&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;当我们在一个c文件中依赖到其他c文件定义的数据时, 需要使用extern关键字告诉编译器, 这个值保存在外部&lt;br&gt;我要在指令中使用这个数据, 那么编译c代码生成指令时, 我就必须要知道这个数据类型, 而此时我们要去其他文件中找这个数据, 需要的映射就是 名字一样 &amp;amp; 类型一样&amp;nbsp;&lt;br&gt;----&amp;gt; 问题: 如果我定义了两个同名同类型的数据, 会发生什么? 经测试, 会报错multiple definition" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="-1066" width="650.5" height="160" as="geometry" />
+          <mxGeometry x="2457.5" y="-1193.94" width="650.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-118" value="8086 CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;fontFamily=Verdana;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="-840" y="600" width="211" height="75" as="geometry" />
@@ -1949,10 +1949,10 @@
           <mxGeometry x="1190.5" y="734" width="130" height="93" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-43" value="Alignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1903.5" y="-1330" width="100" height="50" as="geometry" />
+          <mxGeometry x="2631" y="-1457.94" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-44" value="Intel支持内存不对齐的操作; 但是出于性能考虑, 还是尽可能的进行内存对齐; 不对齐会导致多一次的memory access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2093" y="-1340" width="300" height="80" as="geometry" />
+          <mxGeometry x="2820.5" y="-1467.94" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-46" value="16-bit(2个bytes)称为一个word" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6600CC;" parent="1" vertex="1">
           <mxGeometry x="273.75" y="595" width="170" height="45" as="geometry" />
