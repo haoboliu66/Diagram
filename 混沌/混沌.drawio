@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:47:13.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VJ7HwdYrGPZES-yu2SL2" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:47:38.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="80FBswCWBUuOpRCBJK3d" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1487,8 +1487,8 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-2" value=".s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3089" y="-403.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="&lt;br&gt;&lt;br&gt;而汇编器的输出位二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3385.06" y="-560.5" width="388.37" height="75.5" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="而汇编器的输出位二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3409" y="-517" width="388.37" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-5" value=".i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2934" y="-403.5" width="60" height="30" as="geometry" />
@@ -1521,9 +1521,6 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把object files的指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="4269.3" y="-1480" width="381.7" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-17" value="&lt;font color=&quot;#000000&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="3544.5" y="-471.5" width="368.3" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;" parent="1" source="xcac9AL66yzMxzvMdKCw-18" target="xcac9AL66yzMxzvMdKCw-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
