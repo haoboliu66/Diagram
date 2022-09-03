@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T14:47:38.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="80FBswCWBUuOpRCBJK3d" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T14:47:55.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9k8bw96YDh3DI-b56m6-" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1487,8 +1487,8 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-2" value=".s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3089" y="-403.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="而汇编器的输出位二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3409" y="-517" width="388.37" height="75.5" as="geometry" />
+        <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="而汇编器的输出为二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3279.81" y="-501.5" width="388.37" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-5" value=".i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2934" y="-403.5" width="60" height="30" as="geometry" />
