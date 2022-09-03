@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T13:27:20.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="S1i2aFl-Ks-ym2Fsqc5C" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T13:28:41.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Xpp9FaUxIvYXZmzqLlCz" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3529" dy="2893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2034,8 +2034,14 @@
         <mxCell id="U6JKeO4AykQqR3Wrpjla-12" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;直接访问物理内存&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="60" y="805" width="170" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-1" target="SD8zJs4PqNRvbdDMdBWy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-1" value="Debug原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2663" y="358.74999999999994" width="79.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-2" value="把要执行的指令地址改为Int 3, CPU产生单步中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2779.5" y="357.75" width="321" height="33.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
