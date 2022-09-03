@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T15:32:03.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dHQEhaM9cHYVqxCcmZ8X" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-03T15:32:46.010Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="iXZiDCnki136zI4ztqte" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3690" dy="2978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2104,6 +2104,9 @@
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-30" value="free" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2980.88" y="425.13" width="105.37" height="33.12" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-34" value="1. mmap分配 (适合大内存)&lt;br&gt;2. 使用edata指针 (适合小内存)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3098" y="358.29" width="185.25" height="36.71" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
