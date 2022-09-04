@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T20:05:24.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Tpo1uZYSKkUPK1NdOL3S" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-04T20:09:28.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sNebMvyZsiVghFYRFBTe" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2957" dy="2590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1491,7 +1491,7 @@
           <mxGeometry x="3089" y="-403.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-4" value="而汇编器的输出为二进制文件, 只要是二进制文件, 就一定要有格式约定, 这个格式与汇编器相关, 即汇编器要生成对应平台的格式, Linux使用ELF文件格式&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;.o, .out, 动态链接库(.so), 静态链接库(.a)都是ELF格式&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3279.81" y="-501.5" width="388.37" height="75.5" as="geometry" />
+          <mxGeometry x="3279.13" y="-491.5" width="388.37" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-5" value=".i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2934" y="-403.5" width="60" height="30" as="geometry" />
@@ -2085,7 +2085,7 @@
           <mxGeometry x="2778" y="88.24999999999994" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-18" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;由于.i和.s文件都是字符串文件, cat命令可读, 所以没什么好说的, 只要按照ascii或指定的编码放入磁盘即可&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2874.63" y="-463" width="330" height="41.5" as="geometry" />
+          <mxGeometry x="2889.5" y="-457.25" width="330" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-19" target="SD8zJs4PqNRvbdDMdBWy-20">
           <mxGeometry relative="1" as="geometry" />
@@ -2183,8 +2183,35 @@
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-67" value="Redis + OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="2439" y="731.5" width="200" height="30.5" as="geometry" />
         </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-69" target="SD8zJs4PqNRvbdDMdBWy-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-79" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-69" target="SD8zJs4PqNRvbdDMdBWy-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-69" value="指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2833.5" y="-625" width="75.5" height="20" as="geometry" />
+          <mxGeometry x="2833.5" y="-568" width="75.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-71" value="指针就是一个地址, 这个地址里可以存指令或者数据;&lt;br&gt;可以任意进行指针的类型转换, 无非就是从这个地址开始取多宽的内存, 只要用的时候类型转对了即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2948.25" y="-638" width="451.75" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-72" value="基础类型指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3034.75" y="-568" width="75.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-73" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3034.75" y="-537.88" width="75.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-74" target="SD8zJs4PqNRvbdDMdBWy-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-74" target="SD8zJs4PqNRvbdDMdBWy-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-74" value="类型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2942.5" y="-555.88" width="53.75" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-81" value="void(*oom_handler)(size_t)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3126.81" y="-537.88" width="245.38" height="17.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
