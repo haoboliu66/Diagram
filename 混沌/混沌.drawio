@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T19:59:30.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4cHC_PUGJI-RRCzk4TFp" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-04T20:01:48.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="19VziL48LnrRbgbEB8hT" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3690" dy="2978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2157,28 +2157,28 @@
           <mxGeometry x="3403.25" y="715" width="603.75" height="190" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-58" value="缓存的根本思想: 局部性原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2447.25" y="611" width="187" height="38" as="geometry" />
+          <mxGeometry x="2447.25" y="763" width="187" height="38" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2585.75" y="720.25" width="212.75" height="109.75" as="geometry" />
+          <mxGeometry x="2585.75" y="872.25" width="212.75" height="109.75" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-60" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2585.75" y="670" width="212.75" height="30" as="geometry" />
+          <mxGeometry x="2585.75" y="822" width="212.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-61" value="IO模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2585.75" y="720.25" width="212.75" height="30" as="geometry" />
+          <mxGeometry x="2585.75" y="872.25" width="212.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-62" value="内存操作(虽然很快, 但是与实际数据结构和算法相关)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2585.75" y="765.5" width="212.75" height="30" as="geometry" />
+          <mxGeometry x="2585.75" y="917.5" width="212.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-63" value="内存缓存设计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="725.25" width="212.75" height="109.75" as="geometry" />
+          <mxGeometry x="2300" y="877.25" width="212.75" height="109.75" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-65" value="请求的响应 (瓶颈点)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="725.25" width="212.75" height="30" as="geometry" />
+          <mxGeometry x="2300" y="877.25" width="212.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-67" value="Redis + OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2439" y="579.5" width="200" height="30.5" as="geometry" />
+          <mxGeometry x="2439" y="731.5" width="200" height="30.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
