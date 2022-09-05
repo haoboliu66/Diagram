@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T17:00:45.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zwYhVI-35cxAAcwhFcMs" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T18:39:58.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="58gC0NulsRmrbxdlAQ_W" version="20.2.7" type="github">
   <diagram id="B_SzXJe0JUNsXyjz7goi" name="Page-1">
     <mxGraphModel dx="786" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,13 +28,10 @@
         <mxCell id="b_rr0pJjc8lgBxMN6gYH-9" value="&lt;h1 style=&quot;color: rgb(0, 0, 0); margin: 0px 0px 0.25em; padding: 0px; overflow: visible; border-bottom: 1px solid rgb(162, 169, 177); font-weight: normal; font-family: &amp;quot;Linux Libertine&amp;quot;, Georgia, Times, serif; line-height: 1.3; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;firstHeading mw-first-heading&quot; id=&quot;firstHeading&quot;&gt;&lt;span style=&quot;&quot; class=&quot;mw-page-title-main&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Newfoundland and Labrador accent&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="340" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b_rr0pJjc8lgBxMN6gYH-10" value="CombinedRequestRecordRetriever" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="140" y="770" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="b_rr0pJjc8lgBxMN6gYH-11" value="Core DB Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="b_rr0pJjc8lgBxMN6gYH-11" value="Core Aerospike" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="810" y="670" width="130" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="b_rr0pJjc8lgBxMN6gYH-12" value="Custom DB Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="b_rr0pJjc8lgBxMN6gYH-12" value="Custom Aerospike" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="810" y="750" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="b_rr0pJjc8lgBxMN6gYH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="b_rr0pJjc8lgBxMN6gYH-13" target="b_rr0pJjc8lgBxMN6gYH-14">
@@ -56,7 +53,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b_rr0pJjc8lgBxMN6gYH-15" value="Request Ids" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="414" y="775" width="130" height="45" as="geometry" />
+          <mxGeometry x="414" y="772.5" width="130" height="45" as="geometry" />
         </mxCell>
         <mxCell id="b_rr0pJjc8lgBxMN6gYH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="b_rr0pJjc8lgBxMN6gYH-18" target="b_rr0pJjc8lgBxMN6gYH-11">
           <mxGeometry relative="1" as="geometry" />
