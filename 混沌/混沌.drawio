@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T20:02:24.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nt9wPlrQYRIuLU1FHGfl" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-06T20:20:17.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G9OAgw3NzAWiIrXSs8O7" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3005" dy="2615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1384,7 +1384,7 @@
           <mxGeometry x="2920" y="-1030.44" width="440" height="27.75" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-268" value="&lt;span style=&quot;background-color: initial;&quot;&gt;int a = &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s2&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s3&quot;&gt;printf&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s4&quot;&gt;&quot;%d\n&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s1&quot;&gt;&lt;span&gt;sizeof&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(a++));&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s3&quot;&gt;printf&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;s4&quot;&gt;&quot;%d\n&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, a); // a的结果是1&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="3410" y="-1049.44" width="170" height="65" as="geometry" />
+          <mxGeometry x="3409" y="-1049.69" width="170" height="65" as="geometry" />
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-1" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px;&quot;&gt;AT&amp;amp;T GNU Assembler (gas)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2231" y="35.00000000000003" width="165.5" height="35" as="geometry" />
@@ -1479,7 +1479,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6wYK-iRaseC7UJS33WFG-37" value="int main() {&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; &lt;/span&gt;func(1,2,3);&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; &lt;/span&gt;return 0;&lt;br style=&quot;font-size: 10px;&quot;&gt;}&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;就算不定义func, 编译是可以通过的, 但是在链接时, 找不到对应的.globl的reference, 就会报错" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3410" y="-965.94" width="440.5" height="76.5" as="geometry" />
+          <mxGeometry x="3159.5" y="-894.44" width="440.5" height="76.5" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-1" value=".c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2764" y="-403.5" width="60" height="30" as="geometry" />
@@ -2255,6 +2255,9 @@
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-99" value="void*" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="3047.75" y="-540" width="75.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-101" value="int main() {&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; char* str = &quot;abc\0def&quot;&lt;/span&gt;;&lt;br&gt;&amp;nbsp;printf(&quot;%s\n&quot;, str);&lt;br style=&quot;font-size: 10px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3409" y="-978.3800000000001" width="152.07" height="54.44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
