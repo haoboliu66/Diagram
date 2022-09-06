@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T20:20:17.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G9OAgw3NzAWiIrXSs8O7" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-06T20:20:49.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3m0vquEh58NVqFI9x_sW" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3005" dy="2615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2258,6 +2258,9 @@
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-101" value="int main() {&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 10px;&quot;&gt; char* str = &quot;abc\0def&quot;&lt;/span&gt;;&lt;br&gt;&amp;nbsp;printf(&quot;%s\n&quot;, str);&lt;br style=&quot;font-size: 10px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3409" y="-978.3800000000001" width="152.07" height="54.44" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-102" value="printf就是通过找到字符串结尾符来进行输出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3559" y="-974.44" width="201" height="24.44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
