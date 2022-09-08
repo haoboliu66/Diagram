@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T10:53:13.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Gbk-vPMhWHFQJBJtgSvu" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-08T10:54:02.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XEQAnqhsnVFovnU5Ig8X" version="20.2.7" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3791" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3230" dy="2734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2108,6 +2108,9 @@
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-29" target="SD8zJs4PqNRvbdDMdBWy-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-106" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-29" target="SD8zJs4PqNRvbdDMdBWy-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-29" value="内存管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="2834.5" y="376.46999999999997" width="105.37" height="33.12" as="geometry" />
         </mxCell>
@@ -2124,19 +2127,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-39" value="malloc.h 函数原型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3241.38" y="487.82" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3241.4100000000003" y="552.5" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-40" value="内存管理算法1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3080.19" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3080.2200000000003" y="729.6800000000001" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-41" value="内存管理算法2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3241.38" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3241.4100000000003" y="729.6800000000001" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-42" value="内存管理算法3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3407.9300000000003" y="665" width="132.12" height="33.12" as="geometry" />
+          <mxGeometry x="3407.9600000000005" y="729.6800000000001" width="132.12" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-44" value="LD_PRELOAD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3230.63" y="617.04" width="153.62" height="27.96" as="geometry" />
+          <mxGeometry x="3230.6600000000003" y="681.72" width="153.62" height="27.96" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;" edge="1" parent="1" source="SD8zJs4PqNRvbdDMdBWy-45" target="SD8zJs4PqNRvbdDMdBWy-41">
           <mxGeometry relative="1" as="geometry" />
@@ -2148,13 +2151,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-45" value="动态链接器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3241.38" y="551.88" width="132.12" height="28.12" as="geometry" />
+          <mxGeometry x="3241.4100000000003" y="616.56" width="132.12" height="28.12" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-56" value=".dynsym &lt;br&gt;动态链接符号 malloc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3229.5" y="740" width="150.5" height="40" as="geometry" />
+          <mxGeometry x="3229.53" y="804.6800000000001" width="150.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-57" value="Symbol table &#39;.dynsym&#39; contains 8 entries:&lt;br&gt;&amp;nbsp; &amp;nbsp;Num:&amp;nbsp; &amp;nbsp; Value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Size Type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Bind&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Vis&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Ndx&amp;nbsp; &amp;nbsp;Name&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;0: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; LOCAL&amp;nbsp; DEFAULT&amp;nbsp; UND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_deregisterTMCloneTab&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND puts@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;3: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND __libc_start_main@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __gmon_start__&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;5: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND malloc@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;6: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_registerTMCloneTable&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;7: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __cxa_finalize@GLIBC_2.2.5 (2)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="3403.25" y="715" width="603.75" height="190" as="geometry" />
+          <mxGeometry x="3403.28" y="779.6800000000001" width="603.75" height="190" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-58" value="缓存的根本思想: 局部性原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="2447.25" y="763" width="187" height="38" as="geometry" />
@@ -2267,6 +2270,9 @@
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-104" value="Heap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2622" y="3060" width="118" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SD8zJs4PqNRvbdDMdBWy-105" value="malloc, calloc, realloc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2981.26" y="425.13" width="138.74" height="27.33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
