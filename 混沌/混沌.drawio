@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T09:43:19.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bXdDnoonfr42xz4Hhn77" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-15T09:43:26.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="J4UhqYXrpGWOVOwDY4BM" version="20.3.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="4228" dy="3347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
           <mxGeometry x="5025" y="2131.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-172" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;e.g. javac - java语言的前端&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="4700" y="1136.5" width="225" height="30" as="geometry" />
+          <mxGeometry x="4770" y="1134.5" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-173" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;1, 编译bytecode的结果会带来执行性能的提升, 但是启动速度慢, 编译会耗时; &lt;br&gt;2, 解释执行不需要编译, 但是解释执行bytecode比较慢(用一个语言翻译另一个语言的逻辑并执行), 所以才会有JIT和解释器的结合&lt;br&gt;&lt;br&gt;当解释器执行执行java方法很慢到达了一个阈值, 那么此时就需要JIT进行编译, 把bytecode直接生成机器码并优化, 提高执行效率&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFCC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="5150" y="2116.5" width="430" height="210" as="geometry" />
@@ -2273,6 +2273,9 @@
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-105" value="malloc, calloc, realloc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2985.26" y="416.84" width="138.74" height="27.33" as="geometry" />
+        </mxCell>
+        <mxCell id="2T5Amiq2eWPPWTQGeauk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-172" target="2vaMElDyrSs1qIXfbJuE-172">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
