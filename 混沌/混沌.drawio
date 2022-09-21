@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T14:12:11.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yHiUgfmPNHEZH6cbORhR" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-21T14:15:23.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="92LjVVqZhRysXMYpktuG" version="20.3.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3529" dy="2943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2298,8 +2298,8 @@
             <mxPoint x="2861.88" y="3260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yf-mVatHQIcoLdicb8D2-7" value="每个进程唯一" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2985.26" y="3280" width="92" height="30" as="geometry" />
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-7" value="每个进程唯一主分配区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2985.26" y="3280" width="124.74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yf-mVatHQIcoLdicb8D2-8" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2798.5" y="3097.5" width="66" height="25" as="geometry" />
@@ -2312,6 +2312,15 @@
         </mxCell>
         <mxCell id="Yf-mVatHQIcoLdicb8D2-11" value="OS 之 内存管理模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="3044.75" y="3012" width="153" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Yf-mVatHQIcoLdicb8D2-12" target="Yf-mVatHQIcoLdicb8D2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yf-mVatHQIcoLdicb8D2-12" target="Yf-mVatHQIcoLdicb8D2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-12" value="进程的内存分配区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3159.63" y="3186" width="114.37" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
