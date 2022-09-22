@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T11:22:12.808Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ntij1SQzKQzVB6YTWTIr" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-22T11:23:27.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RougkNlgwOkcBAZ6p47p" version="20.3.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="4228" dy="3347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3406" dy="2872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1263,10 +1263,10 @@
           <mxGeometry x="-579" y="2524" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-212" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6E6E6;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-854" y="2614" width="330" height="80" as="geometry" />
+          <mxGeometry x="-778" y="2614" width="208" height="86" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-213" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-844" y="2619" width="40" height="70" as="geometry" />
+          <mxGeometry x="-755" y="2622" width="40" height="70" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-214" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;为了应对某个段被置换出内存这种情况, 对应的GDT表项中, 有1个bit表示这个段在不在内存中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-854" y="2704" width="327" height="30" as="geometry" />
