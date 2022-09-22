@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T10:50:44.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5YW_a9RPX1whXufWmQ8W" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-22T10:54:11.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NiXGO--3pAku7Jwq1ODp" version="20.3.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3690" dy="3036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -563,6 +563,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-288" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="2vaMElDyrSs1qIXfbJuE-217" target="2vaMElDyrSs1qIXfbJuE-284" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2vaMElDyrSs1qIXfbJuE-217" target="Yf-mVatHQIcoLdicb8D2-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-217" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" parent="1" vertex="1">
@@ -1502,11 +1505,6 @@
         <mxCell id="xcac9AL66yzMxzvMdKCw-8" value="Loader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3599" y="-393.5" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="xcac9AL66yzMxzvMdKCw-10" target="xcac9AL66yzMxzvMdKCw-29" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4261" y="-1410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-10" value="在.s文件中, call func这个指令只是一个字符串, 会输入到as命令中进行assemble, 生成object file, 由于object file是二进制格式, 且符合ISA规定的格式,&amp;nbsp; ---&amp;gt; call func一定会变成call xxxxx(内存地址), 所以我们需要找到这个func的地址 ---&amp;gt; 由于object file是链接器的输入, 那么链接器就需要找到func的地址然后修正所有引用func的指令, 这个地址修正的过程就叫Relocation, 每个要被修正的地方叫Relocation Entry" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4001" y="-1560" width="520" height="70" as="geometry" />
         </mxCell>
@@ -1518,9 +1516,6 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-13" value="Address &amp;amp; Storage Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5151" y="-1740" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-16" value="链接器是怎么把object files的指令进行重定位的? 如何找到正确的地址?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="4269.3" y="-1480" width="381.7" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;curved=1;" parent="1" source="xcac9AL66yzMxzvMdKCw-18" target="xcac9AL66yzMxzvMdKCw-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1551,9 +1546,6 @@
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-28" value=".bss" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="4481" y="-1670" width="137" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="xcac9AL66yzMxzvMdKCw-29" value="Relocation依赖于ELF文件中的哪些结构?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4001" y="-1400" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xcac9AL66yzMxzvMdKCw-30" value="链接器为目标文件分配地址和空间:&lt;br style=&quot;font-size: 11px;&quot;&gt;1.在输出的可执行文件中分配空间&lt;br style=&quot;font-size: 11px;&quot;&gt;2.在装载后的虚拟地址中分配虚拟地址空间&lt;br&gt;&lt;br&gt;对于.text和.data段, 两者都要分配; 但是对于&lt;font size=&quot;1&quot;&gt;.bss在文件中没有内容, 就只分配虚拟地址空间&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="5384" y="-1750" width="347" height="100" as="geometry" />
@@ -2321,6 +2313,15 @@
         </mxCell>
         <mxCell id="Yf-mVatHQIcoLdicb8D2-12" value="进程的内存分配区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3159.63" y="3186" width="114.37" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-18" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yf-mVatHQIcoLdicb8D2-15" target="Yf-mVatHQIcoLdicb8D2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-15" value="AGU / ACU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1963" y="779.68" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yf-mVatHQIcoLdicb8D2-17" value="计算地址用于CPU访问主存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2093" y="779.68" width="160" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
