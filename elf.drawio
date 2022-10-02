@@ -1,32 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T14:01:18.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="a9C6BDgpB8FD5ugK0vxP" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T15:32:13.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3_JTP-OQ7OWe5bnU6o5O" version="20.4.0" type="github">
   <diagram id="IhzEl6L-crXwmYDoSedT" name="Page-1">
-    <mxGraphModel dx="786" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ug1CLo8E83oDH9qbaT3q-2" target="ug1CLo8E83oDH9qbaT3q-4">
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ug1CLo8E83oDH9qbaT3q-2" target="ug1CLo8E83oDH9qbaT3q-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-2" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="348.5" y="258" width="60" height="30" as="geometry" />
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-2" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="758.5" y="108" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="413.8000000000002" y="410.58000000000004" as="sourcePoint" />
-            <mxPoint x="475.29999999999836" y="410.58000000000004" as="targetPoint" />
+            <mxPoint x="823.8000000000002" y="260.58000000000004" as="sourcePoint" />
+            <mxPoint x="885.2999999999984" y="260.58000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-4" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="348.5" y="396.40999999999997" width="60" height="30" as="geometry" />
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-4" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="758.5" y="246.40999999999997" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-5" value="VMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="396.40999999999997" width="60" height="30" as="geometry" />
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-5" value="VMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="880" y="246.40999999999997" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-6" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="421.5" y="306.40999999999997" width="210" height="57" as="geometry" />
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-6" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="831.5" y="156.40999999999997" width="210" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="ug1CLo8E83oDH9qbaT3q-7" value="&lt;font color=&quot;#ff0000&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="190" width="284" height="61" as="geometry" />
+        <mxCell id="ug1CLo8E83oDH9qbaT3q-7" value="&lt;font color=&quot;#ff0000&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="40" width="284" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
