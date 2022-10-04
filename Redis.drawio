@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T20:32:30.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vvgx1ATQ_648JkA5IHnb" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-04T20:33:02.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_O-G0_ZuAqNw2JcYsFsD" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1556" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,8 +39,8 @@
         <mxCell id="gHjb5b28OfsgwWgYxNie-10" value="让redis自身表示的数据尽可能小, 所以想方设法搞出一堆节约内存资源的操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2640" y="830" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-12" value="将一个基本类型拆分成多个不同的位域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2645" y="900" width="270" height="30" as="geometry" />
+        <mxCell id="gHjb5b28OfsgwWgYxNie-12" value="将一个基本类型拆分成多个不同的位域&lt;br&gt;e.g 一个int的不同范围各有作用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2642.5" y="890" width="275" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
