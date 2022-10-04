@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T09:38:19.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sO58ptQRXSiqVxDNwGed" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-04T09:38:54.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NDbFB54VCW8VsSdGfC17" version="20.4.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3416" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1794,7 +1794,7 @@
           <mxGeometry x="5168.5" y="-75" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-9" value="ELF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2645.5" y="154.40999999999994" width="79.5" height="32.5" as="geometry" />
+          <mxGeometry x="2642.25" y="-42.470000000000056" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="EAX4R4Ubebxns02yucfU-18" value="缺点: 1.一旦library更新了, 就要重新编译链接;&amp;nbsp;&lt;br&gt;2. 浪费内存空间(进程的text segment的duplicate代码)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3397.5" y="-211.71" width="270" height="40" as="geometry" />
@@ -1967,7 +1967,7 @@
           <mxGeometry x="3220.25" y="1289.5" width="220" height="31" as="geometry" />
         </mxCell>
         <mxCell id="U6JKeO4AykQqR3Wrpjla-2" value="Glibc函数库(C-Runtime)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2634.25" y="299.38" width="169" height="37.5" as="geometry" />
+          <mxGeometry x="2639.25" y="98.25000000000003" width="169" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="U6JKeO4AykQqR3Wrpjla-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U6JKeO4AykQqR3Wrpjla-8" target="U6JKeO4AykQqR3Wrpjla-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1981,14 +1981,8 @@
         <mxCell id="U6JKeO4AykQqR3Wrpjla-12" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;直接访问物理内存&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="60" y="805" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="SD8zJs4PqNRvbdDMdBWy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SD8zJs4PqNRvbdDMdBWy-1" target="SD8zJs4PqNRvbdDMdBWy-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-1" value="Debug原理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2645.5" y="229.99999999999994" width="79.5" height="32.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SD8zJs4PqNRvbdDMdBWy-2" value="把要执行的指令地址改为Int 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="2751" y="228.19" width="169" height="36.12" as="geometry" />
+          <mxGeometry x="2642.25" y="23.789999999999935" width="79.5" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="SD8zJs4PqNRvbdDMdBWy-7" value="got" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4184.8" y="-61" width="81" height="20" as="geometry" />
