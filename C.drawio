@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T16:25:57.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="D8P8yigOnrCCmxzqA6mW" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-04T16:27:31.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="T2nd0GdP7DNWOQKPcEjX" version="20.4.0" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
-    <mxGraphModel dx="311" dy="3473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-531" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,7 +416,7 @@
         <mxCell id="onG2acxlvetChBkqUA75-284" value="指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="2829.5" y="-721" width="75.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="onG2acxlvetChBkqUA75-285" value="指针就是一个地址, 这个地址里可以存指令或者数据;&lt;br style=&quot;font-size: 12px;&quot;&gt;可以任意进行指针的类型转换, 无非就是从这个地址开始取多宽的内存, 只要用的时候类型转对了即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="onG2acxlvetChBkqUA75-285" value="指针就是一个地址, 这个地址里可以存指令或者数据; 指针类型告诉编译器如何解释指向的内存中的数据&lt;br style=&quot;font-size: 12px;&quot;&gt;可以任意进行指针的类型转换, 无非就是从这个地址开始取多宽的内存, 只要用的时候类型转对了即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2949.25" y="-740" width="451.75" height="58" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-286" value="基础类型指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
