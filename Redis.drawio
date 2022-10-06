@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T19:03:58.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Bd1qumFJVvRF8lqFhJbi" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-06T19:04:38.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GJOjX0JMBtzQSgG4Udk1" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1556" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="gHjb5b28OfsgwWgYxNie-2" value="setsid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2834" y="490" width="109.12" height="24.87" as="geometry" />
+          <mxGeometry x="2980" y="360" width="109.12" height="24.87" as="geometry" />
         </mxCell>
         <mxCell id="gHjb5b28OfsgwWgYxNie-3" value="&lt;font color=&quot;#ff3333&quot;&gt;数据结构 + 事件循环&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2706" y="550" width="128" height="25" as="geometry" />
@@ -50,6 +50,9 @@
         </mxCell>
         <mxCell id="gHjb5b28OfsgwWgYxNie-17" value="用户数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2990" y="810" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gHjb5b28OfsgwWgYxNie-19" value="Redis如何保持daemon进程一直运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="357.43" width="220" height="42.57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
