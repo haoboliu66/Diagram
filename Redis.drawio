@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T19:53:23.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hdfvBHzVYLZQFfw65g5T" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-08T19:53:36.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="L00P7pa_Q9z15G9cBtdt" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
         </UserObject>
         <UserObject label="setsid" link="https://unix.stackexchange.com/questions/240646/why-we-use-setsid-while-daemonizing-a-process" id="gHjb5b28OfsgwWgYxNie-2">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-            <mxGeometry x="2970" y="366.28" width="80" height="23.72" as="geometry" />
+            <mxGeometry x="2990" y="328.84999999999997" width="80" height="23.72" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gHjb5b28OfsgwWgYxNie-3" value="&lt;font color=&quot;#ff3333&quot;&gt;数据结构 + 事件循环&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -54,25 +54,25 @@
           <mxGeometry x="2930" y="130" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gHjb5b28OfsgwWgYxNie-19" value="Redis如何保持daemon进程一直运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2700" y="357.43" width="220" height="42.57" as="geometry" />
+          <mxGeometry x="2720" y="320" width="220" height="42.57" as="geometry" />
         </mxCell>
         <mxCell id="gHjb5b28OfsgwWgYxNie-20" value="daemonizing a process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3060" y="364.29" width="140.88" height="25.71" as="geometry" />
+          <mxGeometry x="3080" y="326.86" width="140.88" height="25.71" as="geometry" />
         </mxCell>
         <mxCell id="0TQrHJX6QjW9VzBPeowM-1" value="string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="462.0000000000001" width="100" height="25.81" as="geometry" />
+          <mxGeometry x="3208" y="427.5000000000001" width="100" height="25.81" as="geometry" />
         </mxCell>
         <mxCell id="0TQrHJX6QjW9VzBPeowM-2" value="hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="618.0100000000001" width="100" height="25.81" as="geometry" />
+          <mxGeometry x="3208" y="583.5100000000001" width="100" height="25.81" as="geometry" />
         </mxCell>
         <mxCell id="0TQrHJX6QjW9VzBPeowM-3" value="set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="541.2" width="100" height="25.81" as="geometry" />
+          <mxGeometry x="3208" y="506.70000000000005" width="100" height="25.81" as="geometry" />
         </mxCell>
         <mxCell id="0TQrHJX6QjW9VzBPeowM-4" value="sorted set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="576.9999999999999" width="100" height="25.81" as="geometry" />
+          <mxGeometry x="3208" y="542.4999999999999" width="100" height="25.81" as="geometry" />
         </mxCell>
         <mxCell id="0TQrHJX6QjW9VzBPeowM-5" value="list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="502" width="100" height="25.81" as="geometry" />
+          <mxGeometry x="3208" y="467.5" width="100" height="25.81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
