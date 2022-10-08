@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T19:55:09.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mgiEg2vz-7fqXkr_shzB" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-08T19:55:51.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JFa2wRyrvsHV4kG-358m" version="20.4.0" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
     <mxGraphModel dx="-531" dy="4101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,8 +461,11 @@
         <mxCell id="onG2acxlvetChBkqUA75-297" value="struct" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="3107.75" y="-2257.06" width="75.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="eivDgg5kd7hcaZVspzo9-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="onG2acxlvetChBkqUA75-298" target="eivDgg5kd7hcaZVspzo9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-298" value="指针的妙用: 解耦合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF3333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="3424.5" y="-2326" width="111.5" height="32" as="geometry" />
+          <mxGeometry x="3420" y="-2325.02" width="111.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-299" value="模块1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCCCFF;" parent="1" vertex="1">
           <mxGeometry x="3558.63" y="-2329.5" width="101.37" height="39.5" as="geometry" />
@@ -527,6 +530,11 @@
         <mxCell id="qvjmshA6DQtf6-69wwgu-13" value="Symbol table &#39;.dynsym&#39; contains 8 entries:&lt;br&gt;&amp;nbsp; &amp;nbsp;Num:&amp;nbsp; &amp;nbsp; Value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Size Type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Bind&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Vis&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Ndx&amp;nbsp; &amp;nbsp;Name&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;0: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; LOCAL&amp;nbsp; DEFAULT&amp;nbsp; UND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_deregisterTMCloneTab&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND puts@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;3: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND __libc_start_main@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __gmon_start__&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;5: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND malloc@GLIBC_2.2.5 (2)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;6: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_registerTMCloneTable&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;7: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __cxa_finalize@GLIBC_2.2.5 (2)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="3650.0600000000004" y="-1032.8200000000002" width="566.72" height="190.32" as="geometry" />
         </mxCell>
+        <UserObject label="e.g. redisObject" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FRedis.drawio" id="eivDgg5kd7hcaZVspzo9-1">
+          <mxCell style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="3420" y="-2252" width="111.5" height="32" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
