@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T10:41:42.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5LDk2D552qbrXKv9352b" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T10:46:35.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DrF0esvqJxyLYyK9HLlU" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,11 +86,17 @@
         <mxCell id="vs6chZFLeiXoNTxb_euZ-3" value="3-6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3110" y="960" width="370" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vs6chZFLeiXoNTxb_euZ-6" target="vs6chZFLeiXoNTxb_euZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-6" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Logical Address&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2986" y="1115.81" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-7" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Virtual Address&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="1117.9" width="116" height="30" as="geometry" />
+          <mxGeometry x="3324" y="1115.8000000000002" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vs6chZFLeiXoNTxb_euZ-8" target="vs6chZFLeiXoNTxb_euZ-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-8" value="GDTR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="3160" y="1117.9" width="100" height="25.81" as="geometry" />
