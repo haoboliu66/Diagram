@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T16:34:40.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qpiY9wCctWc5AGqCjYEA" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T17:01:44.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="REmNIX_lnNpvPVNdIkop" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
         <mxCell id="vs6chZFLeiXoNTxb_euZ-29" value="内存中有多个程序, 操作系统是如何track这些程序, 以及如何拿到这些程序的执行数据?&lt;br&gt;&amp;nbsp;===&amp;gt; 需要描述程序的元数据信息, 比如 程序的段在哪里, 寄存器的信息? ===&amp;gt; 进程&lt;br&gt;&lt;br&gt;ELF是静态程序的元数据, 程序到了内存中, 需要有描述该程序的动态元数据, 此时程序在内存中的动态元数据 + ELF中的静态元数据 ===&amp;gt; 进程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3010" y="1709" width="470" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="vs6chZFLeiXoNTxb_euZ-30" value="具像化到Linux:&lt;br&gt;struct task_struct {}&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-30" value="具像化到Linux:&lt;br&gt;用struct task_struct {} 表示程序在内存中的元数据信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3575" y="1700" width="305" height="80" as="geometry" />
         </mxCell>
       </root>
