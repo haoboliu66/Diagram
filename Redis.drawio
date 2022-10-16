@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T14:56:55.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8WzSBQm4HeFqqqNSialG" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T14:58:05.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5VaA6uKrkZ2PGjcWtKJ2" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
         <mxCell id="vs6chZFLeiXoNTxb_euZ-27" value="一条机器指令的执行是不会被中断的; 这个执行过程包括:&lt;br&gt;fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3450" y="1610" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="时钟中断是怎么来的?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="时钟中断是怎么来的? 通过信号让CPU迎角的电平高低变化,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2997.25" y="1694" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
