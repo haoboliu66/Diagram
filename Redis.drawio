@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T13:42:58.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iexJPg9OdvqfGkgvL8uJ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T13:44:04.428Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HvIGtTxvVoSSxqmCGVcP" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,8 +143,8 @@
         <mxCell id="vs6chZFLeiXoNTxb_euZ-26" value="假设只有一个CPU, 多个程序, 控制单元和计算单元, 存储单元只有一套, 怎么复用?&lt;br&gt;&lt;br&gt;1.控制单元: 可以直接复用&lt;br&gt;2.计算单元: 可以直接复用, fetch-decode-execute是atomic&lt;br&gt;3.存储单元(寄存器): 不可以直接复用, 需要&quot;同步操作&quot;, 是critical section" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3000" y="1550" width="440" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="vs6chZFLeiXoNTxb_euZ-27" value="一条机器指令的执行是不会被中断的; 这个执行过程包括:&lt;br&gt;fetch(取指令) , decode(根据指令意图决定要不要到内存取数据&lt;br&gt;) ,&amp;nbsp; execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3450" y="1610" width="530" height="70" as="geometry" />
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-27" value="一条机器指令的执行是不会被中断的; 这个执行过程包括:&lt;br&gt;fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="1610" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
