@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T21:15:29.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ARmlit5Ul1n_TKMWc_dG" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T21:16:04.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cAGqbnCgxstSYCFj-NPh" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,10 +201,10 @@
           <mxGeometry x="3530" y="1888.75" width="90" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-2" value="虚拟地址的引入, 给进程的生成提供了什么样的便捷操作?&amp;nbsp;&lt;br&gt;让不同的ELF文件中的虚拟地址独立, 不同的文件可以有相同的虚拟地址, 而无需互相商议" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3097.75" y="2010" width="340" height="60" as="geometry" />
+          <mxGeometry x="3097.75" y="2040" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-3" value="1.CPU第一个执行的程序: OS&lt;br&gt;2.若想要切换进程执行, 那么就要找到进程的指令地址, 即修改IP寄存器的值, 使其指向进程的指令地址即可&lt;br&gt;3.如果进行切换? CS, DS, SS, ES, GDTR, IP, 通用寄存器&lt;br&gt;4.CPL? R0 -&amp;gt; R3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3095" y="2100" width="345" height="90" as="geometry" />
+          <mxGeometry x="3095" y="2130" width="345" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
