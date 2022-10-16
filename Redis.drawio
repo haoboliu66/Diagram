@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T14:37:52.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G1JaGOAjG9AuluJlA6YO" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T14:38:13.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oNqzn7M_4qnXh5ru3t3B" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,16 +135,19 @@
           <mxGeometry x="3414" y="1310" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-24" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;The machine cycle is a four-process cycle that includes reading and interpreting the machine language, executing the code, and then storing that code&lt;/b&gt;&lt;span style=&quot;color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3030" y="1770" width="447" height="50" as="geometry" />
+          <mxGeometry x="2997.25" y="1856" width="447" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-25" value="Instruction Cycle vs Machine Cycle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3028.5" y="1724" width="290" height="30" as="geometry" />
+          <mxGeometry x="2995.75" y="1810" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-26" value="假设只有一个CPU, 多个程序, 控制单元和计算单元, 存储单元只有一套, 怎么复用?&lt;br&gt;&lt;br&gt;1.控制单元: 可以直接复用&lt;br&gt;2.计算单元: 可以直接复用, fetch-decode-execute是atomic&lt;br&gt;3.存储单元(寄存器): 不可以直接复用, 需要&quot;同步操作&quot;, 是critical section" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3000" y="1550" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-27" value="一条机器指令的执行是不会被中断的; 这个执行过程包括:&lt;br&gt;fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3450" y="1610" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="硬件中断是怎么来的?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2997.25" y="1694" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
