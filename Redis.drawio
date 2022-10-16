@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T15:02:37.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="knYuzWnY4BsbyW_-HsLT" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T15:04:46.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AaWhRz-47B8D-gpGY7DJ" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
           <mxGeometry x="3000" y="1550" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-27" value="一条机器指令的执行是不会被中断的; 这个执行过程包括:&lt;br&gt;fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3450" y="1610" width="400" height="60" as="geometry" />
+          <mxGeometry x="3460" y="1600" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="时钟中断是怎么来的? 通过信号让CPU迎角的电平高低变化, 即通知CPU产生了中断; 这个中断信号是定期产生, 但是CPU不是每次都处理, 在一个指令的执行周期内, fetch, decode, execute这些周期内, CPU都不响应这些中断信号, 只有在计算数据要写回内存时, CPU才处理中断信号; 所以是在一条机器指令的指令周期末尾, 才对中断进行处理, 所以可知, 一条机器指令的执行过程中是不会被中断的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2987.25" y="1680" width="452.75" height="96" as="geometry" />
