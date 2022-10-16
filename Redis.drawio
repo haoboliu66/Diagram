@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T15:56:24.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_-IdGYSbQb6m9Hqvid9h" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T15:56:57.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fqmurTlLmUYwLF_swGFN" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,10 +141,10 @@
           <mxGeometry x="2995.75" y="1810" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-26" value="假设只有一个CPU, 多个程序, 控制单元和计算单元, 存储单元只有一套, 怎么复用?&lt;br&gt;&lt;br&gt;1.控制单元: 可以直接复用&lt;br&gt;2.计算单元: 可以直接复用, fetch-decode-execute是atomic&lt;br&gt;3.存储单元(寄存器): 不可以直接复用, 需要&quot;同步操作&quot;, 是critical section" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3000" y="1550" width="440" height="110" as="geometry" />
+          <mxGeometry x="2995.75" y="1540" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="时钟中断是怎么来的? 通过信号让CPU迎角的电平高低变化, 即通知CPU产生了中断; 这个中断信号是定期产生, 但是CPU不是每次都处理, 在一个指令的执行周期(fetch, decode, execute)内, , CPU都不响应这些中断信号, 只有在计算数据要写回内存时, CPU才处理中断信号; 所以是在一条机器指令的指令周期末尾, 才对中断进行处理。&lt;br&gt;&lt;br&gt;总而言之, 一条机器指令的执行(instruction cycle)是不会被中断的; 这个执行过程包括: fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute&lt;br&gt;但是执行之后的数据写回, 是可以被中断的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="2990" y="1670" width="540" height="110" as="geometry" />
+          <mxGeometry x="3570" y="1410" width="540" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
