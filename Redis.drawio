@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T21:17:47.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="R42Zcj-cwpGD-RGZDSPW" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T21:28:46.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p0Gsm3CXn7NwC6SYdIqf" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1732" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,6 +208,9 @@
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-6" value="OS是一个R0的程序, 其他都是R3的程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3286" y="2010" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3EPBH0Vr4_YoN98Gf7AG-7" value="Intel手册: 每一个特权级都会有属于这个特权级的栈&lt;br&gt;而栈又需要通过SS, SP找到栈的具体地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3098.5" y="2200" width="345" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
