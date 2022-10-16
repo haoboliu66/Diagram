@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T20:59:23.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ro4ZxE22LOAg59sFcE5y" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-16T21:10:08.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="C5XmeogAfrOO7rNE2rFv" version="20.4.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3690" dy="2978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="2754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1327,7 +1327,7 @@
           <mxGeometry x="640" y="535" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-244" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;没有汇编指令可以直接操作CS寄存器来实现program control transfer, 必须通过JMP, CALL, RET, SYSENTER, SYSEXIT, SYSCALL, SYSRET, INT n, IRET, 或异常处理机制&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-130" y="1198" width="320" height="84" as="geometry" />
+          <mxGeometry x="-130" y="1175" width="320" height="55" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-245" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;指针:使用*p 抽象汇编代码的 类似(rdx) 寄存器操作; 使用 &amp;amp; 抽象汇编代码的lea取地址操作&lt;br&gt;指针与数组操作&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="2949.25" y="-790" width="540" height="50" as="geometry" />
