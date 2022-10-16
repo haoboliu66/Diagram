@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-16T16:08:10.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_XrzkK8CwHbz4hAXVsI3" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-16T16:20:21.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CcZO7k7L_rayxBi3DdGz" version="20.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,6 +139,9 @@
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-28" value="&lt;font color=&quot;#ff3333&quot;&gt;时钟中断&lt;/font&gt;是怎么来的? 通过信号让CPU迎角的电平高低变化, 即通知CPU产生了中断; 这个中断信号是定期产生, 但是CPU不是每次都处理, 在一个指令的执行周期(fetch, decode, execute)内, , CPU都不响应这些中断信号, 只有在计算数据要写回内存时, CPU才处理中断信号; 所以是在一条机器指令的指令周期末尾, 才对中断进行处理。&lt;br&gt;&lt;br&gt;总而言之, 一条机器指令的执行(instruction cycle)是不会被中断的; 这个执行过程包括: fetch(取指令) , decode(根据指令意图决定要不要到内存取数据),&amp;nbsp; execute&lt;br&gt;但是执行之后的数据写回, 是可以被中断的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3540" y="1410" width="540" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vs6chZFLeiXoNTxb_euZ-29" value="内存中有多个程序, 操作系统是如何track这些程序, 以及如何拿到这些程序的执行数据?&lt;br&gt;&amp;nbsp;===&amp;gt; 需要描述程序的元数据信息, 比如 程序的段在哪里, 寄存器的信息? ===&amp;gt; 进程&lt;br&gt;&lt;br&gt;ELF是静态程序的元数据, 程序到了内存中, 需要有描述该程序的动态元数据, 此时程序在内存中的动态元数据 + ELF中的静态元数据 ===&amp;gt; 进程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="1699" width="470" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
