@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T21:59:48.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YSHiymJnuvF6MX3Lnmd_" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T21:59:51.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KQ4PJMIto3RSeIp3pn7Y" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1556" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,7 +299,7 @@
         <mxCell id="0WFMIrBX3iQnZ0TPT0h6-23" value="OS如何确立某个stack是在运行的stack?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="4570" y="1980" width="211" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0WFMIrBX3iQnZ0TPT0h6-24" value="1, 修改SS寄存器的值, 指向stack segment, 指令: MOV, POP, LSS&lt;br&gt;2, 更新esp寄存器的值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0WFMIrBX3iQnZ0TPT0h6-24" value="1, 修改SS寄存器的值, 指向stack segment, 指令: MOV, POP, LSS&lt;br&gt;2, 更新esp寄存器的值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="4850" y="1970" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
