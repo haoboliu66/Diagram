@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T20:03:17.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LZV6t0OjL6AByiBTiOUJ" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T20:03:29.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZPLiSq-MW34fmGdgF3bm" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1780" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,6 +301,9 @@
         </mxCell>
         <mxCell id="0WFMIrBX3iQnZ0TPT0h6-24" value="1, 修改SS寄存器的值, 指向stack segment, 指令: MOV, POP, LSS&lt;br&gt;2, 更新esp寄存器的值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="4850" y="1970" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-1" value="进程是如何进行切换的?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="2360" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
