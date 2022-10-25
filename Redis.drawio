@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T21:07:36.310Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Co6WRguoqGfQUJOLfKp-" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T21:07:45.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eeYvOm1yCvxl5YSp0D1j" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1962" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,19 +362,19 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-24" value="特权级切换&lt;br&gt;把自己切换为程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3000" y="2630" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-26" target="78qznXc0BcHg6qfN2T7a-27">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-26" target="78qznXc0BcHg6qfN2T7a-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-26" value="其他程序想执行内核代码, 即从user mode进入kernel mode, 必定要经过特权级切换, 在这个切换过程(context switch)中, 内核中的程序代码要进行执行, 所以需要保存用户程序的上下文数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-26" value="其他程序想执行内核代码, 即从user mode进入kernel mode, 必定要经过特权级切换, 在这个切换过程(context switch)中, 内核中的程序代码要进行执行, 所以需要保存用户程序的上下文数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2994" y="2760" width="402.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-27" target="78qznXc0BcHg6qfN2T7a-29">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-31" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-27" target="78qznXc0BcHg6qfN2T7a-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-27" value="那么这个数据保存在哪里?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-27" value="那么这个数据保存在哪里?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3081.38" y="2840" width="227.75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-29" value="看Intel开发手册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-29" value="看Intel开发手册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3081.38" y="2890" width="227.75" height="20" as="geometry" />
         </mxCell>
       </root>
