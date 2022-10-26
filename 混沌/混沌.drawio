@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T09:55:16.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5VZkW2z7-xQob16D7f8y" version="20.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-26T09:56:21.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="pxSi2_b-XWfAR5iRx0bw" version="20.4.2" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3182" dy="2819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2087,7 +2087,7 @@
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-12" value="Linear Address&lt;br&gt;(Segment Base Address + OffSet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1" parent="1">
           <mxGeometry x="-106.25" y="1195.5" width="257.5" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="iyVcx00RLuhnXQD0Ik-d-16" value="用segment selector (来自segment register的内容) 去请求访问某个segment, 所以segment selector包含了请求的privilege level, 即RPL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="iyVcx00RLuhnXQD0Ik-d-16" value="用segment selector (来自segment register的内容) 去请求访问某个segment, 所以segment selector包含了请求者的privilege level, 即RPL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-140" y="1400.5" width="380" height="49.5" as="geometry" />
         </mxCell>
       </root>
