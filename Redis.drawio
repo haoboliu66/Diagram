@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T21:16:30.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RbiCQv4spcWJHkHsEibh" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T21:18:01.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="9GNMC8krupkFVoQ-3_3a" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1498" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -399,7 +399,10 @@
           <mxGeometry x="3692" y="2672.5" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-41" value="中断检测周期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3259" y="3030" width="144" height="30" as="geometry" />
+          <mxGeometry x="3270" y="3110" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-43" value="硬件决定原子性: 取指, 译码, 执行, 访存, 写回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2917.5" y="3050" width="302" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
