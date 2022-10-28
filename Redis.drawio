@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T15:03:53.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XpFp6JjTRZLGN-PmLh41" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T15:04:07.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0vtqyoyV8AdcX_VdwymT" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -519,7 +519,7 @@
           <mxGeometry x="3253.65" y="3990" width="487" height="70" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-87" value="&lt;span style=&quot;text-align: left;&quot;&gt;由于每个进程都有自己的栈信息, 那么处于R0的进程, 每个进程都有自己的TSS =&amp;gt; 对应到task_struct里的tss&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3253.65" y="4110" width="486.35" height="60" as="geometry" />
+          <mxGeometry x="3253.65" y="4100" width="486.35" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
