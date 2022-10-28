@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T19:09:13.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zbjhU8YGVnutOiWFDzrl" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T19:09:22.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="A5nnRjrkDjlawPeahGcv" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -536,7 +536,7 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-95" value="1, 当发生特权级切换时, 栈也要切换, SS和SP寄存器决定了栈的位置, 因此需要保存SS和SP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3960" y="3890" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-98" value="2, 参数传递, 传递的参数必须让B可以获取到, 所以这个参数不能保存的A的栈中, 因为栈是私有数据, 无法访问另一个特权级的栈, 所以推理可知, 参数一定要传入到B的栈中" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-98" value="2, 参数传递, 传递的参数必须让B可以获取到, 所以这个参数不能保存的A的栈中, 因为栈是私有数据, 无法访问另一个特权级的栈, 所以推理可知, 参数一定要传入到B特权级的栈中" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3960" y="4000" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-100" value="A特权级的栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
