@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T15:01:49.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="DRDOj4_3hslXjzEuVfvi" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T15:03:53.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XpFp6JjTRZLGN-PmLh41" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -506,14 +506,20 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-82" value="&lt;pre&gt;&lt;/pre&gt;&lt;div title=&quot;Page 158&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;切换特权级之后, CPU要切换到另一个stack执行, 每个特权级有自己的stack, 为什么?&lt;br&gt;&lt;br&gt;stack是用来存放私有数据的, 方法调用的元数据, 比如IP, BP, 函数传参, 指令片段等&lt;br&gt;如果只有一个stack共享, 那么低特权级的程序遍历栈可以拿到高特权级的私有敏感信息&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="2803.59" y="3890" width="505.81" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-88" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-83" target="78qznXc0BcHg6qfN2T7a-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-83" value="Linux中存在2个栈: 进程的栈(R3), 内核的栈(R0)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="3350" y="3892.5" width="294.31" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-86" value="&lt;span style=&quot;text-align: left;&quot;&gt;对于R3的进程, segment selector和stack pointer存在SS和ESP寄存器;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;对于R0的内核进程, segment selector和stack pointer存在TSS (Task State Segment)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3283" y="4000" width="487" height="70" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-89" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-86" target="78qznXc0BcHg6qfN2T7a-87">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-87" value="&lt;span style=&quot;text-align: left;&quot;&gt;对于R3的进程, segment selector和stack pointer存在SS和ESP寄存器;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;由于每个进程都有自己的栈信息, 那么处于R0的进程, 每个进程都有自己的TSS =&amp;gt; 对应到task_struct里的tss&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="4100" width="487" height="70" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-86" value="&lt;span style=&quot;text-align: left;&quot;&gt;对于R3的进程, segment selector和stack pointer存在SS和ESP寄存器;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;对于R0的内核进程, segment selector和stack pointer存在TSS (Task State Segment)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3253.65" y="3990" width="487" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-87" value="&lt;span style=&quot;text-align: left;&quot;&gt;由于每个进程都有自己的栈信息, 那么处于R0的进程, 每个进程都有自己的TSS =&amp;gt; 对应到task_struct里的tss&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3253.65" y="4110" width="486.35" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
