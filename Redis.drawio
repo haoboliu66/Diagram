@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T15:11:47.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vti0DrB4geVKLFNyVpEI" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T15:23:58.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MADh05SL4iAx-b17QV-C" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -529,6 +529,9 @@
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-92" value="GDT和LDT是两种Segment Descriptor Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="2971" y="4215" width="270.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-93" value="在CPU眼里, OS和普通程序没区别, 都是ISA指令集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2720" y="4440" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
