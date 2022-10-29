@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T12:12:05.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VUKcMgVYooEGQ8o6tYRa" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T12:13:15.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="au13z3zBdFF8QeNK2o1e" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-531" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -504,7 +504,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-82" value="&lt;pre&gt;&lt;/pre&gt;&lt;div title=&quot;Page 158&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;切换特权级之后, CPU要切换到另一个stack执行, 每个特权级有自己的stack, 为什么?&lt;br&gt;&lt;br&gt;stack是用来存放私有数据的, 方法调用的元数据, 比如IP, BP, 函数传参, 指令片段等&lt;br&gt;如果只有一个stack共享, 那么低特权级的程序遍历栈可以拿到高特权级的私有敏感信息&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="2803.59" y="3890" width="505.81" height="70" as="geometry" />
+          <mxGeometry x="2791.09" y="3890" width="505.81" height="70" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-88" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-83" target="78qznXc0BcHg6qfN2T7a-86">
           <mxGeometry relative="1" as="geometry" />
@@ -534,28 +534,31 @@
           <mxGeometry x="2290" y="3770" width="379" height="70" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-95" value="1, 当发生特权级切换时, 栈也要切换, SS和SP寄存器决定了栈的位置, 因此需要保存SS和SP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3960" y="3890" width="340" height="50" as="geometry" />
+          <mxGeometry x="3945" y="3990" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-98" value="2, 参数传递, 传递的参数必须让B可以获取到, 所以这个参数不能保存的A的栈中, 因为栈是私有数据, 无法访问另一个特权级的栈, 所以推理可知, 参数一定要传入到B特权级的栈中" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3960" y="4000" width="340" height="50" as="geometry" />
+          <mxGeometry x="3945" y="4100" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-100" value="A特权级的栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3940" y="3810" width="130" height="30" as="geometry" />
+          <mxGeometry x="3925" y="3910" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-101" value="B特权级的栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="4180" y="3810" width="130" height="30" as="geometry" />
+          <mxGeometry x="4165" y="3910" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-102" value="3, 由于代码段发生了切换, 类似于far call, 所以要保存CS和IP寄存器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="3960" y="4110" width="340" height="50" as="geometry" />
+          <mxGeometry x="3945" y="4210" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-103" value="什么内容要改, 就保存什么" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="4032" y="3750" width="196" height="30" as="geometry" />
+          <mxGeometry x="4017" y="3850" width="196" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-104" value="6.4.6 Calls and Ret Between Privilege Levels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2677" y="4360" width="428" height="40" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-105" value="这里特指从低特权级到高特权级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="2739.94" y="4410" width="270.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-106" value="所以要切换栈时, 就从TSS拿出segment selector和stack pointer分别填入SS和SP寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2960" y="4010" width="270.06" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
