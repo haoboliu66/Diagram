@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T14:42:26.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g9EclqNSCTNxay485h8x" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T14:42:42.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YZk7fbUQ0P7Ro7Gyxm3z" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1052" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -552,10 +552,10 @@
           <mxGeometry x="5587" y="3679" width="196" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-104" value="6.4.6 Calls and Ret Between Privilege Levels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="4247" y="4189" width="428" height="40" as="geometry" />
+          <mxGeometry x="4259.94" y="4160" width="428" height="40" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-105" value="这里特指从低特权级到高特权级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="4309.9400000000005" y="4239" width="270.06" height="30" as="geometry" />
+          <mxGeometry x="4322.88" y="4210" width="270.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-106" value="所以要切换栈时, 就从TSS拿出segment selector和stack pointer分别填入SS和SP寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4530" y="3839" width="270.06" height="30" as="geometry" />
