@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T14:34:32.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="2WhL3JvsTSgJNjZnuFzt" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T14:35:17.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="F4wz4QDbh3FOVUoi1W-3" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1654" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -488,7 +488,7 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-73" target="78qznXc0BcHg6qfN2T7a-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-73" value="call gate decriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-73" value="call gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="4405" y="3609" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-71" target="78qznXc0BcHg6qfN2T7a-71">
@@ -589,6 +589,21 @@
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-114" value="Data Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4577.97" y="4170" width="160.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-118" value="gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="3623.5" width="100" height="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-119" value="Call gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="3560" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-120" value="Trap gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="3609" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-121" value="Interrupt gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="3659" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-122" value="Task gate descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3930" y="3709" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
