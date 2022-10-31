@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T15:14:40.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="L1IU1i6AkCTBic_OX2Ht" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T16:40:30.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="9hQ7SB2ZJS9pD9vMSXsG" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-734" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1272" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -561,7 +561,7 @@
           <mxGeometry x="4431" y="740" width="1229" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-109" value="CR0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="4460" y="4480" width="110" height="30" as="geometry" />
+          <mxGeometry x="4494" y="4480" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-110" value="通过CR0寄存器 switch to protected mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4624.94" y="4480" width="270.06" height="30" as="geometry" />
@@ -622,6 +622,12 @@
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-132" value="Vol3 - Chapter7 Task Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="4405" y="4930" width="342" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-133" value="task" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4430" y="5040" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-134" value="a task is identified by the segment selector for its TSS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="4580" y="5040" width="216" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
