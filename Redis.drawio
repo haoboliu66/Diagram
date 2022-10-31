@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T21:04:55.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1ug6sA2CxVRV9Msu6Ouz" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T21:05:38.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3ZFjKegIBwivqeiK1uQe" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1272" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -647,6 +647,9 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-145" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-142" target="78qznXc0BcHg6qfN2T7a-143">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-157" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-142" target="78qznXc0BcHg6qfN2T7a-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-142" value="task_struct" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4878" y="5040" width="110" height="30" as="geometry" />
         </mxCell>
@@ -682,6 +685,9 @@
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-150" value="data segment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="5287" y="5140" width="123.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-156" value="tss存储了访问execution space需要的寄存器信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="5205" y="4939" width="215" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
