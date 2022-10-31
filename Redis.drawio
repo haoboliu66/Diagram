@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T16:55:15.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="o6kcOt7bKFIoOKE6Pioc" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T16:55:50.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NxS6YeJs20xZscE-yuJP" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1272" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -632,14 +632,14 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-135" value="TR" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4430" y="5160" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-136" value="TR内容: 定位tss要用到的相关信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-136" value="TR内容: 定位当前task的tss要用到的相关信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4579.259999999999" y="5140" width="238.47" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-138" value="CR3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4866.9" y="5160" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-139" value="1, segment selector&lt;br&gt;2, base address&lt;br&gt;3, limit, &lt;br&gt;4, segment descriptor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="4420" y="5310" width="167" height="90" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-139" value="所以task switch要变换的寄存器, TR和CR3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="4406" y="5290" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
