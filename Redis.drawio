@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T21:15:28.528Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="X4jFJPcCZK23AfEk-iIR" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T21:46:18.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CdaUjjEjWEY_S84YQBUY" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1403" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -750,10 +750,10 @@
             <mxPoint x="-35" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-175" value="tss descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-175" value="TSS descriptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4644.23" y="5690" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-176" value="tss struct" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-176" value="TSS struct" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4840" y="5690" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-179" value="GDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
@@ -761,6 +761,9 @@
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-181" value="与段寄存器类似, 用segment selector查完segment descriptor之后, 把segment descriptor缓存在寄存器内 (hidden part)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4386" y="5760" width="447" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-184" value="访问TSS descriptor的程序要满足CPI &amp;lt;= DPL of TSS descriptor&lt;br&gt;即, 程序的特权级要高于或等于描述符的DPL, 这样的程序可以直接通过call或jump访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="4386.5" y="5880" width="447" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
