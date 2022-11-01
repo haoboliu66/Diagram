@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T21:48:42.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CgMef2zJkwmtcUO8kA8K" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T21:48:50.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wb40zYRlSDjTcrDR4vhg" version="20.4.2" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1403" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,11 +768,14 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-184" value="访问TSS descriptor的程序要满足CPI &amp;lt;= DPL of TSS descriptor&lt;br&gt;即, 程序的特权级要高于或等于描述符的DPL, 这样的程序可以直接通过call或jump访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4386.5" y="5880" width="447" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="78qznXc0BcHg6qfN2T7a-189" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-185" target="78qznXc0BcHg6qfN2T7a-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-185" value="意味着: R0的程序(CPL为0)可以直接访问所有TSS descriptor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4383" y="5990" width="447" height="50" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-187" value="那么R3的程序是如何access TSS descriptor呢?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="4382.56" y="6070" width="447" height="40" as="geometry" />
+          <mxGeometry x="4382.56" y="6080" width="447" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
