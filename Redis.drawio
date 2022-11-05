@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T22:08:50.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pCcgqyvnubbmoB5Uw69m" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T22:09:21.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7EtMbuA6o8Nu5TIFJyqu" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -906,48 +906,48 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-74" value="LDTR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5257.56" y="6635" width="80" height="25" as="geometry" />
+          <mxGeometry x="5319" y="6635" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-75" value="segment selector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5399.56" y="6560" width="138" height="30" as="geometry" />
+          <mxGeometry x="5461" y="6560" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-76" value="base addr of LDT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5400.31" y="6610" width="138" height="30" as="geometry" />
+          <mxGeometry x="5461.75" y="6610" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-79" value="segment limit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5402.56" y="6660" width="138" height="30" as="geometry" />
+          <mxGeometry x="5464" y="6660" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-81" value="LDT描述符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5404.56" y="6710" width="80" height="25" as="geometry" />
+          <mxGeometry x="5466" y="6710" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-84" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-83" target="NoNFMW1x8-BxgoM4tv-2-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-83" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5557.56" y="6710" width="80" height="25" as="geometry" />
+          <mxGeometry x="5619" y="6710" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-85" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5540.56" y="6560" width="67" height="30" as="geometry" />
+          <mxGeometry x="5602" y="6560" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-88" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-87" target="NoNFMW1x8-BxgoM4tv-2-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-87" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5098.06" y="6627.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="5159.5" y="6627.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-91" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-89" target="NoNFMW1x8-BxgoM4tv-2-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-89" value="LLDTR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5206" y="6700" width="67" height="30" as="geometry" />
+          <mxGeometry x="5267.44" y="6700" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5300" y="6659.999999999999" as="targetPoint" />
+            <mxPoint x="5361.44" y="6659.999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-90" value="SLDTR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5293" y="6700" width="67" height="30" as="geometry" />
+          <mxGeometry x="5354.44" y="6700" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-93" value="切换任务, 先切换TR, 再切换LDTR; &lt;br&gt;TR可以找到TSS, TSS里包含ldt的信息, 可以进行ldt的修改" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5759" y="6595" width="360" height="60" as="geometry" />
