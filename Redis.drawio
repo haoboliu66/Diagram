@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T21:45:58.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8Vyc2fS6KkNKQFSO-uSn" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T21:46:13.158Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7m4-Uqnb5KuHzJAoi-l7" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -893,33 +893,6 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-58" value="段选择子改为直接访问进程自己的LDT, 同样也是作为index来访问LDT, 那么LDT的base address就是由LDT描述符指定, 访问LDT描述符的地址存放在另外一个寄存器LDTR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5262" y="6462" width="271.81" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-69" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-61" target="NoNFMW1x8-BxgoM4tv-2-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-61" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5098.06" y="6920" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-62" target="NoNFMW1x8-BxgoM4tv-2-65">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-62" value="LDTR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5277.93" y="6870" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-65" target="NoNFMW1x8-BxgoM4tv-2-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-65" value="LDT描述符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5409.06" y="6870" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-66" value="LDT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5539.06" y="6870" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-70" value="base address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5399.81" y="6840" width="99.25" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-73" value="LDTR中缓存了当前进程LDT的base address和" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5098.06" y="6830" width="230.63" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-74" target="NoNFMW1x8-BxgoM4tv-2-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -955,6 +928,12 @@
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-85" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5403" y="6570" width="67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-88" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-87" target="NoNFMW1x8-BxgoM4tv-2-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-87" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="4940.5" y="6637.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
