@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T18:09:20.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JAs3H22vZKd0Vde0okbN" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T18:09:48.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="211yeEELsAEdQNrlZypV" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -795,7 +795,7 @@
           <mxGeometry x="3930" y="5770" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-8" value="GDT 作用: 分段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3935" y="5740" width="140" height="20" as="geometry" />
+          <mxGeometry x="3935" y="5730" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-10" value="进程上下文(寄存器信息)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="4940.5" y="5685" width="190" height="40" as="geometry" />
@@ -809,8 +809,17 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3930" y="5830" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-23" target="NoNFMW1x8-BxgoM4tv-2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-23" value="segment selector&lt;br&gt;(segment registers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3700" y="5815" width="120" height="55" as="geometry" />
+          <mxGeometry x="3730" y="5805" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-24" target="NoNFMW1x8-BxgoM4tv-2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-24" value="GDTR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="5745" width="80" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
