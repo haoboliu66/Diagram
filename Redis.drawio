@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T21:04:58.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uz_pK_iqqon26YxsxuMo" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T21:05:49.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="D9q7VJ35JDVZWlTZR8Ag" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -873,13 +873,16 @@
           <mxGeometry x="5515.94" y="6340" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-51" value="设置二级描述符表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5516.94" y="6232.5" width="149" height="30" as="geometry" />
+          <mxGeometry x="5516.94" y="6245" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-52" value="由于 A - 描述符 指向的其他描述符都是与某个进程绑定的, 即进程私有, 那么这个描述符就是LDT描述符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5265" y="6330" width="226.81" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-53" value="提升到允许容纳4096个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5280" y="6287.5" width="191" height="33.13" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-54" value="LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="5516.94" y="6380" width="149" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
