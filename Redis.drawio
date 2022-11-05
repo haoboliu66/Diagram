@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T20:23:59.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WxEeO3paclkUWXvz_9Pi" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T20:26:44.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mPGzvG456SNcfnFewtrW" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -835,6 +835,9 @@
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-33" value="由ELF可知, 一个进程的组成:&amp;nbsp;&lt;br&gt;1, 堆段: SS&lt;br&gt;2, 代码段: CS&lt;br&gt;3, 数据段: DS, FS, ES, GS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5080.5" y="6050" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-36" value="由于segment register的宽度是16, 所以限制了GDT的表大小是 2^16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5480" y="6055" width="370" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
