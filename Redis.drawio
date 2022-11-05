@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T22:18:12.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H-duv-P7HnW_OfdNZ4XV" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T22:18:26.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="94HZFSqrE6mLzyZW6Hwn" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -956,7 +956,7 @@
           <mxGeometry x="5759" y="6595" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-95" value="在Intel中, 只要想访问内存, 就必须先分段, 再分页, 无法绕开segmentation, 而分段的核心是GDT, 所以要处理异常, 中断, 肯定也是通过某种方式, 提供权限校验 + 段选择子, 查GDT跳转执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5106.59" y="7090" width="333.41" height="60" as="geometry" />
+          <mxGeometry x="5103.29" y="7090" width="333.41" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-96" value="异常与中断处理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="5140" y="6780" width="640" height="50" as="geometry" />
