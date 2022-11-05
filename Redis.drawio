@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T21:06:48.093Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nc2mwR8nltrp9i89URFA" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T21:07:29.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yl3ypIl1InjudCUF-iBn" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -851,6 +851,9 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-40" value="A - 描述符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5299" y="6245" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-43" target="NoNFMW1x8-BxgoM4tv-2-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-43" value="segment selector&lt;br style=&quot;font-size: 13px;&quot;&gt;(segment registers)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5114" y="6420" width="120" height="55" as="geometry" />
         </mxCell>
@@ -880,6 +883,9 @@
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-54" value="LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5561" y="6482" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-56" value="段选择子改为直接访问进程自己的LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="5268.19" y="6450" width="231.81" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
