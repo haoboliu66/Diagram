@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T20:39:20.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="q7eu8hnkO3k1dEn8Fvuc" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T20:39:31.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="namWZMsmCLSPVFk8j4yt" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -827,6 +827,9 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-31" value="A - 堆段描述符" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5298.06" y="6010" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-32" target="NoNFMW1x8-BxgoM4tv-2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-32" value="假设进程A的描述符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5304" y="6070" width="140" height="20" as="geometry" />
         </mxCell>
@@ -837,7 +840,7 @@
           <mxGeometry x="5080.5" y="6050" width="173.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-36" value="由于segment register的宽度是16, 所以限制了GDT的表大小是 2^16 byte, 而每个描述符是8byte, 所以总共只能容纳8192个描述符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5480" y="6055" width="400" height="45" as="geometry" />
+          <mxGeometry x="5500" y="6057.5" width="400" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
