@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T21:08:21.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="shjkkEkZi1xnyoSfR0Kb" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T21:09:12.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sRKpVr1jIZkH6Rj-ghx2" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1358" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -884,17 +884,14 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-54" value="LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="5561" y="6482" width="149" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-56" value="段选择子改为直接访问进程自己的LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5268.19" y="6450" width="261.81" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-57" target="NoNFMW1x8-BxgoM4tv-2-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-57" value="LDTR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5109" y="6247.5" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-58" value="同样也是作为index来访问LDT, 那么LDT的base address就是由LDT描述符指定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="5268.19" y="6490" width="261.81" height="40" as="geometry" />
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-58" value="段选择子改为直接访问进程自己的LDT, 同样也是作为index来访问LDT, 那么LDT的base address就是由LDT描述符指定, 访问LDT描述符的地址存放在另外一个寄存器LDTR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="5262" y="6462" width="271.81" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
