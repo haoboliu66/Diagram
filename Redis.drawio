@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T20:29:12.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ub9Qia3Do8kdNN8_yZrA" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T20:30:06.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EsDGMAe4iGy193UEIOmA" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1624" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1030,8 +1030,8 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-122" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="5170.5" y="7210" width="40" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="myUvEMv8SW72hSV2DUZj-2" value="找到handler procedure所在的段, 根据偏移量拿到procedure的入口地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5471" y="7235" width="225.5" height="37.5" as="geometry" />
+        <mxCell id="myUvEMv8SW72hSV2DUZj-2" value="从GDT entry拿到handler procedure所在的段的base address, 根据偏移量拿到procedure的入口地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5471" y="7233.75" width="225.5" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
