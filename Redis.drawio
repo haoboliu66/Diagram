@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T20:47:49.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RXeBQ87pdaRBwiTeoATh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T20:54:25.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gdtlnubPiIWIHZwXkdQr" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1624" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1032,6 +1032,21 @@
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-2" value="从GDT entry拿到handler procedure所在的段的base address, 根据偏移量拿到procedure的入口地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5471" y="7233.75" width="225.5" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="myUvEMv8SW72hSV2DUZj-3" target="myUvEMv8SW72hSV2DUZj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="myUvEMv8SW72hSV2DUZj-3" target="myUvEMv8SW72hSV2DUZj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-3" value="IF flag in EFLAG register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5560" y="7105" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-4" value="maskable hardware interrupt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5740" y="7080" width="161" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-5" value="NMI - non-maskable interrupt&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5740" y="7125" width="161" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
