@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T21:20:35.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="icY_WNjfN7vBRzMZ9x0n" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T21:21:10.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fz12rlUMwTnBCQlyQZXI" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1624" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1054,11 +1054,17 @@
         <mxCell id="myUvEMv8SW72hSV2DUZj-10" value="IRET指令允许中断返回, 此时两种情况: &lt;br&gt;1, R0 - R0: 发生中断时, CPU在CPL为0, 在执行内核代码&lt;br&gt;2, R3 - R0: 发生中断时, CPU在CPL为3, 在执行程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5115.75" y="7390" width="346" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="myUvEMv8SW72hSV2DUZj-11" target="myUvEMv8SW72hSV2DUZj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-11" value="move_to_user_mode如何实现?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5170" y="7540" width="229" height="30" as="geometry" />
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-12" value="内核中存在部分CPL为3的用户代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5170" y="7500" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-13" value="IRET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5254.75" y="7599" width="59.5" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
