@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T22:27:50.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HbDKN0jefFKGLujZarLN" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T22:33:26.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JP7mFwV8KcJ4JakwRy4R" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1624" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -527,7 +527,7 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-87" value="&lt;span style=&quot;text-align: left;&quot;&gt;由于每个进程都有自己的栈信息, 那么处于R0的进程, 每个进程都有自己的TSS &lt;br&gt;===&amp;gt; 对应到task_struct里的tss&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4823.65" y="3929" width="486.35" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-90" value="&lt;span style=&quot;text-align: left;&quot;&gt;TSS中包含了stack segment的信息, 而已知段的信息都在GDT中, 所以GDT保存了多个进程的TSS, 当切换进程时, 切换对应的TSS即可&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-90" value="&lt;span style=&quot;text-align: left;&quot;&gt;TSS中包含了stack segment的信息,&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;TSS也是一个segment, 那么就也由segment descriptor来定义;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;而已知段的信息都在GDT中, 所以GDT保存了多个进程的TSS(TSS只能保存在GDT中),当切换进程时, 切换对应的TSS即可&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4823.65" y="4029" width="486.35" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-92" value="GDT和LDT是两种Segment Descriptor Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
