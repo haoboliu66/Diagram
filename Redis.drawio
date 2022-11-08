@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T22:37:25.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gDxiqqOHqb1NbNTmwaru" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T22:41:21.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KDIKKIxAdWKzPRdA2gPQ" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1053" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1665" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -696,19 +696,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-158" value="TR" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="4454" y="5450" width="96" height="30" as="geometry" />
+          <mxGeometry x="4396.12" y="5440" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-159" value="tss1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="4660" y="5400" width="110" height="30" as="geometry" />
+          <mxGeometry x="4602.12" y="5390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-161" value="tss2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="4659.56" y="5500" width="110" height="30" as="geometry" />
+          <mxGeometry x="4601.68" y="5490" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-164" value="1, 把当前任务task1的上下文信息保存在其tss1内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4510" y="5340" width="160" height="60" as="geometry" />
+          <mxGeometry x="4452.12" y="5330" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-165" value="2, 切换TR指向要切换的task2的tss2, 即把tss2的segment selector加载到TR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4496" y="5530" width="174" height="80" as="geometry" />
+          <mxGeometry x="4438.12" y="5520" width="174" height="80" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-166" value="Task Switching - Intel开发手册" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="4359" y="4840" width="1291" height="50" as="geometry" />
@@ -783,7 +783,7 @@
           <mxGeometry x="4434.5" y="5660" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-1" value="Linux0.11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4377.88" y="5340" width="67" height="40" as="geometry" />
+          <mxGeometry x="4320" y="5330" width="67" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-2" value="Linux 2.6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3985" y="5360" width="95" height="30" as="geometry" />
@@ -792,7 +792,7 @@
           <mxGeometry x="3950" y="5400" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-5" value="通过ljmp指令, 保存上下文, 切换新task都是由CPU完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4811.06" y="5430" width="287" height="60" as="geometry" />
+          <mxGeometry x="4753.18" y="5420" width="287" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-7" value="A - TSS描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5298.06" y="5920" width="150" height="30" as="geometry" />
@@ -1123,6 +1123,24 @@
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-39" value="TSS段的segment selector不能放入segment register, 会产生GP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="4604" y="5090" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="myUvEMv8SW72hSV2DUZj-41" target="78qznXc0BcHg6qfN2T7a-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-41" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LTR&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="5670" width="72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="myUvEMv8SW72hSV2DUZj-42" target="78qznXc0BcHg6qfN2T7a-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-42" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;STR&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="5710" width="72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-45" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CPL 0&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4266" y="5670" width="72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="myUvEMv8SW72hSV2DUZj-46" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;any CPL&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4266" y="5710" width="72" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
