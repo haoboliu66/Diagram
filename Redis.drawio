@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T22:26:56.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KEZBlXg57L9qxqlijeOk" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T22:27:50.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HbDKN0jefFKGLujZarLN" version="20.5.1" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1624" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -531,7 +531,7 @@
           <mxGeometry x="4823.65" y="4029" width="486.35" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-92" value="GDT和LDT是两种Segment Descriptor Table" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4541" y="4044" width="270.06" height="30" as="geometry" />
+          <mxGeometry x="4404.94" y="4039" width="270.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-93" value="在CPU眼里, OS和普通程序没区别, 都是ISA指令集&lt;br&gt;&lt;br&gt;执行OS的程序时, 就标记CPL为0;&lt;br&gt;执行用户程序时, 就标记CPL为3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="3900" y="3399" width="379" height="70" as="geometry" />
@@ -582,16 +582,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-111" value="Segment Descriptor Type" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4369.94" y="4140" width="160.06" height="30" as="geometry" />
+          <mxGeometry x="4233.879999999999" y="4135" width="160.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-112" value="System Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4577.97" y="4092" width="160.06" height="28" as="geometry" />
+          <mxGeometry x="4441.91" y="4087" width="160.06" height="28" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-113" value="Code Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4577.97" y="4130" width="160.06" height="30" as="geometry" />
+          <mxGeometry x="4441.91" y="4125" width="160.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-114" value="Data Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4577.97" y="4170" width="160.06" height="30" as="geometry" />
+          <mxGeometry x="4441.91" y="4165" width="160.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-123" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" parent="1" source="78qznXc0BcHg6qfN2T7a-118" target="78qznXc0BcHg6qfN2T7a-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
