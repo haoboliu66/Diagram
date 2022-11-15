@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T21:51:01.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="i5sg-Q1uyHHqCROjv5H4" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T22:01:40.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="45qMV09BbX8-X8TI7qL5" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1051,8 +1051,8 @@
         <mxCell id="myUvEMv8SW72hSV2DUZj-9" value="若当前执行的IDT的门类型为Interrupt gate, 要清除IF flag&lt;br&gt;若当前执行的IDT的门类型为Trap gate, 不清除IF flag" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5115" y="7330" width="346" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="myUvEMv8SW72hSV2DUZj-10" value="IRET指令允许中断返回, 此时两种情况: &lt;br&gt;1, R0 - R0: 发生中断时, CPU在CPL为0, 在执行内核代码&lt;br&gt;2, R0 - R3: 发生中断时, CPU在CPL为3, 在执行程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5115.75" y="7390" width="364.25" height="50" as="geometry" />
+        <mxCell id="myUvEMv8SW72hSV2DUZj-10" value="IRET指令允许中断返回, 此时两种情况: &lt;br&gt;1, R0 - R0: 发生中断时, CPU在CPL为0, 在执行内核代码&lt;br&gt;2, R0 - R3: 发生中断时, CPU在CPL为3, 在执行程序代码; 一定是进入了内核执行中断程序代码, 然后再返回R3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5130.5" y="7390" width="389.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="myUvEMv8SW72hSV2DUZj-11" target="myUvEMv8SW72hSV2DUZj-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
