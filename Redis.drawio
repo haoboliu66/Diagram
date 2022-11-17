@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T10:06:38.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="W2Q1sm00nKGaO8QoXzzG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T11:22:04.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lXC148MHfMWKnWj7tG-q" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1740" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1121,8 +1121,8 @@
         <mxCell id="myUvEMv8SW72hSV2DUZj-33" value="找LDT, 进程的TSS包含了LDT信息, 那么当前进程是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5178.5" y="8220" width="278" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="myUvEMv8SW72hSV2DUZj-34" value="当前进程是0号进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5178.5" y="8280" width="278" height="40" as="geometry" />
+        <mxCell id="myUvEMv8SW72hSV2DUZj-34" value="当前进程是0号进程&lt;br&gt;0号进程是一个hard coded的INIT_TASK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="5203.38" y="8290" width="228.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-39" value="TSS段的segment selector不能放入segment register, 会产生GP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="4604" y="5090" width="175" height="40" as="geometry" />
