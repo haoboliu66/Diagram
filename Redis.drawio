@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T20:12:15.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="swlcp4C9phWxWgxLc53U" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T20:12:23.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="V4AsQZu90w_mnsklqKCS" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1455" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,7 +1250,7 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-38" value="Interrupts generated in software with INT n instruction cannot be masked by the IF flag in the EFLAGS register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5800" y="8780" width="422" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-40" value="许多人把由INT n指令引起的中断, 称为软中断, 大错特错" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-40" value="许多人把由INT n指令引起的中断, 称为软中断, 大错特错&lt;br&gt;应该叫软件中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5411" y="8720" width="409" height="40" as="geometry" />
         </mxCell>
       </root>
