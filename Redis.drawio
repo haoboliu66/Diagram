@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T19:44:19.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MtgW9BpSZ1NDjogIbrD8" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T19:45:24.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZaUrcvGo2MT9M_M4FqXu" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1455" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1178,6 +1178,9 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-2" value="中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5262" y="8950" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNLlFNaThgv2Ns9tUv_2-3" target="FNLlFNaThgv2Ns9tUv_2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-3" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5532" y="9010" width="70" height="30" as="geometry" />
         </mxCell>
@@ -1232,8 +1235,11 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-28" value="Software-generated interrupts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5319" y="8780" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-32" value="Software-generated interrupts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5560" y="8768" width="206" height="30" as="geometry" />
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-32" value="通过INT指令 + 操作数 来传递interrupt vector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5529" y="8780" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-34" value="Data bus传递interrupt vector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5520" y="9080" width="183.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
