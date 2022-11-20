@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T20:20:37.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LD9dh5AD0Ea0BAdTDJ_J" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T20:21:28.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="P8STb5ypVzd1N7eQCsTu" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1455" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -976,7 +976,7 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-101" value="发生了中断, 肯定要跳转到handler procedure的入口地址, 那么是如何跳转的?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="5143" y="7000" width="256" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-129" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-103" target="NoNFMW1x8-BxgoM4tv-2-104" edge="1">
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-103" target="NoNFMW1x8-BxgoM4tv-2-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-103" value="IDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -985,11 +985,8 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-104" target="FNLlFNaThgv2Ns9tUv_2-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-104" target="FNLlFNaThgv2Ns9tUv_2-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-104" value="IDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5200.000000000001" y="7240" width="80" height="25" as="geometry" />
+          <mxGeometry x="5214.000000000001" y="7240" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-128" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-106" target="NoNFMW1x8-BxgoM4tv-2-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1025,10 +1022,10 @@
           <mxGeometry x="5614" y="6960" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-118" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5577.060000000001" y="7242.5" width="80" height="25" as="geometry" />
+          <mxGeometry x="5565.000000000001" y="7240" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-120" value="segment selector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5388.88" y="7236.25" width="110.5" height="20" as="geometry" />
+          <mxGeometry x="5449.5" y="7230" width="110.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-122" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="5170.5" y="7210" width="40" height="10" as="geometry" />
@@ -1280,14 +1277,8 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNLlFNaThgv2Ns9tUv_2-48" target="NoNFMW1x8-BxgoM4tv-2-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-48" value="Interrupt Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5320.750000000001" y="7205" width="80" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNLlFNaThgv2Ns9tUv_2-49" target="NoNFMW1x8-BxgoM4tv-2-118">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-49" value="Trap Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5320.750000000001" y="7260" width="80" height="25" as="geometry" />
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-48" value="Interrupt/Trap Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5324.75" y="7240" width="119.25" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
