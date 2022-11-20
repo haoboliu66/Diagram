@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T22:33:25.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RAk7MDpAWcNxjlr1Hqa-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T20:20:26.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S9b9ZXND-Qoi1HyJyf7g" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-771" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1455" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,11 +982,14 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-103" value="IDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5075.000000000001" y="7275" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-124" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-104" target="NoNFMW1x8-BxgoM4tv-2-118" edge="1">
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-104" target="FNLlFNaThgv2Ns9tUv_2-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NoNFMW1x8-BxgoM4tv-2-104" target="FNLlFNaThgv2Ns9tUv_2-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-104" value="IDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5210.500000000001" y="7240" width="80" height="25" as="geometry" />
+          <mxGeometry x="5200.000000000001" y="7240" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-128" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-106" target="NoNFMW1x8-BxgoM4tv-2-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1022,16 +1025,16 @@
           <mxGeometry x="5614" y="6960" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-118" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5381.750000000001" y="7240" width="80" height="25" as="geometry" />
+          <mxGeometry x="5577.060000000001" y="7242.5" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-120" value="segment selector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5279.5" y="7220" width="110.5" height="20" as="geometry" />
+          <mxGeometry x="5388.88" y="7236.25" width="110.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-122" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="5170.5" y="7210" width="40" height="10" as="geometry" />
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-2" value="从GDT entry拿到handler procedure所在的段的base address, 根据偏移量拿到procedure的入口地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5471" y="7233.75" width="225.5" height="37.5" as="geometry" />
+          <mxGeometry x="5689.5" y="7236.25" width="225.5" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="myUvEMv8SW72hSV2DUZj-3" target="myUvEMv8SW72hSV2DUZj-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1273,6 +1276,18 @@
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-47" value="Gate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5114.9400000000005" y="9300" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNLlFNaThgv2Ns9tUv_2-48" target="NoNFMW1x8-BxgoM4tv-2-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-48" value="Interrupt Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320.750000000001" y="7205" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNLlFNaThgv2Ns9tUv_2-49" target="NoNFMW1x8-BxgoM4tv-2-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-49" value="Trap Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320.750000000001" y="7260" width="80" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
