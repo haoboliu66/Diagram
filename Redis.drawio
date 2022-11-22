@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T21:58:23.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Swoh1ozKjPU7Gg1nDbTs" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T21:58:30.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oNvJVzes5EIdScM1jlR9" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1455" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,7 +1250,7 @@
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-38" value="Interrupts generated in software with INT n instruction cannot be masked by the IF flag in the EFLAGS register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5800" y="8780" width="422" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FNLlFNaThgv2Ns9tUv_2-40" value="许多人把由INT n指令引起的中断, 称为软中断, 大错特错&lt;br&gt;应该叫软件中断; 软中断有特定的softirq, 在Linux高版本中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="FNLlFNaThgv2Ns9tUv_2-40" value="许多人把由INT n指令引起的中断, 称为软中断, 大错特错&lt;br&gt;应该叫软件中断; 软中断有特定的softirq(在Linux高版本中)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5411" y="8720" width="409" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-42" target="FNLlFNaThgv2Ns9tUv_2-44" edge="1">
