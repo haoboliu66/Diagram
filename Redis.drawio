@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T14:02:26.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="i-zhMVxBoOa5TsT8aOVE" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T14:02:55.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Z_Ktd4tw7T5aH02c2lfm" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1490" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -804,10 +804,10 @@
           <mxGeometry x="4753.18" y="5420" width="287" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-7" value="A - TSS描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5298.06" y="5920" width="150" height="30" as="geometry" />
+          <mxGeometry x="5298.06" y="5883" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-8" value="GDT 作用: 分段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5304" y="5890" width="140" height="20" as="geometry" />
+          <mxGeometry x="5304" y="5853" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-10" value="进程上下文(寄存器信息)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="4940.5" y="5685" width="190" height="40" as="geometry" />
@@ -816,94 +816,94 @@
           <mxGeometry x="4571" y="5670" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-21" value="A - 代码段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5298.06" y="5950" width="150" height="30" as="geometry" />
+          <mxGeometry x="5298.06" y="5913" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-22" value="A - 数据段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5298.06" y="5980" width="150" height="30" as="geometry" />
+          <mxGeometry x="5298.06" y="5943" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-23" target="NoNFMW1x8-BxgoM4tv-2-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-23" value="segment selector&lt;br style=&quot;font-size: 13px;&quot;&gt;(segment registers)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5098.06" y="5937.5" width="120" height="55" as="geometry" />
+          <mxGeometry x="5098.06" y="5900.5" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-24" target="NoNFMW1x8-BxgoM4tv-2-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-24" value="GDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5108.06" y="5895" width="80" height="25" as="geometry" />
+          <mxGeometry x="5108.06" y="5858" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-28" value="Task State Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="5016.5" y="4959" width="167" height="31" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-31" value="A - 堆段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5298.06" y="6010" width="150" height="30" as="geometry" />
+          <mxGeometry x="5298.06" y="5973" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-38" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-32" target="NoNFMW1x8-BxgoM4tv-2-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-32" value="假设进程A的描述符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5304" y="6070" width="140" height="20" as="geometry" />
+          <mxGeometry x="5304" y="6033" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-33" target="NoNFMW1x8-BxgoM4tv-2-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-33" value="由ELF可知, 一个进程的组成:&amp;nbsp;&lt;br&gt;1, 堆段: SS&lt;br&gt;2, 代码段: CS&lt;br&gt;3, 数据段: DS, FS, ES, GS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5080.5" y="6050" width="173.5" height="60" as="geometry" />
+          <mxGeometry x="5080.5" y="6013" width="173.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-36" value="由于segment register的宽度是16, 所以限制了GDT的表大小是 2^16 byte, 而每个描述符是8byte, 总共只能容纳8192个描述符, 所以能容纳的进程数量也有限&lt;br&gt;每个进程如果是4个描述符, 总共允许2048个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5500" y="6041.88" width="420" height="76.25" as="geometry" />
+          <mxGeometry x="5500" y="6004.88" width="420" height="76.25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-39" value="A - TSS描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5295.04" y="6160.75" width="150" height="30" as="geometry" />
+          <mxGeometry x="5295.04" y="6123.75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-40" target="NoNFMW1x8-BxgoM4tv-2-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-40" value="A - 描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5295.04" y="6190.75" width="150" height="30" as="geometry" />
+          <mxGeometry x="5295.04" y="6153.75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-43" target="NoNFMW1x8-BxgoM4tv-2-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-43" value="segment selector" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5103.29" y="6357.25" width="120" height="30.5" as="geometry" />
+          <mxGeometry x="5103.29" y="6320.25" width="120" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-45" target="NoNFMW1x8-BxgoM4tv-2-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-45" value="GDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5105.04" y="6135.75" width="80" height="25" as="geometry" />
+          <mxGeometry x="5105.04" y="6098.75" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-47" value="A - 代码段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5556.04" y="6327.75" width="150" height="30" as="geometry" />
+          <mxGeometry x="5556.04" y="6290.75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-48" value="A - 数据段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5556.04" y="6357.75" width="150" height="30" as="geometry" />
+          <mxGeometry x="5556.04" y="6320.75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-49" value="A - 堆段描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5556.04" y="6387.75" width="150" height="30" as="geometry" />
+          <mxGeometry x="5556.04" y="6350.75" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-51" value="设置二级描述符表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5516.04" y="6203.25" width="149" height="30" as="geometry" />
+          <mxGeometry x="5516.04" y="6166.25" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-52" value="由于 A - 描述符 指向的其他描述符都是与某个进程绑定的, 即进程私有, 那么这个描述符就是LDT描述符" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5259.44" y="6250" width="226.81" height="70" as="geometry" />
+          <mxGeometry x="5259.44" y="6213" width="226.81" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-53" value="提升到允许容纳4096个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5277" y="6224.62" width="191" height="33.13" as="geometry" />
+          <mxGeometry x="5277" y="6187.62" width="191" height="33.13" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-54" value="LDT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5576.04" y="6428.75" width="119" height="28" as="geometry" />
+          <mxGeometry x="5576.04" y="6391.75" width="119" height="28" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="1" source="NoNFMW1x8-BxgoM4tv-2-57" target="NoNFMW1x8-BxgoM4tv-2-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-57" value="LDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5105.04" y="6193.25" width="80" height="25" as="geometry" />
+          <mxGeometry x="5105.04" y="6156.25" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-58" value="段选择子改为直接访问进程自己的LDT, 同样也是作为index来访问LDT, 那么LDT的base address就是由LDT描述符指定, 访问LDT描述符的地址存放在另外一个寄存器LDTR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5250.04" y="6375.75" width="271.81" height="70" as="geometry" />
+          <mxGeometry x="5250.04" y="6338.75" width="271.81" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-74" value="LDTR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5319" y="6635" width="80" height="25" as="geometry" />
@@ -945,7 +945,7 @@
           <mxGeometry x="5369.7" y="6730" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-93" value="切换任务, 先切换TR, 再切换LDTR; &lt;br&gt;TR可以找到TSS, TSS里包含ldt的信息, 可以进行ldt的修改" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="5785.31" y="6342.75" width="360" height="60" as="geometry" />
+          <mxGeometry x="5759" y="6305.75" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-95" value="在Intel中, 只要想访问内存, 就必须先分段, 再分页, 无法绕开segmentation, 而分段的核心是GDT, 所以要处理异常, 中断, 肯定也是通过某种方式, 提供权限校验 + 段选择子, 查GDT跳转执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="5103.29" y="7090" width="333.41" height="60" as="geometry" />
