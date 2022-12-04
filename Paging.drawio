@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T22:24:18.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_3g2Z7crEOvjH-lwzNGu" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T22:26:02.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oXZNCsXZtFfxAH-o8iCa" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-3210" dy="-8863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,33 +98,8 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-36" value="20个bit - base addr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4350" y="11134" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-41" target="7bnNVgMgltM_X6Lc1Uql-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4360.058823529412" y="11390" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-41" target="7bnNVgMgltM_X6Lc1Uql-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4360.058823529412" y="11390" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-41" target="7bnNVgMgltM_X6Lc1Uql-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-41" value="32位地址 e.g 0xfffffff" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4292.5" y="11320" width="135" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-42" value="地址如何映射到某个页上?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4285" y="11250" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-43" value="12个bit - offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4250" y="11435" width="95" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-44" value="1, 找到所属页帧 (base address) =&amp;gt;&amp;nbsp; 4GB / 4KB = 2 ^ 20, 一共有2^20个页&lt;br&gt;2, 找到所属页帧的偏移量(在页内的offset) =&amp;gt; 2^12 = 4KB, 所以12个bit表示offset" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4485" y="11371" width="420" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-45" value="20个bit - base addr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4355" y="11435" width="110" height="30" as="geometry" />
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-44" value="二级页表, 思路和从GDT中分划出LDT类似" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4485" y="11310" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-46" value="20bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4549" y="11170" width="117.5" height="30" as="geometry" />
@@ -182,6 +157,15 @@
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-70" value="需要预先分配内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5085.61" y="11186.75" width="110" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-71" value="10bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4611" y="11400" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-72" value="12bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4676" y="11400" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-74" value="10bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4539" y="11400" width="72" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
