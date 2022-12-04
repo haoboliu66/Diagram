@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T15:29:34.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LdGEHVSR193EmD4eFpDy" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T15:30:34.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rqvuPsaB7KghJ6GHM0Fk" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1401" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1243,28 +1243,28 @@
           <mxGeometry x="5800" y="8780" width="422" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-40" value="许多人把由INT n指令引起的中断, 称为软中断, 大错特错&lt;br&gt;应该叫软件中断; 软中断有特定的softirq(在Linux高版本中)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5441" y="8720" width="359" height="40" as="geometry" />
+          <mxGeometry x="5234.5" y="8740" width="359" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-42" target="FNLlFNaThgv2Ns9tUv_2-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-42" value="OS(R0)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4825.94" y="8820" width="113" height="40" as="geometry" />
+          <mxGeometry x="4716" y="8739.5" width="113" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-44" target="FNLlFNaThgv2Ns9tUv_2-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-44" value="其他程序(R3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4825.94" y="8720" width="113" height="40" as="geometry" />
+          <mxGeometry x="4716" y="8639.5" width="113" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-45" value="INT or 硬件中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4963.94" y="8770" width="105" height="30" as="geometry" />
+          <mxGeometry x="4854" y="8689.5" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-46" value="IRET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4700.94" y="8770" width="105" height="30" as="geometry" />
+          <mxGeometry x="4591" y="8689.5" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-47" value="Gate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4831.88" y="8780" width="105" height="30" as="geometry" />
+          <mxGeometry x="4721.9400000000005" y="8699.5" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-48" target="NoNFMW1x8-BxgoM4tv-2-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1452,7 +1452,7 @@
           <mxGeometry x="5172.88" y="9665" width="69.12" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-107" value="PAGE_SIZE + (long)&amp;amp;init_task是给esp0赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5547" y="8490" width="263" height="30" as="geometry" />
+          <mxGeometry x="5254.44" y="8670" width="263" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5556.04" y="8540" width="247.71" height="40" as="geometry" />
@@ -1477,6 +1477,9 @@
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-118" value="&amp;amp;init_task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5538.63" y="8630" width="42.74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#FF3333;fontSize=18;fontColor=#FF3333;fillColor=#FFFFFF;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="5662.5" y="8394.5" width="35" height="245" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
