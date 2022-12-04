@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T19:45:21.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DmKkcJMzYz5G44SdIeTg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T19:46:38.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rzXGDHOadR1cH8WB8CaG" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-3210" dy="-8863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-32" value="12个bit - offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4200" y="11180" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-28" value="1, 找到所属页帧 (base address) =&amp;gt;&amp;nbsp; 4GB / 4KB = 4 * 1024&lt;br&gt;2, 找到所属页帧的偏移量(在页内的offset) =&amp;gt; 2^12 = 4KB, 所以12个bit表示offset&lt;br&gt;3, ,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-28" value="1, 找到所属页帧 (base address) =&amp;gt;&amp;nbsp; 4GB / 4KB = 1024&lt;br&gt;2, 找到所属页帧的偏移量(在页内的offset) =&amp;gt; 2^12 = 4KB, 所以12个bit表示offset&lt;br&gt;3, ,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4530" y="11030" width="420" height="90" as="geometry" />
         </mxCell>
       </root>
