@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T20:51:07.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X0nrVSai3Fbdl9Iqtv3U" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T21:07:26.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lw9qHQms8FGgSkmrST_b" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1401" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1548" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -857,7 +857,7 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-33" value="由ELF可知, 一个进程的组成:&amp;nbsp;&lt;br&gt;1, 堆段: SS&lt;br&gt;2, 代码段: CS&lt;br&gt;3, 数据段: DS, FS, ES, GS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5080.5" y="6013" width="173.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NoNFMW1x8-BxgoM4tv-2-36" value="由于segment register的宽度是16, 所以限制了GDT的表大小是 2^16 byte, 而每个描述符是8byte, 总共只能容纳8192个描述符, 所以能容纳的进程数量也有限&lt;br&gt;每个进程如果是4个描述符, 总共允许2048个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NoNFMW1x8-BxgoM4tv-2-36" value="由于segment register的宽度是16 (其中index占13个bit), 所以限制了GDT的表大小是 2^16 byte, 而每个描述符是8byte, 总共只能容纳8192个描述符, 所以能容纳的进程数量也有限&lt;br&gt;每个进程如果是4个描述符, 总共允许2048个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5500" y="6004.88" width="420" height="76.25" as="geometry" />
         </mxCell>
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-39" value="A - TSS描述符" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
