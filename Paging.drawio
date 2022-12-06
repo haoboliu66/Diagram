@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T10:32:30.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iSXKkkIiqC0fSH-0H9w2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T10:37:25.468Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5Fz5IZs32ea0uf6fBWnS" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-3420" dy="-8974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,14 +80,14 @@
             <mxPoint x="4355.058823529412" y="11090" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-29" target="7bnNVgMgltM_X6Lc1Uql-30">
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-132" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-29" target="7bnNVgMgltM_X6Lc1Uql-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-29" value="32位地址 e.g 0xfffffff" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4287.5" y="11020" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-30" value="地址如何映射到某个页上?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4280" y="10950" width="150" height="30" as="geometry" />
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-30" value="地址如何映射/ 定位到某个页帧上?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4422.5" y="11020" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-32" value="12个bit - offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4245" y="11134" width="95" height="30" as="geometry" />
@@ -283,6 +283,30 @@
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-122" value="CR2: Contains the linear address that caused a page fault" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5070" y="9580" width="176.78" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-124" value="&lt;font color=&quot;#000000&quot;&gt;4KB&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4288.75" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4349.75" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-126" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4411.75" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4472.75" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-128" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4533.25" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-129" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4594.25" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-130" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4656.25" y="10890" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-131" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="4717.25" y="10890" width="62" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
