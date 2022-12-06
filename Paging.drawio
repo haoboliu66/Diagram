@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T22:54:56.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="h4_txypx1vA1DZJgE8xU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T22:55:24.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wK68eOsyhHQee4Z1XST_" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2593" dy="-8974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-145" value="CR3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="4023.379999999999" y="11650" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-147" value="处理page fault需要把表项填上, 填的是page directory和page table, 这两个地址是由线性地址得来的, 所以需要拿到这个线性地址, Intel CPU会在CR2中保存这个地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-147" value="处理page fault需要把表项填上, 填的是page directory和page table, 这两个地址是由线性地址得来的, 所以需要拿到这个线性地址, Intel CPU会在CR2中保存这个导致了page fault的线性地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4600" y="11948" width="314.5" height="42.5" as="geometry" />
         </mxCell>
       </root>
