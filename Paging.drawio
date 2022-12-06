@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T10:48:58.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="j4lDb01-XIDOT0QKQ7Wb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T10:53:17.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vU9OAlCe1aSFKZ5E8END" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2593" dy="-8974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,17 +79,17 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-30" value="一个地址如何映射/ 定位到某个页帧上?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4110.75" y="10960" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-28" value="1, 找到所属页帧 (base address) =&amp;gt;&amp;nbsp; 4GB / 4KB = 2 ^ 20, 一共有2^20个页&lt;br&gt;2, 找到所属页帧的偏移量(在一个frame内的offset) =&amp;gt; 在一个frame内的offset范围一定是[0,4k-1], 那么2^12 = 4KB, 所以用12个bit表示offset" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4485" y="11056" width="405" height="54" as="geometry" />
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-28" value="1, 找到所属页帧 (base address) =&amp;gt;&amp;nbsp; 4GB / 4KB = 2 ^ 20, 一共有2^20个页; 问题是: 如果用20个bit对应frame的base addr, 是满足了在4GB中间内可以找到这个frame的base addr, 但是其他的元数据信息呢? 比如rwx权限信息, 是否在内存中等, 这样一看20位肯定是不够的; 假设我们用32个bit, 用20个来表示base addr, 剩下的bit由其他元数据填充&lt;br&gt;&lt;br&gt;2, 找到所属页帧的偏移量(在一个frame内的offset) =&amp;gt; 在一个frame内的offset范围一定是[0,4k-1], 那么2^12 = 4KB, 所以用12个bit表示offset" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4215" y="11050" width="635" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-44" value="引入&lt;font color=&quot;#ff3333&quot;&gt;二级页表&lt;/font&gt;, 思路和从GDT中分划出LDT类似" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4930" y="11320" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-46" value="20bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4561" y="11140" width="117.5" height="30" as="geometry" />
+          <mxGeometry x="4292.5" y="11180" width="117.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-47" value="12bit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4676" y="11140" width="92.5" height="30" as="geometry" />
+          <mxGeometry x="4407.5" y="11180" width="92.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-48" value="PTE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4941.39" y="11064" width="98" height="29" as="geometry" />
