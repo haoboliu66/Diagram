@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T12:08:09.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sejlMoWH2bkZT0D_h_Qu" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T12:10:56.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aEmr6VuC74j9GWJXlw22" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2522" dy="-8936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,8 +298,8 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-135" value="所以, 目前我们有这么一个4MB大小的表来存储所有frame的base addr和其他元数据; 每一个entry的数据结构对应一个frame的信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4315.25" y="11169" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-136" value="既然有2^20页, 即有2^20个entry, 所以地址中的20位我们可以当index来查表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="4163.38" y="11246.75" width="406.87" height="43.25" as="geometry" />
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-136" value="既然有2^20页, 即有2^20个entry, 所以地址中的20位我们可以当index来查表;&lt;br&gt;因此这4MB的内存必须是连续的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4163.38" y="11246.75" width="406.87" height="53.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
