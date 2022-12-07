@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T22:43:08.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="L0kkA_bjzYSRaXOw7C1-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T22:43:32.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eyc0UN7v8i6iXtvjVCcY" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2593" dy="-8974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-159" value="推理:&lt;br&gt;1, TLB表项有限&lt;br&gt;2, 若分页地址太多会导致TLB表项被换出&lt;br&gt;3, 所以我们可以采用大页分页内存来增加TLB命中率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5470.32" y="11160" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7bnNVgMgltM_X6Lc1Uql-161" value="大页内存(Large Page Size): 假设有128G的内存, page的粒度还是4KB的话, page的数量过多, 导致PTE过多, TLB的缓存会频繁换出 (thrashing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-161" value="大页内存(Large Page Size): 假设有128G的内存, page的粒度还是4KB的话, page的数量过多, 导致PTE过多, TLB的缓存会频繁换出 (thrashing); 此时可以改用page的粒度为4MB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5800" y="11156.75" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
