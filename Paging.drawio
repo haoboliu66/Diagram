@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T22:26:30.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="95kzFHoC4GXcaeydTtRl" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T22:27:33.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mSmcLn2NJiv7U4s4XgTR" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2185" dy="-8758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,10 +335,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-151" value="增加缓存, 保存之前已经存在的页表映射" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5280" y="11000" width="150" height="30" as="geometry" />
+          <mxGeometry x="5280" y="11000" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-157" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="7bnNVgMgltM_X6Lc1Uql-154" target="7bnNVgMgltM_X6Lc1Uql-156">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7bnNVgMgltM_X6Lc1Uql-154" value="TLB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5300" y="11070" width="110" height="24.5" as="geometry" />
+          <mxGeometry x="5347.5" y="11070.5" width="85" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7bnNVgMgltM_X6Lc1Uql-156" value="1, 每个进程有自己的页表&lt;br&gt;2, 每个进程有自己的虚拟地址空间&lt;br&gt;3, 每个进程的虚拟地址空间相同&lt;br&gt;4, 所以当切换进程时, TLB缓存需要清空" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5480" y="11040" width="260" height="85.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
