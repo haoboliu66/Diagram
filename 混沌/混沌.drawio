@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T21:32:38.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FYbove1tynd4YBxEo0TB" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-11T21:35:52.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LhD-pJxZHB2h9_MBd4Qi" version="20.5.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="3406" dy="2827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3023" dy="2625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2186,6 +2186,9 @@
         </mxCell>
         <mxCell id="yizZxFScUy-i8cX_ClRG-3" value="offset (IP)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-160" y="2106.5" width="70" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yizZxFScUy-i8cX_ClRG-7" value="由于在Linux高版本中没有真正使用分段, 所以segment selector除了访问GDT并跳转(Intel要求必须兼容分段)以外并无其他意义, logical address即为virtual address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-17.5" y="2033.5" width="307.5" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
