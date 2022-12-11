@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T21:37:15.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_gpR1zmiSarhP_g0Fc2V" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-11T21:37:32.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="k78QWg5l0U8bu38gXiMH" version="20.5.3" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2964" dy="3031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2094,7 +2094,7 @@
           <mxGeometry x="-106.25" y="1195.5" width="257.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-16" value="用segment selector (来自segment register的内容) 去请求访问某个segment, 所以segment selector包含了请求者的privilege level, 即RPL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="1627.5" width="380" height="49.5" as="geometry" />
+          <mxGeometry x="-85" y="1641.5" width="380" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" parent="1" source="iyVcx00RLuhnXQD0Ik-d-2" target="iyVcx00RLuhnXQD0Ik-d-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2106,13 +2106,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-18" value="code segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="1768.5" width="90" height="31" as="geometry" />
+          <mxGeometry x="-140" y="1765.12" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-19" value="conforming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="1732" width="90" height="31" as="geometry" />
+          <mxGeometry y="1728.62" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-20" value="non-conforming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-256.25" y="1792.75" width="90" height="31" as="geometry" />
+          <mxGeometry x="3.75" y="1789.37" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontSize=12;" parent="1" source="iyVcx00RLuhnXQD0Ik-d-25" target="iyVcx00RLuhnXQD0Ik-d-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
