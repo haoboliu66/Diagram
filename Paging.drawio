@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T23:01:47.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3Nkt5dLHxDxa2gdwtwRG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T23:03:49.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cqZEPVcb_t4_FvC9i97l" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2522" dy="-8936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -402,6 +402,9 @@
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-14" value="每个进程都有自己的页表结构, 然后需要CR3寄存器找到页表的首地址; 在CPU进行virtual address到physical address的转换时, 通过TLB来进行缓存加速查询&lt;br&gt;&lt;br&gt;切换进程要切换页表, 即要切换CR3的指向内容; 这时会导致TLB的内容被清空, CPU执行新的进程进行地址转换时, 速度会变慢" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="4471.59" y="12760" width="320.41" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-15" value="发生进程切换时:&amp;nbsp;&lt;br&gt;1, 保存进程OS上下文, CPU的上下文&lt;br&gt;2, Invalidate TLB (修改CR3指向新进程的页表)&lt;br&gt;3, fork出的新进程和旧进程有同样的代码和数据&lt;br&gt;4, 进程通信问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="4465.04" y="12890" width="284.96" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
