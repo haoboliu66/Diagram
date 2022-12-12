@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T15:27:26.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H8nfaq4IoN9WebXMtlx-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T15:28:11.242Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DM2UIFjz-ThGDQg2kgyR" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2522" dy="-8936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -520,8 +520,8 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-57" value="stack是进程私有数据, 而两个进程的执行的代码逻辑可能不同, 所以stack不能共享" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="5640" y="12830" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-58" value="发生线程切换时:&amp;nbsp;&lt;br&gt;1, 保存进程OS上下文, CPU的上下文 (打不破, 因为task_struct的内容固定的, 上下文信息必须切换)&lt;br&gt;2, Invalidate TLB (修改CR3指向新进程的页表)&lt;br&gt;3, fork出的新进程和旧进程有同样的代码和数据&lt;br&gt;4, 进程通信问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="5560" y="13040" width="450" height="70" as="geometry" />
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-58" value="发生线程切换时:&amp;nbsp;&lt;br&gt;1, 保存进程OS上下文, CPU的上下文&amp;nbsp; =&amp;gt; (打不破, 因为task_struct的内容固定的, 上下文信息必须切换)&lt;br&gt;2, Invalidate TLB (修改CR3指向新进程的页表)&amp;nbsp; &amp;nbsp;=&amp;gt; 解决, 共享页表, 无需切换&lt;br&gt;3, fork出的新进程和旧进程有同样的代码和数据&amp;nbsp; =&amp;gt;&amp;nbsp;&lt;br&gt;4, 进程通信问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5560" y="13040" width="480" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-59" value="还是task_struct, 也都是通过fork来创建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5630" y="12890" width="250" height="25" as="geometry" />
