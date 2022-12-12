@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T16:28:23.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FhTKS48kvrwZlCp6Lm6E" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T16:57:19.876Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="leOvLSUeeCa_gCZIhhBP" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
-    <mxGraphModel dx="-2766" dy="-9065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1998" dy="-8659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -548,13 +548,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-62" value="线程共享数据, 会存在数据同步问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5041.950000000001" y="13320" width="211.61" height="25" as="geometry" />
+          <mxGeometry x="5114.000000000001" y="13300" width="211.61" height="25" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-63" value="代码段, read-only, 因此无需同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5376" y="13240" width="194.84" height="20" as="geometry" />
+          <mxGeometry x="5448.05" y="13220" width="194.84" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-64" value="只读数据 .rodata 无需同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5511" y="13280" width="159.84" height="20" as="geometry" />
+          <mxGeometry x="5583.05" y="13260" width="159.84" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#4D9900;" edge="1" parent="1" source="UYWLvkjZm8iV5XMjYyYc-65" target="UYWLvkjZm8iV5XMjYyYc-64">
           <mxGeometry relative="1" as="geometry" />
@@ -563,19 +563,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-65" value="数据段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5376" y="13310" width="54.84" height="20" as="geometry" />
+          <mxGeometry x="5448.05" y="13290" width="54.84" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-67" value="共享可读可写数据, 需要同步, 即要考虑thread-safe的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="5511" y="13320" width="169.84" height="30" as="geometry" />
+          <mxGeometry x="5583.05" y="13300" width="169.84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-69" value="stack中的局部数据 (线程私有, 无需同步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5376" y="13370" width="244" height="30" as="geometry" />
+          <mxGeometry x="5448.05" y="13350" width="244" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-74" value="指令中的立即数, read-only, 无需同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5390" y="13417.5" width="210" height="26" as="geometry" />
+          <mxGeometry x="5462.05" y="13397.5" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-77" value="heap中的数据 (共享数据, 需要同步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="5390" y="13460" width="200" height="30" as="geometry" />
+          <mxGeometry x="5462.05" y="13440" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
