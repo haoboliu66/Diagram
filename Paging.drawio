@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T17:02:42.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NJDjMnJdvkfEygTll7xt" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T17:03:11.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="baVExXPbWiMo92t5-0uA" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2325" dy="-8832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -580,8 +580,14 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-77" value="heap中的数据 (共享数据, 需要同步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="5462.05" y="13440" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-82" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;fillColor=#4D9900;" edge="1" parent="1" source="UYWLvkjZm8iV5XMjYyYc-79" target="UYWLvkjZm8iV5XMjYyYc-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-79" value="意味着: 线程的切换也必定要OS参与, 切换时必定要从R3到R0, 必定会有性能损耗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5630" y="12940" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-81" value="能不能切换都在用户态, 不进入内核态?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6020" y="12940" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
