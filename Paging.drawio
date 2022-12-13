@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T14:59:11.394Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bZEBVhJUPy1ZFA9_I5UU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T14:59:50.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hTLCwhTUl-V5WCHOCifH" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2325" dy="-8832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,7 +587,7 @@
           <mxGeometry x="5630" y="12940" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-81" value="能不能切换都在用户态, 不进入内核态?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6020" y="12940" width="270" height="30" as="geometry" />
+          <mxGeometry x="6030" y="12940" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#FF9933;fillColor=#FF9933;curved=1;width=12.5;endSize=5.6499999999999995;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -597,6 +597,9 @@
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-84" value="1, 线程的本质是什么? 切换执行流并共享数据 (创建线程的方式只有一种: 传递执行流的入口) pthread_create" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6390" y="12935" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-86" value="clone底层也是fork syscall, 只不过clone带了很多clone flags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6190" y="13100" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
