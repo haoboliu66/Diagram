@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T16:21:05.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PBXuY3mspTJX7N9t0c_i" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T16:23:41.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GInDq6SJ1n7kpFbeg6Ts" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2726" dy="-9044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -608,7 +608,10 @@
           <mxGeometry x="6400" y="13142.5" width="360" height="255" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-89" value="body = http.get 同步阻塞 // 需要手动操作epoll, 比如使用netty或者jdk的selector&lt;br&gt;body.xxx 操作body数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6800" y="13052.5" width="330" height="67.5" as="geometry" />
+          <mxGeometry x="6800" y="13052.5" width="330" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-90" value="body = http.get&amp;nbsp; // 保存下一条指令的地址和CPU的上下文信息&lt;br&gt;表面看似是同步代码, 实际底层变成了异步回调&lt;br&gt;body.xxx 操作body数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6800" y="13130" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
