@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T12:37:13.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="jkRBbmhReqgGR5ZZUo0q" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T12:38:23.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MaeH8BasikqdTG0n0QuM" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2522" dy="-8936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -674,7 +674,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-113" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="6480" y="13890" width="220" height="30" as="geometry" />
+          <mxGeometry x="6480" y="13900" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-116" value="进程调度算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6530" y="13840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-117" value="轻量级进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6705" y="13820" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-118" value="虚拟核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6705" y="13760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-119" value="虚拟核的队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6620" y="13550" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-120" value="协程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="6700" y="13638.75" width="55" height="22.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
