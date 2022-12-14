@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T12:42:09.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H8oP2C-1HuzF7Olpv8jB" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T12:42:20.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7I0t2XemqK262QakRwmr" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2260" dy="-8797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -691,7 +691,7 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-120" value="协程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="6836" y="13938.75" width="55" height="22.5" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-121" value="由于CPU调度算法无法保证100%的公平, 所以势必导致任务分配的倾斜, 这是任务窃取算法的由来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-121" value="由于CPU调度算法无法保证100%的公平, 所以势必导致任务分配执行的倾斜, 这是任务窃取算法的由来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="6911" y="14160" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
