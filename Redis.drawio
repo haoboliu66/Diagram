@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T22:52:27.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5y7JrcpMeaj6OVrcaeNC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-15T22:53:37.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GTSCD_2jDAzeqNjgZAwZ" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -570,10 +570,10 @@
           <mxGeometry x="5579.93" y="3858" width="196" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-104" value="6.4.6 Calls and Ret Between Privilege Levels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="4244.93" y="4429" width="428" height="40" as="geometry" />
+          <mxGeometry x="4247" y="4370" width="428" height="40" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-105" value="这里特指从低特权级到高特权级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4307.870000000001" y="4479" width="270.06" height="30" as="geometry" />
+          <mxGeometry x="4309.9400000000005" y="4420" width="270.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-106" value="所以要切换栈时, 就从TSS拿出segment selector和stack pointer分别填入SS和SP寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="4522.93" y="4018" width="270.06" height="30" as="geometry" />
