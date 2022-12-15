@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T22:48:09.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6MC8SWwsmCR6BPgiBJSo" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-15T22:49:11.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="88aHt-U_D8y1W8qogcsI" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="663" dy="1664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,29 +467,32 @@
         <mxCell id="78qznXc0BcHg6qfN2T7a-60" value="Volume 1 - 6.4.5 Calls to Other Privilege Levels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="4338" y="3319" width="402" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-134" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#FF3333;" edge="1" parent="1" source="78qznXc0BcHg6qfN2T7a-61" target="78qznXc0BcHg6qfN2T7a-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-61" value="&lt;pre&gt;&lt;/pre&gt;&lt;span style=&quot;font-size: 9pt; background-color: initial;&quot;&gt;Code modules in lower privilege segments can only access modules operating at higher privilege segments by&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9pt;&quot;&gt;means of a tightly controlled and protected interface called a&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9pt;&quot;&gt;gate&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4320" y="3399" width="420" height="60" as="geometry" />
+          <mxGeometry x="4326.5" y="3390" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-62" value="&lt;pre&gt;&lt;/pre&gt;&lt;div title=&quot;Page 158&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;经过gate逻辑可以改变特权级&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4377.88" y="3507" width="192.12" height="21" as="geometry" />
+          <mxGeometry x="4375.5" y="3609" width="192.12" height="21" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" source="78qznXc0BcHg6qfN2T7a-63" target="78qznXc0BcHg6qfN2T7a-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-63" value="CPL 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="4769.5599999999995" y="3494" width="60" height="30" as="geometry" />
+          <mxGeometry x="4767.62" y="3713" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" source="78qznXc0BcHg6qfN2T7a-64" target="78qznXc0BcHg6qfN2T7a-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-64" value="Gate&lt;br&gt;Gate的特权级也是3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="4878" y="3479" width="120" height="60" as="geometry" />
+          <mxGeometry x="4876.06" y="3698" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-66" value="CPL 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="5050" y="3494" width="60" height="30" as="geometry" />
+          <mxGeometry x="5048.06" y="3713" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-68" value="&lt;pre&gt;&lt;/pre&gt;&lt;div title=&quot;Page 158&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;如果特权级低访问高, 没有先经过gate, 就报GP exception&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="4785.38" y="3399" width="420.62" height="60" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-68" value="&lt;pre&gt;&lt;/pre&gt;&lt;div title=&quot;Page 158&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;如果特权级低访问高, 没有先经过gate, 就报GP exception&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="4349.53" y="3490" width="374.37" height="41" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-71" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;access right information&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4592.93" y="3758" width="156" height="30" as="geometry" />
@@ -546,7 +549,7 @@
           <mxGeometry x="5379.94" y="5800" width="270.06" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-93" value="在CPU眼里, OS和普通程序没区别, 都是ISA指令集&lt;br&gt;&lt;br&gt;执行OS的程序时, 就标记CPL为0;&lt;br&gt;执行用户程序时, 就标记CPL为3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="3900" y="3399" width="379" height="70" as="geometry" />
+          <mxGeometry x="3920" y="3399" width="379" height="70" as="geometry" />
         </mxCell>
         <mxCell id="78qznXc0BcHg6qfN2T7a-95" value="1, 当发生特权级切换时, 栈也要切换, SS和SP寄存器决定了栈的位置, 因此需要保存SS和SP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="5507.93" y="3998" width="340" height="50" as="geometry" />
