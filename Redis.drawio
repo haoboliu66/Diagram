@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T22:48:29.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YY6iucCud8fUU_57vrSC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T22:52:51.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Q3VVvX7yLHdT4ZjxnZaU" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1171" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0VRtfcRHK_pPMFzEy5rY-136" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=18;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="5585.46" y="8480.5" width="780" height="240" as="geometry" />
-        </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-128" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=18;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4320" y="5310" width="730" height="300" as="geometry" />
         </mxCell>
@@ -1467,15 +1464,12 @@
           <mxGeometry x="5919.4" y="8555.5" width="427.06" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5632.5" y="8595.5" width="247.71" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0VRtfcRHK_pPMFzEy5rY-111" value="task_struct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5632.5" y="8595.5" width="68.85" height="40" as="geometry" />
+          <mxGeometry x="5695.04" y="8595.5" width="74.96" height="244.5" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-112" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;fontColor=#FF3333;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5633.46" y="8684.5" as="sourcePoint" />
-            <mxPoint x="5633.46" y="8638.5" as="targetPoint" />
+            <mxPoint x="5680" y="8685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-115" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;fontColor=#FF3333;curved=1;" edge="1" parent="1">
@@ -1488,7 +1482,7 @@
           <mxGeometry x="5859.46" y="8685.5" width="42.74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-118" value="&amp;amp;init_task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5615.09" y="8685.5" width="42.74" height="20" as="geometry" />
+          <mxGeometry x="5592.17" y="8820" width="42.74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-120" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#9933FF;fontSize=18;fontColor=#7F00FF;fillColor=#FFFFFF;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="5738.96" y="8450" width="35" height="245" as="geometry" />
@@ -1504,6 +1498,9 @@
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-133" value="这里的LDT内容如何对应到Segment Descriptor? 待解决" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="5199.57" y="8740.5" width="300.43" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-142" value="task_struct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5695.39" y="8595.5" width="74.96" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
