@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T17:26:45.296Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y3QLZM6WAL2F_snwuLx6" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T17:27:06.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nDmEHMfqSrEef__mcpt9" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2325" dy="-8832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -721,6 +721,9 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-136" value="sys_clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="6350" y="14410" width="98" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-153" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;fillColor=#FF9933;" edge="1" parent="1" source="UYWLvkjZm8iV5XMjYyYc-138" target="UYWLvkjZm8iV5XMjYyYc-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-138" value="mm_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4338.110000000001" y="13530" width="81.86" height="30" as="geometry" />
         </mxCell>
@@ -756,6 +759,9 @@
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-151" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4536.97" y="13590" width="20" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-152" value="代表了进程的虚拟地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="4213.69" y="13460" width="156" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
