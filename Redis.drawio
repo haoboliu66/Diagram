@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T11:16:32.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0Irz5xxkZVvFO9sE0L7x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T11:22:25.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="c57uLoNrTGQe0d1kEWK8" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1171" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1556" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1506,28 +1506,34 @@
           <mxGeometry x="5199.57" y="8740.5" width="300.43" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-144" value="每次创建进程时, 新的task_struct的地址都是在分配页的首地址,&amp;nbsp;&lt;br&gt;然后新任务的tss的esp0都指向这个页的末尾&lt;br&gt;这样一来, 在进入内核态时, 从tss取esp0, 减去一个page size的大小, 就可以获得task_struct的首地址了&lt;br&gt;&lt;br&gt;代码: copy_process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6863.94" y="8555.5" width="427.06" height="90" as="geometry" />
+          <mxGeometry x="6906.94" y="8555.5" width="427.06" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-145" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6630.54" y="8540" width="72.96" height="194.5" as="geometry" />
+          <mxGeometry x="6673.54" y="8540" width="72.96" height="194.5" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-149" value="esp0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6573" y="8535.5" width="42.74" height="20" as="geometry" />
+          <mxGeometry x="6616" y="8535.5" width="42.74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-150" value="&amp;amp;init_task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6573" y="8720.5" width="42.74" height="20" as="geometry" />
+          <mxGeometry x="6616" y="8720.5" width="42.74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-151" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#9933FF;fontSize=18;fontColor=#7F00FF;fillColor=#FFFFFF;rotation=-180;size=0.4714285714285714;" vertex="1" parent="1">
-          <mxGeometry x="6710" y="8541.5" width="35" height="190.5" as="geometry" />
+          <mxGeometry x="6753" y="8541.5" width="35" height="190.5" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-152" value="PAGE_SIZE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6745" y="8627.75" width="91.5" height="20" as="geometry" />
+          <mxGeometry x="6788" y="8627.75" width="91.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-153" value="PAGE_SIZE + (long)&amp;amp;init_task是给esp0赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="6898.74" y="8505.5" width="344.26" height="40" as="geometry" />
+          <mxGeometry x="6941.74" y="8505.5" width="344.26" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-154" value="task_struct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6630.54" y="8705.5" width="72.96" height="30" as="geometry" />
+          <mxGeometry x="6673.54" y="8705.5" width="72.96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-161" value="hi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6550" y="8536.25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-162" value="lo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6552" y="8721.25" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
