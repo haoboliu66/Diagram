@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T23:39:58.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="__WQbix1Hy2H5020DvHT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T23:41:30.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_7x7ggo1dO1xBTO8WwsR" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2185" dy="-8758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1024,8 +1024,8 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-267" value="如果发生了写操作 =&amp;gt; COW&lt;br&gt;通过异常来进行物理frames的复制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="5064.28" y="14343" width="188.22" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-269" value="极端情况下, 写多读少, 会导致频繁的缺页异常导致物理页发生大量的拷贝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="5060.62" y="14429" width="188.22" height="61" as="geometry" />
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-269" value="极端情况下, 写多读少, 由于COW会导致频繁的缺页异常导致物理页发生大量的拷贝, 可能某一时刻内存中有双倍的数据量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="5060.62" y="14429" width="188.22" height="81" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-286" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;fillColor=#FF9933;" edge="1" parent="1" source="UYWLvkjZm8iV5XMjYyYc-272" target="UYWLvkjZm8iV5XMjYyYc-284">
           <mxGeometry relative="1" as="geometry" />
