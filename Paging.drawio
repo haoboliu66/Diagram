@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T16:27:22.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="N-whPqy-5WSuM6TNVtmV" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T16:33:37.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hkUK5nWiyCUqDhD7YnIr" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2325" dy="-8832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -747,6 +747,9 @@
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-147" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="4536.97" y="13560" width="20" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-149" value="什么决定了虚拟地址空间的范围?&amp;nbsp;&lt;br&gt;其实就是CS + IP, 因为Linux没有分段 (或者说分段只分了一段), 所以CS不起作用, IP就是虚拟地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="4462.61" y="13325" width="282.75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
