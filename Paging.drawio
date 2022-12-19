@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T17:49:21.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xhhIDgKqSTTOceR_ZwtO" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T17:50:48.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hsp7lVWis2IBCSRH7jQj" version="20.5.3" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
-    <mxGraphModel dx="-1561" dy="-8428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-2185" dy="-8758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,8 +886,8 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-211" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="4915.97" y="13950" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-212" value="假如子进程创建出来是要加载另一个ELF执行, 那么复制物理frames没有意义, 因为复制了也根本用不到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4779.25" y="14120" width="276.76" height="60" as="geometry" />
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-212" value="1, 如果在复制进程时, 直接把物理frames也拷贝一份, 空间是不是消耗过大&lt;br&gt;2, 假如子进程创建出来是要加载另一个ELF执行, 那么复制物理frames没有意义, 因为复制了也根本用不到" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4789.68" y="14140" width="570.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
