@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T21:45:01.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-twjFUfkcaIqyIWwRJrJ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T21:46:59.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NH836wpV8CcuKP7ZQBRt" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-909" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1546,6 +1546,18 @@
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-183" value="IO" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fontSize=14;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="2650" y="1240" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-184" value="App" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-185" value="OS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1525" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-188" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1615" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-189" value="NIC" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1615" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
