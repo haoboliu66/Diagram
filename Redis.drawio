@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T21:49:26.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UA6ldTEkTOlDrX_9YGy7" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T21:50:34.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qqeqQFTG-tI5p8u6VqY0" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1565,8 +1565,8 @@
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-190" value="IO: 从硬件到OS, 从OS到App 以及反过来的过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3030" y="1360" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtfcRHK_pPMFzEy5rY-192" value="系统调用由OS提供, 所以研究核心在OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="3045" y="1440" width="300" height="40" as="geometry" />
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-192" value="IO就是读写, 系统调用由OS提供, 所以研究核心在OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3025" y="1430" width="335" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
