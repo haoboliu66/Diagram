@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T21:53:44.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0sRaXcLfruOXz9MaYy8K" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T21:54:12.121Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4bTvYO4qkaW68xV7A6fb" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1580,7 +1580,7 @@
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-195" value="Process" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="2880" y="1750" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtfcRHK_pPMFzEy5rY-197" value="CPU执行进程的IO操作时:&amp;nbsp;&lt;br&gt;1, 要么快速执行完成 (同步)&lt;br&gt;2, 要么不由自己完成 (异步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-197" value="CPU执行进程的IO操作时:&amp;nbsp;&lt;br&gt;1, 要么快速执行完成 (同步阻塞)&lt;br&gt;2, 要么不由自己完成 (异步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="3000" y="1761.25" width="240" height="58.75" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-198" value="IO操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
