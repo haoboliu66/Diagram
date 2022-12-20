@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T22:32:51.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3qhNOvdGeowqMuoHBeQf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T18:33:31.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QU_6c1SL2kJbx_w39Mmt" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1171" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1540,6 +1540,9 @@
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-164" value="GET_THEAD_INFO(%ebp)&lt;br&gt;&lt;br&gt;movl $-8192, %ebp&lt;br&gt;andl %esp, %ebp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6677.5" y="8790" width="162.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-181" value="IO:&lt;br style=&quot;font-size: 14px;&quot;&gt;同步, 异步, 同步非阻塞, 同步阻塞&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;系统调用: select, poll, epoll&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Redis: ae线程模型" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="940" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
