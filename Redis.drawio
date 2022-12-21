@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T23:10:47.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="q1uYxQmCqRwtva-iJgWm" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-21T23:13:28.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yCVVYe-C4dC5kPtV80vX" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1651,6 +1651,9 @@
         </mxCell>
         <mxCell id="YaWOBMBEirpZ_eKGVmX0-16" value="1, 磁盘由一组连续的空间组成&lt;br&gt;2, 为了方便管理 (避免外碎片, 利于快速分配)&lt;br&gt;3, 很容易想到: 将一系列连续空间划分为一个个的数据块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2670" y="2710" width="477" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-17" value="如何找到空数据块呢? 位图 =&amp;gt; 逻辑块位图&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前讲inode生成为一张表, 通过inode位图找到空的inode即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="2840" width="477" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
