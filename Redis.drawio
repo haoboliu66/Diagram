@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T16:40:28.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CaImj4Z-VVxbaEv2xWOd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-21T16:42:37.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="P68lewIbxNn4y4hEeMZZ" version="20.5.3" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1695" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1601,8 +1601,8 @@
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-202" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="2904" y="2103" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="0VRtfcRHK_pPMFzEy5rY-205" value="三种执行方式:&amp;nbsp;&lt;br&gt;1, CPU发指令给磁盘驱动器读数据, 读好了告诉CPU,&amp;nbsp;&lt;br&gt;2,&amp;nbsp;&lt;br&gt;3,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3030" y="1990" width="370" height="78.75" as="geometry" />
+        <mxCell id="0VRtfcRHK_pPMFzEy5rY-205" value="三种执行方式:&amp;nbsp;&lt;br&gt;1, CPU发指令给磁盘驱动器读数据, 等待读好了告诉CPU, CPU告诉驱动将数据传入到内存中, 等待传输完成后CPU继续执行&lt;br&gt;2, 引入中断, 磁盘驱动器和内存交互读写数据时, CPU继续执行指令, 好了之后中断CPU, 让CPU回复ack即可&lt;br&gt;3, DMA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="3030" y="1990" width="600" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-206" value="读磁盘指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2774" y="2084.38" width="96" height="30" as="geometry" />
