@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T11:06:01.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YOCaWnuyHHf6vxUaZP8f" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T17:50:43.499Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8UlsG6DWJ0sOAbE3kjtE" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1687" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1607,53 +1607,56 @@
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-206" value="读磁盘指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2774" y="2084.38" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-1" value="fdatasync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-1" value="fdatasync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2790.5" y="2425" width="82" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-2" value="fsync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-2" value="fsync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2790.5" y="2385" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-3" value="msync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-3" value="msync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2792.5" y="2465" width="72" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-4" value="只持久化数据, 不持久化元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-4" value="只持久化数据, 不持久化元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2894.75" y="2425" width="200.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YaWOBMBEirpZ_eKGVmX0-6" target="YaWOBMBEirpZ_eKGVmX0-7">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="YaWOBMBEirpZ_eKGVmX0-6" target="YaWOBMBEirpZ_eKGVmX0-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YaWOBMBEirpZ_eKGVmX0-6" target="YaWOBMBEirpZ_eKGVmX0-8">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="YaWOBMBEirpZ_eKGVmX0-6" target="YaWOBMBEirpZ_eKGVmX0-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-6" value="file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-6" value="file" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2803" y="2300" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YaWOBMBEirpZ_eKGVmX0-7" target="YaWOBMBEirpZ_eKGVmX0-12">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YaWOBMBEirpZ_eKGVmX0-7" target="YaWOBMBEirpZ_eKGVmX0-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-7" value="metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-7" value="metadata" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2917" y="2270" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-8" value="file data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-8" value="file data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2917" y="2320" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-11" value="持久化数据 + 元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-11" value="持久化数据 + 元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2909.5" y="2385" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-12" value="inode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-12" value="inode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3010" y="2270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-14" value="持久化mapped memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-14" value="持久化mapped memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2904.25" y="2465" width="155.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-15" value="内存映射肯定是一段vma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-15" value="内存映射肯定是一段vma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2792.5" y="2520" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-16" value="1, 磁盘由一组连续的空间组成&lt;br&gt;2, 为了方便管理 (避免外碎片, 利于快速分配)&lt;br&gt;3, 很容易想到: 将一系列连续空间划分为一个个的数据块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2670" y="2710" width="320" height="60" as="geometry" />
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-16" value="1, 磁盘由一组连续的空间组成&lt;br&gt;2, 为了方便管理 (避免外碎片, 利于快速分配)&lt;br&gt;3, 很容易想到: 将一系列连续空间划分为一个个的数据块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2674" y="2730" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YaWOBMBEirpZ_eKGVmX0-17" value="如何找到空数据块呢? 位图 =&amp;gt; 逻辑块位图&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前讲inode生成为一张表, 通过inode位图找到空的inode即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YaWOBMBEirpZ_eKGVmX0-17" value="如何找到空数据块呢? 位图 =&amp;gt; 逻辑块位图&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前讲inode生成为一张表, 通过inode位图找到空的inode即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2670" y="2840" width="477" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-1" value="磁盘的布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2685" y="2660" width="405" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
