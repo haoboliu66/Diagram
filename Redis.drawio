@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T13:12:43.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HPjo4sub5QCN2Dba7QJE" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T13:14:07.282Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YBYC0B00xS0T2QS-LXW_" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1734,10 +1734,13 @@
           <mxGeometry x="2820" y="3390" width="45" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-30" value="Buffer Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2560" y="3399" width="90" height="30" as="geometry" />
+          <mxGeometry x="2582.5" y="3399" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-31" value="磁盘块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2560" y="3472" width="90" height="30" as="geometry" />
+          <mxGeometry x="2582.5" y="3472" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-32" value="上层函数只访问buffer cache&lt;br&gt;如果buffer cache中的1一个数据块对应4个磁盘块, 访问一个磁盘块, 也要" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2965" y="3390" width="445" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
