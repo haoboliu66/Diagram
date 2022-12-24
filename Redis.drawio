@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T18:01:20.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CsfM9vEtuvwPriUJKPki" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T18:03:50.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xXZBguFUgF9FW-otR8a3" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1687" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1655,113 +1655,116 @@
         <mxCell id="YaWOBMBEirpZ_eKGVmX0-17" value="如何找到空数据块呢? 位图 =&amp;gt; 逻辑块位图&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前讲inode生成为一张表, 通过inode位图找到空的inode即可&lt;br&gt;&lt;br&gt;如何找到inode位图? inode表, 数据块起始地址, 数据块位图地址 =&amp;gt; 超级块&lt;br&gt;如何找到OS引导信息? 约定: 将OS的引导信息放在固定位置, 磁盘的 0 0 1 磁道的512字节处, 后面跟着的就是超级块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2670" y="2870" width="477" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-1" value="磁盘的布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-1" value="磁盘的布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2685" y="2660" width="405" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2676" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2722" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2768" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2814" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2860" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2906" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2951" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2997" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3043" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-12" value="推理:&amp;nbsp;&lt;br&gt;1, 在ELF中保存了程序的代码, 数据, 都是非活跃数据; 当ELF被加载到OS中后, 将会分配CPU上下文信息(寄存器): tss_struct, 和OS上下文信息 (task_struct)&lt;br&gt;2, 以上述思想来套用minix文件系统与OS中结构信息得出: 在磁盘上的信息为固定非活跃数据, 而加上了内存中minix文件系统的动态OS信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-12" value="推理:&amp;nbsp;&lt;br&gt;1, 在ELF中保存了程序的代码, 数据, 都是非活跃数据; 当ELF被加载到OS中后, 将会分配CPU上下文信息(寄存器): tss_struct, 和OS上下文信息 (task_struct)&lt;br&gt;2, 以上述思想来套用minix文件系统与OS中结构信息得出: 在磁盘上的信息为固定非活跃数据, 而加上了内存中minix文件系统的动态OS信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2670" y="3030" width="477" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-13" value="第四期-9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-13" value="第四期-9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2614" y="2660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-14" value="Character Devices: transfer data in character" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-14" value="Character Devices: transfer data in character" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2610.5" y="3199" width="254" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-15" value="Block Devices: transfer data in block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-15" value="Block Devices: transfer data in block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2616" y="3230" width="214" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-17" target="jT0ZRAZHR9PZF9_IbWlC-18">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-17" target="jT0ZRAZHR9PZF9_IbWlC-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-17" value="上层函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-17" value="上层函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2730" y="3324.5" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2685" y="3390" width="225" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2685" y="3466" width="225" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-22" value="a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-22" value="a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2685" y="3467" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-23" value="b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-23" value="b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2725" y="3467" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-24" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-24" value="c" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2765" y="3466" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-25" value="d" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-25" value="d" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2805" y="3466" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-26" value="A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-26" value="A" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2685" y="3390" width="45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-27" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-27" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2730" y="3390" width="45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-28" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-28" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2775" y="3390" width="45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-29" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-29" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2820" y="3390" width="45" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-30" value="Buffer Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-30" value="Buffer Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2582.5" y="3399" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-31" value="磁盘块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-31" value="磁盘块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2610" y="3472" width="62.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-32" target="jT0ZRAZHR9PZF9_IbWlC-33">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-32" target="jT0ZRAZHR9PZF9_IbWlC-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-32" value="上层函数只访问buffer cache&lt;br&gt;如果buffer cache中的1一个数据块大小对应4个磁盘块大小, 如果只想访问一个磁盘块a, 也要一次把abcd都读到buffer cache A内, 所以要访问4次磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-32" value="上层函数只访问buffer cache&lt;br&gt;如果buffer cache中的1一个数据块大小对应4个磁盘块大小, 如果只想访问一个磁盘块a, 也要一次把abcd都读到buffer cache A内, 所以要访问4次磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2940" y="3389" width="460" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-33" value="所以让buffer cache的数据块大小等于磁盘块大小, 以减少访问磁盘的次数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-33" value="所以让buffer cache的数据块大小等于磁盘块大小, 以减少访问磁盘的次数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2970" y="3472" width="400" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-35" target="jT0ZRAZHR9PZF9_IbWlC-37">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jT0ZRAZHR9PZF9_IbWlC-35" target="jT0ZRAZHR9PZF9_IbWlC-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-35" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-35" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2692" y="3611" width="68" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-37" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-37" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2691" y="3670" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-39" value="调用该方法访问磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-39" value="调用该方法访问磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2770" y="3670" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-40" value="一言以蔽之: 站在设计者角度来看, 不管是磁盘还是内存, 都是一段连续的空间被分割为一些等大的块。&lt;br&gt;如何找到这些块, 以及描述这些块呢? 是通过这些块的元数据, 所以磁盘文件的元数据是inode, 内存中缓存的元数据是buffer_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-40" value="一言以蔽之: 站在设计者角度来看, 不管是磁盘还是内存, 都是一段连续的空间被分割为一些等大的块。&lt;br&gt;如何找到这些块, 以及描述这些块呢? 是通过这些块的元数据, 所以磁盘文件的元数据是inode, 内存中缓存的元数据是buffer_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2687.5" y="3767" width="352.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="DRmayGAlyZdurDBzoNrZ-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="2626.34" y="4018" width="199.33" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
