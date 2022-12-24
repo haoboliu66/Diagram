@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T17:03:23.505Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7J1dIQ_VsYeyVGFa7hyr" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T17:08:08.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6tVv2txJ1hkcLQOikzRm" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1687" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1747,6 +1747,12 @@
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-33" value="所以让buffer cache的数据块大小等于磁盘块大小, 以减少访问磁盘的次数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2970" y="3472" width="400" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-35" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2692" y="3611" width="68" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-37" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="3660" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
