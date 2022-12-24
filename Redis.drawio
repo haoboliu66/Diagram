@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T22:10:58.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KU82fcz9DCt_N431CdDV" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T22:11:10.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ENoWHvjG8xyeqjJnQsxg" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1775,8 +1775,8 @@
         <mxCell id="DRmayGAlyZdurDBzoNrZ-3" value="代表一个进程打开的文件的元数据信息, 关键在于m_inode(内存中的动态信息)和off_t" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2853" y="4048" width="247" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="96s2eFg4K_mObEHkeoU3-1" value="这个信息包含了内存关键信息, 不能暴露给R3的进程, 所以必须给进程另一个表示这个file的信息的信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3147" y="4048" width="283" height="30" as="geometry" />
+        <mxCell id="96s2eFg4K_mObEHkeoU3-1" value="这个信息包含了内存关键信息, 不能暴露给R3的进程, 所以必须给进程另一个表示这个file的信息的信息 =&amp;gt; fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3147" y="4048" width="323" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
