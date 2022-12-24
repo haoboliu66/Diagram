@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T17:13:33.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YMk0bIWtIxCxTVxh2gV3" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T17:17:49.073Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HC0Z3ZfnlIXxD8kEg9zk" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1759,6 +1759,9 @@
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-39" value="调用该方法访问磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2770" y="3670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-40" value="一言以蔽之: 站在设计者角度来看, 不管是磁盘还是内存, 都是一段连续的空间被分割为一些等大的块。&lt;br&gt;如何找到这些块, 以及描述这些块呢? 是通过这些块的元数据, 所以磁盘文件的元数据是inode, 内存中缓存的元数据是buffer_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2665" y="3798" width="315" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
