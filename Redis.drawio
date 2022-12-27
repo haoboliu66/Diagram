@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T21:38:28.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eSiz8IFnLVECXrpDg-Qt" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-27T21:39:23.941Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JR07FdwOqzi6pC3a2TZj" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1844,6 +1844,15 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-39" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2844" y="5065" width="62" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-41" target="_245oeY9RCdSn1jGROWi-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2654" y="5030" />
+              <mxPoint x="2690" y="5030" />
+              <mxPoint x="2690" y="5023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-41" value="指令流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2623" y="5065" width="62" height="35" as="geometry" />
         </mxCell>
@@ -1855,6 +1864,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-45" value="如何保证指令得原子性? 关闭中断即可, 调用指令cli, 因为切换任务需要响应时钟中断, 关闭了中断, 保证了原子性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2591.25" y="5170" width="453.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-46" value="schedule" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2737" y="5005" width="62" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
