@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T21:13:05.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5D57kfXQiPVNTMwTAepk" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-27T21:13:25.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="k0QaqMh-R8A8HO21_Yyj" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1653,7 +1653,7 @@
           <mxGeometry x="2674" y="2730" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YaWOBMBEirpZ_eKGVmX0-17" value="如何找到空数据块呢? 位图 =&amp;gt; 逻辑块位图&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前把inode生成为一张表, 通过inode位图找到空的inode即可&lt;br&gt;&lt;br&gt;如何找到inode位图? inode表, 数据块起始地址, 数据块位图地址 =&amp;gt; 超级块&lt;br&gt;如何找到OS引导信息? 约定: 将OS的引导信息放在固定位置, 磁盘的 0 0 1 磁道的512字节处, 后面跟着的就是超级块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2670" y="2870" width="477" height="130" as="geometry" />
+          <mxGeometry x="2670" y="2880" width="477" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-1" value="磁盘的布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2685" y="2660" width="405" height="30" as="geometry" />
