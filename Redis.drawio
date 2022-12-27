@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T21:13:25.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="k0QaqMh-R8A8HO21_Yyj" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-27T21:38:16.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ojJrj8IIvuBRuS9QnHCb" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1831,6 +1831,30 @@
             <mxPoint x="2689" y="4767" as="sourcePoint" />
             <mxPoint x="2689" y="4787" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-42" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-38" target="_245oeY9RCdSn1jGROWi-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-38" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2737" y="5065" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-39" target="_245oeY9RCdSn1jGROWi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-39" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2844" y="5065" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-41" value="指令流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2623" y="5065" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-44" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-43" target="_245oeY9RCdSn1jGROWi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-43" value="EFLAGS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2737" y="5127.5" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-45" value="如何保证指令得原子性? 关闭中断即可, 调用指令cli, 因为切换任务需要响应时钟中断, 关闭了中断, 保证了原子性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2596.25" y="5180" width="453.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
