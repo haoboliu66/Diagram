@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-31T15:23:12.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="S6q8K2y6g1jyyHfZhmrm" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-31T15:24:46.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="vlxGaAV6zISqnUc6IVu_" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1924,6 +1924,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-70" value="设备只有一个队列, 该队列缓存了待执行的读写请求&lt;br&gt;1, 若队列为空, 表示当前进程是第一个操作这个设备的进程, 它就得负责处理整个队列的请求&lt;br&gt;2, 若队列不空, 那么表示已经有其他进程正在处理这些请求, 当前进程只需要把请求放入队列即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2681" y="5876.5" width="349" height="73.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-71" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2677" y="5990" width="306" height="30.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
