@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-31T15:21:35.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="O4kyQ1-GMv-r41u96MvP" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-31T15:23:07.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ycNXJH7d-2ebrliMM5-o" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1911,7 +1911,7 @@
           <mxGeometry x="2760" y="5600" width="206" height="37" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-66" value="elevator-machanism" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2677" y="5782" width="128" height="22" as="geometry" />
+          <mxGeometry x="2680" y="5754" width="128" height="22" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-67" target="_245oeY9RCdSn1jGROWi-68">
           <mxGeometry relative="1" as="geometry" />
@@ -1921,6 +1921,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-68" value="请求队列" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2825" y="5823" width="75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-70" value="设备只有一个队列, 该队列缓存了待执行的读写请求&lt;br&gt;1, 若队列为空, 表示当前进程是第一个操作这个设备的进程, 它就得负责处理整个队列的请求&lt;br&gt;2, 若队列不空, 那么表示已经有其他进程正在处理这些请求, 当前进程只需要把请求放入队列即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2681" y="5876.5" width="349" height="63.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
