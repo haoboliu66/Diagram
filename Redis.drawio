@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:34:35.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eE3cxnsmmVbPAnjnI9pF" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T18:34:56.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pECvhxu7ZruD-AQkA2Vm" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1758,97 +1758,97 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-38" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2780.5" y="5528" width="62" height="35" as="geometry" />
+          <mxGeometry x="2780.5" y="5732.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-39" target="_245oeY9RCdSn1jGROWi-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-39" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2887.5" y="5528" width="62" height="35" as="geometry" />
+          <mxGeometry x="2887.5" y="5732.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-41" target="_245oeY9RCdSn1jGROWi-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2697.5" y="5485" />
-              <mxPoint x="2733.5" y="5485" />
-              <mxPoint x="2733.5" y="5478" />
+              <mxPoint x="2697.5" y="5689.5" />
+              <mxPoint x="2733.5" y="5689.5" />
+              <mxPoint x="2733.5" y="5682.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-41" value="指令流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2666.5" y="5528" width="62" height="35" as="geometry" />
+          <mxGeometry x="2666.5" y="5732.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-44" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-43" target="_245oeY9RCdSn1jGROWi-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-43" value="EFLAGS(IF)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2780.5" y="5590.5" width="62" height="22.5" as="geometry" />
+          <mxGeometry x="2780.5" y="5795" width="62" height="22.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-45" value="如何保证指令的原子性? 关闭中断即可, 调用指令cli, 因为切换任务需要响应时钟中断, 关闭了中断, 保证了原子性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2613.5" y="5625" width="453.75" height="30" as="geometry" />
+          <mxGeometry x="2613.5" y="5829.5" width="453.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-46" value="schedule" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2780.5" y="5460" width="62" height="35" as="geometry" />
+          <mxGeometry x="2780.5" y="5664.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-49" value="程序主动调用schedule进行任务切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2549.5" y="5465" width="186" height="15" as="geometry" />
+          <mxGeometry x="2549.5" y="5669.5" width="186" height="15" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-50" value="关闭了时钟中断, CPU无法进行任务切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2743.5" y="5500" width="207" height="20" as="geometry" />
+          <mxGeometry x="2743.5" y="5704.5" width="207" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-52" target="_245oeY9RCdSn1jGROWi-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-52" value="在将数据由内存写入磁盘时, 如果把一个队列里的很多数据依次写入磁盘, 可能会导致随机写的现象, 即磁头频繁大范围移动, 写一个位置, 然后跳到另一个位置写; 所以最理想的操作应该是依次写, 这样磁头每次移动的范围最小; 所以就需要把队列中的数据按照要写的位置来组织排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2620.5" y="5766" width="420" height="79" as="geometry" />
+          <mxGeometry x="2620.5" y="5970.5" width="420" height="79" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-53" target="_245oeY9RCdSn1jGROWi-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-53" value="这就是IO调度队列出现的原因: 为了优化写硬件的性能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3093" y="5790" width="276" height="30" as="geometry" />
+          <mxGeometry x="3093" y="5994.5" width="276" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-56" value="磁盘的读和写, 读对性能影响比较重要; &lt;br&gt;(Reads are more time-critical than writes)&lt;br&gt;因此在队列调度上, 考虑把读请求放在写前面; 但是如果读特别多, 会造成写饥饿 (算法优化问题)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3047" y="5875" width="343" height="60" as="geometry" />
+          <mxGeometry x="3047" y="6079.5" width="343" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-59" value="IO Scheduler Layer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3124" y="5755" width="206" height="30" as="geometry" />
+          <mxGeometry x="3124" y="5959.5" width="206" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-60" target="_245oeY9RCdSn1jGROWi-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-60" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2723.5" y="6052.5" width="62" height="35" as="geometry" />
+          <mxGeometry x="2723.5" y="6257" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-64" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-61" target="_245oeY9RCdSn1jGROWi-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-61" value="Driver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2723.5" y="6120" width="62" height="35" as="geometry" />
+          <mxGeometry x="2723.5" y="6324.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-62" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2819.5" y="6120" width="62" height="35" as="geometry" />
+          <mxGeometry x="2819.5" y="6324.5" width="62" height="35" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-65" value="CPU调用驱动来访问磁盘, CPU是Intel的, 所以这个访问流程要看Intel手册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2803.5" y="6055" width="206" height="37" as="geometry" />
+          <mxGeometry x="2803.5" y="6259.5" width="206" height="37" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-66" value="elevator-machanism" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2723.5" y="6209" width="128" height="22" as="geometry" />
+          <mxGeometry x="2723.5" y="6413.5" width="128" height="22" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-67" target="_245oeY9RCdSn1jGROWi-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-67" value="设备" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2728.5" y="6278" width="75" height="27" as="geometry" />
+          <mxGeometry x="2728.5" y="6482.5" width="75" height="27" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-68" value="请求队列" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2868.5" y="6278" width="145" height="27" as="geometry" />
+          <mxGeometry x="2868.5" y="6482.5" width="145" height="27" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-70" value="设备只有一个队列, 该队列缓存了待执行的读写请求&lt;br&gt;1, 若队列为空, 表示当前进程是第一个操作这个设备的进程, 它就得负责处理整个队列的请求&lt;br&gt;2, 若队列不空, 那么表示已经有其他进程正在处理这些请求, 当前进程只需要把请求放入队列即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2724.5" y="6331.5" width="349" height="73.5" as="geometry" />
+          <mxGeometry x="2724.5" y="6536" width="349" height="73.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-71" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2720.5" y="6445" width="306" height="30.5" as="geometry" />
+          <mxGeometry x="2720.5" y="6649.5" width="306" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-73" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2646" y="4994" width="260" height="45" as="geometry" />
