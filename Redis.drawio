@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:45:08.340Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="k0OTazvX2ZThLtLmnLJi" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T18:45:42.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_F6qHFKdU1QXE_S8zWK8" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1007,9 +1007,6 @@
         <mxCell id="myUvEMv8SW72hSV2DUZj-16" value="模拟当前正在执行中断代码, 巧用iret指令切换特权级, 完成内核态到用户态的转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="5388.88" y="7630.5" width="288.25" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="myUvEMv8SW72hSV2DUZj-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#9933FF;" parent="1" source="myUvEMv8SW72hSV2DUZj-20" target="myUvEMv8SW72hSV2DUZj-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-20" value="既然是模拟执行, 那么一定要满足IRET的指令操作规范&lt;br&gt;i.e. 要按照顺序把SS, ESP, EFLAGS, CS, EIP压栈, 因为IRET执行返回时, 要依次弹出栈上的这些数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="5140" y="7691" width="290" height="60" as="geometry" />
         </mxCell>
@@ -1018,9 +1015,6 @@
         </mxCell>
         <mxCell id="myUvEMv8SW72hSV2DUZj-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#9933FF;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="5480" y="7891" width="330" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="myUvEMv8SW72hSV2DUZj-24" value="模拟是返回R3, 所以栈上一定要先压入R3的ss, esp, eflags, cs, eip, 这样在执行IRET时, 才能依次弹出这些数据, 顺利进入R3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5139.5" y="7771" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dQbRZ-1kvBHU6RiDlgxI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="myUvEMv8SW72hSV2DUZj-26" target="dQbRZ-1kvBHU6RiDlgxI-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1192,22 +1186,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-42" value="OS(R0)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4746.13" y="9070" width="113" height="40" as="geometry" />
+          <mxGeometry x="4886" y="9102" width="113" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-44" target="FNLlFNaThgv2Ns9tUv_2-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-44" value="其他程序(R3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4746.13" y="8970" width="113" height="40" as="geometry" />
+          <mxGeometry x="4886" y="9002" width="113" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-45" value="INT or 硬件中断" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4884.13" y="9020" width="105" height="30" as="geometry" />
+          <mxGeometry x="5024" y="9052" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-46" value="IRET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4621.13" y="9020" width="105" height="30" as="geometry" />
+          <mxGeometry x="4761" y="9052" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-47" value="Gate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4752.070000000001" y="9030" width="105" height="30" as="geometry" />
+          <mxGeometry x="4891.9400000000005" y="9062" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FNLlFNaThgv2Ns9tUv_2-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FNLlFNaThgv2Ns9tUv_2-48" target="NoNFMW1x8-BxgoM4tv-2-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
