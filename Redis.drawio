@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:13:03.562Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="o-M27qEe8rrQRtzkSfke" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T18:13:31.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LB3mXlidZm4qRUbwKOh5" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1548,16 +1548,16 @@
           <mxGeometry x="2650" y="1240" width="740" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-184" value="App" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="1420" width="250" height="50" as="geometry" />
+          <mxGeometry x="2722" y="1470" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-185" value="OS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="1520" width="250" height="55" as="geometry" />
+          <mxGeometry x="2720" y="1540" width="250" height="35" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-188" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="1620" width="100" height="55" as="geometry" />
+          <mxGeometry x="2720" y="1620" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-189" value="NIC" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2870" y="1620" width="100" height="55" as="geometry" />
+          <mxGeometry x="2870" y="1620" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-193" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="0VRtfcRHK_pPMFzEy5rY-190" target="0VRtfcRHK_pPMFzEy5rY-192" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1572,13 +1572,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-194" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="1750" width="100" height="55" as="geometry" />
+          <mxGeometry x="2720" y="1780" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-199" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" parent="1" source="0VRtfcRHK_pPMFzEy5rY-195" target="0VRtfcRHK_pPMFzEy5rY-198" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-195" value="Process" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="1750" width="100" height="55" as="geometry" />
+          <mxGeometry x="2880" y="1780" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-197" value="CPU执行进程的IO操作时:&amp;nbsp;&lt;br&gt;1, 要么快速执行完成 (同步阻塞)&lt;br&gt;2, 要么不由自己完成 (异步)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3000" y="1761.25" width="240" height="58.75" as="geometry" />
@@ -1590,16 +1590,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-200" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2714" y="1998" width="100" height="55" as="geometry" />
+          <mxGeometry x="2730" y="2020" width="84" height="33" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-201" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2904" y="1998" width="100" height="55" as="geometry" />
+          <mxGeometry x="2904" y="2020" width="100" height="33" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-204" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" parent="1" source="0VRtfcRHK_pPMFzEy5rY-202" target="0VRtfcRHK_pPMFzEy5rY-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-202" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="2904" y="2103" width="100" height="55" as="geometry" />
+          <mxGeometry x="2904" y="2103" width="100" height="27" as="geometry" />
         </mxCell>
         <mxCell id="0VRtfcRHK_pPMFzEy5rY-205" value="三种执行方式:&amp;nbsp;&lt;br&gt;1, CPU发指令给磁盘驱动器读数据, 等待读好了告诉CPU, CPU告诉驱动将数据传入到内存中, 等待传输完成后CPU继续执行&lt;br&gt;2, 引入中断, 磁盘驱动器和内存交互读写数据时, CPU继续执行指令, 好了之后中断CPU, 让CPU回复ack即可&lt;br&gt;3, 引入DMA, 由一个DMA控制器去沟通磁盘驱动和内存, 所有的数据块传输完成后, 中断CPU即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3030" y="1990" width="600" height="120" as="geometry" />
