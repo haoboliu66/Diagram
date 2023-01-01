@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:45:42.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_F6qHFKdU1QXE_S8zWK8" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T18:46:08.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xUU937h4GiyC8-F9jTwX" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -707,29 +707,31 @@
         <mxCell id="NoNFMW1x8-BxgoM4tv-2-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="78qznXc0BcHg6qfN2T7a-181" target="78qznXc0BcHg6qfN2T7a-174" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-181" value="TR与其他段寄存器类似, 用segment selector查完descriptor之后, 把TSS的segment descriptor缓存起来 (hidden part)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-181" value="TR与其他段寄存器类似, 用segment selector查完descriptor之后, 把TSS的segment descriptor缓存起来 (hidden part)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4314" y="5760" width="447" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-186" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" parent="1" source="78qznXc0BcHg6qfN2T7a-184" target="78qznXc0BcHg6qfN2T7a-185" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-186" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" target="78qznXc0BcHg6qfN2T7a-185" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4530.525" y="5911" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-184" value="访问TSS descriptor的程序要满足CPL &amp;lt;= DPL of TSS descriptor&lt;br&gt;即, 程序的特权级要高于或等于描述符的DPL, 这样的程序可以直接通过call或jump访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-184" value="访问TSS descriptor的程序要满足CPL &amp;lt;= DPL of TSS descriptor&lt;br style=&quot;font-size: 12px;&quot;&gt;即, 程序的特权级要高于或等于描述符的DPL, 这样的程序可以直接通过call或jump访问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4308.25" y="5853" width="447" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-189" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" parent="1" source="78qznXc0BcHg6qfN2T7a-185" target="78qznXc0BcHg6qfN2T7a-187" edge="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-189" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" source="78qznXc0BcHg6qfN2T7a-185" target="78qznXc0BcHg6qfN2T7a-187" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-185" value="意味着: R0的程序(CPL为0)可以直接访问所有TSS descriptor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4304.75" y="5963" width="447" height="50" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-185" value="意味着: R0的程序(CPL为0)可以直接访问所有TSS descriptor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="4304.75" y="5951" width="447" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-193" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=15;" parent="1" source="78qznXc0BcHg6qfN2T7a-187" target="78qznXc0BcHg6qfN2T7a-192" edge="1">
+        <mxCell id="78qznXc0BcHg6qfN2T7a-193" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" parent="1" source="78qznXc0BcHg6qfN2T7a-187" target="78qznXc0BcHg6qfN2T7a-192" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-187" value="那么R3的程序是如何access TSS descriptor呢?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4349.530000000001" y="6043" width="357.44" height="40" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-187" value="那么R3的程序是如何access TSS descriptor呢?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="4349.530000000001" y="6031" width="357.44" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="78qznXc0BcHg6qfN2T7a-192" value="&lt;font color=&quot;#ff8000&quot;&gt;猜测: 先陷入内核, 交给R0的程序来进行操作访问&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="4349.530000000001" y="6123" width="357.44" height="40" as="geometry" />
+        <mxCell id="78qznXc0BcHg6qfN2T7a-192" value="&lt;font color=&quot;#ff8000&quot; style=&quot;font-size: 12px;&quot;&gt;猜测: 先陷入内核, 交给R0的程序来进行操作访问&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="4349.530000000001" y="6111" width="357.44" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aqNnzrGA-GhruICb6tNx-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;segment selector&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4375.5" y="5660" width="135" height="30" as="geometry" />
