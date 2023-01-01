@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T16:20:47.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-66e7zSQ9T3AJE5q9iGk" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T16:42:04.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qE5RSxhfvMC3CF57j-8u" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1927,6 +1927,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-71" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2677" y="5990" width="306" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-73" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3023.75" y="4790" width="260" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
