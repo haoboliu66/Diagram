@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:14:49.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1naRQd3XInXEStBetyol" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T18:15:26.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mNSg7eNNjciHo50alBci" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1737,7 +1737,7 @@
           <mxGeometry x="2828" y="4866" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-28" value="缓冲块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2973.5" y="4866" width="107" height="30" as="geometry" />
+          <mxGeometry x="2970" y="4869" width="86.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-29" value="i_zone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3003.5" y="4910" width="60" height="30" as="geometry" />
@@ -1848,7 +1848,7 @@
           <mxGeometry x="2720.5" y="6445" width="306" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-73" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2960.88" y="4790" width="260" height="45" as="geometry" />
+          <mxGeometry x="2644" y="4955" width="260" height="45" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-74" target="_245oeY9RCdSn1jGROWi-84">
           <mxGeometry relative="1" as="geometry" />
