@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T16:54:08.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eCixWMQ-2zqvACs4-AMT" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T16:55:15.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="q9GYr3oaVyRyVeXHK4Db" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1753,6 +1753,9 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-42" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-38" target="_245oeY9RCdSn1jGROWi-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-150" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-151" target="_245oeY9RCdSn1jGROWi-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-38" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2780.5" y="5732.5" width="62" height="35" as="geometry" />
         </mxCell>
@@ -1988,6 +1991,18 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-146" value="OS调用访问硬件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2833" y="6214.5" width="100" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-148" value="指令流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2623" y="5777.5" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-151" value="x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="5767.5" width="34" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-152" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;endArrow=none;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-38" target="_245oeY9RCdSn1jGROWi-151">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2780.5" y="5750" as="sourcePoint" />
+            <mxPoint x="2698" y="5795" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
