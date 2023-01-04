@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T22:56:50.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JDm4D0pgJCpm_EN9OQ22" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T22:58:05.842Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="szFNNJmJaRTT_zmkH1Vm" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2073,10 +2073,22 @@
           <mxGeometry x="2705" y="7120" width="285" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-188" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2732.5" y="7180" width="75" height="30" as="geometry" />
+          <mxGeometry x="2740.5" y="7232.5" width="71" height="28.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-189" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2864.5" y="7180" width="75" height="30" as="geometry" />
+          <mxGeometry x="2873" y="7231" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-193" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-190" target="_245oeY9RCdSn1jGROWi-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-190" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2739" y="7170" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-192" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-191" target="_245oeY9RCdSn1jGROWi-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-191" value="8259A" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="7170" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
