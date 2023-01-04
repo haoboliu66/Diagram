@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T17:51:08.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3M9bozzOOt4KROMnt8hU" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T17:51:18.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="g6laIxwU22I_5QBD8_AA" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2049,7 +2049,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-171" value="一个进程从队列里拿, 另一个往队列里写, 产生了竞争, 需要critical section的同步, 这里要避免进程发生切换" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2755.75" y="6947.5" width="224.25" height="52.5" as="geometry" />
+          <mxGeometry x="2735.75" y="6947.5" width="264.25" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-173" value="&amp;nbsp;处理请求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3036.5" y="6845" width="56.75" height="19" as="geometry" />
@@ -2058,7 +2058,7 @@
           <mxGeometry x="2703.25" y="6889.5" width="56.75" height="19" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-178" value="关中断, 不让CPU切换进程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2792.5" y="7034" width="151.88" height="30" as="geometry" />
+          <mxGeometry x="2792.5" y="7020" width="151.88" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
