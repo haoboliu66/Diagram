@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T16:55:15.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="q9GYr3oaVyRyVeXHK4Db" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T17:34:41.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="k9ZAPpx1j-Q4nyN8ah0v" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1847,7 +1847,7 @@
           <mxGeometry x="2724.5" y="6536" width="349" height="73.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-71" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2720.5" y="6649.5" width="306" height="30.5" as="geometry" />
+          <mxGeometry x="2725" y="6660" width="306" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-73" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2646" y="4994" width="260" height="45" as="geometry" />
@@ -2003,6 +2003,47 @@
             <mxPoint x="2780.5" y="5750" as="sourcePoint" />
             <mxPoint x="2698" y="5795" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-153" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2721.5" y="6816.5" width="297.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-154" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2576" y="6740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-157" value="Request" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="6816.5" width="59" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-158" value="Request" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2803" y="6816.5" width="59" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-159" value="Request" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2876.75" y="6816.5" width="59" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-160" value="Request" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2949.5" y="6816.5" width="59" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-164" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3020" y="6841" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-161" value="进程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3073.5" y="6827.5" width="75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-162" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3073.5" y="6900" width="75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-167" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-165" target="_245oeY9RCdSn1jGROWi-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-165" value="进程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2601" y="6900" width="75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-169" value="倒霉蛋进程负责处理所有的请求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3040.5" y="6786" width="161" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-170" value="后续的进程只需要把自己的请求放到队列里" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2509" y="6860" width="161" height="29.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
