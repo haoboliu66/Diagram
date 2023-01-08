@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-08T21:32:35.545Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1NUB-3BSI9lPFUrJVD8C" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-08T22:08:16.421Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Odr-mU4k26zWK4EBqhCO" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1547" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2030,11 +2030,14 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-161" value="进程" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3100" y="6827.5" width="75" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-183" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-162" target="_245oeY9RCdSn1jGROWi-161">
+        <mxCell id="_245oeY9RCdSn1jGROWi-199" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-162" target="_245oeY9RCdSn1jGROWi-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-201" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-162" target="_245oeY9RCdSn1jGROWi-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-162" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3100" y="6901" width="75" height="30" as="geometry" />
+          <mxGeometry x="3222.5" y="6825.5" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-167" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-165" target="_245oeY9RCdSn1jGROWi-153">
           <mxGeometry relative="1" as="geometry" />
@@ -2067,7 +2070,7 @@
           <mxGeometry x="2678" y="7043" width="388" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-185" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3100" y="6981" width="75" height="30" as="geometry" />
+          <mxGeometry x="3222.5" y="6905.5" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-187" value="如果有多个CPU, 关中断如何保证原子性?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2705" y="7120" width="285" height="30" as="geometry" />
@@ -2101,6 +2104,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-198" value="2个8259A芯片串联, 扩充中断信号的支持" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=13;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="3019" y="7180" width="285" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-202" value="指令(in, out)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3279" y="6867" width="161" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
