@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T18:19:26.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gbbjxiiCqizztb6IS-6u" version="20.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-08T10:58:23.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="h-o07dDuOQrWxI1RJkvV" version="20.7.4" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
-    <mxGraphModel dx="2448" dy="2794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2448" dy="2756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2184,10 +2184,10 @@
         <mxCell id="yizZxFScUy-i8cX_ClRG-7" value="由于在Linux高版本中没有真正使用分段, 所以segment selector除了访问GDT并跳转(Intel要求必须兼容分段)以外并无其他意义, logical address即为virtual address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-17.5" y="2033.5" width="307.5" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="D89bCjxgyBlKvxqqIS8h-1" value="Memory Address Register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="D89bCjxgyBlKvxqqIS8h-1" value="Memory Address Register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="2533.6099999999997" y="685" width="124.26" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D89bCjxgyBlKvxqqIS8h-2" value="Memory Buffer Register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="D89bCjxgyBlKvxqqIS8h-2" value="Memory Buffer Register" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="2533.6099999999997" y="747" width="124.26" height="30" as="geometry" />
         </mxCell>
       </root>
