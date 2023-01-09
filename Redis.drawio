@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T21:22:35.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9hQ-1kdjaowR30UfQsHS" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T21:23:41.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5KJ3MMXryeneP0L9_n2E" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1703,10 +1703,10 @@
           <mxGeometry x="3071.5" y="4420" width="247" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-1" value="文件的读写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2640" y="4600" width="405" height="30" as="geometry" />
+          <mxGeometry x="2643.66" y="4629" width="405" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-2" value="第四期-10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2566.34" y="4600" width="60" height="30" as="geometry" />
+          <mxGeometry x="2570" y="4629" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-3" value="file*" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2640" y="4790" width="49" height="30" as="geometry" />
@@ -2133,7 +2133,10 @@
           <mxGeometry x="3625.25" y="7110.5" width="41" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-214" value="CPU发送指令给寄存器, 控制器从寄存器中拿指令, 把数据区中数据读到缓冲区, 然后缓冲区的数据返回给CPU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3730" y="6888" width="290" height="39" as="geometry" />
+          <mxGeometry x="3740" y="6879.5" width="290" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-215" value="代码中通过port来映射磁盘的寄存器 (类似fd映射了文件结构)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="6949.25" width="310" height="30.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
