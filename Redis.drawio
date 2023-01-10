@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T18:12:51.551Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="08QJVKvxjjCOHb3quuJi" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T20:03:42.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="T9GlrUE-YKbny8HJjo5O" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2123,6 +2123,14 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-209" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3590" y="7000" width="111.5" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-216" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-210" target="_245oeY9RCdSn1jGROWi-204">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3550" y="7042" />
+              <mxPoint x="3550" y="6886" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-210" value="缓冲区" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3590" y="7028" width="111.5" height="28" as="geometry" />
         </mxCell>
@@ -2137,6 +2145,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-215" value="代码中通过port来映射磁盘的寄存器 (类似fd映射了文件结构)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3740" y="6949.25" width="310" height="30.75" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-218" value="写到缓冲区后, 中断通知CPU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="6957" width="150" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
