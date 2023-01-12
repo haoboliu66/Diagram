@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T11:39:12.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Qc7c22edvHITGS8rfEoX" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T11:40:59.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Q4eLHJPabj0Luq2dZcOc" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2194,7 +2194,7 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-234" value="指令(in, out)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3925.75" y="7247.88" width="71" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-251" value="倒霉蛋进程提交request给磁盘, 磁盘异步写, 提交request的进程阻塞, 硬盘通过中断回调CPU, CPU调度其他进程来执行中断函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="_245oeY9RCdSn1jGROWi-251" value="倒霉蛋进程A提交request给磁盘, 磁盘异步写, 提交request的进程A阻塞, 硬盘通过中断回调CPU, CPU调度其他进程来执行中断函数, 中断函数会唤醒阻塞的进程A" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3510" y="7306.5" width="321.62" height="49" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-252" value="虽然是异步写, 进程也要阻塞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
