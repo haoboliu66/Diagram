@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T19:47:01.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ya-oAzTQzcW7GUA_vkkM" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T20:45:34.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="O0m6j5MaVzbRx6iYYiGf" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2205,6 +2205,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-254" value="CPU复制, 就是CPU执行指令拷贝数据, 比如insw, 把磁盘缓冲区的数据, 复制到内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3449.5" y="7628" width="352.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-256" value="page表示一个页&lt;br&gt;buffer_head表示一个高速缓冲区&lt;br&gt;inode表示一个文件的元数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3183.5" y="7442" width="206.5" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
