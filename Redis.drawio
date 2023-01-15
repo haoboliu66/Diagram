@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T22:13:41.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gC-UeXHeFvnAXxM2mBvu" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T22:17:30.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="keF8Ipy7MOXKDJ35eBbW" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1670,16 +1670,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-35" value="buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2692" y="3611" width="68" height="29" as="geometry" />
+          <mxGeometry x="2693" y="3611" width="68" height="29" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-37" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2691" y="3670" width="70" height="30" as="geometry" />
+          <mxGeometry x="2692" y="3670" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-39" value="调用该方法访问磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="3670" width="110" height="30" as="geometry" />
+          <mxGeometry x="2771" y="3670" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-40" value="一言以蔽之: 站在设计者角度来看, 不管是磁盘还是内存, 都是一段连续的空间被分割为一些等大的块。&lt;br&gt;如何找到这些块, 以及描述这些块呢? 是通过这些块的元数据, 所以磁盘文件的元数据是inode, 内存中缓存的元数据是buffer_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2687.5" y="3767" width="352.5" height="82" as="geometry" />
+          <mxGeometry x="2683" y="3720" width="352.5" height="82" as="geometry" />
         </mxCell>
         <mxCell id="DRmayGAlyZdurDBzoNrZ-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAASsAAACWCAYAAACGh66rAAAXdUlEQVR4nO2d72scR5rHPzbnf0BJ9o1WcL5IIlr7XsmHfsFuILBIcsQmizAsFgnEYXSHjaQlMoGwWcvrYBCxsBRsDgn7IMHmYBHngB2NCCybZJEtsfa7dbR4JjGc8YtNfPoHBJp7UV3ump6anv6lme6Z52OKmel+prqmrXmm6qmnvnWgp6enhMP29jaCIAhp5GCjGyAIghAEcVaCIGQCcVaCIGQCcVZxGITFNSiUoGSWAgxWe0/OtS+s+VefW/PUG6R+QWhSxFlFJQeFDZgegc4Qb1s869p3jsCieB1BCIQ4q4iYTicMMx9D0XlezMPM3SRbJQjNizirKAzCccNT5SfhwAGjdEFVH7QCXY5d16j/ZVZGjTqHXCcnCK2IOKsoHDV6VUX4aKWRjWkkHSwUzrO7d57dvQnebXRzhKYmprM6AsPzMHUTOpJpULKko32LhcYEygdzUPBcu7AGuYQu+u4X7zL1coH/OHiOQwdvcC2ZagXBSkxndRj6+6AtmcYkT3LtK3M4y8aJTtjwOKG1XPzrxWWxABvL0OkJrHWOwPJGEm08xq9GoLj0tTgpoS7IMLAJya3BdI3o/8hyMjORxe0n8SsRhAD8k/Vo7xkYGoC2dvV6Zws2PoMHD9Xr4ZvQ3268oR1OfeW+LF6CG3ecuuZhrA82T8P6YZiaVT2dnS249T48ATgCU1fV8duvwgPKr2PW97yN8zBk9JqKq3DjSvj21YGZLpjRLwZVykOUmcRADMLZEfdlfhJGV9xzaxugTx8/IbORQnao7Fn1zsPYuOuoANr6YOyt+FebmHWdS1sfnJqPWM9XygGaw7vOcRg+EreFVZnpMmbmJo0TRRg6UD4bONrAgPvgCcMR5j1tuQujRts7j0tyqZAdKntWPX3qcWcVPnF6Kh2vwy/+2bVZPwnrAK/D3CzwFK6fdHpJVej+ANq24Pr7wBk4NQ78VAW+w4wkeufdb+PmaVh3enu9Z+ClGO1rEo52Gy9GVAxtXxh4iU4knUKoH5XO6tlT6GyHtnGY6oBHf4H1O3Aj5pXa2mHzouMwrsDclWj1aGdavOQ6KoAHEesTIjFwoptOCiy0bNqGUG8qh4HrJ2HzqXre1gf9szD3FUyciXmprXLnEokj7tDv2eOYdTU/xSVPsqq3+CWvVmHg8jS7e+f5L/5H0hWEumKfDVw/CXOvwvVLUHQcV+c4TLwe/Uo7SYzBHsKO8/TFwwnU13ysfO4+75yGtUVPXGpQ5V+tFaLNBt777RKHDp7jHX4tiaBCXal0VhM3odcJVD+5Azcuug6iKu1wJE5w23BCLzn19M57ZvQcnmnnOQvDhvPsPeMTYI/bvhgMelQZzJlAT45WYTHa+8pyplZgyQgkjUx78sA2VP7VSMzpyHt/fESRLn6VgpwyoTWwpC60w9hVGLNYb3un+x8rJ9MG9F+FfudwlNQAHSsz67GxfhG6nTSH/llVNJt/3r/2ZYiZt6H70/gOyZd7P0pwXagrlT2rr0+7Qz/NzhbcPu3mPz3nIdy6BDtPvSfCs36x/LrFVbi+ajF8CJ9Y2lhctcTEEmxflrgLo10wuQRFj0cpFiG/BJNDkmMlZIsDsmGEEI1j3N4bg38/x5jMCAp1QJbbCIKQCcRZCRH5B4++g+GzIww0uilCSyDOSojIE97rusYn9PON6FkJdUBiVoIgZALpWQmCkAnEWQmCkAnEWQmCkAnEWYWlA5hzShaYA4b3sf5hsnMvgjIIFICSUdK4rCiHaluh0Q2pD+KshGyTtDMeBDbYRylXISp2WWOhOk9ovp6E4HLCeD5EeA0dYd+QnpUgmGil1SXEUaWM7PWshlHqCd7ezRxKY/eGYdcNfOKxNW287ze5TrkMcgdwyni949Rtw2trqzds+6Yo15z3tq+aXVxq3Zdq197EkZauUd9tyhfI63t3HThCuQKHee/M4/2e19WuXS8WgWlgEtDbtk0Cb6B26ygCXYZ9DjiLO/QsAl9g7DLiMAh8Su0hqteuCHwMWNdwqjWew99t8vOuPPdqVN1Qenp6SrpQHlJMZxmmxJzl+BwlJix2c5TodY71el5Xey+UmPJpw4TP+Q6nvmFPXXPOuSTaN2yxs12XKseCliD3JejnsLXP73N4rz1V5Z7H+Xy6DFLy/VcIWd9ijfpKlMg5tjkfmzWjTj87s31+n2XR0tbcRGl373xpd2+6tDAQ8z7uc2n+YaD5y60fXzLO652avcn71XpNtdAaf+Yv+y3n8ScR2qeDx2Zvax3Vs+sxjv3COZZUjyLsfan1Od5E/cKb7Vt3jg1Z6vP2MB+R4s10fTA/2xKqhwXwM+dR97zywAGnLDnHRnBlXs86j0XDztxlSfM741peu+MW+5W/q/+S7x6xmupuVSvErCo0uIAXjed6SDMG9O5/cyqo1b5u7FvIaFFBTSfqC50UYe+L3+foQLX1mcVm2znXYTluss7+TWzcxf1i551j5pe9q8r7aqHjXvr/zzusM9MhRo3npt1RlMPSQ7q3a1xTbwo5jdsn0Q6xE8vea/cZO3iOQ2kfApLFmNV+MIeKt4zhKqT6xWb8eIiKnwzj9iLedB5tX+hatDmlETOQSd4XgB+TaFQTYvsxKuI6qKPGcb+gfxBN/QxPGoiz0pjDmzlUkNcb/A2CHuqZQd8dojubHafE3QotKkndFygfFvodazVsAfMoeV6mI2rCtIvmGAZ6hxBx0Y4lyhdpCPWrOGeUqPEvqBzu+dm96DmWdOZ61PvyBHv7cI7tEL23Vq3eLGDOzq0Zzxc9NiuWcznc4Z2J7qV9SsDtto9xe+88u3vTLKRcmCx7zkrLrOs4il+aQBB6qfxS69dRtjncIdns569Rzmqiht0j57racevUiJo7E1Uh6fuis8LNOoedY7es7wiGvt9J/2DVCzOYrmNM055z4MbSdCzK5qhApSiAuicblM+nLVrsnZ21oY2p3x0L3/46kr1h4BNUHo0ZR9GxlSg8wL6+zRub8eb26OtCeV7PDaqvHYwyfNIZ87Y6zeuuo3oY2nEXUT26/b4vYeoD9X9m3se4sbgbqM9o/mA1Os8qDDPAt1TmWXnzokZRvS8dQM8DH6EckskK8DeC5WMB3MuzkO/nP0dqmzYaEd9LmjnsCaMTqD+eOAFqQdgHBi5P8810G8Wla/T8Nr1/nNkbBqYZPRSxpRDoaXtbrpUgNIxjfDDdBt9t8k6KHRWIs0oW/X/dbTnXj+pxRZlFE9JBkDzrzMi1dLBQOM/u3hjD+duZyLOSYeB+YFufV23Nn5AdSrVNKtb9CYmRvQB7FoiTqiCklwONbkBrI8NAQRAygTgrQRAygTirsIgGezmiwR6vvhyVQfo06r2nAIlZCdlmjmSTQLUGe1IkXV8LI84qLKLB3twkrcFeqz5z7V8B2ajCBxkGCoJJ0hrsoumeGNnrWYkGu7191eziIhrs6cCmslBNq92r6W4yiduTs2m/p1mrXTTYLe8F0WAPel9Egz25+gqU67ObxU+DPRfQLqj2u61tKdBqb/5hoGiwR0M02NPFCq7MsleC+Q3DTj83ZZm1xpXZq9J2pqb7kFFnxfUbr9Xe/M5KNNijIRrs0TXY90vTPUd5CkRYWZefGc/130qnU+ciqt2j3jdpGq/Vnr2Y1X4gGux2RIM9Pei9CGvxOcqJTVvs/2g813GuaZTD0vZ5fBxWYxFnpRENdjuiwZ4OTPVQ7Wj8HJi54UQRtSuOdzZyximDqC28RpyyRiodVnMMA0WDXTTYW4Vvnccc9n0A9f6Cb1M+7PQ6qjXcTHk9/LOFG57TeK327Dkr0WC3Ixrs2WQNNwal/26WndemNlbRc24Z/78zr/56gcoNJJY9Nrq+zy31pUCrPXvDQNFgdxEN9uxrsAeli/IM9zzKqXhzrz62HAN3AwmdRf+Rc9wM0vvlWaVBqz1zeVZpL3PY84EmqMy1kiIl6aL/DRrHBvHP4QpYBi5Pl3b3zpe2L3c05LNlbxiYZkSDXWgk1dQajuL2yP4WtfLGa7WLs0oS0WBvboL8/jdSg90cvpkxKz0szBNhfWJ6tNpFg30/EA325qRU26ThGuyDVO4Z6LvmLztkL8CeBUSDvTnJggb7XZp2wwoZBgqCkAnEWQmCkAnEWYVFNNjLEQ12oU6IsxKyTdLOWGumt4q88CL27PYUIgH2sIgGe3OTtAZ72gmi5JASpGclCCaimZ5astezEg12e/uq2cVFNNjj4dU5t+lF2bTQvdrqel2gqfapJWLMOtdQ6/2GcGVfvNe1ScuY24VZNa0ar8GePWcVBi1ap78QvbjKl+YXxOvoQH3xTGdkDv8mqO4Q9JfN/MLoL7H3ix62fbo9w1TqStmuq98blSD3xbT1fo4fa7RvGHcxujez/xSu1I6+7pvOtdeNOpLYN9C2t58pXhc10VM7DpMRlLPQjsi2EYQWw+smuq6U9/N4rxuW3CsqNPhyN+MDee41wFs1/zBQNNijIRrs8cjhOipT0njSY2cuhdE2S86xEeIFvic99ekh7oxxLc2QcczmIEWDvQ6IBns0RIM9nma63pAhT3lvZoXyXpXGdBCm/dEI1wbVfj1c1IJ9sTLbRYM9HYgGux3RYI+OdgxBfkBsP0amLHEUvq1tkjXEWWlEg92OaLBHQwfEbQocXmxOqVXyvELQHMNA0WAXDfa0oXtUOrCtyRmvTRWENeO5aa9ttPSM3k4rR7I5UidqGYgGe3hEg92OaLCnixnc4d00ldpSGjOYrm2mPefAdX66Lpt0cRRsbVyz2IkGewREg91FNNjTrcHeRWX6gjfgPoOKL3nzrLz6UzOoHx8zb+ojKlMUwvI2lfpXNlKgwS7ie0kzhz1hdAL1BxEnQC0IDWTg8jTfTLdRXLpGTwOkjbM3DEwzosEuNC2iwd5ciAZ7c5N2DfZ9QTTYmxvRYG9OsqDB3sRkL8CeBUSDvTnJggZ7EyPDQEEQMoE4K0EQMoE4K8GfY8APTmkkPwAX6nStP1CpjhCHZtN0z9GQyYQmd1ZHYHgepm6mL8MZSH/7WogRVA4cwFPgf53n13GXuEQhaU130/Fl2eFFoMmd1WHo70uxDlLa2wfcR+WGNXt+WB7lpPJAOzBgHIujYODVdNeyMxnfHbkRyGygIGh+7zzqHlYSS0uS1nRv4h2Xa5FNZ9V7BoYGoK1dvd7Zgo3P4IGzwnb4JvS3G29oh1NfuS+Ll+DGHaeueRjrg83TsH4YpmZVT2dnC2697yR6HoGpq+r47VfdxE59HbO+522chyGj11RchRtXwrcvCMdQa9BGcRehzqL+qCeBx0Bf8OrK6tRUq+MC8EvnnBnX+hPwG4u9N/Y1C3xmsdsCDgdop9duFNUbjMIfgH8D/uq8zjvPf1/1HfXDpptu6rFrgmiwa4Jov4MaegZZP+i1s61xfE54TffsDQN752Fs3HVUAG19MPZW/LonZl3n0tYHp+Yj1vOVcoBlSp7jMHyk6lsS4SrqD/IxcAn1RzOK+jKHvT3m8O9PNWwPo5zQrGM/C7zmuaYO1C8b9S477bTZfWnYVRuC/gB876lvjfCfFdSXut15fOoUfSxszGoQN5CunYWpalCPwPQG5T1Dm1TNMuUOSGu/r3nsgsTcbLG5Tucaixb7Mk33GnU7ZM9Z9Tg/7zurMPeqKtcvQdFYr7R+0jl3yTnwFK6/6trbei3dH0DnlrK7vuoc/Gn4wHfvvPsftnnavebtVdcmSvuC8D3KyXzvvF6IVk0kzB6SfjSHK1dRTu9D49iHzrHTxrH3UM7WtLOhZwbN3tuHznujDN/yuMoNZqf3FOlQ3TR1023KojaqabBDcO33s85jkeo68qB6cWDXmz9usY+g6Z69YeCzp9DZDm3jMNUBj/4C63fiL2Vpa4fNi86w7wrMXYlWj3amxUuwbgg/PYhYXxjyxvPHKMdVL+kh21BOO+1jqN7XlxabPKp3dQzV3tcIptX0S+w9vu+Bfwnwfj/iDvu0pju4w7Ilou8sEwU/DXY/7Xc91NTa7/r/8O0a1zN7kN7haifK+ZXF7O4zdjDceD17zmr9JODEfNr61Gxa/2x5TCgSW+XOJRJH3KHfs8cx62pCkhz+HMYdfgqVBOkN1tJ+Nzer8JscCLIDTwKTC9kbBoI7jLp+CYpP1bHOcZh4PXqdO0nIXjx0lTlfDBIdbjFss1hRZ7Yeo3pWP6lShNokpf1uOiIzPcMsCZA9ZzVxE3qdQPWTO3DjYgDp3nY4Eie4bTihl5x6euc9M3oOz7TznIVhw3n2nvEJsMdtX8q5j3Iu1b4ceshKFTtb5noSw71WJaj2+4rlnG1TVnB7aZ8ScK/D8Jru2RsG0g5jV11JY5Ntb2D6sbvhQv9VV043bGoAuLEysx4b6xeh20lz6J9VRbP55/1rX9q5iopNXcANnl9AxajMuMmXqMCsjmHp1AjvqHoB9UX7b+wpEs2G3i3HZBnXcYTtvSyhYkta+917TpN3bGyxKJOPcWcXvVLLtnidR9P9veO141fZ61l9fdod+ml2tuD2aYuw3UO4dQl2nnpPhGf9Yvl1i6vGrKHnmp9Y2lhctcTEEmxf0lzAXRP4Gm58KOoavc9QM4aTRj2TqCGb+XeqZwjXHJtO7PldOrXiNaO+OO1rNWZQ99+MWxWdY6ZjGaV84iaPfQftFdydnYJwL89CvraZiYjvCYLQEMJqumevZyUIQhMQXtM9gzErQWgSWlImuYOFwrtMvQzkb3MoQKxKI8PAViJITlKUdYRCNFrSWUVHelathOQfpQvRdA+FxKwEQcgE4qwEQcgEreOsvLk41WREgto1gmbT8haEELRGzOoHqovBRbELes1lakudBEXrBQlCi9L8zkr3jGppOwW1axReLe8kJHIFIUM0/zBQT/vWSucIatcoktbyFoSMkV1nlcbYkrmeDsrXwaVlzdoaKtY1aDwvUb76XpOjPEZWoIpErcWuaizNWW1fGCHgYntBUPT09JR0oTx0m85yjBI/UOKCceyCc+wt5/VbzutqZSukXZTibWOUMkjJ918hQp1rPvWtGXa5BOxs189NlHb3zpd296ZLCwMx74+UlirZ61kF0fL+jPJNBKBcmK0vpF2zojW6tVa2qb0dVKP7DefR1OgeonylvkkE7W1BgKwNA7WWt02GIu+cq5fmeD3QWt4HcL/8piB/nGUY5jZOK7j39Cj+Gt0YdgCPnMdO3GHiXSq3fXrOfcYOnuNQwO2XBEGTLWelqcdWRkJ1jW6TGdwel97KqYQ9BiYIMcims0pSy1tQBNXjth3T20SZw78RxGEJiZItZxVGy7vRVGtnGjGdild720+jW5/Xw0Y9/PNViwyvvS0IkDVnBSrA/hrlaQBay/u09R2N4XtUm9IaQ1vGnWfRe76Zm1eawXRtN+05Z6urhOukP7dc16O9LQhByZ6zCqrl3Wh+g+pdaS3xtORZ2dDa22aPKqhG90dUzvzZ6tNE0N4WBCCDeVZS4hWdZ5VrXBsGLk+XdvfOl7YvdzT+fkjJTMlez0rIOOG1twUBWmEhcytQCmDTcHnc6NrbggDirIIh2uUJ8IT3us7xXqObIWQWcVZBSLt2eRgt76qZ5YKQbiRmJQhCJhBnJQhCJrA4K51hLJpDgiCkB0vM6j5jB++jnNYY33zxo8zcCILQcHyGgfe5uLQDI6/wbv3aIwiCYMU3ZnVv+//q1Q5BEARfEgiwi6a2IAj7T3xnlXuFYYCXuxkXbyUIwj4RwFm9QI+fExJNbUEQ6oC/s1r5O+u0MXqiw8dINLUFQdh/avSslCN6h1+zu3ee7ct+TksQBGH/8F8bODDC9kY/LF3j0EGR8xAEoXH496z+9QU6KbDgqzskmtqCIOw/8WcDRVNbEIQ6EN9Ziaa2IAh1IBHVhYePdgAoPvpHEtUJgiBU4OusBnpeCFCFaGoLgrD/+MwGdjD+ehvkN7hW5bxoaguCUC8OOFtwAbC9vY2WhhkG+G6Tn0uypyAIKcBHz0oQBCE9iKyxIAiZQJyVIAiZQJyVIAiZ4P8BPLy8jrAu6IsAAAAASUVORK5CYII=;" parent="1" vertex="1">
           <mxGeometry x="2626.34" y="4018" width="199.33" height="100" as="geometry" />
@@ -1703,10 +1703,10 @@
           <mxGeometry x="3071.5" y="4420" width="247" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-1" value="文件的读写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2643.66" y="4629" width="405" height="30" as="geometry" />
+          <mxGeometry x="2643.66" y="4650" width="405" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-2" value="第四期-10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2570" y="4629" width="60" height="30" as="geometry" />
+          <mxGeometry x="2570" y="4650" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-3" value="file*" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2640" y="4790" width="49" height="30" as="geometry" />
@@ -1808,7 +1808,7 @@
           <mxGeometry x="3093" y="5994.5" width="276" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-56" value="磁盘的读和写, 读对性能影响比较重要; &lt;br&gt;(Reads are more time-critical than writes)&lt;br&gt;因此在队列调度上, 考虑把读请求放在写前面; 但是如果读特别多, 会造成写饥饿 (算法优化问题)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3047" y="6079.5" width="343" height="60" as="geometry" />
+          <mxGeometry x="3060" y="6053" width="343" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-59" value="IO Scheduler Layer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3124" y="5959.5" width="206" height="30" as="geometry" />
@@ -1940,7 +1940,7 @@
           <mxGeometry x="3518.5" y="5370" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-115" value="第四期-11, 12细节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="4916" width="150" height="34" as="geometry" />
+          <mxGeometry x="3307.5" y="4939" width="150" height="34" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-119" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="2715.75" y="5070" width="56" height="30" as="geometry" />
@@ -1982,15 +1982,6 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-136" value="dev(设备号) + block(逻辑块号)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2683" y="5211" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-147" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-145" target="_245oeY9RCdSn1jGROWi-146">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-145" value="ll_rw_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="2729" y="6213" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-146" value="OS调用访问硬件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2833" y="6214.5" width="100" height="27" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-148" value="指令流" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2623" y="5777.5" width="62" height="35" as="geometry" />
@@ -2206,9 +2197,6 @@
         <mxCell id="_245oeY9RCdSn1jGROWi-254" value="CPU复制, 就是CPU执行指令拷贝数据, 比如insw, 把磁盘缓冲区的数据, 复制到内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3457.5" y="7625.5" width="352.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_245oeY9RCdSn1jGROWi-256" value="page表示一个页&lt;br&gt;buffer_head表示一个高速缓冲区&lt;br&gt;inode表示一个文件的元数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3183.5" y="7442" width="206.5" height="49" as="geometry" />
-        </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-258" value="外设" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="3440" y="7771" width="81.5" height="120" as="geometry" />
         </mxCell>
@@ -2219,16 +2207,31 @@
           <mxGeometry x="3440" y="7862" width="81.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-261" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="7771" width="81.5" height="120" as="geometry" />
+          <mxGeometry x="3268.5" y="7881" width="81.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-270" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-263" target="_245oeY9RCdSn1jGROWi-259">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-263" value="串行设备" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="7771" width="81.5" height="29" as="geometry" />
+          <mxGeometry x="3268.5" y="7881" width="81.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-271" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;startArrow=none;startFill=0;" edge="1" parent="1" source="_245oeY9RCdSn1jGROWi-264" target="_245oeY9RCdSn1jGROWi-268">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-264" value="键盘" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="7800" width="81.5" height="29" as="geometry" />
+          <mxGeometry x="3268.5" y="7910" width="81.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-266" value="不同的IO端口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="3178.5" y="7778.25" width="80" height="14.5" as="geometry" />
+          <mxGeometry x="3177" y="7888.25" width="80" height="14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-267" value="外设" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3444.25" y="7951" width="81.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-268" value="控制信号" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3444.25" y="7951" width="81.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-269" value="数据信号" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3444.25" y="8042" width="81.5" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
