@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T22:27:00.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="J9Fmtlv_V0BSuk79SPSA" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T22:27:31.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ETv_CcsVZng9a67n5gU0" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1599,9 +1599,6 @@
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2814" y="2810" width="46" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jT0ZRAZHR9PZF9_IbWlC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2860" y="2810" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jT0ZRAZHR9PZF9_IbWlC-12" value="推理:&amp;nbsp;&lt;br&gt;1, 在ELF中保存了程序的代码, 数据, 都是非活跃数据; 当ELF被加载到OS中后, 将会分配CPU上下文信息(寄存器): tss_struct, 和OS上下文信息 (task_struct)&lt;br&gt;2, 以上述思想来套用minix文件系统与OS中结构信息得出: 在磁盘上的信息为固定非活跃数据, 而加上了内存中minix文件系统的动态OS信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2670" y="3030" width="477" height="90" as="geometry" />
