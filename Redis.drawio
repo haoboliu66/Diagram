@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T13:23:33.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tA5_Oe-tv_QkeLII9t7d" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T19:47:01.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ya-oAzTQzcW7GUA_vkkM" version="20.7.4" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2202,6 +2202,9 @@
         </mxCell>
         <mxCell id="_245oeY9RCdSn1jGROWi-253" value="磁盘的预读和预写, 是对读写的优化, 但是, 优化不能影响读写;&lt;br&gt;因此在依次读磁盘每个block时, 如果有某个block被lock, 直接跳过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="3457.5" y="7540" width="352.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_245oeY9RCdSn1jGROWi-254" value="CPU复制, 就是CPU执行指令拷贝数据, 比如insw, 把磁盘缓冲区的数据, 复制到内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="3449.5" y="7628" width="352.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
