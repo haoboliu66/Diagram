@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T22:43:43.770Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="i0FXMmUtJtGaXAfiHZGB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T22:45:23.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="N3RnyLjDWv5u-W67kdmB" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -844,32 +844,38 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-284" value="Linux 2.6 文件读写" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="633.5" y="7690" width="846" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-292" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-285" target="QU0X1oR4tF8cKHQGs2CE-286">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-293" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-285" target="QU0X1oR4tF8cKHQGs2CE-287">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-298" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-285" target="QU0X1oR4tF8cKHQGs2CE-296">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-285" value="共用接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="841" y="7890" width="179" height="30" as="geometry" />
+          <mxGeometry x="841" y="7896" width="179" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-286" value="真文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="841" y="7959" width="67" height="30" as="geometry" />
+          <mxGeometry x="842.75" y="8041" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-287" value="其他形式的假文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="952" y="7959" width="67" height="30" as="geometry" />
+          <mxGeometry x="950.75" y="8041" width="67" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-290" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-288" target="QU0X1oR4tF8cKHQGs2CE-285">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-288" value="文件操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="900.5" y="7846" width="60" height="20" as="geometry" />
+          <mxGeometry x="900.5" y="7852" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-294" value="VFS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1029" y="7890" width="60" height="30" as="geometry" />
+          <mxGeometry x="1029" y="7896" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-295" value="函数指针和数据指针(解耦)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="839.25" y="8070" width="179" height="30" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-299" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-296" target="QU0X1oR4tF8cKHQGs2CE-286">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-300" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-296" target="QU0X1oR4tF8cKHQGs2CE-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-296" value="struct定义抽象结构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="841" y="7960" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-297" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;通过函数指针和数据指针(解耦)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1033.25" y="7959" width="146" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
