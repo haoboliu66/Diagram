@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T11:02:55.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="5lrTqNMRUISHQtTd_ZZt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T11:09:28.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="jN7UdhGYWQ3BbacX5AFG" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -781,25 +781,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-257" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="909" y="7460" width="71" height="120" as="geometry" />
+          <mxGeometry x="909" y="7460" width="71" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-259" value="外设" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1244.75" y="7500" width="46" height="30" as="geometry" />
+          <mxGeometry x="1244.75" y="7523.75" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-260" value="外设" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1361.5" y="7500" width="46" height="30" as="geometry" />
+          <mxGeometry x="1361.5" y="7523.75" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-261" value="外设" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1301.75" y="7500" width="46" height="30" as="geometry" />
+          <mxGeometry x="1301.75" y="7523.75" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-262" value="控制 + 数据传输" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1271.5" y="7460" width="103.5" height="30" as="geometry" />
+          <mxGeometry x="1271.5" y="7483.75" width="103.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-264" value="CPU只认识地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="808.5" y="7500" width="105" height="20" as="geometry" />
+          <mxGeometry x="811" y="7513.75" width="105" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-265" value="外设操作地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="7507.5" width="92.5" height="25" as="geometry" />
+          <mxGeometry x="1142.5" y="7522.5" width="92.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-266" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1202.5" y="7350" width="53.5" height="60" as="geometry" />
@@ -808,16 +808,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-267" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="740" y="7500" width="75" height="40" as="geometry" />
+          <mxGeometry x="740" y="7515" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-269" value="不存数据" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="909.5" y="7530" width="70.5" height="30" as="geometry" />
+          <mxGeometry x="909.5" y="7553.75" width="70.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-270" value="把物理内存的一段映射到外设操作地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="898.5" y="7598" width="85" height="32" as="geometry" />
+          <mxGeometry x="985" y="7562.25" width="192" height="13" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-272" value="physical address" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="910" y="7430" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-275" value="Memory Hole" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="975" y="7630" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
