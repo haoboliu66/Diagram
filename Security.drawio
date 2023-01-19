@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T22:13:14.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="H_2ROIHshF5MgbSMnQi0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T22:13:47.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="bu3s1YcXTBt1TVYpx9oj" type="github">
   <diagram id="h_MF3vdllRQitfquvE4h" name="Page-1">
     <mxGraphModel dx="1034" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,49 +8,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-1" value="Certificate Authority (CA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="140" height="30" as="geometry" />
+          <mxGeometry x="101" y="670" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-2" value="digital certificate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="140" height="30" as="geometry" />
+          <mxGeometry x="101" y="760" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-3" value="Athenz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="90" width="90" height="30" as="geometry" />
+          <mxGeometry x="361" y="610" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-4" value="TLS/SSL certificate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="240" width="140" height="30" as="geometry" />
+          <mxGeometry x="271" y="760" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-5" value="website domain" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="150" width="116" height="30" as="geometry" />
+          <mxGeometry x="311" y="670" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-7" value="validate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="304" y="145" width="60" height="20" as="geometry" />
+          <mxGeometry x="245" y="665" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-9" value="Certificate Authority (CA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="340" width="150" height="40" as="geometry" />
+          <mxGeometry x="96" y="860" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-10" value="CA - public key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354.5" y="320" width="91" height="30" as="geometry" />
+          <mxGeometry x="295.5" y="840" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S_oFghBILawp2eDshSNd-11" target="S_oFghBILawp2eDshSNd-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-11" value="CA - private key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354.5" y="370" width="91" height="30" as="geometry" />
+          <mxGeometry x="295.5" y="890" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-12" value="website domain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="340" width="130" height="40" as="geometry" />
+          <mxGeometry x="601" y="860" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-13" value="public key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="370" width="91" height="30" as="geometry" />
+          <mxGeometry x="491" y="890" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-14" value="private key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="320" width="91" height="30" as="geometry" />
+          <mxGeometry x="491" y="840" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-17" value="digital certificate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="541" y="450" width="100" height="60" as="geometry" />
+          <mxGeometry x="482" y="970" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S_oFghBILawp2eDshSNd-18" value="CA private key加密了网站的public key, 得到certficate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="234" y="470" width="186" height="50" as="geometry" />
+          <mxGeometry x="175" y="990" width="186" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
