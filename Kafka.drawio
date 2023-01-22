@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-22T18:38:56.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="oJ_tG3U8HzuuKk9kvndc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-22T18:39:13.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="BORMRWulaC8Cwjx960jS" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="794" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,8 +52,8 @@
         <mxCell id="977nJjWM0UaJ1cPmPAfp-17" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="234" y="100" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="977nJjWM0UaJ1cPmPAfp-18" value="&lt;span style=&quot;box-sizing: border-box; font-family: Raleway, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A Java keystore stores private key entries, certificates with public key (of mine).&lt;br&gt;&lt;br&gt;A truststore is the opposite. While a keystore typically holds onto certificates that identify us, a truststore holds onto certificates that identify others.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="315" y="-110" width="390" height="80" as="geometry" />
+        <mxCell id="977nJjWM0UaJ1cPmPAfp-18" value="&lt;span style=&quot;box-sizing: border-box; font-family: Raleway, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A Java keystore stores private key entries, certificates with public key (of mine).&lt;br&gt;&lt;br&gt;A truststore is the opposite. A truststore holds onto certificates that identify others.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="315" y="-110" width="405" height="80" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="50" width="250" height="120" as="geometry" />
