@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-22T18:43:43.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="sKdo7c46IUi-Zhw7U7pz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-22T18:44:20.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="xUjZbUVYFssNr31mhj_w" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="794" dy="1587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,31 +41,31 @@
           <mxGeometry x="130" y="860" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="60" width="140" height="160" as="geometry" />
+          <mxGeometry x="165" y="10" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-15" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="144" y="60" width="50" height="20" as="geometry" />
+          <mxGeometry x="209" y="10" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-16" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="119" y="95" width="100" height="50" as="geometry" />
+          <mxGeometry x="184" y="45" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-17" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="119" y="158" width="100" height="50" as="geometry" />
+          <mxGeometry x="184" y="108" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-18" value="&lt;span style=&quot;box-sizing: border-box; font-family: Raleway, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A Java keystore stores private key entries, certificates with public key (of mine).&lt;br&gt;&lt;br&gt;A truststore is the opposite. A truststore holds onto certificates that identify others.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="315" y="-90" width="405" height="50" as="geometry" />
+          <mxGeometry x="240" y="-100" width="405" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="60" width="140" height="160" as="geometry" />
+          <mxGeometry x="505" y="10" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-26" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="484" y="60" width="50" height="20" as="geometry" />
+          <mxGeometry x="549" y="10" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-27" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="459" y="95" width="100" height="50" as="geometry" />
+          <mxGeometry x="524" y="45" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-28" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="459" y="158" width="100" height="50" as="geometry" />
+          <mxGeometry x="524" y="108" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
