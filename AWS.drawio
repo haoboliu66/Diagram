@@ -1,35 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T13:51:24.976Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EG5C2YK8eklmoJKWKfn9" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T17:30:00.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1E8a-dL_Cehxv_lcDtbr" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
-    <mxGraphModel dx="701" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7NRWt_Nte3OYTXp29tZT-1" target="7NRWt_Nte3OYTXp29tZT-2">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7NRWt_Nte3OYTXp29tZT-1" target="7NRWt_Nte3OYTXp29tZT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-1" value="Route53" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-1" value="Route53" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="300" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7NRWt_Nte3OYTXp29tZT-2" target="7NRWt_Nte3OYTXp29tZT-3">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7NRWt_Nte3OYTXp29tZT-2" target="7NRWt_Nte3OYTXp29tZT-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-2" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-2" value="Load Balancer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="380" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-3" value="Target Group" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-3" value="Target Group" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="202" y="450" width="206" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-7" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-7" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="490" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-8" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-8" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="490" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-9" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-9" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="490" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7NRWt_Nte3OYTXp29tZT-10" value="Transit Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7NRWt_Nte3OYTXp29tZT-10" value="Transit Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="360" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eIWQ8E9xelbbtzbxb4QM-1" value="IAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="700" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
