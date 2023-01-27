@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T12:20:09.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="24qbgv6r3rBj7vYnDEUz" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T12:21:04.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PfbAOOx9K8iAHfBHiqBV" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
     <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,49 +62,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-12" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="850" width="80" height="30" as="geometry" />
+          <mxGeometry x="220" y="840" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-13" value="AWS Console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="830" width="100" height="30" as="geometry" />
+          <mxGeometry x="100" y="820" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-14" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="810" width="80" height="30" as="geometry" />
+          <mxGeometry x="390" y="800" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-15" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="850" width="80" height="30" as="geometry" />
+          <mxGeometry x="390" y="840" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-16" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="890" width="80" height="30" as="geometry" />
+          <mxGeometry x="390" y="880" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YwJTxmPq-eyD5qL9XBfh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIWQ8E9xelbbtzbxb4QM-20" target="eIWQ8E9xelbbtzbxb4QM-25">
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="eIWQ8E9xelbbtzbxb4QM-20" target="eIWQ8E9xelbbtzbxb4QM-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-20" value="AWS CLI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="930" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YwJTxmPq-eyD5qL9XBfh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIWQ8E9xelbbtzbxb4QM-21" target="eIWQ8E9xelbbtzbxb4QM-25">
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIWQ8E9xelbbtzbxb4QM-21" target="eIWQ8E9xelbbtzbxb4QM-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-21" value="AWS SDK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="970" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="1040" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-23" value="AWS APIs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="810" width="70" height="110" as="geometry" />
+          <mxGeometry x="550" y="800" width="70" height="110" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="864.5" as="sourcePoint" />
-            <mxPoint x="460" y="864.5" as="targetPoint" />
+            <mxPoint x="480" y="854.5" as="sourcePoint" />
+            <mxPoint x="540" y="854.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-25" value="How AWS know who the User is and the Policies associated with the User?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="150" y="950" width="440" height="30" as="geometry" />
+          <mxGeometry x="250" y="1020" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eIWQ8E9xelbbtzbxb4QM-26" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;sign in as IAM user&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="125" y="820" width="110" height="30" as="geometry" />
+        <mxCell id="eIWQ8E9xelbbtzbxb4QM-26" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;sign in as IAM user:&lt;br&gt;username &amp;amp; password&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="790" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-27" value="Access Keys &amp;amp; Secret Access Key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1010" width="230" height="30" as="geometry" />
+          <mxGeometry x="320" y="1080" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-5" value="AWS CLI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-6" value="AWS SDK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
