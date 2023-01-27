@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T20:44:20.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2SoQElfFRkbFsnt_bULy" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T20:46:01.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="NORUrVh3PJ7dDvzhK3d0" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,8 +124,17 @@
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-16" value="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedstreamingforapachekafka.html#amazonmanagedstreamingforapachekafka-resources-for-iam-policies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="1200" width="490" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YwJTxmPq-eyD5qL9XBfh-17" target="YwJTxmPq-eyD5qL9XBfh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-17" value="Instance Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="231" y="1590" width="125" height="30" as="geometry" />
+          <mxGeometry x="220" y="1640" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-19" value="EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1640" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-21" value="IAM Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1630" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
