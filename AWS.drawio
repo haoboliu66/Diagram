@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T18:36:14.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YUIVOK8O-qGUaKyoj7ko" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-27T20:44:20.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2SoQElfFRkbFsnt_bULy" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
-    <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,19 +38,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-5" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1420" width="90" height="35" as="geometry" />
+          <mxGeometry x="470" y="1390" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-6" value="Resource" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1492.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="250" y="1462.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eIWQ8E9xelbbtzbxb4QM-7" target="eIWQ8E9xelbbtzbxb4QM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-7" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1422.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="250" y="1392.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-11" value="Authorizition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1410" width="70" height="30" as="geometry" />
+          <mxGeometry x="370" y="1380" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eIWQ8E9xelbbtzbxb4QM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eIWQ8E9xelbbtzbxb4QM-12" target="eIWQ8E9xelbbtzbxb4QM-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-16" value="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedstreamingforapachekafka.html#amazonmanagedstreamingforapachekafka-resources-for-iam-policies" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="1200" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-17" value="Instance Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="1590" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
