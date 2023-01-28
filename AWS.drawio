@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T20:38:22.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PGk1cNvNbe8XKY2vwYx7" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T20:38:39.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sUKBS2cgycyJq5nAVlSS" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,8 +136,8 @@
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-21" value="IAM Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="1870" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YwJTxmPq-eyD5qL9XBfh-22" value="使用新的loader template, 建立新的role为MSKEC2, 然后赋给loader, loader有了这个新的role&lt;br&gt;然后把msk的policy贴给这个role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1402.5" width="330" height="60" as="geometry" />
+        <mxCell id="YwJTxmPq-eyD5qL9XBfh-22" value="需要验证: 使用新的loader template, 建立新的role为MSKEC2, 然后赋给loader, loader有了这个新的role&lt;br&gt;然后把msk的policy贴给这个role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1672.5" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QiX8wFtdeJBRJcMN5XhZ-1" value="first principles:&amp;nbsp;the fundamental concepts or assumptions on which a theory, system, or method is based" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1025" y="670" width="310" height="50" as="geometry" />
