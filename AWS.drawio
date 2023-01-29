@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T19:47:56.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HdtsU53O3NmF_S_Y2E_w" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T19:48:06.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9qT63qq9d1_-FbdmB0-y" version="20.8.10" type="github">
   <diagram id="lSXo6FvmJilfPOlthVnX" name="Page-1">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,13 +128,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-17" value="AWS::IAM::InstanceProfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1880" width="155" height="30" as="geometry" />
+          <mxGeometry x="691.25" y="1540" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-19" value="EC2 Instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="442.5" y="1880" width="125" height="30" as="geometry" />
+          <mxGeometry x="953.75" y="1540" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-21" value="IAM Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1870" width="70" height="30" as="geometry" />
+          <mxGeometry x="861.25" y="1530" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-22" value="需要验证: 使用新的loader template, 建立新的role为MSKEC2, 然后赋给loader, loader有了这个新的role&lt;br&gt;然后把msk的policy贴给这个role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="1672.5" width="330" height="60" as="geometry" />
@@ -170,7 +170,7 @@
           <mxGeometry x="1490" y="1355" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YwJTxmPq-eyD5qL9XBfh-23" value="Authorization is string-matching" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1740" width="330" height="60" as="geometry" />
+          <mxGeometry x="205" y="1860" width="245" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
