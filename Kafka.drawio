@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T18:12:03.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vM6vxHMpQ6G3Y8v1hVNE" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T18:13:02.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nIVkNA43fBWLNdTNEaeB" version="20.8.15" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="794" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-7" value="1. client和server都信任这个CA (把CA certificate加入自己的truststore)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="320" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rUbHjjRioy_Fn0qj38NF-10" value="2. client和server要有自己的certificate, 在建立TLS连接时要传递给对方 (由对方的truststore来进行验证)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59" y="470" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
