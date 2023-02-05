@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T17:40:52.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UAKxUTuVzh3UqkmEaGKP" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T17:41:20.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IxN6R-0hmXY1FAEKgeJ9" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="882" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -727,7 +727,7 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-241" value="虽然是异步写, 进程也要阻塞, 这就是为什么读写的系统调用是阻塞的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1214.81" y="6560" width="214" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-242" value="磁盘的预读和预写, 是对读写的优化, 但是, 优化不能影响读写;&lt;br&gt;因此在依次读磁盘每个block时, 如果有某个block被lock, 直接跳过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-242" value="磁盘的预读和预写, 是对读写的优化, &lt;font color=&quot;#ff3333&quot;&gt;但是, 优化不能影响读写&lt;/font&gt;;&lt;br&gt;因此在依次读磁盘每个block时, 如果有某个block被lock, 直接跳过" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="891" y="6640" width="352.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-243" value="CPU复制, 就是CPU执行指令拷贝数据, 比如insw, 把磁盘缓冲区的数据, 复制到内存" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
