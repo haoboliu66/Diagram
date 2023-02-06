@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T22:27:16.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IFI9NgJL9K3Z0mnd_eKc" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T22:27:31.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YE6a6Js0L8Lxc2vLpYeO" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="722" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -973,6 +973,9 @@
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-39" value="result = d_lookup(parent, name);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="854.5" y="8420" width="165.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-61" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="mVjBbmg2-whcs0Ok3Fem-40" target="mVjBbmg2-whcs0Ok3Fem-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-40" value="struct dentry *entry = d_alloc(parent, name);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="832" y="8480" width="210.5" height="30" as="geometry" />
         </mxCell>
@@ -982,14 +985,17 @@
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-43" value="没有找到result的话, 进入下一步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1088" y="8420" width="165.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="mVjBbmg2-whcs0Ok3Fem-44" target="mVjBbmg2-whcs0Ok3Fem-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-44" value="result = dir-&amp;gt;i_op-&amp;gt;lookup(dir, entry, nd);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="832" y="8520" width="210.5" height="30" as="geometry" />
+          <mxGeometry x="832" y="8540" width="210.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-45" value="通过父目录inode的操作查找数据块, 然后通过数据块找到inode, 再和dentry绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1088.25" y="8520" width="234.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-46" value="ext2_lookup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="850.12" y="8560" width="145.75" height="30" as="geometry" />
+          <mxGeometry x="864.38" y="8600" width="145.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="1" source="mVjBbmg2-whcs0Ok3Fem-47" target="mVjBbmg2-whcs0Ok3Fem-16">
           <mxGeometry relative="1" as="geometry" />
