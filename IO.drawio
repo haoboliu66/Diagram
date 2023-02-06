@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T21:28:32.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SAAm8FrhAXi7YWWKvvTR" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T21:40:49.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nqSn52gHH03k9z9imm_l" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="722" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -981,6 +981,15 @@
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-37" value="0.11完全注释 P519(文件系统)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="631" y="8173" width="513" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-41" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="mVjBbmg2-whcs0Ok3Fem-39" target="mVjBbmg2-whcs0Ok3Fem-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-39" value="result = d_lookup(parent, name);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="854.5" y="8420" width="165.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-40" value="struct dentry *entry = d_alloc(parent, name);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="832" y="8480" width="210.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
