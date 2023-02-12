@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T16:25:50.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lhmliDjexYsKlD_SRdBF" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T16:26:27.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PC9KDA5RFKz82gkE73-T" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="529" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1221,6 +1221,9 @@
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-132" value="direct_IO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="599.0600000000001" y="8944" width="99.88" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-137" value="O_DIRECT会跳过page/buffer cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="498.25" y="8842" width="102.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
