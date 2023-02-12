@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T15:49:47.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tIrjajXP7wyToQwzuDSF" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T15:49:59.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kPDOAtvFMucuT3FZwaTA" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1059" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1141,8 +1141,8 @@
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-121" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="1" source="mVjBbmg2-whcs0Ok3Fem-107" target="mVjBbmg2-whcs0Ok3Fem-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mVjBbmg2-whcs0Ok3Fem-107" value="0.11内是一大块连续内存做高速缓冲区, 而高版本中不要求连续内存, 而是每分配一个page, 就建立一组buffer_head, 指向这一个page中的每一块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="8987.75" width="221.87" height="40" as="geometry" />
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-107" value="0.11内核是一大块连续内存做高速缓冲区, 而高版本中不要求连续内存, 而是每分配一个page, 就建立一组buffer_head, 指向这一个page中的每一块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1448.56" y="9010" width="221.87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-108" value="1KB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="930" y="9075" width="48.17" height="60" as="geometry" />
@@ -1184,10 +1184,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-120" value="当有了很多这样的page时, 这些page称为page cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1441.44" y="9068.75" width="259" height="29" as="geometry" />
+          <mxGeometry x="1430" y="9091" width="259" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-122" value="一个page里面对应的一组buffer_head, 称为buffer_cache,&amp;nbsp;&lt;br&gt;而由于buffer_cache嵌在page_cache里, 所以二者等价" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1442.0000000000002" y="9133.25" width="259" height="29" as="geometry" />
+          <mxGeometry x="1430.5600000000002" y="9155.5" width="259" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-124" value="buffer_cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="767.25" y="8937" width="89" height="30" as="geometry" />
