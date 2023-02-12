@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T15:42:46.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LDVsrsuC-1s0N4HNLw-Y" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T15:44:53.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UxPSi1AA-Idc0l9lJRGs" version="20.8.15" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1059" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1137,6 +1137,9 @@
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-105" value="磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="505" y="8971" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mVjBbmg2-whcs0Ok3Fem-107" value="0.11内是一大块连续内存做高速缓冲区, 而高版本中不要求连续内存, 而是每分配一个page, 就建立一组buffer_head, 指向这一个page中的每一块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="698.13" y="8880" width="221.87" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
