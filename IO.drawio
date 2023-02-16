@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T14:50:55.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ABUAdqg7Bh5gKKstl0wS" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-16T14:51:16.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tEBIH2MnNE19VHPYug5R" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,25 +61,25 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-27" value="IO操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="551" y="1044" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-29" target="QU0X1oR4tF8cKHQGs2CE-32" edge="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-29" target="QU0X1oR4tF8cKHQGs2CE-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-29" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="381" y="1210" width="84" height="33" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-29" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1220" width="75" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-30" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="555" y="1210" width="100" height="33" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-30" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="555" y="1220" width="100" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-32" target="QU0X1oR4tF8cKHQGs2CE-30" edge="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-32" target="QU0X1oR4tF8cKHQGs2CE-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-32" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-32" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="555" y="1293" width="100" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-33" value="三种执行方式:&amp;nbsp;&lt;br&gt;1, CPU发指令给磁盘驱动器读数据, 等待读好了告诉CPU, CPU告诉驱动将数据传入到内存中, 等待传输完成后CPU继续执行&lt;br&gt;2, 引入中断, 磁盘驱动器和内存交互读写数据时, CPU继续执行指令, 好了之后中断CPU, 让CPU回复ack即可&lt;br&gt;3, 引入DMA, 由一个DMA控制器去沟通磁盘驱动和内存, 所有的数据块传输完成后, 中断CPU即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="681" y="1180" width="600" height="120" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-33" value="三种执行方式:&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;1, CPU发指令给磁盘驱动器读数据, 等待读好了告诉CPU, CPU告诉驱动将数据传入到内存中, 等待传输完成后CPU继续执行&lt;br style=&quot;font-size: 11px;&quot;&gt;2, 引入中断, 磁盘驱动器和内存交互读写数据时, CPU继续执行指令, 好了之后中断CPU, 让CPU回复ack即可&lt;br style=&quot;font-size: 11px;&quot;&gt;3, 引入DMA, 由一个DMA控制器去沟通磁盘驱动和内存, 所有的数据块传输完成后, 中断CPU即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1210" width="600" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-34" value="读磁盘指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-34" value="读磁盘指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="425" y="1274.38" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-35" value="fdatasync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
