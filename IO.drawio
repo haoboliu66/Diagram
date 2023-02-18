@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T16:31:46.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VV81vMQbc9MdgZ8eHQs_" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T16:32:31.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AEB4dxfy1CeuSfL6k58z" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1278,6 +1278,21 @@
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-16" value="File System的核心是superblock, 因为superblock包含了整个文件系统的metadata, 因为在VFS中抽象出了一个superblock的数据结构, 来管控整个文件系统, e.g. ex2的superblock结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1628" y="680" width="440" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;curved=1;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-17" target="heE2GlD0Pq4exh14zjHW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;curved=1;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-17" target="heE2GlD0Pq4exh14zjHW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-17" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1176.5" y="9092" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-18" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1096.25" y="9178" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-19" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1253.5" y="9178" width="86" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
