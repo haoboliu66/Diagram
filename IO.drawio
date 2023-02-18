@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T22:30:31.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="loWiwXGNjDhxNOFcsklv" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T22:31:07.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="EKf9RbI1xFfUIBOYVXAO" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="407" dy="234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1425,6 +1425,9 @@
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-70" value="因此要根据不同的业务场景来适配对应的IO调度算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="721" y="9390" width="105.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-72" value="普适性: 读大于写, 顺序写大于随机写, 顺序读大于随机读" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="554.4200000000001" y="9430" width="213.17" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
