@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T22:08:31.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VFKXjkj5hE1y9QzKlsQ8" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T22:09:28.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="N256vrhH79B7Nl-uVq21" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1241,10 +1241,10 @@
           <mxGeometry x="1036.75" y="8200" width="246" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-145" value="超级块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="921" y="9387.5" width="66.5" height="30" as="geometry" />
+          <mxGeometry x="1653.88" y="9277.5" width="66.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-148" value="文件系统挂载到设备树上, 读入文件系统的超级块信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="769.25" y="9240" width="175" height="40" as="geometry" />
+          <mxGeometry x="1502.13" y="9130" width="175" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-2" target="heE2GlD0Pq4exh14zjHW-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1280,13 +1280,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-17" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="566.25" y="9230" width="86" height="40" as="geometry" />
+          <mxGeometry x="1299.13" y="9120" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-18" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="486" y="9316" width="86" height="40" as="geometry" />
+          <mxGeometry x="1218.88" y="9206" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-19" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="643.25" y="9316" width="86" height="40" as="geometry" />
+          <mxGeometry x="1376.13" y="9206" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-22" target="heE2GlD0Pq4exh14zjHW-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1295,40 +1295,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-22" value="Minix FS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="795" y="9390" width="86" height="25" as="geometry" />
+          <mxGeometry x="1527.88" y="9280" width="86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-25" value="VFS中的这些结构, 都是内部包含实际指针, 也就是结构描绘了整体骨架, 我们需要做的就是读入FS的元数据信息, 填入到这些结构中的指针即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="385.5" y="9390" width="174.5" height="70" as="geometry" />
+          <mxGeometry x="1118.38" y="9280" width="174.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9550" width="74" height="210" as="geometry" />
+          <mxGeometry x="1228.88" y="9440" width="74" height="210" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-27" value="一些结构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9710" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9600" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-28" target="heE2GlD0Pq4exh14zjHW-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-28" value="一些结构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9690" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9580" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-29" value="一些结构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9730" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9620" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-30" value="真实数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9610" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9500" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-31" value="真实数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9590" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9480" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-32" value="真实数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="496" y="9630" width="74" height="20" as="geometry" />
+          <mxGeometry x="1228.88" y="9520" width="74" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-33" value="内存中定义的包含了指针的(抽象)元数据结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="379.5" y="9705" width="105" height="30" as="geometry" />
+          <mxGeometry x="1112.38" y="9595" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-34" value="抽象结构中的指针指向的真实数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="381" y="9610" width="105" height="30" as="geometry" />
+          <mxGeometry x="1113.88" y="9500" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-37" value="sync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="910.4399999999999" y="8822" width="58.12" height="20" as="geometry" />
@@ -1341,6 +1341,9 @@
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-40" value="msync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1124.1299999999997" y="8822" width="58.12" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="914.37" y="8896.25" width="225.63" height="53.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
