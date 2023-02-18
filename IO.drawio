@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T16:31:34.689Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bG_45uvxFp_PcCNAWU4k" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T16:31:46.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VV81vMQbc9MdgZ8eHQs_" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1256,28 +1256,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-2" value="File System" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="670" width="139" height="40" as="geometry" />
+          <mxGeometry x="1388" y="675" width="139" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-4" target="heE2GlD0Pq4exh14zjHW-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-4" value="File" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="650" width="139" height="20" as="geometry" />
+          <mxGeometry x="1388" y="655" width="139" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-5" value="存储设备" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1300.13" y="760" width="139" height="40" as="geometry" />
+          <mxGeometry x="1388.13" y="765" width="139" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-6" value="用户 / Programmer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="580" width="139" height="30" as="geometry" />
+          <mxGeometry x="1388" y="585" width="139" height="30" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-12" target="heE2GlD0Pq4exh14zjHW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-12" value="block" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="740" width="139" height="20.25" as="geometry" />
+          <mxGeometry x="1388" y="745" width="139" height="20.25" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-16" value="File System的核心是superblock, 因为superblock包含了整个文件系统的metadata, 因为在VFS中抽象出了一个superblock的数据结构, 来管控整个文件系统, e.g. ex2的superblock结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="675" width="440" height="65" as="geometry" />
+          <mxGeometry x="1628" y="680" width="440" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
