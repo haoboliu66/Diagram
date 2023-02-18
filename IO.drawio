@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T22:29:49.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="czKgvbfw2S1SejaRQOXh" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T22:30:25.537Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="saH2IoqOHc8Y2J6gmXNp" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="407" dy="234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1417,8 +1417,14 @@
         <mxCell id="heE2GlD0Pq4exh14zjHW-67" value="IO Scheduler Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="638" y="9277.5" width="102" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-71" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-68" target="heE2GlD0Pq4exh14zjHW-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-68" value="影响着上层的进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="734.53" y="9349.25" width="79" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-70" value="因此要根据不同的业务场景来适配对应的IO调度算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="721" y="9390" width="105.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
