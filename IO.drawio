@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T22:09:51.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yWv87ReEgXt4ZMb6S-uu" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T22:10:02.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="74GicPzPFFPLz8wW6iOF" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1342,7 +1342,7 @@
         <mxCell id="heE2GlD0Pq4exh14zjHW-40" value="msync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1124.1299999999997" y="8822" width="58.12" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="一言以蔽之:&amp;nbsp;&lt;br&gt;如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="一言以蔽之:&amp;nbsp;&lt;br&gt;如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 让进程等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="897.94" y="8896.25" width="335.63" height="53.75" as="geometry" />
         </mxCell>
       </root>
