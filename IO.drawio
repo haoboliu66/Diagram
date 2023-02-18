@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T22:29:16.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BUM7qjNXRGOqJkRrfMba" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T22:29:49.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="czKgvbfw2S1SejaRQOXh" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="407" dy="234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1408,11 +1408,17 @@
         <mxCell id="heE2GlD0Pq4exh14zjHW-64" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="813.5" y="9307.5" width="60" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-66" target="heE2GlD0Pq4exh14zjHW-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-66" value="IO调度算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="551" y="9270" width="60" height="30" as="geometry" />
+          <mxGeometry x="638.94" y="9350" width="60" height="17.25" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-67" value="IO Scheduler Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="638" y="9270" width="102" height="30" as="geometry" />
+          <mxGeometry x="638" y="9277.5" width="102" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-68" value="影响着上层的进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="734.53" y="9349.25" width="79" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
