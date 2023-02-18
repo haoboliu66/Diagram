@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T16:33:13.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pdTvjFkuG2FWoQl3jS93" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T16:33:45.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XIKtVRqozKwaxs3535Ua" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1240,14 +1240,8 @@
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-143" value="dentry是一个文件的内存表示形式, 用于加速文件查找" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1036.75" y="8200" width="246" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mVjBbmg2-whcs0Ok3Fem-147" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" parent="1" source="mVjBbmg2-whcs0Ok3Fem-144" target="mVjBbmg2-whcs0Ok3Fem-145" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mVjBbmg2-whcs0Ok3Fem-144" value="Minix文件系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="555" y="9230" width="86" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-145" value="超级块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="686.33" y="9235" width="66.5" height="30" as="geometry" />
+          <mxGeometry x="921" y="9387.5" width="66.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mVjBbmg2-whcs0Ok3Fem-148" value="文件系统挂载到设备树上, 读入文件系统的超级块信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="578.25" y="9160" width="175" height="58" as="geometry" />
@@ -1286,19 +1280,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-17" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1176.5" y="9092" width="86" height="40" as="geometry" />
+          <mxGeometry x="566.25" y="9230" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-18" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1096.25" y="9178" width="86" height="40" as="geometry" />
+          <mxGeometry x="486" y="9316" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-19" value="VFS_MOUNT" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1253.5" y="9178" width="86" height="40" as="geometry" />
+          <mxGeometry x="643.25" y="9316" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-22" target="heE2GlD0Pq4exh14zjHW-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-24" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="heE2GlD0Pq4exh14zjHW-22" target="mVjBbmg2-whcs0Ok3Fem-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-22" value="Minix FS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1428.81" y="9265" width="86" height="25" as="geometry" />
+          <mxGeometry x="795" y="9390" width="86" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
