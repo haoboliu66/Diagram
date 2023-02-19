@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T11:47:21.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="n62vtyz3Bfnms00gWQar" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-19T11:47:29.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0EG7jDjgdazp9lbd96Z5" version="20.8.20" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="882" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,11 +382,14 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-132" value="request queue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="519.5" y="5672.5" width="145" height="27" as="geometry" />
         </mxCell>
+        <mxCell id="heE2GlD0Pq4exh14zjHW-78" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="QU0X1oR4tF8cKHQGs2CE-133" target="QU0X1oR4tF8cKHQGs2CE-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-133" value="设备只有一个队列, 该队列缓存了待执行的读写请求&lt;br&gt;1, 若队列为空, 表示当前进程是第一个操作这个设备的进程, 它就得负责处理整个队列的请求&lt;br&gt;2, 若队列不空, 那么表示已经有其他进程正在处理这些请求, 当前进程只需要把请求放入队列即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="375.5" y="5726" width="349" height="73.5" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-134" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="372.5" y="5830" width="285" height="30.5" as="geometry" />
+          <mxGeometry x="406.88" y="5830" width="285" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-135" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="297" y="4184" width="260" height="45" as="geometry" />
