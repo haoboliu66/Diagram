@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T21:03:13.651Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0z2oGIKc-J6QDin-iejg" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T21:06:17.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ramJ_5wvsMKgD58lN-MZ" version="20.8.22" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="756" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1503,11 +1503,17 @@
         <mxCell id="9jShmSh7NINBn1reoC_N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9jShmSh7NINBn1reoC_N-11" target="9jShmSh7NINBn1reoC_N-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9jShmSh7NINBn1reoC_N-11" value="file name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="213.5" y="4267.5" width="69" height="20" as="geometry" />
+        <mxCell id="9jShmSh7NINBn1reoC_N-11" value="inode id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221.28" y="4267.5" width="69" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9jShmSh7NINBn1reoC_N-12" value="struct dir_entry {}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="327.5" y="4260" width="97.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="9jShmSh7NINBn1reoC_N-15" target="9jShmSh7NINBn1reoC_N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-15" value="file name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221.28" y="4210" width="69" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
