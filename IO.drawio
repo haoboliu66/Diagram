@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T21:19:00.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kwKx3hjjS6smBXM6q_oc" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T21:19:46.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uM5EIAO7TRPmmamwxTe9" version="20.8.22" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1583" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -385,8 +385,8 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-134" value="推理可知: 第一个使用该设备读写的进程, 属于倒霉蛋" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="384.21" y="5853" width="285" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-135" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380.5" y="4430" width="260" height="45" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-135" value="buffer_head是真实数据块的元数据, 通过buffer_head拿到对应数据块的首地址 (char* b_data)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="372.46999999999997" y="4422.5" width="301.06" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-136" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-137" target="QU0X1oR4tF8cKHQGs2CE-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
