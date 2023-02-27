@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T21:28:52.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="v4RczwaX6QlLIXDDYYY9" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T21:30:22.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="InK1WCfPL8nLB8GQonH6" version="20.8.22" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1583" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1571,8 +1571,8 @@
         <mxCell id="9jShmSh7NINBn1reoC_N-37" value="缓冲区初始化: 划分出buffer_head和缓冲块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="4481.5" width="126" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="9jShmSh7NINBn1reoC_N-40" value="dev和block二者通过hash计算得到一个hash值 mod 哈希表的长度, 得到一个index, 所有index相同的buffer_head也用双向链表组织起来&lt;br&gt;(所有的buffer_head本身也是用双向链表串起来的)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="887.81" y="4463" width="378" height="58" as="geometry" />
+        <mxCell id="9jShmSh7NINBn1reoC_N-40" value="dev和block二者通过hash计算得到一个hash值 mod 哈希表的长度, 得到一个index, 所有index相同的buffer_head也用双向链表组织起来&lt;br&gt;(所有的buffer_head本身也是用双向链表串起来的, 通过LRU来维护, 保证free_list始终指向最为空闲的buffer_head作为头指针)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="887.81" y="4450" width="442.19" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
