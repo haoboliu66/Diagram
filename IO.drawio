@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T20:29:29.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MXoJg5diFh2tdNLFsVTK" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T20:41:41.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aUKULEfOyrLOVwjfOhfw" version="20.8.22" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="836" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -268,17 +268,11 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-97" value="struct file {}" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="323.5" y="4056" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-98" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-99" target="QU0X1oR4tF8cKHQGs2CE-100" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-99" value="struct m_inode {}" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="461" y="4056" width="107" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-100" value="缓冲块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="614" y="4059" width="86.5" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-101" value="i_zone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="626" y="4026" width="60" height="30" as="geometry" />
+          <mxGeometry x="910.44" y="4062" width="86.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-102" value="buffer的元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="469.5" y="4030" width="90" height="20" as="geometry" />
@@ -1473,6 +1467,29 @@
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-89" value="块设备" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880.5" y="3910" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-1" value="i_zone[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="4010" width="86.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-2" value="i_zone[1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="4034" width="86.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-3" value="i_zone[2]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="4058" width="86.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;shape=link;" edge="1" parent="1" source="9jShmSh7NINBn1reoC_N-4" target="9jShmSh7NINBn1reoC_N-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="4126" />
+              <mxPoint x="668" y="4126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-4" value="i_zone[3]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="4082" width="86.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9jShmSh7NINBn1reoC_N-5" value="i_zone[8]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="4140" width="86.5" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
