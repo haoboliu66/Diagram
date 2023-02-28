@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T17:33:54.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4xKIO8Q3GNOy1xypkhNA" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T17:34:14.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="cEdjkUCkJokNo07oljlK" version="20.8.22" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="1621" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,10 +218,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-7" value="TLS/SSL handshake" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="434" y="1430" width="155" height="30" as="geometry" />
+          <mxGeometry x="-115" y="1590" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rdwlE4-5RXInatoMC4HK-8" value="SASL authenticate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="434" y="1500" width="155" height="30" as="geometry" />
+        <mxCell id="rdwlE4-5RXInatoMC4HK-8" value="SASL authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-115" y="1660" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-1" value="Aws Secret Manager" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="191.75" y="1813" width="199" height="70" as="geometry" />
@@ -264,6 +264,9 @@
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-16" value="username&lt;br&gt;password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="2000" width="70" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="adZdbqMNMHa9eECy_sV0-18" value="replace client authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1660" width="155" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
