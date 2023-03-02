@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T13:19:45.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="6w0vdh1Ii6DuBG0qZ5HT" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T13:20:53.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xb1n8NTjYOcit8l4f3eH" version="20.8.22" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="1961" dy="1766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -302,6 +302,9 @@
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-37" value="topicA - P3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1404" y="660" width="94" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="adZdbqMNMHa9eECy_sV0-38" value="如果想调用commit来改变partition的offset, consumer必须有groupId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="542.5" width="380" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
