@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T23:31:22.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="CPQiueSKtZFEFJrwi5ey" version="21.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T23:31:41.136Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="K9c2a5A5GQZRIoPX7o4B" version="21.0.1" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="1621" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,9 +264,6 @@
         <mxCell id="adZdbqMNMHa9eECy_sV0-14" value="Client" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-55" y="2029" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-16" value="username&lt;br&gt;password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="62" y="2000" width="70" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-18" value="replace client authentication in mTLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-449" y="1620" width="189" height="30" as="geometry" />
         </mxCell>
@@ -311,6 +308,9 @@
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-38" value="如果想调用commit来改变partition的offset, consumer必须有groupId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="760" y="542.5" width="380" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="itqR3cazL_RWvEJsIGA0-4" value="username &amp;amp; password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="32" y="2020" width="150" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
