@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T22:05:50.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RRR1C3FHFI3k7sl8K5D2" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T22:11:52.697Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dGvfYal51Zh729rlMd7W" version="21.0.8" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="1840" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1594,6 +1594,9 @@
         </mxCell>
         <mxCell id="K2F05-ayj2TtLSgaNzjZ-2" value="内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1232.25" y="9372.75" width="46.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K2F05-ayj2TtLSgaNzjZ-3" value="分层架构, 各层之间通过指针解耦, 所以在看源码时, 如果有数据包装转换, 那么代表数据流向了下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1429" y="9390" width="211" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
