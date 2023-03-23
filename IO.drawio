@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T21:58:20.786Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tbu7OiX6qK2l_NZ9L9Wz" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T21:59:31.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qHacsSVZdXISWQa3V6qC" version="21.0.8" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="2403" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1472" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1354,7 +1354,7 @@
           <mxGeometry x="1124.1299999999997" y="8822" width="58.12" height="20" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="一言以蔽之:&amp;nbsp;&lt;br&gt;如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 让进程等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="897.94" y="8896.25" width="335.63" height="53.75" as="geometry" />
+          <mxGeometry x="897.94" y="8896.25" width="352.06" height="53.75" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-42" value="hard disk drives:一个sector是512byte;&lt;br&gt;MINIX File System以2个sector作为一个数据块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="850.75" y="4016" width="229.5" height="34" as="geometry" />
