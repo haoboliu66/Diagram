@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T16:47:44.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zVCIqpY3lM1NTIXH09n6" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T16:48:27.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6tmXGu50t7AA9dy3m-KJ" version="20.7.4" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1489" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1353,7 +1353,7 @@
         <mxCell id="heE2GlD0Pq4exh14zjHW-40" value="msync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1127.6299999999997" y="8845.25" width="58.12" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="一言以蔽之:&amp;nbsp;&lt;br&gt;如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 让进程等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="heE2GlD0Pq4exh14zjHW-41" value="一言以蔽之:&amp;nbsp;&lt;br&gt;如果是不保证持久化, 只需要写入调度层; 如果要保证持久化, 让进程等待即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="901.44" y="8919.5" width="352.06" height="53.75" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-42" value="hard disk drives:一个sector是512byte;&lt;br&gt;MINIX File System以2个sector作为一个数据块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
