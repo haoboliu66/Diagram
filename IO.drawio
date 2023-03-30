@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T21:11:10.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uhwIU5yZR7oR7L3ICLJa" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T21:12:24.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QxqrXGaUj6TE74-dM918" version="20.7.4" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1621" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1598,7 +1598,7 @@
         <mxCell id="K2F05-ayj2TtLSgaNzjZ-3" value="分层架构, 各层之间通过指针解耦, 所以在看源码时, 如果有数据包装转换, 那么代表数据流向了下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1429" y="9390" width="211" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l3pubfFS0VuKkWHqVysV-1" value="O_DIRECT的好处: 由于不经过page/buffer cache, 那么" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="l3pubfFS0VuKkWHqVysV-1" value="O_DIRECT的好处: 不经过page/buffer cache, 需要应用层自己实现cache来代替page/buffer cache的作用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="56.5" y="8768.5" width="283.5" height="71.5" as="geometry" />
         </mxCell>
       </root>
