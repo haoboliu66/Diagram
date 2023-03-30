@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T21:12:50.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="A3Cwp-6bpqT2n6EwYXDc" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T21:20:26.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3FlGvf4L0x8Yt_kNDnCh" version="20.7.4" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1621" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1598,8 +1598,11 @@
         <mxCell id="K2F05-ayj2TtLSgaNzjZ-3" value="分层架构, 各层之间通过指针解耦, 所以在看源码时, 如果有数据包装转换, 那么代表数据流向了下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1429" y="9390" width="211" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l3pubfFS0VuKkWHqVysV-1" value="O_DIRECT: 不经过page/buffer cache, 需要应用层自己实现cache来代替page/buffer cache的作用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="56.5" y="8768.5" width="283.5" height="71.5" as="geometry" />
+        <mxCell id="l3pubfFS0VuKkWHqVysV-1" value="O_DIRECT: 不经过page/buffer cache, 需要应用层自己实现cache来代替page/buffer cache的作用" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="56.5" y="8768.5" width="283.5" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="l3pubfFS0VuKkWHqVysV-2" value="由于磁盘上的文件有对应的metadata, 即inode; &lt;br&gt;那么inode也有其对应的metadata;&amp;nbsp;&lt;br&gt;内存中的page/buffer cache分为两部分, 一部分是存储metadata, 一部分是data, 所以他们都需要同步, fdatasync就是负责同步metadata的函数, sync就是负责同步data的函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60.5" y="8896.25" width="329.5" height="93.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
