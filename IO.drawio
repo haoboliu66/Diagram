@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T11:51:04.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D-MQ3-CNDzRSyo4KMivY" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T11:51:08.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bOrNxpM2qE3gk7Wp0FQr" version="20.7.4" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1621" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1624,6 +1624,9 @@
         </mxCell>
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-4" value="通过radix tree组织起一个file的所有page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1980.67" y="9287.5" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jTw0ZRRRu0HAWqjaLtqH-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTw0ZRRRu0HAWqjaLtqH-5" target="jTw0ZRRRu0HAWqjaLtqH-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-5" value="MySQL在进程用户空间自己维护了buffer pool, 通过O_DIRECT越过操作系统的buffer/page cache直接写磁盘;&amp;nbsp;&lt;br&gt;那么既然O_DIRECT无法保证数据持久化, 那么MySQL是如何保证数据不丢失? 答: 通过redo log, 先确保日志(log buffer)落盘, 写日志一定不是用O_DIRECT(是fsync), 即数据可以丢(transaction可以失败), 日志不能丢" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-440" y="8805.25" width="320" height="90" as="geometry" />
