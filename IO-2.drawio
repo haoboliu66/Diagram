@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T21:17:00.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.7.4" etag="LMrYu9SB40wmXUaQnXW3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T21:18:22.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.7.4" etag="693IJKfoIkW29GncE7jk" type="github">
   <diagram id="aM-VMgyS2Gse-5csakIg" name="第 1 页">
     <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,24 @@
         </mxCell>
         <mxCell id="voY9_TvvjWLjzHpBswRU-2" value="mmap映射的虚拟内存区域, 可以有一个flag来标识, 是private还是shared; 假设A进程fork出B进程, A的一段mmap的虚拟地址空间为shared且允许写操作, 那么当B进程向这段地址写东西时, 不会发生COW, A进程也会立刻感知到数据的变化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="270" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voY9_TvvjWLjzHpBswRU-3" target="voY9_TvvjWLjzHpBswRU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-3" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="455" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="voY9_TvvjWLjzHpBswRU-6" target="voY9_TvvjWLjzHpBswRU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-6" value="heap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="voY9_TvvjWLjzHpBswRU-7" value="1. 找到task_struct&lt;br&gt;2. 找到mm_struct&lt;br&gt;3. 找到vma_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
