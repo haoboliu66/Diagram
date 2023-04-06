@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T12:40:34.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FQnPka0D75xeeE8V4vjt" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T13:26:14.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ocxutUOYtvuA4fELrOvz" version="21.1.4" type="github">
   <diagram id="aM-VMgyS2Gse-5csakIg" name="第 1 页">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,21 +27,6 @@
         </mxCell>
         <mxCell id="voY9_TvvjWLjzHpBswRU-7" value="1. 找到task_struct&lt;br&gt;2. 找到mm_struct&lt;br&gt;3. 找到vma_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="440" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lAINseM6U_MawTdIW6Go-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAINseM6U_MawTdIW6Go-1" target="lAINseM6U_MawTdIW6Go-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lAINseM6U_MawTdIW6Go-1" value="fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="595" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lAINseM6U_MawTdIW6Go-2" value="file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="595" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lAINseM6U_MawTdIW6Go-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lAINseM6U_MawTdIW6Go-2" target="lAINseM6U_MawTdIW6Go-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lAINseM6U_MawTdIW6Go-5" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="595" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lAINseM6U_MawTdIW6Go-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAINseM6U_MawTdIW6Go-6" target="lAINseM6U_MawTdIW6Go-7">
           <mxGeometry relative="1" as="geometry" />
