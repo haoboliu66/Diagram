@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T13:59:58.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jaE0QB-FSdl-7vVBsrOG" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T14:00:56.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="erc4KS-cMxXDfr_pU1bf" version="20.7.4" type="github">
   <diagram id="aM-VMgyS2Gse-5csakIg" name="第 1 页">
     <mxGraphModel dx="794" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="voY9_TvvjWLjzHpBswRU-1" value="第五期 - 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="140" width="700" height="40" as="geometry" />
+          <mxGeometry x="70" y="50" width="700" height="40" as="geometry" />
         </mxCell>
         <mxCell id="voY9_TvvjWLjzHpBswRU-2" value="mmap映射的虚拟内存区域, 可以有一个flag来标识, 是private还是shared; 假设A进程fork出B进程, A的一段mmap的虚拟地址空间为shared且允许写操作, 那么当B进程向这段地址写东西时, 不会发生COW, A进程也会立刻感知到数据的变化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="270" width="430" height="90" as="geometry" />
@@ -54,6 +54,12 @@
         </mxCell>
         <mxCell id="17V4-5qQpgx5_O8vqi2X-8" value="文件大小固定, 可以映射到同一大小不变的虚拟地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="660" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="17V4-5qQpgx5_O8vqi2X-12" value="sendfile" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="790" width="630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17V4-5qQpgx5_O8vqi2X-13" value="mmap" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry y="170" width="630" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
