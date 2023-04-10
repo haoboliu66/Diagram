@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T11:07:07.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3Cpw88TSLQggRcvkNSZa" version="21.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:07:12.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bgFBcf6VaYT6ZGsmuMnM" version="21.1.5" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3242" dy="3278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1628,30 +1628,6 @@
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-13" value="GOT&lt;br&gt;(Global Offset Table)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="4430" y="59.790000000000006" width="148.62" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LktH6E_ZRHNbnVEM376x-15" target="LktH6E_ZRHNbnVEM376x-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-15" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2935.76" y="-408.40999999999997" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3001.0600000000004" y="-255.82999999999998" as="sourcePoint" />
-            <mxPoint x="3062.5599999999995" y="-255.82999999999998" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-16" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2935.76" y="-270.00000000000006" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-17" value="VMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3057.26" y="-270.00000000000006" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-21" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3008.76" y="-360" width="210" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="LktH6E_ZRHNbnVEM376x-22" value="&lt;font color=&quot;#ff0000&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2867.26" y="-476.40999999999997" width="284" height="61" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-23" value="Lazy Binding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="4589.08" y="20" width="102.62" height="30" as="geometry" />
