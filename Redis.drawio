@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T20:47:30.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aqMSBTUWqg6DHzG0NHoE" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T20:47:50.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Pdox0SU7O7M3-68d3xYI" version="21.1.5" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1683" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,8 +110,8 @@
         <mxCell id="0TQrHJX6QjW9VzBPeowM-7" value="&lt;p&gt;typedef struct redisObject {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned type:4;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned notused:2;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned encoding:4;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned lru:22;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int refcount;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; void *ptr&lt;br&gt;} robj;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3440" y="459.61" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0TQrHJX6QjW9VzBPeowM-8" value="这里的ptr指针类似于接口, 是一个共享的抽象表示, 实际指向的位置是某个真正的数据结构, 使用时再进行指针类型转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF6666;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3360" y="590" width="360" height="47.43" as="geometry" />
+        <mxCell id="0TQrHJX6QjW9VzBPeowM-8" value="这里的ptr指针类似于接口, 是一个共享的抽象表示, 实际指向的位置是某个真正的数据结构, 使用时再进行指针类型转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="3590" y="532.51" width="360" height="47.43" as="geometry" />
         </mxCell>
         <mxCell id="vs6chZFLeiXoNTxb_euZ-3" value="混沌3-6" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4483.47" y="880" width="136.53" height="30" as="geometry" />
