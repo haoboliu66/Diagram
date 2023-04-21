@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T21:05:13.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9NafaZiTw9dUgBGTNWHr" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T21:06:36.889Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lyQLVXHbLDn5848vnTY3" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="1489" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1375" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-87" target="QU0X1oR4tF8cKHQGs2CE-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-87" value="这个信息包含了内存关键信息, 不能暴露给R3的进程, 所以必须给进程另一个表示这个file的信息的信息 =&amp;gt; fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-87" value="这个file struct包含了内存关键信息, 不能暴露给R3的进程, 所以必须给进程另一种表示这个file struct的信息 =&amp;gt; fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="798" y="3238" width="323" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-88" value="引入了一个filp数组, 通过fd作为index来访问file的结构体, 从而实现了把file结构体隐藏起来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
