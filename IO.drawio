@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T22:00:25.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="RQmJtANfmNfXJdI7Ft00" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T22:00:33.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qXqkYxVn9DqJiN3_2ZVW" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="2150" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,19 +332,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-118" value="在将数据由内存写入磁盘时, 如果把一个队列里的很多数据依次写入磁盘, 可能会导致随机写的现象, 即磁头频繁大范围移动, 写一个位置, 然后跳到另一个位置写; 所以最理想的操作应该是依次写, 这样磁头每次移动的范围最小; 所以就需要把队列中的数据按照要写的位置来组织排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="287.78" y="5270.5" width="420" height="79" as="geometry" />
+          <mxGeometry x="289" y="5291" width="420" height="79" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-119" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-120" target="QU0X1oR4tF8cKHQGs2CE-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-120" value="这就是IO调度队列出现的原因: 为了优化写硬件的性能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="760.28" y="5294.5" width="276" height="30" as="geometry" />
+          <mxGeometry x="761.5" y="5315" width="276" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-121" value="磁盘的读和写, 读对性能影响比较重要; &lt;br&gt;(Reads are more time-critical than writes)&lt;br&gt;因此在队列调度上, 考虑把读请求放在写前面; 但是如果读特别多, 会造成写饥饿 (算法优化问题)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="727.28" y="5353" width="343" height="60" as="geometry" />
+          <mxGeometry x="728.5" y="5373.5" width="343" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-122" value="IO Scheduler Layer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="791.28" y="5259.5" width="206" height="30" as="geometry" />
+          <mxGeometry x="792.5" y="5280" width="206" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-123" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-124" target="QU0X1oR4tF8cKHQGs2CE-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
