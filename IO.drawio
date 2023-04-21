@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T21:59:58.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Gvq3b3NH9XOUXr1LUlTU" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T22:00:16.272Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vE2kZvy1prD1cLBoaz2O" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="1820" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,7 +322,7 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-114" value="schedule" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="447.78" y="4964.5" width="62" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-115" value="程序主动调用schedule进行任务切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-115" value="进程主动调用schedule进行任务切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="216.78" y="4969.5" width="186" height="15" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-116" value="关闭了时钟中断, CPU无法进行任务切换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
