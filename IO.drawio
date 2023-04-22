@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-22T18:46:11.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="orVhd_Nym3V5UjBlgRVv" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-22T18:47:57.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LAJnKroFOOIH8aDFoKAy" version="21.1.5" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1675" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1622,11 +1622,14 @@
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-2" value="msync不一定保证数据持久化, 可以执行标识MS_ASYNC, 写入调度层立即返回, 异步执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="464" y="8688" width="186" height="52" as="geometry" />
         </mxCell>
+        <mxCell id="lYN47E5_GX8T_inoplhK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTw0ZRRRu0HAWqjaLtqH-3" target="jTw0ZRRRu0HAWqjaLtqH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-3" value="inode-&amp;gt;i_mapping拿到的就是address_space, 因为一个file可以被映射到不同的多个(不连续的)page内, 用address_space表明这个file映射到的所有page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="9200" width="390" height="34" as="geometry" />
+          <mxGeometry x="1940" y="9200" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-4" value="通过radix tree组织起一个file的所有page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1980.67" y="9287.5" width="290" height="20" as="geometry" />
+          <mxGeometry x="2004.88" y="9280" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTw0ZRRRu0HAWqjaLtqH-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTw0ZRRRu0HAWqjaLtqH-5" target="jTw0ZRRRu0HAWqjaLtqH-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
