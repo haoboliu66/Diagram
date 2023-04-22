@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-22T20:50:20.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oNBc2E6X1LephWub3N7g" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-22T20:51:07.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="93bwxS1Fs_GjoHpxTXRb" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1675" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -656,45 +656,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-216" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6061" width="111.5" height="29" as="geometry" />
+          <mxGeometry x="1591" y="5997.5" width="111.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-217" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6146.5" width="111.5" height="149" as="geometry" />
+          <mxGeometry x="1591" y="6083" width="111.5" height="149" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-218" value="寄存器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6146.5" width="111.5" height="29" as="geometry" />
+          <mxGeometry x="1591" y="6083" width="111.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-219" value="控制器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6190" width="111.5" height="28" as="geometry" />
+          <mxGeometry x="1591" y="6126.5" width="111.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-220" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontColor=default;startArrow=none;startFill=0;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-221" target="QU0X1oR4tF8cKHQGs2CE-216" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1201" y="6232" />
-              <mxPoint x="1201" y="6076" />
+              <mxPoint x="1551" y="6168.5" />
+              <mxPoint x="1551" y="6012.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-221" value="缓冲区" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6218" width="111.5" height="28" as="geometry" />
+          <mxGeometry x="1591" y="6154.5" width="111.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-222" value="数据区" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="6267.5" width="111.5" height="28" as="geometry" />
+          <mxGeometry x="1591" y="6204" width="111.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-223" value="磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1281.5" y="6300.5" width="41" height="26" as="geometry" />
+          <mxGeometry x="1631.5" y="6237" width="41" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-224" value="1, CPU发送指令给寄存器, 控制器从寄存器中拿指令, 把数据区中数据读到缓冲区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1391" y="6069.5" width="290" height="39" as="geometry" />
+          <mxGeometry x="1741" y="6006" width="290" height="39" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-225" value="代码中通过port来映射磁盘的寄存器 (类似fd映射了文件结构)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1391" y="6139.25" width="310" height="30.75" as="geometry" />
+          <mxGeometry x="1741" y="6075.75" width="310" height="30.75" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-226" value="2, 写到缓冲区后, 中断通知CPU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1041" y="6147" width="170" height="23" as="geometry" />
+          <mxGeometry x="1391" y="6083.5" width="170" height="23" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-227" value="3, CPU接到特定的磁盘中断, 执行hd_interrupt (hd_init时设定的interrupt_gate)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1191" y="6011" width="230" height="40" as="geometry" />
+          <mxGeometry x="1541" y="5947.5" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-228" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1041" y="6387.38" width="275.75" height="52.62" as="geometry" />
