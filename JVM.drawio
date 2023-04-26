@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T10:47:55.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="P3o2LvaiaJtU7gEbOQaH" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T10:48:13.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="PkxnHS5N9lzx1vEF5esO" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-20" value="1, 按解释执行的模式启动&lt;br&gt;2, 根据方法的调用频率, 调用JIT编译优化热点代码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="670" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-21" value="gcc 有O1 O2 O3的编译优化等级, 每级的程度和性能表现不一样,&lt;br&gt;JIT也引入类似的技术, 分层编译, 达成执行速度和启动速度的折中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-21" value="gcc 有O1 O2 O3的编译优化等级, 每级的程度和性能表现不一样,&lt;br&gt;那么JIT也引入类似的技术, 分层编译, 达成执行速度和启动速度的折中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="750" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
