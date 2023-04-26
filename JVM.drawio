@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T11:39:07.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JjY-0jirolwumh7jT1sP" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T11:39:58.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bGSuhTFEfzJU4wLNu6FW" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-21" value="gcc 有O1 O2 O3的编译优化等级, 每级的程度和性能表现不一样,&lt;br&gt;那么JIT也引入类似的技术, 分层编译, 达成执行速度和启动速度的折中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="750" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-22" target="ld9Qwx5qpbUsMiMYAhv9-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-22" value="JVM是一个概念, JVM可以有多种实现, 所以需要一个规范, 来规定字节码的格式: JVM规范手册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="600" width="410" height="50" as="geometry" />
@@ -117,6 +120,9 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-41" value="JVM整体架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="890" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="660" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
