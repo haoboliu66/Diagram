@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T17:05:19.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="NF53-FrymFdRYRnEUsBH" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T13:08:29.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rlJVp9fD6j8QwqBZKmKi" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="1675" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1541" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,8 +130,8 @@
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-49" value="1, 磁盘由一组连续的空间组成&lt;br&gt;2, 为了方便管理 (避免外碎片, 利于快速分配)&lt;br&gt;3, 很容易想到: 将一系列连续空间划分为一个个的数据块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="325" y="1920" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QU0X1oR4tF8cKHQGs2CE-50" value="如何找到空数据块呢? 位图 =&amp;gt; block bitmap&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;如何找inode呢? 提前把inode生成为一张表, 通过inode bitmap找到空的inode即可&lt;br&gt;&lt;br&gt;如何找到inode位图? inode表, 数据块起始地址, 数据块位图地址 =&amp;gt; superblock&lt;br&gt;如何找到OS引导信息? 约定: 将OS的引导信息放在固定位置, 磁盘的 0 0 1 磁道的512字节处, 后面跟着的就是superblock" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="321" y="2070" width="477" height="110" as="geometry" />
+        <mxCell id="QU0X1oR4tF8cKHQGs2CE-50" value="如何找到空数据块呢? 位图 =&amp;gt; block bitmap&lt;br&gt;&lt;br&gt;如何找到一个文件? 文件组成: 元数据 + 数据块 =&amp;gt; inode节点, 索引&lt;br&gt;&lt;br&gt;如何找inode呢? 提前把inode生成为一张表, 通过inode bitmap找到空的inode即可&lt;br&gt;&lt;br&gt;如何找到inode位图? inode表, 数据块起始地址, 数据块位图地址 =&amp;gt; superblock&lt;br&gt;如何找到OS引导信息? 约定: 将OS的引导信息放在固定位置, 磁盘的 0 0 1 磁道的512字节处, 后面跟着的就是superblock" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="321" y="2060" width="477" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-51" value="磁盘的布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="336" y="1850" width="365" height="30" as="geometry" />
