@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T10:48:13.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="PkxnHS5N9lzx1vEF5esO" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T11:00:13.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="r5JvM_qEHEJlNOcZjvRf" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-21" value="gcc 有O1 O2 O3的编译优化等级, 每级的程度和性能表现不一样,&lt;br&gt;那么JIT也引入类似的技术, 分层编译, 达成执行速度和启动速度的折中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="750" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-22" value="JVM是一个概念, JVM可以有多种实现, 所以需要一个规范, 来规定字节码的格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
