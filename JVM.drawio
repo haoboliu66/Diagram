@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T10:11:08.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="x_9fHQTP4c7CnQDNpUHr" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T10:12:09.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1p00MmZrTuQMFDELxCZq" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-19" value="如何选择达成平衡? 选择热点(Hotspot)的代码进行编译" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="610" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-20" value="1, 按解释执行的模式启动&lt;br&gt;2, 根据方法的调用频率, 调用JIT编译优化热点代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="670" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
