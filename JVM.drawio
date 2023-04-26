@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T10:09:13.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MuHL6Mkwjg-q27_1wjTw" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T10:10:14.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4wwNrBT7BLRN4FmkrzKo" version="21.2.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="798" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1625" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,21 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-8" value="编译优化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-11" value="执行速度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-15" value="解释执行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-16" target="ld9Qwx5qpbUsMiMYAhv9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-16" value="编译优化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-17" value="启动速度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="550" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
