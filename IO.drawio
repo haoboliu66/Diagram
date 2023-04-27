@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T16:06:45.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Tu58tDDlYcFy-G3puYsf" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T16:07:02.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="P1AvLe9SwThCd_G6fZ9U" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1789" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,22 +68,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-29" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="390" y="1220" width="75" height="23" as="geometry" />
+          <mxGeometry x="387.5" y="1160" width="75" height="23" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-30" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="555" y="1220" width="100" height="23" as="geometry" />
+          <mxGeometry x="552.5" y="1160" width="100" height="23" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="QU0X1oR4tF8cKHQGs2CE-32" target="QU0X1oR4tF8cKHQGs2CE-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-32" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="555" y="1293" width="100" height="27" as="geometry" />
+          <mxGeometry x="552.5" y="1233" width="100" height="27" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-33" value="三种执行方式:&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;1, CPU发指令给磁盘驱动器读数据, 等待读好了告诉CPU, CPU告诉驱动将数据传入到内存中, 等待传输完成后CPU继续执行&lt;br style=&quot;font-size: 11px;&quot;&gt;2, 引入中断, 磁盘驱动器和内存交互读写数据时, CPU继续执行指令, 好了之后中断CPU, 让CPU回复ack即可&lt;br style=&quot;font-size: 11px;&quot;&gt;3, 引入DMA, 由一个DMA控制器去沟通磁盘驱动和内存, 所有的数据块传输完成后, 中断CPU即可" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="680" y="1210" width="600" height="70" as="geometry" />
+          <mxGeometry x="677.5" y="1150" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-34" value="读磁盘指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="425" y="1274.38" width="96" height="30" as="geometry" />
+          <mxGeometry x="422.5" y="1214.38" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QU0X1oR4tF8cKHQGs2CE-35" value="fdatasync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="441.5" y="1615" width="82" height="30" as="geometry" />
