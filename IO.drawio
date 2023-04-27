@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T20:22:39.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="U7M4qxDXPfaI_184ZbMk" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T20:23:27.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rscFo1iPpXfOYiKKL3bb" version="21.2.2" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="2591" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="r2-iVwyzvhg3hIlhGKmn-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r2-iVwyzvhg3hIlhGKmn-1" target="r2-iVwyzvhg3hIlhGKmn-8">
+        <mxCell id="r2-iVwyzvhg3hIlhGKmn-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="r2-iVwyzvhg3hIlhGKmn-1" target="r2-iVwyzvhg3hIlhGKmn-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-iVwyzvhg3hIlhGKmn-66" value="拿到一个bh, 如果是dirty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="r2-iVwyzvhg3hIlhGKmn-65">
+          <mxGeometry x="-0.0139" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r2-iVwyzvhg3hIlhGKmn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;perimeterSpacing=1;" vertex="1" parent="1">
           <mxGeometry x="1061.08" y="4266.25" width="1238.92" height="550" as="geometry" />
@@ -1638,10 +1643,10 @@
           <mxGeometry x="805.75" y="4489.25" width="135.25" height="46" as="geometry" />
         </mxCell>
         <mxCell id="r2-iVwyzvhg3hIlhGKmn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;perimeterSpacing=1;" vertex="1" parent="1">
-          <mxGeometry x="2434.58" y="4266.25" width="1238.92" height="550" as="geometry" />
+          <mxGeometry x="2555.5" y="3920" width="1238.92" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="r2-iVwyzvhg3hIlhGKmn-64" value="拿到一个buffer_head, 如果是dirty, 要sync_dev -&amp;gt; ll_rw_block刷盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2839.13" y="4283.75" width="557.25" height="46.25" as="geometry" />
+        <mxCell id="r2-iVwyzvhg3hIlhGKmn-64" value="sync_dev -&amp;gt; ll_rw_block刷盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2960.05" y="3937.5" width="557.25" height="46.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
