@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T15:32:57.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gXbVGDLpEurfSEGdVbBP" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T15:33:02.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="IZRn3p3gkRM5wLvgBezN" version="21.2.1" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
     <mxGraphModel dx="1439" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1270,7 +1270,7 @@
           <mxGeometry x="1343" y="774" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-16" value="File System的核心是superblock, 因为superblock包含了整个文件系统的metadata, 因为在VFS中抽象出了一个superblock的数据结构, 来管控整个文件系统, e.g. ex2的superblock结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1590.5" y="795" width="440" height="65" as="geometry" />
+          <mxGeometry x="1571.75" y="868.75" width="440" height="65" as="geometry" />
         </mxCell>
         <mxCell id="heE2GlD0Pq4exh14zjHW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;curved=1;" parent="1" source="heE2GlD0Pq4exh14zjHW-17" target="heE2GlD0Pq4exh14zjHW-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
