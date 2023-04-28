@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T15:45:52.299Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3V4FGHwBUzj3HoviQv8r" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T15:46:40.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="qFdwIhDMO9yJ_s7zjsXd" version="21.2.2" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,20 @@
         <mxCell id="ZuVuZugnc80HLuIrkQNn-20" value="属性值拷贝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="150" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-27" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZuVuZugnc80HLuIrkQNn-25" target="ZuVuZugnc80HLuIrkQNn-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZuVuZugnc80HLuIrkQNn-25" value="实现了行为/动作共享, 属性数据独立" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="280" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZuVuZugnc80HLuIrkQNn-26" target="ZuVuZugnc80HLuIrkQNn-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-26" value="创建对象: 分配内存, 复制数据, 其他操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="339" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-28" value="new关键字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
