@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T15:25:15.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bEtsqyqPdXIJfEGtadk8" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T15:30:04.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2KJzG-T4uXV7byNszIS8" version="21.2.2" type="github">
   <diagram id="ljxXXhLhvAgGl7J6G4s4" name="Page-1">
-    <mxGraphModel dx="2812" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6120" dy="3040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1647,6 +1647,114 @@
         </mxCell>
         <mxCell id="r2-iVwyzvhg3hIlhGKmn-64" value="sync_dev -&amp;gt; ll_rw_block刷盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3026.61" y="3923.5" width="557.25" height="46.25" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-37" value="mmap映射的虚拟内存区域, 可以有一个flag来标识, 是private还是shared; 假设A进程fork出B进程, A的一段mmap的虚拟地址空间为shared且允许写操作, 那么当B进程向这段地址写东西时, 不会发生COW, A进程也会立刻感知到数据的变化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-226.9999999999999" y="10636.5" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-39" target="fhsokCRTV8Q-z06195X9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-39" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-226.9999999999999" y="10821.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-107.00000000000034" y="10786.5" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-42" target="fhsokCRTV8Q-z06195X9-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-42" value="heap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-107.00000000000034" y="10816.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-43" value="1. 找到task_struct&lt;br&gt;2. 找到mm_struct&lt;br&gt;3. 找到vma_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22.99999999999966" y="10806.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-45" target="fhsokCRTV8Q-z06195X9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-45" value="do_mmap_pgoff" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-236.9999999999999" y="10926.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-46" value="addr = get_unmapped_area" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-261.9999999999999" y="10991.5" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-47" value="&quot;完美映射&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297.99999999999966" y="11023.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-48" value="频繁发生page fault vs CPU频繁复制数据的两者的衡量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.99999999999966" y="10936.5" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-50" target="fhsokCRTV8Q-z06195X9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-50" value="mmap vs write/read" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.99999999999966" y="10851.5" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-52" target="fhsokCRTV8Q-z06195X9-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-52" value="文件大小固定, 可以映射到同一大小不变的虚拟地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.99999999999966" y="11026.5" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-53" value="sendfile" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="839.2500000000001" y="10540" width="710" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-54" value="mmap" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-316.9999999999999" y="10546.5" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="989.2500000000001" y="10690" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-56" value="Kernel" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="989.2500000000001" y="10770" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-57" value="in_fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1377.2499999999995" y="10770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-58" value="out_fd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1566.7499999999995" y="10785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-59" value="in_file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1382.2499999999995" y="10820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-60" value="out_file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1569.7499999999995" y="10825" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-61" value="in_inode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1382.2499999999995" y="10870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-62" value="out_inode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1571.7499999999995" y="10875" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-63" value="in_file-&amp;gt;f_op-&amp;gt;sendfile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1337.2499999999995" y="10915" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-64" value="out_file-&amp;gt;f_op-&amp;gt;sendpage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1509.2499999999995" y="10915" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-65" value="回调一般用在异步操作上, 但是回调不一定代表就是异步操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="969.2500000000001" y="11020" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-67" target="fhsokCRTV8Q-z06195X9-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-67" value="in_fd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="999.2500000000001" y="10800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-69" target="fhsokCRTV8Q-z06195X9-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-69" value="out_fd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1089.2499999999995" y="10800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fhsokCRTV8Q-z06195X9-71" target="fhsokCRTV8Q-z06195X9-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-71" value="Disk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="999.2500000000001" y="10885" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fhsokCRTV8Q-z06195X9-72" value="NIC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1089.2499999999995" y="10885" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
