@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T15:59:25.010Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="7nIU6MRih-ai2pNBlxEA" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T16:01:17.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HImwcZwuzeci6nG4KoR8" version="21.2.2" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,13 +68,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZuVuZugnc80HLuIrkQNn-31" value="编译器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="450" width="70" height="40" as="geometry" />
+          <mxGeometry x="80" y="520" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZuVuZugnc80HLuIrkQNn-32" value="语言" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="450" width="70" height="40" as="geometry" />
+          <mxGeometry x="220" y="520" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZuVuZugnc80HLuIrkQNn-34" value="编译器赋予语言特性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="410" width="140" height="40" as="geometry" />
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-34" value="规范指导编译器开发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZuVuZugnc80HLuIrkQNn-35" target="ZuVuZugnc80HLuIrkQNn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-35" value="语言规范" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuVuZugnc80HLuIrkQNn-41" value="编译器对语言特性给予支持" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="565" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
