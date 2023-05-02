@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T08:54:00.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JjvpLnZ7qEkCKcCBraZ8" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T08:55:04.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zvosPLtzi0jRxD4zGq7j" version="21.2.3" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="1621" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,9 +415,6 @@
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-9" value="AWS::EC2::Instance" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-61" y="2240" width="161" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j0hPNVU3QIjBwwvfbFk0-10" value="cluster security group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="2140" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j0hPNVU3QIjBwwvfbFk0-11" target="j0hPNVU3QIjBwwvfbFk0-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -435,12 +432,6 @@
         </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-11" value="stage-pts-msk stack" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-300" y="2190" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j0hPNVU3QIjBwwvfbFk0-17" value="admin host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="2240" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j0hPNVU3QIjBwwvfbFk0-18" value="broker logs bucket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="105" y="2290" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j0hPNVU3QIjBwwvfbFk0-19" target="j0hPNVU3QIjBwwvfbFk0-30">
           <mxGeometry relative="1" as="geometry" />
