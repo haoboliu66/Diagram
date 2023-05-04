@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T20:58:00.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="q5kkGNLPu5RqNVDU4GBI" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T20:58:48.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xPmh442xH_YsMHq7WFKd" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="110" y="565" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bRJoNwYBJULNIH3R_m5Y-1" value="泛型: 根据 类型系统 重用代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="540" width="200" height="40" as="geometry" />
+          <mxGeometry x="770" y="540" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cLtxKZ1UayHkJXv-ha-v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="cLtxKZ1UayHkJXv-ha-v-1" target="cLtxKZ1UayHkJXv-ha-v-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -158,7 +158,28 @@
           <mxGeometry x="435" y="1035" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NHox-umJJgJSBm9QQrZl-1" value="代码膨胀 Code bloat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1005" y="520" width="130" height="30" as="geometry" />
+          <mxGeometry x="1140" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-1" value="属性" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="690" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-2" value="行为/动作" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="770" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="0XPSr2HVNZB46iI9HG13-5" target="0XPSr2HVNZB46iI9HG13-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="0XPSr2HVNZB46iI9HG13-5" target="0XPSr2HVNZB46iI9HG13-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-5" value="class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="740" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="0XPSr2HVNZB46iI9HG13-6" target="NHox-umJJgJSBm9QQrZl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XPSr2HVNZB46iI9HG13-6" value="编译器实现逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="540" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
