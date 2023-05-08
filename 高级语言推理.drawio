@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T08:13:26.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ceUeI84jO2WRuJCDebgA" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T19:12:29.048Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="cK1x1RbM1e6xUxlYnM70" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,22 +244,22 @@
         <mxCell id="0XPSr2HVNZB46iI9HG13-31" value="静态绑定 vs 动态绑定&lt;br&gt;类比: 静态链接库 vs 动态链接库" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1335" y="840" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="0XPSr2HVNZB46iI9HG13-32" target="W7PkFNSz-1NAA-pKh_Ly-1">
+        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="0XPSr2HVNZB46iI9HG13-32" target="W7PkFNSz-1NAA-pKh_Ly-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0XPSr2HVNZB46iI9HG13-32" value="1, 在运行时, 对象能够获取到所属类模板的元数据信息(反射)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="865" y="1099" width="315" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="W7PkFNSz-1NAA-pKh_Ly-1" target="W7PkFNSz-1NAA-pKh_Ly-3">
+        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="W7PkFNSz-1NAA-pKh_Ly-1" target="W7PkFNSz-1NAA-pKh_Ly-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-1" value="这就是为什么在JVM中 OOP - KCLASS模型头部需要保留一个指向KCLASS的指针&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-1" value="这就是为什么在JVM中 OOP - KCLASS模型头部需要保留一个指向KCLASS的指针&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1099" width="420" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-3" value="invokevirtual:&amp;nbsp;Invoke instance method; dispatch based on class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-3" value="invokevirtual:&amp;nbsp;Invoke instance method; dispatch based on class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1324" y="1169" width="330" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-8" value="Operand Stack: 模拟ALU组件&lt;br&gt;Local Variable Table: 模拟寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="W7PkFNSz-1NAA-pKh_Ly-8" value="Operand Stack: 模拟ALU组件&lt;br&gt;Local Variable Table: 模拟寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="950" y="1340" width="276" height="50" as="geometry" />
         </mxCell>
       </root>
