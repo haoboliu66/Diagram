@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T15:42:36.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8mDqzgl8DKBtW92P1BJB" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T15:59:00.557Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rHbAl0Lcugb_tQk1qnK1" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,19 +260,19 @@
           <mxGeometry x="1430" y="1024" width="330" height="31" as="geometry" />
         </mxCell>
         <mxCell id="W7PkFNSz-1NAA-pKh_Ly-8" value="Operand Stack: 模拟ALU组件&lt;br&gt;Local Variable Table: 模拟寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="954" y="1510" width="276" height="50" as="geometry" />
+          <mxGeometry x="50" y="1265" width="276" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-1" value="2, vtable (virtual method table)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="865" y="1190" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-2" value="strace vs ltrace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="1440" width="140" height="30" as="geometry" />
+          <mxGeometry x="990" y="1670" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-3" value="C++就是在C的基础上支持了面向对象的语法, 底层还是C&lt;br&gt;new, delete还是通过malloc和free在分配内存, 只不过中间插入了constructor和destructor, 即&lt;br&gt;malloc -&amp;gt; constructor -&amp;gt; destructor -&amp;gt; free&lt;br&gt;&lt;br&gt;new和delete是通过调用libstdc++的逻辑来实现对象的分配和销毁的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1370" width="390" height="110" as="geometry" />
+          <mxGeometry x="1610" y="745" width="390" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-4" value="C++ namespace 类似于 Java package, 用于资源隔离" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1520" width="310" height="40" as="geometry" />
+          <mxGeometry x="1635" y="865" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="AaBTW7L8jWlvHFCmX_wq-1" target="AaBTW7L8jWlvHFCmX_wq-2">
           <mxGeometry relative="1" as="geometry" />
