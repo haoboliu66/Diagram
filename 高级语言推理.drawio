@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T15:38:48.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fVc9seo-GNUqpK4dcQsu" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T15:39:51.456Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="THXeIAF_1ype5bNVssni" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,6 +273,9 @@
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-4" value="C++ namespace 类似于 Java package, 用于资源隔离" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1350" y="1470" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-1" value="子类继承父类传递下来的vtable, 如果子类要重写方法, 只需要将对象的虚方法表中对应的表项改为自己的函数指针即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1230" width="330" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
