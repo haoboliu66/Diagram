@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T15:59:09.067Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="BTfoekFE85OA23agrygI" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T16:00:51.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8B1r7JoVa6YT0ocKEbRN" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,8 +280,8 @@
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-1" value="子类继承父类传递下来的vtable, 如果子类要重写方法, 只需要将对象的虚方法表中对应的表项改为自己的函数指针即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1070" y="1190" width="330" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="AaBTW7L8jWlvHFCmX_wq-2" value="vtable保存在哪里? ==&amp;gt; 对象的头部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1250" width="270" height="31" as="geometry" />
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-2" value="vtable保存在哪里? ==&amp;gt; 对象的头部,&amp;nbsp; C++允许多继承, 所以一个对象允许有多个vtable表, 每一个vtable关联对应的父类虚方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1250" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-5" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="910" y="1228.75" width="80" height="24.5" as="geometry" />
