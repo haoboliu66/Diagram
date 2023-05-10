@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T22:24:25.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DbkMJsdkWcoRNF8YHIr6" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T08:30:06.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="IShfUVI-3ilFl4MGwPi1" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
           <mxGeometry x="865" y="1190" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-2" value="strace vs ltrace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="990" y="1670" width="140" height="30" as="geometry" />
+          <mxGeometry x="300" y="1139" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-3" value="C++就是在C的基础上支持了面向对象的语法, 底层还是C&lt;br&gt;new, delete还是通过malloc和free在分配内存, 只不过中间插入了constructor和destructor, 即&lt;br&gt;malloc -&amp;gt; constructor -&amp;gt; destructor -&amp;gt; free&lt;br&gt;&lt;br&gt;new和delete是通过调用libstdc++的逻辑来实现对象的分配和销毁的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1610" y="745" width="390" height="110" as="geometry" />
@@ -299,13 +299,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-9" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1510" width="70" height="40" as="geometry" />
+          <mxGeometry x="865" y="1590" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-11" value="C++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1430" width="70" height="40" as="geometry" />
+          <mxGeometry x="865" y="1510" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-12" value="C++自己的函数库, 补充gcc的前端支撑C++的语法(面向对象和其他C++的特性)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="950" y="1470" width="400" height="30" as="geometry" />
+          <mxGeometry x="925" y="1570" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-15" value="C++函数库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1460" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-16" value="编译器前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1520" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
