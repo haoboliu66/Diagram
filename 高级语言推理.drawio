@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T15:15:43.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="pBXMqTiWAPuj7oGvFX0J" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T16:22:11.379Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lYXIsRD-hqeXrF8jdSJG" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,8 +349,14 @@
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-30" value="share_ptr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="1860" width="70" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="AaBTW7L8jWlvHFCmX_wq-31" target="AaBTW7L8jWlvHFCmX_wq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-31" value="通过reference count来追踪, 如果reference count为0, 调用destructor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="715" y="1890" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AaBTW7L8jWlvHFCmX_wq-32" value="但是share_ptr引入了循环引用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="1890" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
