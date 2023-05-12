@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T11:29:06.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="x1F0t2XV-xUHzNvxFDwb" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T11:29:22.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-ZkpJDUIik3StBZCvCr9" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="588" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -504,19 +504,30 @@
           <mxGeometry x="990" y="2360" width="70" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-21" target="8bD-8BE3S3ZDhi1XmUKp-22">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="2550" />
+              <mxPoint x="1025" y="2550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-21" value="Intel ISA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="990" y="2490" width="70" height="26" as="geometry" />
+          <mxGeometry x="990" y="2510" width="70" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-22" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="990" y="2540" width="70" height="26" as="geometry" />
+          <mxGeometry x="990" y="2560" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-23" target="8bD-8BE3S3ZDhi1XmUKp-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-23" value="自己的ISA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="990" y="2410" width="70" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-25" target="8bD-8BE3S3ZDhi1XmUKp-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-25" value="VM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="960" y="2450" width="140" height="26" as="geometry" />
+          <mxGeometry x="955" y="2460" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
