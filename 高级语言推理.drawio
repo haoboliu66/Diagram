@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T14:10:41.409Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Bw4HhWe-2daUkIdm1KpO" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T14:10:47.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CoQoysSO8mz8cdAxKHjJ" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="662" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,7 +560,7 @@
           <mxGeometry x="530" y="2440" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cYHrkXs4yALbVww2hE_A-4" value="摒弃C类语言易出错且复杂的内容, 补充自己的语言特性&lt;br&gt;1, 引入自动GC, 避免内存泄漏&lt;br&gt;2, 实现自己的类型系统, 屏蔽底层因为机器位数导致宏定义的处理&lt;br&gt;3, 实现反射行为, 使得编程难度降低, 专注业务&lt;br&gt;4, 基于反射行为和中间IR字节码文件, 引入常量池, 注解等特性, 使得语言在运行层面屏蔽掉了编译型语言的固定模式, 提供高度可配置的特性 (因为动态, 所以足够灵活)&lt;br&gt;5, 引入自己的线程模型, IO模型等, 屏蔽底层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2287" width="330" height="92" as="geometry" />
+          <mxGeometry x="1170" y="2276.5" width="390" height="113" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
