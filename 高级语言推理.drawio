@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T10:56:59.558Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GxGKs-NBy4d8YaSM6Wzh" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T10:57:09.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="kLuXWQ4ldPp4HvCUHPMo" version="21.2.4" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -452,10 +452,10 @@
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-81" value="refCnt = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1285" y="2026" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-1" value="因此, 可以看出 C++结合编译器 + 函数库来规避C语言中会出现的内存问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-1" value="因此, 可以看出 C++结合编译器 + 函数库来规避C语言中会出现的内存问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="790" y="2046" width="430" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-2" value="但是C, C++与ISA强绑定, 那么如果有一个可以独立于机器平台的语言呢?&amp;nbsp;&lt;br&gt;由此, 基于虚拟机VM得语言出现了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8bD-8BE3S3ZDhi1XmUKp-2" value="但是C, C++与ISA强绑定, 那么如果有一个可以独立于机器平台的语言呢?&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;由此, 基于虚拟机VM得语言出现了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="790" y="2180" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
