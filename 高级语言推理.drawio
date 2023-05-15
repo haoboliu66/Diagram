@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T14:35:57.951Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_9x_vd1rJWMtBwSnaSpm" version="21.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T09:12:34.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="z8_ZKxofIUptYy3lIQO2" version="21.3.0" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
-    <mxGraphModel dx="662" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,7 +500,7 @@
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-17" target="8bD-8BE3S3ZDhi1XmUKp-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cYHrkXs4yALbVww2hE_A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-17" target="cYHrkXs4yALbVww2hE_A-4">
+        <mxCell id="cYHrkXs4yALbVww2hE_A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-17" target="cYHrkXs4yALbVww2hE_A-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-17" value="编译器前端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
@@ -550,16 +550,16 @@
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-33" value="综上, 区分运行时动态语言与静态编译语言得最好方式 --- 判断中间产物是否有输出, 且为目标平台二进制语言 (e.g. elf, exe)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="845" y="2650" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cYHrkXs4yALbVww2hE_A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cYHrkXs4yALbVww2hE_A-1" target="cYHrkXs4yALbVww2hE_A-2">
+        <mxCell id="cYHrkXs4yALbVww2hE_A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cYHrkXs4yALbVww2hE_A-1" target="cYHrkXs4yALbVww2hE_A-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cYHrkXs4yALbVww2hE_A-1" value="解释执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cYHrkXs4yALbVww2hE_A-1" value="解释执行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="837" y="2402" width="60" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="cYHrkXs4yALbVww2hE_A-2" value="解释的过程就是翻译AST得出对应目标平台的ISA指令, 只需要将这些指令缓存且优化, 下次执行时, 不需要逐条解释 ==&amp;gt; JIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cYHrkXs4yALbVww2hE_A-2" value="解释的过程就是翻译AST得出对应目标平台的ISA指令, 只需要将这些指令缓存且优化, 下次执行时, 不需要逐条解释 ==&amp;gt; JIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="530" y="2440" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cYHrkXs4yALbVww2hE_A-4" value="摒弃C类语言易出错且复杂的内容, 补充自己的语言特性&lt;br&gt;1, 引入自动GC, 避免内存泄漏&lt;br&gt;2, 实现自己的类型系统, 屏蔽底层因为机器位数导致宏定义的处理&lt;br&gt;3, 实现反射行为, 使得编程难度降低, 专注业务&lt;br&gt;4, 基于反射行为和中间IR字节码文件, 引入常量池, 注解等特性, 使得语言在运行层面屏蔽掉了编译型语言的固定模式, 提供高度可配置的特性 (因为动态, 所以足够灵活)&lt;br&gt;5, 引入自己的线程模型, IO模型等, 屏蔽底层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="cYHrkXs4yALbVww2hE_A-4" value="摒弃C类语言易出错且复杂的内容, 补充自己的语言特性&lt;br&gt;1, 引入自动GC, 避免内存泄漏&lt;br&gt;2, 实现自己的类型系统, 屏蔽底层因为机器位数导致宏定义的处理&lt;br&gt;3, 实现反射行为, 使得编程难度降低, 专注业务&lt;br&gt;4, 基于反射行为和中间IR字节码文件, 引入常量池, 注解等特性, 使得语言在运行层面屏蔽掉了编译型语言的固定模式, 提供高度可配置的特性 (因为动态, 所以足够灵活)&lt;br&gt;5, 引入自己的线程模型, IO模型等, 屏蔽底层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1170" y="2276.5" width="390" height="113" as="geometry" />
         </mxCell>
       </root>
