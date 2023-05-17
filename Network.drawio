@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T22:03:42.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="k6XfBIQRB40RC2gqKb7n" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T09:01:37.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="w-VspE76gyuAaBs5rN3q" version="21.3.2" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
-    <mxGraphModel dx="794" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,82 +145,82 @@
         <mxCell id="41zxChAVSLW4Dl63zJSh-41" value="NAT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="240" y="730" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-1" target="EXS46r-TFBb_ld1rwyYY-2">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EXS46r-TFBb_ld1rwyYY-1" target="EXS46r-TFBb_ld1rwyYY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-1" value="IP Packet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-1" value="IP Packet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="286.25" y="880" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-2" value="Frame" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-2" value="Frame" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="286.25" y="940" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-3" target="EXS46r-TFBb_ld1rwyYY-4">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EXS46r-TFBb_ld1rwyYY-3" target="EXS46r-TFBb_ld1rwyYY-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-3" value="IP数据报如何封装成链路层frame" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-3" value="IP数据报如何封装成链路层frame" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="356.25" y="910" width="172.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-4" target="EXS46r-TFBb_ld1rwyYY-18">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="EXS46r-TFBb_ld1rwyYY-4" target="EXS46r-TFBb_ld1rwyYY-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-4" value="链路层协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-4" value="链路层协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="388.75" y="970" width="108.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-6" value="e.g. PPP or Ethernet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-6" value="e.g. PPP or Ethernet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="505.63" y="980" width="98.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-14" target="EXS46r-TFBb_ld1rwyYY-16">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EXS46r-TFBb_ld1rwyYY-14" target="EXS46r-TFBb_ld1rwyYY-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-14" value="Ethernet出错就丢弃, 由上层来负责检测数据的接受" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-14" value="Ethernet出错就丢弃, 由上层来负责检测数据的接受" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="261.06" y="1065" width="157.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-16" value="所以有了TCP的各种机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-16" value="所以有了TCP的各种机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="467.18" y="1065" width="157.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-18" value="链路层协议规定允许的frame数据部分长度上限 - MTU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-18" value="链路层协议规定允许的frame数据部分长度上限 - MTU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="490" y="1020" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-21" target="EXS46r-TFBb_ld1rwyYY-22">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="EXS46r-TFBb_ld1rwyYY-21" target="EXS46r-TFBb_ld1rwyYY-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-21" value="CSMA/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-21" value="CSMA/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="255" y="1240" width="84.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-22" value="Raft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-22" value="Raft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="450" y="1240" width="64.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-24" value="网卡驱动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-24" value="网卡驱动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="270" y="1320" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-25" target="EXS46r-TFBb_ld1rwyYY-26">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="EXS46r-TFBb_ld1rwyYY-25" target="EXS46r-TFBb_ld1rwyYY-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-25" value="混杂模式 - promiscuous mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-25" value="混杂模式 - promiscuous mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="410" y="1380" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-26" value="配置NIC接收所有的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-26" value="配置NIC接收所有的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="425" y="1440" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-29">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-30">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-31">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="EXS46r-TFBb_ld1rwyYY-28" target="EXS46r-TFBb_ld1rwyYY-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-28" value="链路层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-28" value="链路层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="30" y="1005" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-29" value="封装" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-29" value="封装" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="145" y="955" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-30" value="透明传输" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-30" value="透明传输" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="145" y="1005" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EXS46r-TFBb_ld1rwyYY-31" value="差错检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="EXS46r-TFBb_ld1rwyYY-31" value="差错检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="145" y="1065" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
