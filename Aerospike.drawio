@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T07:30:00.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6w-EePmp2lV4wSbafCsZ" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T07:30:25.281Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="etLa1SK7Y6_Vdrsfrr-x" version="21.3.7" type="github">
   <diagram id="VIpjSEnUZEiX52YUSfE2" name="Page-1">
     <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,8 +233,11 @@
         <mxCell id="MGh70abkI_4qFTSz2NJ7-51" value="escalation result =&amp;nbsp; connectId result or household result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="809.75" y="1530" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="frgx9RvPd_OXrsqinzkH-1" value="Data Storage Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="690" width="230" height="70" as="geometry" />
+        <mxCell id="frgx9RvPd_OXrsqinzkH-1" value="DRAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="frgx9RvPd_OXrsqinzkH-4" value="Flash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
