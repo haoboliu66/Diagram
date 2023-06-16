@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T16:04:28.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gGjq_nqYzKAvsP4jgm_Y" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T16:05:12.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bUuwlJMDe3x7YWDDcfSX" version="21.3.8" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="545" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,19 +32,31 @@
           <mxGeometry x="540" y="255" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="100" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="510" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="510" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-17" value="为了优化性能, 避免多个线程获取任务时发生竞争, 工作窃取队列使用双端列队, 当前线程从top放入, 其他线程从base拿走" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="315" y="500" width="305" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-18" value="使用CAS避免多个竞争获取同一个&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="250" y="565" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UsoG7qOwd3O0ct9gbPl3-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129.62" y="450" as="sourcePoint" />
+            <mxPoint x="129.62" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsoG7qOwd3O0ct9gbPl3-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258.23" y="604" as="sourcePoint" />
+            <mxPoint x="258" y="549" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
