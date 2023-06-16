@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T19:31:17.778Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ff-Cgznk2MLZn7kkv1HT" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T19:31:26.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Izmsseu7BXM0Br7p6aHl" version="21.3.8" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="708" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,20 +103,20 @@
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-39" value="两个队列读多写少, 优先考虑读性能， 因此使用数组实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="760" y="210" width="183" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UsoG7qOwd3O0ct9gbPl3-40" value="外部提交队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="270" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-41" value="工作窃取队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810.5" y="270" width="80" height="30" as="geometry" />
+          <mxGeometry x="740" y="270" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-42" value="外部提交队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890.5" y="270" width="80" height="30" as="geometry" />
+          <mxGeometry x="820" y="270" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-43" value="工作窃取队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="971" y="270" width="80" height="30" as="geometry" />
+          <mxGeometry x="900.5" y="270" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-44" value="用奇偶index来区分数组当前元素归属于哪个队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="760" y="320" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UsoG7qOwd3O0ct9gbPl3-45" value="外部提交队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980.5" y="270" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
