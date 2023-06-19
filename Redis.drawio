@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T13:15:42.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YQMnv6i6ZPnXGhHfQirR" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T13:16:04.641Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kSoqD4FhaHSUbU9Ve_jK" version="21.4.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-860" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,29 +67,29 @@
             <mxGeometry x="3000" y="830" width="100" height="25.81" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gHjb5b28OfsgwWgYxNie-9" target="gHjb5b28OfsgwWgYxNie-10" edge="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="gHjb5b28OfsgwWgYxNie-9" target="gHjb5b28OfsgwWgYxNie-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-9" value="内存数据库的设计什么最重要? 效率 + 内存利用率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-9" value="内存数据库的设计什么最重要? 效率 + 内存利用率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2570" y="80" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gHjb5b28OfsgwWgYxNie-10" target="gHjb5b28OfsgwWgYxNie-12" edge="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-13" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="gHjb5b28OfsgwWgYxNie-10" target="gHjb5b28OfsgwWgYxNie-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-10" value="让redis自身表示的数据尽可能小, 所以想方设法搞出一堆节约内存资源的操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-10" value="让redis自身表示的数据尽可能小, 所以想方设法搞出一堆节约内存资源的操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2580" y="150" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-12" value="将一个基本类型拆分成多个不同的位域&lt;br&gt;e.g 一个int的不同范围各有作用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-12" value="将一个基本类型拆分成多个不同的位域&lt;br style=&quot;font-size: 11px;&quot;&gt;e.g 一个int的不同范围各有作用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2582.5" y="210" width="275" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-16" value="元数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-16" value="元数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2930" y="100" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-17" value="用户数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHjb5b28OfsgwWgYxNie-17" value="用户数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2930" y="130" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gHjb5b28OfsgwWgYxNie-19" value="Redis如何保持daemon进程一直运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2730" y="319.42" width="220" height="42.57" as="geometry" />
+        <mxCell id="gHjb5b28OfsgwWgYxNie-19" value="Redis如何保持daemon进程一直运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2740" y="319.42" width="220" height="42.57" as="geometry" />
         </mxCell>
         <mxCell id="gHjb5b28OfsgwWgYxNie-20" value="daemonizing a process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3080" y="326.86" width="140.88" height="25.71" as="geometry" />
