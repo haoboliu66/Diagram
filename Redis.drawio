@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T11:42:45.031Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8BxT4qbFnTJHHiWHL6r_" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T11:43:17.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Lh3an_QbewbkAVCzmyvJ" version="21.5.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
     <mxGraphModel dx="-1687" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,8 +211,8 @@
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-3" value="1.CPU第一个执行的程序: OS&lt;br&gt;2.若想要切换进程执行, 那么就要找到进程的指令地址, 即修改IP寄存器的值, 使其指向进程的指令地址即可&lt;br&gt;3.如果进行切换? CS, DS, SS, ES, GDTR, IP, 通用寄存器&lt;br&gt;4.CPL? R0 -&amp;gt; R3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4670" y="1900" width="345" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="3EPBH0Vr4_YoN98Gf7AG-6" value="OS是一个R0的程序, 其他都是R3的程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4856" y="1854" width="264" height="30" as="geometry" />
+        <mxCell id="3EPBH0Vr4_YoN98Gf7AG-6" value="OS是一个R0的程序, 其他都是R3的程序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="4875" y="1850" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="3EPBH0Vr4_YoN98Gf7AG-7" target="3EPBH0Vr4_YoN98Gf7AG-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -226,8 +226,8 @@
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-12" value="move_to_user_mode() 如何实现的?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="4670" y="2110" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3EPBH0Vr4_YoN98Gf7AG-18" value="Linux 0.11 进程管理的组织使用的数组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="4712" y="1830" width="206" height="20" as="geometry" />
+        <mxCell id="3EPBH0Vr4_YoN98Gf7AG-18" value="Linux 0.11 进程管理的组织使用的数组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="4681.13" y="1830" width="206" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0WFMIrBX3iQnZ0TPT0h6-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0WFMIrBX3iQnZ0TPT0h6-1" target="0WFMIrBX3iQnZ0TPT0h6-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
