@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T13:24:30.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PwWjgdGzwLK-Ygthb3LG" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T11:42:45.031Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8BxT4qbFnTJHHiWHL6r_" version="21.5.0" type="github">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1037" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1687" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1449,10 +1449,10 @@
           </mxCell>
         </UserObject>
         <mxCell id="WLgup91aIvUvxjrsKoYX-1" value="架构设计基本思想:&amp;nbsp;&lt;br&gt;1, 时间与空间的平衡, 或根据业务需求调整比例&lt;br&gt;2, 将CPU, 内存, IO优化到极致 (业务的最低需求量 +部分容错空间)&lt;br&gt;3,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3040" y="1060" width="390" height="110" as="geometry" />
+          <mxGeometry x="3040" y="1060" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WLgup91aIvUvxjrsKoYX-2" value="木桶效应: 时间 + 空间&lt;br&gt;CPU, 内存, IO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3094" y="1010" width="176" height="50" as="geometry" />
+          <mxGeometry x="3094" y="1010" width="156" height="40" as="geometry" />
         </mxCell>
         <UserObject label="其他高级语言推理" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FIO.drawio" linkTarget="_blank" id="n-gF8ywSbx_LB9vmWn41-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fontSize=14;fillColor=#f8cecc;" parent="1" vertex="1">
