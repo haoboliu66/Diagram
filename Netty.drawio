@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T22:49:19.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HFCm79SyLAH4fHo6vQoK" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T22:50:17.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-kj730v2-v1ewJs-lKXG" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="662" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-17" value="发现自己的write只是通过context找到下一个handler, 传递数据并调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="900" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qh2oVAJPeimNvLxA-YBM-19" value="ThriftRequestTimeHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-19" value="HttpServerCodec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="610" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
