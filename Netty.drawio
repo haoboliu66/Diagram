@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T23:00:41.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1-T-RW2k6R-jQcPQ_sTJ" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T23:00:50.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xD6BI-RNr8kWZlU6PStX" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="1489" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-4" value="ThriftRequestTimeHandler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="420" y="610" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qh2oVAJPeimNvLxA-YBM-7" value="触发了writeAndFlush,&amp;nbsp; 开始寻找第一个OutboundHandler来处理, 即ThriftRequestTimeHandler负责处理这个writeAndFlush" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-7" value="触发了writeAndFlush,&amp;nbsp; 开始寻找第一个OutboundHandler来处理, 即ThriftRequestTimeHandler来负责处理这个writeAndFlush" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="650" y="710" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-8" value="writeAndFlush" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
