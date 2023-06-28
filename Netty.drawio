@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T22:39:24.708Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PI1Utcci8I-8rsC-ZrLc" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T22:39:31.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="l2QEVSGLEBzqH9SYyuTs" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-1" value="其他handler(Context)可以override write方法, 但只是实现在pipeline里传递数据; 只有数据传到了HeadContext的write方法才能写到nio的SocketChannel中;&amp;nbsp;&lt;br&gt;&lt;br&gt;flush方法也是类似" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="380" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-2" value="writeAndFlush" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
