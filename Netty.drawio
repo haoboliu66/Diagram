@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T22:57:29.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="r7BdxOh9CcygOeAqhcbi" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T22:57:44.358Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-PCrUmx9aTtZiQgvwUZ_" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="1489" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,8 +111,8 @@
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-31" value="HeadContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="20" y="610" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qh2oVAJPeimNvLxA-YBM-34" value="终于找到了HeadContext, HeadContext的write方法直接调用了&lt;span&gt;Java原生NIO的socketchannel写&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-180" y="570" width="190" height="55" as="geometry" />
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-34" value="终于找到了HeadContext, HeadContext的write方法直接调用了&lt;span&gt;Java原生NIO的socketchannel写, 宣告write操作的结束&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-190" y="560" width="200" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
