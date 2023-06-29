@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T14:21:22.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CQiq76G6sAJoMqKT1IyB" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T14:22:06.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aqkFnQytfFCpXsRYEdv-" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="1709" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,11 +153,20 @@
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-57" value="负责从children中取一个EventExecutor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry y="140" width="210" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Qh2oVAJPeimNvLxA-YBM-59" target="Qh2oVAJPeimNvLxA-YBM-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Qh2oVAJPeimNvLxA-YBM-59" target="Qh2oVAJPeimNvLxA-YBM-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-59" value="ServerBootstrapAcceptor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="200" y="490" width="150" height="30" as="geometry" />
+          <mxGeometry x="230" y="460" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-60" value="ChildGroup" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="430" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-61" value="MyInitializer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="490" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
