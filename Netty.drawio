@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T16:42:38.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="df1DI4NewRosYHp6FKEa" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T16:45:34.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UBZ6-vDDd38CX9IyKKhI" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="2536" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
           <mxGeometry x="-600" y="450" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-73" value="AbstractChannel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="660" width="160" height="30" as="geometry" />
+          <mxGeometry x="-330" y="555" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-76" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Qh2oVAJPeimNvLxA-YBM-74" target="Qh2oVAJPeimNvLxA-YBM-72">
           <mxGeometry relative="1" as="geometry" />
@@ -194,6 +194,9 @@
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-77" value="serverbootstrap初始化时, NioServerSocketChannel被register到bossGroup的一个loop上" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-420" y="390" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-78" value="NioUnsafe" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="700" width="560" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
