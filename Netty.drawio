@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T16:38:04.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5jlcM2aNrYju81QYtPbh" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T16:38:29.424Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="f3WbEmiScpt8_A2ywq5n" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
-    <mxGraphModel dx="1709" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2536" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,7 +175,7 @@
           <mxGeometry x="470" y="220" width="395.24" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-69" value="假设bossGroup有8个thread, 初始化bossGroup时会创建8个NioEventLoopGroup,&amp;nbsp;那么这是8个listen的socket吗? =&amp;gt; 不是, 如果只bind一次, 就只有一个listen socket" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-696" y="500" width="336" height="50" as="geometry" />
+          <mxGeometry x="-840" y="340" width="336" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-70" value="NioEventLoopGroup/SingleThreadEventLoop" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-660" y="420" width="230" height="70" as="geometry" />
@@ -186,8 +186,11 @@
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-73" value="AbstractChannel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-240" y="660" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-76" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Qh2oVAJPeimNvLxA-YBM-74" target="Qh2oVAJPeimNvLxA-YBM-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-74" value="NioServerSocketChannel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="570" width="160" height="30" as="geometry" />
+          <mxGeometry x="-380" y="450" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
