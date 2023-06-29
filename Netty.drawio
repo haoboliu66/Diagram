@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T16:38:35.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y9RlGX3LTM4TkAZvevaM" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T16:39:52.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-82UcU-KsAnpG_gr9WtB" version="21.5.1" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="2536" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,6 +191,9 @@
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-74" value="NioServerSocketChannel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-380" y="450" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-77" value="serverbootstrap初始化时, NioServerSocketChannel被register到bossGroup的一个loop上" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="490" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
