@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T15:30:01.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Mabw-DaeQn_8IP-adSKB" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-08T18:33:09.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="l-pVd0TUlwpEeQaKuE4l" version="21.5.2" type="github">
   <diagram id="aM-VMgyS2Gse-5csakIg" name="第 1 页">
-    <mxGraphModel dx="1621" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3474" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,52 +121,52 @@
         <mxCell id="fJIPeiPh-s-hYE1lK_vJ-1" value="mysql的索引树结构?&amp;nbsp;&lt;br&gt;Innodb和myisam索引结构的不同&lt;br&gt;什么叫回表查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1710" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-275" y="390" width="30" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-2" value="virtual address space" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-2" value="virtual address space" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-320" y="350" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-165" y="420" width="30" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-4" value="vma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-4" value="vma" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-175" y="390" width="50" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Gq9c08W1DCKt-AQi-NfL-5" target="Gq9c08W1DCKt-AQi-NfL-6">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Gq9c08W1DCKt-AQi-NfL-5" target="Gq9c08W1DCKt-AQi-NfL-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-5" value="page fault" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-5" value="page fault" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-360" y="565" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Gq9c08W1DCKt-AQi-NfL-6" target="Gq9c08W1DCKt-AQi-NfL-3">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Gq9c08W1DCKt-AQi-NfL-6" target="Gq9c08W1DCKt-AQi-NfL-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-6" value="CR2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-6" value="CR2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-240" y="570" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Gq9c08W1DCKt-AQi-NfL-8" target="Gq9c08W1DCKt-AQi-NfL-5">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="Gq9c08W1DCKt-AQi-NfL-8" target="Gq9c08W1DCKt-AQi-NfL-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-8" value="addr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-8" value="addr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-330" y="380" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Gq9c08W1DCKt-AQi-NfL-12" target="Gq9c08W1DCKt-AQi-NfL-13">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Gq9c08W1DCKt-AQi-NfL-12" target="Gq9c08W1DCKt-AQi-NfL-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Gq9c08W1DCKt-AQi-NfL-12" target="Gq9c08W1DCKt-AQi-NfL-14">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Gq9c08W1DCKt-AQi-NfL-12" target="Gq9c08W1DCKt-AQi-NfL-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-12" value="vma-&amp;gt;vm_ops" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-12" value="vma-&amp;gt;vm_ops" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="410" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-13" value=".nopage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-13" value=".nopage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="377.5" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-14" value=".populate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-14" value=".populate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="425" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Gq9c08W1DCKt-AQi-NfL-17" value="当程序指令运行到这个addr时, 触发page fault&lt;br&gt;&lt;br&gt;进入kernel space执行page fault处理程序, 触发page fault的地址保存到CR2, 通过这个地址, 找到对应的vma, 然后调用vm_ops" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Gq9c08W1DCKt-AQi-NfL-17" value="当程序指令运行到这个addr时, 触发page fault&lt;br&gt;&lt;br&gt;进入kernel space执行page fault处理程序, 触发page fault的地址保存到CR2, 通过这个地址, 找到对应的vma, 然后调用vm_ops" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-730" y="420" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
