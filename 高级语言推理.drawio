@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T22:04:48.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zMpJfiFwL8thJIxlKUp6" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T22:07:38.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nsaIxtBuTpP5yI8dAGwP" version="21.6.2" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -572,6 +572,9 @@
         </mxCell>
         <mxCell id="UDFBoibWES0SuP1Y2NvJ-5" value="g++在后端链接时指定C++的链接库, 可通过运行指令自行验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="670" y="605" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UDFBoibWES0SuP1Y2NvJ-6" value="2, 在运行时, 不能获取到所属类模板的元数据信息, 而是在编译期间完成绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1507.5" y="880" width="385" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
