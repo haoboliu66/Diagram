@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T21:34:52.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hkzF69yl2COvvtaDYjRt" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T21:34:59.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dVtVGgykhApV8FqUhN6L" version="21.6.2" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1182" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
         <mxCell id="0XPSr2HVNZB46iI9HG13-18" value="对象行为根据不同的情况(参数)给出不同的反应结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1790" y="410" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0XPSr2HVNZB46iI9HG13-20" value="在编译时, 解析AST时就可以根据参数类型唯一确定一个子行为, 称之为静态绑定" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="0XPSr2HVNZB46iI9HG13-20" value="在编译时, 解析AST时就可以根据参数类型唯一确定一个子行为, 称之为静态绑定" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1990" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0XPSr2HVNZB46iI9HG13-21" value="在编译时, 解析AST时无法根据参数类型唯一确定一个子行为, 称之为动态绑定" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
