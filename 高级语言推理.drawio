@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T22:07:38.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nsaIxtBuTpP5yI8dAGwP" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-18T09:39:48.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sSs4VmaGU5pwvxr5aNN0" version="21.6.2" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="709" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,7 +181,7 @@
         <mxCell id="0XPSr2HVNZB46iI9HG13-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" parent="1" source="0XPSr2HVNZB46iI9HG13-2" target="0XPSr2HVNZB46iI9HG13-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UDFBoibWES0SuP1Y2NvJ-1" value="行为/动作的覆盖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0XPSr2HVNZB46iI9HG13-26">
+        <mxCell id="UDFBoibWES0SuP1Y2NvJ-1" value="行为/动作的覆盖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0XPSr2HVNZB46iI9HG13-26" vertex="1" connectable="0">
           <mxGeometry x="-0.0917" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -567,13 +567,13 @@
         <mxCell id="cYHrkXs4yALbVww2hE_A-4" value="摒弃C类语言易出错且复杂的内容, 补充自己的语言特性&lt;br style=&quot;font-size: 11px;&quot;&gt;1, 引入自动GC, 避免内存泄漏&lt;br style=&quot;font-size: 11px;&quot;&gt;2, 实现自己的类型系统, 屏蔽底层因为机器位数导致宏定义的处理&lt;br style=&quot;font-size: 11px;&quot;&gt;3, 实现反射行为, 使得编程难度降低, 专注业务&lt;br style=&quot;font-size: 11px;&quot;&gt;4, 基于反射行为和中间IR字节码文件, 引入常量池, 注解等特性, 使得语言在运行层面屏蔽掉了编译型语言的固定模式, 提供高度可配置的特性 (因为动态, 所以足够灵活)&lt;br style=&quot;font-size: 11px;&quot;&gt;5, 引入自己的线程模型, IO模型等, 屏蔽底层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1170" y="2276.5" width="390" height="113" as="geometry" />
         </mxCell>
-        <mxCell id="UDFBoibWES0SuP1Y2NvJ-2" value="Override &amp;amp; Overload" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="UDFBoibWES0SuP1Y2NvJ-2" value="Override &amp;amp; Overload" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1550" y="310" width="820" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UDFBoibWES0SuP1Y2NvJ-5" value="g++在后端链接时指定C++的链接库, 可通过运行指令自行验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="UDFBoibWES0SuP1Y2NvJ-5" value="g++在后端链接时指定C++的链接库, 可通过运行指令自行验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="670" y="605" width="310" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="UDFBoibWES0SuP1Y2NvJ-6" value="2, 在运行时, 不能获取到所属类模板的元数据信息, 而是在编译期间完成绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="UDFBoibWES0SuP1Y2NvJ-6" value="2, 在运行时, 不能获取到所属类模板的元数据信息, 而是在编译期间完成绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1507.5" y="880" width="385" height="26" as="geometry" />
         </mxCell>
       </root>
