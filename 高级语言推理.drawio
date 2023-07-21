@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T19:55:05.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DjzC4C65CP_3pKY4SEho" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T20:25:17.957Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hUMKo0wfQwG78VxzVtba" version="21.6.3" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,7 +271,7 @@
           <mxGeometry x="170" y="1240" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-1" value="2, vtable (virtual method table)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1505" y="920" width="175" height="31" as="geometry" />
+          <mxGeometry x="1515" y="1120" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-2" value="strace vs ltrace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="300" y="1139" width="140" height="30" as="geometry" />
@@ -286,22 +286,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-1" value="子类继承父类传递下来的vtable, 如果子类要重写方法, 只需要将对象的虚方法表中对应的表项改为自己的函数指针即可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="920" width="330" height="31" as="geometry" />
+          <mxGeometry x="1720" y="1120" width="330" height="31" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-2" value="vtable保存在哪里? ==&amp;gt; 对象的头部,&amp;nbsp; C++允许多继承, 所以一个对象允许有多个vtable表, 每一个vtable关联对应的父类虚方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1740" y="980" width="270" height="60" as="geometry" />
+          <mxGeometry x="1750" y="1180" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-5" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="958.75" width="80" height="24.5" as="geometry" />
+          <mxGeometry x="1560" y="1158.75" width="80" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-6" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="983.25" width="80" height="24.5" as="geometry" />
+          <mxGeometry x="1560" y="1183.25" width="80" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-7" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="1007.75" width="80" height="24.5" as="geometry" />
+          <mxGeometry x="1560" y="1207.75" width="80" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-8" value="为什么JVM中使用 OOP - KLASS模型, 而不是直接使用C++的对象来表示Java对象?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="1070" width="420" height="30" as="geometry" />
+          <mxGeometry x="1450" y="1270" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-9" target="AaBTW7L8jWlvHFCmX_wq-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -574,7 +574,7 @@
           <mxGeometry x="670" y="605" width="310" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UDFBoibWES0SuP1Y2NvJ-6" value="2, 在运行时, 不能获取到所属类模板的元数据信息, 而是在编译期间完成绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1507.5" y="880" width="385" height="26" as="geometry" />
+          <mxGeometry x="1517.5" y="1080" width="385" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BSLnHcCIJdVv6Nuts9a_-1" value="Father *f = new Son()&lt;br&gt;movl son的地址, (ebp - 4)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1190" y="895" width="135" height="31" as="geometry" />
