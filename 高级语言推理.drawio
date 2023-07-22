@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T20:52:43.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YZOwnBPtYqauX1aoIeH_" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T20:52:52.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WiNORcYvMnF8X-F4Nb0e" version="21.6.5" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1588" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -274,7 +274,7 @@
           <mxGeometry x="1515" y="1120" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-2" value="strace vs ltrace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="300" y="1139" width="140" height="30" as="geometry" />
+          <mxGeometry x="200" y="1110" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-3" value="C++就是在C的基础上支持了面向对象的语法, 底层还是C&lt;br style=&quot;font-size: 11px;&quot;&gt;new, delete还是通过malloc和free在分配内存, 只不过中间插入了constructor和destructor, 即&lt;br style=&quot;font-size: 11px;&quot;&gt;malloc -&amp;gt; constructor -&amp;gt; destructor -&amp;gt; free&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;new和delete是通过调用libstdc++的逻辑来实现对象的分配和销毁的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2337.5" y="410" width="390" height="110" as="geometry" />
