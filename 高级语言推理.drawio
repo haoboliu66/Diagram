@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T15:07:44.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5A5KWuvfJ0f-CcNQDufG" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T15:07:49.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zJXH6J0m3oMPUpqzd_kQ" version="21.6.5" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -565,7 +565,7 @@
           <mxGeometry x="817" y="3008" width="60" height="22" as="geometry" />
         </mxCell>
         <mxCell id="cYHrkXs4yALbVww2hE_A-2" value="解释的过程就是翻译AST得出对应目标平台的ISA指令, 只需要将这些指令缓存且优化, 下次执行时, 不需要逐条解释 ==&amp;gt; JIT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="510" y="3046" width="300" height="40" as="geometry" />
+          <mxGeometry x="490" y="3046" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cYHrkXs4yALbVww2hE_A-4" value="摒弃C类语言易出错且复杂的内容, 补充自己的语言特性&lt;br style=&quot;font-size: 11px;&quot;&gt;1, 引入自动GC, 避免内存泄漏&lt;br style=&quot;font-size: 11px;&quot;&gt;2, 实现自己的类型系统, 屏蔽底层因为机器位数导致宏定义的处理&lt;br style=&quot;font-size: 11px;&quot;&gt;3, 实现反射行为, 使得编程难度降低, 专注业务&lt;br style=&quot;font-size: 11px;&quot;&gt;4, 基于反射行为和中间IR字节码文件, 引入常量池, 注解等特性, 使得语言在运行层面屏蔽掉了编译型语言的固定模式, 提供高度可配置的特性 (因为动态, 所以足够灵活)&lt;br style=&quot;font-size: 11px;&quot;&gt;5, 引入自己的线程模型, IO模型等, 屏蔽底层" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1150" y="2882.5" width="390" height="113" as="geometry" />
