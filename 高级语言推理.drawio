@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T14:53:21.623Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="D0-9p-aOTl7KSeo6bLsB" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T14:53:41.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YnqcSUVqJ52iGgJrjG8m" version="21.6.5" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="934" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,8 +300,11 @@
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-7" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1561" y="1337.75" width="80" height="24.5" as="geometry" />
         </mxCell>
+        <mxCell id="VBaPd-lK5Jt2TQ8HXsPj-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="AaBTW7L8jWlvHFCmX_wq-8" target="VBaPd-lK5Jt2TQ8HXsPj-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-8" value="为什么JVM中使用 OOP - KLASS模型, 而不是直接使用C++的对象来表示Java对象?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1535.5" y="1400" width="420" height="30" as="geometry" />
+          <mxGeometry x="1535.5" y="1390" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-9" target="AaBTW7L8jWlvHFCmX_wq-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -645,11 +648,8 @@
         <mxCell id="VBaPd-lK5Jt2TQ8HXsPj-27" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2270" y="1277.25" width="80" height="24.5" as="geometry" />
         </mxCell>
-        <mxCell id="VBaPd-lK5Jt2TQ8HXsPj-30" value="会导致Java对象的头部都会存在多个vtable的地址, 浪费空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1545" y="1445" width="420" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VBaPd-lK5Jt2TQ8HXsPj-31" value="不如直接保存反射的元数据, 通过元数据一个指针kclass, 在类的元数据里保存了vtable信息, 可以让多个对象同时共享, 节约空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1545" y="1500" width="420" height="30" as="geometry" />
+        <mxCell id="VBaPd-lK5Jt2TQ8HXsPj-31" value="会导致Java对象的头部都会存在多个vtable的地址, 浪费空间&lt;br&gt;不如直接保存反射的元数据, 通过元数据一个指针kclass, 在类的元数据里保存了vtable信息, 可以让多个对象同时共享, 节约空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1535.5" y="1450" width="420" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
