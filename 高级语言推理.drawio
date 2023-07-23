@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T15:10:48.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZpoC2_TfN-K7gQmsp_bw" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T15:11:03.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vQo2Vqbjg5B2nwsjHdix" version="21.6.5" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1059" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,28 +349,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-24" value="unique_ptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="855" y="2097" width="70" height="26" as="geometry" />
+          <mxGeometry x="747.5" y="2026" width="70" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-25" value="堆内存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1015" y="2061" width="70" height="40" as="geometry" />
+          <mxGeometry x="890" y="2019" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-27" value="unique_ptr是一个对象, 当stack frame释放时(变量超出了作用域), 编译器会调用unique_ptr的destructor, 来释放掉unique_ptr保存的地址指向的内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="700" y="2137" width="410" height="50" as="geometry" />
+          <mxGeometry x="592.5" y="2066" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-30" value="share_ptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="855" y="2207" width="70" height="26" as="geometry" />
+          <mxGeometry x="747.5" y="2136" width="70" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-31" target="AaBTW7L8jWlvHFCmX_wq-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-31" value="引入reference count来追踪, 如果reference count为0, 调用destructor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="720" y="2237" width="340" height="30" as="geometry" />
+          <mxGeometry x="612.5" y="2166" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-48" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-32" target="AaBTW7L8jWlvHFCmX_wq-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-32" value="但是share_ptr引入了循环引用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1095" y="2237" width="170" height="30" as="geometry" />
+          <mxGeometry x="987.5" y="2166" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#000000;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fillColor=#f8cecc;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-34" target="AaBTW7L8jWlvHFCmX_wq-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -391,13 +391,13 @@
           <mxGeometry x="1595" y="2182" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-44" value="weak_ptr" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="855" y="2317" width="70" height="26" as="geometry" />
+          <mxGeometry x="747.5" y="2246" width="70" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-49" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-47" target="AaBTW7L8jWlvHFCmX_wq-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-47" value="如何解决?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1135" y="2297" width="90" height="30" as="geometry" />
+          <mxGeometry x="1027.5" y="2226" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-56" target="AaBTW7L8jWlvHFCmX_wq-34" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -461,7 +461,7 @@
           <mxGeometry x="1290" y="2373" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-1" value="因此, 可以看出 C++结合编译器 + 函数库来规避C语言中会出现的内存问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="795" y="2367" width="370" height="28" as="geometry" />
+          <mxGeometry x="687.5" y="2296" width="370" height="28" as="geometry" />
         </mxCell>
         <mxCell id="8bD-8BE3S3ZDhi1XmUKp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fontSize=11;" parent="1" source="8bD-8BE3S3ZDhi1XmUKp-2" target="8bD-8BE3S3ZDhi1XmUKp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
