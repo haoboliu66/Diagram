@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T21:43:50.526Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tX7JGPEXgHCSvMrW89bU" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T21:44:25.979Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AC2mpFxfVim8jucUbQen" version="21.6.5" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="794" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,8 +94,8 @@
         <mxCell id="41zxChAVSLW4Dl63zJSh-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="41zxChAVSLW4Dl63zJSh-23" target="41zxChAVSLW4Dl63zJSh-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="41zxChAVSLW4Dl63zJSh-23" value="路由选择协议 (routing protocol): 通过解析目的IP, 决定数据转发到哪一个路由器可以达到最快传输" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="107" y="824" width="210" height="40" as="geometry" />
+        <mxCell id="41zxChAVSLW4Dl63zJSh-23" value="路由选择协议 (routing protocol): 通过解析目的IP, 决定数据转发到哪一个路由器可以达到最快传输; 由于局域网和广域网的路由器数量不一样, 所以路由选择算法分为两大类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="110" y="809" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="41zxChAVSLW4Dl63zJSh-24" value="interior gateway protocols (IGPs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="377" y="804" width="130" height="20" as="geometry" />
