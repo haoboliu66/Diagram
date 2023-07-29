@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T20:12:14.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UhWu4XoPU_wton4FdCCu" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T20:18:37.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Rt57EgXrHfQhH4RjBKBN" version="21.6.5" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="756" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,6 +225,12 @@
         </mxCell>
         <mxCell id="fIlDX3s8ZMgqm2_ezZD7-1" value="ARP spoofing： attacher在Local network中广播自己的IP和MAC&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;如何解决? 避免ARP的过程, 静态填写MAC和IP的映射" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="690" y="499" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fwzLU5tfzJNoqCdMov-6-2" value="physical layer考虑的是实际的传播介质, 电磁波, 如何编码与解码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="492.18" y="1250" width="251.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fwzLU5tfzJNoqCdMov-6-3" value="link layer考虑的是MAC地址(Ethernet); PPP帧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="506.99999999999994" y="1190" width="225.32" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
