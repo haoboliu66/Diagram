@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T14:32:11.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="X-H2dPDh3wNO5xy28n_0" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T21:37:02.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zReIpahTquJctwMf4RAi" version="21.6.6" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
-    <mxGraphModel dx="-2374" dy="-8860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-2654" dy="-8937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,7 +403,7 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-13" value="Physical Address" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4597" y="12515" width="68" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-14" value="每个进程都有自己的页表结构, 然后需要CR3寄存器找到页表的首地址; 在CPU进行virtual address到physical address的转换时, 通过TLB来进行缓存加速查询&lt;br&gt;&lt;br&gt;切换进程要切换页表, 即要切换CR3的指向内容; 这时会导致TLB的内容被清空, CPU执行新的进程进行地址转换时, 速度会变慢" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-14" value="每个进程都有自己的page table, 然后需要CR3寄存器找到页表的首地址; 在CPU进行virtual address到physical address的转换时, 通过TLB来进行缓存加速查询&lt;br&gt;&lt;br&gt;切换进程要切换页表, 即要切换CR3的指向内容; 这时会导致TLB的内容被清空, CPU执行新的进程进行地址转换时, 速度会变慢" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4404.27" y="12920" width="320.41" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-15" value="发生进程切换时:&amp;nbsp;&lt;br&gt;1, 保存进程OS上下文, CPU的上下文&lt;br&gt;2, Invalidate TLB (修改CR3指向新进程的页表)&lt;br&gt;3, fork出的新进程和旧进程有同样的代码和数据&lt;br&gt;4, 进程通信问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
