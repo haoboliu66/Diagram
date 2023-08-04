@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T13:35:21.845Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rIzA_QNuLp-O9J_pqVwe" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T13:37:57.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XEnwyjJ97t1lqtWBzK3q" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,11 +295,14 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-3" value="traceroute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="571.5600000000001" y="2430" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-5" value="由于RIP要通过路由器之间交换信息来决定最佳路径, 所以路由器数量不能过多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-5" value="由于RIP要通过路由器之间交换信息来决定最短路径, 所以路由器数量不能过多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="662.9599999999999" y="2160" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-6" value="通过RIP报文传递信息, 且上层是UDP协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="708.9200000000001" y="2190" width="257.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-7" value="OSPF是RIP的提升, 要考虑链路的所有信息(e.g. 网络带宽), 不只是距离" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="662.9599999999999" y="2250" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
