@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T21:37:02.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zReIpahTquJctwMf4RAi" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T21:37:54.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6sVD10u7CKP03Vt_8WKb" version="21.6.6" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-2654" dy="-8937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -748,8 +748,8 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-147" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="4471.97" y="13560" width="20" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-149" value="什么决定了虚拟地址空间的范围?&amp;nbsp;&lt;br&gt;其实就是CS + IP, 因为Linux没有分段 (或者说分段只分了一段), 所以CS不起作用, IP就是虚拟地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="3857.249999999999" y="13240" width="282.75" height="50" as="geometry" />
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-149" value="什么决定了虚拟地址空间的范围?&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;其实就是CS + IP, 因为Linux没有分段 (或者说分段只分了一段), 所以CS不起作用, IP就是虚拟地址" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="3866.639999999999" y="13240" width="282.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-150" value="vm_area_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4491.97" y="13590" width="89" height="30" as="geometry" />
@@ -1027,43 +1027,43 @@
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-269" value="极端情况下, 写多读少, 由于COW会导致频繁的缺页异常导致物理页发生大量的拷贝, 可能某一时刻内存中有双倍的数据量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4995.62" y="14429" width="188.22" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-286" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;fillColor=#FF9933;" parent="1" source="UYWLvkjZm8iV5XMjYyYc-272" target="UYWLvkjZm8iV5XMjYyYc-284" edge="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-286" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontColor=#000000;fillColor=#FF9933;" parent="1" source="UYWLvkjZm8iV5XMjYyYc-272" target="UYWLvkjZm8iV5XMjYyYc-284" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-272" value="mm_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-272" value="mm_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4273.110000000001" y="13240.5" width="81.86" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-273" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-273" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4387.22" y="13170.5" width="80" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-274" value="text" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-274" value="text" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4387.22" y="13300.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-275" value="data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-275" value="data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4387.22" y="13270.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-276" value="stack" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-276" value="stack" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4387.22" y="13190.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-277" value="heap" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-277" value="heap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4387.22" y="13230.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-278" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-278" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4354.97" y="13170.5" width="20" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-279" value="vm_area_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-279" value="vm_area_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4491.97" y="13270.5" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-280" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-280" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4471.97" y="13270.5" width="20" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-281" value="vm_area_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-281" value="vm_area_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4491.97" y="13300.5" width="89" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-282" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-282" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontColor=#FF3333;fillColor=#FFFFFF;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4471.97" y="13300.5" width="20" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="UYWLvkjZm8iV5XMjYyYc-284" value="代表了进程的虚拟地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="UYWLvkjZm8iV5XMjYyYc-284" value="代表了进程的虚拟地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="4179.999999999999" y="13160" width="156" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-287" value="Redis RDB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
