@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T16:25:10.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MfXsPYJ2Yvo98Z8fg_QZ" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T16:27:01.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="j5EGwDb6CpsZNUb5qtvD" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -307,8 +307,8 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-8" value="为了避免大量的更新信息在相邻路由器之间传输, 引入master &amp;amp; master-backup路由器; 让所有路由器只跟master去同步信息, 链路不会浪费在同步更新信息, 而是用于传输数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="669.9999999999999" y="2291" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-9" value="在分布式环境中, 只要涉及数据一致性, 安全性, 一切日志先行(即所有操作前, 先写一条日志再说)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="2421" width="440" height="29" as="geometry" />
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-9" value="在分布式环境中, 只要涉及数据一致性, 安全性, 一切日志先行(即所有操作前, 先写一条日志再说)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="2387" width="440" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
