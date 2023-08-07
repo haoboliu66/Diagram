@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T17:36:06.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xrI6l_3oKeKrn1IgW0Kg" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T17:36:51.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="c61WYB6fcC5KaTs53FSj" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,6 +417,9 @@
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-48" value="线程池的CallerRunsPolicy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="304.09000000000003" y="3250" width="151.82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-50" value="TCP接受窗口限制发送窗口, 是一种backpressure机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="662.96" y="3200" width="163" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
