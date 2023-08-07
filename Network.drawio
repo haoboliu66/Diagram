@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T18:36:41.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-6Sw28qmmPzWXEdHapKp" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T18:52:38.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0XD8RI2gU6SV7hgSw_2E" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -429,6 +429,15 @@
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-53" value="TCP_NODELAY - Nagle Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="752.96" y="3240" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="u-g0lh7yUUkbwYDsTiLQ-54" target="u-g0lh7yUUkbwYDsTiLQ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-54" value="cwnd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="754.86" y="3340" width="45" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-55" value="slow start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="836.14" y="3320" width="52" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
