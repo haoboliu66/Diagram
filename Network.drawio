@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T15:17:03.177Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kYGRrxuhSYb5dNrNAjxF" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T15:17:25.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="C1zW7cPCS8ixYEme0eIf" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -399,6 +399,9 @@
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-41" value="只有3丢了, 接收端只能ACK2, 导致发送端重传3之后的所有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1037" y="3035" width="233" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-42" value="UDP只满足了transport layer最基本的要求: 进程间通信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="442.37" y="2820" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
