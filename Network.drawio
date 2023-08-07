@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T11:53:26.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tiCqYSkWfZnmOLQ2qdbc" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T11:53:57.037Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="prspiiuSr7gfhO6iLjfk" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,17 +331,20 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u-g0lh7yUUkbwYDsTiLQ-16" target="u-g0lh7yUUkbwYDsTiLQ-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-16" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-16" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="469.75" y="2700" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-17" value="UDP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="469.75" y="2770" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-18" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-18" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="680" y="2700" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-19" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="680" y="2770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-21" value="从上层来的数据直接往下丢" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="443.81" y="2800" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
