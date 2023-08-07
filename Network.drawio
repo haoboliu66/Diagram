@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T15:31:35.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="37s0IGO3IisuBnsJkT4d" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T17:29:12.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fXvSSISIBIo8Agv4RBlm" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="925" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -414,6 +414,9 @@
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-47" value="保证线程安全的两种方式: &lt;br&gt;1, 上锁&lt;br&gt;2, 无锁 (单线程处理)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="470" y="3160" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-48" value="线程池的CallerRunPolicy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="304.09000000000003" y="3250" width="151.82" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
