@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T21:34:19.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QAFqKFEqDoPgoUCh-Qrg" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T21:35:28.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="aQQjBqdljMF_1HC_AENO" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -583,11 +583,14 @@
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-47" value="Linux网络模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="297.62" y="4610" width="235" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="FcDSMAC3f3Cipm-vmM5Y-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="FcDSMAC3f3Cipm-vmM5Y-48" target="FcDSMAC3f3Cipm-vmM5Y-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-48" value="如何学习网络模块? 只需要找到这些接入VFS的挂载点, 看到其中函数指针的回调入口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="560.79" y="4615" width="219.21" height="55" as="geometry" />
+          <mxGeometry x="560.79" y="4615" width="219.21" height="45" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-49" value="根据socket, bind, listen, accept等方法调用找到对应的syscall: sys_socket, sys_bind, sys_listen, sys_accept" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="560" y="4700" width="219.21" height="55" as="geometry" />
+          <mxGeometry x="560.79" y="4700" width="219.21" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
