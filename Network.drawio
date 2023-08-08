@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T21:06:33.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nhBYrtCMgHK1AH5Dr_QX" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T21:07:37.440Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="y2nmtUKbEjlCvBcIRMqO" version="21.6.6" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -556,7 +556,7 @@
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-34" value="每一层都解决了一个问题, e.g. IP解决了网络中唯一标识地址和路由选择, 传输层解决了进程通信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="70" y="4190" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FcDSMAC3f3Cipm-vmM5Y-35" value="传输层传的是二进制数据, 那么应用层要进行数据的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="FcDSMAC3f3Cipm-vmM5Y-35" value="传输层传的是二进制数据, 那么应用层要进行数据的封包和拆包(从二进制数据中提取出想要的数据)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="421.38" y="4190" width="197" height="50" as="geometry" />
         </mxCell>
       </root>
