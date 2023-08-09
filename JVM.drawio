@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T22:26:23.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8HI2QOAvTwlsf7Jht_tR" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T20:20:37.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZhpLpS5RgFIBD6m_IPHS" version="21.6.7" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-1" value="C -&amp;gt; 汇编 -&amp;gt; ISA -&amp;gt; CPU&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;汇编和ISA强相关, 由于不同的CPU的不同ISA, 所以C和C++的程序需要编写不同的代码来适应不同的CPU平台" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="80" y="170" width="310" height="80" as="geometry" />
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-1" value="汇编和ISA强相关, 由于不同的CPU的不同ISA, 所以C和C++的程序需要编写不同的代码来适应不同的CPU平台" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-2" value="高级语言的出现都是为了解决C和C++指针的问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="90" y="340" width="230" height="40" as="geometry" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1036" y="600" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRuYBzsou2JwsS9meuW-1" value="C -&amp;gt; 汇编 -&amp;gt; ISA -&amp;gt; CPU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
