@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T20:46:14.239Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1b-Z3qSEthGqS0cuIzs4" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T20:46:50.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="c-Bhepb_XJHAt60ILxsL" version="21.6.7" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,14 +19,20 @@
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-5" value="第6期 - 第8节" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="70" y="120" width="640" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gsRuYBzsou2JwsS9meuW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-6" target="ld9Qwx5qpbUsMiMYAhv9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-6" value="执行速度: C++解释字节码 &amp;lt; 机器码解释字节码 &amp;lt; 编译优化(JIT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="20" y="470" width="310" height="40" as="geometry" />
+          <mxGeometry x="40" y="470" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gsRuYBzsou2JwsS9meuW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-16" target="ld9Qwx5qpbUsMiMYAhv9-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-16" value="启动速度: 编译优化 &amp;lt; 解释执行" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="20" y="515" width="150" height="40" as="geometry" />
+          <mxGeometry x="170" y="520" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-19" value="如何选择达成平衡? 选择热点(Hotspot)的代码进行编译" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="10" y="580" width="255" height="40" as="geometry" />
+          <mxGeometry x="430" y="500" width="255" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-20" value="1, 按解释执行的模式启动&lt;br style=&quot;font-size: 10px;&quot;&gt;2, 根据方法的调用频率, 调用JIT编译优化热点代码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="10" y="630" width="244.5" height="40" as="geometry" />
