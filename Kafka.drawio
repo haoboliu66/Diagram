@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T23:35:47.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="W6yn6mCNEQ36fmyrM6U4" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T23:36:22.684Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5QTCEEIg42vXqRdvtHv8" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="2069" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1782" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,46 +40,46 @@
           <mxGeometry x="898.25" y="4030" width="255" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1428.5" y="3151" width="470" height="210" as="geometry" />
+          <mxGeometry x="3161" y="3791" width="470" height="210" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1439.5" y="3161" width="279" height="169" as="geometry" />
+          <mxGeometry x="3172" y="3801" width="279" height="169" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-71" value="Configuration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1499.5" y="3211" width="150" height="81" as="geometry" />
+          <mxGeometry x="3232" y="3851" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-12" value="Two ways of using SSL&lt;br&gt;1, One-way authentication&lt;br&gt;2, Two-way authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="334.5" y="1950" width="185" height="50" as="geometry" />
+          <mxGeometry x="2067" y="2590" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="423.5" y="2150" width="140" height="160" as="geometry" />
+          <mxGeometry x="2156" y="2790" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-15" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="467.5" y="2160" width="50" height="20" as="geometry" />
+          <mxGeometry x="2200" y="2800" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-16" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="2200" width="100" height="35" as="geometry" />
+          <mxGeometry x="2175" y="2840" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-17" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="2260" width="100" height="38" as="geometry" />
+          <mxGeometry x="2175" y="2900" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-18" value="&lt;span style=&quot;box-sizing: border-box; font-family: Raleway, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A Java keystore stores &lt;font color=&quot;#ff3333&quot;&gt;private key&lt;/font&gt; entries, &lt;font color=&quot;#ff3333&quot;&gt;certificates&lt;/font&gt; with public key (of mine).&lt;br&gt;&lt;br&gt;A truststore is the opposite. A truststore holds onto certificates that identify others.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="2050" width="405" height="50" as="geometry" />
+          <mxGeometry x="2196" y="2690" width="405" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="763.5" y="2150" width="140" height="160" as="geometry" />
+          <mxGeometry x="2496" y="2790" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-26" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="808.5" y="2160" width="50" height="20" as="geometry" />
+          <mxGeometry x="2541" y="2800" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-27" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="782.5" y="2200" width="100" height="35" as="geometry" />
+          <mxGeometry x="2515" y="2840" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-28" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="782.5" y="2260" width="100" height="38" as="geometry" />
+          <mxGeometry x="2515" y="2900" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="cuo-gMMu6F1mj998WloA-1" value="CA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="608.5" y="2400" width="155" height="40" as="geometry" />
+          <mxGeometry x="2341" y="3040" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-1" target="rUbHjjRioy_Fn0qj38NF-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -88,61 +88,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-1" value="CA Certificate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="608.5" y="2440" width="155" height="20" as="geometry" />
+          <mxGeometry x="2341" y="3080" width="155" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-5" value="client.truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="545.5" y="2499" width="100" height="38" as="geometry" />
+          <mxGeometry x="2278" y="3139" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-6" value="server.truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="726.5" y="2499" width="100" height="38" as="geometry" />
+          <mxGeometry x="2459" y="3139" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-7" value="1. client和server都信任这个CA (把CA certificate加入自己的truststore)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="328.5" y="2460" width="190" height="40" as="geometry" />
+          <mxGeometry x="2061" y="3100" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-10" target="rUbHjjRioy_Fn0qj38NF-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-10" value="2. 提交sign request, 因为client和server要有自己的certificate, 在建立TLS连接时要传递给对方 (由对方的truststore来进行验证)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="309.5" y="2630" width="200" height="70" as="geometry" />
+          <mxGeometry x="2042" y="3270" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-11" target="rUbHjjRioy_Fn0qj38NF-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-11" value="client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="534.5" y="2745" width="100" height="38" as="geometry" />
+          <mxGeometry x="2267" y="3385" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-12" target="rUbHjjRioy_Fn0qj38NF-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-12" value="server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="739.5" y="2742" width="100" height="38" as="geometry" />
+          <mxGeometry x="2472" y="3382" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-13" value="自己的certificate和private key保存在keystore内" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="334.5" y="2735" width="150" height="50" as="geometry" />
+          <mxGeometry x="2067" y="3375" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-15" value="CA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="604.5" y="2610" width="155" height="40" as="geometry" />
+          <mxGeometry x="2337" y="3250" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-17" target="rUbHjjRioy_Fn0qj38NF-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-17" value="cert sign request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="526.5" y="2690" width="116" height="20" as="geometry" />
+          <mxGeometry x="2259" y="3330" width="116" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rUbHjjRioy_Fn0qj38NF-18" target="rUbHjjRioy_Fn0qj38NF-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-18" value="cert sign request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="731.5" y="2690" width="116" height="20" as="geometry" />
+          <mxGeometry x="2464" y="3330" width="116" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-27" value="3. CA收到sign request, 然后sign certs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="309.5" y="2880" width="200" height="50" as="geometry" />
+          <mxGeometry x="2042" y="3520" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-29" value="client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="534.5" y="2937" width="100" height="38" as="geometry" />
+          <mxGeometry x="2267" y="3577" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-31" value="server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="739.5" y="2937" width="100" height="38" as="geometry" />
+          <mxGeometry x="2472" y="3577" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-33" target="rUbHjjRioy_Fn0qj38NF-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -151,67 +151,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-33" value="CA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="604.5" y="2850" width="155" height="40" as="geometry" />
+          <mxGeometry x="2337" y="3490" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-40" value="signed cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="529.5" y="2900" width="116" height="20" as="geometry" />
+          <mxGeometry x="2262" y="3540" width="116" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-41" value="signed cert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="723.5" y="2900" width="116" height="20" as="geometry" />
+          <mxGeometry x="2456" y="3540" width="116" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-42" value="4. client和server分别把signed cert存入自己的keystore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="317.5" y="3020" width="200" height="50" as="geometry" />
+          <mxGeometry x="2050" y="3660" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-43" value="security.protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="525.5" y="3261" width="140" height="40" as="geometry" />
+          <mxGeometry x="2258" y="3901" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-47" value="JAAS -&amp;nbsp;Java Authentication and Authorization Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="759.5" y="3220" width="290" height="31" as="geometry" />
+          <mxGeometry x="2492" y="3860" width="290" height="31" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-54" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="rUbHjjRioy_Fn0qj38NF-49" target="rUbHjjRioy_Fn0qj38NF-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-49" value="SASL -&amp;nbsp;Simple Authentication and Secure Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="748.5" y="3180" width="290" height="31" as="geometry" />
+          <mxGeometry x="2481" y="3820" width="290" height="31" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-50" value="SSL / TLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="748.5" y="3140" width="290" height="31" as="geometry" />
+          <mxGeometry x="2481" y="3780" width="290" height="31" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-52" value="SSL和SASL之间的一个明显区别是，SASL允许选择不同的机制来对客户端进行身份验证，如可以选择使用GSSAPI，Kerberos，NTLM等, 而SSL被绑定为基于证书进行身份验证。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="731.5" y="3301" width="370" height="60" as="geometry" />
+          <mxGeometry x="2464" y="3941" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-53" value="SASL Mechanism" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1085.5" y="3183.25" width="153" height="24.5" as="geometry" />
+          <mxGeometry x="2818" y="3823.25" width="153" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;exitX=1.017;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rUbHjjRioy_Fn0qj38NF-61" target="rUbHjjRioy_Fn0qj38NF-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-61" value="client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1038.5" y="3410" width="60" height="170" as="geometry" />
+          <mxGeometry x="2771" y="4050" width="60" height="170" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-65" value="server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1268.5" y="3410" width="60" height="170" as="geometry" />
+          <mxGeometry x="3001" y="4050" width="60" height="170" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-66" value="credentials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1128.5" y="3400" width="100" height="30" as="geometry" />
+          <mxGeometry x="2861" y="4040" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-70" value="LoginModule" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1522" y="3252" width="105" height="28" as="geometry" />
+          <mxGeometry x="3254.5" y="3892" width="105" height="28" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-73" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LoginContext&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1538.5" y="3161" width="80" height="31" as="geometry" />
+          <mxGeometry x="3271" y="3801" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-1" value="challenge(question) - response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="768.5" y="3410" width="180" height="30" as="geometry" />
+          <mxGeometry x="2501" y="4050" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-3" value="KafkaChannel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="334.5" y="3441.25" width="229" height="30" as="geometry" />
+          <mxGeometry x="2067" y="4081.25" width="229" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-4" value="prepare" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="404.5" y="3511.25" width="100" height="30" as="geometry" />
+          <mxGeometry x="2137" y="4151.25" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-5" value="&lt;pre style=&quot;font-size: 11px;&quot;&gt;&lt;pre style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Does handshake of transportLayer and &lt;br/&gt;authentication using configured authenticator&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="147.5" y="3503.75" width="250" height="45" as="geometry" />
+          <mxGeometry x="1880" y="4143.75" width="250" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rdwlE4-5RXInatoMC4HK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" source="rdwlE4-5RXInatoMC4HK-7" target="rdwlE4-5RXInatoMC4HK-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -270,25 +270,25 @@
           <mxGeometry x="1185.5" y="4508" width="70" height="46" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-31" value="Broker1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1733.25" y="2682" width="94" height="128" as="geometry" />
+          <mxGeometry x="3465.75" y="3322" width="94" height="128" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-33" value="Broker2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1863.25" y="2682" width="94" height="128" as="geometry" />
+          <mxGeometry x="3595.75" y="3322" width="94" height="128" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-34" value="Broker3" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2001.25" y="2682" width="94" height="128" as="geometry" />
+          <mxGeometry x="3733.75" y="3322" width="94" height="128" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-35" value="topicA - P1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1732.25" y="2730" width="95" height="38" as="geometry" />
+          <mxGeometry x="3464.75" y="3370" width="95" height="38" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-36" value="topicA - P2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1863.25" y="2730" width="94" height="38" as="geometry" />
+          <mxGeometry x="3595.75" y="3370" width="94" height="38" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-37" value="topicA - P3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2001.25" y="2730" width="94" height="38" as="geometry" />
+          <mxGeometry x="3733.75" y="3370" width="94" height="38" as="geometry" />
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-38" value="如果想调用commit来改变partition的offset, consumer必须有groupId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1463.5" y="2620" width="380" height="37.5" as="geometry" />
+          <mxGeometry x="3196" y="3260" width="380" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="itqR3cazL_RWvEJsIGA0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="itqR3cazL_RWvEJsIGA0-6" target="itqR3cazL_RWvEJsIGA0-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -665,6 +665,21 @@
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-3" value="producer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-453.5" y="1625" width="90.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-243" y="1550" width="663.5" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-182.5" y="1660" width="92.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-14.5" y="1660" width="92.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161.28" y="1660" width="92.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-8" value="group coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2.6200000000000045" y="1630" width="68.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
