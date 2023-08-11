@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T13:33:07.113Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eWrTp6wbfXHr_Rt7N4JL" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T13:34:24.800Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HLKZzSEG4oDcr46d6vr0" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="2901" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -717,8 +717,8 @@
         <mxCell id="7CRme3CE3Z51FY62YYMY-23" value="Map&amp;lt;String, Deque&amp;lt;NetworkClient.InFlightRequest&amp;gt;&amp;gt; requests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1480" y="2390" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7CRme3CE3Z51FY62YYMY-25" value="requests是一个nodeId到InFlightRequest队列的映射" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1070" y="2350" width="260" height="30" as="geometry" />
+        <mxCell id="7CRme3CE3Z51FY62YYMY-25" value="requests是一个nodeId到InFlightRequest队列的映射&lt;br&gt;在NetworkClient发送前会确保当前队列的size &amp;lt;&amp;nbsp;&amp;nbsp;maxInFlightRequestsPerConnection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="2300" width="260" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
