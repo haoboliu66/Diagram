@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T13:31:44.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="d6m8pfELAhz9i1fnB8gw" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T13:31:58.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jw7YsuM0_HYp9c4b_kei" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="2901" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -713,6 +713,9 @@
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-22" value="NetworkClient" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1345.1899999999998" y="2308" width="90.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-23" value="Map&amp;lt;String, Deque&amp;lt;NetworkClient.InFlightRequest&amp;gt;&amp;gt; requests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="2380" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
