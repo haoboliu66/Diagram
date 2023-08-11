@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T10:50:26.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pfINIBESnBw2c2vYENsk" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T11:37:56.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IxN9N_L5tBi18kozDoSQ" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="2901" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -685,19 +685,22 @@
           <mxGeometry x="-219.29000000000002" y="2030" width="89.11" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="1810" width="200" height="290" as="geometry" />
+          <mxGeometry x="-1180" y="1840" width="380" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-12" value="producer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-905.18" y="1770" width="90.37" height="30" as="geometry" />
+          <mxGeometry x="-1125.1799999999998" y="1800" width="90.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-13" value="Sender(Runnable)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-922.5" y="1920" width="125" height="50" as="geometry" />
+          <mxGeometry x="-1142.5" y="1950" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="7CRme3CE3Z51FY62YYMY-14" target="7CRme3CE3Z51FY62YYMY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-14" value="KafkaThread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-922.5" y="1840" width="125" height="50" as="geometry" />
+          <mxGeometry x="-1142.5" y="1870" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-16" value="RecordAccumulator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="1950" width="125" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
