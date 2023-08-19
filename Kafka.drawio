@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T21:13:41.445Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8d71R9HFJh8mZjIoSwGQ" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T21:14:11.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4i_Pn3s6LYkniHp95Wc1" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4044" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -920,8 +920,8 @@
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-22" value="NetworkClient.send" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1245" y="2415" width="197" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fNkNaqf_S6rzFa-tcSuX-23" value="这个方法才是真实的进行了数据发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1545.5" y="2410" width="226.81" height="40" as="geometry" />
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-23" value="这个方法进入到了NetworkClient进行事件注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="2415" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-26" value="UnsentRequests针对每一个node维护了一个queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1621.5" y="2225" width="280" height="50" as="geometry" />
