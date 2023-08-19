@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T21:13:21.157Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ih4wKwEVD2qNlueCga0I" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T21:13:41.445Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8d71R9HFJh8mZjIoSwGQ" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="5751" dy="3355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4044" dy="2444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -846,31 +846,31 @@
           <mxGeometry x="-1537.32" y="1710" width="1279.82" height="76" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-16" value="Consumer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-1576.31" y="3670" width="1279.82" height="76" as="geometry" />
+          <mxGeometry x="575.19" y="1740" width="1279.82" height="76" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1497.32" y="3840" width="380" height="290" as="geometry" />
+          <mxGeometry x="654.1800000000001" y="1910" width="380" height="290" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-18" value="consumer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1352.5099999999998" y="3810" width="90.37" height="30" as="geometry" />
+          <mxGeometry x="798.9900000000002" y="1880" width="90.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-19" value="Fetcher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1303" y="3960" width="125" height="50" as="geometry" />
+          <mxGeometry x="848.5" y="2030" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-21" value="ConsumerNetworkClient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1369.82" y="4060" width="149.82" height="50" as="geometry" />
+          <mxGeometry x="781.6800000000001" y="2130" width="149.82" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-22" value="ConsumerCoordinator" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1459.82" y="3960" width="125" height="50" as="geometry" />
+          <mxGeometry x="691.6800000000001" y="2030" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-25" value="SubscriptionState" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1279.9999999999998" y="3870" width="125" height="50" as="geometry" />
+          <mxGeometry x="871.5000000000002" y="1940" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-3" target="fNkNaqf_S6rzFa-tcSuX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-3" value="sendFindCoordinatorRequest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-903.5" y="3950" width="190" height="50" as="geometry" />
+          <mxGeometry x="1248" y="2020" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-4" target="fNkNaqf_S6rzFa-tcSuX-7">
           <mxGeometry relative="1" as="geometry" />
@@ -882,58 +882,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-4" value="ConsumerNetworkClient.send" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-907" y="4072" width="197" height="40" as="geometry" />
+          <mxGeometry x="1244.5" y="2142" width="197" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-5" target="fNkNaqf_S6rzFa-tcSuX-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-5" value="unsent.put" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-719.13" y="4160" width="93.5" height="40" as="geometry" />
+          <mxGeometry x="1432.37" y="2230" width="93.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-7" target="fNkNaqf_S6rzFa-tcSuX-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-7" value="FindCoordinatorResponseHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-606" y="4067" width="193" height="50" as="geometry" />
+          <mxGeometry x="1545.5" y="2137" width="193" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-11" value="callback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-694" y="4063" width="68.37" height="30" as="geometry" />
+          <mxGeometry x="1457.5" y="2133" width="68.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-12" value="给coordinator赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="4030" width="145.5" height="50" as="geometry" />
+          <mxGeometry x="1821.5" y="2100" width="145.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-14" target="fNkNaqf_S6rzFa-tcSuX-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-14" value="lookupCoordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-903.5" y="3860" width="190" height="50" as="geometry" />
+          <mxGeometry x="1248" y="1930" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-19" target="fNkNaqf_S6rzFa-tcSuX-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-19" value="ConsumerNetworkClient.poll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-907" y="4230" width="197" height="40" as="geometry" />
+          <mxGeometry x="1244.5" y="2300" width="197" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-21" value="blocking" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-963" y="4235" width="60" height="30" as="geometry" />
+          <mxGeometry x="1188.5" y="2305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-22" value="NetworkClient.send" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-906.5" y="4345" width="197" height="40" as="geometry" />
+          <mxGeometry x="1245" y="2415" width="197" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-23" value="这个方法才是真实的进行了数据发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-606" y="4340" width="226.81" height="40" as="geometry" />
+          <mxGeometry x="1545.5" y="2410" width="226.81" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-26" value="UnsentRequests针对每一个node维护了一个queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="4155" width="280" height="50" as="geometry" />
+          <mxGeometry x="1621.5" y="2225" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-29" target="fNkNaqf_S6rzFa-tcSuX-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-29" value="ensureCoordinatorReady" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-903" y="3770" width="190" height="40" as="geometry" />
+          <mxGeometry x="1248.5" y="1840" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-33" value="1. 先找coordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1077.18" y="3775" width="140" height="35" as="geometry" />
+          <mxGeometry x="1074.32" y="1845" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-34" value="NetworkClient.send, Selector.send一系列调用只是在KafkaChannel上注册了事件, 具体处理逻辑在NetworkClient.poll和Selector.poll中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-669.5" y="2620" width="260" height="50" as="geometry" />
