@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T20:46:01.666Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HbEG8oRHKrOpuqExFhCr" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T20:47:03.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="qAiqyIT8_2s9_XapbTTG" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3703" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -743,8 +743,11 @@
         <mxCell id="7CRme3CE3Z51FY62YYMY-29" value="调起selector.send()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-645" y="3042" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7CRme3CE3Z51FY62YYMY-31" value="Selector中每个nodeId对应维护一个KafkaChannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-710" y="3119" width="290" height="33" as="geometry" />
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CRme3CE3Z51FY62YYMY-31" target="7CRme3CE3Z51FY62YYMY-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CRme3CE3Z51FY62YYMY-31" value="Selector中每个nodeId对应维护一个KafkaChannel, 通过指定的nodeId拿到对应的KafkaChannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="3119" width="330" height="33" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-32" value="Map&amp;lt;String, KafkaChannel&amp;gt; channels" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1077.18" y="3132" width="280" height="40" as="geometry" />
