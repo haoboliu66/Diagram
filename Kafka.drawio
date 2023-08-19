@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T21:03:45.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Hu8C-JiF6pyudGZn-MVa" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T21:04:52.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ii9rJynJxtcu2Or6onmW" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3703" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -740,7 +740,7 @@
         <mxCell id="7CRme3CE3Z51FY62YYMY-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-28" target="7CRme3CE3Z51FY62YYMY-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7CRme3CE3Z51FY62YYMY-28" value="每一个nodeId会对应一个InFlightRequest Deque队列&lt;br&gt;每次doSend都会构建一个inFlightRequest加入目标nodeId的队列头部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="7CRme3CE3Z51FY62YYMY-28" value="每一个nodeId会对应一个InFlightRequest Deque队列&lt;br&gt;每次doSend都会构建一个inFlightRequest加入目标nodeId的队列头部; 然后inFlightRequest计数+1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-710" y="2892" width="290" height="63" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-29" value="调起selector.send()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
