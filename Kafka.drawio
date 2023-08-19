@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T21:18:32.474Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="MZNJ5HbW5dEplmEOos38" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T21:19:25.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="-lnIQd2XE05KfYHZj1tx" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="3163" dy="1974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5239" dy="3082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1595" y="3570" width="905" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="2680" width="1095" height="778" as="geometry" />
+          <mxGeometry x="-740" y="2540" width="1095" height="778" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2518.5699999999997" y="1060" width="298.5" height="40" as="geometry" />
@@ -715,45 +718,45 @@
           <mxGeometry x="-1310" y="2060" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-702.5" y="2752" width="380" height="290" as="geometry" />
+          <mxGeometry x="-602.5" y="2612" width="380" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-22" value="NetworkClient" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-557.6899999999998" y="2710" width="90.37" height="30" as="geometry" />
+          <mxGeometry x="-457.6899999999998" y="2570" width="90.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-23" target="7CRme3CE3Z51FY62YYMY-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-272.5000000000002" y="2812" as="targetPoint" />
+            <mxPoint x="-172.50000000000023" y="2672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-23" value="Map&amp;lt;String, Deque&amp;lt;NetworkClient.InFlightRequest&amp;gt;&amp;gt; requests" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-692.5" y="2792" width="360" height="40" as="geometry" />
+          <mxGeometry x="-592.5" y="2652" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-25" value="requests是一个nodeId到InFlightRequest队列的映射&lt;br&gt;在NetworkClient发送前会确保当前队列的size &amp;lt;&amp;nbsp;&amp;nbsp;maxInFlightRequestsPerConnection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-292.5" y="2778" width="260" height="68" as="geometry" />
+          <mxGeometry x="-192.5" y="2638" width="260" height="68" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-702.5" y="3127" width="380" height="290" as="geometry" />
+          <mxGeometry x="-602.5" y="2987" width="380" height="290" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-27" value="Selector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-564.8699999999999" y="3092" width="90.37" height="30" as="geometry" />
+          <mxGeometry x="-464.8699999999999" y="2952" width="90.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-28" target="7CRme3CE3Z51FY62YYMY-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-28" value="每一个nodeId会对应一个InFlightRequest Deque队列&lt;br&gt;每次doSend都会构建一个inFlightRequest加入目标nodeId的队列头部; 然后inFlightRequest计数+1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-292.5" y="2912" width="290" height="63" as="geometry" />
+          <mxGeometry x="-192.5" y="2772" width="290" height="63" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-29" value="调起selector.send()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-227.5" y="3062" width="160" height="30" as="geometry" />
+          <mxGeometry x="-127.5" y="2922" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CRme3CE3Z51FY62YYMY-31" target="7CRme3CE3Z51FY62YYMY-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-31" value="Selector中每个nodeId对应维护一个KafkaChannel, 通过指定的nodeId拿到对应的KafkaChannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-312.5" y="3139" width="330" height="33" as="geometry" />
+          <mxGeometry x="-212.5" y="2999" width="330" height="33" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-32" value="Map&amp;lt;String, KafkaChannel&amp;gt; channels" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-659.6800000000001" y="3152" width="280" height="40" as="geometry" />
+          <mxGeometry x="-559.6800000000001" y="3012" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-33" target="7CRme3CE3Z51FY62YYMY-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -765,13 +768,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-35" value="KafkaChannel.send()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-242.5" y="3277" width="190" height="23" as="geometry" />
+          <mxGeometry x="-142.5" y="3137" width="190" height="23" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-36" value="transportLayer.addInterestOps(SelectionKey.OP_WRITE);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-307.5" y="3362" width="320" height="20" as="geometry" />
+          <mxGeometry x="-207.5" y="3222" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-38" value="NetworkClient.send()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-242.5" y="2732" width="150.19" height="30" as="geometry" />
+          <mxGeometry x="-142.5" y="2592" width="150.19" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-61" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-39" target="7CRme3CE3Z51FY62YYMY-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -804,10 +807,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-64" value="NetworkClient.poll()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="2470" width="150.19" height="30" as="geometry" />
+          <mxGeometry x="-1505" y="3638" width="150.19" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-67" value="Selector.poll()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1550" y="2570" width="150.19" height="30" as="geometry" />
+          <mxGeometry x="-1505" y="3738" width="150.19" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2527.0699999999997" y="1067" width="36.75" height="25" as="geometry" />
@@ -945,7 +948,7 @@
           <mxGeometry x="1074.32" y="1845" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-34" value="NetworkClient.send, Selector.send一系列调用只是在KafkaChannel上注册了事件, 具体处理逻辑在NetworkClient.poll和Selector.poll中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-669.5" y="2620" width="260" height="50" as="geometry" />
+          <mxGeometry x="-569.5" y="2480" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-37" value="此处逻辑和producer流程发生了重叠" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="745.6800000000001" y="2400" width="197" height="30" as="geometry" />
