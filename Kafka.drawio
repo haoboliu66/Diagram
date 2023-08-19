@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T21:00:54.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Qobd0vABZxli71vuGJfW" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T21:01:55.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fkoTMGjH19Emr9ietATO" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3703" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -906,7 +906,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-14" value="lookupCoordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-903.5" y="3840" width="190" height="50" as="geometry" />
+          <mxGeometry x="-903.5" y="3860" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-19" value="ConsumerNetworkClient.poll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-907" y="4230" width="197" height="40" as="geometry" />
@@ -925,6 +925,12 @@
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-28" value="ConsumerNetworkClient.poll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-627" y="4270" width="197" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-29" target="fNkNaqf_S6rzFa-tcSuX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-29" value="ensureCoordinatorReady" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-903" y="3770" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
