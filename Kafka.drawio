@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T20:51:49.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bDuUak1VFSsOHkmzvloP" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T20:53:28.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BxphCS9w9NxOD0vPYcYn" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3703" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -866,8 +866,11 @@
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-25" value="SubscriptionState" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1279.9999999999998" y="3870" width="125" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-3" target="fNkNaqf_S6rzFa-tcSuX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-3" value="sendFindCoordinatorRequest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-892" y="3940" width="190" height="50" as="geometry" />
+          <mxGeometry x="-903.5" y="3950" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-4" target="fNkNaqf_S6rzFa-tcSuX-5">
           <mxGeometry relative="1" as="geometry" />
@@ -892,6 +895,12 @@
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-12" value="给coordinator赋值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-330" y="4030" width="145.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-14" target="fNkNaqf_S6rzFa-tcSuX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-14" value="lookupCoordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-903.5" y="3840" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
