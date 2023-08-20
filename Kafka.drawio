@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T17:50:56.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GJMBSvmla_GnAKxrwz9V" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T17:51:04.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QfPun11DG_NbsL5Xb-aY" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3664" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1019,6 +1019,9 @@
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-74" value="updateAssignmentMetadataIfNeeded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1114.5" y="1875" width="219" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-75" target="fNkNaqf_S6rzFa-tcSuX-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-75" value="ConsumerCoordinator.poll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1146.12" y="1943.75" width="155.75" height="30" as="geometry" />
         </mxCell>
@@ -1026,10 +1029,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-76" value="NetworkClient.ready" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1151.3100000000002" y="2020" width="133.87" height="30" as="geometry" />
+          <mxGeometry x="1157.0600000000002" y="2020" width="133.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-77" value="这个方法会初始化Consumer对Broker的连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1440.0000000000002" y="1965" width="133.87" height="30" as="geometry" />
+          <mxGeometry x="1327.4100000000003" y="1990" width="133.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-81" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-78" target="fNkNaqf_S6rzFa-tcSuX-80">
           <mxGeometry relative="1" as="geometry" />
