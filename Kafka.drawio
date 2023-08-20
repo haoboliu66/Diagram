@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T21:21:27.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="R6hTctGdCxvzydIm4sQk" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T21:21:46.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3Y-49lHlFHAPifVPdKEH" version="21.6.8" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="3664" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -992,6 +992,9 @@
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-55" target="fNkNaqf_S6rzFa-tcSuX-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-55" target="fNkNaqf_S6rzFa-tcSuX-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-55" value="initiateJoinGroup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3214.3599999999997" y="2017" width="153" height="40" as="geometry" />
         </mxCell>
@@ -1063,6 +1066,15 @@
         </mxCell>
         <mxCell id="fNkNaqf_S6rzFa-tcSuX-93" value="ConsumerCoordinator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2758.45" y="1820" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-94" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fNkNaqf_S6rzFa-tcSuX-95" target="fNkNaqf_S6rzFa-tcSuX-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-95" value="ConsumerNetworkClient.send" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3192.73" y="2138.5" width="197" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fNkNaqf_S6rzFa-tcSuX-96" value="ConsumerNetworkClient.poll" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3192.87" y="2253" width="197" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
