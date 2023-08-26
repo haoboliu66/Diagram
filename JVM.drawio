@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T17:59:08.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DyUvENKAN-Qzqy58U-wJ" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-26T18:04:27.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="s-ObmYRWGJZtm5xe8ZjL" version="21.6.8" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-12" target="ZQSZpk1MqrzrfTvxaXEu-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-12" value="constant pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-12" value="ConstantPool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="800" y="1450" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-15" target="ZQSZpk1MqrzrfTvxaXEu-16">
@@ -204,6 +204,12 @@
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-26" value="KCLASS是整个class file读入内存后的存放容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="120" y="1210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-27" value="Method" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-29" value="Field" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1530" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
