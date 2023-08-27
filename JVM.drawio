@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-27T20:36:28.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DvfYyRkPYc9LlUEIwnfU" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-27T20:38:41.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NRQkb-rkFjsmqylAlaDf" version="21.6.8" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1024" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -437,6 +437,9 @@
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-139" value="为了保证安全: 引入层级结构, 所有的classloader永远满足约束: classloader的父类永远优先于当前的classloader进行类的加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="807" y="2300" width="193" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-140" value="SystemDictionary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="737" y="2420" width="119.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
