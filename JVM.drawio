@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T14:39:10.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eabeSxOmRfYNGIP6KxEE" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T14:39:36.646Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hGFz2bZSrqyJqS23qeJ8" version="21.6.8" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1024" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -429,8 +429,8 @@
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-131" value="&amp;nbsp;是JVM给原生C的一个handle, 通过这个handle来沟通C和JVM的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="858.62" y="1980" width="132.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-137" value="Java库函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="533" y="2322.5" width="70" height="35" as="geometry" />
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-137" value="Java库函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2250" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-138" value="classloader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="710.25" y="2322.5" width="70" height="35" as="geometry" />
@@ -440,6 +440,12 @@
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-140" value="SystemDictionary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="737" y="2420" width="119.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-143" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-142" target="ZQSZpk1MqrzrfTvxaXEu-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-142" value="BootLoader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="710.25" y="2250" width="70" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
