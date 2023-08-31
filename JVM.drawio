@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T15:11:00.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="w4bGGKig8AG5loXN8ipH" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T15:12:37.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gbM4s73QwftPutowmHHg" version="21.7.0" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1304" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -464,6 +464,51 @@
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-8" value="Hotspot中并没有BootLoader这个实体, 只是一个概念; 是使用JVM自身的C++代码直接加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="904" y="2252.5" width="193" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-10" target="65GQX2ZP_li7XujquGb2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-10" target="65GQX2ZP_li7XujquGb2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-10" value="C++" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="535.25" y="2550" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-11" value="malloc" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="655" y="2510" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-12" value="构造函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="655" y="2570" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-13" target="65GQX2ZP_li7XujquGb2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-13" target="65GQX2ZP_li7XujquGb2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-13" value="Java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="537.25" y="2700" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-14" value="堆内存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="655" y="2655" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-15" target="65GQX2ZP_li7XujquGb2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-15" target="65GQX2ZP_li7XujquGb2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-15" value="构造函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="656" y="2720" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-16" value="类构造器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="767.75" y="2700" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-17" value="对象构造器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="767.75" y="2755" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="65GQX2ZP_li7XujquGb2-18" value="static" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="838.62" y="2705" width="51.38" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
