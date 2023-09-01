@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-01T14:33:07.724Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="OCLEgzZkrGKvwCfPzoBY" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-01T14:34:29.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cExrM272ewdBJcWEwour" version="21.7.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="3187" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,6 +360,9 @@
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-93" value="libjvm.so" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="649.25" y="2070" width="67.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="4pbobgGz6cPiNDc_OvU--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-94" target="4pbobgGz6cPiNDc_OvU--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-94" value="JVM heap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="649.25" y="2102" width="67" height="20" as="geometry" />
         </mxCell>
@@ -600,8 +603,20 @@
         <mxCell id="4pbobgGz6cPiNDc_OvU--12" value="Hotspot" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="423" y="2422" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="4pbobgGz6cPiNDc_OvU--17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--13" target="4pbobgGz6cPiNDc_OvU--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4pbobgGz6cPiNDc_OvU--18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--13" target="4pbobgGz6cPiNDc_OvU--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--13" value="universe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="736" y="2190" width="72" height="23" as="geometry" />
+          <mxGeometry x="613" y="2238.56" width="72" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="4pbobgGz6cPiNDc_OvU--14" value="对象分配(内存管理模块)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="745" y="2192.56" width="135" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="4pbobgGz6cPiNDc_OvU--15" value="对象回收(GC模块)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2256.94" width="115" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
