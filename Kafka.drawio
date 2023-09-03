@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T18:22:28.095Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5t3i4n47XROVwM7Uxq6I" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T18:22:53.580Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZzjT3RBAAARa-PovOJ9W" version="21.7.1" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="5220" dy="2189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1111,8 +1111,20 @@
         <mxCell id="koBHfUIdE_RXipTepn_w-3" value="FileRecords" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2130" y="4050" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="koBHfUIdE_RXipTepn_w-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="koBHfUIdE_RXipTepn_w-4" target="koBHfUIdE_RXipTepn_w-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="koBHfUIdE_RXipTepn_w-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="koBHfUIdE_RXipTepn_w-4" target="koBHfUIdE_RXipTepn_w-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="koBHfUIdE_RXipTepn_w-4" value="Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2127" y="4170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="koBHfUIdE_RXipTepn_w-7" value="offset Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="4120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="koBHfUIdE_RXipTepn_w-8" value="timestamp Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="4210" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
