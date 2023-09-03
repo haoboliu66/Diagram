@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T19:43:58.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kRJLDqE2Tk8aq34bw66b" version="21.7.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-03T19:46:16.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4t8inzqoGpnqGkHaD-kE" version="21.7.1" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="2901" dy="3003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1638,6 +1638,9 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-26" value="两个核心: GOT, PLT, 2个表, 用来查, 也可以写&lt;br&gt;地址无关代码: 静态时访问用相对位移, 在运行时动态映射到进程空间时, 地址怎么整?&lt;br&gt;&lt;br&gt;由于代码段.text加载到内存中, OS不允许修改代码段内容, 是只读; 对于数据段而言, 除了.rodata, 其他数据是可读可写的, 所以维护表, 来存储自己程序的虚拟地址值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4496.5" y="130" width="313.5" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="2K-vEMXBgCjCp62KmoYj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-33" target="2K-vEMXBgCjCp62KmoYj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="C程序" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FC.drawio" id="LktH6E_ZRHNbnVEM376x-33">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
             <mxGeometry x="1961.5" y="-560" width="70" height="40" as="geometry" />
@@ -1937,6 +1940,11 @@
         <mxCell id="9X6DQeGXJCu7SEclzbe4-1" value="movl src dest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1768" y="154.26" width="76" height="30" as="geometry" />
         </mxCell>
+        <UserObject label="其他高级语言推理" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FIO.drawio" linkTarget="_blank" id="2K-vEMXBgCjCp62KmoYj-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fontSize=14;fillColor=#f8cecc;" vertex="1" parent="1">
+            <mxGeometry x="2096.5" y="-560" width="329" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
