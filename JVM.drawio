@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T09:50:58.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ensDt5dVdSw8KvVeDZ9o" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T09:51:05.058Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tAKPQxEvo3YiD5Wr6BsU" version="21.7.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="819" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -673,7 +673,7 @@
           <mxGeometry x="760" y="3055" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-12" value="正常状态下设置为只读; 需要STW的时候, 设置为不可访问, 线程读的时候就会报错, 在处理函数中把当前线程设置为阻塞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="834.13" y="3050" width="282.87" height="45" as="geometry" />
+          <mxGeometry x="835.5600000000001" y="3050" width="282.87" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-13" value="polling_page" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="762.57" y="3090" width="69.43" height="30" as="geometry" />
