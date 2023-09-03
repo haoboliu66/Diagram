@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T20:09:22.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5NdaMKOILRtiP589YZ7n" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T20:09:54.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tmshds0BpHL_61fLfTOr" version="21.7.1" type="github">
   <diagram name="Page-1" id="NAcgiFPuU_y72zkfZwbJ">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,10 +280,10 @@
           <mxGeometry x="200" y="1110" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-3" value="C++就是在C的基础上支持了面向对象的语法, 底层还是C&lt;br style=&quot;font-size: 11px;&quot;&gt;new, delete还是通过malloc和free在分配内存, 只不过中间插入了constructor和destructor, 即&lt;br style=&quot;font-size: 11px;&quot;&gt;malloc -&amp;gt; constructor -&amp;gt; destructor -&amp;gt; free&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;new和delete是通过调用libstdc++的逻辑来实现对象的分配和销毁的" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2337.5" y="410" width="390" height="110" as="geometry" />
+          <mxGeometry x="2337.5" y="425" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XGb5Vw4w9nXFpEbFGRRB-4" value="C++ namespace 类似于 Java package, 用于资源隔离" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2337.5" y="540" width="310" height="40" as="geometry" />
+          <mxGeometry x="2337.5" y="540" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AaBTW7L8jWlvHFCmX_wq-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AaBTW7L8jWlvHFCmX_wq-1" target="AaBTW7L8jWlvHFCmX_wq-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
