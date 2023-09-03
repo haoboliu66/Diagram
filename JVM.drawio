@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T09:44:20.838Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0Nmevt3MxOiQ903xpzDc" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T09:44:29.592Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Y-n4ZrectO_AlbJHFmx8" version="21.7.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="552" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -640,7 +640,7 @@
           <mxGeometry x="535.5" y="2740" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="415.13" y="2810" width="282.87" height="80" as="geometry" />
+          <mxGeometry x="412.57" y="2790" width="282.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-1" value="研究对应代码时, 摒弃不相关模块信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1097" y="2615" width="230" height="40" as="geometry" />
@@ -659,6 +659,9 @@
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-8" value="全部停下, 进入STW状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="351" y="3030" width="289" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="CbXacDDCwCM1NCgQEbhs-9" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="656" y="2975" width="282.87" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
