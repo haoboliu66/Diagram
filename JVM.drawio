@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T15:50:54.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5K8k0TCauW8wUrYygUKh" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T16:08:13.372Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1WGJfh1xnjBXigiHgjn3" version="21.7.1" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -731,6 +731,21 @@
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-8" value="所以C++对class文件的interpret就是遍历class中的所有指令, 对不同的指令采取不同的操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="813.93" y="3375" width="263.71" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N7LM669aN5bGux0-eh_w-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="N7LM669aN5bGux0-eh_w-9" target="N7LM669aN5bGux0-eh_w-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7LM669aN5bGux0-eh_w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="N7LM669aN5bGux0-eh_w-9" target="N7LM669aN5bGux0-eh_w-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7LM669aN5bGux0-eh_w-9" value="PC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="759.88" y="3460" width="64.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7LM669aN5bGux0-eh_w-10" value="IP (Intel)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="710" y="3530" width="64.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7LM669aN5bGux0-eh_w-11" value="BCP (JVM)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="813.9300000000001" y="3530" width="64.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
