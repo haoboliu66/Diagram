@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T14:07:33.380Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O8Z-8e4NFC2ctyL25tHP" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T14:07:56.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Dg-LVQl0RGFyJOe4l14J" version="21.7.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -760,7 +760,7 @@
           <mxGeometry x="620" y="3650" width="144.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-3" value="1, 用stack来模拟寄存器操作" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="837" y="3640" width="183" height="40" as="geometry" />
+          <mxGeometry x="837" y="3640" width="143" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-6" value="2, 使用局部变量表(数组)虚拟寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="839.75" y="3690" width="183" height="40" as="geometry" />
@@ -782,6 +782,9 @@
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-13" value="使用array抽象32位寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1263" y="3695" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-16" value="slot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1060.38" y="3665" width="34.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
