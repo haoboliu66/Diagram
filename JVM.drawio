@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T09:28:07.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-DiLQ4Dg32M40RVKDEVz" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T09:28:56.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TOLn14nLmP-aqw1L9HRs" version="21.7.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="671" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -745,10 +745,10 @@
           <mxGeometry x="813.9300000000001" y="3530" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-14" value="code stub" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="991.37" y="3500" width="64.75" height="30" as="geometry" />
+          <mxGeometry x="924.49" y="3800" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-1" value="每个字节码在JVM中都等同于底层一段汇编或C++代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="941.13" y="3540" width="273" height="30" as="geometry" />
+          <mxGeometry x="874.25" y="3840" width="273" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-2" target="ba8ecJ08sKL8nfvFcPny-3">
           <mxGeometry relative="1" as="geometry" />
@@ -787,7 +787,10 @@
           <mxGeometry x="1060.38" y="3665" width="34.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-18" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="3490" width="329" height="50" as="geometry" />
+          <mxGeometry x="1152" y="3790" width="329" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-19" value="template interpreter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="652.32" y="3810" width="110.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
