@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T16:56:54.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6Z_yG2jBazYW8xwFUaL9" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T16:57:05.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_jHO5SW64twiuIOqghbB" version="21.7.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="844" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -866,6 +866,9 @@
         <mxCell id="ba8ecJ08sKL8nfvFcPny-46" value="ReserverSpace类" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="862.0000000000001" y="4130" width="90.44" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-47" target="ba8ecJ08sKL8nfvFcPny-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-47" value="描述了一段连续地址空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="960" y="4136" width="123" height="18" as="geometry" />
         </mxCell>
@@ -874,6 +877,9 @@
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-50" value="ReserverSpace的一个chunk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="886.29" y="4206" width="145" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-52" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1151.16" y="4188" width="60.13" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
