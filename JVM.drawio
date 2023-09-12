@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T15:47:47.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yrkXo8QFiKgrL_gzCs-N" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T15:48:11.855Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="VD_la4tJuJF9GIc5brnW" version="21.7.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="844" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -787,7 +787,7 @@
           <mxGeometry x="1060.38" y="3665" width="34.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-18" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1152" y="3790" width="329" height="50" as="geometry" />
+          <mxGeometry x="1124.31" y="3760" width="329" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-19" value="template interpreter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="652.32" y="3810" width="110.25" height="30" as="geometry" />
@@ -817,10 +817,16 @@
           <mxGeometry x="614.25" y="3930" width="61.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-29" value="runtime stub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="890" y="3830" width="91.5" height="18" as="geometry" />
+          <mxGeometry x="980.75" y="3850" width="91.5" height="18" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-30" value="一段汇编-&amp;gt;ISA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1059.56" y="3884" width="90.44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-32" target="ba8ecJ08sKL8nfvFcPny-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-32" value="function pointer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1134.25" y="3840" width="91.5" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
