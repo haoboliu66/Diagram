@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T10:57:10.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xsGzlQrgrizkEnLPCsbr" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T13:26:35.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="y_HWyEIWPA7FFY4Vst9q" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -883,6 +883,27 @@
         </mxCell>
         <mxCell id="Tm4NwiCWIj8hjFslevJF-1" value="stub routine就是一组stub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="783" y="4050" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tm4NwiCWIj8hjFslevJF-2" target="Tm4NwiCWIj8hjFslevJF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-2" value="xxx_zero" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1193" y="4190" width="95.68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tm4NwiCWIj8hjFslevJF-3" target="Tm4NwiCWIj8hjFslevJF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-3" value="xxx_x86" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1375.32" y="4190" width="95.68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-4" value="zero表示零汇编" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1193" y="4160" width="95.68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-5" value="C++解释器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1193" y="4275" width="95.68" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm4NwiCWIj8hjFslevJF-6" value="模板解释器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1375.32" y="4275" width="95.68" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
