@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T10:45:21.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eDpse5OL-ra4E4o561FH" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-15T14:45:59.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nUEfq2YDI6xKPsYLDrl_" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -881,7 +881,7 @@
         <mxCell id="ba8ecJ08sKL8nfvFcPny-52" value="mmap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="931.1600000000001" y="4333" width="60.13" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="usRdK2nxqx9m8HePPgZj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="Tm4NwiCWIj8hjFslevJF-1" target="usRdK2nxqx9m8HePPgZj-2">
+        <mxCell id="usRdK2nxqx9m8HePPgZj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="Tm4NwiCWIj8hjFslevJF-1" target="usRdK2nxqx9m8HePPgZj-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tm4NwiCWIj8hjFslevJF-1" value="StubRoutines就是一组stub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -938,17 +938,20 @@
         <mxCell id="Tm4NwiCWIj8hjFslevJF-19" value="很关键" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1279.8400000000001" y="4357" width="82.34" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="usRdK2nxqx9m8HePPgZj-1" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="usRdK2nxqx9m8HePPgZj-1" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="859.66" y="4052" width="73.59" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="usRdK2nxqx9m8HePPgZj-2" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="usRdK2nxqx9m8HePPgZj-2" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="859.66" y="4072" width="73.59" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="usRdK2nxqx9m8HePPgZj-3" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="usRdK2nxqx9m8HePPgZj-3" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="859.66" y="4092" width="73.59" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="usRdK2nxqx9m8HePPgZj-4" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="usRdK2nxqx9m8HePPgZj-4" value="函数指针" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="859.66" y="4112" width="73.59" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-2" value="为了清理内存碎片从而分配足够空间的连续内存, 需要进行内存整理, 即移动现存对象的位置; 弊端: 与对象大小和数量相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="445.33" y="4530" width="214.67" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
