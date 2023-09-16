@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T16:13:34.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kU0lv-yOfq_Ks18zxJdA" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T16:17:37.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JelEqB4K2fSn96L9M0fE" version="21.7.5" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
     <mxGraphModel dx="-220" dy="4272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,25 +282,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-242" value="Sections" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3651.5" y="-1516.37" width="60" height="30" as="geometry" />
+          <mxGeometry x="3796" y="-1512.3" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-243" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3716.7999999999993" y="-1363.79" as="sourcePoint" />
-            <mxPoint x="3778.2999999999993" y="-1363.79" as="targetPoint" />
+            <mxPoint x="3861.2999999999993" y="-1359.72" as="sourcePoint" />
+            <mxPoint x="3922.7999999999993" y="-1359.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-244" value="Segment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3651.5" y="-1377.96" width="60" height="30" as="geometry" />
+          <mxGeometry x="3796" y="-1373.89" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-245" value="VMA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3773" y="-1377.96" width="60" height="30" as="geometry" />
+          <mxGeometry x="3917.5" y="-1373.89" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-246" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3724.5" y="-1467.96" width="210" height="57" as="geometry" />
+          <mxGeometry x="3869" y="-1463.89" width="210" height="57" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-247" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 11px;&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3583" y="-1584.37" width="284" height="61" as="geometry" />
+          <mxGeometry x="3727.5" y="-1580.3" width="284" height="61" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-248" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontSize=11;" parent="1" source="onG2acxlvetChBkqUA75-254" target="onG2acxlvetChBkqUA75-165" edge="1">
           <mxGeometry relative="1" as="geometry" />
