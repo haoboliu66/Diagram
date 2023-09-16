@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T21:09:13.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8ZWAJua1nIgmxbeLj8Sm" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T21:09:19.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="40iKeh8LjjO-NvD08pe3" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -748,7 +748,7 @@
           <mxGeometry x="710" y="3942" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-1" value="每个字节码在JVM中都等同于底层一段汇编或C++代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1179" y="3770" width="273" height="30" as="geometry" />
+          <mxGeometry x="1158.16" y="3620" width="273" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="ba8ecJ08sKL8nfvFcPny-2" target="ba8ecJ08sKL8nfvFcPny-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -787,10 +787,10 @@
           <mxGeometry x="1530.38" y="3325" width="34.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-18" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="808.11" y="3770" width="329" height="50" as="geometry" />
+          <mxGeometry x="787.27" y="3620" width="329" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-19" value="template interpreter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="652.32" y="3780" width="110.25" height="30" as="geometry" />
+          <mxGeometry x="631.48" y="3630" width="110.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-21" value="bytecode/cpp interpreter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="626.18" y="3485" width="136" height="30" as="geometry" />
