@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T21:52:27.281Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="X5a8MIW8R-2hYiyp_Jhn" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T21:52:40.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4_mWHAjiDYgwpZS9As27" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-41" value="JVM整体架构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="220" y="930" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1356" y="860" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-1" value="C -&amp;gt; 汇编 -&amp;gt; ISA -&amp;gt; CPU" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
