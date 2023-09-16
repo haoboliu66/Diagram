@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T16:50:34.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oh16UfrXFE8Kt4HCEoRE" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T16:51:07.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2J9pMJW-y3fzlnVXgUID" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -971,8 +971,11 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-8" value="SYMBOL表中持有STRING表的索引, 让编码信息与引用的符号信息分离, 而且可以多个SYMBOL复用STRING表中编码后的字符串信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="641.75" y="4740" width="295.25" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-9" value="SYMBOL表中持有STRING表的索引, 让编码信息与引用的符号信息分离, 而且可以多个SYMBOL复用STRING表中编码后的字符串信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1086.47" y="4670" width="295.25" height="30" as="geometry" />
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-9" value="JVM中SymbolTable等价于ELF的String" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1051.75" y="4690" width="295.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-10" value="JVM中StringTable等价于ELF的SymbolTable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1047" y="4750" width="295.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
