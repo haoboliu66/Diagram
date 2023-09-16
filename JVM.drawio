@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T21:08:24.447Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Xg1iDruWWsxZJkpUpFeU" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T21:08:38.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wdY8pbn_gl-lt81ymowv" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -736,13 +736,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-9" value="PC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="759.88" y="3460" width="64.75" height="30" as="geometry" />
+          <mxGeometry x="-370.11999999999995" y="3470" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-10" value="IP (Intel)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="710" y="3530" width="64.75" height="30" as="geometry" />
+          <mxGeometry x="-419.99999999999994" y="3540" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-11" value="BCP (JVM)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="813.9300000000001" y="3530" width="64.75" height="30" as="geometry" />
+          <mxGeometry x="-316.0699999999999" y="3540" width="64.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7LM669aN5bGux0-eh_w-14" value="code stub" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="710" y="3942" width="64.75" height="30" as="geometry" />
@@ -757,34 +757,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-2" value="JVM没办法直接使用寄存器, 因为字节码不能依赖于具体平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="620" y="3630" width="144.5" height="40" as="geometry" />
+          <mxGeometry x="-509.99999999999994" y="3640" width="144.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-3" value="1, 用stack来模拟寄存器操作" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="837" y="3620" width="143" height="40" as="geometry" />
+          <mxGeometry x="-292.99999999999994" y="3630" width="143" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-6" value="2, 使用局部变量表(数组)虚拟寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="839.75" y="3670" width="183" height="40" as="geometry" />
+          <mxGeometry x="-290.24999999999994" y="3680" width="183" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1055.25" y="3675" width="44.75" height="30" as="geometry" />
+          <mxGeometry x="-74.74999999999997" y="3685" width="44.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="3675" width="44.75" height="30" as="geometry" />
+          <mxGeometry x="-29.999999999999964" y="3685" width="44.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1143.75" y="3675" width="44.75" height="30" as="geometry" />
+          <mxGeometry x="13.750000000000036" y="3685" width="44.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="ba8ecJ08sKL8nfvFcPny-12" target="ba8ecJ08sKL8nfvFcPny-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1188.5" y="3675" width="44.75" height="30" as="geometry" />
+          <mxGeometry x="58.500000000000036" y="3685" width="44.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-13" value="使用array抽象32位寄存器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1263" y="3675" width="154" height="30" as="geometry" />
+          <mxGeometry x="133.00000000000003" y="3685" width="154" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-16" value="slot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1060.38" y="3645" width="34.5" height="30" as="geometry" />
+          <mxGeometry x="-69.61999999999986" y="3655" width="34.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-18" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="808.11" y="3770" width="329" height="50" as="geometry" />
