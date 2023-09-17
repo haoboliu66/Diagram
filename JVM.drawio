@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:10:22.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6mWp9u4yGWUyKOzDUqnG" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T12:12:51.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="w1jHSvkx1eTmytBIqDF6" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1010,6 +1010,9 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-21" value="CreateExecutionEnvironment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="172" y="2591.5" width="146" height="33" as="geometry" />
         </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-22" target="Bh_f7YCbZWuHbUZkmcxa-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-22" value="JVMInit" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="200.99999999999994" y="2730" width="88" height="30" as="geometry" />
         </mxCell>
@@ -1033,6 +1036,9 @@
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-36" value="GetJVMPath" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-30" y="2735" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-38" value="ContinueInNewThread" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="188.72" y="2790" width="113" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
