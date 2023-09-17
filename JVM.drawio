@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T17:17:46.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="taZ8Oyfwlm8xtaUVJyFz" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T17:18:12.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6hYAIoJcO3RtnAJZX8Yw" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="3088" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,14 +553,11 @@
         <mxCell id="65GQX2ZP_li7XujquGb2-44" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LauncherHelper java类提供了加载字节码和其他功能函数, bootloader打破了需要第一个加载器的鸡生蛋问题, 也保证了安全机制&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="793.43" y="2447" width="319" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="65GQX2ZP_li7XujquGb2-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="4pbobgGz6cPiNDc_OvU--12" edge="1">
+        <mxCell id="65GQX2ZP_li7XujquGb2-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-58" target="4pbobgGz6cPiNDc_OvU--12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="654.18" y="2499" as="targetPoint" />
             <mxPoint x="500" y="2464" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="65GQX2ZP_li7XujquGb2-45" value="JNI_CreateJavaVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="380" y="2449" width="113.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-47" value="JNIEnv **penv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="640.18" y="2449" width="91" height="30" as="geometry" />
@@ -1065,8 +1062,10 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-46" value="java" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-76.99999999999999" y="2252.06" width="88" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-48" target="65GQX2ZP_li7XujquGb2-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-48" target="Bh_f7YCbZWuHbUZkmcxa-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2464" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-48" value="InitializeJVM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="89" y="2675.06" width="91" height="30" as="geometry" />
@@ -1088,6 +1087,9 @@
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-56" value="#define method_entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2017" y="3530" width="116.31" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-58" value="JNI_CreateJavaVM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350.5" y="2447" width="113" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
