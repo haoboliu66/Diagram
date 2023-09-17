@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:51:02.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="923c2BrYksYhebT4BkFc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T13:54:11.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Yk9jAU3lIvgCEMdndSe5" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="3088" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -559,7 +559,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-45" value="CreateJavaVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="2449" width="90.68" height="30" as="geometry" />
+          <mxGeometry x="402.57" y="2449" width="90.68" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-47" value="JNIEnv **penv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="640.18" y="2449" width="91" height="30" as="geometry" />
@@ -1063,6 +1063,9 @@
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-46" value="java" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-76.99999999999999" y="2252.06" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-48" target="65GQX2ZP_li7XujquGb2-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-48" value="InitializeJVM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="89" y="2675.06" width="91" height="30" as="geometry" />
