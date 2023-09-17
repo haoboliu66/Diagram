@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:46:56.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jFzMWhzvD5wz6g8RjpIn" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T12:47:38.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9I2SHvr4nIbn2tcAd8EQ" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -528,38 +528,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-33" value="LauncherHelper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="781.5" y="2440" width="108" height="35" as="geometry" />
+          <mxGeometry x="770.68" y="2493.81" width="108" height="35" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4pbobgGz6cPiNDc_OvU--12" target="65GQX2ZP_li7XujquGb2-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="678.5" y="2437" as="sourcePoint" />
+            <mxPoint x="667.68" y="2490.81" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-37" value="执行main函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="781.5" y="2527.5" width="108" height="35" as="geometry" />
+          <mxGeometry x="770.68" y="2581.31" width="108" height="35" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-39" value="bootstrap loader" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="681.5" y="2417" width="100" height="30" as="geometry" />
+          <mxGeometry x="670.68" y="2470.81" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="65GQX2ZP_li7XujquGb2-41" target="65GQX2ZP_li7XujquGb2-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-41" value="字节码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="971.5" y="2457.5" width="108" height="35" as="geometry" />
+          <mxGeometry x="960.68" y="2511.31" width="108" height="35" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-44" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LauncherHelper java类提供了加载字节码和其他功能函数, bootloader打破了需要第一个加载器的鸡生蛋问题, 也保证了安全机制&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="740.75" y="2385" width="319" height="32" as="geometry" />
+          <mxGeometry x="729.93" y="2438.81" width="319" height="32" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="65GQX2ZP_li7XujquGb2-45" target="4pbobgGz6cPiNDc_OvU--12" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="601.5" y="2437" as="targetPoint" />
+            <mxPoint x="590.68" y="2490.81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65GQX2ZP_li7XujquGb2-45" value="createVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="435.5" y="2387" width="66" height="30" as="geometry" />
+        <mxCell id="65GQX2ZP_li7XujquGb2-45" value="CreateJavaVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="400" y="2440.81" width="90.68" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-47" value="JNIEnv **penv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="587.5" y="2387" width="91" height="30" as="geometry" />
+          <mxGeometry x="576.68" y="2440.81" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="65GQX2ZP_li7XujquGb2-48" target="65GQX2ZP_li7XujquGb2-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -601,7 +601,7 @@
           <mxGeometry x="1781.5" y="2256.94" width="260.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--12" value="Hotspot" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="608.5" y="2417" width="80" height="80" as="geometry" />
+          <mxGeometry x="597.68" y="2470.81" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="4pbobgGz6cPiNDc_OvU--13" target="4pbobgGz6cPiNDc_OvU--14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -622,25 +622,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--19" value="C" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="553.5" y="2665" width="72" height="35" as="geometry" />
+          <mxGeometry x="1047" y="2680" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4pbobgGz6cPiNDc_OvU--20" target="4pbobgGz6cPiNDc_OvU--19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--20" value="Java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="709.5" y="2665" width="72" height="35" as="geometry" />
+          <mxGeometry x="1203" y="2680" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--23" value="JNIEnv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="621" y="2645" width="100" height="30" as="geometry" />
+          <mxGeometry x="1114.5" y="2660" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--24" value="JNI规范" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="618.5" y="2725" width="100" height="30" as="geometry" />
+          <mxGeometry x="1112" y="2740" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="721" y="2735" width="143" height="50" as="geometry" />
+          <mxGeometry x="1214.5" y="2750" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="598.0699999999999" y="2785" width="282.87" height="80" as="geometry" />
+          <mxGeometry x="1091.57" y="2800" width="282.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-1" value="研究对应代码时, 摒弃不相关模块信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="2605" width="230" height="40" as="geometry" />
