@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T21:58:23.718Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nqR0DIZWZ_5txmaPpMb6" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T21:58:33.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5abN6lyFkUOuOS_1J4ZH" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2336" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -623,25 +623,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--19" value="C" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1802.1799999999998" y="2654.94" width="72" height="35" as="geometry" />
+          <mxGeometry x="1799.9999999999998" y="2600" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4pbobgGz6cPiNDc_OvU--20" target="4pbobgGz6cPiNDc_OvU--19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--20" value="Java" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1958.1799999999998" y="2654.94" width="72" height="35" as="geometry" />
+          <mxGeometry x="1955.9999999999998" y="2600" width="72" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--23" value="JNIEnv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1869.6799999999998" y="2634.94" width="100" height="30" as="geometry" />
+          <mxGeometry x="1867.4999999999998" y="2580" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--24" value="JNI规范" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1867.1799999999998" y="2714.94" width="100" height="30" as="geometry" />
+          <mxGeometry x="1864.9999999999998" y="2660" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1969.6799999999998" y="2724.94" width="143" height="50" as="geometry" />
+          <mxGeometry x="1967.4999999999998" y="2670" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1846.7499999999998" y="2774.94" width="282.87" height="80" as="geometry" />
+          <mxGeometry x="1844.5699999999997" y="2720" width="282.87" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-1" value="研究对应代码时, 摒弃不相关模块信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2001.9999999999998" y="2361.66" width="230" height="40" as="geometry" />
