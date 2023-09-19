@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T21:04:28.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mmcm3ATP6uiNIe4TSZFA" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T21:05:02.585Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UpTSwNOx8KoreWnUFeOR" version="21.7.5" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2336" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -967,19 +967,19 @@
           <mxGeometry x="2145.83" y="2250" width="144.17" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-7" value="ELF中, C语言中的字符串都会编码为SYMBOL STRING" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1844.5700000000002" y="3012.5" width="295.25" height="30" as="geometry" />
+          <mxGeometry x="2540" y="2238.5" width="295.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-8" value="SYMBOL表中持有STRING表的索引, 让编码信息与引用的符号信息分离, 而且可以多个SYMBOL复用STRING表中编码后的字符串信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1848.3200000000002" y="3076.5" width="295.25" height="50" as="geometry" />
+          <mxGeometry x="2543.75" y="2302.5" width="295.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-9" value="JVM中SymbolTable等价于ELF的String" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2258.32" y="3026.5" width="208.25" height="30" as="geometry" />
+          <mxGeometry x="2953.75" y="2252.5" width="208.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-10" value="JVM中StringTable等价于ELF的SymbolTable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2253.57" y="3086.5" width="233" height="30" as="geometry" />
+          <mxGeometry x="2949" y="2312.5" width="233" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-11" value="String -&amp;gt; intern()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2088.32" y="3186.5" width="98.25" height="20" as="geometry" />
+          <mxGeometry x="2783.75" y="2412.5" width="98.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-12" target="ba8ecJ08sKL8nfvFcPny-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1161,6 +1161,9 @@
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-24" value="JVM中class oop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2180.83" y="2292.56" width="104.17" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfkRS8aUkjOiNxJf1G1F-25" value="Symbol Table &amp;amp; String Table" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="2161.01" width="640" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
