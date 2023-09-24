@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-24T11:15:12.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="QCKNTXO83ONx-c1jU9pc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-24T20:59:46.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xB-c0E5_RQ_4XB2AMvd4" version="21.8.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="1816" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -978,7 +978,7 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-10" value="JVM中StringTable等价于ELF的SymbolTable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2949" y="2312.5" width="233" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VuziWPm9UwrqeWhO-pKZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-11" target="VuziWPm9UwrqeWhO-pKZ-1">
+        <mxCell id="VuziWPm9UwrqeWhO-pKZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-11" target="VuziWPm9UwrqeWhO-pKZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-11" value="String -&amp;gt; intern()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -1168,10 +1168,10 @@
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-25" value="Symbol Table &amp;amp; String Table" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="2530" y="2161.01" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VuziWPm9UwrqeWhO-pKZ-1" value="String类维护了一个对象池, 当调用intern方法时, 若池中已经存在改对象, 直接返回地址; 否则把当前对象添加到池中, 然后返回对象的地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="VuziWPm9UwrqeWhO-pKZ-1" value="String类维护了一个对象池, 当调用intern方法时, 若池中已经存在改对象, 直接返回地址; 否则把当前对象添加到池中, 然后返回对象的地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2776" y="2454.66" width="234" height="45.06" as="geometry" />
         </mxCell>
-        <mxCell id="VuziWPm9UwrqeWhO-pKZ-4" value="Class.forName本身无法加载类, 还是要跳回到classloader的逻辑中, 最终会调用defineClass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="VuziWPm9UwrqeWhO-pKZ-4" value="Class.forName本身无法加载类, 还是要跳回到classloader的逻辑中, 最终会调用defineClass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1020.3899999999999" y="4310" width="207.93" height="49" as="geometry" />
         </mxCell>
       </root>
