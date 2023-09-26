@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T10:35:13.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ZPpVxHj3lHaIdpGO7D4J" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T10:36:15.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="U1417xw6CoB8Sc3KsPFB" version="21.8.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1187,6 +1187,9 @@
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-5" value="简单高效 标记整理, 对CPU核心数敏感" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="25.94" y="4710" width="234.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eor-d0XokNbYYvg7DIs7-6" value="整理时 STW时间较长, 且与堆内存大小和存活对象大小有关; 因为需要大量复制对象, 修改饮用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="4710" width="234.06" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
