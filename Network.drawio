@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T13:30:16.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7_qmB9tWeIsy1D-QkK5X" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T13:30:44.765Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9htADj0kQsieYq26CcJA" version="21.8.2" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -563,37 +563,37 @@
           <mxGeometry x="420.84" y="4185" width="248.62" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-38" value="VFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="297.62" y="4460" width="235" height="40" as="geometry" />
+          <mxGeometry x="264.5" y="4400" width="235" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-40" value="fd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="156.25" y="4530" width="53.75" height="40" as="geometry" />
+          <mxGeometry x="123.13" y="4470" width="53.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-42" value="file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="236.25" y="4530" width="53.75" height="40" as="geometry" />
+          <mxGeometry x="203.13" y="4470" width="53.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-43" value="dentry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="319.37" y="4530" width="53.75" height="40" as="geometry" />
+          <mxGeometry x="286.25" y="4470" width="53.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-44" value="inode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="395" y="4530" width="53.75" height="40" as="geometry" />
+          <mxGeometry x="361.88" y="4470" width="53.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-45" value="super_block" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="473.12" y="4530" width="86.88" height="40" as="geometry" />
+          <mxGeometry x="440" y="4470" width="86.88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-46" value="vfs_mount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="593.12" y="4530" width="86.88" height="40" as="geometry" />
+          <mxGeometry x="560" y="4470" width="86.88" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-47" value="Linux网络模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="297.62" y="4610" width="235" height="40" as="geometry" />
+          <mxGeometry x="264.5" y="4550" width="235" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="FcDSMAC3f3Cipm-vmM5Y-48" target="FcDSMAC3f3Cipm-vmM5Y-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-48" value="如何学习网络模块? 只需要找到这些接入VFS的挂载点, 看到其中函数指针的回调入口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="560.79" y="4615" width="219.21" height="45" as="geometry" />
+          <mxGeometry x="527.67" y="4555" width="219.21" height="45" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-49" value="根据socket, bind, listen, accept等方法调用找到对应的syscall: sys_socket, sys_bind, sys_listen, sys_accept" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="560.79" y="4700" width="219.21" height="55" as="geometry" />
+          <mxGeometry x="527.67" y="4640" width="219.21" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
