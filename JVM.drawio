@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T11:04:09.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vF3P_Wv392ffQNFkLQNf" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T11:08:59.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="kOjJOLVHESmelZ5Ycu9z" version="21.8.2" type="github">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
     <mxGraphModel dx="2261" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1191,11 +1191,8 @@
         <mxCell id="Eor-d0XokNbYYvg7DIs7-6" value="整理时 STW时间较长, 且与堆内存大小和存活对象大小有关; 因为需要大量复制对象, 修改饮用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="300" y="4710" width="234.06" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Eor-d0XokNbYYvg7DIs7-7" value="分阶段 + 去掉整理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-213.15" y="4780" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Eor-d0XokNbYYvg7DIs7-8" value="标记清除" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-203.15" y="4810" width="90" height="20" as="geometry" />
+        <mxCell id="Eor-d0XokNbYYvg7DIs7-7" value="分阶段 + 去掉整理, 标记清除" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-230.96" y="4780" width="153.15" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-9" value="CMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-77.81" y="4780" width="87.81" height="20" as="geometry" />
@@ -1205,6 +1202,9 @@
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-11" value="与CPU数量和CMS线程数量强相关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="297.96" y="4780" width="184.08" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eor-d0XokNbYYvg7DIs7-12" value="分阶段 + 重新引入整理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="47.96" y="4850" width="184.08" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
