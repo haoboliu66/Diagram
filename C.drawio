@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T21:32:50.701Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uuYf1HPYkVeuSrQGFIvt" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T21:33:00.035Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xygalHk6DEZ_s8H5crhv" version="22.0.0" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
     <mxGraphModel dx="-220" dy="4272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -345,7 +345,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-261" value="Glibc函数库(C-Runtime)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2672.13" y="-1129.6599999999999" width="169" height="37.5" as="geometry" />
+          <mxGeometry x="2677.88" y="-1081.7499999999998" width="169" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-262" value="去除elf文件中的.symtab&lt;br style=&quot;font-size: 11px;&quot;&gt;.symtab就是目标文件中数据, 代码的索引" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2959.13" y="-1327.75" width="240" height="40" as="geometry" />
@@ -383,7 +383,7 @@
           <mxGeometry x="2949.5" y="-2107.25" width="330" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-273" value="malloc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3031.82" y="-1212.62" width="109.12" height="28.12" as="geometry" />
+          <mxGeometry x="3037.57" y="-1164.7099999999998" width="109.12" height="28.12" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-274" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF8000;fontSize=11;" parent="1" source="onG2acxlvetChBkqUA75-277" target="onG2acxlvetChBkqUA75-273" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -395,13 +395,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-277" value="内存管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2884.63" y="-1178.32" width="105.37" height="33.12" as="geometry" />
+          <mxGeometry x="2890.38" y="-1130.4099999999999" width="105.37" height="33.12" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-278" value="free" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3031.82" y="-1174.2" width="109.12" height="24.87" as="geometry" />
+          <mxGeometry x="3037.57" y="-1126.29" width="109.12" height="24.87" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-279" value="1. mmap分配 (适合大内存)&lt;br style=&quot;font-size: 11px;&quot;&gt;2. 使用edata指针 (适合小内存)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3153.88" y="-1216.9099999999999" width="185.25" height="36.71" as="geometry" />
+          <mxGeometry x="3159.63" y="-1168.9999999999998" width="185.25" height="36.71" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-280" value="library interpositioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="3330.5" y="-1716" width="105.5" height="30" as="geometry" />
@@ -492,7 +492,7 @@
           <mxGeometry x="3619" y="-2608.91" width="201" height="24.44" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-307" value="malloc, calloc, realloc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3035.3900000000003" y="-1137.95" width="138.74" height="27.33" as="geometry" />
+          <mxGeometry x="3041.1400000000003" y="-1090.04" width="138.74" height="27.33" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-2" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF8000;fontSize=11;" parent="1" source="qvjmshA6DQtf6-69wwgu-3" target="qvjmshA6DQtf6-69wwgu-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
