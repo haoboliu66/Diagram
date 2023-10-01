@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T15:53:54.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HoCyJzPfSAf6knqih4qE" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T15:54:18.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XXBHuf7IDw8NNQmy4rVr" version="22.0.0" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4688" dy="2046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -467,11 +467,11 @@
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-33" value="AWS::IAM::Role" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="815.5" y="6810" width="161" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XyNMAdgGx57MQ1KC5bei-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1907" y="-1000" width="310" height="330" as="geometry" />
+        <mxCell id="DhlljfSftEbynqnDc0lF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XyNMAdgGx57MQ1KC5bei-2" target="DhlljfSftEbynqnDc0lF-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XyNMAdgGx57MQ1KC5bei-2" value="socketServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1917" y="-870" width="100" height="50" as="geometry" />
+          <mxGeometry x="1782.04" y="-870" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XyNMAdgGx57MQ1KC5bei-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XyNMAdgGx57MQ1KC5bei-3" target="XyNMAdgGx57MQ1KC5bei-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1200,6 +1200,9 @@
         </mxCell>
         <mxCell id="1rKYnj0bxfApBvjTUTwd-35" value="OFFSET_COMMIT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-2520" y="3140" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DhlljfSftEbynqnDc0lF-1" value="Handles new connections, requests and responses to and from broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1932.38" y="-860" width="250.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
