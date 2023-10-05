@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T21:07:05.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="J-xIcGojYCXf2JjEl_j4" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T21:07:17.030Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="yHIwhGUl0S-7DlvOtOuS" version="22.0.0" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,13 +218,13 @@
           <mxGeometry x="160" y="1310" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-37" value="SMP架构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="125" y="1210" width="60" height="20" as="geometry" />
+          <mxGeometry x="90" y="1100" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-38" value="NUMA架构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="315" y="1210" width="60" height="20" as="geometry" />
+          <mxGeometry x="280" y="1100" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-39" value="mechanism for carrying out locked atomic operations:&lt;br&gt;1. Guaranteed atomic operations&lt;br&gt;2. Bus locking, using LOCK signal and the LOCK instruction prefix&lt;br&gt;3. Cache coherency protocols" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1160" width="360" height="70" as="geometry" />
+          <mxGeometry x="467" y="1110" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
