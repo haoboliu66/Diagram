@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T21:40:22.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="d-BGbMuslme6zMgAkyT1" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T21:26:13.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="V7U9CpBuVTbPO8LdY9HZ" version="22.0.0" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
     <mxGraphModel dx="-220" dy="4272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,7 +400,7 @@
         <mxCell id="onG2acxlvetChBkqUA75-278" value="free" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="3037.57" y="-1126.29" width="109.12" height="24.87" as="geometry" />
         </mxCell>
-        <mxCell id="gwgHYUVU3DYSM8FIDgpD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="onG2acxlvetChBkqUA75-279" target="gwgHYUVU3DYSM8FIDgpD-1">
+        <mxCell id="gwgHYUVU3DYSM8FIDgpD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="onG2acxlvetChBkqUA75-279" target="gwgHYUVU3DYSM8FIDgpD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-279" value="1. mmap分配 (适合大内存)&lt;br style=&quot;font-size: 11px;&quot;&gt;2. 使用edata指针 (适合小内存)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
@@ -581,7 +581,7 @@
           <mxGeometry x="4922.5" y="-1558.66" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="mmap" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FIO.drawio" id="gwgHYUVU3DYSM8FIDgpD-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
             <mxGeometry x="3400" y="-1179.9999999999998" width="109.12" height="28.12" as="geometry" />
           </mxCell>
         </UserObject>
