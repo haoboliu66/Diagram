@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T21:49:52.580Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="_yFHPftYoxZ9T7huTNaX" version="22.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-08T21:50:19.842Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="EchI3vDie6FdCTgm1Zg3" version="22.0.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3088" dy="3103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1652,8 +1652,14 @@
         <mxCell id="LktH6E_ZRHNbnVEM376x-42" value="Instruction Fetch&lt;br style=&quot;font-size: 14px;&quot;&gt;Instruction Decode&lt;br style=&quot;font-size: 14px;&quot;&gt;Execution&lt;br style=&quot;font-size: 14px;&quot;&gt;Memory Access&lt;br style=&quot;font-size: 14px;&quot;&gt;Write Back" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1190.5" y="734" width="179.5" height="106" as="geometry" />
         </mxCell>
+        <mxCell id="IbxUYKm7Lmqyr7ytapBb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-43" target="LktH6E_ZRHNbnVEM376x-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IbxUYKm7Lmqyr7ytapBb-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="LktH6E_ZRHNbnVEM376x-43" target="IbxUYKm7Lmqyr7ytapBb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-43" value="Alignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
-          <mxGeometry x="700.5" y="1816.5" width="100" height="50" as="geometry" />
+          <mxGeometry x="645" y="1856.5" width="100" height="33.5" as="geometry" />
         </mxCell>
         <mxCell id="LktH6E_ZRHNbnVEM376x-44" value="Intel支持内存不对齐的操作; 但是出于性能考虑, 还是尽可能的进行内存对齐; 不对齐会导致多一次的memory access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="850" y="1807.25" width="300" height="68.5" as="geometry" />
@@ -1950,6 +1956,9 @@
             <mxGeometry x="1650" y="1341.5" width="220" height="48.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="IbxUYKm7Lmqyr7ytapBb-3" value="http://www.catb.org/esr/structure-packing/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="832" y="1883.5" width="249" height="33" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
