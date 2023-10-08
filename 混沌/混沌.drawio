@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T21:28:31.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1ASn5SDVdcUIaRbGrxhA" version="22.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-08T21:28:38.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ZVwiRV2RBAMU2YDBUJms" version="22.0.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3088" dy="3103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1105,7 +1105,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-152" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;8086通过段寄存器偏移 + IP寄存器就可以直接访问内存, 产生的风险是: 不同程序会发生内存的踩踏&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="-936.5" y="993.5" width="443" height="22" as="geometry" />
+          <mxGeometry x="-936.5" y="980" width="443" height="35.5" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-160" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" parent="1" source="HVV8NusCvYSjp4UumD4R-153" target="HVV8NusCvYSjp4UumD4R-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
