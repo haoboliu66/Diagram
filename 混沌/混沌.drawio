@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T12:43:22.490Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="t4B6cGqZECbwwh3xpWcY" version="22.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-09T12:44:12.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PFf2cr5692auhNHr0C6W" version="22.0.0" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3088" dy="3103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1242,8 +1242,8 @@
         <mxCell id="HVV8NusCvYSjp4UumD4R-214" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 12px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;为了应对某个段被置换出内存这种情况, 对应的GDT表项中, 有1个bit表示这个段在不在内存中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-1014" y="3430" width="327" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HVV8NusCvYSjp4UumD4R-217" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 14px;&quot;&gt;Segmentation带来的问题: &lt;br style=&quot;font-size: 14px;&quot;&gt;1. 内存外碎片&lt;br style=&quot;font-size: 14px;&quot;&gt;2. 如果热数据在内存中被swap到磁盘然后又加载回内存, IO损耗较大; (一换换一坨)&lt;br style=&quot;font-size: 14px;&quot;&gt;3. 每次加载到内存的范围很大, 即使我只使用数据段中的一部分, 整个数据段也要都加载进内存; (一加载加载一坨)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#FF0000;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1159" y="3470" width="460" height="150" as="geometry" />
+        <mxCell id="HVV8NusCvYSjp4UumD4R-217" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;Segmentation带来的问题: &lt;br style=&quot;font-size: 12px;&quot;&gt;1. 内存外碎片&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 如果热数据在内存中被swap到磁盘然后又加载回内存, IO损耗较大; (一换换一坨)&lt;br style=&quot;font-size: 12px;&quot;&gt;3. 每次加载到内存的范围很大, 即使我只使用数据段中的一部分, 整个数据段也要都加载进内存; (一加载加载一坨)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#FF0000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1152.5" y="3480" width="469" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HVV8NusCvYSjp4UumD4R-218" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1138" y="3758" width="40" height="70" as="geometry" />
