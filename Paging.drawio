@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T19:35:24.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M0zWZlCYpAq3bWQ5OTHJ" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T19:35:47.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="r_jmZ84dmMrOfsyC9_rG" version="22.0.0" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
     <mxGraphModel dx="-569" dy="-8332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -602,7 +602,7 @@
           <mxGeometry x="6295" y="12890" width="425" height="25" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-87" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 11px;&quot;&gt;协程的出现是为了: 方便开发, 不是为了提升性能&lt;/font&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;在用户态实现协程调用, 实现同步代码编写实现异步代码效果 (原理: 通过OS提供的多路复用器和其他异步方案)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="6735" y="13210" width="330" height="50" as="geometry" />
+          <mxGeometry x="6750" y="13280.5" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-88" value="#include &amp;lt;ucontext.h&amp;gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;int done = 0;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;int main() {&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;ucontext_t context;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;getcontext(&amp;amp;context); //保存当前cpu context&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;if (done) {&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;p&lt;/span&gt;rintf(&quot;return from getcontext, exit\n&quot;);&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;return 0;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;}&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;done = 1;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;setcontext(&amp;amp;context); // 恢复之前的cpu context, 跳转至保存的下一条指令&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;printf(&quot;finished&quot;);&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; &lt;/span&gt;return 1;&lt;br style=&quot;font-size: 11px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="6375" y="13107.5" width="310" height="252.5" as="geometry" />
@@ -611,13 +611,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-89" value="body = http.get 同步阻塞 // 需要手动操作epoll, 比如使用netty或者jdk的selector&lt;br style=&quot;font-size: 11px;&quot;&gt;body.xxx 操作body数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="6735" y="13052.5" width="330" height="47.5" as="geometry" />
+          <mxGeometry x="6750" y="13123" width="330" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-90" value="body = http.get&amp;nbsp; // 保存下一条指令的地址和CPU的上下文信息&lt;br style=&quot;font-size: 11px;&quot;&gt;表面看似是同步代码, 实际底层变成了异步回调&lt;br style=&quot;font-size: 11px;&quot;&gt;body.xxx 操作body数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="6735" y="13130" width="330" height="50" as="geometry" />
+          <mxGeometry x="6750" y="13200.5" width="330" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-92" value="有了底层支持" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="6915" y="13100" width="80" height="20" as="geometry" />
+          <mxGeometry x="6930" y="13170.5" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-104" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#FF9933;fontSize=11;" parent="1" source="UYWLvkjZm8iV5XMjYyYc-94" target="UYWLvkjZm8iV5XMjYyYc-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
