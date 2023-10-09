@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T13:41:25.322Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="NvE6N8V1WWjl_i6UwkJw" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T13:41:32.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="T0ksD4TRi1hHjWiE96ju" version="22.0.0" type="github">
   <diagram id="_W9OsfXQESNlso85iVsK" name="Page-1">
     <mxGraphModel dx="-220" dy="4272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-182" value="static" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="2894.5" y="-2587.94" width="75.5" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H8lg16Kb9tjHfjLK9gUN-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="onG2acxlvetChBkqUA75-183" target="onG2acxlvetChBkqUA75-305">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-183" value="由于字符串是一片连续空间存储, 必须标记一个结尾\0 (null terminator)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="2995.75" y="-2640" width="364.25" height="33.06" as="geometry" />
@@ -486,10 +489,10 @@
           <mxGeometry x="3107.75" y="-2190" width="75.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-305" value="int main() {&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt; char* str = &quot;abc\0def&quot;&lt;/span&gt;;&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;printf(&quot;%s\n&quot;, str);&lt;br style=&quot;font-size: 11px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3500" y="-2623.9100000000003" width="152.07" height="54.44" as="geometry" />
+          <mxGeometry x="3461" y="-2618.88" width="152.07" height="54.44" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-306" value="printf就是通过找到字符串结尾符来进行输出" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3659" y="-2608.91" width="201" height="24.44" as="geometry" />
+          <mxGeometry x="3621" y="-2603.44" width="201" height="24.44" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-307" value="malloc, calloc, realloc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="3041.1400000000003" y="-1090.04" width="138.74" height="27.33" as="geometry" />
