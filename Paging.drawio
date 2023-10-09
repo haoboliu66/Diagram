@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T19:31:58.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JRV4AbMi8W231svFEg3R" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T19:32:39.772Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="sbNROSNzK-2kDYmsY5yO" version="22.0.0" type="github">
   <diagram id="fexe7yLcijjl3nxSFMVX" name="Page-1">
-    <mxGraphModel dx="-1874" dy="-8587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2299" dy="-6802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1137,6 +1137,159 @@
         </mxCell>
         <mxCell id="1euPoay4pWihH5S7yJkZ-2" value="IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="4110.09" y="10760" width="39.3" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-5" value="内存管理的发展" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=15;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3012" y="10438" width="638" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="10608" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-7" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="10608" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-8" value="app1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3172" y="10608" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-9" value="app2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3272" y="10608" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-10" value="app3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3360.75" y="10608" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-11" value="实模式 - 预先规划分配好内存块; 使用段寄存器左移 + IP寄存器的方式访存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3058" y="10558" width="468" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="11005" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;strokeWidth=1;align=center;" edge="1" parent="1" source="1euPoay4pWihH5S7yJkZ-14" target="1euPoay4pWihH5S7yJkZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-14" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="11005" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-15" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3152" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-16" value="app2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3272" y="10848" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-17" value="app3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFE6CC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3372" y="10848" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-18" value="基于段的虚拟内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="10808" width="194" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-19" value="app1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3172" y="10848" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-20" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3212" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-21" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3272" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-22" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3332" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-23" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3387" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-24" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3457" y="11005" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-25" value="GDT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3164.5" y="10938" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-26" value="假如此时app3要使用内存, OS发现内存不够用了, 要把某个很久未被使用的段(假设是app1的代码段), 置换到磁盘上, 然后载入app3的段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3032" y="11118" width="554" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=10;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="11168" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-28" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FF0000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="11168" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-29" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3152" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-30" value="栈" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3212" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-31" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#FFE6CC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3272" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-32" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3332" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-33" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3387" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-34" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCCCFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3457" y="11168" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-35" value="磁盘" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#E6E6E6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3258" y="11258" width="208" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-36" value="代码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3281" y="11266" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-37" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 11px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;为了应对某个段被置换出内存这种情况, 对应的GDT表项中, 有1个bit表示这个段在不在内存中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3182" y="11348" width="327" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-38" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 12px;&quot;&gt;Segmentation带来的问题: &lt;br style=&quot;font-size: 12px;&quot;&gt;1. 内存外碎片&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 如果热数据在内存中被swap到磁盘然后又加载回内存, IO损耗较大; (一换换一坨)&lt;br style=&quot;font-size: 12px;&quot;&gt;3. 每次加载到内存的范围很大, 即使我只使用数据段中的一部分, 整个数据段也要都加载进内存; (一加载加载一坨)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3043.5" y="11398" width="469" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-39" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3058" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-40" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3098" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-41" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3138" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-42" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3178" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-43" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3218" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-44" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3258" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-45" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3298" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-46" value="4KB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCE5FF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3338" y="11676" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;align=center;" edge="1" parent="1" source="1euPoay4pWihH5S7yJkZ-50" target="1euPoay4pWihH5S7yJkZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;align=center;" edge="1" parent="1" source="1euPoay4pWihH5S7yJkZ-50" target="1euPoay4pWihH5S7yJkZ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#FF0000;strokeColor=#000000;strokeWidth=1;align=center;" edge="1" parent="1" source="1euPoay4pWihH5S7yJkZ-50" target="1euPoay4pWihH5S7yJkZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-50" value="数据段" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;strokeColor=#000000;fillColor=#CCFFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3066" y="11796" width="82" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-51" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;想要把数据段的内容映射到内存中不同的4KB, 也需要一张表, 即页表&lt;br&gt;通过页表来完成线性地址到物理地址的映射 (与GDT类似)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3178" y="11796" width="431" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-52" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;切割物理内存为4KB的小块 - frame&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3057" y="11628" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-53" value="阶段3: 使用内存分页" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3032" y="11558" width="598" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-54" value="阶段1: 预先规划内存layout" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3036" y="10478" width="604" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1euPoay4pWihH5S7yJkZ-55" value="阶段2: 通过GDT表项进行虚拟内存到物理内存的映射" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fontFamily=Verdana;fontSize=13;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="3036" y="10728" width="604" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
