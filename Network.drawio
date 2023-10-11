@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:33:39.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="lwaDk2GiU0yiG0CsAlO2" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T15:34:45.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1vl_yTa5CGLo_jgrPE7Y" version="22.0.0" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
           <mxGeometry x="662.9599999999999" y="1100" width="225.32" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fwzLU5tfzJNoqCdMov-6-5" value="network layer考虑的是IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="669.46" y="1060" width="203" height="31" as="geometry" />
+          <mxGeometry x="710.04" y="1060" width="142.46" height="31" as="geometry" />
         </mxCell>
         <mxCell id="fwzLU5tfzJNoqCdMov-6-6" value="MTU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="922.96" y="1105" width="43" height="20" as="geometry" />
@@ -600,6 +600,12 @@
         </mxCell>
         <mxCell id="XetEl-fSv-PipcSBCNAa-1" value="Proxy ARP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1090" y="1380" width="92" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="XetEl-fSv-PipcSBCNAa-2" value="transport layer考虑的是数据到一个机器后, 找哪个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="669.46" y="1020" width="247.98" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="XetEl-fSv-PipcSBCNAa-3" value="application layer考虑的是数据如何进行编解码然后交给下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650" y="980" width="280" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
