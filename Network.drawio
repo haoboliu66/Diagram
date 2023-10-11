@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:34:52.698Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="kw0A15ZiR5aS4OQhnWu0" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T15:35:13.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="HfZRDI-zEZtqNHJ-UypO" version="22.0.0" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -599,13 +599,19 @@
           <mxGeometry x="80" y="2500" width="82.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XetEl-fSv-PipcSBCNAa-1" value="Proxy ARP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1380" width="92" height="25" as="geometry" />
+          <mxGeometry x="1310" y="1395" width="92" height="25" as="geometry" />
         </mxCell>
         <mxCell id="XetEl-fSv-PipcSBCNAa-2" value="transport layer考虑的是数据到一个机器后, 找哪个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="669.46" y="1020" width="247.98" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XetEl-fSv-PipcSBCNAa-3" value="application layer考虑的是数据如何进行编解码然后交给下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="650" y="980" width="280" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="XetEl-fSv-PipcSBCNAa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XetEl-fSv-PipcSBCNAa-4" target="XetEl-fSv-PipcSBCNAa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XetEl-fSv-PipcSBCNAa-4" value="virtual bridge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1395" width="92" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
