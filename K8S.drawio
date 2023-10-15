@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T16:58:25.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="rMniwJmkjQgF_sw94M6h" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T16:58:47.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Wk8EGUXXm7NEagm82eoN" version="22.0.4" type="github">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
     <mxGraphModel dx="1242" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,11 +142,17 @@
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VJSqi0sLNEn4OwbpJoOm-2" target="VJSqi0sLNEn4OwbpJoOm-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VJSqi0sLNEn4OwbpJoOm-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="VJSqi0sLNEn4OwbpJoOm-2" target="VJSqi0sLNEn4OwbpJoOm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-2" value="容器化部署" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="190" y="-550" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-5" value="容器挂了怎么办" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-610" width="110" height="30" as="geometry" />
+          <mxGeometry x="370" y="-590" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJSqi0sLNEn4OwbpJoOm-8" value="容器挂了怎么办" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-520" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
