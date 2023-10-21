@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T21:53:15.178Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2EarneL3BpW3fHqgTYV3" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-21T21:53:38.081Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="k2KadF8rK7ngebmNjwiq" version="22.0.6" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4550" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -743,7 +743,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-39" value="sendProducerData()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1385.19" y="2280" width="150.19" height="30" as="geometry" />
+          <mxGeometry x="-1408.23" y="2273.8" width="150.19" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-49" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="7CRme3CE3Z51FY62YYMY-43" target="7CRme3CE3Z51FY62YYMY-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -761,7 +761,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7CRme3CE3Z51FY62YYMY-53" value="accumulator.ready()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-1065" y="2360" width="138" height="30" as="geometry" />
+          <mxGeometry x="-1117.5" y="2355" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pJEE6L-z0_fAH2wWWyvU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2527.0699999999997" y="1067" width="36.75" height="25" as="geometry" />
@@ -1022,7 +1022,7 @@
           <mxGeometry x="-1065" y="1800" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="yRndeR_IA49JGP7GYDIE-11" value="从accumulator里找ready的nodes, 然后在连接上注册Write事件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-1250" y="2380" width="175" height="30" as="geometry" />
+          <mxGeometry x="-1302.5" y="2375" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yRndeR_IA49JGP7GYDIE-13" value="RecordAccumulator" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-2370" y="1930" width="420" height="310" as="geometry" />
@@ -1223,8 +1223,8 @@
         </mxCell>
         <mxCell id="tbnFmOfiXvEqnofQ7FyQ-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1075" y="2368" as="sourcePoint" />
-            <mxPoint x="-1215" y="2298" as="targetPoint" />
+            <mxPoint x="-1127.5" y="2363" as="sourcePoint" />
+            <mxPoint x="-1267.5" y="2293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tbnFmOfiXvEqnofQ7FyQ-14" value="producer线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
