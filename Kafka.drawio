@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T21:54:41.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="N8ewu5kvtf2UpVEHPPws" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T21:54:57.455Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Z20mv_mHzUpAkaqok4iL" version="22.0.6" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4995" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,27 +292,6 @@
         </mxCell>
         <mxCell id="adZdbqMNMHa9eECy_sV0-29" value="secret ARN" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1365.5" y="6258" width="70" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-31" value="Broker1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3645.75" y="5072" width="94" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-33" value="Broker2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3775.75" y="5072" width="94" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-34" value="Broker3" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3913.75" y="5072" width="94" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-35" value="topicA - P1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3644.75" y="5120" width="95" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-36" value="topicA - P2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3775.75" y="5120" width="94" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-37" value="topicA - P3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3913.75" y="5120" width="94" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="adZdbqMNMHa9eECy_sV0-38" value="如果想调用commit来改变partition的offset, consumer必须有groupId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="3376" y="5010" width="380" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="itqR3cazL_RWvEJsIGA0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="itqR3cazL_RWvEJsIGA0-6" target="itqR3cazL_RWvEJsIGA0-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
