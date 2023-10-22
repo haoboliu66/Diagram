@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T21:55:09.651Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="tCTgMmibCYXytk4WXWVn" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T21:55:40.367Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="kMLn_JCJHEYLWZNszN00" version="22.0.6" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4503" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1208,6 +1208,24 @@
         </mxCell>
         <mxCell id="tbnFmOfiXvEqnofQ7FyQ-17" value="producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1412.32" y="1912" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-19" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2980" y="4290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-20" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2900" y="4290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-21" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2820" y="4290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-22" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2740" y="4290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbnFmOfiXvEqnofQ7FyQ-23" target="tbnFmOfiXvEqnofQ7FyQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbnFmOfiXvEqnofQ7FyQ-23" value="Partition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3120" y="4290" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
