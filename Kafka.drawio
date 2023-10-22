@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T22:14:44.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="CHBpR_1dpajB3M8u8zd7" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T21:54:41.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="N8ewu5kvtf2UpVEHPPws" version="22.0.6" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="4550" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4995" dy="2069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,9 +428,6 @@
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-11" value="msk stack" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="383.5" y="6810" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j0hPNVU3QIjBwwvfbFk0-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="j0hPNVU3QIjBwwvfbFk0-19" target="j0hPNVU3QIjBwwvfbFk0-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-19" value="AWS::KMS::Key" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="622.5" y="7040" width="161" height="30" as="geometry" />
         </mxCell>
@@ -451,9 +448,6 @@
         </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-29" value="msk-secret stack" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="382.5" y="7090" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j0hPNVU3QIjBwwvfbFk0-30" value="AWS::KMS::Alias" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="815.5" y="7040" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j0hPNVU3QIjBwwvfbFk0-33" value="AWS::IAM::Role" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="815.5" y="6810" width="161" height="30" as="geometry" />
