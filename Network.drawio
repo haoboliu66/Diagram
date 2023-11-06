@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T21:28:31.716Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="plTFYfTiFWEmMG8gtSIu" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T21:28:48.711Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4AmlUT-4SQP8120eq7yt" version="22.0.8" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u-g0lh7yUUkbwYDsTiLQ-19" target="u-g0lh7yUUkbwYDsTiLQ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-19" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-19" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="680" y="2770" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-21" value="从上层来的数据直接往下丢" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -352,7 +352,7 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-22" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="870" y="2700" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-23" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="u-g0lh7yUUkbwYDsTiLQ-23" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="870" y="2770" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-25" value="1, 发送数据过去要收到ack&lt;br&gt;2, 一次发多少数据? 如何确认?&lt;br&gt;3, 若接收端来不及处理, 也不能一直发吧&lt;br&gt;4, 如何处理MTU的限制? 不处理会怎么样?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
