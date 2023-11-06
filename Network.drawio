@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:36:09.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KNXsY6T7XGNofTqX3ubE" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T21:28:08.189Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="bCCtvLVDf2YTSV4PsGp_" version="22.0.8" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
-    <mxGraphModel dx="1242" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -559,7 +559,7 @@
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-34" value="每一层都解决了一个问题, e.g. IP解决了网络中唯一标识地址和路由选择, 传输层解决了进程通信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="70" y="4190" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FcDSMAC3f3Cipm-vmM5Y-35" value="传输层传的是二进制数据, 那么应用层要进行数据的封包和拆包(从二进制数据中提取出想要的数据); 即, 约束数据传输的格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="FcDSMAC3f3Cipm-vmM5Y-35" value="传输层传的是binary数据, 那么应用层要进行数据的封包和拆包(从二进制数据中提取出想要的数据); 即, 约束数据传输的格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="420.84" y="4185" width="248.62" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FcDSMAC3f3Cipm-vmM5Y-38" value="VFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -598,19 +598,19 @@
         <mxCell id="SOncmawS7iqMxKImBuW6-1" value="SNAT vs DNAT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="80" y="2500" width="82.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XetEl-fSv-PipcSBCNAa-1" value="Proxy ARP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XetEl-fSv-PipcSBCNAa-1" value="Proxy ARP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1310" y="1395" width="92" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="XetEl-fSv-PipcSBCNAa-2" value="transport layer考虑的是数据到一个机器后, 找哪个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="XetEl-fSv-PipcSBCNAa-2" value="transport layer考虑的是数据到一个机器后, 找哪个进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="669.46" y="1020" width="247.98" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="XetEl-fSv-PipcSBCNAa-3" value="application layer考虑的是数据如何进行编解码然后交给下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="XetEl-fSv-PipcSBCNAa-3" value="application layer考虑的是数据如何进行编解码然后交给下一层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="650" y="980" width="280" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="XetEl-fSv-PipcSBCNAa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XetEl-fSv-PipcSBCNAa-4" target="XetEl-fSv-PipcSBCNAa-1">
+        <mxCell id="XetEl-fSv-PipcSBCNAa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XetEl-fSv-PipcSBCNAa-4" target="XetEl-fSv-PipcSBCNAa-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XetEl-fSv-PipcSBCNAa-4" value="virtual bridge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XetEl-fSv-PipcSBCNAa-4" value="virtual bridge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1395" width="92" height="25" as="geometry" />
         </mxCell>
       </root>
