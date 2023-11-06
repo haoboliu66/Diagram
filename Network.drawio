@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T21:28:48.711Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4AmlUT-4SQP8120eq7yt" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T21:28:53.031Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Wgoj9xNR6qUdJ-bhv8_4" version="22.0.8" type="github">
   <diagram id="lOl-ZhYQnWzm9-qVgaAJ" name="Page-1">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,6 +337,9 @@
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-17" value="UDP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="469.75" y="2770" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="N0x0OiQ6Zoxj2l9ydeCI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u-g0lh7yUUkbwYDsTiLQ-18" target="u-g0lh7yUUkbwYDsTiLQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-18" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="680" y="2700" width="70" height="30" as="geometry" />
         </mxCell>
@@ -348,6 +351,9 @@
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-21" value="从上层来的数据直接往下丢" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="443.81" y="2800" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N0x0OiQ6Zoxj2l9ydeCI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u-g0lh7yUUkbwYDsTiLQ-22" target="u-g0lh7yUUkbwYDsTiLQ-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u-g0lh7yUUkbwYDsTiLQ-22" value="App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="870" y="2700" width="70" height="30" as="geometry" />
