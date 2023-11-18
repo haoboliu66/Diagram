@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-18T22:03:13.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="h_v2Oe1vMdbLbkiIGIPW" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-18T22:03:50.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="n0IPmU494v4IcxkqX6jv" version="22.1.3" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,6 +285,9 @@
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-13" value="若不同的Cell在一个缓存行中, 此时又会退化为原来的CAS操作, 于是我们希望将他们分布在不同缓存行中, 利用锁分散的机制增加并行度, 如何做? 缓存行填充, e.g. 缓存行大小64byte, int只用4byte, 于是要填充60byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="590" y="1490" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-15" value="Java中, 通过@Contended由编译器或运行时自动填充" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="591" y="1570" width="289" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
