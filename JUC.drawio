@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-25T21:52:02.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i-pkDscEl-qycMdKQW1s" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-25T21:53:11.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nHAzZkkx4XW3JHJ7zmPs" version="22.1.3" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1366" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
           <mxGeometry x="440" y="1500" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-21" value="缓存行锁代替总线锁的唯一条件: 变量已在缓存行中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="647" y="1440" width="279" height="30" as="geometry" />
+          <mxGeometry x="660.25" y="1460" width="279" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-22" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1315" width="70" height="30" as="geometry" />
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-33" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1465" y="1370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到CPU缓存中时, 执行lock操作将会使用MESI协议来" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="1420" width="359" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
