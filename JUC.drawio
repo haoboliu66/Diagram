@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T09:21:26.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6HTX9ysI80_THGc8-Mhh" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T22:07:28.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_GjA88yEKEhzPim-FeSN" version="22.1.4" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="1183" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
           <mxGeometry x="260" y="285" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-9" value="混沌树" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="591" y="237.5" width="100" height="30" as="geometry" />
+          <mxGeometry x="591" y="237.5" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-15" value="并发的本质: 多个CPU同时操作了同一个数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="90" y="410" width="240" height="30" as="geometry" />
@@ -232,7 +232,7 @@
         <mxCell id="dpeUAHpxACgYPMOwfueQ-40" value="ABA问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="350" y="1314" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dpeUAHpxACgYPMOwfueQ-41" target="dpeUAHpxACgYPMOwfueQ-43">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dpeUAHpxACgYPMOwfueQ-41" target="dpeUAHpxACgYPMOwfueQ-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-41" value="引入一个counter, 改了就+1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -262,91 +262,91 @@
         <mxCell id="dpeUAHpxACgYPMOwfueQ-52" value="是由bootloader加载的, 而JDBC的驱动由第三方实现, 所以通过线程上下文加载器告诉bootloader去加载该类, 因为bootloader不知道这个类在哪加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1370" y="1091" width="440" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeV-wAqHhQqOec4LPYSm-1" target="dpeUAHpxACgYPMOwfueQ-33">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-1" target="dpeUAHpxACgYPMOwfueQ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-1" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-1" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="30" y="1365" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1323.5" as="sourcePoint" />
             <mxPoint x="320" y="1323.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="1480" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="1500" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="1520" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeV-wAqHhQqOec4LPYSm-13" target="HeV-wAqHhQqOec4LPYSm-15">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-13" target="HeV-wAqHhQqOec4LPYSm-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-13" value="若不同的Cell在一个缓存行中, 此时又会退化为原来的CAS操作, 于是我们希望将他们分布在不同缓存行中, 利用锁分散的机制增加并行度, 如何做? 缓存行填充, e.g. 缓存行大小64byte, int只用4byte, 于是要填充60byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-13" value="若不同的Cell在一个缓存行中, 此时又会退化为原来的CAS操作, 于是我们希望将他们分布在不同缓存行中, 利用锁分散的机制增加并行度, 如何做? 缓存行填充, e.g. 缓存行大小64byte, int只用4byte, 于是要填充60byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="590" y="1490" width="410" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-15" value="Java中, 通过@Contended由编译器或运行时自动填充" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-15" value="Java中, 通过@Contended由编译器或运行时自动填充" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="660.25" y="1570" width="269.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="370" y="1540" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-18" value="cache line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-18" value="cache line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="410" y="1450" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="440" y="1480" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="440" y="1500" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-21" value="缓存行锁代替总线锁的唯一条件: 变量已在缓存行中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-21" value="缓存行锁代替总线锁的唯一条件: 变量已在缓存行中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="660.25" y="1460" width="279" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-22" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-22" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1315" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-24" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-24" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1331" y="1315" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-25" value="CPU3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-25" value="CPU3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1315" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1345" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1331" y="1345" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1345" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-31" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-31" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1205" y="1370" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-32" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-32" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1336" y="1370" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-33" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-33" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1465" y="1370" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeV-wAqHhQqOec4LPYSm-35" target="HeV-wAqHhQqOec4LPYSm-36">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-35" target="HeV-wAqHhQqOec4LPYSm-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到多个CPU缓存中时, 执行lock操作将会使用MESI协议来保证只有一个CPU可以对变量A进行cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到多个CPU缓存中时, 执行lock操作将会使用MESI协议来保证只有一个CPU可以对变量A进行cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1176" y="1420" width="409" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HeV-wAqHhQqOec4LPYSm-36" target="HeV-wAqHhQqOec4LPYSm-38">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-36" target="HeV-wAqHhQqOec4LPYSm-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-36" value="随着CPU数量增多, 大量CPU的CAS失败, 进行无谓的自旋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-36" value="随着CPU数量增多, 大量CPU的CAS失败, 进行无谓的自旋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1231" y="1495" width="299" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-38" value="锁分散" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-38" value="锁分散" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1110" y="1650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
