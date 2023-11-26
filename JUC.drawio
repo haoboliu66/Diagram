@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T22:07:28.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_GjA88yEKEhzPim-FeSN" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T22:12:48.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Jdx7XGQNDR6yd6rp5r50" version="22.1.4" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,46 +308,46 @@
           <mxGeometry x="660.25" y="1460" width="279" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-22" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="1315" width="70" height="30" as="geometry" />
+          <mxGeometry x="1289" y="1300" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-24" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1331" y="1315" width="70" height="30" as="geometry" />
+          <mxGeometry x="1420" y="1300" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-25" value="CPU3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1315" width="70" height="30" as="geometry" />
+          <mxGeometry x="1549" y="1300" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1345" width="70" height="50" as="geometry" />
+          <mxGeometry x="1549" y="1330" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1331" y="1345" width="70" height="50" as="geometry" />
+          <mxGeometry x="1420" y="1330" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="1345" width="70" height="50" as="geometry" />
+          <mxGeometry x="1289" y="1330" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-31" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1205" y="1370" width="60" height="20" as="geometry" />
+          <mxGeometry x="1294" y="1355" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-32" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1336" y="1370" width="60" height="20" as="geometry" />
+          <mxGeometry x="1425" y="1355" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-33" value="变量A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1465" y="1370" width="60" height="20" as="geometry" />
+          <mxGeometry x="1554" y="1355" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-35" target="HeV-wAqHhQqOec4LPYSm-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到多个CPU缓存中时, 执行lock操作将会使用MESI协议来保证只有一个CPU可以对变量A进行cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1176" y="1420" width="409" height="40" as="geometry" />
+          <mxGeometry x="1265" y="1405" width="409" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-36" target="HeV-wAqHhQqOec4LPYSm-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-36" value="随着CPU数量增多, 大量CPU的CAS失败, 进行无谓的自旋" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1231" y="1495" width="299" height="25" as="geometry" />
+          <mxGeometry x="1320" y="1480" width="299" height="25" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-38" value="锁分散" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1650" width="60" height="30" as="geometry" />
+          <mxGeometry x="1199" y="1635" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
