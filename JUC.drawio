@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T19:10:41.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="O1exgbmBFjzLyZdp3583" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T19:11:39.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gODbKX5YnBcG35HyI1Wt" version="22.1.16" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -379,8 +379,14 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-4" value="Java" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1328" y="1980" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-6" target="AeaUYEnInn6TyFFDgCMk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-6" value="CPU和编译器都可能导致重排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="2190" width="220" height="30" as="geometry" />
+          <mxGeometry x="1027.5" y="2190" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2190" width="275" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
