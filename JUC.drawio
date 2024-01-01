@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T13:35:25.897Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dM59CtHD2yml_3ILTTfn" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T13:39:09.257Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vc5tzh-29P1AFe11wXqz" version="22.1.16" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -426,6 +426,9 @@
         <mxCell id="99BcAxhjOU1GVthHqTRR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="99BcAxhjOU1GVthHqTRR-1" target="99BcAxhjOU1GVthHqTRR-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="99BcAxhjOU1GVthHqTRR-1" target="99BcAxhjOU1GVthHqTRR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-1" value="barriers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="711" y="2600" width="79" height="30" as="geometry" />
         </mxCell>
@@ -452,6 +455,9 @@
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-9" value="CPU看到了B的最新值, 一定看到了A的最新值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1595" y="2610" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-12" value="load barriers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2710" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
