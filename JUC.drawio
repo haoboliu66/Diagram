@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T11:56:33.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PVOdanqDrbUFpjTUE30w" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T12:57:12.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Db6srH0yiCMde-Zz8zTA" version="22.1.16" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,69 +358,69 @@
         <mxCell id="SonHGdceE0Zbm2Z1TKrk-33" value="CPU乱序执行现象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="2120" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ7YPI2pEZnhK35bZtsi-1" target="AeaUYEnInn6TyFFDgCMk-6">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZ7YPI2pEZnhK35bZtsi-1" target="AeaUYEnInn6TyFFDgCMk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TZ7YPI2pEZnhK35bZtsi-1" value="CPU在执行指令时, 没有按照编码顺序执行的现象, i.e. 指令之间顺序发生了改变" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="960" y="2125" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉你编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉你编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1693" y="2050" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-2" target="AeaUYEnInn6TyFFDgCMk-1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-2" target="AeaUYEnInn6TyFFDgCMk-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-2" value="JMM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-2" value="JMM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1549" y="2050" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-4" target="AeaUYEnInn6TyFFDgCMk-2">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-4" target="AeaUYEnInn6TyFFDgCMk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-4" value="Java" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-4" value="Java" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1549" y="1990" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="AeaUYEnInn6TyFFDgCMk-8">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="AeaUYEnInn6TyFFDgCMk-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1115" y="2210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-6" value="CPU和编译器都可能导致重排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-6" value="CPU和编译器都可能导致重排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1027.5" y="2190" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="AeaUYEnInn6TyFFDgCMk-10">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="AeaUYEnInn6TyFFDgCMk-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="990" y="2250" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1265" y="2250" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-12" target="AeaUYEnInn6TyFFDgCMk-13">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-12" target="AeaUYEnInn6TyFFDgCMk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-12" value="屏障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-12" value="屏障" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="841" y="2380" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-13" target="AeaUYEnInn6TyFFDgCMk-15">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-13" target="AeaUYEnInn6TyFFDgCMk-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-13" value="隔离指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-13" value="隔离指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1010" y="2380" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-15" target="AeaUYEnInn6TyFFDgCMk-17">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AeaUYEnInn6TyFFDgCMk-15" target="AeaUYEnInn6TyFFDgCMk-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-15" value="STORE A&lt;br&gt;屏障&lt;br&gt;STORE B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-15" value="STORE A&lt;br&gt;屏障&lt;br&gt;STORE B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1130" y="2367.5" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-17" target="AeaUYEnInn6TyFFDgCMk-20">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AeaUYEnInn6TyFFDgCMk-17" target="AeaUYEnInn6TyFFDgCMk-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-17" value="隔离屏障两边的指令, 使他们满足该屏障所能保证的意义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-17" value="隔离屏障两边的指令, 使他们满足该屏障所能保证的意义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1322.5" y="2400" width="285" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-20" value="那么屏障要保证的意义是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-20" value="那么屏障要保证的意义是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1370" y="2470" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
