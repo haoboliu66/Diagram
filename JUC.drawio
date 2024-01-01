@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T22:45:36.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GZpPZbhx_8vN7dSSqrxP" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T22:46:31.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jhcyEY_p9xOM5m9PWh6a" version="22.1.16" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1304" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -485,6 +485,15 @@
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-22" value="每个进程虚拟地址一样, 如果用虚拟地址查cache line, 可能发生冲突" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="466" y="3120" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-23" value="Direct-mapped caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1027.5" y="3060" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-24" value="Set associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-25" value="Fully associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="3130" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
