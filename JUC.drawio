@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T13:34:29.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mRa117rDs2cbvCna9WfQ" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T13:35:04.322Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QH8zBhYlJCs4bNCafjwg" version="22.1.16" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -441,8 +441,14 @@
         <mxCell id="99BcAxhjOU1GVthHqTRR-7" value="STORE A&lt;br&gt;&lt;br&gt;STORE BARRIER&lt;br&gt;&lt;br&gt;STORE B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="926" y="2660" width="94" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="99BcAxhjOU1GVthHqTRR-8" target="99BcAxhjOU1GVthHqTRR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-8" value="barrier保证A和B的提交顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1060" y="2680" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="99BcAxhjOU1GVthHqTRR-9" value="CPU看到了B的最新值, 一定看到了A的最新值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2680" width="235" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
