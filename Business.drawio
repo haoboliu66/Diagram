@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T10:47:52.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mr3VHl6byGj2Jq2OCiYU" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T10:48:26.017Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DXhW95DY_1lJdsc5M6ok" version="22.1.16" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,23 +35,23 @@
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="535" as="targetPoint" />
+            <mxPoint x="235" y="565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-9" value="household ip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="145" y="520" width="90" height="30" as="geometry" />
+          <mxGeometry x="110" y="550" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-21" value="household id, household id, household id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="480" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-23" value="household id, household id, household id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="520" width="230" height="30" as="geometry" />
+          <mxGeometry x="235" y="550" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-24" target="IQLyXkSy8vxl-1mdiMzb-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-24" value="household id, household id, household id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="235" y="620" width="230" height="30" as="geometry" />
+          <mxGeometry x="235" y="600" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-25" target="IQLyXkSy8vxl-1mdiMzb-31">
           <mxGeometry relative="1" as="geometry" />
@@ -63,34 +63,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-25" value="Aerospike" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="680" width="100" height="40" as="geometry" />
+          <mxGeometry x="300" y="660" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-31" target="IQLyXkSy8vxl-1mdiMzb-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-31" value="record" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-43" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-33" target="IQLyXkSy8vxl-1mdiMzb-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-33" value="record" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-35" value="record" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="420" y="740" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-37" value="segments + demo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="850" width="110" height="30" as="geometry" />
+          <mxGeometry x="120" y="830" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-42" value="segments + demo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="295" y="850" width="110" height="30" as="geometry" />
+          <mxGeometry x="295" y="830" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-44" value="segments + demo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="850" width="110" height="30" as="geometry" />
+          <mxGeometry x="460" y="830" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQLyXkSy8vxl-1mdiMzb-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.445;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="IQLyXkSy8vxl-1mdiMzb-35" target="IQLyXkSy8vxl-1mdiMzb-44">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQLyXkSy8vxl-1mdiMzb-47" value="household ip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="990" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
