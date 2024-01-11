@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T12:03:02.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1f9VrINxPoDiS8gx3tgD" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T22:54:49.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yEOznvqwR-h2GqSa5ANs" version="22.1.17" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,23 +495,23 @@
         <mxCell id="99BcAxhjOU1GVthHqTRR-25" value="Fully associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1020" y="3130" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-3">
+        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-2">
+        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-1" value="virtual address查询cache的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-1" value="virtual address查询cache的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="220" y="3240" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-2" value="ambiguity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-2" value="ambiguity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="471" y="3230" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-3" value="alias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="GM-Ud_aDfbjV712TQ6Kv-3" value="alias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="476.5" y="3270" width="69" height="20" as="geometry" />
         </mxCell>
         <UserObject label="https://zhuanlan.zhihu.com/p/107096130" link="https://zhuanlan.zhihu.com/p/107096130" id="GM-Ud_aDfbjV712TQ6Kv-6">
-          <mxCell style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
             <mxGeometry x="210" y="3200" width="220" height="30" as="geometry" />
           </mxCell>
         </UserObject>
