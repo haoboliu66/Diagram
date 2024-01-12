@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T14:56:44.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2Hpbgs61r8Dp48FvIzpS" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T23:35:27.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8fZTk--m56JZjcVIMY-1" version="22.1.17" type="github">
   <diagram id="FEQaooY9dVQ4uySeMqfo" name="Page-1">
-    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,22 +716,22 @@
           <mxGeometry x="2254" y="646" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-1" value="国债 Government Bond" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2980" y="360" width="150" height="30" as="geometry" />
+          <mxGeometry x="3070" y="262.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="afA0UIZSVmBOzsnM_-rc-2" target="afA0UIZSVmBOzsnM_-rc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-2" value="政府" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="280" width="70" height="60" as="geometry" />
+          <mxGeometry x="2860" y="182.5" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="afA0UIZSVmBOzsnM_-rc-5" target="afA0UIZSVmBOzsnM_-rc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-5" value="央行" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3250" y="270" width="70" height="60" as="geometry" />
+          <mxGeometry x="3340" y="172.5" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-7" value="央行独立于政府, 不能直接印钱给政府; 可以通过购买国债的方式, 让政府募集到钱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2930" y="247.5" width="210" height="35" as="geometry" />
+          <mxGeometry x="3020" y="150" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="afA0UIZSVmBOzsnM_-rc-8" target="afA0UIZSVmBOzsnM_-rc-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -740,22 +740,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-8" value="债务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2650" y="510" width="60" height="35" as="geometry" />
+          <mxGeometry x="2740" y="412.5" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-9" value="Internal Debt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="465" width="70" height="35" as="geometry" />
+          <mxGeometry x="2860" y="367.5" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-10" value="External Debt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="535" width="70" height="35" as="geometry" />
+          <mxGeometry x="2860" y="437.5" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-13" value="利率" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2840" y="725" width="90" height="40" as="geometry" />
+          <mxGeometry x="2930" y="627.5" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-14" value="美国国债十年期收益率" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3020" y="660" width="140" height="40" as="geometry" />
+          <mxGeometry x="3110" y="562.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="afA0UIZSVmBOzsnM_-rc-16" value="债券价格和利率负相关?" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="3010" y="590" width="240" height="40" as="geometry" />
+          <mxGeometry x="3100" y="492.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WfBqhFfA9FNHoza5rEms-1" value="Producer Price Index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="460" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
