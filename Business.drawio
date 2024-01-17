@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T11:48:15.069Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rTk37kYDEPIthpTou-zG" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T11:53:46.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fKcFcKSnFLYWOllTFgZa" version="22.1.18" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="kN55YoPe5K_Antq_4-WD-4" value="Data Prepper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1175" y="245" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-6" value="Open Telemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="kN55YoPe5K_Antq_4-WD-6" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="2060" y="378.75" width="350" height="162.5" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-7" value="Recevier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -156,6 +156,35 @@
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-11" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1792" y="430" width="86" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" target="kN55YoPe5K_Antq_4-WD-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" target="kN55YoPe5K_Antq_4-WD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" target="kN55YoPe5K_Antq_4-WD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" target="kN55YoPe5K_Antq_4-WD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-13" value="Exporters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="87.5" width="100" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-14" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2060" width="160" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-15" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="67.5" width="160" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-16" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="130" width="160" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-17" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="197.5" width="160" height="47.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
