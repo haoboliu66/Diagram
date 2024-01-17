@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T11:54:49.450Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PK6XtyeF187592u6bW7i" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T11:54:58.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rPIOzcBCfc8XvT7mhs-P" version="22.1.18" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1242" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,19 +140,28 @@
           <mxGeometry x="1175" y="245" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-6" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="378.75" width="350" height="162.5" as="geometry" />
+          <mxGeometry x="2050" y="373.75" width="350" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-7" target="kN55YoPe5K_Antq_4-WD-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-7" value="Recevier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="441.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2070" y="436.25" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-8" target="kN55YoPe5K_Antq_4-WD-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-8" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="441.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2180" y="436.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-9" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="441.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2290" y="436.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-10" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1750" y="370" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kN55YoPe5K_Antq_4-WD-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-11" target="kN55YoPe5K_Antq_4-WD-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-11" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1792" y="430" width="86" height="65" as="geometry" />
