@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T14:01:25.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7P8bNpVSGP5ZnoJU7miV" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T14:01:35.137Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xSCzVgUS8b6Fz1Q-cOkp" version="22.1.18" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1242" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,34 +140,34 @@
           <mxGeometry x="1175" y="245" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-6" value="OpenTelemetry Collector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="373.75" width="350" height="162.5" as="geometry" />
+          <mxGeometry x="2030" y="483.75" width="350" height="162.5" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-7" target="kN55YoPe5K_Antq_4-WD-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-7" value="Recevier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="436.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2050" y="546.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-8" target="kN55YoPe5K_Antq_4-WD-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-8" value="Processor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="436.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2160" y="546.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-9" target="kN55YoPe5K_Antq_4-WD-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-9" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2290" y="436.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="2270" y="546.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-10" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="370" width="170" height="180" as="geometry" />
+          <mxGeometry x="1730" y="480" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-11" target="kN55YoPe5K_Antq_4-WD-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-11" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1792" y="430" width="86" height="65" as="geometry" />
+          <mxGeometry x="1772" y="540" width="86" height="65" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" target="kN55YoPe5K_Antq_4-WD-14">
           <mxGeometry relative="1" as="geometry">
@@ -205,16 +205,16 @@
           <mxGeometry x="1930" y="112.5" width="160" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-27" value="observability backend" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="376.25" width="250" height="170" as="geometry" />
+          <mxGeometry x="2490" y="486.25" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-29" value="A span represents an operation within a transaction. Each Span encapsulates the following state: An operation name. A start and finish timestamp. Attributes: A list of key-value pairs." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2230" y="10" width="380" height="79" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-30" value="OTLP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="430" width="60" height="30" as="geometry" />
+          <mxGeometry x="1930" y="540" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-32" value="Agent Collector deployment pattern" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="620" width="400" height="40" as="geometry" />
+        <mxCell id="kN55YoPe5K_Antq_4-WD-32" value="Agent Collector deployment pattern" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="370" width="560" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
