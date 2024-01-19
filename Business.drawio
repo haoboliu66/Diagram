@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T21:26:41.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bWyBliqGmR467ij_8JKv" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T21:27:02.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZGLfl4wBPlxzEJXp1ZMr" version="22.1.21" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1434" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -281,11 +281,23 @@
         <mxCell id="nK1HsDgh9BaosHYznmoO-6" value="MeterProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1950" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nK1HsDgh9BaosHYznmoO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nK1HsDgh9BaosHYznmoO-7" target="nK1HsDgh9BaosHYznmoO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nK1HsDgh9BaosHYznmoO-7" value="Meter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1840" y="1600" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="nK1HsDgh9BaosHYznmoO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nK1HsDgh9BaosHYznmoO-9" target="nK1HsDgh9BaosHYznmoO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nK1HsDgh9BaosHYznmoO-9" value="Meter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2060" y="1600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nK1HsDgh9BaosHYznmoO-11" value="Instrument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nK1HsDgh9BaosHYznmoO-12" value="Instrument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="1714" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
