@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T17:42:21.853Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l51ioU1h0PvwGojNlsXc" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T17:42:41.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LsSYWsXXf01XMKU1cnZ6" version="22.1.21" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1434" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,12 +266,6 @@
         <mxCell id="kN55YoPe5K_Antq_4-WD-51" value="Data Prepper" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2545" y="910" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nK1HsDgh9BaosHYznmoO-4" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="1120" width="430" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="nK1HsDgh9BaosHYznmoO-5" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1666" y="1240" width="74" height="61.25" as="geometry" />
-        </mxCell>
         <mxCell id="nK1HsDgh9BaosHYznmoO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nK1HsDgh9BaosHYznmoO-6" target="nK1HsDgh9BaosHYznmoO-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -352,6 +346,12 @@
         </mxCell>
         <mxCell id="D2WARKZRk6addrDwFCrJ-2" value="OpenTelemetry SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="1480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D2WARKZRk6addrDwFCrJ-3" value="App" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1150" width="110" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D2WARKZRk6addrDwFCrJ-4" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1456" y="1188.75" width="78" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
