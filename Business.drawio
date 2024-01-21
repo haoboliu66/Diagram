@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T17:45:30.978Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sS_VWdOayfN1ShKwu6hw" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T17:45:53.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hj2JDCmyqzxVr2DerJk1" version="22.1.21" type="github">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1434" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,6 +352,15 @@
         </mxCell>
         <mxCell id="D2WARKZRk6addrDwFCrJ-4" value="Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1456" y="1248.75" width="78" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="D2WARKZRk6addrDwFCrJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2WARKZRk6addrDwFCrJ-5" target="D2WARKZRk6addrDwFCrJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2WARKZRk6addrDwFCrJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D2WARKZRk6addrDwFCrJ-5" target="D2WARKZRk6addrDwFCrJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2WARKZRk6addrDwFCrJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D2WARKZRk6addrDwFCrJ-5" target="D2WARKZRk6addrDwFCrJ-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D2WARKZRk6addrDwFCrJ-5" value="OTEL_EXPORTER_OTLP_PROTOCOL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1560" y="1240" width="220" height="40" as="geometry" />
