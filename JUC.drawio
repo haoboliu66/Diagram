@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T11:37:34.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="WgXGQU3_TW_IhgpGQrOM" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T11:37:56.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="V9ShNMXr523e91d4I1hS" version="24.2.1" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="HeV-wAqHhQqOec4LPYSm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-35" target="HeV-wAqHhQqOec4LPYSm-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到多个CPU缓存中时, 执行lock操作将会使用MESI协议来保证只有一个CPU可以对变量A进行cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="HeV-wAqHhQqOec4LPYSm-35" value="当变量A被加载到多个CPU cache中时, 执行lock操作将会使用MESI协议来保证只有一个CPU可以对变量A进行cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1265" y="1405" width="409" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HeV-wAqHhQqOec4LPYSm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="HeV-wAqHhQqOec4LPYSm-36" target="HeV-wAqHhQqOec4LPYSm-38" edge="1">
