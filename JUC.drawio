@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T21:01:32.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3yFN5SP-KDxxQ2yt87dz" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T21:14:23.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="PmJkwmS4tDrnKT6lOZg8" version="24.2.1" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="2193" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1974" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="99BcAxhjOU1GVthHqTRR-21" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="3320" width="306" height="70" as="geometry" />
+          <mxGeometry x="55" y="3520" width="306" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="160" width="390" height="270" as="geometry" />
@@ -362,13 +362,13 @@
           <mxGeometry x="824" y="1980" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SonHGdceE0Zbm2Z1TKrk-33" value="CPU乱序执行现象" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="786" y="2410" width="110" height="30" as="geometry" />
+          <mxGeometry x="786" y="2610" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TZ7YPI2pEZnhK35bZtsi-1" target="AeaUYEnInn6TyFFDgCMk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TZ7YPI2pEZnhK35bZtsi-1" value="CPU在执行指令时, 没有按照编码顺序执行的现象, i.e. 指令之间顺序发生了改变" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="915" y="2415" width="310" height="30" as="geometry" />
+          <mxGeometry x="915" y="2615" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉你编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1693" y="2050" width="310" height="30" as="geometry" />
@@ -387,47 +387,47 @@
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="AeaUYEnInn6TyFFDgCMk-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1070" y="2500" as="sourcePoint" />
+            <mxPoint x="1070" y="2700" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-6" value="CPU和编译器都可能导致重排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="982.5" y="2480" width="175" height="30" as="geometry" />
+          <mxGeometry x="982.5" y="2680" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="AeaUYEnInn6TyFFDgCMk-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="945" y="2540" width="250" height="30" as="geometry" />
+          <mxGeometry x="945" y="2740" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="2540" width="165" height="30" as="geometry" />
+          <mxGeometry x="1220" y="2740" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-12" target="AeaUYEnInn6TyFFDgCMk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-12" value="屏障" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="796" y="2670" width="100" height="30" as="geometry" />
+          <mxGeometry x="796" y="2870" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-13" target="AeaUYEnInn6TyFFDgCMk-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-13" value="隔离指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="965" y="2670" width="70" height="30" as="geometry" />
+          <mxGeometry x="965" y="2870" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AeaUYEnInn6TyFFDgCMk-15" target="AeaUYEnInn6TyFFDgCMk-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-15" value="STORE A&lt;br&gt;屏障&lt;br&gt;STORE B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1085" y="2657.5" width="90" height="55" as="geometry" />
+          <mxGeometry x="1085" y="2857.5" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="AeaUYEnInn6TyFFDgCMk-17" target="AeaUYEnInn6TyFFDgCMk-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-17" value="隔离屏障两边的指令, 使他们满足该屏障所能保证的意义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1277.5" y="2690" width="285" height="40" as="geometry" />
+          <mxGeometry x="1277.5" y="2890" width="285" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-20" value="那么有哪几种屏障, 某种屏障要保证的意义是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1285" y="2760" width="270" height="30" as="geometry" />
+          <mxGeometry x="1285" y="2960" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="99BcAxhjOU1GVthHqTRR-1" target="99BcAxhjOU1GVthHqTRR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -439,64 +439,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-1" value="barriers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="631" y="2960" width="79" height="30" as="geometry" />
+          <mxGeometry x="631" y="3160" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-2" value="store barriers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="835" y="2830" width="100" height="30" as="geometry" />
+          <mxGeometry x="835" y="3030" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-4" value="store barrier之后的写指令不会重排序到barrier前的写指令之前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="935" y="2822.5" width="325" height="45" as="geometry" />
+          <mxGeometry x="935" y="3022.5" width="325" height="45" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-6" value="前提: 所有的内存操作指令, 等价于向内存提交一组 操作队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="865" y="2900" width="310" height="30" as="geometry" />
+          <mxGeometry x="865" y="3100" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="99BcAxhjOU1GVthHqTRR-7" target="99BcAxhjOU1GVthHqTRR-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-7" value="STORE A&lt;br&gt;&lt;br&gt;STORE BARRIER&lt;br&gt;&lt;br&gt;STORE B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1235" y="2880" width="94" height="70" as="geometry" />
+          <mxGeometry x="1235" y="3080" width="94" height="70" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="99BcAxhjOU1GVthHqTRR-8" target="99BcAxhjOU1GVthHqTRR-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-8" value="barrier保证A和B的提交顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1369" y="2900" width="150" height="30" as="geometry" />
+          <mxGeometry x="1369" y="3100" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-9" value="CPU看到了B的最新值, 一定看到了A的最新值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="2900" width="235" height="30" as="geometry" />
+          <mxGeometry x="1550" y="3100" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-12" value="load barriers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="835" y="3000" width="100" height="30" as="geometry" />
+          <mxGeometry x="835" y="3200" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-14" value="full barriers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="835" y="3090" width="100" height="30" as="geometry" />
+          <mxGeometry x="835" y="3290" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-16" value="只保证读操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="945" y="3002.5" width="80" height="27.5" as="geometry" />
+          <mxGeometry x="945" y="3202.5" width="80" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-17" value="同时保证读和写" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="945" y="3090" width="100" height="30" as="geometry" />
+          <mxGeometry x="945" y="3290" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-18" value="虚拟地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="71" y="3350" width="100" height="30" as="geometry" />
+          <mxGeometry x="71" y="3550" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-19" value="物理地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="3350" width="100" height="30" as="geometry" />
+          <mxGeometry x="245" y="3550" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-20" value="cache line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="81" y="3420" width="260" height="30" as="geometry" />
+          <mxGeometry x="81" y="3620" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-22" value="每个进程虚拟地址一样, 如果用虚拟地址查cache line, 可能发生冲突" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-114" y="3450" width="145" height="40" as="geometry" />
+          <mxGeometry x="-114" y="3650" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-23" value="Direct-mapped caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="453.75" y="3400" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="453.75" y="3600" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-24" value="Set associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="440" y="3430" width="140" height="30" as="geometry" />
+          <mxGeometry x="440" y="3630" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-25" value="Fully associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="440" y="3460" width="140" height="30" as="geometry" />
+          <mxGeometry x="440" y="3660" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -505,21 +505,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-1" value="virtual address查询cache的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="3570" width="180" height="40" as="geometry" />
+          <mxGeometry x="-360" y="3770" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-2" value="ambiguity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-109" y="3560" width="80" height="20" as="geometry" />
+          <mxGeometry x="-109" y="3760" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-3" value="alias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-103.5" y="3600" width="69" height="20" as="geometry" />
+          <mxGeometry x="-103.5" y="3800" width="69" height="20" as="geometry" />
         </mxCell>
         <UserObject label="https://zhuanlan.zhihu.com/p/107096130" link="https://zhuanlan.zhihu.com/p/107096130" id="GM-Ud_aDfbjV712TQ6Kv-6">
           <mxCell style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-            <mxGeometry x="-370" y="3520" width="220" height="30" as="geometry" />
+            <mxGeometry x="-370" y="3720" width="220" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="PCTluO6xD0Zs3hzz5Vkr-1" value="第7节, 第8节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-109" y="3370" width="110" height="35" as="geometry" />
+          <mxGeometry x="-109" y="3570" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2040" y="1302.5" width="100" height="30" as="geometry" />
@@ -571,6 +571,12 @@
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-24" value="CPU (Intel)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="2200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-26" value="CPU 1&lt;br&gt;A == 1&lt;br&gt;A = 3&lt;div&gt;B = 4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="2290" width="129" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-27" value="CPU2&lt;br&gt;B == 2&lt;br&gt;x = A&lt;br&gt;y = B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="794" y="2290" width="129" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
