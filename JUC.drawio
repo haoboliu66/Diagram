@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T20:57:32.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="zh2aGX8hcG67kBYXdpDa" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T20:58:25.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3fst_dIv1DxPlIXli4nS" version="24.2.1" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,8 +352,11 @@
         <mxCell id="HeV-wAqHhQqOec4LPYSm-38" value="锁分散" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1199" y="1576" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SonHGdceE0Zbm2Z1TKrk-5" target="r9cip8CiFLFCaYMpcU3F-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SonHGdceE0Zbm2Z1TKrk-5" value="volatile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="653" y="2040" width="125" height="40" as="geometry" />
+          <mxGeometry x="621" y="2040" width="99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SonHGdceE0Zbm2Z1TKrk-32" value="mmIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="824" y="1980" width="60" height="30" as="geometry" />
@@ -556,6 +559,9 @@
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-19" value="CPU1写A和B的两种机制:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;1. 直接把最新值写入内存, 然后告诉CPU2缓存失效&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 直接把最新值写入内存, 然后最新值给CPU2, 似的CPU缓存行中的A和B更新为最新, 此时CPU2无须去内存重新读取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2340" y="1310" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-20" value="每个原子性的变量, 也即多个线程共享的都加上volatile, 原因何在？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="774" y="2040" width="485" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
