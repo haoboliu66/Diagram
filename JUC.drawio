@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T20:11:49.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="cku-xCEeGJRYM8bjC1xx" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T20:13:40.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="88vAt9wusbkiFYC7WPIL" version="24.2.1" type="github">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
     <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,6 +553,9 @@
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-17" value="Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2043" y="1420.5" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-19" value="CPU1写A和B的两种机制:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;1. 直接把最新值写入内存, 然后告诉CPU2缓存失效&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 直接把最新值写入内存, 然后最新值给CPU2, 似的CPU缓存行中的A和B更新为最新, 此时CPU2无须去内存重新读取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1310" width="360" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
