@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T15:23:51.359Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Z6sBIS9PcEV_w43ztCYC" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T15:25:35.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="yFnzMo_CTA82KpQcq30-" version="24.2.1" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4742" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1255,16 +1255,13 @@
           <mxGeometry x="3710.3200000000006" y="2555" width="114.14" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-3" value="ConcurrentLinkedQueue&amp;lt;RequestFutureListener&amp;lt;T&amp;gt;&amp;gt; listeners" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3910" y="2552" width="400" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sAGOkK7ym_QeNS6eY9q3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sAGOkK7ym_QeNS6eY9q3-4" target="sAGOkK7ym_QeNS6eY9q3-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="3600" y="2490" width="343.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-4" value="fireSuccess()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3718.9600000000005" y="2757" width="102" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private void fireSuccess() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; T value = value();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; while (true) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RequestFutureListener&amp;lt;T&amp;gt; listener = listeners.poll();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (listener == null)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; listener.onSuccess(value);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3990.0000000000005" y="2692" width="350" height="156" as="geometry" />
+          <mxGeometry x="3660" y="2835" width="340" height="156" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sAGOkK7ym_QeNS6eY9q3-7" target="sAGOkK7ym_QeNS6eY9q3-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1298,6 +1295,12 @@
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-15" value="onComplete()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3136" y="2662" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAGOkK7ym_QeNS6eY9q3-26" value="RequestFutureListener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4020" y="2545" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAGOkK7ym_QeNS6eY9q3-27" value="onSuccess" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4043" y="2664" width="92.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
