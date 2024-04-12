@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T15:33:24.202Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YaztksM5KlOhFWkmoo5u" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T15:34:02.492Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="26wITEUaxqmhLgTDilto" version="24.2.1" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4742" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1320,6 +1320,9 @@
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-32" value="ConsumerNetworkClient" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3102" y="2933.5" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sAGOkK7ym_QeNS6eY9q3-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sAGOkK7ym_QeNS6eY9q3-33" target="sAGOkK7ym_QeNS6eY9q3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-33" value="firePendingCompletedRequests()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3069.5" y="3045" width="185" height="30" as="geometry" />
         </mxCell>
@@ -1328,6 +1331,9 @@
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-36" value="pendingCompletion.add(this)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3399.5" y="2783" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAGOkK7ym_QeNS6eY9q3-38" value="pendingCompletion.add(this)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3072.5" y="3110" width="179" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
