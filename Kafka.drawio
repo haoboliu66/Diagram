@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T14:45:16.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="dgZZFpH0txOw880nJBk0" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T14:45:34.874Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="JEiSycOyt1_TkoRUE1Ng" version="24.2.1" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4742" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1261,16 +1261,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-4" value="fireSuccess()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3718.9600000000005" y="2759" width="102" height="26" as="geometry" />
+          <mxGeometry x="3718.9600000000005" y="2754" width="102" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private void fireSuccess() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; T value = value();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; while (true) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RequestFutureListener&amp;lt;T&amp;gt; listener = listeners.poll();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (listener == null)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; listener.onSuccess(value);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3960.0000000000005" y="2694" width="350" height="156" as="geometry" />
+          <mxGeometry x="3960.0000000000005" y="2689" width="350" height="156" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sAGOkK7ym_QeNS6eY9q3-7" target="sAGOkK7ym_QeNS6eY9q3-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-7" value="complete(T value)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3715.46" y="2664" width="109" height="30" as="geometry" />
+          <mxGeometry x="3715.46" y="2659" width="109" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-9" value="RequestFutureCompletionHandler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3360" y="2555" width="240" height="30" as="geometry" />
@@ -1279,10 +1279,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-10" value="fireCompletion()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3422" y="2670" width="106" height="30" as="geometry" />
+          <mxGeometry x="3422" y="2662" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-11" value="onComplete(ClientResponse response)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3360" y="2744" width="230" height="28" as="geometry" />
+          <mxGeometry x="3360" y="2736" width="230" height="28" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-13" value="RequestCompletionHandler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3395.5" y="2490" width="159" height="30" as="geometry" />
@@ -1292,6 +1292,9 @@
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-14" value="ClientResponse" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3121" y="2552" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sAGOkK7ym_QeNS6eY9q3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sAGOkK7ym_QeNS6eY9q3-15" target="sAGOkK7ym_QeNS6eY9q3-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sAGOkK7ym_QeNS6eY9q3-15" value="onComplete()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3136" y="2662" width="90" height="30" as="geometry" />
