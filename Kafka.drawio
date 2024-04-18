@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T20:31:07.080Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="j-LqIN-9oTp9zzlKNVD1" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T20:31:51.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kS3Mx9EFuB89H1hspkE8" version="24.2.5" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="3991" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4742" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,9 +74,6 @@
         </mxCell>
         <mxCell id="itqR3cazL_RWvEJsIGA0-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="adZdbqMNMHa9eECy_sV0-3" target="adZdbqMNMHa9eECy_sV0-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-11" value="IAM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1078.25" y="5780" width="255" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3341" y="5541" width="470" height="210" as="geometry" />
@@ -347,26 +344,8 @@
         <mxCell id="aHBjfDM95XBzwa6__JUI-9" value="secret" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="862.5" y="6394" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-10" value="AWS::MSK::Cluster" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1105.75" y="5828" width="199" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aHBjfDM95XBzwa6__JUI-12" target="aHBjfDM95XBzwa6__JUI-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-12" value="Client" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="889.75" y="5843" width="75" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-13" value="Identity-based Policy" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" parent="1" vertex="1">
-          <mxGeometry x="865.25" y="5813" width="124" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="aHBjfDM95XBzwa6__JUI-17" value="ACLs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1049.5" y="6362" width="60" height="18" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-21" value="IAM way ignores ACLs (allow.everyone.if.no.acl.found ignored)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1050.25" y="5740" width="336" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aHBjfDM95XBzwa6__JUI-22" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;SASL_IAM&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;labelBorderColor=none;fillColor=#FFFFFF;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="703.25" y="5690" width="618.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0qHlyQaS1Atdcx_r4Ze_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="adZdbqMNMHa9eECy_sV0-2" target="aHBjfDM95XBzwa6__JUI-29" edge="1">
           <mxGeometry relative="1" as="geometry">
