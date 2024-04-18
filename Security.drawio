@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T17:56:47.971Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="cd3oPaCxZz9JylJVjK3R" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T17:58:01.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2FzBKDZPJY2KvhVMeH-d" version="24.2.5" type="github">
   <diagram id="h_MF3vdllRQitfquvE4h" name="Page-1">
-    <mxGraphModel dx="1687" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,17 +94,23 @@
         <mxCell id="PdbAGeIDLId4RMrBVTy8-9" value="Two ways of using SSL&lt;br&gt;1, One-way authentication&lt;br&gt;2, Two-way authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="1650" width="185" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Zw11vd7dgBP-SgBjFEoj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-1" target="Zw11vd7dgBP-SgBjFEoj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-1" value="Certificate Signing Request (CSR)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="595" width="190" height="30" as="geometry" />
+          <mxGeometry x="150" y="617.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-2" value="server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="615" width="90" height="35" as="geometry" />
+          <mxGeometry x="-110" y="617.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw11vd7dgBP-SgBjFEoj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-3" target="Zw11vd7dgBP-SgBjFEoj-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-3" value="server public key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="640" width="155" height="30" as="geometry" />
+          <mxGeometry x="-1.25" y="640" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-4" value="Certificate Authority (CA)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="615" width="150" height="40" as="geometry" />
+          <mxGeometry x="380" y="612" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-5" value="CA public key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="64" y="720" width="91" height="30" as="geometry" />
@@ -113,22 +119,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-6" value="CA private key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="384.5" y="740" width="91" height="30" as="geometry" />
+          <mxGeometry x="409.5" y="737" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-7" target="Zw11vd7dgBP-SgBjFEoj-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-7" value="hash(CSR)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="377.5" y="670" width="105" height="30" as="geometry" />
+          <mxGeometry x="402.5" y="667" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-9" value="digital certificate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="620" y="700" width="94" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-10" value="encrypted(hash(CSR))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="805" width="140" height="35" as="geometry" />
+          <mxGeometry x="385" y="802" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-13" value="Digital certificate = CSR + encrypted(hash(CSR))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="710" width="273" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw11vd7dgBP-SgBjFEoj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-14" target="Zw11vd7dgBP-SgBjFEoj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zw11vd7dgBP-SgBjFEoj-14" value="domain details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1.25" y="595" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
