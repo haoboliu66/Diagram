@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T20:32:10.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="-uFHNaOdjqC7NntYjE8b" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T20:32:34.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="u4yjvwVFevRdIF_wpm3j" version="24.2.5" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
     <mxGraphModel dx="4503" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,34 +85,34 @@
           <mxGeometry x="3412" y="5601" width="150" height="81" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-12" value="Two ways of using SSL&lt;br&gt;1, One-way authentication&lt;br&gt;2, Two-way authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2247" y="4340" width="185" height="50" as="geometry" />
+          <mxGeometry x="2230" y="4370" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2336" y="4540" width="140" height="160" as="geometry" />
+          <mxGeometry x="2370" y="4570" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-15" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2380" y="4550" width="50" height="20" as="geometry" />
+          <mxGeometry x="2414" y="4580" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-16" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2355" y="4590" width="100" height="35" as="geometry" />
+          <mxGeometry x="2389" y="4620" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-17" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2355" y="4650" width="100" height="38" as="geometry" />
+          <mxGeometry x="2389" y="4680" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-18" value="&lt;span style=&quot;box-sizing: border-box; font-family: Raleway, sans-serif; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;A Java keystore stores &lt;font color=&quot;#ff3333&quot;&gt;private key&lt;/font&gt; entries, &lt;font color=&quot;#ff3333&quot;&gt;certificates&lt;/font&gt; with public key (of mine).&lt;br&gt;&lt;br&gt;A truststore is the opposite. A truststore holds onto certificates that identify others.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2376" y="4440" width="405" height="50" as="geometry" />
+          <mxGeometry x="2359" y="4470" width="405" height="50" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2676" y="4540" width="140" height="160" as="geometry" />
+          <mxGeometry x="2612.04" y="4570" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-26" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2721" y="4550" width="50" height="20" as="geometry" />
+          <mxGeometry x="2657.04" y="4580" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-27" value="keystore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2695" y="4590" width="100" height="35" as="geometry" />
+          <mxGeometry x="2631.04" y="4620" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="977nJjWM0UaJ1cPmPAfp-28" value="truststore" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2695" y="4650" width="100" height="38" as="geometry" />
+          <mxGeometry x="2631.04" y="4680" width="100" height="38" as="geometry" />
         </mxCell>
         <mxCell id="cuo-gMMu6F1mj998WloA-1" value="CA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2521" y="4790" width="155" height="40" as="geometry" />
