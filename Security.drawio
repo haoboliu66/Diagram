@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T20:23:37.130Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gYMxy7o3xOnoHDFiaAod" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T20:24:23.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="U9NLkymobdV3JeXZGg-q" version="24.2.5" type="github">
   <diagram id="h_MF3vdllRQitfquvE4h" name="Page-1">
     <mxGraphModel dx="2022" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-5" value="CA public key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="376" y="897.5" width="91" height="30" as="geometry" />
+          <mxGeometry x="376" y="930" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-6" target="Zw11vd7dgBP-SgBjFEoj-10">
           <mxGeometry relative="1" as="geometry" />
@@ -131,7 +131,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-20" value="client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-91.25" y="880" width="90" height="35" as="geometry" />
+          <mxGeometry x="-91.25" y="912.5" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-21" target="Zw11vd7dgBP-SgBjFEoj-23">
           <mxGeometry relative="1" as="geometry" />
@@ -140,19 +140,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-21" value="digital certificate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="61" y="867.5" width="94" height="60" as="geometry" />
+          <mxGeometry x="61" y="900" width="94" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-23" value="CSR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="208.5" y="867.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="208.5" y="900" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zw11vd7dgBP-SgBjFEoj-24" target="Zw11vd7dgBP-SgBjFEoj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-24" value="encrypted(hash(CSR))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="208.5" y="897.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="208.5" y="930" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zw11vd7dgBP-SgBjFEoj-28" value="hash(CSR)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500.5" y="897.5" width="89.5" height="30" as="geometry" />
+          <mxGeometry x="500.5" y="930" width="89.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
