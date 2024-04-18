@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T22:39:17.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="uhagyYkNn0sqpUBv4kVu" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T20:31:07.080Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="j-LqIN-9oTp9zzlKNVD1" version="24.2.5" type="github">
   <diagram id="VqWRD1eYdqXnjN061D67" name="Page-1">
-    <mxGraphModel dx="4302" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3991" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,7 +141,7 @@
         <mxCell id="rUbHjjRioy_Fn0qj38NF-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-10" target="rUbHjjRioy_Fn0qj38NF-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUbHjjRioy_Fn0qj38NF-10" value="2. 提交sign request, 因为client和server要有自己的certificate, 在建立TLS连接时要传递给对方 (由对方的truststore来进行验证)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rUbHjjRioy_Fn0qj38NF-10" value="2. 提交CSR, 因为client和server要有自己的certificate, 在建立TLS连接时要传递给对方 (由对方的truststore来进行验证)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2222" y="5020" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rUbHjjRioy_Fn0qj38NF-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rUbHjjRioy_Fn0qj38NF-11" target="rUbHjjRioy_Fn0qj38NF-17" edge="1">
