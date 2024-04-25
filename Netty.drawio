@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T15:36:31.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="bnTgMWRnBjq6ZIg7MLhQ" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T15:36:39.509Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HFSICvVUehQOsroFlTpO" version="24.2.5" type="github">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
     <mxGraphModel dx="3088" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Qh2oVAJPeimNvLxA-YBM-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="Qh2oVAJPeimNvLxA-YBM-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="255" y="1370" width="1105" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="778Xzy9ah3qXj6_bfiE4-1" target="Qh2oVAJPeimNvLxA-YBM-41" edge="1">
@@ -16,10 +16,10 @@
         <mxCell id="778Xzy9ah3qXj6_bfiE4-2" value="AbstractChannelHandlerContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="820" y="1440" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="778Xzy9ah3qXj6_bfiE4-6" value="HeadContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="778Xzy9ah3qXj6_bfiE4-6" value="HeadContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="270" y="1440" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="778Xzy9ah3qXj6_bfiE4-7" value="TailContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="778Xzy9ah3qXj6_bfiE4-7" value="TailContext" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1270" y="1440" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qh2oVAJPeimNvLxA-YBM-1" value="其他handler(Context)可以override write方法, 但只是实现在pipeline里传递数据; 只有数据传到了HeadContext的write方法才能写到nio的SocketChannel中;&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;flush方法也是类似" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
