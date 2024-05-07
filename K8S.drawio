@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-04T12:36:05.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="crHGEd7Kwj4LfD4Q86Hr" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T17:35:33.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="BQK9sbIAThB9IKBt7dsL" version="24.3.0" type="github">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
-    <mxGraphModel dx="2261" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1603" dy="1660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,6 +257,7 @@
               <mxPoint x="-230" y="1810" />
               <mxPoint x="350" y="1810" />
               <mxPoint x="350" y="1720" />
+              <mxPoint x="288" y="1720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -293,13 +294,37 @@
           <mxGeometry x="-140" y="1660" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nzS7jhB4_X8ucjwfTYl9-13" value="mTLS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1820" width="60" height="30" as="geometry" />
+          <mxGeometry x="10" y="1810" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nzS7jhB4_X8ucjwfTYl9-14" value="NLB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="13.47" y="1690" width="73.06" height="36" as="geometry" />
         </mxCell>
         <mxCell id="nzS7jhB4_X8ucjwfTYl9-15" value="health check EP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="272.5" y="1500" width="117.5" height="30" as="geometry" />
+          <mxGeometry x="272.5" y="1510" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-16" value="https://domain:443/URI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1590" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-17" value="R53" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1570" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-18" value="https://domain:443/discovery" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1580" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-19" value="https://domain:443/health-check" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1490" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-20" value="port" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-21" value="9443" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-22" value="9445" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzS7jhB4_X8ucjwfTYl9-24" value="one-way TLS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="1650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
