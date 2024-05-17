@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T10:30:02.912Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="umtfK0lQ-QaK9jJznJay" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T10:30:35.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dPiYbl1FQiHtePkCc8yp" version="24.3.0" type="github">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
     <mxGraphModel dx="2069" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -441,10 +441,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-32" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="-1020" width="80" height="40" as="geometry" />
+          <mxGeometry x="-680" y="-1042.5" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-33" value="Docker pulled its core container runtime into a standalone project called containerd and donated it to the Cloud Native Computing Foundation (CNCF)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-540" y="-1055" width="450" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="8YG21vbMfinRDRhy8hdl-35" value="Docker Engine" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-950" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8YG21vbMfinRDRhy8hdl-36" value="Containerd" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-910" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8YG21vbMfinRDRhy8hdl-39" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-870" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
