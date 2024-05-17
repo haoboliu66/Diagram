@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T11:32:41.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HO0Ecb2sTdcgRQdZTNi8" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T11:33:24.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Zt-Ko0iO1m3NGfTrjyZz" version="24.3.0" type="github">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
     <mxGraphModel dx="2069" dy="3123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -461,7 +461,7 @@
           <mxGeometry x="-700" y="-870" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-39" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="-560" width="690" height="50" as="geometry" />
+          <mxGeometry x="-700" y="-540" width="690" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="8YG21vbMfinRDRhy8hdl-40" target="8YG21vbMfinRDRhy8hdl-55">
           <mxGeometry relative="1" as="geometry" />
@@ -516,11 +516,8 @@
         <mxCell id="8YG21vbMfinRDRhy8hdl-61" value="OCI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-540" y="-678.12" width="80" height="34.62" as="geometry" />
         </mxCell>
-        <mxCell id="8YG21vbMfinRDRhy8hdl-64" value="spawning &amp;amp; running containers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-435" y="-610" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8YG21vbMfinRDRhy8hdl-65" value="isolated Linux processes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="-610" width="150" height="30" as="geometry" />
+        <mxCell id="8YG21vbMfinRDRhy8hdl-64" value="spawning &amp;amp; running containers (isolated Linux processes with namespace and cgroup)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-466.73" y="-609.5" width="245" height="69.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
