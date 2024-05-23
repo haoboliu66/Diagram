@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T10:27:51.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jDlPHQ8PyGq1lOMdIXv4" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T20:18:18.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zCuaW_xfM2wu5_xqC-W8" version="24.4.6" type="github">
   <diagram name="Page-1" id="7svlrBP2xWEEcAl_WXo5">
     <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,31 +7,31 @@
         <mxCell id="be3w9HYUa7Go6kDvkPIz-1" value="JPA - Java Persistence API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="340" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="qTSgTVpmmm2uZjs2xj65-1" target="qTSgTVpmmm2uZjs2xj65-2">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="qTSgTVpmmm2uZjs2xj65-1" target="qTSgTVpmmm2uZjs2xj65-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-1" value="Clustered Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-1" value="Clustered Index" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="540" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qTSgTVpmmm2uZjs2xj65-2" target="qTSgTVpmmm2uZjs2xj65-4">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="qTSgTVpmmm2uZjs2xj65-2" target="qTSgTVpmmm2uZjs2xj65-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-2" value="Primary Key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-2" value="Primary Key" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="290" y="490" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qTSgTVpmmm2uZjs2xj65-4" target="qTSgTVpmmm2uZjs2xj65-6">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="qTSgTVpmmm2uZjs2xj65-4" target="qTSgTVpmmm2uZjs2xj65-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-4" value="if no PK, the first UNIQUE &amp;amp; NOT-NULL column" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-4" value="if no PK, the first UNIQUE &amp;amp; NOT-NULL column" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="420" y="497.5" width="250" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-6" value="GEN_CLUST_INDEX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-6" value="GEN_CLUST_INDEX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="497.5" width="140" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-8" value="synthetic column for column id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-8" value="synthetic column for column id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="690" y="472.5" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qTSgTVpmmm2uZjs2xj65-11" value="Secondary Indexes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qTSgTVpmmm2uZjs2xj65-11" value="Secondary Indexes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="660" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
