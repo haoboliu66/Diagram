@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T13:22:01.835Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="tWGlKe4lG7hZqbBCg0hh" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:22:49.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6qNzeKaxbq-dzSBra_5d" version="24.4.8" type="github">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
     <mxGraphModel dx="2069" dy="3123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,21 +155,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-2" value="容器化部署" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="760" y="-906.25" width="100" height="30" as="geometry" />
+          <mxGeometry x="865" y="-690" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-5" value="容器挂了怎么办" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="930" y="-946.25" width="110" height="30" as="geometry" />
+          <mxGeometry x="1035" y="-730" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-8" value="如何横向扩展容器数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="930" y="-876.25" width="130" height="30" as="geometry" />
+          <mxGeometry x="1035" y="-660" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-10" value="Container Orchestration" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="-926.25" width="140" height="50" as="geometry" />
+          <mxGeometry x="1285" y="-710" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VJSqi0sLNEn4OwbpJoOm-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1070" y="-901.75" as="sourcePoint" />
-            <mxPoint x="1140" y="-901.75" as="targetPoint" />
+            <mxPoint x="1175" y="-685.5" as="sourcePoint" />
+            <mxPoint x="1245" y="-685.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xQzBrzd0JkMFn1JmZiKZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="VJSqi0sLNEn4OwbpJoOm-15" target="xQzBrzd0JkMFn1JmZiKZ-7" edge="1">
@@ -420,19 +420,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-23" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1467.5" y="-756.25" width="67.5" height="30" as="geometry" />
+          <mxGeometry x="1572.5" y="-688" width="67.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-24" value="如何创建Pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1657.5" y="-806.25" width="90" height="30" as="geometry" />
+          <mxGeometry x="1762.5" y="-738" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-25" value="创建后部署到哪个workerNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1658.5" y="-756.25" width="173" height="30" as="geometry" />
+          <mxGeometry x="1763.5" y="-688" width="173" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-28" value="Pod如何横向/纵向扩展" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1658.5" y="-706.25" width="151.5" height="30" as="geometry" />
+          <mxGeometry x="1763.5" y="-638" width="151.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-30" value="Pod健康监控" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1658.5" y="-650.25" width="100" height="30" as="geometry" />
+          <mxGeometry x="1763.5" y="-582" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-32" target="8YG21vbMfinRDRhy8hdl-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
