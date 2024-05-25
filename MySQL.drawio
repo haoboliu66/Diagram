@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T20:41:56.553Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0skoNtfh3lJhESxagdkb" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:21:59.240Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1Won53WWMoedRA2raXIP" version="24.4.7" type="github">
   <diagram name="Page-1" id="7svlrBP2xWEEcAl_WXo5">
-    <mxGraphModel dx="1434" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,25 +34,25 @@
         <mxCell id="qTSgTVpmmm2uZjs2xj65-11" value="Secondary Indexes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="527.5" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-2" value="ACID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-2" value="ACID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="960" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-3" value="Atomicity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-3" value="Atomicity" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="740" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-4" value="Consistency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-4" value="Consistency" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="890" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-5" value="Isolation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-5" value="Isolation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="1050" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-6" value="isolation level that applies to each transaction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-6" value="isolation level that applies to each transaction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="1000" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-7" value="Durability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-7" value="Durability" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="1180" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XuLaf01S54gq7hD14zNM-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dev.mysql.com/doc/refman/8.0/en/images/innodb-architecture-8-0.png;" vertex="1" parent="1">
+        <mxCell id="XuLaf01S54gq7hD14zNM-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dev.mysql.com/doc/refman/8.0/en/images/innodb-architecture-8-0.png;" parent="1" vertex="1">
           <mxGeometry x="450" y="-310" width="611.5" height="476.49" as="geometry" />
         </mxCell>
       </root>
