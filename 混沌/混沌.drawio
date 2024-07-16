@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T09:03:21.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="840RXrukJALHrTLVzE1H" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-16T13:49:57.189Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="YPDfwB82jWUgPx908-ij" version="24.6.5" type="github" pages="2">
   <diagram id="_dh9glDH5kx_qx3IPk2B" name="Page-1">
     <mxGraphModel dx="3088" dy="3099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -435,7 +435,7 @@
           <mxGeometry x="4770" y="1134.5" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-173" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div class=&quot;mind-clipboard&quot;&gt;1, 编译bytecode的结果会带来执行性能的提升, 但是启动速度慢, 编译会耗时; &lt;br&gt;2, 解释执行不需要编译, 但是解释执行bytecode比较慢(用一个语言翻译另一个语言的逻辑并执行), 所以才会有JIT和解释器的结合&lt;br&gt;&lt;br&gt;当解释器执行执行java方法很慢到达了一个阈值, 那么此时就需要JIT进行编译, 把bytecode直接生成机器码并优化, 提高执行效率&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFCC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="5150" y="2116.5" width="430" height="210" as="geometry" />
+          <mxGeometry x="5150" y="2122.5" width="430" height="103.5" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-175" value="GCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="5930" y="1606.5" width="105" height="35" as="geometry" />
