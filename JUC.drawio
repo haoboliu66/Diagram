@@ -582,10 +582,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-28" value="所有CPU的操作, 等价于向内存提交一组访问序列而已" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="621" y="2480" width="325" height="30" as="geometry" />
+          <mxGeometry x="1000" y="2500" width="325" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-29" value="指令以何种顺序读内存, 以何种顺序写内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="979.5" y="2480" width="240.5" height="30" as="geometry" />
+          <mxGeometry x="1358.5" y="2500" width="240.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hfoLQT2eYCwfNi6susUt-2" value="JUC LongAdder" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1340" y="1560" width="140" height="30" as="geometry" />
@@ -613,6 +613,9 @@
         </mxCell>
         <mxCell id="9GSOo7D7u0mSWAOutGfX-10" value="{1,2}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1450" y="2270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9GSOo7D7u0mSWAOutGfX-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2220" width="20" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
