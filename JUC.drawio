@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T21:40:28.458Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2g-ZYzWyGdKm7-OpTCWX" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="1974" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,7 +352,7 @@
         <mxCell id="HeV-wAqHhQqOec4LPYSm-38" value="锁分散" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Helvetica;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1199" y="1576" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SonHGdceE0Zbm2Z1TKrk-5" target="r9cip8CiFLFCaYMpcU3F-20">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SonHGdceE0Zbm2Z1TKrk-5" target="r9cip8CiFLFCaYMpcU3F-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SonHGdceE0Zbm2Z1TKrk-5" value="volatile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" parent="1" vertex="1">
@@ -521,70 +521,70 @@
         <mxCell id="PCTluO6xD0Zs3hzz5Vkr-1" value="第7节, 第8节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-109" y="3570" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2040" y="1302.5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="2040" y="1332.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-8" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-8" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2048" y="1347.5" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-9" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-9" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2094" y="1347.5" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-10" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-10" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1302.5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1332.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-12" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-12" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2208" y="1347.5" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-13" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-13" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2254" y="1347.5" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="2040" y="1407.5" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-15" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-15" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2125" y="1420" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-16" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-16" value="B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2171" y="1420" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-17" value="Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-17" value="Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2043" y="1420.5" width="40" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-19" value="CPU1写A和B的两种机制:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;1. 直接把最新值写入内存, 然后告诉CPU2缓存失效&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 直接把最新值写入内存, 然后最新值给CPU2, 似的CPU缓存行中的A和B更新为最新, 此时CPU2无须去内存重新读取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-19" value="CPU1写A和B的两种机制:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;1. 直接把最新值写入内存, 然后告诉CPU2缓存失效&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 直接把最新值写入内存, 然后最新值给CPU2, 似的CPU缓存行中的A和B更新为最新, 此时CPU2无须去内存重新读取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2340" y="1310" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-20" value="每个原子性的变量, 也即多个线程共享的都加上volatile, 原因何在？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-20" value="每个原子性的变量, 也即多个线程共享的都加上volatile, 原因何在？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="774" y="2040" width="485" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-22" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-22" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="2100" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-23" value="OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-23" value="OS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="2150" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-24" value="CPU (Intel)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-24" value="CPU (Intel)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="2200" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-26" value="CPU 1&lt;br&gt;A == 1&lt;br&gt;A = 3&lt;div&gt;B = 4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-26" value="CPU 1&lt;br&gt;A == 1&lt;br&gt;A = 3&lt;div&gt;B = 4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="621" y="2290" width="129" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-27" value="CPU2&lt;br&gt;B == 2&lt;br&gt;x = A&lt;br&gt;y = B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-27" value="CPU2&lt;br&gt;B == 2&lt;br&gt;x = A&lt;br&gt;y = B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="794" y="2290" width="129" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r9cip8CiFLFCaYMpcU3F-28" target="r9cip8CiFLFCaYMpcU3F-29">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="r9cip8CiFLFCaYMpcU3F-28" target="r9cip8CiFLFCaYMpcU3F-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-28" value="所有CPU的操作, 等价于向内存提交一组访问序列而已" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-28" value="所有CPU的操作, 等价于向内存提交一组访问序列而已" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="631" y="2400" width="325" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-29" value="指令以何种顺序读内存, 以何种顺序写内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-29" value="指令以何种顺序读内存, 以何种顺序写内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="989.5" y="2400" width="240.5" height="30" as="geometry" />
         </mxCell>
       </root>
