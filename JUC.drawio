@@ -635,8 +635,8 @@
         <mxCell id="2cmjIInxjt0Y60UCOrVg-3" value="C, C++需要处理的重排序情况比较复杂, 导致多线程开发的复杂性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="942.5" y="2810" width="255" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B9yCGMFFLdolYYt0oWos-6" value="具体的实现由JVM开发者负责" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1225" y="2871" width="165" height="30" as="geometry" />
+        <mxCell id="B9yCGMFFLdolYYt0oWos-6" value="JMM约束了Java的行为, Java开发者按照规则编程即可, 具体的实现由JVM开发者负责" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="2882" width="245" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
