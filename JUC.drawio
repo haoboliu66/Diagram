@@ -393,17 +393,14 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-6" value="CPU和编译器都可能导致重排序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="982.5" y="2680" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="AeaUYEnInn6TyFFDgCMk-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="B9yCGMFFLdolYYt0oWos-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="2cmjIInxjt0Y60UCOrVg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="945" y="2740" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="2740" width="165" height="30" as="geometry" />
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="2740" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-12" target="AeaUYEnInn6TyFFDgCMk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
