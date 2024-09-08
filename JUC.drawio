@@ -396,6 +396,9 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="AeaUYEnInn6TyFFDgCMk-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-8" target="2cmjIInxjt0Y60UCOrVg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="945" y="2740" width="250" height="30" as="geometry" />
         </mxCell>
@@ -626,8 +629,8 @@
         <mxCell id="2cmjIInxjt0Y60UCOrVg-2" value="JMM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1022" y="2880" width="113" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2cmjIInxjt0Y60UCOrVg-3" value="C, C++" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1045" y="2810" width="60" height="30" as="geometry" />
+        <mxCell id="2cmjIInxjt0Y60UCOrVg-3" value="C, C++需要处理的重排序情况比较复杂, 导致多线程开发的复杂性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="942.5" y="2810" width="255" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
