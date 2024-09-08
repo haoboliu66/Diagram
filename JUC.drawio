@@ -627,9 +627,9 @@
           <mxGeometry x="705.38" y="2560" width="271.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2cmjIInxjt0Y60UCOrVg-2" value="JVM是一个中间层, 引入自己的逻辑来屏蔽这些C开发多线程多种复杂的情况, 简化了导致重排序的行为" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="953.75" y="2880" width="232.5" height="30" as="geometry" />
+          <mxGeometry x="953.75" y="2871" width="232.5" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="B9yCGMFFLdolYYt0oWos-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2cmjIInxjt0Y60UCOrVg-3" target="2cmjIInxjt0Y60UCOrVg-2">
+        <mxCell id="B9yCGMFFLdolYYt0oWos-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2cmjIInxjt0Y60UCOrVg-3" target="2cmjIInxjt0Y60UCOrVg-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2cmjIInxjt0Y60UCOrVg-3" value="C, C++需要处理的重排序情况比较复杂, 导致多线程开发的复杂性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
