@@ -399,8 +399,14 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-8" value="特定的CPU和编译器带来的重排序行为都不太一样" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="945" y="2740" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-10" target="B9yCGMFFLdolYYt0oWos-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-10" target="B9yCGMFFLdolYYt0oWos-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-10" value="研究范围限定于: Intel 和 gcc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;textShadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="2740" width="165" height="30" as="geometry" />
+          <mxGeometry x="1230" y="2740" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-12" target="AeaUYEnInn6TyFFDgCMk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -634,6 +640,12 @@
         </mxCell>
         <mxCell id="B9yCGMFFLdolYYt0oWos-6" value="JMM约束了Java的行为, Java开发者按照规则编程即可, 具体的实现由JVM开发者负责" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1220" y="2878" width="245" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-8" value="Intel manual" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1444" y="2710" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-9" value="gcc manual" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1444.25" y="2770" width="81.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
