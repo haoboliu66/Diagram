@@ -456,8 +456,8 @@
         <mxCell id="B9yCGMFFLdolYYt0oWos-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="99BcAxhjOU1GVthHqTRR-4" target="B9yCGMFFLdolYYt0oWos-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="99BcAxhjOU1GVthHqTRR-4" value="保证2个写操作的相对顺序, store barrier之后的写指令不会重排序到barrier前的写指令之前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="966" y="3245" width="454" height="45" as="geometry" />
+        <mxCell id="99BcAxhjOU1GVthHqTRR-4" value="保证2个或2组写操作的相对顺序, store barrier之后的写指令不会重排序到barrier前的写指令之前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="966" y="3245" width="464" height="45" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-6" value="前提: 所有的内存操作指令, 等价于向内存提交一组 操作队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1565" y="3340" width="310" height="30" as="geometry" />
