@@ -647,6 +647,9 @@
         <mxCell id="B9yCGMFFLdolYYt0oWos-9" value="gcc manual" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="1444.25" y="2770" width="81.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="B9yCGMFFLdolYYt0oWos-12" value="由于OS要对接不同的CPU, 那么必然要满足不同的CPU提供的屏障实现要求, 因此通过宏定义来适配不同的CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="3060" width="285" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
