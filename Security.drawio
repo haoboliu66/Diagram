@@ -145,11 +145,20 @@
         <mxCell id="pz5oQkWeu0Pi2tsIdJy6-2" value="OpenSslServerSessionContext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-820" y="270" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pz5oQkWeu0Pi2tsIdJy6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pz5oQkWeu0Pi2tsIdJy6-5" target="pz5oQkWeu0Pi2tsIdJy6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pz5oQkWeu0Pi2tsIdJy6-5" value="ReferenceCountedOpenSslEngine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1120" y="440" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pz5oQkWeu0Pi2tsIdJy6-8" value="newEngine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1090" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pz5oQkWeu0Pi2tsIdJy6-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="612" width="220" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="pz5oQkWeu0Pi2tsIdJy6-11" value="session = new ExtendedOpenSslSession(new DefaultOpenSslSession(context.sessionContext()))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="597" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
