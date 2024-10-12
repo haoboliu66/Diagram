@@ -58,8 +58,26 @@
         <mxCell id="Xy2YbhwxPT0KSOp8xG0l-18" value="SQL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="170" y="452.5" width="65" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Xy2YbhwxPT0KSOp8xG0l-19" target="Xy2YbhwxPT0KSOp8xG0l-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Xy2YbhwxPT0KSOp8xG0l-19" value="Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Xy2YbhwxPT0KSOp8xG0l-23" target="Xy2YbhwxPT0KSOp8xG0l-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-23" value="Yarn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-24" value="MapReduce" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Xy2YbhwxPT0KSOp8xG0l-29" target="Xy2YbhwxPT0KSOp8xG0l-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy2YbhwxPT0KSOp8xG0l-29" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="660" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
