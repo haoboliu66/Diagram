@@ -1665,6 +1665,9 @@
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-2" value="RPL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="1653" width="90" height="17.5" as="geometry" />
         </mxCell>
+        <mxCell id="j1QBNDRpsmDq3qqT2AcP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iyVcx00RLuhnXQD0Ik-d-3" target="j1QBNDRpsmDq3qqT2AcP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iyVcx00RLuhnXQD0Ik-d-3" value="DPL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="1595.5" width="90" height="21" as="geometry" />
         </mxCell>
@@ -1813,6 +1816,12 @@
         </mxCell>
         <mxCell id="j1QBNDRpsmDq3qqT2AcP-3" value="CPL只针对code segment, 表示当前执行的code的PL, 所以它只来自CS register" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-116.25" y="1534.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1QBNDRpsmDq3qqT2AcP-5" value="DPL是Descriptor的PL, 所以它一定是来自于GDT entry的内容" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-116.25" y="1591.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1QBNDRpsmDq3qqT2AcP-7" value="RPL表示request的PL, i.e 当前我要加载执行一个segment.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-116.25" y="1649" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
