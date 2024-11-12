@@ -683,6 +683,9 @@
         <mxCell id="FncKr-vtPmwALynlk0jB-8" value="可能会导致某一个值无法读到最新的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1690" y="3590" width="230" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="FncKr-vtPmwALynlk0jB-10" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1689.75" y="3530" width="220.25" height="28" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
