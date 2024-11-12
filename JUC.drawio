@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FncKr-vtPmwALynlk0jB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="FncKr-vtPmwALynlk0jB-15" target="FncKr-vtPmwALynlk0jB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FncKr-vtPmwALynlk0jB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="3500" width="1015" height="190" as="geometry" />
+        </mxCell>
         <mxCell id="B9yCGMFFLdolYYt0oWos-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1480" y="3230" width="595" height="100" as="geometry" />
         </mxCell>
@@ -695,8 +701,8 @@
         <mxCell id="FncKr-vtPmwALynlk0jB-13" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1202.5" y="3590" width="280" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-14" value="抽象概念. 实际在CPU中不是这样的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1260.5" y="3720" width="276" height="30" as="geometry" />
+        <mxCell id="FncKr-vtPmwALynlk0jB-16" value="抽象概念. 实际在CPU中不是这样的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="3740" width="254" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
