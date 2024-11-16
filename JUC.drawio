@@ -704,6 +704,54 @@
         <mxCell id="FncKr-vtPmwALynlk0jB-16" value="抽象概念. 实际在CPU中呢?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1575" y="3740" width="254" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="3820" width="1015" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-3" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="4010" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-4" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3850" width="61" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-5" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="3850" width="61" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-6" value="顺序写了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="3862" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-8" target="-FcQdrV0vnWtqaeG2UPR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-8" value="不按顺序读" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="3862.5" width="86.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-9" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1514" y="4015" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-10" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1561" y="4015" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-12" target="-FcQdrV0vnWtqaeG2UPR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-12" value="可能会导致某一个值无法读到最新的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1696" y="3910" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-13" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695.75" y="3870" width="220.25" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-14" value="需要读屏障, 保证LOAD A一定发生在LOAD B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="3910" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-15" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3980" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-17" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3914" width="61" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-18" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="3914" width="61" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
