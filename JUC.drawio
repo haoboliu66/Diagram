@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FncKr-vtPmwALynlk0jB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="FncKr-vtPmwALynlk0jB-15" target="FncKr-vtPmwALynlk0jB-16">
+        <mxCell id="FncKr-vtPmwALynlk0jB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="FncKr-vtPmwALynlk0jB-15" target="FncKr-vtPmwALynlk0jB-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1195" y="3500" width="1015" height="190" as="geometry" />
         </mxCell>
         <mxCell id="B9yCGMFFLdolYYt0oWos-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -218,7 +218,7 @@
           <mxGeometry x="611.25" y="880" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-32" value="Monitor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="160" y="920" width="60" height="20" as="geometry" />
+          <mxGeometry x="245" y="840" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-33" value="lock; cmpxchg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="135" y="1370" width="110" height="20" as="geometry" />
@@ -662,46 +662,46 @@
         <mxCell id="B9yCGMFFLdolYYt0oWos-12" value="由于OS要对接不同的CPU, 那么必然要满足不同的CPU提供的屏障实现要求, 因此通过宏定义来适配不同的CPU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1291" y="3060" width="285" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-1" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-1" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1307.5" y="3620" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1374" y="3530" width="61" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-3" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-3" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1480" y="3530" width="61" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-4" value="顺序写了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-4" value="顺序写了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1306" y="3542" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="FncKr-vtPmwALynlk0jB-5" target="FncKr-vtPmwALynlk0jB-8">
+        <mxCell id="FncKr-vtPmwALynlk0jB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="FncKr-vtPmwALynlk0jB-5" target="FncKr-vtPmwALynlk0jB-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-5" value="不按顺序读" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-5" value="不按顺序读" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1541" y="3542.5" width="86.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-6" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-6" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1506.5" y="3625" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-7" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-7" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1553.5" y="3625" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FncKr-vtPmwALynlk0jB-8" target="FncKr-vtPmwALynlk0jB-11">
+        <mxCell id="FncKr-vtPmwALynlk0jB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FncKr-vtPmwALynlk0jB-8" target="FncKr-vtPmwALynlk0jB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-8" value="可能会导致某一个值无法读到最新的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-8" value="可能会导致某一个值无法读到最新的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1690" y="3590" width="210" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-10" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-10" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1689.75" y="3550" width="220.25" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-11" value="需要读屏障, 保证LOAD A一定发生在LOAD B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-11" value="需要读屏障, 保证LOAD A一定发生在LOAD B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1934" y="3590" width="280" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-13" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-13" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1202.5" y="3590" width="280" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="FncKr-vtPmwALynlk0jB-16" value="抽象概念. 实际在CPU中呢?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FncKr-vtPmwALynlk0jB-16" value="抽象概念. 实际在CPU中呢?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1575" y="3740" width="254" height="30" as="geometry" />
         </mxCell>
       </root>
