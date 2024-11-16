@@ -773,6 +773,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="884" y="4510" width="456" height="30" as="geometry" />
         </mxCell>
@@ -784,6 +787,9 @@
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-35" value="进程的虚拟地址空间是相同的, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="884" y="4580" width="456" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-36" value="节省了查page table的时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="4470" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
