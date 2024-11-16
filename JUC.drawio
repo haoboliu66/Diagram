@@ -578,8 +578,8 @@
         <mxCell id="r9cip8CiFLFCaYMpcU3F-19" value="CPU1写A和B的两种机制:&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;1. 直接把最新值写入内存, 然后告诉CPU2缓存失效&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 直接把最新值写入内存, 然后最新值给CPU2, 似的CPU缓存行中的A和B更新为最新, 此时CPU2无须去内存重新读取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2340" y="1310" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="r9cip8CiFLFCaYMpcU3F-20" value="每个原子性的变量, 也即多个线程共享的都加上volatile, 原因何在？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="774" y="2040" width="485" height="40" as="geometry" />
+        <mxCell id="r9cip8CiFLFCaYMpcU3F-20" value="每个原子性的变量, 也即多个线程共享的都加上volatile, 原因何在？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;fontColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="774" y="2040" width="436" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-22" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="2100" width="100" height="30" as="geometry" />
