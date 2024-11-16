@@ -779,7 +779,7 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="884" y="4510" width="456" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷缓存, 避免cache的访问冲突" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷cpu的缓存, 避免cache的访问冲突" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="4510" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-34" value="physical addr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
