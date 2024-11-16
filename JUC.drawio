@@ -770,16 +770,16 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-30" value="virtual addr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="755.5" y="4510" width="103" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-32">
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-36">
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="884" y="4510" width="456" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="如果发生context switch, 必须刷缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="4510" width="218.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-34" value="physical addr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
