@@ -839,6 +839,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-54" value="Cache Bank" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2056.25" y="4290" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-55" value="写屏障和读屏障需要配对使用, 写屏障保证了写出顺序, 读屏障保证了 数据可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2211" y="3900" width="260" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
