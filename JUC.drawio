@@ -869,9 +869,6 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-69" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2690" y="4350" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-70" value="MESI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2585" y="4350" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-71" value="MESI规则: 写变量时, 若缓存行中不存在改变量, 那么需要将该值先从内存中载入缓存行, 才能写入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2380" y="4510" width="490" height="40" as="geometry" />
         </mxCell>
@@ -889,6 +886,9 @@
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-74" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2540" y="4150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-75" target="-FcQdrV0vnWtqaeG2UPR-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-75" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2689.5" y="4150" width="110" height="40" as="geometry" />
