@@ -911,6 +911,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-84" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2370" y="4410" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-123" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-85" target="-FcQdrV0vnWtqaeG2UPR-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-85" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2689.5" y="4410" width="170" height="40" as="geometry" />
         </mxCell>
@@ -997,6 +1000,9 @@
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-121" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2880" y="4415" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-122" value="当CPU2在Invalid Buffer中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="4568" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
