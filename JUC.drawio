@@ -845,8 +845,14 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-55" value="写屏障和读屏障需要配对使用, 写屏障保证了写出顺序, 读屏障保证了 数据可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2211" y="3900" width="260" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-60" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-56" target="-FcQdrV0vnWtqaeG2UPR-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-56" value="实际CPU中发生的情况可能是: CPU2读到了B的最新值, 但是没有读到A的最新值。&lt;br&gt;发生这种现象的原因是: CPU2的对于A的最新值不可见, i.e A的更新操作由于cache的繁忙没有及时更新到cache中, 导致CPU2对于这个最新值不可见。造成了一种指令重排序的错觉" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1860" y="3723.75" width="444.5" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-59" value="因此, 使用读屏障保证的是: 让CPU2的cache完成所有的更新操作(清除cache的操作队列, 保证后续无更新操作), 这样的操作就确保了更新A的操作一定落到了cache中, 对CPU2可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="3723.75" width="444.5" height="62.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
