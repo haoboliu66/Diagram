@@ -788,6 +788,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-36" value="节省了查page table的时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="4470" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-38" value="共享页, 两个虚拟地址指向同一个物理地址, 但是2个虚拟地址的index不同, ie.指向不同的缓存行, 所以一个物理地址可能被加载到不同的缓存行中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="884" y="4580" width="456" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
