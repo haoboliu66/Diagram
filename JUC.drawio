@@ -806,8 +806,8 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-43" value="CPU1如何正确的把数据同步给CPU2的cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1689.75" y="3920" width="269" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-44" value="1, CPU1写最新值到内存, 然后通知CPU2缓存失效, 让CPU2自己区读最新值&lt;br&gt;2, CPU1写最新值到内存, 并转发最新值给CPU2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1486" y="4140" width="364" height="50" as="geometry" />
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-44" value="1, CPU1写最新值到内存, 然后通知CPU2缓存失效, 让CPU2自己区读最新值&lt;br&gt;2, CPU1写最新值到内存, 并转发最新值给CPU2" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1693" y="3980" width="414" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
