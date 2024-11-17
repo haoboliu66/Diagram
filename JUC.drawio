@@ -918,31 +918,31 @@
           <mxGeometry x="2689.5" y="4410" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-89" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2810" y="4768.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="2870" y="4796.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-90" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2977" y="4770" width="30" height="30" as="geometry" />
+          <mxGeometry x="3037" y="4798" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-91" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3030" y="4769" width="30" height="30" as="geometry" />
+          <mxGeometry x="3090" y="4797" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-92" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3080" y="4770" width="27" height="27" as="geometry" />
+          <mxGeometry x="3140" y="4798" width="27" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-94" target="-FcQdrV0vnWtqaeG2UPR-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-94" value="数据依赖屏障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2855" y="4765" width="110" height="40" as="geometry" />
+          <mxGeometry x="2915" y="4793" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-96" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-95" target="-FcQdrV0vnWtqaeG2UPR-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-95" value="内核定义的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2855" y="4700" width="110" height="40" as="geometry" />
+          <mxGeometry x="2915" y="4728" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-97" value="数据依赖屏障是简化版的读屏障, 它对存在分支的情况不管用, 如果依赖前后存在分支, 那么一定要使用读屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2920" y="4880" width="171" height="60" as="geometry" />
+          <mxGeometry x="2980" y="4908" width="171" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-99" value="JUC 7,8节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="725" y="2980" width="1145" height="50" as="geometry" />
