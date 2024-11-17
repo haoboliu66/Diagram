@@ -845,8 +845,8 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-55" value="写屏障和读屏障需要配对使用, 写屏障保证了写出顺序, 读屏障保证了 数据可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2211" y="3900" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-56" value="实际CPU中发生的情况可能是: CPU2读到了B的最新值, 但是没有读到A得最新值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1865.5" y="3735" width="382.5" height="40" as="geometry" />
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-56" value="实际CPU中发生的情况可能是: CPU2读到了B的最新值, 但是没有读到A的最新值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1865.5" y="3735" width="444.5" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
