@@ -926,6 +926,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-92" value="D" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3120" y="3885" width="27" height="27" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-98" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-94" target="-FcQdrV0vnWtqaeG2UPR-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-94" value="数据依赖屏障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2895" y="3880" width="110" height="40" as="geometry" />
         </mxCell>
@@ -934,6 +937,9 @@
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-95" value="内核定义的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2895" y="3805" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-97" value="数据依赖屏障是简化版的读屏障, 它对存在分支的情况不管用, 如果依赖前后存在分支, 那么一定要使用读屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2999" y="4020" width="148" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
