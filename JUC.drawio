@@ -944,8 +944,8 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-99" value="JUC 7,8节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="725" y="2980" width="1145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-100" value="假设变量 a b c d&lt;br&gt;在Intel CPU中, 使用putOrdered保证a b c写入顺序(Release), 当访问了volatile变量d时, 会加上lock操作, 根据手册的内容, 将会把可能存在于store buffer中的变量按顺序刷出, 由于intel的store buffer不会发生乱序现象, 所以membar_release也即空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3330" y="4110" width="370" height="70" as="geometry" />
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-100" value="假设变量 a b c d&lt;br style=&quot;font-size: 12px;&quot;&gt;在Intel CPU中, 使用putOrdered保证a b c写入顺序(Release), 当访问了volatile变量d时, 会加上lock操作, 根据手册的内容, 将会把可能存在于store buffer中的变量按顺序刷出, 由于intel的store buffer不会发生乱序现象, 所以membar_release也即空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3308" y="4125" width="408" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
