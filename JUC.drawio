@@ -965,6 +965,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-109" value="如果A不在cache中, B在cache中, A和B都暂存到store buffer(不会直接写B), 从内存中加载A到缓存行, 再把A和B从store buffer写出去; 这A和B一起等的操作是Intel CPU的特性, 保证了写的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2083" y="4330" width="245" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-110" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-107" target="-FcQdrV0vnWtqaeG2UPR-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
