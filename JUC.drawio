@@ -962,8 +962,8 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-107" value="按顺序写A和B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1960" y="4320" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-109" value="如果A不在cache中, B在cache中, A和B都暂存到store buffer, 从内存中加载A到缓存行, 再把A和B从store buffer写出去" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2085" y="4350" width="225" height="40" as="geometry" />
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-109" value="如果A不在cache中, B在cache中, A和B都暂存到store buffer, 从内存中加载A到缓存行, 再把A和B从store buffer写出去; 这A和B一起等的操作是Intel CPU的特性, 保证了写的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2083" y="4330" width="245" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
