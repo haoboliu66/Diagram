@@ -774,10 +774,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="884" y="4510" width="456" height="30" as="geometry" />
+          <mxGeometry x="1088" y="4510" width="456" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷cpu的缓存, 避免cache的访问冲突" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="4510" width="340" height="30" as="geometry" />
+          <mxGeometry x="1594" y="4510" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-34" value="physical addr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="755.5" y="4740" width="103" height="38" as="geometry" />
@@ -786,10 +786,16 @@
           <mxGeometry x="884" y="4740" width="456" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-36" value="节省了查page table的时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="4470" width="180" height="30" as="geometry" />
+          <mxGeometry x="1594" y="4470" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-38" value="共享页, 两个虚拟地址指向同一个物理地址, 但是2个虚拟地址的index不同, ie.指向不同的缓存行, 所以一个物理地址可能被加载到不同的缓存行中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="884" y="4580" width="456" height="50" as="geometry" />
+          <mxGeometry x="1088" y="4580" width="456" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-39" value="ambiguity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="945" y="4500" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-40" value="alias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="946.5" y="4578" width="76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
