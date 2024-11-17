@@ -998,9 +998,6 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-120" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="2697.38" y="4415" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-121" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2880" y="4415" width="410" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-122" value="当CPU2在Invalid Buffer中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Buffer的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2505" y="4560" width="430" height="62" as="geometry" />
         </mxCell>
