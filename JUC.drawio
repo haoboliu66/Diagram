@@ -974,6 +974,9 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-112" value="如果一个CPU的实现是, 在cache中的数据直接就写出去, e.g. 先写A再写B, B已经在cache中, 直接写B了, 这样就导致了写的顺序不对. 此时就需要store barrier" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2075" y="4498" width="245" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-113" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="4405" width="410" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
