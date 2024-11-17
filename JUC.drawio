@@ -779,8 +779,8 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 但是映射到同一个物理地址, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1057" y="4510" width="456" height="30" as="geometry" />
+        <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 但是两个相同的虚拟地址映射到不同的物理地址, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="4480" width="456" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷cpu的缓存, 避免cache的访问冲突" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1563" y="4510" width="340" height="30" as="geometry" />
