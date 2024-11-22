@@ -1022,6 +1022,42 @@
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-8" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3010" y="4560" width="370" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-9" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="4530" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-10" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="4610" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-11" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="4530" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-12" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="4610" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-13" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="4568" width="170" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-14" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="4560" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-15" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="4670" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-16" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3699.5" y="4670" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-17" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3473.75" y="4495" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-18" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3520.25" y="4495" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-21" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3663.63" y="4675" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-22" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3707.38" y="4675" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
