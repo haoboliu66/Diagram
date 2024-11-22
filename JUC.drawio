@@ -1064,6 +1064,9 @@
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-24" value="load barrier就保证, 在LOAD A时, invalid buffer会被清空, 所以当LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3860" y="4675" width="380" height="115" as="geometry" />
         </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-25" value="CPU (MOB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2094" y="5050" width="95" height="37" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
