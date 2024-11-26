@@ -1005,7 +1005,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-1" value="内存乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2231.5" y="4790" width="95" height="37" as="geometry" />
+          <mxGeometry x="3218.75" y="3070" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wvUFbZKzVNe_2dA4ze0a-2" target="wvUFbZKzVNe_2dA4ze0a-26">
           <mxGeometry relative="1" as="geometry" />
@@ -1014,7 +1014,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-2" value="CPU (MOB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2066.5" y="4884.5" width="95" height="37" as="geometry" />
+          <mxGeometry x="3053.75" y="3164.5" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-8" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalid Buffer&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3850" y="4525" width="380" height="115" as="geometry" />
@@ -1062,16 +1062,16 @@
           <mxGeometry x="3860" y="4675" width="380" height="115" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-26" value="写入乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1999" y="4960" width="95" height="37" as="geometry" />
+          <mxGeometry x="2986.25" y="3240" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-27" value="读取乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2112.5" y="4960" width="95" height="37" as="geometry" />
+          <mxGeometry x="3099.75" y="3240" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-31" value="这里的data dependency barrier只保证A和B的顺序, 对C和D无效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2794.5" y="4844.5" width="171" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-32" value="e.g. Store Buffer, Load Buffer, Invalid Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1929" y="4844.5" width="171" height="40" as="geometry" />
+          <mxGeometry x="2916.25" y="3124.5" width="171" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-33" value="内核屏障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2650" y="5110" width="102.62" height="30" as="geometry" />
