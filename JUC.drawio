@@ -1017,43 +1017,43 @@
           <mxGeometry x="3053.75" y="3164.5" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-8" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalid Buffer&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3850" y="4525" width="380" height="115" as="geometry" />
+          <mxGeometry x="4050" y="4540" width="380" height="115" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-9" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="3380" y="4530" width="170" height="80" as="geometry" />
+          <mxGeometry x="3580" y="4545" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-10" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3380" y="4610" width="170" height="40" as="geometry" />
+          <mxGeometry x="3580" y="4625" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-11" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="3634" y="4530" width="170" height="80" as="geometry" />
+          <mxGeometry x="3834" y="4545" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-12" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3634" y="4610" width="170" height="40" as="geometry" />
+          <mxGeometry x="3834" y="4625" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-13" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3380" y="4568" width="170" height="32" as="geometry" />
+          <mxGeometry x="3580" y="4583" width="170" height="32" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-14" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3634" y="4560" width="170" height="40" as="geometry" />
+          <mxGeometry x="3834" y="4575" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-15" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3380" y="4670" width="170" height="40" as="geometry" />
+          <mxGeometry x="3580" y="4685" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-16" value="Invalid Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3633.5" y="4670" width="170" height="40" as="geometry" />
+          <mxGeometry x="3833.5" y="4685" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-21" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3650" y="4675" width="30" height="30" as="geometry" />
+          <mxGeometry x="3850" y="4690" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-22" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3620" y="4675" width="30" height="30" as="geometry" />
+          <mxGeometry x="3820" y="4690" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-23" value="LOAD A时不处理Invalid Buffer, 读到A = 0;&lt;br&gt;LOAD B时, B不在缓存行内" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3423.5" y="4772.5" width="206.5" height="47.5" as="geometry" />
+          <mxGeometry x="3623.5" y="4787.5" width="206.5" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-24" value="load barrier就保证, 在LOAD A时, invalid queue会被清空, 所以当LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="4675" width="380" height="115" as="geometry" />
+          <mxGeometry x="4060" y="4690" width="380" height="115" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-26" value="写入乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2986.25" y="3240" width="95" height="37" as="geometry" />
@@ -1071,16 +1071,16 @@
           <mxGeometry x="2650" y="5110" width="102.62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-36" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3330" y="4610" width="30" height="30" as="geometry" />
+          <mxGeometry x="3530" y="4625" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-37" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="4610" width="30" height="30" as="geometry" />
+          <mxGeometry x="3500" y="4625" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-38" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="4610" width="30" height="30" as="geometry" />
+          <mxGeometry x="3470" y="4625" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-39" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3590" y="4675" width="30" height="30" as="geometry" />
+          <mxGeometry x="3790" y="4690" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
