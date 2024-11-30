@@ -1118,8 +1118,14 @@
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-52" value="确保了CPU2在Load B时会明确知道失效自己的cache, 然后处理Invalid Queue的请求, 从而读取从CPU1同步或从内存读取最新的数据,所以CPU2会看到B和A的最新数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3627" y="4860" width="233" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wvUFbZKzVNe_2dA4ze0a-54" target="wvUFbZKzVNe_2dA4ze0a-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-54" value="以上是MOB导致的乱序; CPU为了提升执行性能, 是允许乱序执行指令的; load a, load b, store c, load d =&amp;gt; load a, load b, load d, store c&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3422" y="5020" width="358" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-55" value="这个是真实的CPU乱序执行指令, 是最本质的乱序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="5030" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
