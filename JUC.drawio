@@ -1133,14 +1133,20 @@
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-58" value="间接说明:对于Intel CPU, 锁, 序列化, 和io指令本身具备全屏障的作用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3420" y="5200" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wvUFbZKzVNe_2dA4ze0a-60" target="wvUFbZKzVNe_2dA4ze0a-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-60" value="软件开发" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4310" y="4970" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-61" value="执行结果" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4590" y="4970" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wvUFbZKzVNe_2dA4ze0a-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="wvUFbZKzVNe_2dA4ze0a-62" target="wvUFbZKzVNe_2dA4ze0a-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-62" value="一系列指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4440" y="4945" width="80" height="80" as="geometry" />
+          <mxGeometry x="4450" y="4950" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
