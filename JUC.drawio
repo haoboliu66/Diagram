@@ -1166,8 +1166,8 @@
         <mxCell id="E4f6vcsmDczpbreKZe59-1" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="845" y="4430" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="E4f6vcsmDczpbreKZe59-2" value="Intel CPU保证了单处理器的指令执行顺序, 在多处理器的情况下, 每个CPU指令的相对顺序不会改变" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2798.25" y="5261" width="283" height="49" as="geometry" />
+        <mxCell id="E4f6vcsmDczpbreKZe59-2" value="Intel CPU保证了单处理器的指令执行顺序, 在多处理器的情况下, 每个CPU指令的相对顺序不会改变 (只会出现由于并发产生的穿插执行)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="5190.5" width="321.75" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
