@@ -753,7 +753,7 @@
           <mxGeometry x="1591" y="3920" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-24" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="843.5" y="4290" width="220" height="80" as="geometry" />
+          <mxGeometry x="843.5" y="4300" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-26" value="virtual addr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="843.5" y="4332" width="103" height="38" as="geometry" />
@@ -762,7 +762,7 @@
           <mxGeometry x="960.5" y="4332" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-28" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="845" y="4400" width="220" height="40" as="geometry" />
+          <mxGeometry x="845" y="4400" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-29" value="用哪个地址去查cache?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="881.5" y="4370" width="144" height="30" as="geometry" />
@@ -1162,6 +1162,9 @@
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-69" value="Intel-64 memory-ordering model规定了, 单CPU上的write操作不会乱序; 所以Store x, Store y一定是按顺序发生;&amp;nbsp;&lt;br&gt;另一方面Intel的Store Buffer也保证: 后续的写操作要等前面的写操作执行完成, 才能执行写内存, 从而也保证了x的值一定先于y进入内存" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4530" y="5170" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E4f6vcsmDczpbreKZe59-1" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="4430" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
