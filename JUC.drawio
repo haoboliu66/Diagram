@@ -792,7 +792,7 @@
           <mxGeometry x="755.5" y="4690" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-35" value="物理地址是唯一的, 用物理内存查cache, 那么必须要通过MMU -&amp;gt; page table进行地址转换, 为了加速这个过程, 引入TLB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="884" y="4690" width="646" height="30" as="geometry" />
+          <mxGeometry x="870" y="4695" width="646" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-36" value="节省了查page table的时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1563" y="4470" width="180" height="30" as="geometry" />
