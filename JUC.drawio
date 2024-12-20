@@ -1187,8 +1187,8 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-4" value="Write Propogation criteria" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4150" y="5520" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-5" value="若多个处理器同时修改一个cache line, CPU的一致性协议会自己处理这个冲突, 给cache line上锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4240" y="5630" width="310" height="30" as="geometry" />
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-5" value="理想情况下: 缓存一致性可以实现, 写了就马上传播, 且马上成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="5620" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
