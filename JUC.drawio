@@ -1178,6 +1178,9 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-1" value="若一个SMP系统中, CPU中存在缓存, 那么CPU必须实现多个CPU缓存的数据一致性, 不然会导致严重的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3800" y="5530" width="310" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-3" value="若多个处理器同时修改一个cache line, CPU的一致性协议会自己处理这个冲突, 给cache line上锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3800" y="5590" width="310" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
