@@ -1283,29 +1283,14 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-40" value="Snooping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3960" y="6120" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-41" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4135" y="6150" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-42" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4265" y="6150" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-43" value="cache" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-52" value="CPU1 缓存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4135" y="6190" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-44" value="cache" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4265" y="6190" width="70" height="40" as="geometry" />
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-53" value="CPU2 缓存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4270" y="6190" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4140" y="6290" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sthXmhu9q4Z8TcD6EFiC-46" target="sthXmhu9q4Z8TcD6EFiC-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-46" value="addrA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4160" y="6290" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-47" value="addrB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4250" y="6290" width="40" height="40" as="geometry" />
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-54" value="CPU3 缓存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4415" y="6190" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
