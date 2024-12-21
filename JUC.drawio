@@ -1315,6 +1315,12 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-61" value="Intel CPU没有invalid queue, 都是直接观测, 自我修改&lt;br&gt;所以不需要读屏障来处理invalid queue" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4182.5" y="6350" width="265" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-64" value="Write-invalidate" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4685" y="6340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-65" value="Write-update" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4685" y="6390" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
