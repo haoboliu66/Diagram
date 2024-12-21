@@ -1298,8 +1298,8 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-54" value="CPU3 缓存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4430" y="6190" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-59" value="如果CPU1和CPU2向内存同一区域分别store A = 10和store A = 20, 缓存一致性协议必须保证这个写入顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4219" y="6280" width="330" height="65" as="geometry" />
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-59" value="将所有缓存连接到CPU片内总线上, 进行缓存行访问snooping" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4179" y="6280" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
