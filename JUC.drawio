@@ -1450,8 +1450,14 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-114" value="由于Intel cpu的MESI协议使用snooping, 于是不需要使用invalida queue, 简化了上面讲的cpu抽象模型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3573.5" y="7110" width="261.96" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sthXmhu9q4Z8TcD6EFiC-116" target="sthXmhu9q4Z8TcD6EFiC-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-116" value="Swap Space" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3031.5" y="6510" width="87" height="30" as="geometry" />
+          <mxGeometry x="3050" y="6510" width="68.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-118" value="Swap Storm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="6455" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
