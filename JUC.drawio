@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="2261" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1460,7 +1460,10 @@
           <mxGeometry x="2920" y="6455" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-120" value="如果频繁发生Cache Thrashing, 那么说明缓存行被频繁的换进换出内存, 那么此时可以采用的: huge pages, 减少PTE的数量, 增加了TLB缓存命中率, 减少了page fault, 减少page的换进换出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2788" y="6590" width="322" height="90" as="geometry" />
+          <mxGeometry x="2788" y="6590" width="322" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-121" value="如果没有缓存行填充, 可能2个变量共享一个缓存行, 导致出现False Sharing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2840.75" y="6770" width="322" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
