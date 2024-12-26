@@ -1463,7 +1463,13 @@
           <mxGeometry x="2788" y="6590" width="322" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-121" value="如果没有缓存行填充, 可能2个变量共享一个缓存行, 导致出现False Sharing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2840.75" y="6770" width="322" height="60" as="geometry" />
+          <mxGeometry x="2768" y="6880" width="322" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-122" value="Intel CPU的cache line fill" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2526.25" y="6830" width="162" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-123" value="软件层面的cache line fill" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2523.75" y="6880" width="162" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
