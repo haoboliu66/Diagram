@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="2193" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1473,6 +1473,9 @@
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-124" value="这个指的是cpu会利用spatial locality, 从内存中读取数据时, 会读一定量的数据(e.g. 64 bytes)填满一个cache line" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2759.25" y="6830" width="322" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sthXmhu9q4Z8TcD6EFiC-125" value="False Sharing意思是: 2个或多个线程共享一个缓存行, 但是却访问缓存行中的不同数据, 导致缓存一致性协议频繁产生同步更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="6960" width="322" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
