@@ -23,7 +23,7 @@
           <mxGeometry x="1480" y="3230" width="595" height="100" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-21" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-445" y="3530" width="306" height="70" as="geometry" />
+          <mxGeometry x="-650" y="3540" width="306" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UsoG7qOwd3O0ct9gbPl3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="160" width="390" height="270" as="geometry" />
@@ -505,25 +505,25 @@
           <mxGeometry x="961" y="3367.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-18" value="虚拟地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-429" y="3560" width="100" height="30" as="geometry" />
+          <mxGeometry x="-634" y="3570" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-19" value="物理地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="3560" width="105" height="30" as="geometry" />
+          <mxGeometry x="-465" y="3570" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-20" value="cache line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-419" y="3630" width="260" height="30" as="geometry" />
+          <mxGeometry x="-624" y="3640" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-22" value="每个进程虚拟地址一样, 如果用虚拟地址查cache line, 可能发生冲突" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-614" y="3660" width="145" height="40" as="geometry" />
+          <mxGeometry x="-819" y="3670" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-23" value="Direct-mapped caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-46.25" y="3610" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="-251.25" y="3620" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-24" value="Set associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="3640" width="140" height="30" as="geometry" />
+          <mxGeometry x="-265" y="3650" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-25" value="Fully associative caches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="3670" width="140" height="30" as="geometry" />
+          <mxGeometry x="-265" y="3680" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="GM-Ud_aDfbjV712TQ6Kv-1" target="GM-Ud_aDfbjV712TQ6Kv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -532,21 +532,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-1" value="virtual address查询cache的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-860" y="3780" width="180" height="40" as="geometry" />
+          <mxGeometry x="-1065" y="3790" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-2" value="ambiguity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-609" y="3770" width="80" height="20" as="geometry" />
+          <mxGeometry x="-814" y="3780" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GM-Ud_aDfbjV712TQ6Kv-3" value="alias" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-603.5" y="3810" width="69" height="20" as="geometry" />
+          <mxGeometry x="-808.5" y="3820" width="69" height="20" as="geometry" />
         </mxCell>
         <UserObject label="https://zhuanlan.zhihu.com/p/107096130" link="https://zhuanlan.zhihu.com/p/107096130" id="GM-Ud_aDfbjV712TQ6Kv-6">
           <mxCell style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-            <mxGeometry x="-870" y="3730" width="220" height="30" as="geometry" />
+            <mxGeometry x="-1075" y="3740" width="220" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="PCTluO6xD0Zs3hzz5Vkr-1" value="第7节, 第8节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-609" y="3580" width="110" height="35" as="geometry" />
+          <mxGeometry x="-814" y="3590" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="r9cip8CiFLFCaYMpcU3F-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2040" y="1302.5" width="100" height="30" as="geometry" />
@@ -762,19 +762,19 @@
           <mxGeometry x="1591" y="3920" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-24" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-539.5" y="3930" width="220" height="70" as="geometry" />
+          <mxGeometry x="-949.5" y="3930" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-26" value="virtual addr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-539.5" y="3962" width="103" height="38" as="geometry" />
+          <mxGeometry x="-949.5" y="3962" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-27" value="physical addr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-422.5" y="3962" width="103" height="38" as="geometry" />
+          <mxGeometry x="-832.5" y="3962" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-28" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-538" y="4030" width="220" height="30" as="geometry" />
+          <mxGeometry x="-948" y="4030" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-29" value="用哪个地址去查cache?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-501.5" y="4000" width="144" height="30" as="geometry" />
+          <mxGeometry x="-911.5" y="4000" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-30" target="-FcQdrV0vnWtqaeG2UPR-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -783,7 +783,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-30" value="virtual addr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-630" y="4170" width="103" height="38" as="geometry" />
+          <mxGeometry x="-1040" y="4170" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-31" target="-FcQdrV0vnWtqaeG2UPR-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -792,28 +792,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-31" value="进程的虚拟地址空间是相同的, 但是两个相同的虚拟地址映射到不同的物理地址, 可能进程A用地址12345读数据到了cache, 然后切换了进程B, 碰巧进程B也用地址12345读cache, 访问到的是进程A读的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-326" y="4110" width="456" height="60" as="geometry" />
+          <mxGeometry x="-736" y="4110" width="456" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-32" value="但是如果发生context switch, 必须刷cpu的缓存, 避免cache的访问冲突" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="4150" width="340" height="30" as="geometry" />
+          <mxGeometry x="-220" y="4150" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-34" value="physical addr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-627.5" y="4320" width="103" height="38" as="geometry" />
+          <mxGeometry x="-1037.5" y="4320" width="103" height="38" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-35" value="物理地址是唯一的, 用物理内存查cache, 那么必须要通过MMU -&amp;gt; page table进行地址转换, 为了加速这个过程, 引入TLB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-513" y="4325" width="646" height="30" as="geometry" />
+          <mxGeometry x="-923" y="4325" width="646" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-36" value="节省了查page table的时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="4100" width="180" height="30" as="geometry" />
+          <mxGeometry x="-230" y="4100" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-38" value="共享页, 两个不同的虚拟地址指向同一个物理地址, 但是2个虚拟地址的index不同, ie.指向不同的缓存行, 所以一个物理地址可能被加载到不同的缓存行中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-326" y="4210" width="456" height="50" as="geometry" />
+          <mxGeometry x="-736" y="4210" width="456" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-39" value="ambiguity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-438" y="4130" width="76" height="30" as="geometry" />
+          <mxGeometry x="-848" y="4130" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-40" value="alias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-436.5" y="4208" width="76" height="30" as="geometry" />
+          <mxGeometry x="-846.5" y="4208" width="76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-43" value="CPU1如何正确的把数据同步给CPU2的cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1689.75" y="3920" width="269" height="30" as="geometry" />
@@ -1173,7 +1173,7 @@
           <mxGeometry x="4530" y="5170" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-1" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-538" y="4060" width="220" height="30" as="geometry" />
+          <mxGeometry x="-948" y="4060" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-2" value="Intel CPU保证了单处理器的指令执行顺序, 在多处理器的情况下, 每个CPU指令的相对顺序不会改变 (只会出现由于并发产生的穿插执行)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4350" y="5320" width="321.75" height="49" as="geometry" />
