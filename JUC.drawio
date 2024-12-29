@@ -1615,14 +1615,17 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-3" target="51N8JspCCHDJ9Vv9rA9t-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-3" target="51N8JspCCHDJ9Vv9rA9t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-3" value="编译器屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="861" y="4444.5" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-4" value="#define barrier() __asm__ __volatile__(&quot;&quot;: : :&quot;memory&quot;)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="774" y="4515" width="313" height="30" as="geometry" />
+          <mxGeometry x="638" y="4545" width="313" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-6" value="#define ACCESS_ONCE(x) (*(volatile typeof(x) *)&amp;amp;(x))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="784" y="4553" width="294" height="30" as="geometry" />
+          <mxGeometry x="963.5" y="4545" width="294" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-7" value="Mandatory barrier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="535" y="4690" width="125" height="30" as="geometry" />
