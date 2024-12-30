@@ -1679,7 +1679,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="641.25" y="4830" width="20" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-35" value="一言以蔽之: 就是允许扩大LOCK和UNLOCK的控制代码范围;&amp;nbsp;&lt;br&gt;因为在这两个指令间的代码一定是位于critical section, 所以他们不能移动到锁的控制范围外, while锁外部的代码是允许进入这个范围的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-35" value="一言以蔽之: 就是允许其他代码进入LOCK和UNLOCK的控制代码范围;&amp;nbsp;&lt;br&gt;因为在这两个指令间的代码一定是位于critical section, 所以他们不能移动到锁的控制范围外, while锁外部的代码是允许进入这个范围的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="451.5" y="5270" width="389.5" height="30" as="geometry" />
         </mxCell>
       </root>
