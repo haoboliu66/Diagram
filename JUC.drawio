@@ -1642,6 +1642,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-12" value="允许LOCK前面的操作重排序到LOCK后, 但是不允许LOCK后续的操作重排序到LOCK前面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="950" y="4910" width="252.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-13" value="STORE A; STORE B; LOCK; LOAD A; LOAD B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1076.75" y="4814.5" width="252.5" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
