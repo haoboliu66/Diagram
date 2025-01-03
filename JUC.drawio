@@ -1682,11 +1682,14 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-35" value="一言以蔽之: 就是允许其他代码进入LOCK和UNLOCK的控制代码范围;&amp;nbsp;&lt;br&gt;因为在这两个指令间的代码一定是位于critical section, 所以他们不能移动到锁的控制范围外, while锁外部的代码是允许进入这个范围的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="451.5" y="5270" width="389.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-38" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-36" target="51N8JspCCHDJ9Vv9rA9t-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-36" value="The Alpha defines the Linux kernel&#39;s memory barrier model." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-285" y="5350" width="320" height="30" as="geometry" />
+          <mxGeometry x="-251.25" y="5350" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-37" value="Alpha CPU是乱序最严重的CPU, 所以kernel要兼容这个最差情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="5410" width="320" height="30" as="geometry" />
+          <mxGeometry x="90" y="5350" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
