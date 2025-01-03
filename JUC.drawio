@@ -1181,7 +1181,7 @@
         <mxCell id="E4f6vcsmDczpbreKZe59-2" value="Intel CPU保证了单处理器的指令执行顺序, 在多处理器的情况下, 每个CPU指令的相对顺序不会改变 (只会出现由于并发产生的穿插执行)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4039" y="5130" width="321.75" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="E4f6vcsmDczpbreKZe59-3" value="缓存一致性协议" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="E4f6vcsmDczpbreKZe59-3" value="Cache Coherency Protocol" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3795" y="5430" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-4" value="抽象模型 + 具体实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
