@@ -1745,11 +1745,17 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-55" value="解决方法是: 1. volatile; 2 加编译器屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899.5" y="5105.87" width="220.5" height="39.25" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-63" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-58" target="51N8JspCCHDJ9Vv9rA9t-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-58" value="同理可知, 在Java中, 循环无法退出的原因也是JIT编译器在运行时优化了这个循环代码, 因此可以通过-Xint让JVM关闭C1,C2的优化, 纯解释执行bytecode来验证" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="709.88" y="5280" width="442.75" height="39.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-60" value="如果是由于MOB导致的visibility问题, 那么总有一刻, 这个更新值会被CPU同步并可见, 导致循环退出, 但实际情况并不是这样" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="497.75" y="5179" width="297" height="48.25" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-62" value="volatile可以阻止编译器优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="844.5" y="5350" width="172" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
