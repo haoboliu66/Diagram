@@ -1742,8 +1742,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-55" value="解决方法是: 1. volatile; 2 加编译器屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899.5" y="5105.87" width="220.5" height="39.25" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-58" value="同理可知, 在Java中, 循环无法退出的原因也可能是JIT编译器在运行时优化了这个循环代码, 因此可以使用-Xint让JVM关闭JIT, 纯解释执行bytecode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="707.25" y="5200.75" width="412.75" height="39.25" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-58" value="同理可知, 在Java中, 循环无法退出的原因也可能是JIT编译器在运行时优化了这个循环代码, 因此可以使用-Xint让JVM关闭C1,C2的优化, 纯解释执行bytecode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="694.5" y="5200.75" width="442.75" height="39.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
