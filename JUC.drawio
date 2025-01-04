@@ -1642,16 +1642,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-9" value="STORE A; STORE B; LOCK; LOAD A; LOAD B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="28.5" y="4931" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-181.5" y="4911" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-10" value="LOCK; STORE A; STORE B; LOAD A; LOAD B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-83.25" y="5012" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-293.25" y="4992" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-12" value="允许LOCK前面的操作重排序到LOCK后, 但是不允许LOCK后续的操作重排序到LOCK前面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-385" y="4989.5" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-595" y="4969.5" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-13" value="STORE A; STORE B; LOAD A; LOAD B; LOCK;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="220" y="5012" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="10" y="4992" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-21" target="51N8JspCCHDJ9Vv9rA9t-22">
           <mxGeometry relative="1" as="geometry" />
@@ -1665,22 +1665,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-21" value="STORE A; STORE B; UNLOCK; LOAD A; LOAD B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="14.25" y="5160.75" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-195.75" y="5140.75" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-22" value="UNLOCK; STORE A; STORE B; LOAD A; LOAD B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-97.5" y="5241.75" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-307.5" y="5221.75" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-23" value="UNLOCK的顺序是相反的, 允许后续的操作重排序到UNLOCK之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="5190.75" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-600" y="5170.75" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-24" value="STORE A; STORE B; LOAD A; LOAD B; UNLOCK;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="205.75" y="5241.75" width="252.5" height="30" as="geometry" />
+          <mxGeometry x="-4.25" y="5221.75" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="23.75" y="4920" width="20" height="810" as="geometry" />
+          <mxGeometry x="-186.25" y="4900" width="20" height="810" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-35" value="一言以蔽之: 就是允许其他代码进入LOCK和UNLOCK的控制代码范围;&amp;nbsp;&lt;br&gt;因为在这两个指令间的代码一定是位于critical section, 所以他们不能移动到锁的控制范围外, while锁外部的代码是允许进入这个范围的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="5360" width="389.5" height="30" as="geometry" />
+          <mxGeometry x="-376" y="5340" width="389.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-38" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-36" target="51N8JspCCHDJ9Vv9rA9t-37">
           <mxGeometry relative="1" as="geometry" />
@@ -1729,6 +1729,15 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="921.25" y="4839.25" width="20" height="240.5" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-54" target="51N8JspCCHDJ9Vv9rA9t-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-54" value="在C语言中, 编译器可能会把while (a == 1) {} 这样一个循环直接优化为一直跳转同一个地址, 所以可能吧不会探查到a值的改变, 从而进入死循环" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="554.25" y="5130" width="387" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-55" value="解决方法是: 1. volatile; 2 加编译器屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="899.5" y="5105.87" width="220.5" height="39.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
