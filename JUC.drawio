@@ -1749,7 +1749,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-58" value="同理可知, 在Java中, 循环无法退出的原因也是JIT编译器在运行时优化了这个循环代码, 因此可以通过-Xint让JVM关闭C1,C2的优化, 纯解释执行bytecode来验证" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="709.88" y="5280" width="442.75" height="39.25" as="geometry" />
+          <mxGeometry x="789.63" y="5240" width="442.75" height="39.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-60" target="51N8JspCCHDJ9Vv9rA9t-64">
           <mxGeometry relative="1" as="geometry" />
@@ -1758,7 +1758,7 @@
           <mxGeometry x="497.75" y="5179" width="297" height="48.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-62" value="volatile可以阻止编译器优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="844.5" y="5350" width="172" height="20" as="geometry" />
+          <mxGeometry x="924.25" y="5310" width="172" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-64" value="因此, 我们可以说, CPU的指令执行不会存在可见性的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="355" y="5291.75" width="315" height="28.25" as="geometry" />
