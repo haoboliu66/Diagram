@@ -1775,6 +1775,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-69" value="volatile" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="573.25" y="4460" width="65" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-72" value="JMM约定了: volatile不允许重排序&lt;br&gt;所以JVM的实现 e.g. hotspot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4475" width="230" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
