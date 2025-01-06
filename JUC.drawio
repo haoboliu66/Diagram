@@ -1570,6 +1570,9 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-173" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="sthXmhu9q4Z8TcD6EFiC-162" target="sthXmhu9q4Z8TcD6EFiC-163" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-71" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sthXmhu9q4Z8TcD6EFiC-162" target="51N8JspCCHDJ9Vv9rA9t-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-162" value="JMM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="578.25" y="4370.5" width="55" height="40" as="geometry" />
         </mxCell>
@@ -1768,6 +1771,9 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-68" value="CPU 屏障指令一定是兼具编译器屏障的功能的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="761.5" y="4072" width="267" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-69" value="volatile" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="573.25" y="4460" width="65" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
