@@ -1784,7 +1784,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-77" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-72" target="51N8JspCCHDJ9Vv9rA9t-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-72" value="JMM约定了: volatile不允许重排序&lt;br&gt;所以JVM的impl e.g. hotspot 不管怎么实现要保证这个语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-72" value="JMM约定了: volatile不允许重排序&lt;br&gt;所以JVM的impl e.g. hotspot 不管怎么实现都要保证这个语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="227.25" y="4455" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-74" target="51N8JspCCHDJ9Vv9rA9t-78">
