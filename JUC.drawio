@@ -1766,8 +1766,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-62" value="volatile可以阻止编译器优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="824.81" y="5279.5" width="172" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-64" value="因此, 我们可以说, CPU的指令执行不会存在可见性的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="256.81" y="5261.25" width="315" height="28.25" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-64" value="因此, 我们可以说, CPU的指令执行不会存在可见性的问题 (就算有也是暂时性的)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="5251.25" width="315" height="28.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-68" value="CPU 屏障指令一定是兼具编译器屏障的功能的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="761.5" y="4072" width="267" height="20" as="geometry" />
