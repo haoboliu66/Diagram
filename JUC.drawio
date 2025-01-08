@@ -1802,14 +1802,26 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-78" value="Java的volatile = 编译器屏障 + CPU屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-230" y="4455" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-86" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-81" target="51N8JspCCHDJ9Vv9rA9t-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-81" value="程序编写顺序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="59.75" y="5370" width="100.25" height="40" as="geometry" />
+          <mxGeometry x="59.75" y="5370" width="100.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-87" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-82" target="51N8JspCCHDJ9Vv9rA9t-83">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-82" value="编译器顺序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="245" y="5370" width="100.25" height="40" as="geometry" />
+          <mxGeometry x="204.75" y="5370" width="100.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-83" value="CPU执行顺序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="430" y="5370" width="100.25" height="40" as="geometry" />
+          <mxGeometry x="354.56" y="5370" width="100.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-85" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-84" target="51N8JspCCHDJ9Vv9rA9t-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-84" value="语言的编码顺序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="5371.75" width="105" height="28.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
