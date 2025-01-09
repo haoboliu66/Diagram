@@ -1838,7 +1838,10 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-94" value="JMM的定义(规范)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="23" y="5485" width="112" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-98" value="JVM实现这个规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-106" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-98" target="51N8JspCCHDJ9Vv9rA9t-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-98" value="JVM impl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="5561.75" width="116.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-101" target="51N8JspCCHDJ9Vv9rA9t-103">
@@ -1849,6 +1852,9 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-103" value="根据happens before的定义可知: 对volatile field的write, 对后续的所有read都可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="432.06" y="5630" width="407.94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-105" value="简而言之, JMM定义了一些规则, JVM要保证实现满足这些规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="5655" width="350" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
