@@ -1841,11 +1841,14 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-98" value="JVM实现这个规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="185" y="5561.75" width="116.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-101" target="51N8JspCCHDJ9Vv9rA9t-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-101" value="A write to a volatile field happens before every subsequent read of that volatile." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="343.06" y="5556.75" width="386.94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-103" value="根据happens before的定义可知: 对volatile的write, 对后续的所有read都可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="352.06" y="5600" width="377.94" height="30" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-103" value="根据happens before的定义可知: 对volatile field的write, 对后续的所有read都可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="432.06" y="5630" width="407.94" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
