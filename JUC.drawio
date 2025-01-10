@@ -1853,8 +1853,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-103" value="根据Happens-Before的定义可知: 对volatile field的write先发生, 且对后续的所有read都可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="386.06" y="5610" width="443.94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-105" value="简而言之, JMM定义了一些规则, JVM要保证实现满足这些规则" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="5635" width="321" height="25" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-105" value="简而言之, JMM定义了一些规则, JVM实现要满足这些规则, Java开发者要按照这个规则编码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="5635" width="300" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-107" value="final的语义: 在constructor执行结束后, final的field对其他线程一定可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-57.47" y="5720" width="354.94" height="25" as="geometry" />
