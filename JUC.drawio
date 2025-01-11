@@ -1874,6 +1874,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-112" value="The pre-JSR-133 JMM was indeed relaxed in that it failed to provide sufficient guarantees for memory visibility and ordering, making concurrent programming highly error-prone. JSR-133 addressed these issues by introducing a clear and robust memory model that aligns with modern hardware and multi-threading requirements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1049.75" y="5420" width="479" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-117" value="synchronized&lt;br&gt;Unlock the monitor: release&lt;br&gt;Lock the monitor: acquire" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="412.06" y="5720" width="447.94" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
