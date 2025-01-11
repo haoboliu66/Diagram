@@ -1856,7 +1856,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-105" value="简而言之, JMM定义了一些规则, JVM实现要满足这些规则, Java开发者要按照这个规则编码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-30" y="5635" width="300" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-107" value="final的语义: 在constructor执行结束后, final的field对其他线程一定可见&lt;br&gt;&amp;nbsp;---&amp;gt; 在constructor执行结束后, 加一个full barrier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-107" value="final的语义: 在constructor执行结束后, final的field对其他线程一定可见&lt;br&gt;&amp;nbsp;---&amp;gt; 在constructor执行结束后, 有一个full barrier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-57.47" y="5720" width="354.94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-111" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-109" target="51N8JspCCHDJ9Vv9rA9t-110">
