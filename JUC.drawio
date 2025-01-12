@@ -1883,8 +1883,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-118" value="Some operations (e.g., writing a volatile variable, unlocking a monitor, starting a thread) have release semantics: they allow the actions that happen before the release to be visible to and ordered before following actions. Other operations (e.g., reading a volatile variable, locking a monitor) have acquire semantics: they allow actions in a different thread to see and be ordered after earlier actions." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="391.5" y="5810" width="499" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-120" value="memory barrier operations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-255" y="5960" width="140" height="20" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-120" value="JVM memory barrier operations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="5960" width="165" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-121" value="LoadLoad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-57.47" y="5910" width="80" height="20" as="geometry" />
