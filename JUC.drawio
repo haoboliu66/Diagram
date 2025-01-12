@@ -1892,11 +1892,11 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-122" value="StoreStore: Store1(s); StoreStore; Store2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-49" y="5960" width="215" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-123" value="LoadStore" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="6010" width="80" height="20" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-123" value="LoadStore:&amp;nbsp; Load1(s); LoadStore; Store2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="6010" width="225" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-124" value="StoreLoad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="6055" width="80" height="20" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-124" value="StoreLoad:&amp;nbsp; Store1(s); StoreLoad; Load2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-49" y="6055" width="215" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
