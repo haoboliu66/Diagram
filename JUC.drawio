@@ -1838,9 +1838,6 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-94" value="JMM的定义(规范)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="23" y="5485" width="112" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-106" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-98" target="51N8JspCCHDJ9Vv9rA9t-105">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-98" value="JVM impl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="198.06" y="5681.75" width="116.5" height="20" as="geometry" />
         </mxCell>
@@ -1854,7 +1851,7 @@
           <mxGeometry x="386.06" y="5610" width="443.94" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-105" value="简而言之, JMM定义了一些规则, JVM实现要满足这些规则, Java开发者要按照这个规则编码" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-16.939999999999998" y="5755" width="300" height="25" as="geometry" />
+          <mxGeometry x="55" y="5755" width="300" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-107" value="final的语义: 在constructor执行结束后, final的field对其他线程/CPU一定可见&lt;br&gt;&amp;nbsp;---&amp;gt; 在constructor执行结束后, 有一个full barrier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-44.41" y="5840" width="387.47" height="40" as="geometry" />
@@ -1884,19 +1881,19 @@
           <mxGeometry x="391.5" y="5810" width="499" height="70" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-120" value="JVM memory barrier operations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-576" y="5560.75" width="165" height="20" as="geometry" />
+          <mxGeometry x="-530" y="5595" width="165" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-121" value="LoadLoad:&amp;nbsp; &amp;nbsp;Load1(s); LoadLoad; Load2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-353.47" y="5500.75" width="227.47" height="20" as="geometry" />
+          <mxGeometry x="-307.47" y="5535" width="227.47" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-122" value="StoreStore: Store1(s); StoreStore; Store2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-345" y="5550.75" width="215" height="20" as="geometry" />
+          <mxGeometry x="-299" y="5585" width="215" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-123" value="LoadStore:&amp;nbsp; Load1(s); LoadStore; Store2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-351" y="5600.75" width="225" height="20" as="geometry" />
+          <mxGeometry x="-305" y="5635" width="225" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-124" value="StoreLoad:&amp;nbsp; Store1(s); StoreLoad; Load2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-345" y="5645.75" width="215" height="20" as="geometry" />
+          <mxGeometry x="-299" y="5680" width="215" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
