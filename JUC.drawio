@@ -1947,7 +1947,7 @@
           <mxGeometry x="473.39" y="6090" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-146" value="lazySet =&amp;gt; unsafe.putOrderedXXX 只保证写和写的顺序, 不保证可见行; &lt;br&gt;相当于保证按顺序写到CPU storebuffer, 但是不刷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="255.26" y="6150" width="393.74" height="30" as="geometry" />
+          <mxGeometry x="255.26" y="6155" width="393.74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-149" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-147" target="51N8JspCCHDJ9Vv9rA9t-148">
           <mxGeometry relative="1" as="geometry" />
@@ -1982,8 +1982,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-155" value="解释器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="318.5" y="5980" width="91.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以避免" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="6185" width="393.74" height="30" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以越过解释器, 来保证JMM memory ordering的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-143.74" y="6215" width="393.74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性&lt;br&gt;&lt;br&gt;但是读的时候呢? 如果不加volatile,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-193.3" y="6060" width="373.3" height="90" as="geometry" />
