@@ -1982,7 +1982,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-155" value="解释器" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="355" y="5980" width="91.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以越过解释器, 来保证JMM memory ordering的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以越过解释器, 来保证JMM规定的volatile的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="236.26" y="6050" width="393.74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
