@@ -1988,7 +1988,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-143.3" y="6070" width="293.3" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-163" value="解释器可以按照这个规则, 来执行volatile的指令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-163" value="解释器可以按照这个barrier的使用, 来满足volatile的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="451.5" y="5950" width="178.5" height="30" as="geometry" />
         </mxCell>
       </root>
