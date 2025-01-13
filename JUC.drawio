@@ -400,7 +400,7 @@
         <mxCell id="TZ7YPI2pEZnhK35bZtsi-1" value="CPU在执行指令时, 没有按照编码顺序执行的现象, i.e. 指令之间相对顺序发生了改变" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="915" y="2615" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉你编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉Java开发者编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1693" y="2050" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-2" target="AeaUYEnInn6TyFFDgCMk-1" edge="1">
