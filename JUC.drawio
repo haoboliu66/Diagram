@@ -226,14 +226,11 @@
         <mxCell id="dpeUAHpxACgYPMOwfueQ-26" value="OS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="498.75" y="820" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dpeUAHpxACgYPMOwfueQ-27" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="606" y="760" width="70" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-29" value="基于CPU的单个原子指令实现原子性操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="740" y="835" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-30" value="App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="760" width="70" height="40" as="geometry" />
+          <mxGeometry x="551" y="760" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dpeUAHpxACgYPMOwfueQ-31" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="611.25" y="880" width="70" height="40" as="geometry" />
@@ -1990,6 +1987,12 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-164" value="AQS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-460" y="6419" width="590" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-166" value="Thread1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="690" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-167" value="Thread2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="606" y="690" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
