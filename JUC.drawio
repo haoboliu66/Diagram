@@ -1642,8 +1642,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-4" value="#define barrier() __asm__ __volatile__(&quot;&quot;: : :&quot;memory&quot;)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="638" y="4545" width="313" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-6" value="#define ACCESS_ONCE(x) (*(volatile typeof(x) *)&amp;amp;(x))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="963.5" y="4545" width="294" height="30" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-6" value="#define ACCESS_ONCE(x) (*(volatile typeof(x) *)&amp;amp;(x))&lt;br&gt;限制单个变量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="963.5" y="4545" width="294" height="65" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-7" value="Mandatory barrier" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-345" y="4631.75" width="125" height="30" as="geometry" />
