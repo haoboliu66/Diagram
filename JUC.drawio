@@ -1979,8 +1979,8 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以避免" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-160" y="6185" width="393.74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-193.3" y="6060" width="363.3" height="30" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性&lt;br&gt;&lt;br&gt;但是读的时候呢? 如果不加volatile,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-193.3" y="6060" width="373.3" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
