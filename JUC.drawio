@@ -2021,6 +2021,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-174" value="非公平锁性能更好, 减少去内核中阻塞的线程数量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-365" y="6680" width="135" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-179" value="1, 多线程进入队列, 如何保证线程安全&lt;br&gt;2, 进入队列后, 锁释放了怎么办?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-154.41" y="6630" width="245" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
