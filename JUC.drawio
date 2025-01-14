@@ -2045,11 +2045,14 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-187" value="只有OS能阻塞线程, 所以必须通过syscall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-515" y="6680" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-188" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;static final Node SHARED = new Node();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /** Marker to indicate a node is waiting in exclusive mode */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; static final Node EXCLUSIVE = null;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="10" y="6855" width="360" height="75" as="geometry" />
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-188" value="&lt;div&gt;static final Node EXCLUSIVE = null;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="47.059999999999995" y="6835" width="189.2" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-189" value="AQS Node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-145" y="6875" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-190" value="&amp;nbsp; static final Node SHARED = new Node();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="45" y="6885" width="215" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
