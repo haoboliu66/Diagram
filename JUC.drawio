@@ -2030,11 +2030,14 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-180" value="1, 使用原子性指令, 在队列中操作保证前后指针的原子性&lt;br&gt;2, 进入队列后, 进入操作系统阻塞前, 再次判断锁状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="84" y="6615" width="295" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-185" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-182" target="51N8JspCCHDJ9Vv9rA9t-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-182" value="wait set" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="790" y="5675" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-183" value="Object.wait, Object.notify, Object.notifyAll" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="914" y="5681.5" width="234" height="17" as="geometry" />
+          <mxGeometry x="901" y="5679" width="234" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
