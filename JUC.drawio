@@ -1863,16 +1863,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-109" value="JSR-133 is effectively an addition and a revision to the original Java Memory Model (JMM)." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1055.75" y="5525" width="467" height="20" as="geometry" />
+          <mxGeometry x="1052.25" y="5500" width="467" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-110" value="All JVM implementations starting from Java 5 (when JSR-133 was introduced) are required to adhere to the updated Java Memory Model (JMM) as defined by JSR-133. This compliance is a part of the Java Language Specification (JLS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1032" y="5587" width="515" height="58" as="geometry" />
+          <mxGeometry x="1028.5" y="5562" width="515" height="58" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-114" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-112" target="51N8JspCCHDJ9Vv9rA9t-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-112" value="The pre-JSR-133 JMM was indeed relaxed in that it failed to provide sufficient guarantees for memory visibility and ordering, making concurrent programming highly error-prone. JSR-133 addressed these issues by introducing a clear and robust memory model that aligns with modern hardware and multi-threading requirements" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1049.75" y="5420" width="479" height="65" as="geometry" />
+          <mxGeometry x="1046.25" y="5395" width="479" height="65" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-117" target="51N8JspCCHDJ9Vv9rA9t-118">
           <mxGeometry relative="1" as="geometry" />
