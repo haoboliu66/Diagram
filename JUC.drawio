@@ -2019,7 +2019,7 @@
           <mxGeometry x="-365" y="6630" width="135" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-174" value="非公平锁性能更好, 减少去内核中阻塞的线程数量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-365" y="6680" width="135" height="20" as="geometry" />
+          <mxGeometry x="-365" y="6680" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-181" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-179" target="51N8JspCCHDJ9Vv9rA9t-180">
           <mxGeometry relative="1" as="geometry" />
@@ -2041,6 +2041,9 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-186" value="JUC 第18节" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-60" y="6424" width="90" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-187" value="只有OS能阻塞线程, 所以必须通过syscall" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="6680" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
