@@ -711,7 +711,7 @@
           <mxGeometry x="1690" y="3590" width="210" height="28" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-10" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1689.75" y="3550" width="220.25" height="28" as="geometry" />
+          <mxGeometry x="1689.75" y="3550" width="210.25" height="28" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-11" value="需要读屏障, 保证LOAD A一定发生在LOAD B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1934" y="3590" width="280" height="28" as="geometry" />
