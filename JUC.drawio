@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="3163" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2473" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1510,14 +1510,17 @@
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-133" value="CPU乱序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="622" y="3846.25" width="100.25" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-194" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sthXmhu9q4Z8TcD6EFiC-134" target="51N8JspCCHDJ9Vv9rA9t-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-195" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="sthXmhu9q4Z8TcD6EFiC-134" target="51N8JspCCHDJ9Vv9rA9t-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-134" value="MOB乱序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="829.75" y="3790" width="100.25" height="40" as="geometry" />
+          <mxGeometry x="814.75" y="3790.75" width="100.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-135" value="CPU执行乱序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="829.75" y="3910" width="100.25" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sthXmhu9q4Z8TcD6EFiC-141" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.254;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="sthXmhu9q4Z8TcD6EFiC-134" target="sthXmhu9q4Z8TcD6EFiC-140" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-160" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="sthXmhu9q4Z8TcD6EFiC-142" target="sthXmhu9q4Z8TcD6EFiC-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2056,6 +2059,12 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-191" value="抽象CPU模型" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#000000;labelBackgroundColor=#FFCC99;fontStyle=1;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="1106" y="3450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-192" value="写入乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="953.75" y="3762" width="95" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-193" value="读取乱序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="953.75" y="3828" width="95" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
