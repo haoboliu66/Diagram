@@ -1019,21 +1019,6 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-122" value="当CPU2在Invalid Buffer中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Buffer的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2505" y="4560" width="430" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-1" target="wvUFbZKzVNe_2dA4ze0a-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-1" value="内存乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3218.75" y="3070" width="95" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-2" target="wvUFbZKzVNe_2dA4ze0a-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-2" target="wvUFbZKzVNe_2dA4ze0a-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-2" value="CPU (MOB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3053.75" y="3164.5" width="95" height="37" as="geometry" />
-        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-8" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalid Buffer&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4050" y="4540" width="380" height="115" as="geometry" />
         </mxCell>
@@ -1075,12 +1060,6 @@
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-24" value="load barrier就保证, 在LOAD A时, invalid queue会被清空, 所以当LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4050" y="4676" width="380" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-26" value="写入乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2986.25" y="3240" width="95" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-27" value="读取乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3099.75" y="3240" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-31" value="这里的data dependency barrier只保证A和B的顺序, 对C和D无效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2794.5" y="4844.5" width="171" height="40" as="geometry" />
