@@ -2046,31 +2046,31 @@
           <mxGeometry x="2171" y="3812" width="444.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-197" value="WAL: Write-Ahead Logging" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="6960" width="160" height="20" as="geometry" />
+          <mxGeometry x="-613.3" y="6790" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-200" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-198" target="51N8JspCCHDJ9Vv9rA9t-199">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-198" value="MQ" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="7010" width="115" height="35" as="geometry" />
+          <mxGeometry x="-593.3" y="6840" width="115" height="35" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-199" value="磁盘" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-253.75" y="7010" width="62.5" height="35" as="geometry" />
+          <mxGeometry x="-447.05" y="6840" width="62.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-201" value="MQ的数据要持久化, 没法每条数据进来我都写一次磁盘, 否则磁盘IO太多, 性能受损。&lt;br&gt;所以MQ通过利用OS的page cache, 先把数据写入内存, 然后定期落盘一次。&lt;br&gt;那么问题: 如果MQ写了一些数据在内存, 还没到下一次落盘的操作时, 挂了, 那写入内存的数据就丢了? 所以在写入内存之前, 要写日志, 确保我的日志落盘了, 这样如果发生crash, 我可以通过持久化的日志内容来找回" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-455" y="7070" width="465" height="80" as="geometry" />
+          <mxGeometry x="-648.3" y="6900" width="465" height="80" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-203" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="7017.5" width="40" height="20" as="geometry" />
+          <mxGeometry x="-753.3" y="6847.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-204" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="7017.5" width="40" height="20" as="geometry" />
+          <mxGeometry x="-713.3" y="6847.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-207" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-205" target="51N8JspCCHDJ9Vv9rA9t-198">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-205" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="7017.5" width="40" height="20" as="geometry" />
+          <mxGeometry x="-673.3" y="6847.5" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-208" target="51N8JspCCHDJ9Vv9rA9t-209">
           <mxGeometry relative="1" as="geometry" />
