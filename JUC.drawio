@@ -2058,7 +2058,7 @@
           <mxGeometry x="-447.05" y="6840" width="62.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-201" value="MQ的数据要持久化, 没法每条数据进来我都写一次磁盘, 否则磁盘IO太多, 性能受损。&lt;br&gt;所以MQ通过利用OS的page cache, 先把数据写入内存, 然后定期落盘一次。&lt;br&gt;那么问题: 如果MQ写了一些数据在内存, 还没到下一次落盘的操作时, 挂了, 那写入内存的数据就丢了? 所以在写入内存之前, 要写日志, 确保我的日志落盘了, 这样如果发生crash, 我可以通过持久化的日志内容来找回" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-648.3" y="6900" width="465" height="80" as="geometry" />
+          <mxGeometry x="-650" y="6900" width="465" height="80" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-203" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-753.3" y="6847.5" width="40" height="20" as="geometry" />
@@ -2092,6 +2092,12 @@
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-211" value="queue中正常的状态, 要负责唤醒后面的node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="317.06" y="6850" width="222.94" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-215" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="7060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-216" value="线程之间存在数据竞争的唯一要素: 存在写线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-136.47" y="7160" width="242.94" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
