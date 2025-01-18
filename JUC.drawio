@@ -2099,6 +2099,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-216" value="线程之间存在数据竞争的唯一要素: 存在写线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-136.47" y="7160" width="242.94" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-217" value="String类: final, 修改就生成新的String, 之前的String完全不受影响, 解决了写线程的问题" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-6.68" y="7220" width="226.68" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
