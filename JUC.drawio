@@ -2150,6 +2150,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-241" value="由于共享锁的存在, 当唤醒队列中的线程, 需要把这个唤醒状态传播给队列中其他的读线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="321.66" y="6895" width="268.34" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-243" value="读写锁如何避免写饥饿?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="685" y="7105" width="186.77" height="25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
