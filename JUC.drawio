@@ -2172,7 +2172,7 @@
           <mxGeometry x="465.27" y="7360" width="233.74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-4" value="firstReader来处理一种特殊情况: firstReader是第一个获取ReadLock的线程, 是第一个把share state从0变1的; 如果只有一个读线程, 那么此时获取重入计数的代价会较低" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="756.5" y="7350" width="338.74" height="50" as="geometry" />
+          <mxGeometry x="774.01" y="7350" width="338.74" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-6" target="l8XCwNJ57m56pEhpH9Ja-2">
           <mxGeometry relative="1" as="geometry" />
