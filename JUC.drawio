@@ -2160,7 +2160,7 @@
           <mxGeometry x="851.81" y="7105" width="298.19" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-246" value="锁升级: 读锁升级为写锁, 持有读锁没办法直接获取写锁, 没法直接升级, 所以只能先释放读锁, 再去尝试获取写锁&lt;br&gt;&lt;br&gt;锁降级: 先获取读锁, 再释放写锁" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="685" y="7150" width="375" height="50" as="geometry" />
+          <mxGeometry x="690" y="7170" width="375" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-1" value="需要统计每个读线程的重入次数, 那么由于读线程可能存在多个, 不能像只有一个互斥线程可以直接 + state, 所以理应使用ThreadLocal来记录线程自己的读锁重入次数, 但是有可能只有一个读线程, 那么直接将其记录在读写锁的变量中即可" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="362.96999999999997" y="7430" width="438.34" height="50" as="geometry" />
