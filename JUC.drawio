@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-228" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="406.87" y="7052.5" width="190.01" height="167.5" as="geometry" />
+          <mxGeometry x="431.99" y="7052.5" width="190.01" height="167.5" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-161" value="100000" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="680" y="5905" width="340" height="215" as="geometry" />
@@ -2111,7 +2111,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-217" value="String类: final, 修改就生成新的String, 之前的String完全不受影响, 解决了写线程的问题, 直接避免了多个线程修改同一个数据的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-6.68" y="7220" width="246.68" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-238" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-218" target="51N8JspCCHDJ9Vv9rA9t-228" edge="1">
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-218" target="51N8JspCCHDJ9Vv9rA9t-228">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-218" value="读多写少的情况, 有必要用互斥锁吗?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
@@ -2124,19 +2124,19 @@
           <mxGeometry x="-93.24" y="7030" width="176.47" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-225" value="互斥区" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="434.38" y="7150" width="135" height="50" as="geometry" />
+          <mxGeometry x="459.5" y="7150" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-226" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-227" target="51N8JspCCHDJ9Vv9rA9t-225" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-227" value="读线程共享互斥区, 写线程独占" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="422.77" y="7062.5" width="158.22" height="20" as="geometry" />
+          <mxGeometry x="447.89" y="7062.5" width="158.22" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-230" value="共享锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="417.18" y="7090" width="85" height="25" as="geometry" />
+          <mxGeometry x="442.3" y="7090" width="85" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-231" value="互斥锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="501.58" y="7090" width="85" height="25" as="geometry" />
+          <mxGeometry x="526.6999999999999" y="7090" width="85" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-236" value="互斥锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-42.5" y="7062.5" width="75" height="20" as="geometry" />
