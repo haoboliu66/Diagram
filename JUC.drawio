@@ -2156,7 +2156,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-243" value="读写锁如何避免写饥饿?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="685" y="7105" width="125" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-244" value="读线程进queue时如果前面有写线程在排队, 不抢锁, 去排队" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-244" value="读线程进queue时如果前面有写线程在排队, 不要抢锁, 去排队" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="851.81" y="7105" width="298.19" height="25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-246" value="锁升级: 读锁升级为写锁, 持有读锁没办法直接获取写锁, 没法直接升级, 所以只能先释放读锁, 再去尝试获取写锁&lt;br&gt;&lt;br&gt;锁降级: 先获取读锁, 再释放写锁" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
