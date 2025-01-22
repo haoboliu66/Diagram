@@ -2171,6 +2171,9 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-2" value="读线程用ThreadLocal记录自己的读锁重入次数" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="465.27" y="7360" width="233.74" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-4" value="firstReader来处理一种特殊情况: firstReader是第一个获取ReadLock的线程, 是第一个把share state从0变1的&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="931.26" y="7300" width="338.74" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
