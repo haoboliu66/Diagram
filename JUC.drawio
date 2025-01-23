@@ -2180,6 +2180,9 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-6" value="每个获取读锁的线程都要直接操作state变量的高16位, 但是如何统计每个读线程的重入次数呢?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="412.77000000000004" y="7280" width="338.74" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-8" value="acquire" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="7320" width="75" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
