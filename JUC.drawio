@@ -2181,10 +2181,10 @@
           <mxGeometry x="412.77000000000004" y="7280" width="338.74" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-8" value="acquire" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="7360" width="75" height="30" as="geometry" />
+          <mxGeometry x="-1125" y="7310" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-9" value="addWaiter" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-755" y="7320" width="75" height="30" as="geometry" />
+          <mxGeometry x="-990" y="7270" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-10" value="ReadWriteLock" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="442.89" y="7020" width="158.22" height="20" as="geometry" />
@@ -2202,25 +2202,25 @@
           <mxGeometry x="105.88000000000001" y="7540" width="198.24" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-15" value="acquireQueued" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-755" y="7390" width="85" height="30" as="geometry" />
+          <mxGeometry x="-990" y="7340" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-16" value="获取锁失败的线程进入这里执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-802.12" y="7260" width="169.25" height="20" as="geometry" />
+          <mxGeometry x="-1037.12" y="7210" width="169.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-17" value="线程进入队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="7320" width="80" height="20" as="geometry" />
+          <mxGeometry x="-885" y="7270" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-18" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="7300" width="66" height="30" as="geometry" />
+          <mxGeometry x="-635" y="7250" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-19" target="l8XCwNJ57m56pEhpH9Ja-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-19" value="head" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-512" y="7300" width="72" height="30" as="geometry" />
+          <mxGeometry x="-747" y="7250" width="72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-21" value="第一个进入队列的线程会初始化head, 并从tail&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="7235" width="235" height="25" as="geometry" />
+          <mxGeometry x="-700" y="7185" width="235" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
