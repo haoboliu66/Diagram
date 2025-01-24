@@ -2334,8 +2334,8 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-70" value="tail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1151.5" y="7459.5" width="57" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-71" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;让队列中第一个线程去抢锁的原因是: 有可能在addWaiter线程入队后, 持有锁的线程释放了锁 (i.e. 抢锁成功的判断依据就是state变量), 因为可能刚好此时释放锁的线程把state改回了0&lt;/font&gt;&lt;/b&gt;&lt;br&gt;如果队列的第一个线程抢锁成功, 就直接返回了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1349.65" y="7481" width="327.15" height="69" as="geometry" />
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-71" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;让队列中第一个线程去抢锁的原因是: 有可能在addWaiter线程入队后, 持有锁的线程释放了锁 (i.e. 抢锁成功的判断依据就是state变量), 因为可能刚好此时释放锁的线程把state改回了0&lt;/font&gt;&lt;/b&gt;&lt;br&gt;如果队列的第一个线程抢锁成功, 会把自己清空, 并修改自己为新的head, 然后返回" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1345.65" y="7490" width="327.15" height="69" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-74" value="这里的tryAcquire方法有2个用途:&amp;nbsp;&lt;br&gt;1, 当一个线程从parkAndCheckInterrupt中被唤醒后, 可以回到这里判断自己是不是队列的第一个节点, 如果是, 就去抢锁&lt;br&gt;2, 进入队列的线程如果刚好就是队列的第一个节点, 那么你先不要去park, 直接尝试抢锁" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-613.3" y="7335" width="280" height="90" as="geometry" />
