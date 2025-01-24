@@ -2214,34 +2214,34 @@
           <mxGeometry x="-910" y="7275" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-18" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-635" y="7175" width="66" height="30" as="geometry" />
+          <mxGeometry x="-610.7" y="7170" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-19" target="l8XCwNJ57m56pEhpH9Ja-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-19" value="head" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-747" y="7175" width="72" height="30" as="geometry" />
+          <mxGeometry x="-722.7" y="7170" width="72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-21" value="第一个进入队列的线程会初始化head, 并从tail 入队, 并把tail指向自己" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-804.3" y="7110" width="344.3" height="25" as="geometry" />
+          <mxGeometry x="-780" y="7105" width="344.3" height="25" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-711.38" y="7275" as="sourcePoint" />
-            <mxPoint x="-711.38" y="7215" as="targetPoint" />
+            <mxPoint x="-687.08" y="7270" as="sourcePoint" />
+            <mxPoint x="-687.08" y="7210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-29" value="head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-739.5" y="7275" width="57" height="20" as="geometry" />
+          <mxGeometry x="-715.2" y="7270" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-602.38" y="7275" as="sourcePoint" />
-            <mxPoint x="-602.38" y="7215" as="targetPoint" />
+            <mxPoint x="-578.08" y="7270" as="sourcePoint" />
+            <mxPoint x="-578.08" y="7210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-31" value="tail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-630.5" y="7275" width="57" height="20" as="geometry" />
+          <mxGeometry x="-606.2" y="7270" width="57" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
