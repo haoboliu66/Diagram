@@ -2201,6 +2201,9 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-13" value="一个有计数的共享锁;&amp;nbsp;&lt;br&gt;如果计数为1, 就可以认为等同于互斥锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="105.88000000000001" y="7540" width="198.24" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-15" value="acquireQueued" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-755" y="7390" width="85" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
