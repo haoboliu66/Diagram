@@ -2214,37 +2214,78 @@
           <mxGeometry x="-916" y="7275" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-18" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-610.7" y="7170" width="66" height="30" as="geometry" />
+          <mxGeometry x="-620.7" y="7127.5" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-19" target="l8XCwNJ57m56pEhpH9Ja-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-19" value="head" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-722.7" y="7170" width="72" height="30" as="geometry" />
+          <mxGeometry x="-732.7" y="7127.5" width="72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-21" value="第一个进入队列的线程会初始化head, 并从tail 入队, 并把tail指向自己" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="7105" width="344.3" height="25" as="geometry" />
+          <mxGeometry x="-791.35" y="7065" width="344.3" height="25" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-687.08" y="7270" as="sourcePoint" />
-            <mxPoint x="-687.08" y="7210" as="targetPoint" />
+            <mxPoint x="-697.08" y="7227.5" as="sourcePoint" />
+            <mxPoint x="-697.08" y="7167.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-29" value="head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-715.2" y="7270" width="57" height="20" as="geometry" />
+          <mxGeometry x="-725.2" y="7227.5" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-578.08" y="7270" as="sourcePoint" />
-            <mxPoint x="-578.08" y="7210" as="targetPoint" />
+            <mxPoint x="-588.08" y="7227.5" as="sourcePoint" />
+            <mxPoint x="-588.08" y="7167.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-31" value="tail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-606.2" y="7270" width="57" height="20" as="geometry" />
+          <mxGeometry x="-616.2" y="7227.5" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-33" value="让队列的头线程抢锁, 如果失败就进入阻塞状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-916" y="7345" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-34" target="l8XCwNJ57m56pEhpH9Ja-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-550" y="7310" />
+              <mxPoint x="-432" y="7310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-34" value="Node1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-582.6500000000001" y="7332.5" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-36" target="l8XCwNJ57m56pEhpH9Ja-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-36" value="head" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-694.6500000000001" y="7332.5" width="72" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-37" value="后续线程线程会继续从tail 入队, 并把tail指向自己" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-753.3000000000001" y="7270" width="344.3" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-659.0300000000001" y="7464.5" as="sourcePoint" />
+            <mxPoint x="-659.0300000000001" y="7404.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-39" value="head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-687.1500000000001" y="7464.5" width="57" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-42" value="Node2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-464.5000000000001" y="7333" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-430.0000000000001" y="7464.5" as="sourcePoint" />
+            <mxPoint x="-430.0000000000001" y="7404.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-44" value="tail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-460.0000000000001" y="7464.5" width="57" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
