@@ -2219,8 +2219,8 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-19" value="head" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-747" y="7250" width="72" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-21" value="第一个进入队列的线程会初始化head, 并从tail&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="7185" width="235" height="25" as="geometry" />
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-21" value="第一个进入队列的线程会初始化head, 并从tail 入队, 并把tail指向自己" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-804.3" y="7185" width="344.3" height="25" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
