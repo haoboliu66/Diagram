@@ -2332,7 +2332,7 @@
           <mxGeometry x="-1151.5" y="7439.5" width="57" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-71" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;让队列中第一个线程去抢锁的原因是: 有可能在addWaiter线程入队后, 持有锁的线程释放了锁 (i.e. 抢锁成功的判断依据就是state变量), 因为可能刚好此时释放锁的线程把state改回了0&lt;/font&gt;&lt;/b&gt;&lt;br&gt;如果队列的第一个线程抢锁成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1367.15" y="7490" width="287.15" height="90" as="geometry" />
+          <mxGeometry x="-1407.15" y="7470" width="287.15" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
