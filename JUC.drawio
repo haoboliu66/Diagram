@@ -2187,7 +2187,7 @@
           <mxGeometry x="-1195" y="7310" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-9" value="addWaiter" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-990" y="7270" width="75" height="30" as="geometry" />
+          <mxGeometry x="-1005.5" y="7270" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-10" value="ReadWriteLock" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="442.89" y="7020" width="158.22" height="20" as="geometry" />
@@ -2205,13 +2205,13 @@
           <mxGeometry x="105.88000000000001" y="7540" width="198.24" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-15" value="acquireQueued" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-995" y="7345" width="85" height="30" as="geometry" />
+          <mxGeometry x="-1010" y="7340" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-16" value="获取锁失败的线程进入这里执行" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1037.12" y="7210" width="169.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-17" value="线程进入队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="7275" width="80" height="20" as="geometry" />
+          <mxGeometry x="-916" y="7275" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-18" value="Node" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-610.7" y="7170" width="66" height="30" as="geometry" />
@@ -2242,6 +2242,9 @@
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-31" value="tail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-606.2" y="7270" width="57" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-33" value="让队列的头线程抢锁, 如果失败就进入阻塞状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-916" y="7345" width="86" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
