@@ -2338,7 +2338,7 @@
           <mxGeometry x="-1407.15" y="7470" width="327.15" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-74" value="这里的tryAcquire方法有2个用途:&amp;nbsp;&lt;br&gt;1, 当一个线程从parkAndCheckInterrupt中被唤醒后, 可以回到这里判断自己是不是队列的第一个节点, 如果是, 就去抢锁&lt;br&gt;2, 进入队列的线程如果刚好就是队列的第一个节点, 那么你先不要去park, 直接尝试抢锁" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-613.3" y="7307.5" width="280" height="90" as="geometry" />
+          <mxGeometry x="-613.3" y="7315" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-76" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#FFFF66;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#FFFF00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
