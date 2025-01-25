@@ -2589,7 +2589,7 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-166" value="但是这行代码的h是新head, 也即是Node1, 它的waitStatus是线程C入队列时修改为SIGNAL的, 判断为true, 进入下面的逻辑, 所以此时即便state为0, 还是会调起doReleaseShared()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1347.32" y="9190" width="237.32" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-168" value="回到这里时, h是新head, 即Node1, if语句判断为true, 且它的ws是SIGNAL, 会进入CAS语句清除SIGNAL成功, 然后会调起unparkSuccessor, 也就是唤醒了线程C; &lt;br&gt;但是如果此时B还不释放信号量, 就会导致C从park中醒来, 进行了一次徒劳的抢锁, 然后重新给Node1设置SIGNAL状态并进入睡眠&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-168" value="回到这里时, h是新head, 即Node1, if语句判断为true, 且它的ws是SIGNAL, 会进入CAS语句清除自己的SIGNAL成功, 然后会调起unparkSuccessor, 也就是唤醒了线程C; &lt;br&gt;但是如果此时B还不释放信号量, 就会导致C从park中醒来, 进行了一次徒劳的抢锁, 然后重新给Node1设置SIGNAL状态并进入睡眠&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2890" y="8860.5" width="240" height="99.5" as="geometry" />
         </mxCell>
       </root>
