@@ -2444,7 +2444,7 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-107" value="对于抢锁失败的线程B和C而言, addWaiter让它们进入队列, 假设B先初始化了head (在C之前)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1382" y="7870" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-108" value="假设在B和C尝试抢信号量时, A一直没有释放锁, 那么这种情况下:&lt;br&gt;对于B和C而言, 这个r返回的都是-1, 所以当二者执行shouldParkAfterFailedAcquire方法后, B会在head中填入SIGNAL然后park; C会在B的node中填入SIGNAL, 然后park" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-108" value="假设在B在加入队列后尝试抢信号量时, A一直没有释放锁, 那么这种情况下:&lt;br&gt;对于B而言, 这个r返回的是-1, 所以二者都会执行shouldParkAfterFailedAcquire方法后, B会在head中填入SIGNAL然后park; C会在B的node中填入SIGNAL, 然后park" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1382" y="7985.25" width="202.82" height="104.75" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-111" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
