@@ -2497,6 +2497,9 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-141" value="Node1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-984.08" y="8800" width="66" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-143" target="l8XCwNJ57m56pEhpH9Ja-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-143" value="&amp;nbsp;空节点" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#CC0000;fillColor=light-dark(#CC0000,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="-1096.0800000000002" y="8800" width="72" height="30" as="geometry" />
         </mxCell>
@@ -2556,6 +2559,15 @@
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-161" value="SIGNAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-978.0000000000001" y="8810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-162" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#FFFF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1300" y="9170" as="sourcePoint" />
+            <mxPoint x="-1409.7" y="9170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-163" value="这行代码的h是老head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1284" y="9150" width="209" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
