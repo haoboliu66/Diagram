@@ -2444,8 +2444,8 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-107" value="对于抢锁失败的线程B和C而言, addWaiter让它们进入队列, 假设B先初始化了head, 排在C的前面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1289" y="7740" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-108" value="对于B和C而言, 这个r返回的都是-1, 所以B会在head中填入SIGNAL然后park; C会把B中填入SIGNAL, 然后park" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1146.5" y="7942.5" width="202.82" height="29.5" as="geometry" />
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-108" value="对于B和C而言, 这个r返回的都是-1, 所以B会在head中填入SIGNAL然后park; C会在B的node中填入SIGNAL, 然后park" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1265" y="7810.5" width="202.82" height="59.5" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-111" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
