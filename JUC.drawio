@@ -2592,6 +2592,9 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-168" value="回到这里时, h是新head, 即Node1, if语句判断为true, 且它的ws是SIGNAL, 会进入CAS语句清除自己的SIGNAL成功, 然后会调起unparkSuccessor, 也就是唤醒了线程C; &lt;br&gt;&lt;br&gt;但是如果此时B还不释放信号量, 就会导致C从park中醒来, 进行了一次徒劳的抢锁, 然后重新给Node1设置SIGNAL状态并进入睡眠&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-2890" y="8860.5" width="240" height="99.5" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-169" value="首先信号量总数为1, 且只有A B C三个线程, 然后A率先抢到信号量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2539.5" y="7840" width="330" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
