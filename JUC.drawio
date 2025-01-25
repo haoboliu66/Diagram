@@ -2566,8 +2566,17 @@
             <mxPoint x="-1409.7" y="9170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-163" value="这行代码的h是老head" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1284" y="9150" width="209" height="29" as="geometry" />
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-163" value="这行代码的h是老head, 所以判断都不通过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1282.82" y="9150" width="209" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-165" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#FFFF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1357.15" y="9194" as="sourcePoint" />
+            <mxPoint x="-1466.8500000000001" y="9194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-166" value="但是这行代码的h是新head, 也即是Node1, 它的waitStatus是线程C入队列时修改为SIGNAL的, 判断为true, 进入下面的逻辑, 所以此时即便state为0, 还是会调起doReleaseShared()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1347.32" y="9210" width="209" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
