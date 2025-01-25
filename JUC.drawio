@@ -2575,8 +2575,18 @@
             <mxPoint x="-1466.8500000000001" y="9194" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-167" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2620" y="8880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1229" y="9360" />
+              <mxPoint x="-2619" y="9360" />
+              <mxPoint x="-2619" y="8880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-166" value="但是这行代码的h是新head, 也即是Node1, 它的waitStatus是线程C入队列时修改为SIGNAL的, 判断为true, 进入下面的逻辑, 所以此时即便state为0, 还是会调起doReleaseShared()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1347.32" y="9210" width="209" height="29" as="geometry" />
+          <mxGeometry x="-1347.32" y="9190" width="237.32" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
