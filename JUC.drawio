@@ -2486,6 +2486,9 @@
             <mxPoint x="-1470.5" y="8521.23" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-177" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-138" target="l8XCwNJ57m56pEhpH9Ja-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-138" value="线程B从park中唤醒, 会再次尝试这里的抢锁逻辑, 那么会成功, 然后r返回的是0, 要执行setHeadAndPropagate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1367.07" y="8502" width="314.5" height="48" as="geometry" />
         </mxCell>
