@@ -2629,7 +2629,7 @@
             <mxPoint x="-4830" y="8719.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-181" value="假设有两个线程X和Y同时释放信号量, 那么只有一个线程(假设X)能成功把head的SIGNAL置为0, 那么此时另一个线程Y没法再继续操作了, 即便X和Y都把信号量释放了出来。&lt;br&gt;所以PROPAGATE的状态就是保证了, 当同时有多个信号量释放,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-181" value="假设有两个线程X和Y同时释放信号量, 那么只有一个线程(假设X)能成功把head的SIGNAL置为0, 那么此时另一个线程Y没法再继续操作了, 即便X和Y都把信号量释放了出来。&lt;br&gt;所以PROPAGATE的状态就是保证了, 当同时有多个信号量释放, 后续线程无人去唤醒" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-5330" y="8710" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
