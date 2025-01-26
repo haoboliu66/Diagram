@@ -2623,6 +2623,15 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-178" value="所以伪唤醒是存在的, 但是只会伪唤醒一个, 因为唤醒后的线程C如果拿不到信号量, 就会重新进入睡眠, 不会再有后续逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-5075.5" y="9090" width="370" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-180" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#FFFF00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4940" y="8719.2" as="sourcePoint" />
+            <mxPoint x="-4830" y="8719.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-181" value="假设有两个线程X和Y同时释放信号量, 那么只有一个线程(假设X)能成功把head的SIGNAL置为0, 那么此时另一个线程Y没法再继续操作了, 虽然X和Y都把信号量释放了出来,&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-5330" y="8710" width="370" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
