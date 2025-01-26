@@ -2629,7 +2629,7 @@
             <mxPoint x="-4830" y="8719.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l8XCwNJ57m56pEhpH9Ja-181" value="假设有两个线程X和Y同时释放信号量, 那么只有一个线程(假设X)能成功把head的SIGNAL置为0, X唤醒线程B, &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;即便X和Y都把信号量释放了出来。&lt;br&gt;所以PROPAGATE的状态就是保证了, 当有多个线程同时释放信号量时, 可以有2个线程执行完释放逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l8XCwNJ57m56pEhpH9Ja-181" value="假设有两个线程X和Y同时释放信号量, 那么只有一个线程(假设X)能成功把head的SIGNAL置为0, X唤醒线程B, &lt;br&gt;&lt;br&gt;B从park中醒来, 去重新抢锁&lt;br&gt;&lt;br&gt;即便X和Y都把信号量释放了出来。&lt;br&gt;所以PROPAGATE的状态就是保证了, 当有多个线程同时释放信号量时, 可以有2个线程执行完释放逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-5450" y="8680" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-182" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l8XCwNJ57m56pEhpH9Ja-184" target="l8XCwNJ57m56pEhpH9Ja-190">
