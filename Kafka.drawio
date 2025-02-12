@@ -1526,6 +1526,9 @@
         <mxCell id="KbaSD90ONHcpCLBhq20t-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="KbaSD90ONHcpCLBhq20t-27" target="KbaSD90ONHcpCLBhq20t-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KbaSD90ONHcpCLBhq20t-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="KbaSD90ONHcpCLBhq20t-27" target="KbaSD90ONHcpCLBhq20t-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-27" value="Worker" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-4810" y="5110" width="210" height="60" as="geometry" />
         </mxCell>
@@ -1535,20 +1538,20 @@
         <mxCell id="KbaSD90ONHcpCLBhq20t-30" value="WorkerConnector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-4200" y="5040" width="500" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="KbaSD90ONHcpCLBhq20t-33" value="startConnector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4350" y="5045" width="140" height="20" as="geometry" />
+        <mxCell id="KbaSD90ONHcpCLBhq20t-33" value="startTask" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4350" y="5122" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-34" value="Connector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-4170" y="5115" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-35" value="WorkerConnector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-4210" y="4655" width="500" height="250" as="geometry" />
+          <mxGeometry x="-4210" y="4655" width="210" height="155" as="geometry" />
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-36" value="Connector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-4180" y="4730" width="290" height="140" as="geometry" />
+          <mxGeometry x="-4180" y="4730" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-38" value="startConnector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4360" y="4750" width="140" height="20" as="geometry" />
+          <mxGeometry x="-4360" y="4770" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-40" value="getTaskStartingCallable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-4690" y="5047.5" width="160" height="35" as="geometry" />
@@ -1564,6 +1567,15 @@
         </mxCell>
         <mxCell id="KbaSD90ONHcpCLBhq20t-42" value="tick" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-4830" y="5010" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KbaSD90ONHcpCLBhq20t-45" value="WorkerConnector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-4210" y="4830" width="210" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="KbaSD90ONHcpCLBhq20t-46" value="Connector" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-4180" y="4905" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KbaSD90ONHcpCLBhq20t-49" value="startConnector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4350" y="4885" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
