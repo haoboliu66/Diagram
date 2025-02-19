@@ -1606,8 +1606,20 @@
         <mxCell id="pJON8BN6Em-tgxXhPUfG-1" value="Kafka" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5320" y="5112" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pJON8BN6Em-tgxXhPUfG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="pJON8BN6Em-tgxXhPUfG-4" target="pJON8BN6Em-tgxXhPUfG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pJON8BN6Em-tgxXhPUfG-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="pJON8BN6Em-tgxXhPUfG-4" target="pJON8BN6Em-tgxXhPUfG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pJON8BN6Em-tgxXhPUfG-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ConsumerRecord&amp;lt;byte[], byte[]&amp;gt; msg&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3760" y="5005" width="230" height="55" as="geometry" />
+          <mxGeometry x="-3740" y="4965" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pJON8BN6Em-tgxXhPUfG-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;keyConverter&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3750" y="5080" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pJON8BN6Em-tgxXhPUfG-6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;valueConverter&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3580" y="5080" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
