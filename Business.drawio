@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
-    <mxGraphModel dx="1830" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,14 +335,44 @@
         <mxCell id="TGh3GXSSFqvr6ZzrPehk-3" value="Manual Configuration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2405" y="1350" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcL_-O9YB5p8NJPKmrt7-1" value="Phoenix API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xcL_-O9YB5p8NJPKmrt7-1" value="Phoenix API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="1540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcL_-O9YB5p8NJPKmrt7-2" value="Phoenix DB (MySQL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xcL_-O9YB5p8NJPKmrt7-2" value="Phoenix DB (MySQL)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="1630" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xcL_-O9YB5p8NJPKmrt7-3" value="Kratos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xcL_-O9YB5p8NJPKmrt7-3" value="Kratos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="45" y="1730" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE2gvTp1NSCShSF92kK6-1" target="fE2gvTp1NSCShSF92kK6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-1" value="Dot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-2" value="cronus.dot.pixel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-3" value="Cronus MSK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-440" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-5" value="DotPixelEvent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-410" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE2gvTp1NSCShSF92kK6-7" target="fE2gvTp1NSCShSF92kK6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-7" value="Dot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-8" value="cronus.dot.pixel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-9" value="PTS MSK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-270" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fE2gvTp1NSCShSF92kK6-10" value="DotPixelEvent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-240" width="87" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
