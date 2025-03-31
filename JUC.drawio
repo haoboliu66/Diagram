@@ -2691,6 +2691,9 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-1" value="条件变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="23" y="7710" width="117" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-3" value="拿到锁进入互斥区后发现条件不满足，进入等待状态。等待其它线程将条件完成后, 唤醒这个线程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="204.75" y="7720" width="198.24" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
