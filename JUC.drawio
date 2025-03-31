@@ -2709,7 +2709,7 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-7" target="DM__mxRjRRhDZYt-Zten-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-7" value="条件变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-7" value="条件变量X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="771.75" y="7680" width="91.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-8" target="DM__mxRjRRhDZYt-Zten-10">
@@ -2729,6 +2729,27 @@
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-14" value="问题2: 这个线程A需要释放锁吗? 必须释放锁, 因为是互斥锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="500" y="7760" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-17" target="DM__mxRjRRhDZYt-Zten-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-17" value="条件变量Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="772.5" y="7730" width="91.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-19" target="DM__mxRjRRhDZYt-Zten-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-19" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910.88" y="7730" width="91.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-21" target="DM__mxRjRRhDZYt-Zten-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-21" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1042.5" y="7729.36" width="91.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-22" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1173.75" y="7730" width="91.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
