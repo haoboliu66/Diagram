@@ -2815,7 +2815,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-149" value="所以在JVM的中x86的store barrier为空操作" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4345" y="3888" width="245" height="30" as="geometry" />
+          <mxGeometry x="4345" y="3888" width="245" height="22" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-150" value="如果一个CPU的ISA实现是, 在cache中的数据直接就写出去, e.g. 先写A再写B, B已经在cache中, 直接写B了, 这样就导致了写的顺序不对. 此时就需要store barrier来强制保证write order" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4332.5" y="3937" width="245" height="60" as="geometry" />
