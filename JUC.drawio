@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="7469" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7217" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1026,19 +1026,19 @@
           <mxGeometry x="3432.75" y="5139.5" width="353.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-67" value="STORE x" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4267.25" y="5005.5" width="70" height="40" as="geometry" />
+          <mxGeometry x="4349" y="5314.5" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-68" value="STORE y" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4337.25" y="5005.5" width="70" height="40" as="geometry" />
+          <mxGeometry x="4419" y="5314.5" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-69" value="Intel-64 memory-ordering model规定了, 单CPU上的write操作不会乱序; 所以Store x, Store y一定是按顺序发生;&amp;nbsp;&lt;br&gt;另一方面Intel的Store Buffer也保证: 后续的写操作要等前面的写操作执行完成, 才能执行写内存, 从而也保证了x的值一定先于y进入内存" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4227.25" y="4911" width="260" height="84.5" as="geometry" />
+          <mxGeometry x="4309" y="5220" width="260" height="84.5" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-1" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1680.32" y="3522" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-2" value="Intel CPU保证了单处理器的指令执行顺序, 在多处理器的情况下, 每个CPU指令的相对顺序不会改变 (只会出现由于并发产生的穿插执行)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4178.25" y="5066" width="321.75" height="49" as="geometry" />
+          <mxGeometry x="4260" y="5375" width="321.75" height="49" as="geometry" />
         </mxCell>
         <mxCell id="E4f6vcsmDczpbreKZe59-3" value="Cache Coherency Protocol" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3795" y="5430" width="450" height="30" as="geometry" />
