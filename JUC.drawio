@@ -1139,27 +1139,6 @@
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-58" value="间接说明:对于Intel CPU, 锁, 序列化, 和I/O指令本身具备全屏障的作用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3432.75" y="5139.5" width="353.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-60" target="wvUFbZKzVNe_2dA4ze0a-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-60" value="软件开发" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="304.12" y="3618" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-61" value="执行结果" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="557.12" y="3618" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-62" target="wvUFbZKzVNe_2dA4ze0a-61" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-66" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-62" target="wvUFbZKzVNe_2dA4ze0a-65" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-62" value="一系列指令" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="428.37" y="3598" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-65" value="CPU乱序执行指令 Or MOB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="395.37" y="3710" width="146" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-67" value="STORE x" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4267.25" y="5005.5" width="70" height="40" as="geometry" />
         </mxCell>
