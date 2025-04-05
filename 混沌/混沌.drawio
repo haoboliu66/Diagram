@@ -1817,7 +1817,7 @@
         <mxCell id="j1QBNDRpsmDq3qqT2AcP-3" value="CPL只针对code segment, 表示当前执行的code的PL, 所以它只来自CS register" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-116.25" y="1534.5" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j1QBNDRpsmDq3qqT2AcP-5" value="DPL是Descriptor的PL, 所以它一定是来自于GDT entry的内容" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="j1QBNDRpsmDq3qqT2AcP-5" value="DPL是Descriptor的PL, 所以它一定是来自于GDT/LDT entry的内容" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-116.25" y="1591.5" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
