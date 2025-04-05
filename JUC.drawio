@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6887" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7469" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1001,98 +1001,11 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-122" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2505" y="4560" width="430" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-8" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalid Buffer&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4050" y="4540" width="380" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-9" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3580" y="4545" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-10" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3580" y="4625" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-11" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3834" y="4545" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-12" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3834" y="4625" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-13" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3580" y="4583" width="170" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-14" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3834" y="4580" width="170" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-15" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3580" y="4685" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-16" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3833.5" y="4685" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-21" target="wvUFbZKzVNe_2dA4ze0a-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-21" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3750" y="4750" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-22" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3720" y="4750" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-23" value="STORE A&lt;div&gt;STORE B&lt;/div&gt;&lt;div&gt;STORE C&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3635" y="4465" width="70" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-24" value="load barrier就保证, 在LOAD A时, invalid queue会被清空, 所以当LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4050" y="4676" width="380" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-31" value="这里的data dependency barrier只保证A和B的顺序, 对C和D无效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2794.5" y="4844.5" width="171" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-32" value="e.g. Store Buffer, Load Buffer, Invalid Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="790" y="3752" width="155" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-36" target="wvUFbZKzVNe_2dA4ze0a-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-36" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="3460" y="4630" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-37" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="3430" y="4630" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-38" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="3350" y="4630" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-39" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3640" y="4750" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-43" value="LOAD C&lt;div&gt;LOAD A&lt;/div&gt;&lt;div&gt;LOAD B&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3890" y="4465" width="70" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-44" value="发布release" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3445" y="4665" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-45" value="订阅acquire" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3735" y="4795" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-47" value="初始A, B, C都等于0, 写A = 1, B = 1, C = 1; 读时, 要确保:如果C等于1, 那么A和B一定都等于1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3585" y="4435" width="475" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-48" target="wvUFbZKzVNe_2dA4ze0a-50" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-48" value="Store Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" parent="1" vertex="1">
-          <mxGeometry x="3380" y="4630" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-49" target="wvUFbZKzVNe_2dA4ze0a-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-49" value="Load Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" parent="1" vertex="1">
-          <mxGeometry x="3670" y="4750" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-50" value="确保了写操作在Store Buffer中的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3310" y="4720" width="190" height="38.5" as="geometry" />
-        </mxCell>
-        <mxCell id="wvUFbZKzVNe_2dA4ze0a-52" value="确保了CPU2在Load B时会明确知道失效自己的cache, 然后处理Invalid Queue的请求, 从而读取从CPU1同步或从内存读取最新的数据,所以CPU2会看到B和A的最新数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3627" y="4860" width="233" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="wvUFbZKzVNe_2dA4ze0a-54" target="wvUFbZKzVNe_2dA4ze0a-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
