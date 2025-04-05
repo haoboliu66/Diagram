@@ -2764,7 +2764,7 @@
           <mxGeometry x="3585" y="2896.5" width="70" height="75" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-45" value="加上load barrier就保证, 在执行LOAD A之前, invalid queue会被清空, 所以当LOAD A, LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4000" y="3107.5" width="380" height="40" as="geometry" />
+          <mxGeometry x="3765" y="3205" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-47" target="DM__mxRjRRhDZYt-Zten-37">
           <mxGeometry relative="1" as="geometry" />
