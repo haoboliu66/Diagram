@@ -2856,6 +2856,9 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-205" value="StoreBuffer的关键作用就是decoupling CPU的流水线和存储系统(memory/cache)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="4326.75" y="3546" width="273.25" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-206" value="取指（IF） → 译码（ID） → 执行（EX） → 访存（MEM） → 写回（WB）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5110" y="3471" width="380" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
