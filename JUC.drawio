@@ -2844,7 +2844,7 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-158" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4766" y="4040.5" width="430" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-202" value="流水线的写操作是指将数据从寄存器写入内存（或缓存）的指令;&amp;nbsp;&lt;br&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MOV [address] $eax,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;把%eax寄存器的值写入内存地址[address], 由于访问内存的速度远慢于寄存器操作, 因此涉及了内存访问的操作可能阻塞流水线&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-202" value="流水线的写操作是指将数据从寄存器写入memory/cache的指令;&amp;nbsp;&lt;br&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MOV [address] $eax,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;把%eax寄存器的值写入内存地址[address], 由于访问内存的速度远慢于寄存器操作, 因此涉及了内存访问的操作可能阻塞流水线&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="4944.63" y="3565.5" width="407.5" height="48" as="geometry" />
         </mxCell>
       </root>
