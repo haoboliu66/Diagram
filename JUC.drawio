@@ -29,7 +29,7 @@
           <mxGeometry x="462" y="4140" width="628" height="450" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-140" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;textShadow=0;" parent="1" vertex="1">
-          <mxGeometry x="1569" y="3522" width="1661" height="618" as="geometry" />
+          <mxGeometry x="1413" y="3521.75" width="1661" height="618" as="geometry" />
         </mxCell>
         <mxCell id="sthXmhu9q4Z8TcD6EFiC-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3143" y="6350" width="652" height="200" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1644" y="3532" width="970" height="180" as="geometry" />
+          <mxGeometry x="1488" y="3531.75" width="970" height="180" as="geometry" />
         </mxCell>
         <mxCell id="B9yCGMFFLdolYYt0oWos-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1480" y="3230" width="595" height="100" as="geometry" />
@@ -690,94 +690,94 @@
           <mxGeometry x="1291" y="3060" width="285" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-1" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1711.5" y="3652" width="320" height="40" as="geometry" />
+          <mxGeometry x="1555.5" y="3651.75" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-2" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1778" y="3562" width="61" height="42" as="geometry" />
+          <mxGeometry x="1622" y="3561.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-3" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1884" y="3562" width="61" height="42" as="geometry" />
+          <mxGeometry x="1728" y="3561.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-4" value="顺序写了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="3574" width="60" height="30" as="geometry" />
+          <mxGeometry x="1554" y="3573.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="FncKr-vtPmwALynlk0jB-5" target="FncKr-vtPmwALynlk0jB-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-5" value="不按顺序读" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1945" y="3574.5" width="86.5" height="30" as="geometry" />
+          <mxGeometry x="1789" y="3574.25" width="86.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-6" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1910.5" y="3657" width="30" height="30" as="geometry" />
+          <mxGeometry x="1754.5" y="3656.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-7" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1957.5" y="3657" width="30" height="30" as="geometry" />
+          <mxGeometry x="1801.5" y="3656.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FncKr-vtPmwALynlk0jB-8" target="FncKr-vtPmwALynlk0jB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-8" value="可能会导致某一个值无法读到最新的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2094" y="3622" width="210" height="28" as="geometry" />
+          <mxGeometry x="1938" y="3621.75" width="210" height="28" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-10" value="LOAD B操作重排序到 LOAD A 之前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2093.75" y="3582" width="210.25" height="28" as="geometry" />
+          <mxGeometry x="1937.75" y="3581.75" width="210.25" height="28" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-11" value="需要读屏障, 保证LOAD A一定发生在LOAD B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2338" y="3622" width="280" height="28" as="geometry" />
+          <mxGeometry x="2182" y="3621.75" width="280" height="28" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-13" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1643.25" y="3622" width="280" height="28" as="geometry" />
+          <mxGeometry x="1487.25" y="3621.75" width="280" height="28" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="FncKr-vtPmwALynlk0jB-16" target="-FcQdrV0vnWtqaeG2UPR-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FncKr-vtPmwALynlk0jB-16" value="以上是抽象概念. 实际在CPU中呢?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2036.5" y="3772" width="185" height="30" as="geometry" />
+          <mxGeometry x="1880.5" y="3771.75" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1604" y="3862" width="890" height="240" as="geometry" />
+          <mxGeometry x="1448" y="3861.75" width="890" height="240" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-3" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1719" y="4042" width="320" height="40" as="geometry" />
+          <mxGeometry x="1563" y="4041.75" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-4" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1784" y="3882" width="61" height="42" as="geometry" />
+          <mxGeometry x="1628" y="3881.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-5" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="3882" width="61" height="42" as="geometry" />
+          <mxGeometry x="1734" y="3881.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-6" value="CPU1顺序写了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1694" y="3922" width="84" height="30" as="geometry" />
+          <mxGeometry x="1538" y="3921.75" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-9" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1918" y="4047" width="30" height="30" as="geometry" />
+          <mxGeometry x="1762" y="4046.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-10" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1965" y="4047" width="30" height="30" as="geometry" />
+          <mxGeometry x="1809" y="4046.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-15" value="写屏障, 保证了 STORE A一定发生在STORE B 前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1614" y="4014" width="280" height="28" as="geometry" />
+          <mxGeometry x="1458" y="4013.75" width="280" height="28" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-17" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1784" y="3946" width="61" height="42" as="geometry" />
+          <mxGeometry x="1628" y="3945.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-18" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1890" y="3946" width="61" height="42" as="geometry" />
+          <mxGeometry x="1734" y="3945.75" width="61" height="42" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-19" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1775.5" y="3972" width="30" height="30" as="geometry" />
+          <mxGeometry x="1619.5" y="3971.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-20" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1822.5" y="3972" width="30" height="30" as="geometry" />
+          <mxGeometry x="1666.5" y="3971.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-21" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1882" y="3972" width="30" height="30" as="geometry" />
+          <mxGeometry x="1726" y="3971.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-22" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1929" y="3972" width="30" height="30" as="geometry" />
+          <mxGeometry x="1773" y="3971.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-23" value="Cache Coherence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1979" y="3942" width="110" height="30" as="geometry" />
+          <mxGeometry x="1823" y="3941.75" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-24" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-1681.82" y="3392" width="220" height="70" as="geometry" />
@@ -837,22 +837,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-43" value="CPU1更新了自己的cache, 如何能正确的把数据同步给CPU2的cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2097" y="3946" width="258.75" height="30" as="geometry" />
+          <mxGeometry x="1941" y="3945.75" width="258.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-44" value="1, CPU1写最新值到内存, 然后通知CPU2缓存失效, 让CPU2自己去内存读最新值&lt;br&gt;2, CPU1写最新值到内存, 并转发最新值给CPU2" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2053" y="4014" width="434" height="50" as="geometry" />
+          <mxGeometry x="1897" y="4013.75" width="434" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-55" value="写屏障和读屏障需要配对使用:&amp;nbsp;&lt;div&gt;写屏障保证了写出顺序, 读屏障保证了 数据可见&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2518.5" y="3972" width="319" height="40" as="geometry" />
+          <mxGeometry x="2362.5" y="3971.75" width="319" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-60" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-56" target="-FcQdrV0vnWtqaeG2UPR-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-56" value="实际CPU中发生的情况可能是: CPU2读到了B的最新值, 但是没有读到A的最新值。&lt;br&gt;发生这种现象的原因是: CPU2的对于A的最新值不可见, i.e A的更新操作由于cache的繁忙没有及时更新到cache中, 导致CPU2对于这个最新值不可见。造成了一种指令重排序的错觉" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2264" y="3755.75" width="444.5" height="62.5" as="geometry" />
+          <mxGeometry x="2108" y="3755.5" width="444.5" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-59" value="因此, 使用读屏障保证的是: 让CPU2的cache完成所有的更新操作(清除cache的操作队列, 保证后续无更新操作), 这样的操作就确保了更新A的操作一定落到了cache中, 对CPU2可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2754" y="3755.75" width="444.5" height="62.5" as="geometry" />
+          <mxGeometry x="2598" y="3755.5" width="444.5" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-89" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2654.25" y="5112.5" width="30" height="30" as="geometry" />
@@ -1794,7 +1794,7 @@
           <mxGeometry x="85" y="6775" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-191" value="抽象CPU模型" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#000000;labelBackgroundColor=#FFCC99;fontStyle=1;fillColor=#FFCC99;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="3482" width="120" height="80" as="geometry" />
+          <mxGeometry x="1354" y="3481.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-192" value="写入乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="953.75" y="3762" width="95" height="37" as="geometry" />
@@ -1803,7 +1803,7 @@
           <mxGeometry x="953.75" y="3828" width="95" height="37" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-196" value="CPU读数据从哪里读? 从cache中, 那么如果没有一种机制保证cache的数据更新, 是不是CPU就会读到旧数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2575" y="3840.25" width="444.5" height="38" as="geometry" />
+          <mxGeometry x="2419" y="3840" width="444.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-197" value="WAL: Write-Ahead Logging" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-613.3" y="6790" width="160" height="20" as="geometry" />
