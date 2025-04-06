@@ -2841,8 +2841,8 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-157" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="4958.38" y="3895.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-158" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4766" y="4040.5" width="430" height="62" as="geometry" />
+        <mxCell id="DM__mxRjRRhDZYt-Zten-158" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4886.5" y="4014" width="430" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-204" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-202" target="DM__mxRjRRhDZYt-Zten-203">
           <mxGeometry relative="1" as="geometry" />
