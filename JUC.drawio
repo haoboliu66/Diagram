@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6710" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7469" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -854,69 +854,6 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-59" value="因此, 使用读屏障保证的是: 让CPU2的cache完成所有的更新操作(清除cache的操作队列, 保证后续无更新操作), 这样的操作就确保了更新A的操作一定落到了cache中, 对CPU2可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2754" y="3755.75" width="444.5" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-61" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2774" y="4302" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-64" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2774" y="4382" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-67" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2774" y="4502" width="490" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-68" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3094" y="4302" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-69" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3094" y="4382" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-71" value="MESI规则: 写变量时, 若缓存行中不存在改变量, 那么需要将该值先从内存中载入缓存行, 才能写入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3274" y="4382" width="480" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-72" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2774" y="4351" width="170" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-76" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-73" target="-FcQdrV0vnWtqaeG2UPR-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-73" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2668.5" y="4187" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-77" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-74" target="-FcQdrV0vnWtqaeG2UPR-75" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-74" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2823.5" y="4187" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-75" target="-FcQdrV0vnWtqaeG2UPR-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-75" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2973" y="4187" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-78" value="避免流水线由于写操作阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2895.5" y="4247" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-80" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2995" y="4142" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-81" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="3042" y="4142" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-82" value="引入StoreBuffer异步操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3029.5" y="4247" width="134.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-83" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3093.5" y="4352" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-84" value="Invalid&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2774" y="4442" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-123" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-85" target="-FcQdrV0vnWtqaeG2UPR-122" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-85" value="Invalid&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3093.5" y="4442" width="170" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-89" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2654.25" y="5112.5" width="30" height="30" as="geometry" />
         </mxCell>
@@ -949,57 +886,6 @@
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-100" value="假设变量 a b c d&lt;br style=&quot;font-size: 12px;&quot;&gt;在Intel CPU中, 使用putOrdered保证a b c写入顺序(Release), 当访问了volatile变量d时, 会加上lock操作, 根据手册的内容, 将会把可能存在于store buffer中的变量按顺序刷出, 由于intel的store buffer不会发生乱序现象, 所以membar_release也即空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3862" y="5221.75" width="408" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-101" value="如果这个流水线发生写操作阻塞, 整个流水线就被阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3093.5" y="4182" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-104" value="如果A在cache中, A直接写入cache&lt;br&gt;B不在cache中, B暂存到store buffer, 从内存中加载B到缓存行, 再把B从store buffer写出去" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2489" y="4292" width="225" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-105" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2969" y="4310" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-106" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="3015.5" y="4310" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-107" value="按顺序写A和B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2388" y="4347" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-109" value="如果A不在cache中, B在cache中, A和B都暂存到store buffer(不会直接写B), 从内存中加载A到缓存行, 再把A和B从store buffer写出去; 这A和B一起等的操作是Intel CPU的特性, 保证了写的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2487" y="4362" width="245" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-110" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-107" target="-FcQdrV0vnWtqaeG2UPR-107" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-111" value="所以在JVM的中x86的store barrier为空操作" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2499" y="4439.5" width="245" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-112" value="如果一个CPU的ISA实现是, 在cache中的数据直接就写出去, e.g. 先写A再写B, B已经在cache中, 直接写B了, 这样就导致了写的顺序不对. 此时就需要store barrier来强制保证write order" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2479" y="4532" width="245" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-116" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-113" target="-FcQdrV0vnWtqaeG2UPR-115" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-113" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3274" y="4437" width="410" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-115" value="Invalidation Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3514" y="4522" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-117" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2909" y="4447" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-118" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2952.75" y="4447" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-119" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3057.63" y="4447" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-120" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="3101.38" y="4447" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-FcQdrV0vnWtqaeG2UPR-122" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读的乱序, 需要load barrier来限制; 在Intel CPU中, 这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="2909" y="4592" width="430" height="62" as="geometry" />
         </mxCell>
         <mxCell id="wvUFbZKzVNe_2dA4ze0a-31" value="这里的data dependency barrier只保证A和B的顺序, 对C和D无效" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2578.75" y="5160.5" width="171" height="40" as="geometry" />
