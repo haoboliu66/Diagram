@@ -2853,8 +2853,8 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-203" value="为什么写cache也会慢?&amp;nbsp;&lt;br&gt;1. cache miss, 需要从底层存储拉取数据&lt;div&gt;2. MESI/MOESI的缓存一致性数据同步开销&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="5380" y="3565.5" width="218" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-205" value="StoreBuffer的关键作用就是decoupling CPU的计算模块(流水线)和存储系统(memory/cache)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="4326.75" y="3546" width="313.25" height="34" as="geometry" />
+        <mxCell id="DM__mxRjRRhDZYt-Zten-205" value="StoreBuffer的关键作用就是decoupling CPU的流水线和存储系统(memory/cache)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4326.75" y="3546" width="273.25" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
