@@ -2617,7 +2617,7 @@
           <mxGeometry x="3457" y="4300.5" width="1400" height="558" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-120" value="Store Buffer &amp;amp; Invalidation Queue" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="3397" y="4265.5" width="150" height="83" as="geometry" />
+          <mxGeometry x="3394" y="4265.5" width="150" height="83" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-121" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="3858" y="4519" width="170" height="80" as="geometry" />
@@ -2750,6 +2750,9 @@
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-208" value="屏障指令是如何保证MOB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2358.25" y="4977.5" width="267" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-210" target="DM__mxRjRRhDZYt-Zten-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-210" value="为什么多CPU会有数据不可见的现象?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3347.62" y="3977.25" width="242.38" height="32.75" as="geometry" />
