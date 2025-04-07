@@ -843,7 +843,7 @@
           <mxGeometry x="2696" y="4058.25" width="434" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-55" value="写屏障和读屏障需要配对使用:&amp;nbsp;&lt;div&gt;写屏障保证了写出顺序, 读屏障保证了 数据可见&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="3161.5" y="4016.25" width="319" height="40" as="geometry" />
+          <mxGeometry x="2976.5" y="4094.75" width="319" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-60" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-56" target="-FcQdrV0vnWtqaeG2UPR-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1802,6 +1802,9 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-193" value="读取乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="953.75" y="3828" width="95" height="37" as="geometry" />
         </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-212" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-196" target="DM__mxRjRRhDZYt-Zten-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-196" value="CPU读数据从哪里读? 从cache中, 那么如果没有一种机制保证cache的数据更新, 是不是CPU就会读到旧数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3218" y="3884.5" width="444.5" height="38" as="geometry" />
         </mxCell>
@@ -2749,7 +2752,7 @@
           <mxGeometry x="2358.25" y="4977.5" width="267" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-210" value="为什么CPU之间数据会不可见?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3567" y="3998.5" width="185.25" height="33.75" as="geometry" />
+          <mxGeometry x="3347.62" y="3977.25" width="185.25" height="33.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
