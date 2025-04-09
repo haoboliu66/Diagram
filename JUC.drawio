@@ -2748,8 +2748,8 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-207" value="流水线中流的是什么:&amp;nbsp;取指（IF） → 译码（ID） → 执行（EX） → 访存（MEM） → 写回（WB）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4167" y="4261.5" width="478" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-208" value="屏障指令是如何保证MOB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2358.25" y="4977.5" width="267" height="20" as="geometry" />
+        <mxCell id="DM__mxRjRRhDZYt-Zten-208" value="屏障指令是如何避免MOB乱序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3345.75" y="4923.5" width="203" height="26.5" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-210" target="DM__mxRjRRhDZYt-Zten-120">
           <mxGeometry relative="1" as="geometry" />
