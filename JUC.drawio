@@ -2524,7 +2524,7 @@
           <mxGeometry x="3638.88" y="4989.12" width="1167" height="510" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-31" value="Release &amp;amp; Acquire" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="3587.63" y="4959.12" width="120" height="80" as="geometry" />
+          <mxGeometry x="3588.63" y="4959.12" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-32" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalidation queue&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4385.88" y="5100.62" width="380" height="115" as="geometry" />
@@ -2753,6 +2753,9 @@
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-210" value="为什么多CPU/SMP会有数据不可见的现象?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
           <mxGeometry x="3347.62" y="3977.25" width="242.38" height="32.75" as="geometry" />
+        </mxCell>
+        <mxCell id="DM__mxRjRRhDZYt-Zten-217" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-215" target="DM__mxRjRRhDZYt-Zten-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-215" value="如何避免MOB导致的乱序?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
           <mxGeometry x="3568.75" y="4793.75" width="161.25" height="32.75" as="geometry" />
