@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="7005" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8962" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -833,7 +833,7 @@
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-40" value="alias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1578.82" y="3670" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-43" target="-FcQdrV0vnWtqaeG2UPR-44">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-43" target="-FcQdrV0vnWtqaeG2UPR-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-FcQdrV0vnWtqaeG2UPR-43" value="CPU1更新了自己的cache, 如何能正确的把数据同步给CPU2的cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -1802,7 +1802,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-193" value="读取乱序" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="953.75" y="3828" width="95" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-212" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-196" target="DM__mxRjRRhDZYt-Zten-210">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-212" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-196" target="DM__mxRjRRhDZYt-Zten-210" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-196" value="CPU读数据从哪里读? 从cache中, 那么如果没有一种机制保证cache的数据更新, 是不是CPU就会读到旧数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -2442,328 +2442,328 @@
         <mxCell id="l8XCwNJ57m56pEhpH9Ja-199" value="存疑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-5480" y="8530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-1" target="DM__mxRjRRhDZYt-Zten-3">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DM__mxRjRRhDZYt-Zten-1" target="DM__mxRjRRhDZYt-Zten-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-1" value="条件变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-1" value="条件变量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="23" y="7710" width="117" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-3" target="DM__mxRjRRhDZYt-Zten-5">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="DM__mxRjRRhDZYt-Zten-3" target="DM__mxRjRRhDZYt-Zten-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-3" target="DM__mxRjRRhDZYt-Zten-14">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-3" target="DM__mxRjRRhDZYt-Zten-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-3" value="线程A拿到锁进入互斥区后发现条件不满足，进入等待状态。等待其它线程将条件完成后, 唤醒这个线程A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-3" value="线程A拿到锁进入互斥区后发现条件不满足，进入等待状态。等待其它线程将条件完成后, 唤醒这个线程A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="214.53" y="7710" width="198.24" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-5" value="问题1: 这个线程A去哪里等待? 单独的等待队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-5" value="问题1: 这个线程A去哪里等待? 单独的等待队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="500" y="7680" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-7" target="DM__mxRjRRhDZYt-Zten-8">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-7" target="DM__mxRjRRhDZYt-Zten-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-7" value="条件变量X" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-7" value="条件变量X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="771.75" y="7680" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-8" target="DM__mxRjRRhDZYt-Zten-10">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-8" target="DM__mxRjRRhDZYt-Zten-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-8" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-8" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910.13" y="7680" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-10" target="DM__mxRjRRhDZYt-Zten-12">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-10" target="DM__mxRjRRhDZYt-Zten-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-10" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-10" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1041.75" y="7679.36" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-12" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-12" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1173" y="7680" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-14" value="问题2: 这个线程A需要释放锁吗? 必须释放锁, 因为是互斥锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-14" value="问题2: 这个线程A需要释放锁吗? 必须释放锁, 因为是互斥锁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="500" y="7760" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-17" target="DM__mxRjRRhDZYt-Zten-19">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-17" target="DM__mxRjRRhDZYt-Zten-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-17" value="条件变量Y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-17" value="条件变量Y" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="772.5" y="7730" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-19" target="DM__mxRjRRhDZYt-Zten-21">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-19" target="DM__mxRjRRhDZYt-Zten-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-19" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-19" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910.88" y="7730" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-21" target="DM__mxRjRRhDZYt-Zten-22">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-21" target="DM__mxRjRRhDZYt-Zten-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-21" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-21" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1042.5" y="7729.36" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-22" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-22" value="thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1173.75" y="7730" width="91.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-23" value="condition queues or condition variables" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-23" value="condition queues or condition variables" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-5" y="7679.36" width="195" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-24" target="sthXmhu9q4Z8TcD6EFiC-133">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-24" target="sthXmhu9q4Z8TcD6EFiC-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-24" target="sthXmhu9q4Z8TcD6EFiC-142">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-24" target="sthXmhu9q4Z8TcD6EFiC-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-24" value="乱序执行" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-24" value="乱序执行" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-120" y="4011" width="160" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="-FcQdrV0vnWtqaeG2UPR-6" target="-FcQdrV0vnWtqaeG2UPR-15">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="-FcQdrV0vnWtqaeG2UPR-6" target="-FcQdrV0vnWtqaeG2UPR-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-30" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-30" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3638.88" y="4989.12" width="1167" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-31" value="Memory Barriers&lt;br&gt;Release &amp;amp; Acquire" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-31" value="Memory Barriers&lt;br&gt;Release &amp;amp; Acquire" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="3588.63" y="4959.12" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-32" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalidation queue&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-32" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalidation queue&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4385.88" y="5100.62" width="380" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-33" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-33" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3915.88" y="5105.62" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-34" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-34" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3915.88" y="5185.62" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-35" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-35" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4169.88" y="5105.62" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-36" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-36" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4169.88" y="5185.62" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-37" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-37" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3915.88" y="5153.62" width="170" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-38" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-38" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4169.88" y="5150.62" width="170" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-39" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-39" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="3915.88" y="5245.62" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-40" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-40" value="Invalid Queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4169.38" y="5245.62" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-42" target="DM__mxRjRRhDZYt-Zten-40">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-42" target="DM__mxRjRRhDZYt-Zten-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-42" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-42" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4085.88" y="5310.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-43" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-43" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4055.88" y="5310.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-44" value="STORE A&lt;div&gt;STORE B&lt;/div&gt;&lt;div&gt;STORE C&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-44" value="STORE A&lt;div&gt;STORE B&lt;/div&gt;&lt;div&gt;STORE C&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3970.88" y="5025.62" width="70" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-45" value="加上Load Barrier就保证, 在执行LOAD A之前, invalid queue会被清空, 所以当LOAD A, LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-45" value="加上Load Barrier就保证, 在执行LOAD A之前, invalid queue会被清空, 所以当LOAD A, LOAD B时, 一定会拿到新值" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4140.88" y="5350.62" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-47" target="DM__mxRjRRhDZYt-Zten-37">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-47" target="DM__mxRjRRhDZYt-Zten-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-47" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-47" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3795.88" y="5190.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-48" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-48" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3765.88" y="5190.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-49" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-49" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3685.88" y="5190.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-50" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-50" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="3975.88" y="5310.62" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-51" value="LOAD C&lt;div&gt;LOAD A&lt;/div&gt;&lt;div&gt;LOAD B&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-51" value="LOAD C&lt;div&gt;LOAD A&lt;/div&gt;&lt;div&gt;LOAD B&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4225.88" y="5025.62" width="70" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-52" value="发布release" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-52" value="发布release" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3780.88" y="5225.62" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-53" value="订阅acquire" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-53" value="订阅acquire" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4070.88" y="5355.62" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-54" value="初始A, B, C都等于0, 写A = 1, B = 1, C = 1; 读时, 要确保:如果C等于1, 那么A和B一定都等于1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-54" value="初始A, B, C都等于0, 写A = 1, B = 1, C = 1; 读时, 要确保:如果C等于1, 那么A和B一定都等于1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3920.88" y="4995.62" width="475" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-56" target="DM__mxRjRRhDZYt-Zten-59">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-56" target="DM__mxRjRRhDZYt-Zten-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-56" value="Store Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-56" value="Store Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="3715.88" y="5190.62" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-58" target="DM__mxRjRRhDZYt-Zten-60">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-58" target="DM__mxRjRRhDZYt-Zten-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-58" value="Load Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-58" value="Load Barrier" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="4005.88" y="5310.62" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-59" value="确保了写操作在Store Buffer中的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-59" value="确保了写操作在Store Buffer中的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3645.88" y="5280.62" width="190" height="38.5" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-60" value="确保了CPU2在Load B时会明确知道失效自己的cache, 然后处理Invalid Queue的请求, 从而读取从CPU1同步或从内存读取最新的数据,所以CPU2会看到B和A的最新数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-60" value="确保了CPU2在Load B时会明确知道失效自己的cache, 然后处理Invalid Queue的请求, 从而读取从CPU1同步或从内存读取最新的数据,所以CPU2会看到B和A的最新数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3962.88" y="5420.62" width="233" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-61" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-61" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3457" y="4300.5" width="1400" height="558" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-120" value="Store Buffer &amp;amp; Invalidation Queue" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-120" value="Store Buffer &amp;amp; Invalidation Queue" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;labelBackgroundColor=none;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="3394" y="4265.5" width="150" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-121" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-121" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3858" y="4519" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-122" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-122" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3858" y="4599" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-123" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-123" value="Memory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3858" y="4719" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-124" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-124" value="CPU2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4178" y="4519" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-125" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-125" value="Cache Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4178" y="4599" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-126" value="MESI规则: 写变量时, 若缓存行中不存在改变量, 那么需要将该值先从内存中载入缓存行, 才能写入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-126" value="MESI规则: 写变量时, 若缓存行中不存在改变量, 那么需要将该值先从内存中载入缓存行, 才能写入" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4377" y="4438.5" width="480" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-127" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-127" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3858" y="4568" width="170" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-128" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-129" target="DM__mxRjRRhDZYt-Zten-131">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-128" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-129" target="DM__mxRjRRhDZYt-Zten-131" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-129" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-129" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3766.5" y="4405" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-130" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-131" target="DM__mxRjRRhDZYt-Zten-133">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-130" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-131" target="DM__mxRjRRhDZYt-Zten-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-131" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-131" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3913.5" y="4404" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-132" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-133" target="DM__mxRjRRhDZYt-Zten-127">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-132" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DM__mxRjRRhDZYt-Zten-133" target="DM__mxRjRRhDZYt-Zten-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-133" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-133" value="流水线节点" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4057" y="4404" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-134" value="避免流水线由于写操作阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-134" value="避免流水线由于写操作阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3979.5" y="4464" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-135" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-135" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4079" y="4359" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-136" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-136" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4126" y="4359" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-137" value="引入StoreBuffer异步操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-137" value="引入StoreBuffer异步操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4113.5" y="4464" width="134.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-138" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-138" value="Store Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4177.5" y="4569" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-139" value="Invalidation&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-139" value="Invalidation&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3858" y="4659" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-140" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-141" target="DM__mxRjRRhDZYt-Zten-158">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-140" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-141" target="DM__mxRjRRhDZYt-Zten-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-141" value="Invalidation&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-141" value="Invalidation&amp;nbsp;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Queue&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4177.5" y="4659" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-142" value="如果这个流水线发生写操作阻塞, 整个流水线就被阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-142" value="如果这个流水线发生写操作阻塞, 整个流水线就被阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4185.38" y="4398.5" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-143" value="1. 如果A在cache中, A直接写进cache更新&lt;br&gt;B不在cache中, B暂存到store buffer, 从内存中加载B到缓存行, 再把B从store buffer写出去" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-143" value="1. 如果A在cache中, A直接写进cache更新&lt;br&gt;B不在cache中, B暂存到store buffer, 从内存中加载B到缓存行, 再把B从store buffer写出去" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3567" y="4510.5" width="225" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-144" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-144" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4053" y="4527" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-145" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-145" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4099.5" y="4527" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-146" value="要求: 按顺序写A和B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-146" value="要求: 按顺序写A和B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3616.5" y="4468.5" width="121" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-147" value="2. 如果A不在cache中, B在cache中, A和B都暂存到store buffer(不会直接写B), 从内存中加载A到缓存行, 再把A和B从store buffer写出去; 这里A和B一起等的操作是Intel CPU的特性, 保证了写的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-147" value="2. 如果A不在cache中, B在cache中, A和B都暂存到store buffer(不会直接写B), 从内存中加载A到缓存行, 再把A和B从store buffer写出去; 这里A和B一起等的操作是Intel CPU的特性, 保证了写的顺序" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3567" y="4567.5" width="245" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-148" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-146" target="DM__mxRjRRhDZYt-Zten-146">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-148" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-146" target="DM__mxRjRRhDZYt-Zten-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-149" value="所以在JVM的中x86的store barrier为空操作" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-149" value="所以在JVM的中x86的store barrier为空操作" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3572" y="4656.5" width="245" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-150" value="如果一个CPU的ISA实现是, 在cache中的数据直接就写出去, e.g. 先写A再写B, B已经在cache中, 直接写B了, 这样就导致了写的顺序不对. 此时就需要store barrier来强制保证write order" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-150" value="如果一个CPU的ISA实现是, 在cache中的数据直接就写出去, e.g. 先写A再写B, B已经在cache中, 直接写B了, 这样就导致了写的顺序不对. 此时就需要store barrier来强制保证write order" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3563.75" y="4699.5" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-151" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-152" target="DM__mxRjRRhDZYt-Zten-153">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-151" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-152" target="DM__mxRjRRhDZYt-Zten-153" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-152" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-152" value="MESI是一种cache coherency protocol, 那么2个cache之间通信是不是需要队列?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4417" y="4468.5" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-153" value="Invalidation Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-153" value="Invalidation Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4552" y="4532" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-154" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-154" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="3993" y="4664" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-155" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-155" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4036.75" y="4664" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-156" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-156" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4141.63" y="4664" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-157" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-157" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4181.75" y="4664" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-158" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读乱序, 需要load barrier来限制; Intel CPU保证了这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-158" value="当CPU2在Invalid Queue中暂存了CPU1发来的数据, CPU2从里面取值的时候有没有可能是乱序的? 如果允许乱序, 那么就发生了读乱序, 需要load barrier来限制; Intel CPU保证了这个Invalid Queue的读取也是有序的, 所以JVM x86的load barrier也为空操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4113.5" y="4775.25" width="430" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-204" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-202" target="DM__mxRjRRhDZYt-Zten-203">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-204" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-202" target="DM__mxRjRRhDZYt-Zten-203" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-202" value="流水线的写操作是指将数据从寄存器写入memory/cache的指令;&amp;nbsp;&lt;br&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MOV [address] $eax,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;把%eax寄存器的值写入内存地址[address], 由于访问内存的速度远慢于寄存器操作, 因此涉及了内存访问的操作可能阻塞流水线&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-202" value="流水线的写操作是指将数据从寄存器写入memory/cache的指令;&amp;nbsp;&lt;br&gt;e.g.&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;MOV [address] $eax,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;把%eax寄存器的值写入内存地址[address], 由于访问内存的速度远慢于寄存器操作, 因此涉及了内存访问的操作可能阻塞流水线&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="4171.63" y="4334" width="407.5" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-203" value="为什么写cache也会慢?&amp;nbsp;&lt;br&gt;1. cache miss, 需要从底层存储拉取数据&lt;div&gt;2. MESI/MOESI的缓存一致性数据同步开销&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-203" value="为什么写cache也会慢?&amp;nbsp;&lt;br&gt;1. cache miss, 需要从底层存储拉取数据&lt;div&gt;2. MESI/MOESI的缓存一致性数据同步开销&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="4607" y="4334" width="218" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-205" value="StoreBuffer的关键作用就是decoupling CPU的流水线和存储系统(memory/cache)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-205" value="StoreBuffer的关键作用就是decoupling CPU的流水线和存储系统(memory/cache)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF3333;labelBackgroundColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3553.75" y="4314.5" width="273.25" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-207" value="流水线中流的是什么:&amp;nbsp;取指（IF） → 译码（ID） → 执行（EX） → 访存（MEM） → 写回（WB）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-207" value="流水线中流的是什么:&amp;nbsp;取指（IF） → 译码（ID） → 执行（EX） → 访存（MEM） → 写回（WB）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4167" y="4261.5" width="478" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-210" target="DM__mxRjRRhDZYt-Zten-120">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-210" target="DM__mxRjRRhDZYt-Zten-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-210" value="为什么多CPU/SMP会有数据不可见的现象?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-210" value="为什么多CPU/SMP会有数据不可见的现象?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="3347.62" y="3977.25" width="242.38" height="32.75" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-217" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="DM__mxRjRRhDZYt-Zten-215" target="DM__mxRjRRhDZYt-Zten-31">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-217" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="DM__mxRjRRhDZYt-Zten-215" target="DM__mxRjRRhDZYt-Zten-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-215" value="如何避免MOB导致的乱序?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-215" value="如何避免MOB导致的乱序?&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="3568.75" y="4793.75" width="161.25" height="32.75" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-218" value="MOB: Memory Order Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-218" value="MOB: Memory Order Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3538.5" y="4265.5" width="155" height="29.5" as="geometry" />
         </mxCell>
-        <mxCell id="DM__mxRjRRhDZYt-Zten-221" value="MOB乱序是一种伪乱序, pseudo out-of-order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="DM__mxRjRRhDZYt-Zten-221" value="MOB乱序是一种伪乱序, pseudo out-of-order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3656.5" y="4899" width="220" height="19" as="geometry" />
         </mxCell>
       </root>
