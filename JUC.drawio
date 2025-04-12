@@ -1508,7 +1508,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-60" target="51N8JspCCHDJ9Vv9rA9t-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="51N8JspCCHDJ9Vv9rA9t-60" value="如果是由于MOB导致的短暂visibility问题, 那么总有一刻, 这个更新值会被CPU同步并可见, 导致循环退出, 但实际情况并不是这样" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="51N8JspCCHDJ9Vv9rA9t-60" value="如果是由于MOB导致的短暂visibility问题, 那么总有一刻, 这个更新值会被CPU同步并可见, 导致循环退出, 但实际代码显示循环并不会终止" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="399.56" y="5148.5" width="297" height="48.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-62" value="volatile可以阻止编译器优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
