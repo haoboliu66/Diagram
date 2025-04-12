@@ -468,6 +468,9 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-17" value="隔离屏障两边的指令, 使他们满足该屏障所能保证的意义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1298.5" y="3112.5" width="285" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="l3UwXptOw589rrdLnqUV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-20" target="99BcAxhjOU1GVthHqTRR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-20" value="那么有哪几种屏障, 某种屏障要保证的意义是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1306" y="3172.5" width="270" height="30" as="geometry" />
         </mxCell>
@@ -481,7 +484,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-1" value="Memory Barrier&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1395" y="3268.25" width="106" height="30" as="geometry" />
+          <mxGeometry x="1388" y="3268.25" width="106" height="30" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-2" value="store barriers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1631" y="3210.75" width="100" height="30" as="geometry" />
