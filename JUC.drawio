@@ -490,7 +490,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-4" value="保证2个或2组写操作的相对顺序, store barrier之后的写指令不会重排序到barrier前的写指令之前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1741" y="3203.25" width="474" height="45" as="geometry" />
+          <mxGeometry x="1737" y="3210.75" width="474" height="26.75" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-6" value="前提: 所有的内存操作指令, 等价于向内存提交一组 操作序列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="2340" y="3298.25" width="310" height="30" as="geometry" />
@@ -520,7 +520,7 @@
           <mxGeometry x="1738.5" y="3270.75" width="80" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-17" value="同时保证读和写" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1736" y="3325.75" width="100" height="30" as="geometry" />
+          <mxGeometry x="1737" y="3324.75" width="89" height="24.25" as="geometry" />
         </mxCell>
         <mxCell id="99BcAxhjOU1GVthHqTRR-18" value="虚拟地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1582.32" y="3010" width="100" height="30" as="geometry" />
