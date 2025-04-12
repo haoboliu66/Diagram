@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6682" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6887" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1376,7 +1376,7 @@
           <mxGeometry x="861" y="4444.5" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-4" value="#define barrier() __asm__ __volatile__(&quot;&quot;: : :&quot;memory&quot;)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="638" y="4545" width="313" height="30" as="geometry" />
+          <mxGeometry x="650" y="4545" width="301" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-6" value="#define ACCESS_ONCE(x) (*(volatile typeof(x) *)&amp;amp;(x))&lt;br&gt;限制单个变量: &quot;don&#39;t optimize or reorder accesses to this variable&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="963.5" y="4545" width="294" height="65" as="geometry" />
