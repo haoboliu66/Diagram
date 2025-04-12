@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="7574" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6887" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,19 +407,19 @@
           <mxGeometry x="915" y="2615" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-1" value="简化了重排序的行为, 告诉Java开发者编码规则, 至于底层怎么实现是JVM开发者的问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1693" y="2050" width="310" height="30" as="geometry" />
+          <mxGeometry x="1472.12" y="2070" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-2" target="AeaUYEnInn6TyFFDgCMk-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-2" value="JMM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1549" y="2050" width="100" height="30" as="geometry" />
+          <mxGeometry x="1328.12" y="2070" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-4" target="AeaUYEnInn6TyFFDgCMk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-4" value="Java" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1549" y="1990" width="100" height="30" as="geometry" />
+          <mxGeometry x="1328.12" y="2010" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="AeaUYEnInn6TyFFDgCMk-8" edge="1">
           <mxGeometry relative="1" as="geometry">
