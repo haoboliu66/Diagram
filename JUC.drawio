@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6701" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7430" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,7 +468,7 @@
         <mxCell id="AeaUYEnInn6TyFFDgCMk-17" value="隔离屏障两边的指令, 使他们满足该屏障所能保证的意义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1298.5" y="3112.5" width="285" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l3UwXptOw589rrdLnqUV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AeaUYEnInn6TyFFDgCMk-20" target="99BcAxhjOU1GVthHqTRR-1">
+        <mxCell id="l3UwXptOw589rrdLnqUV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AeaUYEnInn6TyFFDgCMk-20" target="99BcAxhjOU1GVthHqTRR-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AeaUYEnInn6TyFFDgCMk-20" value="那么有哪几种屏障, 某种屏障要保证的意义是什么?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -1487,7 +1487,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-54" target="51N8JspCCHDJ9Vv9rA9t-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l3UwXptOw589rrdLnqUV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-54" target="51N8JspCCHDJ9Vv9rA9t-60">
+        <mxCell id="l3UwXptOw589rrdLnqUV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-54" target="51N8JspCCHDJ9Vv9rA9t-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-54" value="在C语言中, 编译器可能会把while (a == 1) {} 这样一个循环直接优化为一直跳转同一个地址, 所以可能吧不会探查到a值的改变, 从而进入死循环" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -2763,10 +2763,10 @@
         <mxCell id="DM__mxRjRRhDZYt-Zten-221" value="MOB乱序是一种伪乱序, pseudo out-of-order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3539.5" y="4900" width="220" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="l3UwXptOw589rrdLnqUV-3" value="JUC 24末尾, 25, 26, 27节前32分钟" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l3UwXptOw589rrdLnqUV-3" value="JUC 24末尾, 25, 26, 27节前32分钟" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-99" y="7860" width="819" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l3UwXptOw589rrdLnqUV-5" value="讲Phaser, 暂时跳过了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="l3UwXptOw589rrdLnqUV-5" value="讲Phaser, 暂时跳过了" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="426.76" y="7859" width="133.24" height="30" as="geometry" />
         </mxCell>
       </root>
