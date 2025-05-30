@@ -2841,6 +2841,9 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="644.44" y="8495" width="590" height="315" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-27" target="z0-3DGJtZe6IUBfdnEUH-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-27" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="683.44" y="8600" width="89" height="30" as="geometry" />
         </mxCell>
@@ -2891,6 +2894,9 @@
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-54" value="pthread_key_create" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="813" y="8140" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-57" value="new ThreadLocal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="813.51" y="8540" width="98.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
