@@ -2784,9 +2784,6 @@
         <mxCell id="0rAbNqzXrZ-xOfHa14O5-5" value="类比 Linux的per_cpu_data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="83.23" y="8040.25" width="176.77" height="19.5" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-2" target="z0-3DGJtZe6IUBfdnEUH-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-2" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="679.44" y="8210" width="89" height="30" as="geometry" />
         </mxCell>
@@ -2830,10 +2827,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-18" value="TSD key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="834.44" y="8172" width="60" height="30" as="geometry" />
+          <mxGeometry x="833.5" y="8195" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-19" value="TSD area 的索引index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="826.19" y="8235" width="76.5" height="50" as="geometry" />
+          <mxGeometry x="825.25" y="8255" width="76.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-21" value="TSD每个线程私有, 线程创建时初始化为一个void* 数组, 需要使用某个slot时, 创建一个对应的TSD key, 把需要存储的数据填入slot即可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1029.44" y="8225.94" width="200" height="55" as="geometry" />
@@ -2890,7 +2887,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-54" value="pthread_key_create" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="813.94" y="8117" width="101" height="30" as="geometry" />
+          <mxGeometry x="813" y="8140" width="101" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
