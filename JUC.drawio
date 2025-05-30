@@ -2826,8 +2826,11 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-18" value="TSD key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="894" y="8192" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-19" value="TSD area 的索引下表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-19" value="TSD area 的索引index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="885.75" y="8255" width="76.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-21" value="TSD每个线程私有, 线程创建时初始化为一个void* 数组, 需要使用某个slot时, 创建一个对应的TSD key, 把需要存储的数据填入slot即可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="8245.94" width="200" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
