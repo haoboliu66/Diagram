@@ -2895,8 +2895,14 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-54" value="pthread_key_create" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="813" y="8140" width="101" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-57" target="z0-3DGJtZe6IUBfdnEUH-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-57" value="new ThreadLocal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="814.25" y="8538.44" width="98.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-59" value="Map key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="833.5" y="8600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
