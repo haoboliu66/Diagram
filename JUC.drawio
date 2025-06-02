@@ -2913,6 +2913,9 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-77" value="Weak Reference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="111.2" y="8840" width="98.8" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-78" value="GC时, JVM回收强引用后, 无法获取足够的空间, 就回收SoftReference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="356.45" y="8787.5" width="191.37" height="32.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
