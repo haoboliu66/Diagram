@@ -2958,7 +2958,7 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-91" target="z0-3DGJtZe6IUBfdnEUH-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-91" value="Reference-handler Thread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-91" value="ReferenceHandler Thread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="300" y="9090" width="164.45" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-92" value="为什么需要额外的线程? 让GC线程尽可能完成少部分工作, 尽早退出GC过程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
