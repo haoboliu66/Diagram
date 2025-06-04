@@ -2908,7 +2908,7 @@
           <mxGeometry x="242.13" y="8790" width="97.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-76" value="需求 决定 实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="180.89" y="8743.44" width="97.87" height="30" as="geometry" />
+          <mxGeometry x="233.63" y="8760.5" width="97.87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-77" value="Weak Reference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="111.2" y="8840" width="98.8" height="30" as="geometry" />
@@ -2978,6 +2978,15 @@
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-100" value="队列的操作使用头插法, 类似stack的行为, 头插头取, 有利于提高CPU缓存命中率" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="369" y="9240" width="284.94" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-101" target="z0-3DGJtZe6IUBfdnEUH-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-101" value="String Reference" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="111.2" y="8738" width="98.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-102" value="new关键字; 若引用能通过GC root标记, 那么不能被回收" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="293.63" y="8708" width="186.37" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
