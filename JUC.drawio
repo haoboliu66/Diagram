@@ -3018,6 +3018,9 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-113" value="如果一个thread在栈上malloc分配一块内存然后没释放, 发生内存泄漏, 由于线程的所属进程还在占用同一片地址空间, 所以当这个thread死亡时, OS不会回收这块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1823" y="8380" width="260" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-115" value="当Java Thread死亡, 线程空间被回收, 线程对应的ThreadLocalMap也被回收, 所以对应的内存空间也会被释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="8448.44" width="181" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
