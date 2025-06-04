@@ -3018,7 +3018,7 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-109" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-105" target="z0-3DGJtZe6IUBfdnEUH-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-113" value="如果一个thread在栈上malloc分配一块内存然后没释放, 会发生内存泄漏, 但是当这个进程死亡时, OS会回收这块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-113" value="如果一个thread在栈上malloc分配一块内存然后没释放, 发生内存泄漏, 由于线程的所属进程还在占用同一片地址空间, 所以当这个thread死亡时, OS不会回收这块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1755" y="8380" width="260" height="40" as="geometry" />
         </mxCell>
       </root>
