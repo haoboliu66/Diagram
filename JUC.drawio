@@ -2988,6 +2988,39 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-102" value="new关键字; 若引用能通过GC root标记, 那么不能被回收" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="293.63" y="8708" width="186.37" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-104" value="ThreadLocal set数据之后如果不remove, 会发生内存泄露吗?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="8440" width="214" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-110" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-105" target="z0-3DGJtZe6IUBfdnEUH-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-111" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-105" target="z0-3DGJtZe6IUBfdnEUH-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-105" value="类比C语言" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="8360" width="55.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-106" value="如果一个process在栈上malloc分配一块内存然后没释放, 会发生内存泄漏, 但是当这个进程死亡时, OS会回收这块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="8315" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-112" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-107" target="z0-3DGJtZe6IUBfdnEUH-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-107" value="Process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="8330" width="55.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-114" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-108" target="z0-3DGJtZe6IUBfdnEUH-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-108" value="Thread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="8372.5" width="55.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-109" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-105" target="z0-3DGJtZe6IUBfdnEUH-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-113" value="如果一个thread在栈上malloc分配一块内存然后没释放, 会发生内存泄漏, 但是当这个进程死亡时, OS会回收这块内存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1755" y="8380" width="260" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
