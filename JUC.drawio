@@ -2964,14 +2964,17 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-91" value="ReferenceHandler Thread" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="150" y="9152.27" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-99" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="z0-3DGJtZe6IUBfdnEUH-92" target="z0-3DGJtZe6IUBfdnEUH-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-92" value="为什么需要额外的线程? 让GC线程尽可能完成少部分工作, 尽早退出GC过程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="337.91" y="9142.27" width="212.09" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-95" value="GC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="125" y="9060" width="55" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-98" value="为什么需要额外的线程? 让GC线程尽可能完成少部分工作, 尽早退出GC过程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="505.46" y="9210" width="219.09" height="50" as="geometry" />
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-98" value="什么时候创建的, 处理逻辑是怎样的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="583.03" y="9152.27" width="203.94" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
