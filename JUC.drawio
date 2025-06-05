@@ -3022,7 +3022,7 @@
           <mxGeometry x="1588" y="8440" width="222" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-116" value="B树节点同时存索引和数据, 占用空间大, 导致每次读取一定的数据后,&amp;nbsp; 读到的索引内容少, 可能需要多次磁盘IO; &lt;br&gt;相比而言, B+树的非叶子节点存的都是索引, 每一次磁盘IO拿到的索引数据量会多一些, 有利于读取大量索引, 进而加速查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1425" y="8636.94" width="286" height="83.06" as="geometry" />
+          <mxGeometry x="1435" y="8704.44" width="286" height="83.06" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
