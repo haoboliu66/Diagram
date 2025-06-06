@@ -2527,7 +2527,7 @@
           <mxGeometry x="3453.38" y="5070" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-32" value="假设CPU1通知CPU2, 发送失效A, 失效B两个请求;&lt;br&gt;两个请求进入了Invalidation queue&amp;nbsp;&lt;div&gt;CPU2先执行了LOAD A, LOAD B, 导致读到了旧值;&lt;br&gt;或者&lt;/div&gt;&lt;div&gt;CPU2先处理了失效A, 然后再LOAD A, 就读到A新值, B旧值&lt;br&gt;或者&lt;br&gt;CPU2处理了2个失效请求, 然后再LOAD, 就都读到了新值&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="4250.63" y="5211.5" width="380" height="115" as="geometry" />
+          <mxGeometry x="4250.63" y="5211.5" width="289.37" height="115" as="geometry" />
         </mxCell>
         <mxCell id="DM__mxRjRRhDZYt-Zten-33" value="CPU1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3780.63" y="5216.5" width="170" height="80" as="geometry" />
