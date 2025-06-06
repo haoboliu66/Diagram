@@ -3051,6 +3051,9 @@
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1046" y="6010" width="260" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile读是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="715" y="6130" width="260" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
