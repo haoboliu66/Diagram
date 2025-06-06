@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="7467" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6680" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3044,6 +3044,9 @@
         </mxCell>
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-123" value="29节1小时18分钟讲完ThreadLocal和Reference, 讲回到JUC的Exchanger" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-96.75" y="7980" width="819" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile写需要storestore和storeload, 因为volatile的语义要保证, 当前线程写的数据其他线程全部可见" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="5905" width="240" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
