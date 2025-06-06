@@ -3042,7 +3042,7 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-120" value="Open Addressing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="1453" y="8872.5" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z0-3DGJtZe6IUBfdnEUH-123" value="29节1小时18分钟讲完ThreadLocal和Reference, 讲回到JUC的Exchanger 一直到32节结束" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="z0-3DGJtZe6IUBfdnEUH-123" value="29节1小时18分钟讲完ThreadLocal和Reference, 讲回到JUC的Exchanger 一直到31节结束, 32节开头换新" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-96.75" y="7980" width="819" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile write前需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
