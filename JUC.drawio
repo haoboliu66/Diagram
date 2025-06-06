@@ -3046,10 +3046,10 @@
           <mxGeometry x="-96.75" y="7980" width="819" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile写需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1048.75" y="5895" width="260" height="95" as="geometry" />
+          <mxGeometry x="1048" y="5905" width="260" height="85" as="geometry" />
         </mxCell>
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1048.75" y="6020" width="260" height="95" as="geometry" />
+          <mxGeometry x="1046" y="6010" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
