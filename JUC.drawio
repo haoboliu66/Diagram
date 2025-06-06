@@ -1506,13 +1506,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-58" value="同理可知, 在Java中, 循环无法退出的原因也是JIT编译器在运行时优化了这个循环代码, 因此可以通过-Xint让JVM关闭C1,C2的优化, 纯解释执行bytecode来验证" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="691" y="5192.75" width="442.75" height="39.25" as="geometry" />
+          <mxGeometry x="690" y="5154.62" width="442.75" height="39.25" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-60" value="如果是由于MOB导致的短暂visibility问题, 那么总有一刻, 这个更新值会被CPU同步并可见, 导致循环退出, 但实际代码显示循环并不会终止;&amp;nbsp;&lt;br&gt;&lt;span&gt;因此, 我们可以说, CPU的指令执行不会存在可见性的问题 (就算有也是暂时性的)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="362.96999999999997" y="5169.11" width="297" height="87.51" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-62" value="volatile可以阻止编译器优化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="825.81" y="5270" width="172" height="20" as="geometry" />
+          <mxGeometry x="825.56" y="5226.62" width="172" height="20" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-68" value="CPU 屏障指令一定是兼具编译器屏障的功能的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="761.5" y="4033.25" width="258.5" height="20" as="geometry" />
