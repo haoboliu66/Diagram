@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6540" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6680" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3053,6 +3053,12 @@
         </mxCell>
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile read是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="699.01" y="6140" width="260" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-7" value="32节开始 synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-26.25" y="9352" width="819" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-8" value="synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="9440" width="82.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
