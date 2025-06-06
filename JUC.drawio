@@ -1718,8 +1718,11 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以越过解释器, 操作一个non-volatile变量实现JMM规定的volatile的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="236.26" y="6050" width="393.74" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-159" target="51N8JspCCHDJ9Vv9rA9t-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="-183.3" y="6060" width="293.3" height="30" as="geometry" />
+          <mxGeometry x="-133.3" y="6070" width="293.3" height="30" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-163" value="解释器可以按照这个barrier的使用, 来满足volatile的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="451.5" y="5950" width="178.5" height="30" as="geometry" />
