@@ -3045,14 +3045,14 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-123" value="29节1小时18分钟讲完ThreadLocal和Reference, 讲回到JUC的Exchanger" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-96.75" y="7980" width="819" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile write前需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile write前需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1048" y="5905" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="volatile write后需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="volatile write后需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1046" y="6010" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile read是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="715" y="6130" width="260" height="85" as="geometry" />
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile read是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="699.01" y="6140" width="260" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
