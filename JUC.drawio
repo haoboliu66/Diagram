@@ -3075,11 +3075,20 @@
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-4" value="必定有try finally的代码, 要确保锁一定会释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="262.41" y="9460" width="241.69" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="jyzu4xwGb5AC1iRnKrpR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jyzu4xwGb5AC1iRnKrpR-7" target="jyzu4xwGb5AC1iRnKrpR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-7" value="对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="504.1" y="9560" width="135.9" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-8" value="头部" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="513.75" y="9570" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jyzu4xwGb5AC1iRnKrpR-9" value="对象拥有hash值, hashCode方法, 该值表示对象的唯一身份, 由于hash函数可能结果值冲突, 于是需要equals方法进一步判断对象是否相等" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="578.25" y="9710" width="373.47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyzu4xwGb5AC1iRnKrpR-11" value="由于GC依赖于对象的年龄, 将其决定是否晋升到老年代 (分代模型, 让新生代长期存活的对象直接晋升到老年代, 避免每次YGC时重复拷贝这些对象), 所以需要记录对象的年龄: max 2^4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="624.09" y="9480" width="373.47" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
