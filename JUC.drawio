@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="6680" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6886" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1718,7 +1718,7 @@
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-158" value="如果直接调用Unsafe操作, 可以越过解释器, 操作一个non-volatile变量实现JMM规定的volatile的语义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="236.26" y="6050" width="393.74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="51N8JspCCHDJ9Vv9rA9t-159" target="51N8JspCCHDJ9Vv9rA9t-158">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" parent="1" source="51N8JspCCHDJ9Vv9rA9t-159" target="51N8JspCCHDJ9Vv9rA9t-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="51N8JspCCHDJ9Vv9rA9t-159" value="int a可以不加volatile吗?&amp;nbsp;&lt;br&gt;因为我可以通过直接调用Unsafe, 来调用JNI来保证可见性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
@@ -3045,26 +3045,20 @@
         <mxCell id="z0-3DGJtZe6IUBfdnEUH-123" value="29节1小时18分钟讲完ThreadLocal和Reference, 讲回到JUC的Exchanger 一直到31节结束, 32节开头换新" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-96.75" y="7980" width="819" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile write前需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-2" value="为什么volatile write前需要storestore, 因为volatile的语义要保证起到一个release的效果, 即当前线程写的数据其他线程全部可见, 如果volatile写重排到其他写前面, 会导致某些应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1048" y="5905" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="volatile write后需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-3" value="volatile write后需要storeload也是考虑到release的效果, 即当前线程的写对后续所有操作可见, 如果读重排到volatile写前, 也会导致应该被看见的变量更新不可见。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1046" y="6010" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile read是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-6" value="考虑到volatile read是一种acquire行为, 也就是说这个读操作必须获取到完整的更新行为, 因此很然volatile读后续的所有操作都不能重排序到它前面, 以免对这个语义造成破坏。所以volatile read后面要同时加loadstore和loadload屏障" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="699.01" y="6140" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-7" value="32节开始 synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-7" value="32节开始 synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-26.25" y="9352" width="819" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-8" value="synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="vUYzLfjnEEUfzQ67_-kt-8" value="synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-22.5" y="9460" width="82.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-9" value="try catch finally" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="219" y="9470" width="101" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="vUYzLfjnEEUfzQ67_-kt-10" value="setjmp / longjmp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220.66" y="9530" width="101" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
