@@ -3078,6 +3078,9 @@
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="jyzu4xwGb5AC1iRnKrpR-7" target="jyzu4xwGb5AC1iRnKrpR-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jyzu4xwGb5AC1iRnKrpR-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jyzu4xwGb5AC1iRnKrpR-7" target="jyzu4xwGb5AC1iRnKrpR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-7" value="对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="504.1" y="9560" width="135.9" height="60" as="geometry" />
         </mxCell>
@@ -3088,7 +3091,7 @@
           <mxGeometry x="578.25" y="9710" width="373.47" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-11" value="由于GC依赖于对象的年龄, 将其决定是否晋升到老年代 (分代模型, 让新生代长期存活的对象直接晋升到老年代, 避免每次YGC时重复拷贝这些对象), 所以需要记录对象的年龄: max 2^4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="624.09" y="9480" width="373.47" height="30" as="geometry" />
+          <mxGeometry x="716.53" y="9500" width="373.47" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
