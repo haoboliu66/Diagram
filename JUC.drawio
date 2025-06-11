@@ -3093,9 +3093,6 @@
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-11" value="由于GC依赖于对象的年龄, 将其决定是否晋升到老年代 (分代模型, 让新生代长期存活的对象直接晋升到老年代, 避免每次Minor GC时重复拷贝这些对象), 所以需要记录对象的年龄: max 2^4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="716.53" y="9500" width="373.47" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jyzu4xwGb5AC1iRnKrpR-14" value="1, TLS&lt;br&gt;2, CAS&lt;br&gt;3, Kernel Lock" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="460" y="9800" width="140" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
