@@ -3094,16 +3094,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-7" value="对象" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="567.5500000000001" y="9560" width="135.9" height="60" as="geometry" />
+          <mxGeometry x="793" y="9450" width="135.9" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-8" value="头部" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="577.2" y="9570" width="40" height="40" as="geometry" />
+          <mxGeometry x="802.6500000000001" y="9460" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-9" value="对象拥有hash值, hashCode方法, 该值表示对象的唯一身份, 由于hash函数可能结果值冲突, 于是需要equals方法进一步判断对象是否相等" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="641.7" y="9710" width="373.47" height="30" as="geometry" />
+          <mxGeometry x="867.1500000000001" y="9600" width="373.47" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-11" value="由于GC依赖于对象的年龄, 将其决定是否晋升到老年代 (分代模型, 让新生代长期存活的对象直接晋升到老年代, 避免每次Minor GC时重复拷贝这些对象), 所以需要记录对象的年龄: max 2^4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="779.98" y="9500" width="373.47" height="30" as="geometry" />
+          <mxGeometry x="1005.4300000000001" y="9390" width="373.47" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MV2efeM3Plm4oDk0SQxu-6" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="245.89" y="9660" width="82.5" height="30" as="geometry" />
