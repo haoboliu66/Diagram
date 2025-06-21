@@ -3057,6 +3057,15 @@
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-7" value="32节开始 synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-26.25" y="9352" width="819" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MV2efeM3Plm4oDk0SQxu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vUYzLfjnEEUfzQ67_-kt-8" target="jyzu4xwGb5AC1iRnKrpR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MV2efeM3Plm4oDk0SQxu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="vUYzLfjnEEUfzQ67_-kt-8" target="jyzu4xwGb5AC1iRnKrpR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MV2efeM3Plm4oDk0SQxu-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="vUYzLfjnEEUfzQ67_-kt-8" target="jyzu4xwGb5AC1iRnKrpR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vUYzLfjnEEUfzQ67_-kt-8" value="synchronized" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-82" y="9580" width="82.5" height="30" as="geometry" />
         </mxCell>
@@ -3067,10 +3076,10 @@
           <mxGeometry x="120.73999999999997" y="9460" width="93.79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-2" value="JVM层面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="116.21000000000001" y="9600" width="93.79" height="30" as="geometry" />
+          <mxGeometry x="114.28" y="9575" width="93.79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-3" value="OS层面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="117.51" y="9730" width="93.79" height="30" as="geometry" />
+          <mxGeometry x="114.28" y="9660" width="93.79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-4" value="必定有try finally的代码, 要确保锁一定会释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="262.41" y="9460" width="241.69" height="30" as="geometry" />
