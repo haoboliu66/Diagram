@@ -3078,8 +3078,11 @@
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-2" value="JVM层面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="114.28" y="9575" width="93.79" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MV2efeM3Plm4oDk0SQxu-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="jyzu4xwGb5AC1iRnKrpR-3" target="MV2efeM3Plm4oDk0SQxu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-3" value="OS层面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="114.28" y="9660" width="93.79" height="30" as="geometry" />
+          <mxGeometry x="114.28" y="9660" width="75.72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-4" value="必定有隐藏类似try finally的代码, 要确保锁一定会释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="262.41" y="9460" width="297.59" height="30" as="geometry" />
@@ -3101,6 +3104,9 @@
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-11" value="由于GC依赖于对象的年龄, 将其决定是否晋升到老年代 (分代模型, 让新生代长期存活的对象直接晋升到老年代, 避免每次Minor GC时重复拷贝这些对象), 所以需要记录对象的年龄: max 2^4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="779.98" y="9500" width="373.47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MV2efeM3Plm4oDk0SQxu-6" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="245.89" y="9660" width="82.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
