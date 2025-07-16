@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="2446" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3293" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1203,19 +1203,19 @@
         <mxCell id="gU89hB3FzuSCVGNwTUvn-1" value="VM主线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2690" y="2720" width="480" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wab5pLN9kZmF91z749cY-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; public static final String GET_CURRENT_DIRECTORY_BACKLOG_STATS = &quot;SELECT loader_type, &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;CAST(SUM(IF(directory_status=&#39;ready&#39;,1,0) + IF(directory_status=&#39;start&#39;,1,0)) AS CHAR), &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;CAST(SUM(IF(directory_status=&#39;start&#39;,1,0)) AS CHAR), CAST(MAX(directory_size) AS CHAR) &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;FROM directory WHERE region=:region AND loader_type=:loader &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;AND directory_status &amp;lt;&amp;gt; &#39;done&#39; GROUP BY region, loader_type&quot;;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wab5pLN9kZmF91z749cY-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; public static final String GET_CURRENT_DIRECTORY_BACKLOG_STATS = &quot;SELECT loader_type, &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;CAST(SUM(IF(directory_status=&#39;ready&#39;,1,0) + IF(directory_status=&#39;start&#39;,1,0)) AS CHAR), &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;CAST(SUM(IF(directory_status=&#39;start&#39;,1,0)) AS CHAR), CAST(MAX(directory_size) AS CHAR) &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;FROM directory WHERE region=:region AND loader_type=:loader &quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; + &quot;AND directory_status &amp;lt;&amp;gt; &#39;done&#39; GROUP BY region, loader_type&quot;;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1100" y="120" width="430" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="wab5pLN9kZmF91z749cY-2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;loader_type&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wab5pLN9kZmF91z749cY-2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;loader_type&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1100" y="385" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wab5pLN9kZmF91z749cY-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ready + start&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wab5pLN9kZmF91z749cY-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ready + start&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-970" y="385" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wab5pLN9kZmF91z749cY-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;start&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wab5pLN9kZmF91z749cY-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;start&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-840" y="380" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wab5pLN9kZmF91z749cY-5" value="directory_size" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wab5pLN9kZmF91z749cY-5" value="directory_size" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-730" y="380" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
