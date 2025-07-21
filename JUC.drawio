@@ -3144,8 +3144,14 @@
         <mxCell id="A7lOpIix7g5WrcSskbmz-8" value="单线程搬运CXQ节点进入队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="614.4300000000001" y="9990" width="173.89" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7lOpIix7g5WrcSskbmz-10" target="A7lOpIix7g5WrcSskbmz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-10" value="Biased Lock" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="250" y="9580" width="74.11" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A7lOpIix7g5WrcSskbmz-11" target="A7lOpIix7g5WrcSskbmz-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-11" value="轻量级锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="377.95" y="9580" width="74.11" height="30" as="geometry" />
