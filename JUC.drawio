@@ -3082,7 +3082,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-3" value="OS层面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="114.28" y="9660" width="75.72" height="30" as="geometry" />
+          <mxGeometry x="122.6" y="9710" width="75.72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jyzu4xwGb5AC1iRnKrpR-4" value="必定有隐藏类似try finally的代码, 要确保锁一定会释放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="262.41" y="9460" width="297.59" height="30" as="geometry" />
@@ -3115,13 +3115,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MV2efeM3Plm4oDk0SQxu-6" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="263.19" y="9660" width="74.11" height="30" as="geometry" />
+          <mxGeometry x="271.51" y="9710" width="74.11" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MV2efeM3Plm4oDk0SQxu-8" value="自旋等待" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="407.01" y="9620" width="72.29" height="30" as="geometry" />
+          <mxGeometry x="415.33" y="9670" width="72.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MV2efeM3Plm4oDk0SQxu-10" value="陷入OS (CXQ队列)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="412.01" y="9670" width="115.29" height="30" as="geometry" />
+          <mxGeometry x="420.33" y="9720" width="115.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="A7lOpIix7g5WrcSskbmz-1" target="A7lOpIix7g5WrcSskbmz-3">
           <mxGeometry relative="1" as="geometry" />
@@ -3130,19 +3130,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-1" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ObjectMonitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="309" y="9900" width="90" height="30" as="geometry" />
+          <mxGeometry x="317.32" y="9950" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-3" value="CXQ队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="489.29" y="9880" width="62.29" height="30" as="geometry" />
+          <mxGeometry x="497.61" y="9930" width="62.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-4" value="Entry List队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="484.94" y="9940" width="83" height="30" as="geometry" />
+          <mxGeometry x="493.26" y="9990" width="83" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-7" value="多线程访问插入node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="600.56" y="9880" width="141" height="30" as="geometry" />
+          <mxGeometry x="608.88" y="9930" width="141" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-8" value="单线程搬运CXQ节点进入队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="606.11" y="9940" width="173.89" height="30" as="geometry" />
+          <mxGeometry x="614.4300000000001" y="9990" width="173.89" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
