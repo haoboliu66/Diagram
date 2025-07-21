@@ -3121,10 +3121,22 @@
           <mxGeometry x="389.71" y="9620" width="72.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MV2efeM3Plm4oDk0SQxu-10" value="陷入OS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="391.5" y="9680" width="62.29" height="30" as="geometry" />
+          <mxGeometry x="394.71" y="9670" width="62.29" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="A7lOpIix7g5WrcSskbmz-1" target="A7lOpIix7g5WrcSskbmz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="A7lOpIix7g5WrcSskbmz-1" target="A7lOpIix7g5WrcSskbmz-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A7lOpIix7g5WrcSskbmz-1" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ObjectMonitor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="296.06" y="9770" width="90" height="30" as="geometry" />
+          <mxGeometry x="309" y="9900" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-3" value="CXQ队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="489.29" y="9880" width="62.29" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A7lOpIix7g5WrcSskbmz-4" value="Entry List队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="484.94" y="9940" width="83" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
