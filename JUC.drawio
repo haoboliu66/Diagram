@@ -3174,6 +3174,24 @@
         <mxCell id="48jDoSz7TAMDzmyMUViL-5" value="Memory Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="141" y="10210" width="79" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-6" value="monitor enter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1057.5" y="9760" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-7" value="wait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1057.5" y="9810" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-8" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1057.5" y="9860" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-9" value="_WaitSet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1289.5" y="9760" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-10" value="释放锁 _owner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1289.5" y="9810" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="48jDoSz7TAMDzmyMUViL-11" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1289.5" y="9860" width="106" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
