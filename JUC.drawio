@@ -3210,10 +3210,10 @@
         <mxCell id="48jDoSz7TAMDzmyMUViL-16" value="_WaitSet dequeue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1291" y="9950" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-17" value="释放锁 _owner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-17" value="修改状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1291" y="10000" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-18" value="阻塞&amp;nbsp;park" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-18" value="加入队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1291" y="10050" width="106" height="30" as="geometry" />
         </mxCell>
       </root>
