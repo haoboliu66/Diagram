@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="of8g5er7r7XSGEPGMquY">
-    <mxGraphModel dx="2896" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3293" dy="2039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,20 +213,23 @@
         <mxCell id="bFSp5z9rqtWIc_PTvlUm-1" value="ChannelPipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="770" y="1340" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qXTGuCCxnl9SuPXynvQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="7qXTGuCCxnl9SuPXynvQ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-119" y="890" width="849" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7qXTGuCCxnl9SuPXynvQ-2" value="ProtocolDecoder" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="7qXTGuCCxnl9SuPXynvQ-2" value="ProtocolDecoder" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="10" y="920" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qXTGuCCxnl9SuPXynvQ-3" value="ProtocolEncoder" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="7qXTGuCCxnl9SuPXynvQ-3" value="ProtocolEncoder" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="220" y="920" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qXTGuCCxnl9SuPXynvQ-4" value="Business Logic Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="7qXTGuCCxnl9SuPXynvQ-4" value="Business Logic Handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="430" y="920" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qXTGuCCxnl9SuPXynvQ-5" value="ChannelPipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="7qXTGuCCxnl9SuPXynvQ-5" value="ChannelPipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="230" y="860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Q_xXRwX15KLnlSy1PbB-1" value="Java SE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-360" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
