@@ -1321,11 +1321,17 @@
         <mxCell id="UTIWJBbb490QAgVIuRP1-15" value="malloc" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3760" y="10110" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="UTIWJBbb490QAgVIuRP1-16" target="UTIWJBbb490QAgVIuRP1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UTIWJBbb490QAgVIuRP1-16" value="mmap" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3760" y="10190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UTIWJBbb490QAgVIuRP1-17" value="brk / sbrk" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3760" y="10155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-19" value="MAP_ANONYMOUS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="10190" width="112" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
