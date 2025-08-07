@@ -1297,8 +1297,26 @@
         <mxCell id="UTIWJBbb490QAgVIuRP1-2" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3296" y="10050" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="UTIWJBbb490QAgVIuRP1-5" target="UTIWJBbb490QAgVIuRP1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="UTIWJBbb490QAgVIuRP1-5" target="UTIWJBbb490QAgVIuRP1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="UTIWJBbb490QAgVIuRP1-5" target="UTIWJBbb490QAgVIuRP1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UTIWJBbb490QAgVIuRP1-5" value="file-backed page /&lt;div&gt;page-cache page&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3521" y="9980" width="119" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-7" value="磁盘读取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3720" y="9900" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-8" value="page cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3722" y="9968" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UTIWJBbb490QAgVIuRP1-9" value="page table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3722" y="10030" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
