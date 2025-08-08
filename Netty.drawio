@@ -297,6 +297,21 @@
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-8" value="对原始的stream对象进行包装" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-700" y="-350" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-10" target="qVTMbxXsvFUiIrNVVJWn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-10" value="装饰者模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="-240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-11" target="qVTMbxXsvFUiIrNVVJWn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-11" value="代理模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-12" value="区别: 是否控制包装对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-170" width="144" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
