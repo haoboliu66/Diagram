@@ -273,14 +273,20 @@
         <mxCell id="J5JJo1fVMHDg2MGafC2F-4" value="VFS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="-680" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-1" target="qVTMbxXsvFUiIrNVVJWn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-1" value="InputStream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-960" y="-490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-2" target="qVTMbxXsvFUiIrNVVJWn-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-2" value="OutputStream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-960" y="-420" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qVTMbxXsvFUiIrNVVJWn-3" value="抽象了read和write" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="-460" width="120" height="40" as="geometry" />
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-3" value="抽象了read和write, 只读写单个byte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-460" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
