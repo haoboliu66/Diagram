@@ -321,6 +321,18 @@
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-18" value="Proxy强调完全接管, 类似gateway; 不能直接访问内层对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-560" y="-120" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-19" target="qVTMbxXsvFUiIrNVVJWn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-19" value="Java" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-530" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-20" value="JVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-21" value="JNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-440" width="100" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
