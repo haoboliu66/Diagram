@@ -288,8 +288,14 @@
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-3" value="抽象了read和write, 只读写单个byte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-750" y="-500" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="qVTMbxXsvFUiIrNVVJWn-7" target="qVTMbxXsvFUiIrNVVJWn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qVTMbxXsvFUiIrNVVJWn-7" value="如果要对现有的stream进行额外操作怎么办?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-320" width="190" height="40" as="geometry" />
+          <mxGeometry x="-1000" y="-350" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVTMbxXsvFUiIrNVVJWn-8" value="对原始的stream对象进行包装" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-700" y="-350" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
