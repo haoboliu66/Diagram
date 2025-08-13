@@ -37,6 +37,9 @@
         <mxCell id="q9-16XW2UtLknLvIXVu5-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1160" y="130" width="480" height="290" as="geometry" />
         </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-48" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="q9-16XW2UtLknLvIXVu5-2" target="q9-16XW2UtLknLvIXVu5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-2" value="Spring就是一个Factory Pattern" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1300" y="70" width="179" height="40" as="geometry" />
         </mxCell>
@@ -147,6 +150,9 @@
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-45" value="把 行为和对象 跟调用方隔离开, 保证高内聚, 低耦合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1450" y="-325" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-47" value="IOC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="80" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
