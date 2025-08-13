@@ -35,7 +35,7 @@
           <mxGeometry x="450" y="350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="130" width="480" height="290" as="geometry" />
+          <mxGeometry x="1160" y="130" width="470" height="160" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-48" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="q9-16XW2UtLknLvIXVu5-2" target="q9-16XW2UtLknLvIXVu5-47">
           <mxGeometry relative="1" as="geometry" />
@@ -162,6 +162,18 @@
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-51" value="这个增强Factory的功能需求:&lt;br&gt;1, 管理依赖关系&lt;br&gt;2, 管理对象&lt;br&gt;3, 注入对象" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1685" y="235" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-52" value="Bean" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-54" value="Bean" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-55" value="Bean" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-56" value="Bean" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="180" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
