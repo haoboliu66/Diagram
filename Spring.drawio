@@ -229,11 +229,14 @@
         <mxCell id="q9-16XW2UtLknLvIXVu5-81" value="Spring transaction Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1680" y="490" width="150" height="33.75" as="geometry" />
         </mxCell>
+        <mxCell id="q9-16XW2UtLknLvIXVu5-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="q9-16XW2UtLknLvIXVu5-82" target="q9-16XW2UtLknLvIXVu5-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-82" value="AOP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="710" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q9-16XW2UtLknLvIXVu5-83" value="使用代理模式控制对象的行为" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="700" width="196" height="40" as="geometry" />
+        <mxCell id="q9-16XW2UtLknLvIXVu5-83" value="使用代理模式控制对象的行为, 这个代理要把对象的增强行为都报告给Spring" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="705" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
