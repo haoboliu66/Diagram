@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
     <mxGraphModel dx="1639" dy="3208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,69 +260,69 @@
         <mxCell id="UJkT0pdDp-kjGH74aUPJ-2" value="spring-boot-maven-plugin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397.5" y="-670" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-1" target="0hOCMxp5zV0ffkTAc212-4">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-1" target="0hOCMxp5zV0ffkTAc212-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-1" target="0hOCMxp5zV0ffkTAc212-6">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-1" target="0hOCMxp5zV0ffkTAc212-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-1" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-1" value="Jenkins" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="-1150" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-2" target="0hOCMxp5zV0ffkTAc212-1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-2" target="0hOCMxp5zV0ffkTAc212-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-2" value="CICD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-2" value="CICD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="-1169" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-4" value="Migrate build pipelines from multiJob pipelines to Jenkins pipelines" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-4" value="Migrate build pipelines from multiJob pipelines to Jenkins pipelines" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1270" y="-1188" width="210" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-6" value="Manage annual AWS credential rotation on Jenkins" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-6" value="Manage annual AWS credential rotation on Jenkins" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1270" y="-1130" width="210" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-8" target="0hOCMxp5zV0ffkTAc212-9">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-8" target="0hOCMxp5zV0ffkTAc212-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-8" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-8" value="Middleware" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="-1340" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-9" target="0hOCMxp5zV0ffkTAc212-12">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-9" target="0hOCMxp5zV0ffkTAc212-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-9" target="0hOCMxp5zV0ffkTAc212-18">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="0hOCMxp5zV0ffkTAc212-9" target="0hOCMxp5zV0ffkTAc212-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1250" y="-1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-9" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-9" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="-1340" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-11" value="Optimize kafka consumer on audience segment loader, achieve monthly cost saving 12K, cost reduction 75%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-11" value="Optimize kafka consumer on audience segment loader, achieve monthly cost saving 12K, cost reduction 75%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1490" y="-1595" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-12" value="Build MSK cluster on AWS and manage the cluster, working as the POC for onboarding clients onto the cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-12" value="Build MSK cluster on AWS and manage the cluster, working as the POC for onboarding clients onto the cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-1345" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-15" target="0hOCMxp5zV0ffkTAc212-18">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="0hOCMxp5zV0ffkTAc212-15" target="0hOCMxp5zV0ffkTAc212-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-15" target="0hOCMxp5zV0ffkTAc212-22">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="0hOCMxp5zV0ffkTAc212-15" target="0hOCMxp5zV0ffkTAc212-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-15" value="Write" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-15" value="Write" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="-1660" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="0hOCMxp5zV0ffkTAc212-18" target="0hOCMxp5zV0ffkTAc212-11">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="0hOCMxp5zV0ffkTAc212-18" target="0hOCMxp5zV0ffkTAc212-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-18" value="Streaming Loaders" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-18" value="Streaming Loaders" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-1590" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-22" value="Batch Loaders" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-22" value="Batch Loaders" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-1800" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0hOCMxp5zV0ffkTAc212-24" value="Read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hOCMxp5zV0ffkTAc212-24" value="Read" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="-1950" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
