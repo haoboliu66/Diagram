@@ -245,7 +245,7 @@
           <mxGeometry x="2200" y="369.5" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-1" value="由于SpringMVC与Servlet高度耦合, 所以导致MVC项目不能切换为传统的CS架构, 但如果项目是传统的CS架构, 此时由于传统项目使用Spring管理, 唯一缺少的是SpringMVC的控制层和View层, 所以只需要引入SpringMVC子容器来管理这两层即可, 然后把子容器放入父容器中, 使用父容器内的传统项目Bean完成web项目搭建即可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="170" width="450" height="90" as="geometry" />
+          <mxGeometry x="2575" y="190" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2610" y="370" width="380" height="160" as="geometry" />
@@ -267,6 +267,9 @@
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-8" value="View" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2890" y="481" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-9" value="Spring MVC 相当于是 Spring 在 Web 层的补充和扩展" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="220" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
