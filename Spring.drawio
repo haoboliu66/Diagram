@@ -247,7 +247,7 @@
         <mxCell id="q9-16XW2UtLknLvIXVu5-88" value="Spring MVC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2200" y="369.5" width="90" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="105VQkGaMaxpQ6JVa1ym-1" value="由于SpringMVC与Servlet高度耦合, 所以导致MVC项目不能切换为传统的CS架构, 但如果项目是传统的CS架构, 此时由于传统项目使用Spring管理, 唯一缺少的是SpringMVC的控制层和View层, 所以只需要引入SpringMVC子容器来管理这两层即可, 然后把子容器放入父容器中, 使用父容器内的传统项目Bean完成web项目搭建即可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-1" value="由于SpringMVC与Servlet API高度耦合, 所以导致MVC项目不能切换为传统的CS架构, 但如果项目是传统的CS架构, 此时由于传统项目使用Spring管理, 唯一缺少的是SpringMVC的控制层和View层, 所以只需要引入SpringMVC子容器来管理这两层即可, 然后把子容器放入父容器中, 使用父容器内的传统项目Bean完成web项目搭建即可" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2575" y="190" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
