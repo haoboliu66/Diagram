@@ -302,7 +302,7 @@
           <mxGeometry x="3780" y="710" width="480" height="35" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-20" value="ORM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3970" y="1040" width="60" height="30" as="geometry" />
+          <mxGeometry x="3950" y="820" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="105VQkGaMaxpQ6JVa1ym-21" target="105VQkGaMaxpQ6JVa1ym-22">
           <mxGeometry relative="1" as="geometry" />
@@ -311,19 +311,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-21" value="MVVM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3970" y="1120" width="60" height="30" as="geometry" />
+          <mxGeometry x="3950" y="900" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-22" value="VUE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4120" y="1100" width="60" height="30" as="geometry" />
+          <mxGeometry x="4100" y="880" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-23" value="AngularJS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4120" y="1150" width="60" height="30" as="geometry" />
+          <mxGeometry x="4100" y="930" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-26" value="JS数据与dom节点的映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4200" y="1130" width="170" height="30" as="geometry" />
+          <mxGeometry x="4180" y="910" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-27" value="Java class 与 DB table的映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4200" y="1040" width="170" height="30" as="geometry" />
+          <mxGeometry x="4180" y="820" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-28" value="ApplicationContext&lt;br&gt;(聚合接口)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2910" y="1100" width="240" height="50" as="geometry" />
@@ -365,16 +365,19 @@
           <mxGeometry x="2830" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-44" value="Spring的核心是BeanFactory, 所以在启动时一定先创建这个factory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3270" y="1100" width="220" height="30" as="geometry" />
+          <mxGeometry x="3295" y="1110" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-45" value="FeignClientFactoryBean" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3550" y="1380" width="150" height="40" as="geometry" />
+          <mxGeometry x="3960" y="1334.5" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-46" value="让用户自定义bean的生产过程, 通常构建过程比较复杂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3470" y="1325.5" width="290" height="30" as="geometry" />
+          <mxGeometry x="3880" y="1280" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;FactoryBean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3350" y="1325.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="3760" y="1280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;BeanFactory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="1219" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
