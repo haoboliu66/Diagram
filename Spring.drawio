@@ -436,6 +436,9 @@
         <mxCell id="105VQkGaMaxpQ6JVa1ym-69" value="为什么只有特定的对象可以作为GC Root, 因为GC的基本原则是Reachability Analysis, 所以JVM想要找到一些必定存活的对象, JVM首先可以reach这些对象, 然后再从它们继续搜寻" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5240" y="1115" width="290" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-70" value="栈上的局部变量一定存活" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5820" y="1169" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
