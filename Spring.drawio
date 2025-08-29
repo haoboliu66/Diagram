@@ -431,7 +431,10 @@
           <mxGeometry x="4800" y="1120" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-68" value="联想到GC Root" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4852" y="1090" width="110" height="30" as="geometry" />
+          <mxGeometry x="4852" y="1099" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-69" value="为什么只有特定的对象可以作为GC Root, 因为GC的基本原则是Reachability Analysis, 所以JVM想要找到一些必定存活的对象, JVM首先可以reach这些对象, 然后再从它们继续搜寻" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5240" y="1115" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
