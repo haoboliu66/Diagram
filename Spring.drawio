@@ -436,6 +436,9 @@
         <mxCell id="105VQkGaMaxpQ6JVa1ym-69" value="为什么只有特定的对象可以作为GC Root, 因为GC的基本原则是Reachability Analysis, 所以JVM想要找到一些必定存活的对象, JVM首先可以reach这些对象, 然后再从它们开始继续搜索" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5215" y="1115" width="320" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-71" value="优点: 无循环依赖&lt;br&gt;缺点: 要遍历所有引用, 耗时" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5230" y="1208.5" width="185" height="31" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
