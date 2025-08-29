@@ -388,8 +388,17 @@
         <mxCell id="105VQkGaMaxpQ6JVa1ym-49" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BeanDefinition&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="3580" y="1282.25" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="105VQkGaMaxpQ6JVa1ym-50" target="105VQkGaMaxpQ6JVa1ym-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;普通Bean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3775" y="1234.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-54" value="Lazy Initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="1264.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-56" value="先初始化Singleton" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="1199" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
