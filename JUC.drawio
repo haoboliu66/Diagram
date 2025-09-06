@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="iqe3As87bchgCNZe354T">
-    <mxGraphModel dx="3367" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3907" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3159,61 +3159,61 @@
         <mxCell id="A7lOpIix7g5WrcSskbmz-12" value="重量级锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="500" y="9580" width="74.11" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-1" value="elevator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-1" value="elevator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="759.75" y="9950" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-2" value="Zone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-2" value="Zone" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317.32" y="10170" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-3" value="Buddy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-3" value="Buddy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317.32" y="10220" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-4" value="Slab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-4" value="Slab" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317.32" y="10270" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-5" value="Memory Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-5" value="Memory Management" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="141" y="10210" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-6" value="monitor enter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-6" value="monitor enter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1057.5" y="9760" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48jDoSz7TAMDzmyMUViL-7" target="48jDoSz7TAMDzmyMUViL-9">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="48jDoSz7TAMDzmyMUViL-7" target="48jDoSz7TAMDzmyMUViL-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-7" value="wait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-7" value="wait" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1057.5" y="9810" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-8" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-8" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1057.5" y="9860" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-9" value="_WaitSet enqueue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-9" value="_WaitSet enqueue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1289.5" y="9760" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-10" value="释放锁 _owner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-10" value="释放锁 _owner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1289.5" y="9810" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-11" value="阻塞&amp;nbsp;park" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-11" value="阻塞&amp;nbsp;park" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1289.5" y="9860" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-13" value="monitor enter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-13" value="monitor enter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1064" y="9950" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48jDoSz7TAMDzmyMUViL-14" target="48jDoSz7TAMDzmyMUViL-16">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="48jDoSz7TAMDzmyMUViL-14" target="48jDoSz7TAMDzmyMUViL-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-14" value="notify" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-14" value="notify" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1064" y="10000" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-15" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-15" value="monitor exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1064" y="10050" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-16" value="_WaitSet dequeue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-16" value="_WaitSet dequeue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1291" y="9950" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-17" value="修改状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-17" value="修改状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1291" y="10000" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="48jDoSz7TAMDzmyMUViL-18" value="加入等待队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="48jDoSz7TAMDzmyMUViL-18" value="加入等待队列" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1291" y="10050" width="106" height="30" as="geometry" />
         </mxCell>
       </root>
