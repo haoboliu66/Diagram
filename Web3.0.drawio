@@ -205,6 +205,9 @@
         <mxCell id="L_eL_teailExIP526OJV-49" value="去中心化记账" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="370" y="-745" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="L_eL_teailExIP526OJV-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="L_eL_teailExIP526OJV-50" target="L_eL_teailExIP526OJV-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L_eL_teailExIP526OJV-50" value="对于一条transaction, 如何防伪和达成共识？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="520" y="-790" width="190" height="30" as="geometry" />
         </mxCell>
@@ -212,10 +215,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L_eL_teailExIP526OJV-52" value="e.g. A -&amp;gt; B 10BTC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="750" y="-850" width="110" height="30" as="geometry" />
+          <mxGeometry x="847" y="-850" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L_eL_teailExIP526OJV-54" value="A要有自己signature在这条transaction记录上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-850" width="130" height="30" as="geometry" />
+          <mxGeometry x="977" y="-850" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_eL_teailExIP526OJV-57" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="L_eL_teailExIP526OJV-56" target="L_eL_teailExIP526OJV-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L_eL_teailExIP526OJV-56" value="防伪" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-850" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
