@@ -142,8 +142,11 @@
         <mxCell id="L_eL_teailExIP526OJV-17" value="ASIC (Application Specific Integrated Circuit)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="300" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="L_eL_teailExIP526OJV-19" value="Mining Puzzle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="760" y="160" width="100" height="30" as="geometry" />
+        <mxCell id="L_eL_teailExIP526OJV-19" value="&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;nonce, H&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord text&quot;&gt;&lt;span class=&quot;mord&quot;&gt;block&amp;nbsp;header&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;≤&lt;/span&gt;&lt;span class=&quot;mspace&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord text&quot;&gt;&lt;span class=&quot;mord&quot;&gt;target&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_eL_teailExIP526OJV-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="L_eL_teailExIP526OJV-20" target="L_eL_teailExIP526OJV-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L_eL_teailExIP526OJV-20" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Mining Puzzle&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="160" width="90" height="30" as="geometry" />
