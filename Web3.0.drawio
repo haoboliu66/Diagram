@@ -193,7 +193,7 @@
         <mxCell id="L_eL_teailExIP526OJV-41" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Share&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="360" width="57.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="L_eL_teailExIP526OJV-47" value="矿池的出现, 让Miner通过提交share给矿主统一核算, 来表明PoW, 直到整个team出块了, 所有人根据Pow来瓜分block reward; 矿池减小的矿工的压力, 单纯计算完成puzzle即可;&amp;nbsp;&lt;br&gt;但是矿池有可能凑齐51%算力, 从而可以在区块链上进行fork attack, 以回滚某些交易, 或者boycott某个交易, 强行不把这个交易放进某个block中, 一旦被放入, 它就可以进行fork attack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="L_eL_teailExIP526OJV-47" value="矿池的出现, 让Miner通过提交share给矿主统一核算, 来表明PoW, 直到整个team出块了, 所有人根据Pow来瓜分block reward; 矿池减小了矿工的计算压力, 之前是单打独斗, 现在可以通过矿池组团来挖矿, 可以通过提交share表明PoW, 最终矿池内出块时, 也可以分得奖励&lt;br&gt;但是矿池有可能凑齐51%算力, 从而可以在区块链上进行fork attack, 以回滚某些交易, 或者boycott某个交易, 强行不把这个交易放进某个block中, 一旦被放入, 它就可以进行fork attack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="527" width="390" height="115" as="geometry" />
         </mxCell>
       </root>
