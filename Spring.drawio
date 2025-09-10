@@ -547,7 +547,7 @@
         <mxCell id="T4wPPcvqNMxXnIlGrZkr-33" value="preInstantiateSingletons()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1700" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="T4wPPcvqNMxXnIlGrZkr-35" value="preInstantiateSingletons()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T4wPPcvqNMxXnIlGrZkr-35" value="publishEvent(new ContextRefreshedEvent(this))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3570" y="1790" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
