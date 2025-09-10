@@ -331,6 +331,9 @@
         <mxCell id="105VQkGaMaxpQ6JVa1ym-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-29" target="105VQkGaMaxpQ6JVa1ym-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="T4wPPcvqNMxXnIlGrZkr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="105VQkGaMaxpQ6JVa1ym-29" target="T4wPPcvqNMxXnIlGrZkr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-29" value="AbstractApplicationContext&lt;br&gt;(模板方法类, 定义公用方法)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2910" y="1199" width="240" height="50" as="geometry" />
         </mxCell>
@@ -468,6 +471,9 @@
         </mxCell>
         <mxCell id="T4wPPcvqNMxXnIlGrZkr-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ClassPathXmlApplicationContext&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2910" y="1470" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T4wPPcvqNMxXnIlGrZkr-8" value="refresh()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3308" y="1199" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
