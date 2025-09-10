@@ -368,19 +368,19 @@
           <mxGeometry x="2830" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-44" value="Spring是一个BeanFactory, 所以在启动时一定先创建这个factory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4490" y="1180" width="220" height="30" as="geometry" />
+          <mxGeometry x="4135" y="990" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-45" value="e.g. FeignClientFactoryBean" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5110" y="1351" width="160" height="40" as="geometry" />
+          <mxGeometry x="4755" y="1161" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-46" value="让用户自定义bean的生产过程, 通常构建过程比较复杂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5030" y="1321" width="290" height="30" as="geometry" />
+          <mxGeometry x="4675" y="1131" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;FactoryBean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4910" y="1321" width="110" height="30" as="geometry" />
+          <mxGeometry x="4555" y="1131" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;BeanFactory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="4535" y="1245.5" width="130" height="75.5" as="geometry" />
+          <mxGeometry x="4180" y="1055.5" width="130" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-49" target="105VQkGaMaxpQ6JVa1ym-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -389,7 +389,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-49" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BeanDefinition&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="4715" y="1263.25" width="120" height="40" as="geometry" />
+          <mxGeometry x="4360" y="1073.25" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-55" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="105VQkGaMaxpQ6JVa1ym-50" target="105VQkGaMaxpQ6JVa1ym-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -398,10 +398,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;普通Bean&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4910" y="1215.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="4555" y="1025.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-54" value="Lazy Initialization" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5085" y="1245.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="4730" y="1055.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="105VQkGaMaxpQ6JVa1ym-56" target="105VQkGaMaxpQ6JVa1ym-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -413,25 +413,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-56" value="先初始化Singleton" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5085" y="1180" width="110" height="30" as="geometry" />
+          <mxGeometry x="4730" y="990" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="105VQkGaMaxpQ6JVa1ym-58" target="105VQkGaMaxpQ6JVa1ym-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-58" value="Reflection创建对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5270" y="1180" width="110" height="31" as="geometry" />
+          <mxGeometry x="4915" y="990" width="110" height="31" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-59" value="解析BeanDefinition的父子继承关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5265" y="1141" width="205" height="30" as="geometry" />
+          <mxGeometry x="4910" y="951" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-62" value="缓存对象的metadata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5270" y="1215.5" width="117.5" height="31" as="geometry" />
+          <mxGeometry x="4915" y="1025.5" width="117.5" height="31" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-64" value="GC Roots" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="6475" y="1101" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-65" value="Circular Reference问题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="5545" y="1070" width="450" height="250" as="geometry" />
+          <mxGeometry x="5190" y="880" width="450" height="250" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-67" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="6185" y="1092" width="240" height="60" as="geometry" />
@@ -446,13 +446,13 @@
           <mxGeometry x="6605" y="1171" width="185" height="31" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-75" value="在创建A时, 发现依赖B, 进而先去创建B, 然后发现B又依赖A, 又去创建A, 导致进入死循环" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5755" y="1097.25" width="220" height="49.5" as="geometry" />
+          <mxGeometry x="5400" y="907.25" width="220" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-76" value="public class A {&lt;div&gt;&amp;nbsp; &amp;nbsp; private B b;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5565" y="1101" width="100" height="50" as="geometry" />
+          <mxGeometry x="5210" y="911" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-77" value="public class B {&lt;div&gt;&amp;nbsp; &amp;nbsp; private A a;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5665" y="1101" width="100" height="50" as="geometry" />
+          <mxGeometry x="5310" y="911" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T4wPPcvqNMxXnIlGrZkr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T4wPPcvqNMxXnIlGrZkr-2" target="105VQkGaMaxpQ6JVa1ym-29">
           <mxGeometry relative="1" as="geometry" />
