@@ -440,7 +440,7 @@
           <mxGeometry x="6475" y="1101" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-65" value="Circular Reference问题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="5190" y="880" width="450" height="250" as="geometry" />
+          <mxGeometry x="5115" y="952" width="450" height="109" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-67" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="6185" y="1092" width="240" height="60" as="geometry" />
@@ -455,13 +455,13 @@
           <mxGeometry x="6605" y="1171" width="185" height="31" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-75" value="在创建A时, 发现依赖B, 进而先去创建B, 然后发现B又依赖A, 又去创建A, 导致进入死循环" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5400" y="907.25" width="220" height="49.5" as="geometry" />
+          <mxGeometry x="5325" y="979.25" width="220" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-76" value="public class A {&lt;div&gt;&amp;nbsp; &amp;nbsp; private B b;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5210" y="911" width="100" height="50" as="geometry" />
+          <mxGeometry x="5135" y="983" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-77" value="public class B {&lt;div&gt;&amp;nbsp; &amp;nbsp; private A a;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="5310" y="911" width="100" height="50" as="geometry" />
+          <mxGeometry x="5235" y="983" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T4wPPcvqNMxXnIlGrZkr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T4wPPcvqNMxXnIlGrZkr-2" target="105VQkGaMaxpQ6JVa1ym-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
