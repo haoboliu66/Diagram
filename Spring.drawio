@@ -286,17 +286,17 @@
         <mxCell id="105VQkGaMaxpQ6JVa1ym-11" value="Spring ApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="3280" y="760" width="240" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="105VQkGaMaxpQ6JVa1ym-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-13" target="105VQkGaMaxpQ6JVa1ym-15" edge="1">
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-13" target="105VQkGaMaxpQ6JVa1ym-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-13" value="XML" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3060" y="800" width="65" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="105VQkGaMaxpQ6JVa1ym-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-14" target="105VQkGaMaxpQ6JVa1ym-15" edge="1">
+        <mxCell id="105VQkGaMaxpQ6JVa1ym-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-14" target="105VQkGaMaxpQ6JVa1ym-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-14" value="properties" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3060" y="900" width="65" height="40" as="geometry" />
+          <mxGeometry x="3060" y="871" width="65" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-15" target="105VQkGaMaxpQ6JVa1ym-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -612,6 +612,12 @@
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-9" value="把BeanFactory注入到bean中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5820" y="2355" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-10" target="105VQkGaMaxpQ6JVa1ym-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-10" value="other" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="940" width="65" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
