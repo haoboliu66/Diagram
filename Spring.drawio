@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="Page-1" id="jKwXqTW0s1e_ha4R1b7n">
-    <mxGraphModel dx="1214" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1561" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,33 +18,6 @@
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="870" y="-260" width="260" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="280" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-2" value="ApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="190" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-3" value="a central registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="250" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F45thFIv4wYP87FCnGFc-4" target="F45thFIv4wYP87FCnGFc-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-4" value="Config" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="350" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F45thFIv4wYP87FCnGFc-5" target="F45thFIv4wYP87FCnGFc-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-5" value="BeanDefinitionReader" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="350" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="F45thFIv4wYP87FCnGFc-7" target="F45thFIv4wYP87FCnGFc-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F45thFIv4wYP87FCnGFc-7" value="BeanDefinitions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1190" y="130" width="430" height="100" as="geometry" />
