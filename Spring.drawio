@@ -44,7 +44,7 @@
           <mxGeometry x="450" y="350" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-1" value="BeanFactory" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="130" width="470" height="160" as="geometry" />
+          <mxGeometry x="1190" y="130" width="430" height="100" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-48" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="q9-16XW2UtLknLvIXVu5-2" target="q9-16XW2UtLknLvIXVu5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -164,10 +164,10 @@
           <mxGeometry x="1520" y="80" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-49" value="使用一个工厂来解耦对象之间的依赖关系和创建行为" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1610" y="75" width="290" height="30" as="geometry" />
+          <mxGeometry x="1590" y="75" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-50" value="这是一个增强的Factory, 因为这个Factory需要管理bean之间的依赖关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="120" width="250" height="50" as="geometry" />
+          <mxGeometry x="1655" y="120" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q9-16XW2UtLknLvIXVu5-51" value="这个增强Factory的功能需求:&lt;br&gt;1, 管理依赖关系&lt;br&gt;2, 管理对象&lt;br&gt;3, 注入对象" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1685" y="235" width="220" height="80" as="geometry" />
