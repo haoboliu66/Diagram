@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="Page-1" id="jKwXqTW0s1e_ha4R1b7n">
-    <mxGraphModel dx="1725" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4098" dy="3344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="710" width="3710" height="1740" as="geometry" />
+        </mxCell>
         <mxCell id="q59ie5paFjCf4iUjRe-1-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4780" y="1980" width="530" height="230" as="geometry" />
         </mxCell>
@@ -281,7 +284,7 @@
           <mxGeometry x="2210" y="220" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-10" value="Spring的设计初衷: 业务代码可以完全不依赖EJB或Spring容器运行, 但是自从引入注解后, 产生了对Spring依赖的强绑定, 打破了这个设计初衷" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2587.5" y="710" width="425" height="40" as="geometry" />
+          <mxGeometry x="2600" y="740" width="425" height="40" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-11" value="Spring ApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="3280" y="760" width="210" height="220" as="geometry" />
@@ -308,7 +311,7 @@
           <mxGeometry x="3170" y="1107.5" width="480" height="35" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-20" value="ORM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3750" y="635" width="60" height="30" as="geometry" />
+          <mxGeometry x="3580" y="731" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="105VQkGaMaxpQ6JVa1ym-21" target="105VQkGaMaxpQ6JVa1ym-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -317,19 +320,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-21" value="MVVM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3750" y="715" width="60" height="30" as="geometry" />
+          <mxGeometry x="3580" y="811" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-22" value="VUE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3900" y="695" width="60" height="30" as="geometry" />
+          <mxGeometry x="3730" y="791" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-23" value="AngularJS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3900" y="745" width="60" height="30" as="geometry" />
+          <mxGeometry x="3730" y="841" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-26" value="JS数据与dom节点的映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3980" y="725" width="170" height="30" as="geometry" />
+          <mxGeometry x="3810" y="821" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-27" value="Java class 与 DB table的映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3980" y="635" width="170" height="30" as="geometry" />
+          <mxGeometry x="3810" y="731" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="105VQkGaMaxpQ6JVa1ym-28" value="ApplicationContext&lt;br&gt;(聚合接口)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2910" y="1100" width="240" height="50" as="geometry" />
