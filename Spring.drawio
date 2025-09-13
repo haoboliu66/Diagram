@@ -719,16 +719,16 @@
           <mxGeometry x="3377.5" y="3011" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-65" value="http://localhost:8080/test/test" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2894" y="3180" width="180" height="30" as="geometry" />
+          <mxGeometry x="2714" y="3160" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-68" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-66" target="36S6Y0BTJt-Qnvc_1-ve-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-66" value="1, http协议, localhost是domain找到主机的ip, 怎么找? /etc/hosts文件 &amp;amp; DNS协议; 然后通过port找到主机的进程&lt;br&gt;2, browser作为一个client,发起TCP 三次握手请求连接, 然后根据http协议封装请求, 发送给web server&lt;br&gt;3, 通过test找到tomcat的项目&lt;br&gt;4, 通过web.xml配置的servlet-mapping找到对应的servlet, 对于SpringMVC就是DispatcherServlet, 调用它的service方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2860" y="3210" width="320" height="110" as="geometry" />
+          <mxGeometry x="2680" y="3190" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-67" value="然后DispatcherServlet一定会把请求的URI对应到某个Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3235" y="3255" width="245" height="20" as="geometry" />
+          <mxGeometry x="3055" y="3235" width="245" height="20" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-69" target="36S6Y0BTJt-Qnvc_1-ve-35">
           <mxGeometry relative="1" as="geometry" />
