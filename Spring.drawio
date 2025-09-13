@@ -685,13 +685,16 @@
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-49" value="DispatcherServlet&lt;br&gt;(HttpServletBean)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="3230" y="2821" width="90" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-52" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-52" value="mapping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="3370" y="2890" width="80" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-53" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-53" value="mapping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="3390" y="2900" width="80" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-54" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-96" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-54" target="36S6Y0BTJt-Qnvc_1-ve-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-54" value="mapping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="3410" y="2910" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-57" value="面向SpringMVC编程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -743,13 +746,13 @@
           <mxGeometry x="2894" y="2857" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-77" value="Tomcat (Servlet容器)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3640" y="2825" width="200" height="140" as="geometry" />
+          <mxGeometry x="3810" y="2822" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-78" value="Web项目" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="3660" y="2859" width="160" height="92" as="geometry" />
+          <mxGeometry x="3830" y="2856" width="160" height="92" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-79" value="ServletContext" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3685" y="2900" width="110" height="30" as="geometry" />
+          <mxGeometry x="3855" y="2897" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-81" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-80" target="36S6Y0BTJt-Qnvc_1-ve-79">
           <mxGeometry relative="1" as="geometry" />
@@ -758,22 +761,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-80" value="SpringMVC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="3880" y="2825" width="200" height="139" as="geometry" />
+          <mxGeometry x="4050" y="2822" width="200" height="139" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-84" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-82" target="36S6Y0BTJt-Qnvc_1-ve-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-82" value="WebApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="4145" y="2838" width="165" height="34" as="geometry" />
+          <mxGeometry x="4315" y="2835" width="165" height="34" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-83" value="ApplicationContext" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="4145" y="2773" width="165" height="34" as="geometry" />
+          <mxGeometry x="4315" y="2770" width="165" height="34" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-86" value="WebApplicationContext是一个组合了ApplicationContext和ServletContext功能的接口, 它把Spring容器和Servlet容器嫁接在了一起" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="4310" y="2826" width="247.5" height="58" as="geometry" />
+          <mxGeometry x="4480" y="2823" width="247.5" height="58" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-59" target="36S6Y0BTJt-Qnvc_1-ve-62">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-92" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="2910" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-93" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="2920" width="80" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-94" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3560" y="2930" width="80" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
