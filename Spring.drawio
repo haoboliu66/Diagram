@@ -650,7 +650,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-35" value="Servlet" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3110" y="2890" width="60" height="30" as="geometry" />
+          <mxGeometry x="3140" y="2891" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-38" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-39" target="36S6Y0BTJt-Qnvc_1-ve-33">
           <mxGeometry relative="1" as="geometry" />
@@ -714,6 +714,12 @@
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-67" value="然后DispatcherServlet一定会把请求的URI对应到某个Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3235" y="3255" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-69" target="36S6Y0BTJt-Qnvc_1-ve-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-69" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3074" y="2890.5" width="46" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
