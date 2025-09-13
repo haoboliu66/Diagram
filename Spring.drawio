@@ -803,13 +803,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-101" value="HandlerMapping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3810" y="2619" width="95" height="31" as="geometry" />
+          <mxGeometry x="3812.5" y="2619" width="95" height="31" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-102" value="HandlerMapping" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="3940" y="2619" width="95" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-105" value="一系列HandlerMapping组成一个责任链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3760" y="2580" width="200" height="30" as="geometry" />
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-107" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-105" target="36S6Y0BTJt-Qnvc_1-ve-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-105" value="一系列HandlerMapping按顺序组成一个责任链" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="2580" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-106" value="Ordered接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4020" y="2560" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
