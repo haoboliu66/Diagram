@@ -769,6 +769,9 @@
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-86" value="WebApplicationContext是一个组合了ApplicationContext和ServletContext功能的接口, 它把Spring容器和Servlet容器嫁接在了一起" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="4310" y="2826" width="247.5" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-89" value="HttpServletBean是一个特殊Servlet, 所以它一定会被调用lifecycle方法" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3505" y="3070" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
