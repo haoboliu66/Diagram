@@ -697,20 +697,23 @@
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-57" value="面向SpringMVC编程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3390" y="2860" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-90" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-59" target="36S6Y0BTJt-Qnvc_1-ve-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-59" value="DispatcherServlet是一个特殊的Servlet, Tomcat管理DispatcherServlet的lifecycle, 执行一系列lifecycle methods" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3210" y="3010" width="210" height="40" as="geometry" />
+          <mxGeometry x="3155" y="3041" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-64" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-60" target="36S6Y0BTJt-Qnvc_1-ve-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-60" value="init" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3290" y="3070" width="50" height="31" as="geometry" />
+          <mxGeometry x="3410" y="3020" width="50" height="31" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-62" value="destory" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3290" y="3120" width="50" height="31" as="geometry" />
+          <mxGeometry x="3410" y="3081" width="50" height="31" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-63" value="初始化SpringMVC, Spring父子容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3360" y="3071" width="120" height="30" as="geometry" />
+          <mxGeometry x="3480" y="3021" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-65" value="http://localhost:8080/test/test" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2894" y="3180" width="180" height="30" as="geometry" />
@@ -768,6 +771,9 @@
         </mxCell>
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-86" value="WebApplicationContext是一个组合了ApplicationContext和ServletContext功能的接口, 它把Spring容器和Servlet容器嫁接在了一起" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="4310" y="2826" width="247.5" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;endArrow=classic;" edge="1" parent="1" source="36S6Y0BTJt-Qnvc_1-ve-59" target="36S6Y0BTJt-Qnvc_1-ve-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
