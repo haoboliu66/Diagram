@@ -706,7 +706,7 @@
         <mxCell id="36S6Y0BTJt-Qnvc_1-ve-65" value="http://localhost:8080/test/test" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2894" y="3180" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-66" value="1, http协议, localhost是domain找到主机的ip, 怎么找? /etc/hosts文件 &amp;amp; DNS协议; 然后通过port找到主机的进程&lt;br&gt;2, browser作为一个client,发起TCP 三次握手请求连接, 然后根据http协议封装请求, 发送给web server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="36S6Y0BTJt-Qnvc_1-ve-66" value="1, http协议, localhost是domain找到主机的ip, 怎么找? /etc/hosts文件 &amp;amp; DNS协议; 然后通过port找到主机的进程&lt;br&gt;2, browser作为一个client,发起TCP 三次握手请求连接, 然后根据http协议封装请求, 发送给web server&lt;br&gt;3, 通过test找到tomcat的项目" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2890" y="3220" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
