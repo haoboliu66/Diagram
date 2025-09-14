@@ -856,6 +856,15 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-2" value="Interceptor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="3370" y="2902" width="75" height="23.5" as="geometry" />
         </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-6" value="doService" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3044" y="3360" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-8" target="MvX5YF9ELn-KrEbnMmGQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-8" value="Servlet doGet / doPost" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3074" y="3310" width="185" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
