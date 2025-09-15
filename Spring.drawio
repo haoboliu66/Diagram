@@ -941,7 +941,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-37" value="注册驱动" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3432.5" y="3960" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3786.25" y="3971.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-38" target="MvX5YF9ELn-KrEbnMmGQ-39">
           <mxGeometry relative="1" as="geometry" />
@@ -950,49 +950,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-38" value="开启连接" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3432.5" y="4020" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3786.25" y="4031.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-39" target="MvX5YF9ELn-KrEbnMmGQ-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-39" value="Statement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3366.25" y="4092" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3720" y="4103.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-52" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-40" target="MvX5YF9ELn-KrEbnMmGQ-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-40" value="PreparedStatement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3500" y="4092" width="108.75" height="30" as="geometry" />
+          <mxGeometry x="3853.75" y="4103.25" width="108.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-41" target="MvX5YF9ELn-KrEbnMmGQ-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-41" value="CRUD" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3432.5" y="4180" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3786.25" y="4191.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-42" target="MvX5YF9ELn-KrEbnMmGQ-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-42" value="ResultSet" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3432.5" y="4240" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3786.25" y="4251.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-44" value="关闭连接" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3432.5" y="4300" width="87.5" height="30" as="geometry" />
+          <mxGeometry x="3786.25" y="4311.25" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-53" value="JdbcTemplate (NOT ORM)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="3695" y="4110" width="480" height="60" as="geometry" />
+          <mxGeometry x="4048.75" y="4121.25" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;fillColor=#fff2cc;rotation=0;size=0.5;" vertex="1" parent="1">
-          <mxGeometry x="3629.58" y="3948.75" width="20" height="402.5" as="geometry" />
+          <mxGeometry x="3983.33" y="3960" width="20" height="402.5" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-55" value="SQL表" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3880" y="4030" width="90" height="30" as="geometry" />
+          <mxGeometry x="4233.75" y="4041.25" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-59" value="Java对象" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3890" y="4230" width="90" height="30" as="geometry" />
+          <mxGeometry x="4243.75" y="4241.25" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-60" value="JdbcTemplate封装了JDBC复杂的操作流程和异常管理, 完成了从SQL ResultSet到Java对象的映射的抽象, 具体如何mapping实现由使用者提供" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4180" y="4130" width="360" height="30" as="geometry" />
+          <mxGeometry x="4533.75" y="4141.25" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-61" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;fillColor=#fff2cc;rotation=-180;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="3723.75" y="4181.25" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-62" value="QueryExecutor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3600" y="4216.25" width="107.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
