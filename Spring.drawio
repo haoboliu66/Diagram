@@ -1028,7 +1028,7 @@
           <mxGeometry x="3406.25" y="4191.25" width="102.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-71" value="技巧: 手动创建并利用beanfactory的功能来解析外部的xml文件并注入定义的bean;&lt;div&gt;&lt;br&gt;架构进阶版技巧: 将外部Spring上下文放入自己创建的新Spring上下文中, 行程外大内小 父子容器关系, 这时可以复用和定制化父类的配置属性, 于是使用者就可以直接将配置放入到外部Spring上下文中, 中间件可以根据是否存在来设置默认值, 同时屏蔽子容器的存在 (&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Feign/&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OpenFeign)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3190" y="4241.25" width="180" height="63.75" as="geometry" />
+          <mxGeometry x="3190" y="4230" width="180" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
