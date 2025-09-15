@@ -1006,6 +1006,9 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-64" target="MvX5YF9ELn-KrEbnMmGQ-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-64" target="MvX5YF9ELn-KrEbnMmGQ-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-64" value="SQLExceptionTranslator" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3390" y="4130" width="135" height="30" as="geometry" />
         </mxCell>
@@ -1024,8 +1027,8 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-69" value="DataAccessException" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3406.25" y="4191.25" width="102.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-71" value="DataAccessException" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3230" y="4246.25" width="90" height="30" as="geometry" />
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-71" value="技巧: 手动创建并利用beanfactory的功能来解析外部的xml文件并注入定义的bean" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="4247.5" width="130" height="63.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
