@@ -949,6 +949,21 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-40" value="PreparedStatement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3501.25" y="4080" width="108.75" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-41" target="MvX5YF9ELn-KrEbnMmGQ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-41" value="CRUD" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3432.5" y="4140" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="MvX5YF9ELn-KrEbnMmGQ-42" target="MvX5YF9ELn-KrEbnMmGQ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-42" value="ResultSet" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3432.5" y="4200" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-44" value="关闭连接" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3432.5" y="4260" width="87.5" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
