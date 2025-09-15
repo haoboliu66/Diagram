@@ -979,8 +979,8 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-44" value="关闭连接" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3432.5" y="4300" width="87.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-53" value="Spring&lt;br&gt;JdbcTemplate" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="3695" y="4110" width="480" height="80" as="geometry" />
+        <mxCell id="MvX5YF9ELn-KrEbnMmGQ-53" value="JdbcTemplate (NOT ORM)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3695" y="4110" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBorderColor=none;labelBackgroundColor=none;fillColor=#fff2cc;rotation=0;size=0.5;" vertex="1" parent="1">
           <mxGeometry x="3629.58" y="3948.75" width="20" height="402.5" as="geometry" />
@@ -989,7 +989,7 @@
           <mxGeometry x="3880" y="4030" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-59" value="Java对象" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="3890" y="4240" width="90" height="30" as="geometry" />
+          <mxGeometry x="3890" y="4230" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-60" value="JdbcTemplate封装了JDBC复杂的操作流程和异常管理, 完成了从SQL ResultSet到Java对象的映射的抽象, 具体如何mapping实现由使用者提供" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4191.25" y="4135" width="360" height="30" as="geometry" />
