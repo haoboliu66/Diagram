@@ -1033,13 +1033,13 @@
         <mxCell id="MvX5YF9ELn-KrEbnMmGQ-71" value="技巧: 手动创建并利用beanfactory的功能来解析外部的xml文件并注入定义的bean;&lt;div&gt;&lt;br&gt;架构进阶版技巧: 将外部Spring上下文放入自己创建的新Spring上下文中, 行程外大内小 父子容器关系, 这时可以复用和定制化父类的配置属性, 于是使用者就可以直接将配置放入到外部Spring上下文中, 中间件可以根据是否存在来设置默认值, 同时屏蔽子容器的存在 (&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Feign/&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OpenFeign)&lt;br&gt;i.e. 中间件允许用户在父容器内配置中间件相关的数据, 然后中间件把自身包装成一个factorybean&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="3190" y="4230" width="180" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="giEFIz0YOmqlRhmFh9py-1" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="giEFIz0YOmqlRhmFh9py-1" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="2990" y="4001.25" width="80" height="28.75" as="geometry" />
         </mxCell>
-        <mxCell id="giEFIz0YOmqlRhmFh9py-2" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="giEFIz0YOmqlRhmFh9py-2" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="3000" y="4012.5" width="80" height="28.75" as="geometry" />
         </mxCell>
-        <mxCell id="giEFIz0YOmqlRhmFh9py-4" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="giEFIz0YOmqlRhmFh9py-4" value="Connection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="3010" y="4024" width="80" height="28.75" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-6" value="抽象数据源管理连接,&amp;nbsp; flyweight设计模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
