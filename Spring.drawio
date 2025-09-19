@@ -1114,6 +1114,21 @@
         <mxCell id="GXMJuHq3n68GhyFLKtG_-13" value="隔离级别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2715" y="5440" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GXMJuHq3n68GhyFLKtG_-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_uncommitted&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2865" y="5370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXMJuHq3n68GhyFLKtG_-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_uncommitted&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2869" y="5410" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXMJuHq3n68GhyFLKtG_-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;repeatable_read&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="5450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXMJuHq3n68GhyFLKtG_-18" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;serializable&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2884.5" y="5490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXMJuHq3n68GhyFLKtG_-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;MVCC&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3025" y="5450" width="65" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
