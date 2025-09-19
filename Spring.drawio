@@ -1052,7 +1052,7 @@
           <mxGeometry x="2800" y="3981.25" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-9" value="Transaction" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2370" y="4740" width="100" height="39" as="geometry" />
+          <mxGeometry x="2270" y="4890" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="giEFIz0YOmqlRhmFh9py-10" target="giEFIz0YOmqlRhmFh9py-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1085,28 +1085,28 @@
           <mxGeometry x="3856.94" y="4695" width="333.06" height="84" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-3" value="Transaction A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="4880" width="100" height="39" as="geometry" />
+          <mxGeometry x="2310" y="5180" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-4" value="Transaction B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="4880" width="100" height="39" as="geometry" />
+          <mxGeometry x="2510" y="5180" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-5" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Transaction就是一组SQL的组合&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="4950" width="180" height="30" as="geometry" />
+          <mxGeometry x="2270" y="5250" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-6" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="5030" width="80" height="30" as="geometry" />
+          <mxGeometry x="2280" y="5330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-7" value="C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="5090" width="80" height="30" as="geometry" />
+          <mxGeometry x="2280" y="5390" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-8" value="I" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="5150" width="80" height="30" as="geometry" />
+          <mxGeometry x="2280" y="5450" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-9" value="D" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="5210" width="80" height="30" as="geometry" />
+          <mxGeometry x="2280" y="5510" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-10" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;多个事务同时操作一个table, 一个事务对数据的改变, 对另一个事务是否可见, 或者什么情况下可见?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="5150" width="270" height="30" as="geometry" />
+          <mxGeometry x="2370" y="5450" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
