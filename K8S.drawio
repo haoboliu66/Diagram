@@ -705,8 +705,8 @@
         <mxCell id="IGFzGuEiSgirud9OXhFV-29" value="配置容器中init进程(1号进程)的运行环境和启动命令等" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="-1930" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IGFzGuEiSgirud9OXhFV-31" value="问题: 以前认为一个容器就是一个单独隔离的进程, 这其实有问题。&lt;br&gt;比如我可以用容器来启动一个nginx, 这个nginix一定会包含多个进程, master进程, 一系列worker进程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1390" y="-2070" width="380" height="230" as="geometry" />
+        <mxCell id="IGFzGuEiSgirud9OXhFV-31" value="问题: 以前认为一个容器就是一个单独隔离的进程, 这其实有问题。&lt;br&gt;比如我可以用容器来启动一个nginx, 这个nginix一定会包含多个进程, master进程, 一系列worker进程, 他们在同一个container中, 属于同一个PID ns" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1330" y="-1975" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
