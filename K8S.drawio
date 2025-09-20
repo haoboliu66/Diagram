@@ -600,42 +600,6 @@
         <mxCell id="fwI6KYuwTm7sGlPnnHZm-4" value="kubelet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="512.5" y="860" width="57.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ljvuTwLt2VBTXrbIT04z-1" value="fleks-repl-stage-screwdriver-role" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="427.13" y="-2310" width="222.87" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pN9uTpzTUVGWdaBWAe9R-1" target="pN9uTpzTUVGWdaBWAe9R-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-1" value="dcs.online-targeting-prd.us-west-2.fleks-repl-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540.63" y="-2090" width="299.37" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-2" value="&lt;div&gt;dcs.online-targeting-prd.fleks-repl-us-wt&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="950" y="-2090" width="310" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-4" value="assume" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="865" y="-2100" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-5" value="AthenzRole" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="-2120" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-6" value="fleks-repl-stage-us-east-1-node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="-1910" width="215" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="pN9uTpzTUVGWdaBWAe9R-7" value="nodegroup" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="1433.5" y="-1830" width="101.5" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Q7kGIdYGvbBZrHyYKkEI-1" value="fleks-repl-prod-app-pts-fleks-repl-us-wt-athenz" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="-2150" width="290" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q7kGIdYGvbBZrHyYKkEI-2" value="fleks-repl-prod-app-pts-fleks-repl-us-wt-irsa" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="-2140" width="277" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q7kGIdYGvbBZrHyYKkEI-3" value="EKS IAM Role for Kubernetes Service Account (IRSA)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="542.5" y="-2180" width="295" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q7kGIdYGvbBZrHyYKkEI-4" value="fleks-repl-prod-nodegroup-default" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="565.63" y="-1980" width="240" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="JaHjokSUnbEvcgMZ0mN--1" value="Container Runtime Interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-250" y="-1005" width="170" height="20" as="geometry" />
         </mxCell>
