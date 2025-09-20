@@ -706,7 +706,7 @@
           <mxGeometry x="940" y="-1930" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-31" value="问题: 以前认为一个容器就是一个单独隔离的进程, 这其实有问题。&lt;br&gt;比如我可以用容器来启动一个nginx, 这个nginix一定会包含多个进程, master进程, 一系列worker进程, 他们在同一个container中, 属于同一个PID ns;&amp;nbsp;&lt;br&gt;&lt;br&gt;由于在这个OCI spec中可以指定1号进程的启动方式, 所以nginx的启动命令就是1号进程, 也就是nginx的master进程" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1330" y="-1955" width="390" height="80" as="geometry" />
+          <mxGeometry x="1310" y="-1955" width="390" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
