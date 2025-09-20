@@ -549,8 +549,8 @@
         <mxCell id="_vighnMdHYA6EKoDArWe-2" value="every process is tracked with cgroup in Linux" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="431.88" y="-1400" width="187.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_vighnMdHYA6EKoDArWe-3" value="cgroupfs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="681" y="-1595" width="60" height="30" as="geometry" />
+        <mxCell id="_vighnMdHYA6EKoDArWe-3" value="宿主机管理的cgroupfs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="816" y="-1545" width="129" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_vighnMdHYA6EKoDArWe-4" value="resource limit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="-1329" width="105" height="30" as="geometry" />
@@ -738,8 +738,11 @@
         <mxCell id="IGFzGuEiSgirud9OXhFV-41" value="Devices" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="670" y="-1690" width="82" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IGFzGuEiSgirud9OXhFV-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-42" target="_vighnMdHYA6EKoDArWe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-42" value="cgroups" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-1565" width="82" height="30" as="geometry" />
+          <mxGeometry x="670" y="-1520" width="82" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
