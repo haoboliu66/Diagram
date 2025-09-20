@@ -741,6 +741,9 @@
         <mxCell id="IGFzGuEiSgirud9OXhFV-47" value="subsystems /controller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="838" y="-1490" width="82" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IGFzGuEiSgirud9OXhFV-50" value="查看进程所属的cgroup: cat /proc/{PID}/cgroup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-1380" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
