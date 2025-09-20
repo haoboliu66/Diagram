@@ -693,8 +693,14 @@
         <mxCell id="IGFzGuEiSgirud9OXhFV-25" value="container中的挂载信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="945" y="-1985" width="115" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IGFzGuEiSgirud9OXhFV-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-27" target="IGFzGuEiSgirud9OXhFV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-27" value="process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="835" y="-1930" width="60" height="30" as="geometry" />
+          <mxGeometry x="835" y="-1930" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IGFzGuEiSgirud9OXhFV-29" value="配置容器中init进程(1号进程)的运行环境和启动命令等" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-1930" width="265" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
