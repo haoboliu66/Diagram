@@ -747,8 +747,8 @@
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-3" value="mount -t cgroup2 none $$MOUNT_POINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="970" y="-1595" width="215" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8TRzMWuCUW0j1KKL3elZ-4" value="通过这个mount_point, 当前进程就可以操作cgroupfs了; 这里可以看出VFS是如何向用户提供了一个接口, 让&quot;一切皆文件&quot;, 即用户可以通过操作&lt;span style=&quot;font-size: 12px;&quot;&gt;/sys/fs/cgroup或指定路径下的文件, 来操作cgroupfs对进程进行资源分配限制&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1248.5" y="-1650" width="370" height="70" as="geometry" />
+        <mxCell id="8TRzMWuCUW0j1KKL3elZ-4" value="通过这个mount_point, 当前进程就通过文件路径访问cgroupfs了; 这里可以看出VFS是如何向用户提供了一个接口, 让&quot;一切皆文件&quot;, 即用户可以通过操作&lt;span style=&quot;font-size: 12px;&quot;&gt;/sys/fs/cgroup或指定路径下的文件, 来操作cgroupfs对进程进行资源分配限制&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1244.5" y="-1630" width="370" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
