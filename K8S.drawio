@@ -79,18 +79,6 @@
         <mxCell id="Rm5pHpjm9QW5DBmvsUhB-3" value="container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="530" y="800" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rm5pHpjm9QW5DBmvsUhB-4" value="CRI - Container Runtime Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-545" y="-1344" width="200" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="Rm5pHpjm9QW5DBmvsUhB-7" value="OCI spec - Open Container Initiative Spec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="-1377.25" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Rm5pHpjm9QW5DBmvsUhB-8" value="CRI-O" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-235" y="-1334.5" width="80" height="35.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Rm5pHpjm9QW5DBmvsUhB-9" value="containerd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-235" y="-1380" width="80" height="35.5" as="geometry" />
-        </mxCell>
         <mxCell id="njnLBCU6WLq5v7DGbRTA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=11;" parent="1" source="njnLBCU6WLq5v7DGbRTA-1" target="njnLBCU6WLq5v7DGbRTA-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -432,27 +420,27 @@
           <mxGeometry x="1751" y="-597.12" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-33" value="Docker pulled its core container runtime into a standalone project called containerd and donated it to the Cloud Native Computing Foundation (CNCF)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-945" y="-1030" width="450" height="50" as="geometry" />
+          <mxGeometry x="-1110" y="-1240" width="450" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-35" target="8YG21vbMfinRDRhy8hdl-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-35" value="Docker Engine" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-660" y="-970" width="130" height="40" as="geometry" />
+          <mxGeometry x="-825" y="-1180" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-36" target="8YG21vbMfinRDRhy8hdl-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8YG21vbMfinRDRhy8hdl-36" target="8YG21vbMfinRDRhy8hdl-41" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-500" y="-670" as="targetPoint" />
+            <mxPoint x="-665" y="-880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-36" value="containerd" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="-860" width="140" height="30" as="geometry" />
+          <mxGeometry x="-830" y="-1070" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-39" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-665" y="-599.12" width="590" height="32" as="geometry" />
+          <mxGeometry x="-830" y="-809.12" width="590" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-40" target="8YG21vbMfinRDRhy8hdl-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -461,16 +449,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-40" value="Container Runtime的标准: OCI - Open Container Initiative" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-320" y="-647.75" width="330" height="27.5" as="geometry" />
+          <mxGeometry x="-485" y="-857.75" width="330" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-41" value="runc" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="-654" width="50" height="40" as="geometry" />
+          <mxGeometry x="-545" y="-864" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="8YG21vbMfinRDRhy8hdl-42" target="8YG21vbMfinRDRhy8hdl-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-140" y="-880" />
-              <mxPoint x="-330" y="-880" />
+              <mxPoint x="-305" y="-1090" />
+              <mxPoint x="-495" y="-1090" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -478,34 +466,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-42" value="CRI-O" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-211.73" y="-858.75" width="141.73" height="35" as="geometry" />
+          <mxGeometry x="-376.73" y="-1068.75" width="141.73" height="35" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-43" value="containerd的竞品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="-855.62" width="110" height="28.75" as="geometry" />
+          <mxGeometry x="-235" y="-1065.62" width="110" height="28.75" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-46" value="K8S" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="-1050" width="140" height="40" as="geometry" />
+          <mxGeometry x="-565" y="-1260" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-47" value="CRI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="-1010" width="140" height="30" as="geometry" />
+          <mxGeometry x="-565" y="-1220" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-55" value="image-spec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="63.75" y="-675.12" width="75" height="30" as="geometry" />
+          <mxGeometry x="-101.25" y="-885.12" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-56" value="runtime-spec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="66.25" y="-622.87" width="75" height="30" as="geometry" />
+          <mxGeometry x="-98.75" y="-832.87" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-60" target="8YG21vbMfinRDRhy8hdl-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-60" value="libcontainer" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="-657.56" width="80" height="49.12" as="geometry" />
+          <mxGeometry x="-835" y="-867.56" width="80" height="49.12" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="8YG21vbMfinRDRhy8hdl-61" target="8YG21vbMfinRDRhy8hdl-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8YG21vbMfinRDRhy8hdl-61" value="OCI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-525" y="-651.31" width="80" height="34.62" as="geometry" />
+          <mxGeometry x="-690" y="-861.31" width="80" height="34.62" as="geometry" />
         </mxCell>
         <mxCell id="PO94K3SdY-ftrbE1DFdD-3" value="Pod A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1788" y="520" width="69" height="27.5" as="geometry" />
@@ -535,7 +523,7 @@
           <mxGeometry x="646.5" y="-1550" width="129" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CmTjrF_8SrzXska3ni3x-3" value="ctr" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="-880" width="50" height="40" as="geometry" />
+          <mxGeometry x="-855" y="-1090" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NFbFX1QPzcrDU_DopLVh-1" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-570" y="-1630" width="200" height="40" as="geometry" />
@@ -577,7 +565,7 @@
           <mxGeometry x="512.5" y="860" width="57.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JaHjokSUnbEvcgMZ0mN--1" value="Container Runtime Interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-250" y="-1005" width="170" height="20" as="geometry" />
+          <mxGeometry x="-415" y="-1215" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JaHjokSUnbEvcgMZ0mN--2" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="360" y="-807.87" width="232.5" height="215" as="geometry" />
@@ -596,9 +584,6 @@
         </mxCell>
         <mxCell id="JaHjokSUnbEvcgMZ0mN--9" value="IPAM (IP Address Management)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="75" y="-1130" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IGFzGuEiSgirud9OXhFV-2" value="runc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="-1379.5" width="80" height="35.5" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-4" value="initCommand" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="217.5" y="-2280" width="80" height="40" as="geometry" />
@@ -727,10 +712,10 @@
           <mxGeometry x="970" y="-1540" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-51" value="Docker donated libcontainter to OCI, leading to the creation of OCI runtime spec&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="-700" width="220" height="30" as="geometry" />
+          <mxGeometry x="-815" y="-910" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-1" value="OCI定义了:&lt;br&gt;1, 如何创建一个容器的规范;&amp;nbsp;&lt;br&gt;2, 容器的image如何打包和分发" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-699" width="180" height="45" as="geometry" />
+          <mxGeometry x="-355" y="-909" width="180" height="45" as="geometry" />
         </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;curved=1;" parent="1" source="8TRzMWuCUW0j1KKL3elZ-3" target="8TRzMWuCUW0j1KKL3elZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
