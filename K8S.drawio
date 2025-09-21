@@ -733,13 +733,16 @@
           <mxGeometry x="838" y="-1490" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-50" value="查看进程所属的cgroup: cat /proc/{PID}/cgroup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="935" y="-1595" width="230" height="30" as="geometry" />
+          <mxGeometry x="970" y="-1590" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-51" value="Docker donated libcontainter to OCI, leading to the creation of OCI runtime spec&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-650" y="-700" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-1" value="OCI定义了:&lt;br&gt;1, 如何创建一个容器的规范;&amp;nbsp;&lt;br&gt;2, 容器的image如何打包和分发" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-190" y="-699" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8TRzMWuCUW0j1KKL3elZ-3" value="mount -t cgroup2 none" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="-1580" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
