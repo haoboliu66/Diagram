@@ -754,7 +754,7 @@
           <mxGeometry x="1241" y="-1590" width="405" height="55" as="geometry" />
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-4" value="CNI - Container Network Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="-1260" width="200" height="25" as="geometry" />
+          <mxGeometry x="70" y="-1210" width="200" height="25" as="geometry" />
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-10" target="maDRo7bWqHbKX1x7YCBC-5">
           <mxGeometry relative="1" as="geometry" />
@@ -764,6 +764,9 @@
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-9" value="OCI spec内容只规定了如何创建一个container, 里面并没有网络相关的要求, 如果container要和外部通信, 这个网络设置谁来解决?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="59.5" y="-1540" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="maDRo7bWqHbKX1x7YCBC-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="147.75" y="-1430" width="34.5" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
