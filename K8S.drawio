@@ -83,7 +83,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rm5pHpjm9QW5DBmvsUhB-5" value="CNI - Container Network Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="328.75" y="-1050" width="200" height="45" as="geometry" />
+          <mxGeometry x="330" y="-1040" width="200" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Rm5pHpjm9QW5DBmvsUhB-7" value="OCI spec - Open Container Initiative Spec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-570" y="-1377.25" width="250" height="30" as="geometry" />
@@ -755,6 +755,9 @@
         </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-6" value="cgroup 的 mount 操作本质上就是暴露一个操作cgroupfs的接口, 只有当容器内的进程需要直接访问或感知自己的 cgroup 信息时, 才需要在容器内挂载。正常情况话, 资源限制的操作应该是由container runtime在宿主机上进行操作, 在容器进程启动前就设置好的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1241" y="-1590" width="405" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maDRo7bWqHbKX1x7YCBC-4" value="CNI - Container Network Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-1280" width="200" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
