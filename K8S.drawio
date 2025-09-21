@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
-    <mxGraphModel dx="2965" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4176" dy="3676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         <mxCell id="qf9HLW5Rsi24P6biFxiw-12" value="kube-proxy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="230" y="860" width="62.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="an2eaPxPIKIlCE3A4yRe-1" value="Pod A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="920" width="70" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="fwI6KYuwTm7sGlPnnHZm-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="an2eaPxPIKIlCE3A4yRe-2" target="an2eaPxPIKIlCE3A4yRe-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -57,18 +54,6 @@
         </mxCell>
         <mxCell id="an2eaPxPIKIlCE3A4yRe-6" value="kube-proxy" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="570" y="860" width="62.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="an2eaPxPIKIlCE3A4yRe-7" value="Pod B" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="920" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="an2eaPxPIKIlCE3A4yRe-8" value="Pod C" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="920" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="an2eaPxPIKIlCE3A4yRe-9" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="942.5" y="670" width="420" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="an2eaPxPIKIlCE3A4yRe-10" value="init containers" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="920" y="920" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Rm5pHpjm9QW5DBmvsUhB-1" value="container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="192.5" y="800" width="80" height="30" as="geometry" />
