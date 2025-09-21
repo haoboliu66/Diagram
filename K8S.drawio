@@ -733,7 +733,7 @@
           <mxGeometry x="838" y="-1490" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-50" value="查看进程所属的cgroup: cat /proc/{PID}/cgroup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="970" y="-1565" width="230" height="30" as="geometry" />
+          <mxGeometry x="970" y="-1540" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-51" value="Docker donated libcontainter to OCI, leading to the creation of OCI runtime spec&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-650" y="-700" width="220" height="30" as="geometry" />
@@ -744,11 +744,17 @@
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;curved=1;" edge="1" parent="1" source="8TRzMWuCUW0j1KKL3elZ-3" target="8TRzMWuCUW0j1KKL3elZ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8TRzMWuCUW0j1KKL3elZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;curved=1;" edge="1" parent="1" source="8TRzMWuCUW0j1KKL3elZ-3" target="8TRzMWuCUW0j1KKL3elZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-3" value="mount -t cgroup2 none $$MOUNT_POINT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="970" y="-1595" width="215" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-4" value="通过这个mount_point, 当前进程就通过文件路径访问cgroupfs了; 这里可以看出VFS是如何向用户提供了一个接口, 让&quot;一切皆文件&quot;, 即用户可以通过操作&lt;span style=&quot;font-size: 12px;&quot;&gt;/sys/fs/cgroup或指定路径下的文件, 来操作cgroupfs对进程进行资源分配限制&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1244.5" y="-1630" width="370" height="70" as="geometry" />
+          <mxGeometry x="1240" y="-1665" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8TRzMWuCUW0j1KKL3elZ-6" value="cgroup 的 mount 操作本质上就是暴露一个操作cgroupfs的接口, 只有当容器内的进程需要直接访问或感知自己的 cgroup 信息时, 才需要在容器内挂载。正常情况话, 资源限制的操作应该是由container runtime在宿主机上进行操作, 在容器进程启动前就设置好的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="-1590" width="405" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
