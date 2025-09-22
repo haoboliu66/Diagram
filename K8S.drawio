@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="maDRo7bWqHbKX1x7YCBC-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-1340" width="270" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="-2130" width="1310" height="690" as="geometry" />
         </mxCell>
@@ -655,6 +658,12 @@
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-14" value="kubelet进程托管给systemd进程去操作/sys/fs/cgroup/下的文件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-185.77" y="1259.99" width="196.53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="maDRo7bWqHbKX1x7YCBC-15" value="Container A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-1310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="maDRo7bWqHbKX1x7YCBC-16" value="Container B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="556.5" y="-1310" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
