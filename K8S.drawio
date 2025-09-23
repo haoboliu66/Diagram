@@ -756,28 +756,28 @@
           <mxGeometry x="2210" y="-930" width="548" height="122.07" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2490" y="-710" width="140" height="30" as="geometry" />
+          <mxGeometry x="2460" y="-740" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-39" value="bridge br0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="-740" width="70" height="30" as="geometry" />
+          <mxGeometry x="2490" y="-770" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="-730" width="80" height="70" as="geometry" />
+          <mxGeometry x="2320" y="-760" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-43" target="GYz91WxMEquE42gM_uh7-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-43" value="veth0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="-710" width="40" height="30" as="geometry" />
+          <mxGeometry x="2360" y="-740" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-44" value="vethX" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2500" y="-710" width="40" height="30" as="geometry" />
+          <mxGeometry x="2470" y="-740" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-46" value="Container A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2355" y="-760" width="70" height="30" as="geometry" />
+          <mxGeometry x="2325" y="-790" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-47" value="默认情况下, hairpin off, br0从vethX接收到一个来自containerA的消息, 当它发现这个消息的目的地port(根据MAC table)也是vethX时, 它会丢弃这个消息以避免loop;&amp;nbsp;&lt;br&gt;hairpin on就是允许这个行为, 允许消息环回" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2650" y="-725" width="360" height="60" as="geometry" />
+          <mxGeometry x="2620" y="-755" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
