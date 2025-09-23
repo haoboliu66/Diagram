@@ -719,11 +719,32 @@
         <mxCell id="GYz91WxMEquE42gM_uh7-16" value="如何管理容器的network interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="694.25" y="-1070" width="190" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-21" target="GYz91WxMEquE42gM_uh7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-21" target="GYz91WxMEquE42gM_uh7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-21" target="GYz91WxMEquE42gM_uh7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-21" target="GYz91WxMEquE42gM_uh7-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-21" value="CNI定义的operations&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-1280" width="120" height="25" as="geometry" />
+          <mxGeometry x="322.5" y="-1280" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-23" value="ADD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="495" y="-1340" width="55" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-24" value="DEL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1305" width="45" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-25" value="CHECK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1260" width="45" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GYz91WxMEquE42gM_uh7-26" value="VERSION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-1220" width="50" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
