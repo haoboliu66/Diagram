@@ -1189,7 +1189,7 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-21" target="1atRLDDrdoty7dAFkjyx-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-21" value="Interceptor在执行方法前检查, 在执行后进行commit或rolleback或异常处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1atRLDDrdoty7dAFkjyx-21" value="Interceptor作为切面环绕方法, 执行前检查, 在执行后进行commit或rolleback或异常处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4500" y="4550" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-23" value="Interceptor是在哪里被调用的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
