@@ -1081,8 +1081,11 @@
         <mxCell id="giEFIz0YOmqlRhmFh9py-15" value="TX Isolation Level" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3730" y="4801" width="102" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="giEFIz0YOmqlRhmFh9py-18" target="1atRLDDrdoty7dAFkjyx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-18" value="在发生方法调用时, 要决定事务的传播机制, i,.e 方法A调用方法B时, A已经开启了事务, B方法执行时要开启新的事务, 还是加入A已存在的事务?&lt;br&gt;所以Propgation决定了方法调用时, 多个数据库操作的事务关系是怎样? 独立, 共享, 还是不支持?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3920" y="4650" width="333.06" height="84" as="geometry" />
+          <mxGeometry x="3920" y="4650" width="320" height="84" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-3" value="Transaction A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4545" y="4720" width="100" height="39" as="geometry" />
@@ -1152,6 +1155,9 @@
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-9" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Interceptor是通过AOP来处理的&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4140" y="5560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-10" value="PROPAGATION_REQUIRED" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4310" y="4600" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
