@@ -1264,20 +1264,20 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-51" value="JDK Proxy &amp;amp; Cglib Proxy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="7430" y="5018.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-55" value="JDK Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6295" y="5642" width="120" height="46.03" as="geometry" />
-        </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-56" value="CGLIB Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="6471" y="5642" width="120" height="46.03" as="geometry" />
-        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-57" value="内存中直接写bytecode生成代理类" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="6295" y="5710" width="300" height="50" as="geometry" />
+          <mxGeometry x="6298" y="5686.03" width="295" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-58" value="Spring AOP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="6295" y="5470" width="295" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-59" target="1atRLDDrdoty7dAFkjyx-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-59" value="FactoryBean" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="6360" y="5546.03" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-62" value="Proxy (JDK, CGLIB)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6297.5" y="5640" width="295" height="46.03" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
