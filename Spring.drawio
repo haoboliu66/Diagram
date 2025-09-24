@@ -1174,6 +1174,12 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-17" value="由于Interceptor是用AOP插入的, 所以在执行方法前, 这里要检查事务的Propagation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4200" y="4550" width="250" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-18" value="执行方法前, 必须有事务 (现有或新建)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4503.75" y="4600" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-19" value="执行方法前, 如果有事务就用, 没有就0事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4510" y="4650" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
