@@ -1084,6 +1084,12 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="giEFIz0YOmqlRhmFh9py-18" target="1atRLDDrdoty7dAFkjyx-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="giEFIz0YOmqlRhmFh9py-18" target="1atRLDDrdoty7dAFkjyx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="giEFIz0YOmqlRhmFh9py-18" target="1atRLDDrdoty7dAFkjyx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-18" value="在发生方法调用时, 要决定事务的传播机制, i,.e 方法A调用方法B时, A已经开启了事务, B方法执行时要开启新的事务, 还是加入A已存在的事务?&lt;br&gt;所以Propgation决定了方法调用时, 多个数据库操作的事务关系是怎样? 独立, 共享, 还是不支持?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="3920" y="4650" width="320" height="84" as="geometry" />
         </mxCell>
