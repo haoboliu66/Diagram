@@ -1076,61 +1076,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-14" value="TX Propagation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3712.75" y="4749" width="97.25" height="30" as="geometry" />
+          <mxGeometry x="3740" y="4741" width="97.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-15" value="TX Isolation Level" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3712.75" y="4800" width="102" height="30" as="geometry" />
+          <mxGeometry x="3730" y="4801" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-18" value="在发生方法调用时, 要决定事务的传播机制, i,.e 方法A调用方法B时, A已经开启了事务, B方法执行时要开启新的事务, 还是加入A已存在的事务?&lt;br&gt;所以Propgation决定了方法调用时, 多个数据库操作的事务关系是怎样? 独立, 共享, 还是不支持?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3856.94" y="4695" width="333.06" height="84" as="geometry" />
+          <mxGeometry x="3920" y="4650" width="333.06" height="84" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-3" value="Transaction A" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="5180" width="100" height="39" as="geometry" />
+          <mxGeometry x="4545" y="4720" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-4" value="Transaction B" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="2510" y="5180" width="100" height="39" as="geometry" />
+          <mxGeometry x="4745" y="4720" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-5" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Transaction就是一组SQL的组合&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2275" y="5231" width="170" height="30" as="geometry" />
+          <mxGeometry x="4510" y="4771" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-6" value="A" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="5320" width="80" height="30" as="geometry" />
+          <mxGeometry x="4535" y="4860" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-7" value="C" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="5380" width="80" height="30" as="geometry" />
+          <mxGeometry x="4535" y="4920" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-8" value="I" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="5440" width="80" height="30" as="geometry" />
+          <mxGeometry x="4535" y="4980" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-9" value="D" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2300" y="5500" width="80" height="30" as="geometry" />
+          <mxGeometry x="4535" y="5040" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GXMJuHq3n68GhyFLKtG_-10" target="GXMJuHq3n68GhyFLKtG_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-10" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;多个事务同时操作一个table, 一个事务对数据的改变, 对另一个事务是否可见, 或者什么情况下可见?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2390" y="5440" width="270" height="30" as="geometry" />
+          <mxGeometry x="4625" y="4980" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-13" value="隔离级别" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2715" y="5440" width="80" height="30" as="geometry" />
+          <mxGeometry x="4950" y="4980" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_uncommitted&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2865" y="5370" width="110" height="30" as="geometry" />
+          <mxGeometry x="5100" y="4910" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_committed&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2869" y="5410" width="101" height="30" as="geometry" />
+          <mxGeometry x="5104" y="4950" width="101" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;repeatable_read&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2870" y="5450" width="110" height="30" as="geometry" />
+          <mxGeometry x="5105" y="4990" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-18" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;serializable&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2884.5" y="5490" width="80" height="30" as="geometry" />
+          <mxGeometry x="5119.5" y="5030" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;MVCC&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="3025" y="5450" width="65" height="30" as="geometry" />
+          <mxGeometry x="5260" y="4990" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-20" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Consistency关注单个事务的状态转换&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2390" y="5380" width="190" height="30" as="geometry" />
+          <mxGeometry x="4625" y="4920" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-1" target="1atRLDDrdoty7dAFkjyx-3">
           <mxGeometry relative="1" as="geometry" />
