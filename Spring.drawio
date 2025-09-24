@@ -1171,6 +1171,9 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-13" value="PROPAGATION_MANDATORY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4323.75" y="4704" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-17" target="1atRLDDrdoty7dAFkjyx-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-17" value="由于Interceptor是用AOP插入的, 所以在执行方法前, 这里要检查事务的Propagation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4200" y="4550" width="250" height="40" as="geometry" />
         </mxCell>
@@ -1182,6 +1185,15 @@
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-20" value="执行方法前, 强制要求事务存在, 没有就报错" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4515" y="4704" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-21" target="1atRLDDrdoty7dAFkjyx-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-21" value="Interceptor在执行方法前检查, 在执行后进行commit或rolleback或异常处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4500" y="4550" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-23" value="Interceptor是在哪里被调用的?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4795" y="4550" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
