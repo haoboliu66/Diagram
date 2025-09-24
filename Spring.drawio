@@ -1094,43 +1094,43 @@
           <mxGeometry x="4510" y="4771" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-6" value="A" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4535" y="4860" width="80" height="30" as="geometry" />
+          <mxGeometry x="4550" y="4831" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-7" value="C" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4535" y="4920" width="80" height="30" as="geometry" />
+          <mxGeometry x="4550" y="4891" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-8" value="I" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4535" y="4980" width="80" height="30" as="geometry" />
+          <mxGeometry x="4550" y="4951" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-9" value="D" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4535" y="5040" width="80" height="30" as="geometry" />
+          <mxGeometry x="4550" y="5011" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GXMJuHq3n68GhyFLKtG_-10" target="GXMJuHq3n68GhyFLKtG_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-10" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;多个事务同时操作一个table, 一个事务对数据的改变, 对另一个事务是否可见, 或者什么情况下可见?&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4625" y="4980" width="270" height="30" as="geometry" />
+          <mxGeometry x="4640" y="4951" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-13" value="隔离级别" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4950" y="4980" width="80" height="30" as="geometry" />
+          <mxGeometry x="4965" y="4951" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_uncommitted&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5100" y="4910" width="110" height="30" as="geometry" />
+          <mxGeometry x="5115" y="4881" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;read_committed&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5104" y="4950" width="101" height="30" as="geometry" />
+          <mxGeometry x="5119" y="4921" width="101" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;repeatable_read&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5105" y="4990" width="110" height="30" as="geometry" />
+          <mxGeometry x="5120" y="4961" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-18" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;serializable&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="5119.5" y="5030" width="80" height="30" as="geometry" />
+          <mxGeometry x="5134.5" y="5001" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;MVCC&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="5260" y="4990" width="65" height="30" as="geometry" />
+          <mxGeometry x="5275" y="4961" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GXMJuHq3n68GhyFLKtG_-20" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Consistency关注单个事务的状态转换&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="4625" y="4920" width="190" height="30" as="geometry" />
+          <mxGeometry x="4640" y="4891" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-1" target="1atRLDDrdoty7dAFkjyx-3">
           <mxGeometry relative="1" as="geometry" />
