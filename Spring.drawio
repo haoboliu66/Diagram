@@ -1285,6 +1285,9 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-68" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-64" target="1atRLDDrdoty7dAFkjyx-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-64" target="1atRLDDrdoty7dAFkjyx-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-64" value="代理对象" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="6650" y="5643.02" width="90" height="40" as="geometry" />
         </mxCell>
@@ -1292,7 +1295,13 @@
           <mxGeometry x="6635" y="5580" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-67" value="代理对象是继承了Proxy类的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="6740" y="5650.52" width="150" height="25" as="geometry" />
+          <mxGeometry x="6620" y="5546.030000000001" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-69" value="代理接口" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="6810" y="5620" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-71" value="代理接口" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="6825" y="5630" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
