@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1atRLDDrdoty7dAFkjyx-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="4490" width="5380" height="1270" as="geometry" />
+        </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="2619" y="3948.25" width="2281" height="501.75" as="geometry" />
         </mxCell>
@@ -1052,7 +1055,7 @@
           <mxGeometry x="2800" y="3981.25" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-9" value="Transaction" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="2270" y="4890" width="100" height="39" as="geometry" />
+          <mxGeometry x="2300" y="4922" width="100" height="39" as="geometry" />
         </mxCell>
         <mxCell id="giEFIz0YOmqlRhmFh9py-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="giEFIz0YOmqlRhmFh9py-10" target="giEFIz0YOmqlRhmFh9py-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1311,6 +1314,9 @@
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-78" value="ProxyClassFactory负责生成代理类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="7360" y="5510" width="177" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-81" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="giEFIz0YOmqlRhmFh9py-9" target="1atRLDDrdoty7dAFkjyx-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
