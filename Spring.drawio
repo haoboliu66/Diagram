@@ -1531,6 +1531,9 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-166" value="1.类必须import注解才能编译, 强依赖Spring容器&lt;br&gt;2.创建并加载大量的注解代理类&lt;br&gt;3.不管这个类是否被Spring容器使用, 都必须要加载, 只有加载了才能读取注解信息" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1968" y="7270" width="250" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-173" value="ApplicationContext = Bean工厂 + 周边组件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="7290" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
