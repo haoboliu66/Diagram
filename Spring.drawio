@@ -1463,10 +1463,10 @@
           <mxGeometry x="1750" y="7195" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-144" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="7480" width="200" height="100" as="geometry" />
+          <mxGeometry x="1720" y="7480" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-145" value="Java Heap" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1735" y="7497.5" width="125" height="72.5" as="geometry" />
+          <mxGeometry x="1735" y="7497.5" width="125" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-146" value="JDK1.7及以前的堆内存模型" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1740" y="7450" width="140" height="20" as="geometry" />
@@ -1475,13 +1475,28 @@
           <mxGeometry x="2040" y="7450" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-148" value="Method Area" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1755" y="7518.75" width="85" height="30" as="geometry" />
+          <mxGeometry x="1753" y="7528.13" width="85" height="31.25" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-150" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-149" target="1atRLDDrdoty7dAFkjyx-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-149" value="类的元数据信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1726" y="7620" width="90" height="20" as="geometry" />
+          <mxGeometry x="1735" y="7630" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-151" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="7480" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-152" value="Java Heap" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2015" y="7486.25" width="125" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-153" value="MetaSpace" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2035" y="7559.38" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-154" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-155" target="1atRLDDrdoty7dAFkjyx-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-155" value="类的元数据信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2006" y="7630" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
