@@ -1525,17 +1525,11 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-168" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-165" target="1atRLDDrdoty7dAFkjyx-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-170" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-165" target="1atRLDDrdoty7dAFkjyx-169">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-165" value="注解的弊端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1854" y="7290" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-166" value="1.类必须import注解才能编译, 强依赖Spring容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="7260" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-169" value="2.创建并加载大量的注解代理类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="7310" width="162" height="30" as="geometry" />
+        <mxCell id="1atRLDDrdoty7dAFkjyx-166" value="1.类必须import注解才能编译, 强依赖Spring容器&lt;br&gt;2.创建并加载大量的注解代理类&lt;br&gt;3.不管这个类是否被Spring容器使用, 都必须要加载, 只有加载了才能读取注解信息" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1968" y="7270" width="250" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
