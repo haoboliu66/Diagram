@@ -1567,8 +1567,14 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-184" value="Boot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="4219" y="7165" width="52" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-187" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-185" target="1atRLDDrdoty7dAFkjyx-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-185" value="Web application could not be started as there was no org.springframework.boot.web.servlet.server.ServletWebServerFactory bean defined in the context." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="3720" y="7360" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-186" value="ServletWebServerFactory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4143" y="7400" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
