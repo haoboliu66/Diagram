@@ -1510,6 +1510,9 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-158" value="如果大量使用反射, 在内存中进行动态代理类的生成 (内存中通过写bytecode生成代理类), 可能导致这部分空间不够用, 导致OOM,&amp;nbsp; 因为这部分空间受Java堆的限制, 不能设置的过大" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1630" y="7660" width="280" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-160" value="在1.8之后, 元数据信息被移动到C堆中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1998" y="7675" width="195" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
