@@ -1441,8 +1441,8 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-136" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-135" target="1atRLDDrdoty7dAFkjyx-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-135" value="XML / 注解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="7195" width="60" height="30" as="geometry" />
+        <mxCell id="1atRLDDrdoty7dAFkjyx-135" value="注解" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="7195" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-137" value="Spring提供的扩展功能" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1800" y="7320" width="124" height="40" as="geometry" />
@@ -1455,6 +1455,12 @@
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-141" value="监听器监听事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1983" y="7340" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-143" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-142" target="1atRLDDrdoty7dAFkjyx-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1atRLDDrdoty7dAFkjyx-142" value="反射 + 动态代理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="7195" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
