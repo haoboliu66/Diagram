@@ -1531,10 +1531,10 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-165" value="注解的弊端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1854" y="7290" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-166" value="类必须import注解才能编译, 强依赖Spring容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="1atRLDDrdoty7dAFkjyx-166" value="1.类必须import注解才能编译, 强依赖Spring容器" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1970" y="7260" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1atRLDDrdoty7dAFkjyx-169" value="创建并加载大量的注解代理类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="1atRLDDrdoty7dAFkjyx-169" value="2.创建并加载大量的注解代理类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1970" y="7310" width="162" height="30" as="geometry" />
         </mxCell>
       </root>
