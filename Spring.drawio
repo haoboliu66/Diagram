@@ -1564,6 +1564,9 @@
         <mxCell id="1atRLDDrdoty7dAFkjyx-183" value="Spring" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4228" y="7237.5" width="52" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="_NEnluqkuwIxAiQP3GLE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1atRLDDrdoty7dAFkjyx-184" target="_NEnluqkuwIxAiQP3GLE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-184" value="Boot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4219" y="7165" width="52" height="25" as="geometry" />
         </mxCell>
@@ -1587,6 +1590,9 @@
         </mxCell>
         <mxCell id="1atRLDDrdoty7dAFkjyx-192" value="项目在启动时，它是如何能知道所需要的application context是&amp;nbsp;ServletWebServerApplicationContext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="4467" y="7553.38" width="316" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="_NEnluqkuwIxAiQP3GLE-1" value="Boot的对Spring的加成就是一系列的jar包" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4315" y="7165" width="210" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
