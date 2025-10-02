@@ -850,6 +850,9 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-22" value="firewall" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1780" y="-460" width="82" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-24" target="RhC7_PFTb0shiWphTRB5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-24" value="操作Netfilter, 用于流量控制" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1880" y="-455" width="140" height="30" as="geometry" />
         </mxCell>
@@ -859,8 +862,8 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="用户态进程可以直接从TAP设备读取L2的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1870" y="-535" width="224" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RhC7_PFTb0shiWphTRB5-28" value="iptables" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="-480" width="140" height="30" as="geometry" />
+        <mxCell id="RhC7_PFTb0shiWphTRB5-28" value="iptables / firewalld / ipset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="-455" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
