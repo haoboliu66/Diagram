@@ -859,8 +859,8 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-25" value="portmap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1780" y="-535" width="82" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="用户态进程可以直接从TAP设备读取L2的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="-535" width="224" height="30" as="geometry" />
+        <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="设置host到container的port mapping, 管理container的ingress流量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-532.5" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-28" target="RhC7_PFTb0shiWphTRB5-30">
           <mxGeometry relative="1" as="geometry" />
