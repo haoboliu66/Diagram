@@ -632,14 +632,9 @@
         <mxCell id="8TRzMWuCUW0j1KKL3elZ-6" value="cgroup 的 mount 操作本质上就是暴露一个操作cgroupfs的接口, 只有当容器内的进程需要直接访问或感知自己的 cgroup 信息时, 才需要在容器内挂载。正常情况话, 资源限制的操作应该是由container runtime在宿主机上进行操作, 在容器进程启动前就设置好的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1241" y="-1590" width="405" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="GYz91WxMEquE42gM_uh7-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="GYz91WxMEquE42gM_uh7-14" edge="1">
+        <mxCell id="GYz91WxMEquE42gM_uh7-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RhC7_PFTb0shiWphTRB5-1" target="GYz91WxMEquE42gM_uh7-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="262.5" y="-1172.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GYz91WxMEquE42gM_uh7-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="GYz91WxMEquE42gM_uh7-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="262.5" y="-1172.5" as="sourcePoint" />
+            <mxPoint x="270" y="-1172" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="IGFzGuEiSgirud9OXhFV-10" target="maDRo7bWqHbKX1x7YCBC-5" edge="1">
@@ -798,8 +793,11 @@
         <mxCell id="GYz91WxMEquE42gM_uh7-52" value="runc套壳libcontainer, 然后提供了满足OCI规范的runtime实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1105" y="-1581.5" width="305" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-1" target="GYz91WxMEquE42gM_uh7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-1" value="CNI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="-1200" width="130" height="40" as="geometry" />
+          <mxGeometry x="110.63" y="-1190" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-2" target="IGFzGuEiSgirud9OXhFV-10">
           <mxGeometry relative="1" as="geometry" />
