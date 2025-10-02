@@ -862,8 +862,14 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="用户态进程可以直接从TAP设备读取L2的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1870" y="-535" width="224" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-28" target="RhC7_PFTb0shiWphTRB5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-28" value="iptables / firewalld / ipset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2040" y="-457.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-30" value="&lt;div&gt;# 1. 创建一个名为 &#39;bad_ips&#39; 的 IP 集合&lt;/div&gt;&lt;div&gt;sudo ipset create bad_ips hash:net family inet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# 2. 向集合中添加一个 IP 地址块&lt;/div&gt;&lt;div&gt;sudo ipset add bad_ips 172.16.0.0/16&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# 3. 编写 iptables 规则，引用该集合&lt;/div&gt;&lt;div&gt;# -m set: 使用 set 模块进行匹配&lt;/div&gt;&lt;div&gt;# --match-set bad_ips src: 匹配源地址在 bad_ips 集合中的数据包&lt;/div&gt;&lt;div&gt;sudo iptables -A FORWARD -m set --match-set bad_ips src -j DROP&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2240.44" y="-480" width="350" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
