@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
-    <mxGraphModel dx="3238" dy="3334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3475" dy="3305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -742,11 +742,17 @@
         <mxCell id="GYz91WxMEquE42gM_uh7-21" value="CNI定义的operations&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="373.94" y="-1240" width="120" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-23" target="RhC7_PFTb0shiWphTRB5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-23" value="ADD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="546.44" y="-1300" width="55" height="25" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-24" value="DEL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="551.44" y="-1265" width="45" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="GYz91WxMEquE42gM_uh7-25" target="RhC7_PFTb0shiWphTRB5-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-25" value="CHECK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="551.44" y="-1220" width="45" height="25" as="geometry" />
@@ -810,6 +816,9 @@
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-6" value="plugins are exectuables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1539.63" y="-1027.45" width="130.75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-9" value="prevResult" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-1300" width="79.5" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
