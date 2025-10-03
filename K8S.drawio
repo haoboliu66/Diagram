@@ -913,6 +913,9 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-43" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPIP&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1395" y="-70" width="55" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-51" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-44" target="RhC7_PFTb0shiWphTRB5-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-44" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VXLAN&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1395" y="30" width="55" height="25" as="geometry" />
         </mxCell>
@@ -921,6 +924,9 @@
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-48" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宿主机拿到容器发来packet的目标地址, 进行路由匹配, 如果路由规则指向一个IPIP设备, 那么内核就要用&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宿主机的IP&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;进行额外的L3数据封装; IP Header&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Protocol = 4&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1484.5" y="-87.5" width="282" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-50" value="&lt;div&gt;VXLAN datagram = VXLAN header + Ethernet frame&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="28.75" width="282" height="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
