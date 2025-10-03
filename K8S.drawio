@@ -859,7 +859,7 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-25" value="portmap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1700" y="-520" width="82" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="设置host到container的port mapping, 管理container的ingress流量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="RhC7_PFTb0shiWphTRB5-27" value="设置host到container的port mapping, 允许container在一个固定port接收ingress流量" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1786" y="-517.5" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-28" target="RhC7_PFTb0shiWphTRB5-30">
