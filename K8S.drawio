@@ -928,17 +928,20 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-50" value="&lt;div&gt;VXLAN datagram = VXLAN header + Ethernet frame&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1490" y="28.75" width="282" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="RhC7_PFTb0shiWphTRB5-53" value="Ethernet Frame" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2160.44" y="110" width="112" height="40" as="geometry" />
+        <mxCell id="RhC7_PFTb0shiWphTRB5-53" value="Ethernet Frame" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2260.44" y="90" width="112" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-54" value="VXLAN Header" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2062.44" y="110" width="98" height="40" as="geometry" />
+          <mxGeometry x="2162.44" y="90" width="98" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-55" value="UDP Header" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1964.44" y="110" width="98" height="40" as="geometry" />
+          <mxGeometry x="2064.44" y="90" width="98" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-56" value="IP Header" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1866.44" y="110" width="98" height="40" as="geometry" />
+          <mxGeometry x="1966.44" y="90" width="98" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhC7_PFTb0shiWphTRB5-57" value="Ethernet Header" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1868.44" y="90" width="98" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
