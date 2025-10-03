@@ -889,8 +889,8 @@
         <mxCell id="RhC7_PFTb0shiWphTRB5-37" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Reverse Path Filtering (RPF)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1762" y="-610" width="158" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="RhC7_PFTb0shiWphTRB5-38" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RPF是对于一个packet数据包来源的检查, 获取当前packet的source ip, 做一次模拟路由, 查看如果真的发生route去这个source ip, 应该把数据发往哪个NIC; 假设当前数据包从eth0接收, 然后&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="-620" width="280" height="70" as="geometry" />
+        <mxCell id="RhC7_PFTb0shiWphTRB5-38" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RPF是对于一个packet数据包来源的检查, 获取当前packet的source ip, 做一次模拟路由, 查看如果真的发生route去这个source ip, 应该把数据发往哪个NIC; e.g. 假设当前数据包从eth0接收, 然后对source ip进行路由检查, 发现应该是从eth1发出, 那么默认情况下, 内核会认为这是一个ip spoofing的package, 就把这个包丢弃&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="-642.5" width="310" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
