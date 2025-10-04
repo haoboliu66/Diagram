@@ -1209,14 +1209,23 @@
         <mxCell id="n8bBlmpNvoXPEELPKlnM-2" value="从Java中调用&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C的函数&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="205.82" y="265" width="138" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-3" value="为什么要有JNI?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80.19999999999999" y="360" width="138" height="20" as="geometry" />
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-3" target="n8bBlmpNvoXPEELPKlnM-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-4" value="如何在32位的机器中实现Java的语义, 即int是4字节, long是8字节" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="209.36" y="420" width="202.18" height="40" as="geometry" />
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-3" target="n8bBlmpNvoXPEELPKlnM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-3" value="为什么要有JNI?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86.37" y="360" width="118.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-4" value="如何在32位的机器中实现Java的语义, 即int是4字节, long是8字节, 不随底层平台而改变" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.07" y="330" width="202.18" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-5" value="libjava.so" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="112.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-9" value="Java堆和C堆的数据拷贝; 类似用户空间和内核空间的数据拷贝" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="273.40999999999997" y="400" width="202.18" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
