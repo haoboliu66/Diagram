@@ -1336,7 +1336,7 @@
         <mxCell id="kipVwJ1cJkasnccq2_MD-7" value="类加载" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1593.82" y="2550" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="kipVwJ1cJkasnccq2_MD-9" value="dlopen, dlsym, dlclose操作libjvm.so" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="kipVwJ1cJkasnccq2_MD-9" value="dlopen, dlsym, dlclose操作libjvm.so, 读取需要执行的函数符号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="113.18" y="3598" width="181.43" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-11" value="java ELF只是一个启动器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
