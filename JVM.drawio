@@ -1275,10 +1275,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-26" value="进程" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="777" y="620" width="103" height="80" as="geometry" />
+          <mxGeometry x="990.0800000000002" y="855" width="103" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-27" value="内核" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="981.3199999999999" y="620" width="103" height="80" as="geometry" />
+          <mxGeometry x="1194.4" y="855" width="103" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-30" value="信号" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="659.35" y="545" width="740.65" height="40" as="geometry" />
@@ -1314,16 +1314,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-40" value="Signal" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1219.7300000000002" y="710" width="80.36" height="30" as="geometry" />
+          <mxGeometry x="816.9300000000003" y="715" width="80.36" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-41" value="Standard signal (1-31)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1347.28" y="665" width="142.72" height="30" as="geometry" />
+          <mxGeometry x="944.48" y="670" width="142.72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-42" value="Real-time signal (32-64)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1347.72" y="730" width="140.03" height="30" as="geometry" />
+          <mxGeometry x="944.9200000000001" y="735" width="140.03" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-46" value="Linux中signal的个数是固定的, 所以进程可以用bitmap来表示是否收到某个signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1503.82" y="695" width="206.76" height="30" as="geometry" />
+          <mxGeometry x="1101.02" y="700" width="206.76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
