@@ -1248,8 +1248,8 @@
         <mxCell id="n8bBlmpNvoXPEELPKlnM-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-17" target="n8bBlmpNvoXPEELPKlnM-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-17" value="另外一个线程把这个page标记为PROT_NONE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1048.07" y="295" width="137" height="30" as="geometry" />
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-17" value="另外一个线程通过mprotect把这个page标记为PROT_NONE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1025.61" y="295" width="181.93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-18" value="其他线程后续访问这个page就发生fault, 进而去执行异常处理函数, 在函数中把自己阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1045.6" y="380" width="141.94" height="50" as="geometry" />
@@ -1259,9 +1259,6 @@
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-21" value="JVM中如何让通过polling page让线程进行阻塞, 线程安全点的原理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="850.1800000000001" y="460" width="206.76" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-22" value="mprotect" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1203.98" y="295" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-23" value="mmap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="928.56" y="130" width="50" height="30" as="geometry" />
