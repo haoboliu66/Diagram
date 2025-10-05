@@ -1258,7 +1258,7 @@
           <mxGeometry x="906.5799999999999" y="340" width="80.2" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-21" value="线程安全点的原理: JVM中如何让通过polling page让线程进行阻塞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="850.1800000000001" y="460" width="206.76" height="60" as="geometry" />
+          <mxGeometry x="850.18" y="460" width="206.76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-23" value="mmap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="928.56" y="130" width="50" height="30" as="geometry" />
@@ -1317,10 +1317,13 @@
           <mxGeometry x="1219.7300000000002" y="710" width="80.36" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-41" value="Standard signal (1-31)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1347.28" y="665" width="132.72" height="30" as="geometry" />
+          <mxGeometry x="1347.28" y="665" width="142.72" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-42" value="Real-time signal (32-64)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1347.72" y="730" width="140.03" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-46" value="Linux中signal的个数是固定的, 所以进程可以用bitmap来表示是否收到某个signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1503.82" y="695" width="206.76" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
