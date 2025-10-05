@@ -1286,6 +1286,21 @@
         <mxCell id="n8bBlmpNvoXPEELPKlnM-31" value="pstack / pmap 查看进程的虚拟地址空间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="698" y="50" width="202" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-32" target="n8bBlmpNvoXPEELPKlnM-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-32" target="n8bBlmpNvoXPEELPKlnM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-32" value="物理页" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="397.18" y="225" width="86" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-33" value="进程A Page Table" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="267.07" y="160" width="109.82" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n8bBlmpNvoXPEELPKlnM-35" value="进程B Page Table" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="496.69000000000005" y="160" width="109.82" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
