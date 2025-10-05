@@ -993,6 +993,9 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="Bh_f7YCbZWuHbUZkmcxa-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="kipVwJ1cJkasnccq2_MD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-19" value="LoadJavaVM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="425.44" y="3598" width="88" height="30" as="geometry" />
         </mxCell>
@@ -1332,6 +1335,9 @@
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-7" value="类加载" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1593.82" y="2550" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-9" value="dlopen, dlsym, dlclose操作libjvm.so" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="113.18" y="3598" width="181.43" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
