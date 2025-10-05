@@ -990,10 +990,10 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-17" value="StubQueue" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="514.69" y="5275" width="199.13" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="Bh_f7YCbZWuHbUZkmcxa-22" edge="1">
+        <mxCell id="kipVwJ1cJkasnccq2_MD-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="kipVwJ1cJkasnccq2_MD-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kipVwJ1cJkasnccq2_MD-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="kipVwJ1cJkasnccq2_MD-9">
+        <mxCell id="kipVwJ1cJkasnccq2_MD-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-19" target="Bh_f7YCbZWuHbUZkmcxa-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-19" value="LoadJavaVM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
@@ -1010,12 +1010,6 @@
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-21" value="CreateExecutionEnvironment" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="396.21999999999997" y="3526.5" width="146" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-22" target="Bh_f7YCbZWuHbUZkmcxa-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-22" value="JVMInit" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="425.2199999999999" y="3665" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-30" value="GetJREPath" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="190.99999999999997" y="3502.56" width="80" height="30" as="geometry" />
