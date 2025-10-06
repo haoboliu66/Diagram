@@ -1351,6 +1351,9 @@
         <mxCell id="kipVwJ1cJkasnccq2_MD-14" value="为什么需要一个新的线程启动javaMain, 因为java进程是由bash进程fork而来, 我们无法设置它的属性; 而在JVM启动过程中, 通过pthread创建一个新的main线程, 可以设置它的属性。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="56.43" y="3712.5" width="273" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-17" value="libjvm.so有zero版本和特定CPU架构的版本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-25.889999999999986" y="3482.5" width="216.89" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
