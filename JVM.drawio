@@ -1107,19 +1107,19 @@
           <mxGeometry x="1097.57" y="3407.1699999999996" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1039.18" y="3634.66" width="203" height="185.34" as="geometry" />
+          <mxGeometry x="1042.8200000000002" y="3637.27" width="203" height="185.34" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-6" value="FindBootStrapClass" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1067.4099999999999" y="3701.66" width="152.32" height="30" as="geometry" />
+          <mxGeometry x="1071.05" y="3704.27" width="152.32" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="mfkRS8aUkjOiNxJf1G1F-8" target="mfkRS8aUkjOiNxJf1G1F-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-8" value="&quot;sun/launcher/LauncherHelper&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1219.6399999999999" y="3701.66" width="167.25" height="30" as="geometry" />
+          <mxGeometry x="1223.28" y="3704.27" width="167.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-10" value="JVM_FindClassFromBootLoader" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1062.84" y="3760" width="165.34" height="30" as="geometry" />
+          <mxGeometry x="1066.48" y="3762.61" width="165.34" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-18" value="启动了java的main" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="805.1800000000001" y="3714.94" width="91" height="30" as="geometry" />
@@ -1128,10 +1128,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-19" value="SystemDictionary::resolve_or_null" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1439.25" y="3701.66" width="197.57" height="30" as="geometry" />
+          <mxGeometry x="1442.89" y="3704.27" width="197.57" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-21" value="SystemDictionary负责解析拿到这个class的元数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1407.57" y="3671.66" width="256.25" height="30" as="geometry" />
+          <mxGeometry x="1411.21" y="3674.27" width="256.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mfkRS8aUkjOiNxJf1G1F-23" target="mfkRS8aUkjOiNxJf1G1F-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1185,7 +1185,7 @@
           <mxGeometry x="-16.18" y="6030" width="87.81" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-AFqSvW5HeClOfHXBUgt-6" value="GetLauncherHelperClass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1068.57" y="3644.72" width="150" height="30" as="geometry" />
+          <mxGeometry x="1072.21" y="3647.33" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gU89hB3FzuSCVGNwTUvn-1" value="VM主线程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2743.82" y="3900" width="480" height="40" as="geometry" />
