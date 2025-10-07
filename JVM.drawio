@@ -1339,8 +1339,8 @@
         <mxCell id="kipVwJ1cJkasnccq2_MD-18" value="Zero版本就是没有特定ISA汇编代码优化, 全部由C/C++代码实现逻辑, 更方便的跨平台, 但是性能较差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-242.78000000000003" y="3514.94" width="216.89" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="kipVwJ1cJkasnccq2_MD-19" value="一个.so文件中的方法想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section,&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-283.38" y="3361.35" width="259.39" height="48.65" as="geometry" />
+        <mxCell id="kipVwJ1cJkasnccq2_MD-19" value="一个.so文件中的方法想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-246.95000000000005" y="3312.8599999999997" width="303.38" height="78.65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
