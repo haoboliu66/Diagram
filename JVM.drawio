@@ -1342,6 +1342,15 @@
         <mxCell id="kipVwJ1cJkasnccq2_MD-19" value="一个.so文件中的方法想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-246.95000000000005" y="3312.8599999999997" width="303.38" height="78.65" as="geometry" />
         </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="kipVwJ1cJkasnccq2_MD-20" target="kipVwJ1cJkasnccq2_MD-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-20" value="java_md.c" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="207.07" y="3320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kipVwJ1cJkasnccq2_MD-21" value="md: machine dependent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="297.76" y="3320" width="128.87" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
