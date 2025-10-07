@@ -193,24 +193,6 @@
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-16" value="dynamic symtab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="936.3000000000001" y="2310" width="78" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-19" target="ZQSZpk1MqrzrfTvxaXEu-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-19" value="dlopen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1345.07" y="2160" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-20" target="ZQSZpk1MqrzrfTvxaXEu-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-20" value="dlsym" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1345.07" y="2210" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-21" value="打开jvm相关so文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1459.07" y="2160" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQSZpk1MqrzrfTvxaXEu-22" value="去so文件中寻找符号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1459.07" y="2210" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-26" value="KCLASS是整个class file读入内存后的存放容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="755.1800000000001" y="2450" width="250" height="30" as="geometry" />
         </mxCell>
