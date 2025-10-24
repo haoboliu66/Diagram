@@ -17,10 +17,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-4" value="Hortizontal Scaling" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="150" width="120" height="40" as="geometry" />
+          <mxGeometry x="730" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-5" value="Vertical Scaling" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="-20" width="120" height="40" as="geometry" />
+          <mxGeometry x="730" y="-290" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="G60Z5CI10XZf6dsmvziU-6" target="G60Z5CI10XZf6dsmvziU-5">
           <mxGeometry relative="1" as="geometry" />
@@ -29,22 +29,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-6" value="Scaling" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="60" width="120" height="50" as="geometry" />
+          <mxGeometry x="550" y="-210" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-7" value="Sharding" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="150" width="120" height="40" as="geometry" />
+          <mxGeometry x="1260" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-8" value="Caching" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="110" width="110" height="40" as="geometry" />
+          <mxGeometry x="910" y="-160" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G60Z5CI10XZf6dsmvziU-9" target="G60Z5CI10XZf6dsmvziU-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G60Z5CI10XZf6dsmvziU-9" value="Read/Write Splitting" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="150" width="120" height="40" as="geometry" />
+          <mxGeometry x="1080" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-1" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Simple Modulo Hashing&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="-140" width="140" height="30" as="geometry" />
+          <mxGeometry x="1100" y="-410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Irp2Am7oA3xCznlHBFrQ-2" target="Irp2Am7oA3xCznlHBFrQ-3">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry x="430" y="720" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-3" value="SQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="340" width="120" height="50" as="geometry" />
+          <mxGeometry x="750" y="60" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Irp2Am7oA3xCznlHBFrQ-4" target="Irp2Am7oA3xCznlHBFrQ-9">
           <mxGeometry relative="1" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry x="770" y="550" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-9" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="990" y="500" width="110" height="30" as="geometry" />
+          <mxGeometry x="990" y="350" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-10" value="Cassandra" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="990" y="595" width="110" height="30" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry x="760" y="1230" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-23" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Consistent Hashing&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="-100" width="140" height="30" as="geometry" />
+          <mxGeometry x="1100" y="-370" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-24" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1380" width="120" height="50" as="geometry" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-32" value="broker可以设置quota" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1030" y="1460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Irp2Am7oA3xCznlHBFrQ-34" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
