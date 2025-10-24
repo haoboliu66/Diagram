@@ -73,6 +73,9 @@
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-4" value="NoSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="550" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Irp2Am7oA3xCznlHBFrQ-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Irp2Am7oA3xCznlHBFrQ-9" target="Irp2Am7oA3xCznlHBFrQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-9" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="990" y="350" width="110" height="30" as="geometry" />
         </mxCell>
@@ -125,7 +128,7 @@
           <mxGeometry x="1030" y="1460" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Irp2Am7oA3xCznlHBFrQ-34" value="Primary Key = Partition Key + Sort Key" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1131" y="280" width="220" height="30" as="geometry" />
+          <mxGeometry x="1150" y="280" width="201" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
