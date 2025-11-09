@@ -211,6 +211,9 @@
         <mxCell id="uX9BAN1OHCYSGDWSapqO-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-27" target="uX9BAN1OHCYSGDWSapqO-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-27" target="uX9BAN1OHCYSGDWSapqO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-27" value="rate limit&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;algorithm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="830" y="1856" width="100" height="30" as="geometry" />
         </mxCell>
@@ -219,6 +222,9 @@
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-29" value="Leaking bucket" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="980" y="1858" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-32" value="Fixed window counter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1896" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
