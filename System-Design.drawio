@@ -233,22 +233,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-34" value="Rate Limiter Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1339" y="1980" width="106" height="46" as="geometry" />
+          <mxGeometry x="849" y="2050" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="uX9BAN1OHCYSGDWSapqO-35" target="uX9BAN1OHCYSGDWSapqO-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-35" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="1980" width="106" height="46" as="geometry" />
+          <mxGeometry x="670" y="2050" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-37" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1533" y="1981" width="106" height="46" as="geometry" />
+          <mxGeometry x="1043" y="2051" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-39" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1509" y="2082" width="90" height="34" as="geometry" />
+          <mxGeometry x="1019" y="2152" width="90" height="34" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-41" value="Redis for storing bucket information" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1619" y="2079" width="180" height="30" as="geometry" />
+          <mxGeometry x="1129" y="2149" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-43" value="单机内存级别的rate limiter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1342" y="1598" width="90" height="40" as="geometry" />
@@ -269,10 +269,10 @@
           <mxGeometry x="1210" y="1682" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-48" value="Kong Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="1796" width="93" height="30" as="geometry" />
+          <mxGeometry x="1211" y="1824" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-49" value="Envoy Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="1844" width="93" height="30" as="geometry" />
+          <mxGeometry x="1211" y="1872" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="uX9BAN1OHCYSGDWSapqO-50" target="uX9BAN1OHCYSGDWSapqO-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -284,10 +284,13 @@
           <mxGeometry x="1560" y="1668" width="205" height="58" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-56" value="OpenResty" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="1750" width="93" height="30" as="geometry" />
+          <mxGeometry x="1211" y="1778" width="93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uX9BAN1OHCYSGDWSapqO-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="uX9BAN1OHCYSGDWSapqO-57" target="uX9BAN1OHCYSGDWSapqO-60" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1441" y="1750" as="sourcePoint" />
+            <mxPoint x="1456" y="1750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-57" value="limit_conn module" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1345" y="1702" width="95" height="40" as="geometry" />
