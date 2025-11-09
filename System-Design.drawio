@@ -274,9 +274,6 @@
         <mxCell id="uX9BAN1OHCYSGDWSapqO-49" value="Envoy Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1211" y="1872" width="93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uX9BAN1OHCYSGDWSapqO-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" source="uX9BAN1OHCYSGDWSapqO-50" target="uX9BAN1OHCYSGDWSapqO-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-50" value="limit_req module" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1346" y="1662" width="84" height="40" as="geometry" />
         </mxCell>
@@ -285,12 +282,6 @@
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-56" value="OpenResty" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1211" y="1778" width="93" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uX9BAN1OHCYSGDWSapqO-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1441" y="1750" as="sourcePoint" />
-            <mxPoint x="1456" y="1750" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-57" value="limit_conn module" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1345" y="1702" width="95" height="40" as="geometry" />
