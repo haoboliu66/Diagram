@@ -233,31 +233,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-34" value="Rate Limiter Middleware" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1629" y="1836" width="106" height="46" as="geometry" />
+          <mxGeometry x="1339" y="1980" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-35" target="uX9BAN1OHCYSGDWSapqO-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-35" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="1836" width="106" height="46" as="geometry" />
+          <mxGeometry x="1160" y="1980" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-37" value="Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1823" y="1837" width="106" height="46" as="geometry" />
+          <mxGeometry x="1533" y="1981" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-39" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1799" y="1938" width="90" height="34" as="geometry" />
+          <mxGeometry x="1509" y="2082" width="90" height="34" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-41" value="Redis for storing bucket information" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1909" y="1935" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uX9BAN1OHCYSGDWSapqO-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-42" target="uX9BAN1OHCYSGDWSapqO-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uX9BAN1OHCYSGDWSapqO-42" value="guava rate limiter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="1720" width="80" height="30" as="geometry" />
+          <mxGeometry x="1619" y="2079" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-43" value="单机内存级别的rate limiter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1251" y="1715" width="90" height="40" as="geometry" />
+          <mxGeometry x="1346" y="1650" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-45" target="uX9BAN1OHCYSGDWSapqO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-45" value="guava rate limiter" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="1655" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-47" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="1720" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-48" value="Kong Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="1776" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-49" value="Envoy Proxy" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1214" y="1836" width="93" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
