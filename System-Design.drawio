@@ -176,13 +176,19 @@
           <mxGeometry x="344" y="1760" width="106" height="46" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-12" value="HTTP 429 - Too Many Requests" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1806" width="170" height="30" as="geometry" />
+          <mxGeometry x="650" y="1768" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-14" value="Client Side" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="530" y="1708" width="106" height="46" as="geometry" />
         </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-15" target="uX9BAN1OHCYSGDWSapqO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-15" value="Server Side" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="530" y="1798" width="106" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-18" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1801" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
