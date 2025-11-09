@@ -250,6 +250,15 @@
         <mxCell id="uX9BAN1OHCYSGDWSapqO-41" value="Redis for storing bucket information" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1909" y="1935" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-42" target="uX9BAN1OHCYSGDWSapqO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-42" value="guava rate limiter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-43" value="单机内存级别的rate limiter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1251" y="1715" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
