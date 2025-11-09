@@ -262,8 +262,11 @@
         <mxCell id="uX9BAN1OHCYSGDWSapqO-51" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-47" target="uX9BAN1OHCYSGDWSapqO-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-58" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="uX9BAN1OHCYSGDWSapqO-47" target="uX9BAN1OHCYSGDWSapqO-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-47" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="1668" width="93" height="30" as="geometry" />
+          <mxGeometry x="1210" y="1682" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-48" value="Kong Gateway" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1210" y="1796" width="93" height="30" as="geometry" />
@@ -282,6 +285,9 @@
         </mxCell>
         <mxCell id="uX9BAN1OHCYSGDWSapqO-56" value="OpenResty" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1210" y="1750" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uX9BAN1OHCYSGDWSapqO-57" value="limit_conn module" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="1702" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
