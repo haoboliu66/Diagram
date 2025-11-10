@@ -797,7 +797,7 @@
           <mxGeometry x="2515.44" y="-717.1" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-47" value="默认情况下, hairpin off, br0从vethX接收到一个来自containerA的消息, 当它发现这个消息的目的地port(根据MAC table)也是vethX时, 它会丢弃这个消息以避免loop;&amp;nbsp;&lt;br&gt;hairpin on就是允许这个行为, 允许消息环回" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2810.44" y="-697.1" width="400" height="75" as="geometry" />
+          <mxGeometry x="2810.44" y="-697.1" width="419.56" height="75" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-49" value="tap" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1802.9999999999998" y="-697.1" width="82" height="35" as="geometry" />
