@@ -417,8 +417,8 @@
         <mxCell id="BeWQt8XeZ23JDPFSy1Se-9" value="DELETE" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="557" y="2580" width="83" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeWQt8XeZ23JDPFSy1Se-10" value="idempotent" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="678" y="2580" width="90" height="30" as="geometry" />
+        <mxCell id="BeWQt8XeZ23JDPFSy1Se-10" value="idempotent; 第二次操作返回404或204" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="684" y="2580" width="122" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
