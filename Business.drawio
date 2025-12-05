@@ -13,44 +13,6 @@
         <mxCell id="kN55YoPe5K_Antq_4-WD-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" value="OpenSearch" vertex="1">
           <mxGeometry height="170" width="250" x="4460" y="2106.25" as="geometry" />
         </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-18" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;" target="kN55YoPe5K_Antq_4-WD-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1900" y="-77.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-19" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;" target="kN55YoPe5K_Antq_4-WD-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-20" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;sketch=1;curveFitting=1;jiggle=2;" target="kN55YoPe5K_Antq_4-WD-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-21" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;" target="kN55YoPe5K_Antq_4-WD-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-23" edge="1" parent="1" source="kN55YoPe5K_Antq_4-WD-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;sketch=1;curveFitting=1;jiggle=2;" target="kN55YoPe5K_Antq_4-WD-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="Exporters" vertex="1">
-          <mxGeometry height="52.5" width="100" x="1670" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" value="OpenTelemetry Collector" vertex="1">
-          <mxGeometry height="47.5" width="160" x="1930" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="Jaeger" vertex="1">
-          <mxGeometry height="47.5" width="160" x="1930" y="-80" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="Zipkin" vertex="1">
-          <mxGeometry height="47.5" width="160" x="1930" y="-17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="Prometheus" vertex="1">
-          <mxGeometry height="47.5" width="160" x="1930" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" value="Other Vendors" vertex="1">
-          <mxGeometry height="47.5" width="160" x="1930" y="112.5" as="geometry" />
-        </mxCell>
-        <mxCell id="kN55YoPe5K_Antq_4-WD-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" value="A span represents an operation within a transaction. Each Span encapsulates the following state: An operation name. A start and finish timestamp. Attributes: A list of key-value pairs." vertex="1">
-          <mxGeometry height="79" width="380" x="2230" y="10" as="geometry" />
-        </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=15;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" value="Agent Collector deployment pattern" vertex="1">
           <mxGeometry height="50" width="560" x="3630" y="1970" as="geometry" />
         </mxCell>
