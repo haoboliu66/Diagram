@@ -169,8 +169,14 @@
         <mxCell id="C4LfxKXUKxicq5X8a9r7-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="per-application" vertex="1">
           <mxGeometry height="30" width="120" x="264" y="-560" as="geometry" />
         </mxCell>
+        <mxCell id="C4LfxKXUKxicq5X8a9r7-12" edge="1" parent="1" source="C4LfxKXUKxicq5X8a9r7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="C4LfxKXUKxicq5X8a9r7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RM负责整个集群的资源管理和分配, 那么具体启动一个app时, 资源请求的动作由谁来执行?&amp;nbsp;" vertex="1">
           <mxGeometry height="50" width="290" x="-90" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="C4LfxKXUKxicq5X8a9r7-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="推理: 由于具体的资源使用设置是在app内, 而AM是绑定一个app的, 那么推理一定是AM读取app的设置之后向RM进行资源请求" vertex="1">
+          <mxGeometry height="50" width="290" x="250" y="-630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
