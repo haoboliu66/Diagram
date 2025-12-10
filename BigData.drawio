@@ -194,7 +194,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="推理: 由于具体的资源使用设置是在app内, 而AM是绑定一个app的, 那么推理一定是AM读取app的设置之后向RM进行资源请求" vertex="1">
-          <mxGeometry height="50" width="290" x="300" y="-630" as="geometry" />
+          <mxGeometry height="50" width="290" x="282.5" y="-630" as="geometry" />
         </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="由于NodeManager是每个节点的管理者, 那么资源申请之后的执行就由它负责, AM拿到RM的批准后, 就通知NM在对应的节点上启动container" vertex="1">
           <mxGeometry height="50" width="290" x="600" y="-360" as="geometry" />
