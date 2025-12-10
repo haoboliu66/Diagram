@@ -158,7 +158,7 @@
           <mxGeometry height="50" width="120" x="-25" y="-520" as="geometry" />
         </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NodeManager" vertex="1">
-          <mxGeometry height="50" width="120" x="220" y="-350" as="geometry" />
+          <mxGeometry height="50" width="120" x="270" y="-350" as="geometry" />
         </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NodeManager" vertex="1">
           <mxGeometry height="50" width="120" x="30" y="-350" as="geometry" />
@@ -189,6 +189,12 @@
         </mxCell>
         <mxCell id="C4LfxKXUKxicq5X8a9r7-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="由于NodeManager是每个节点的管理者, 那么资源申请之后的执行就由它负责, AM拿到RM的批准后, 就通知NM在对应的节点上启动container" vertex="1">
           <mxGeometry height="50" width="290" x="600" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="C4LfxKXUKxicq5X8a9r7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="215" x="-25" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="C4LfxKXUKxicq5X8a9r7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="215" x="222.5" y="-380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
