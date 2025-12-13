@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1055" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1666" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1511,8 +1511,8 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="save 60 1000" vertex="1">
           <mxGeometry height="30" width="90" x="3410" y="883.15" as="geometry" />
         </mxCell>
-        <mxCell id="5H483VwHaSXKxD6gjORW-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="配置每60s内如果有1000个key发生了变化, 就触发snapshotting (可以是同一个key, 由Redis的Dirty Counter进行计数)" vertex="1">
-          <mxGeometry height="50" width="258" x="3570" y="850" as="geometry" />
+        <mxCell id="5H483VwHaSXKxD6gjORW-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="配置每60s内如果有1000个key发生了变化, 就触发snapshotting (可以是同一个key, 由Redis的Dirty Counter进行计数);&amp;nbsp;&lt;br&gt;如果一直达不到这个触发条件怎么办? 需要创建另一个保底的save rule, e.g. save 3600 1" vertex="1">
+          <mxGeometry height="80" width="290" x="3560" y="824.1899999999999" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
