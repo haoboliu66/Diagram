@@ -1505,6 +1505,15 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="fsync disabled的含义: Redis只把数据写到page cache, 由内核的flush机制决定什么时候写入磁盘; 也就是减少了系统调用的损耗, 但同时数据丢失的时长可能增加, 取决于具体OS的flush调度" vertex="1">
           <mxGeometry height="70" width="275" x="3275" y="1020" as="geometry" />
         </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-22" edge="1" parent="1" source="5H483VwHaSXKxD6gjORW-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="save 60 1000" vertex="1">
+          <mxGeometry height="30" width="90" x="3410" y="883.15" as="geometry" />
+        </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="配置每60s内如果有1000个key发生了变化, 就触发snapshotting (可以是同一个key, 由Redis的Dirty Counter进行计数)" vertex="1">
+          <mxGeometry height="50" width="258" x="3593" y="850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
