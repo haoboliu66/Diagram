@@ -1454,11 +1454,11 @@
         <mxCell id="tbrByH594ATezPNA47Aw-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GDT" vertex="1">
           <mxGeometry height="25" width="80" x="5650.000000000001" y="7296" as="geometry" />
         </mxCell>
-        <mxCell id="5H483VwHaSXKxD6gjORW-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="new session" vertex="1">
-          <mxGeometry height="25.71" width="102" x="3230" y="307.85" as="geometry" />
+        <mxCell id="5H483VwHaSXKxD6gjORW-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="new session (SID = PID)" vertex="1">
+          <mxGeometry height="25.71" width="149" x="3240" y="307.85" as="geometry" />
         </mxCell>
-        <mxCell id="5H483VwHaSXKxD6gjORW-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="new process group" vertex="1">
-          <mxGeometry height="25.71" width="110" x="3240" y="351.41" as="geometry" />
+        <mxCell id="5H483VwHaSXKxD6gjORW-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="new process group (PGID = PID)" vertex="1">
+          <mxGeometry height="25.71" width="190" x="3240" y="351.41" as="geometry" />
         </mxCell>
         <mxCell id="5H483VwHaSXKxD6gjORW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;The calling process will be the only process in the new process&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;group and in the new session&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="330" x="3010" y="257.85" as="geometry" />
