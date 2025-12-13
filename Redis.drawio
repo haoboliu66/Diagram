@@ -33,7 +33,7 @@
         </mxCell>
         <UserObject label="Redis" id="gHjb5b28OfsgwWgYxNie-1">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
-            <mxGeometry height="40.68" width="100" x="2714" y="609.32" as="geometry" />
+            <mxGeometry height="40.68" width="100" x="2714" y="695.1300000000001" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="setsid" link="https://unix.stackexchange.com/questions/240646/why-we-use-setsid-while-daemonizing-a-process" id="gHjb5b28OfsgwWgYxNie-2">
@@ -42,7 +42,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="gHjb5b28OfsgwWgYxNie-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font color=&quot;#ff3333&quot;&gt;数据结构 + 事件循环&lt;/font&gt;" vertex="1">
-          <mxGeometry height="25" width="128" x="2700" y="575.13" as="geometry" />
+          <mxGeometry height="25" width="128" x="2700" y="660.94" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-13" edge="1" parent="1" source="gHjb5b28OfsgwWgYxNie-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;curved=1;" target="0TQrHJX6QjW9VzBPeowM-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1463,6 +1463,11 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;这里的setsid指的就是set session id&lt;/div&gt;" vertex="1">
           <mxGeometry height="22.15" width="200" x="3025" y="285.70000000000005" as="geometry" />
         </mxCell>
+        <UserObject label="Persistence" id="5H483VwHaSXKxD6gjORW-8">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
+            <mxGeometry height="25.81" width="100" x="2994" y="940" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
