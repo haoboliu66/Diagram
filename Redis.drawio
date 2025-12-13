@@ -1466,9 +1466,25 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;这里的setsid指的就是set session id&lt;/div&gt;" vertex="1">
           <mxGeometry height="22.15" width="200" x="3025" y="285.70000000000005" as="geometry" />
         </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-12" edge="1" parent="1" source="5H483VwHaSXKxD6gjORW-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-13" edge="1" parent="1" source="5H483VwHaSXKxD6gjORW-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Persistence" id="5H483VwHaSXKxD6gjORW-8">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
             <mxGeometry height="25.81" width="100" x="2994" y="940" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="RDB" id="5H483VwHaSXKxD6gjORW-10">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
+            <mxGeometry height="25.81" width="100" x="3160" y="884.19" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AOF" id="5H483VwHaSXKxD6gjORW-11">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
+            <mxGeometry height="25.81" width="100" x="3160" y="980" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
