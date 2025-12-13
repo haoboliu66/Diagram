@@ -206,7 +206,7 @@
           <mxGeometry height="31.25" width="67.65" x="5052.35" y="1728.75" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" value="虚拟地址空间的引入, 给进程的生成提供了什么样的便捷操作?&amp;nbsp;&lt;br&gt;===&amp;gt; 让不同的ELF文件中的虚拟地址独立, 不同的文件可以有相同的虚拟地址, 而无需互相商议" vertex="1">
-          <mxGeometry height="60" width="340" x="4260" y="1690" as="geometry" />
+          <mxGeometry height="60" width="360" x="4260" y="1690" as="geometry" />
         </mxCell>
         <mxCell id="3EPBH0Vr4_YoN98Gf7AG-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" value="1.CPU第一个执行的程序: OS&lt;br&gt;2.若想要切换进程执行, 那么就要找到进程的指令地址, 即修改IP寄存器的值, 使其指向进程的指令地址即可&lt;br&gt;3.如果进行切换? CS, DS, SS, ES, GDTR, IP, 通用寄存器&lt;br&gt;4.CPL? R0 -&amp;gt; R3" vertex="1">
           <mxGeometry height="90" width="345" x="4670" y="1900" as="geometry" />
