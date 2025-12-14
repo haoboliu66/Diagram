@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="-1666" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1776" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1539,7 +1539,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="5H483VwHaSXKxD6gjORW-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="master/replica主从模式, replica负责备份和读请求;&amp;nbsp;&lt;br&gt;Sentinel负责主从切换, 可能会有数据同步不一致导致丢失" vertex="1">
-          <mxGeometry height="59.19" width="280" x="3250" y="1143.31" as="geometry" />
+          <mxGeometry height="56.69" width="280" x="3250" y="1143.31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
