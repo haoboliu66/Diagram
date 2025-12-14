@@ -1544,6 +1544,9 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Sentinel as a distributed system:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;Sentinel是&lt;/span&gt;独立的进程, 集群中必须保证至少有3个物理隔离的sentinel进程" vertex="1">
           <mxGeometry height="41" width="310" x="3250" y="1173.34" as="geometry" />
         </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font face=&quot;Verdana&quot;&gt;Sharding cluster, CRC16(key) % 16384, 固定的partition/slot数量, 类似aerospike的shard模式&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="3255" y="1302.09" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
