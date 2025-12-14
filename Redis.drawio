@@ -36,7 +36,7 @@
         </mxCell>
         <UserObject label="Redis" id="gHjb5b28OfsgwWgYxNie-1">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
-            <mxGeometry height="54.87" width="104" x="2710" y="695.13" as="geometry" />
+            <mxGeometry height="30.67" width="104" x="2620" y="836.76" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="setsid" link="https://unix.stackexchange.com/questions/240646/why-we-use-setsid-while-daemonizing-a-process" id="gHjb5b28OfsgwWgYxNie-2">
@@ -67,7 +67,7 @@
         </mxCell>
         <UserObject label="事件循环" id="gHjb5b28OfsgwWgYxNie-5">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
-            <mxGeometry height="25.81" width="100" x="3000" y="710" as="geometry" />
+            <mxGeometry height="25.81" width="100" x="3000" y="685.94" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="gHjb5b28OfsgwWgYxNie-11" edge="1" parent="1" source="gHjb5b28OfsgwWgYxNie-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" target="gHjb5b28OfsgwWgYxNie-10" value="">
@@ -1514,6 +1514,11 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="配置每60s内如果有1000个key发生了变化, 就触发snapshotting (可以是同一个key, 由Redis的Dirty Counter进行计数);&amp;nbsp;&lt;br&gt;如果一直达不到这个触发条件怎么办? 需要创建另一个保底的save rule, e.g. save 3600 1" vertex="1">
           <mxGeometry height="80" width="290" x="3560" y="824.1899999999999" as="geometry" />
         </mxCell>
+        <UserObject label="Persistence" id="5H483VwHaSXKxD6gjORW-23">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
+            <mxGeometry height="25.81" width="100" x="2994" y="1160" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
