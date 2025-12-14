@@ -1539,10 +1539,10 @@
           </mxCell>
         </UserObject>
         <mxCell id="5H483VwHaSXKxD6gjORW-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="master/replica主从模式, replica负责备份和读请求;&amp;nbsp;&lt;br&gt;Sentinel负责主从切换, 可能会有数据同步不一致导致丢失" vertex="1">
-          <mxGeometry height="56.69" width="280" x="3250" y="1105" as="geometry" />
+          <mxGeometry height="56.69" width="280" x="3250" y="1116.65" as="geometry" />
         </mxCell>
-        <mxCell id="5H483VwHaSXKxD6gjORW-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Sentinel是&lt;/span&gt;独立的进程, 集群中必须保证至少有3个物理隔离的sentinel进程" vertex="1">
-          <mxGeometry height="41" width="280" x="3250" y="1169" as="geometry" />
+        <mxCell id="5H483VwHaSXKxD6gjORW-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;font-family: Verdana;&quot;&gt;Sentinel as a distributed system:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana;&quot;&gt;Sentinel是&lt;/span&gt;独立的进程, 集群中必须保证至少有3个物理隔离的sentinel进程" vertex="1">
+          <mxGeometry height="41" width="310" x="3250" y="1173.34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
