@@ -205,6 +205,12 @@
         <mxCell id="C4LfxKXUKxicq5X8a9r7-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="ApplicationMaster是由RM创建的进程, 那它运行在哪里?&amp;nbsp;&lt;br&gt;1, 运行在RM的节点&lt;br&gt;2, 运行在某个NM的节点&lt;br&gt;&lt;br&gt;RM很忙, 要处理client请求和整个集群的任务管理, 不合适让AM在它的节点运行, AM can be CPU-intensive" vertex="1">
           <mxGeometry height="90" width="340" x="610" y="-690" as="geometry" />
         </mxCell>
+        <mxCell id="hSEbsjg4EGqtfTA8VIdt-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="database" vertex="1">
+          <mxGeometry height="30" width="80" x="-405" y="557.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hSEbsjg4EGqtfTA8VIdt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="磁盘文件" vertex="1">
+          <mxGeometry height="50" width="510" x="-610" y="730" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
