@@ -34,6 +34,9 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-9" edge="1" parent="1" source="gHjb5b28OfsgwWgYxNie-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5H483VwHaSXKxD6gjORW-24" edge="1" parent="1" source="gHjb5b28OfsgwWgYxNie-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Redis" id="gHjb5b28OfsgwWgYxNie-1">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
             <mxGeometry height="30.67" width="104" x="2620" y="836.76" as="geometry" />
@@ -1514,7 +1517,7 @@
         <mxCell id="5H483VwHaSXKxD6gjORW-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="配置每60s内如果有1000个key发生了变化, 就触发snapshotting (可以是同一个key, 由Redis的Dirty Counter进行计数);&amp;nbsp;&lt;br&gt;如果一直达不到这个触发条件怎么办? 需要创建另一个保底的save rule, e.g. save 3600 1" vertex="1">
           <mxGeometry height="80" width="290" x="3560" y="824.1899999999999" as="geometry" />
         </mxCell>
-        <UserObject label="Persistence" id="5H483VwHaSXKxD6gjORW-23">
+        <UserObject label="HA" id="5H483VwHaSXKxD6gjORW-23">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
             <mxGeometry height="25.81" width="100" x="2994" y="1160" as="geometry" />
           </mxCell>
