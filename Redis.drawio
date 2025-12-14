@@ -1503,10 +1503,10 @@
           <mxGeometry height="27.9" width="50" x="3355" y="884.2" as="geometry" />
         </mxCell>
         <mxCell id="5H483VwHaSXKxD6gjORW-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="默认每1s fsync AOF日志, 意味着最多丢失1s的数据" vertex="1">
-          <mxGeometry height="25" width="280" x="3270" y="980" as="geometry" />
+          <mxGeometry height="25" width="280" x="3270" y="965" as="geometry" />
         </mxCell>
         <mxCell id="5H483VwHaSXKxD6gjORW-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="fsync disabled的含义: Redis只把数据写到page cache, 由内核的flush机制决定什么时候写入磁盘; 也就是减少了系统调用的损耗, 但同时数据丢失的时长可能增加, 取决于具体OS的flush调度" vertex="1">
-          <mxGeometry height="70" width="275" x="3275" y="1020" as="geometry" />
+          <mxGeometry height="70" width="275" x="3270" y="990" as="geometry" />
         </mxCell>
         <mxCell id="5H483VwHaSXKxD6gjORW-22" edge="1" parent="1" source="5H483VwHaSXKxD6gjORW-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="5H483VwHaSXKxD6gjORW-21">
           <mxGeometry relative="1" as="geometry" />
@@ -1519,7 +1519,7 @@
         </mxCell>
         <UserObject label="HA" id="5H483VwHaSXKxD6gjORW-23">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" vertex="1">
-            <mxGeometry height="25.81" width="100" x="2994" y="1160" as="geometry" />
+            <mxGeometry height="25.81" width="100" x="2994" y="1220" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
