@@ -1538,8 +1538,8 @@
             <mxGeometry height="25.81" width="100" x="3145" y="1314.1899999999998" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="5H483VwHaSXKxD6gjORW-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="master/replica模式, replica负责备份和读请求" vertex="1">
-          <mxGeometry height="25" width="250" x="3250" y="1160.81" as="geometry" />
+        <mxCell id="5H483VwHaSXKxD6gjORW-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="master/replica主从模式, replica负责备份和读请求;&amp;nbsp;&lt;br&gt;Sentinel负责主从切换, 可能会有数据同步不一致导致丢失" vertex="1">
+          <mxGeometry height="59.19" width="280" x="3250" y="1143.31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
