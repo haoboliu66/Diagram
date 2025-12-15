@@ -173,13 +173,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ztNHGV2JsaP_zOsmJy3T-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="cgroup driver" vertex="1">
-          <mxGeometry height="30" width="90" x="-430" y="1243.12" as="geometry" />
+          <mxGeometry height="30" width="90" x="-497.5" y="1212.12" as="geometry" />
         </mxCell>
         <mxCell id="ztNHGV2JsaP_zOsmJy3T-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="cgroupfs" vertex="1">
-          <mxGeometry height="30" width="70" x="-270" y="1213.12" as="geometry" />
+          <mxGeometry height="30" width="70" x="-337.5" y="1182.12" as="geometry" />
         </mxCell>
         <mxCell id="ztNHGV2JsaP_zOsmJy3T-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="systemd" vertex="1">
-          <mxGeometry height="30" width="70" x="-260" y="1263.12" as="geometry" />
+          <mxGeometry height="30" width="70" x="-327.5" y="1232.12" as="geometry" />
         </mxCell>
         <mxCell id="xQzBrzd0JkMFn1JmZiKZ-1" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg;" value="" vertex="1">
           <mxGeometry height="461.73" width="733.88" x="-501.38" y="622.39" as="geometry" />
@@ -641,13 +641,13 @@
           <mxGeometry height="160" width="34.5" x="199.19" y="-1390" as="geometry" />
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="决定了kubelet如何去操作cgroupfs" vertex="1">
-          <mxGeometry height="30" width="173.75" x="-486.25" y="1200.62" as="geometry" />
+          <mxGeometry height="30" width="173.75" x="-553.75" y="1169.62" as="geometry" />
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-13" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="kubelet进程自己去操作/sys/fs/cgroup/下的文件" vertex="1">
-          <mxGeometry height="30" width="230" x="-180" y="1213.12" as="geometry" />
+          <mxGeometry height="30" width="230" x="-247.5" y="1182.12" as="geometry" />
         </mxCell>
         <mxCell id="maDRo7bWqHbKX1x7YCBC-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="kubelet进程托管给systemd进程去操作/sys/fs/cgroup/下的文件" vertex="1">
-          <mxGeometry height="30" width="196.53" x="-185.77" y="1259.99" as="geometry" />
+          <mxGeometry height="30" width="196.53" x="-253.27" y="1228.99" as="geometry" />
         </mxCell>
         <mxCell id="GYz91WxMEquE42gM_uh7-48" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="GYz91WxMEquE42gM_uh7-1">
           <mxGeometry relative="1" as="geometry">
