@@ -1337,7 +1337,7 @@
           <mxGeometry height="47.5" width="216.89" x="-242.78000000000003" y="3514.94" as="geometry" />
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一个.so文件中的方法想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" vertex="1">
-          <mxGeometry height="78.65" width="303.38" x="-246.95000000000005" y="3312.8599999999997" as="geometry" />
+          <mxGeometry height="78.65" width="303.38" x="-213.96000000000004" y="3312.8599999999997" as="geometry" />
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-22" edge="1" parent="1" source="kipVwJ1cJkasnccq2_MD-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="kipVwJ1cJkasnccq2_MD-21" value="">
           <mxGeometry relative="1" as="geometry" />
