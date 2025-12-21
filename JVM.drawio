@@ -946,22 +946,22 @@
           <mxGeometry height="30" width="144.17" x="2199.65" y="3430" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="ELF中, C语言中的字符串都会编码为SYMBOL STRING" vertex="1">
-          <mxGeometry height="30" width="295.25" x="2593.82" y="3418.5" as="geometry" />
+          <mxGeometry height="30" width="295.25" x="2850" y="3293.99" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="SYMBOL表中持有STRING表的索引, 让编码信息与引用的符号信息分离, 而且可以多个SYMBOL复用STRING表中编码后的字符串信息" vertex="1">
-          <mxGeometry height="50" width="295.25" x="2597.57" y="3482.5" as="geometry" />
+          <mxGeometry height="50" width="295.25" x="2853.75" y="3357.99" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JVM中SymbolTable等价于ELF的String" vertex="1">
-          <mxGeometry height="30" width="208.25" x="3007.57" y="3432.5" as="geometry" />
+          <mxGeometry height="30" width="208.25" x="3263.75" y="3307.99" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JVM中StringTable等价于ELF的SymbolTable" vertex="1">
-          <mxGeometry height="30" width="233" x="3002.82" y="3492.5" as="geometry" />
+          <mxGeometry height="30" width="233" x="3259" y="3367.99" as="geometry" />
         </mxCell>
         <mxCell id="VuziWPm9UwrqeWhO-pKZ-2" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="VuziWPm9UwrqeWhO-pKZ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="String -&amp;gt; intern()" vertex="1">
-          <mxGeometry height="20" width="98.25" x="2633.82" y="3647.72" as="geometry" />
+          <mxGeometry height="20" width="98.25" x="2890" y="3523.2099999999996" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-13" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ba8ecJ08sKL8nfvFcPny-21">
           <mxGeometry relative="1" as="geometry" />
@@ -1128,10 +1128,10 @@
           <mxGeometry height="30" width="104.17" x="2234.65" y="3472.56" as="geometry" />
         </mxCell>
         <mxCell id="mfkRS8aUkjOiNxJf1G1F-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="Symbol Table &amp;amp; String Table" vertex="1">
-          <mxGeometry height="30" width="640" x="2583.82" y="3341.01" as="geometry" />
+          <mxGeometry height="30" width="640" x="2840" y="3216.5" as="geometry" />
         </mxCell>
         <mxCell id="VuziWPm9UwrqeWhO-pKZ-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="String类维护了一个对象池, 当调用intern方法时, 若池中已经存在改对象, 直接返回地址; 否则把当前对象添加到池中, 然后返回对象的地址" vertex="1">
-          <mxGeometry height="45.06" width="234" x="2829.82" y="3634.66" as="geometry" />
+          <mxGeometry height="45.06" width="234" x="3086" y="3510.1499999999996" as="geometry" />
         </mxCell>
         <mxCell id="VuziWPm9UwrqeWhO-pKZ-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Class.forName本身无法加载类, 还是要跳回到classloader的逻辑中, 最终会调用defineClass" vertex="1">
           <mxGeometry height="49" width="207.93" x="1182.6" y="5431" as="geometry" />
