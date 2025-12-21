@@ -1134,7 +1134,7 @@
           <mxGeometry height="45.06" width="234" x="2829.82" y="3634.66" as="geometry" />
         </mxCell>
         <mxCell id="VuziWPm9UwrqeWhO-pKZ-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Class.forName本身无法加载类, 还是要跳回到classloader的逻辑中, 最终会调用defineClass" vertex="1">
-          <mxGeometry height="49" width="207.93" x="1074.2099999999998" y="5490" as="geometry" />
+          <mxGeometry height="49" width="207.93" x="1182.6" y="5431" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="serial GC" vertex="1">
           <mxGeometry height="30" width="104.38" x="-16.18" y="5830" as="geometry" />
