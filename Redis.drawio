@@ -1642,7 +1642,7 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" value="TLB Shootdown" vertex="1">
           <mxGeometry height="34.19" width="90" x="4730" y="1030.4" as="geometry" />
         </mxCell>
-        <mxCell id="Ckd1dlq_zez5fyxJffNf-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="现代系统多核CPU, 势必要导致, 当TLB缓存失效时, 这个消息要同步给所有的CPU" vertex="1">
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="现代系统多核CPU, 每个CPU都有自己的MMU, 那TLB缓存失效势必要导致这个消息要同步给所有的CPU" vertex="1">
           <mxGeometry height="44.19" width="158" x="4702" y="970.81" as="geometry" />
         </mxCell>
       </root>
