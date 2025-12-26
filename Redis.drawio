@@ -1636,6 +1636,9 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="修改了PTE的access flag, 这里是access收紧的情况, 必须要通知TLB, 一般是要invalidate TLB的缓存; 那就意味着后续每次地址转换, MMU都要经历Page Walk到page table中获取实际的PTE" vertex="1">
           <mxGeometry height="30" width="240" x="4460" y="1032.5" as="geometry" />
         </mxCell>
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" value="TLB Shootdown" vertex="1">
+          <mxGeometry height="34.19" width="90" x="4752.11" y="990" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
