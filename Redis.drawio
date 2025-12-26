@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram id="zUd6xa0raMeIInKoFcpr" name="Page-1">
-    <mxGraphModel dx="5746" dy="5267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-1755" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1645,8 +1645,8 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="现代系统多核CPU, 每个CPU都有自己的MMU, 那TLB缓存失效势必要导致这个消息要同步给所有的CPU" vertex="1">
           <mxGeometry height="44.19" width="158" x="4702" y="970.81" as="geometry" />
         </mxCell>
-        <mxCell id="Ckd1dlq_zez5fyxJffNf-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="如果Redis主线程持续要写数据, 那么创建的新page就会很多, 要持续发生page fault错误" vertex="1">
-          <mxGeometry height="44.19" width="158" x="4567.16" y="1564.67" as="geometry" />
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="如果Redis主线程持续要写数据, 就会持续发生page fault, OS要创建的新page就会很多, 会出现额外的内存空间占用" vertex="1">
+          <mxGeometry height="65.33" width="161.5" x="4558.5" y="1564.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
