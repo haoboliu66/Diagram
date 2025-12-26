@@ -1648,8 +1648,14 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="如果Redis主线程持续要写数据, 就会持续发生page fault, OS要创建的新page就会很多, 会出现额外的内存空间占用" vertex="1">
           <mxGeometry height="65.33" width="161.5" x="5098.5" y="1524.67" as="geometry" />
         </mxCell>
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-49" edge="1" parent="1" source="Ckd1dlq_zez5fyxJffNf-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ckd1dlq_zez5fyxJffNf-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ckd1dlq_zez5fyxJffNf-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="save &quot;&quot;" vertex="1">
           <mxGeometry height="30" width="45.5" x="3374.5" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="disable rdb" vertex="1">
+          <mxGeometry height="30" width="60" x="3450" y="910" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
