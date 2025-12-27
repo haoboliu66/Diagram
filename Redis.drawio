@@ -1684,6 +1684,9 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="page fault handler会把触发它的PTE从wp修改为rw(可读可写), 然后返回让CPU重新执行这个地址的指令(rip寄存器)" vertex="1">
           <mxGeometry height="32.5" width="310" x="5090" y="1527.5" as="geometry" />
         </mxCell>
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="问题: page fault handler如何获取到这个对应PTE的地址?&lt;br&gt;1. 在MMU触发page fault时, 会把触发异常的虚拟地址放入CR2, page fault handler可以从CR2获取, &lt;br&gt;2. 通过current-&amp;gt;mm-&amp;gt;pgd 获取当前进程的page table地址, 在软件层面执行Page Walk, 就可以找到这个对应的PTE地址, 进而去修改它的access flag" vertex="1">
+          <mxGeometry height="75" width="370" x="5090" y="1575" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
