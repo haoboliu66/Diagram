@@ -1634,7 +1634,7 @@
           <mxGeometry height="177.61" width="211.68" x="4922.36" y="1277.19" as="geometry" />
         </mxCell>
         <mxCell id="Ckd1dlq_zez5fyxJffNf-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="COW的核心操作, 新建物理page, 拷贝数据" vertex="1">
-          <mxGeometry height="20" width="215" x="5150.25" y="1387.19" as="geometry" />
+          <mxGeometry height="20" width="215" x="5140" y="1376.29" as="geometry" />
         </mxCell>
         <mxCell id="Ckd1dlq_zez5fyxJffNf-44" edge="1" parent="1" source="Ckd1dlq_zez5fyxJffNf-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ckd1dlq_zez5fyxJffNf-43" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1649,7 +1649,7 @@
           <mxGeometry height="44.19" width="158" x="4782.25" y="868" as="geometry" />
         </mxCell>
         <mxCell id="Ckd1dlq_zez5fyxJffNf-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="如果Redis主线程持续要写数据, 就会持续发生page fault, OS要创建的新page就会很多, 会出现额外的内存空间占用" vertex="1">
-          <mxGeometry height="65.33" width="161.5" x="5178.75" y="1421.8600000000001" as="geometry" />
+          <mxGeometry height="65.33" width="161.5" x="5170" y="1404.67" as="geometry" />
         </mxCell>
         <mxCell id="Ckd1dlq_zez5fyxJffNf-49" edge="1" parent="1" source="Ckd1dlq_zez5fyxJffNf-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ckd1dlq_zez5fyxJffNf-48" value="">
           <mxGeometry relative="1" as="geometry" />
