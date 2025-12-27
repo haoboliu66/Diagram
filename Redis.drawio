@@ -1669,6 +1669,9 @@
         <mxCell id="Ckd1dlq_zez5fyxJffNf-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="fork拷贝PTE时, 要把父子进程的PTE全部修改为wp" vertex="1">
           <mxGeometry height="28.25" width="249.75" x="4360.38" y="725.94" as="geometry" />
         </mxCell>
+        <mxCell id="Ckd1dlq_zez5fyxJffNf-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="这里是否触发page fault, 要看当前的写操作是否涉及了一个真实的物理页的访问, 如果PTE表明" vertex="1">
+          <mxGeometry height="53" width="120" x="3920" y="1058.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
