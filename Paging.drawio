@@ -1109,7 +1109,7 @@
           <mxGeometry height="30" width="218.61" x="4136.39" y="14700" as="geometry" />
         </mxCell>
         <mxCell id="UYWLvkjZm8iV5XMjYyYc-316" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#7F00FF;fontStyle=1" value="由于write protection和缺页都会触发page fault异常, OS如何区分这两者?&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-weight: normal; font-size: 11px;&quot; color=&quot;#000000&quot;&gt;根据Error Code, 详见Intel手册Paging部分&lt;br style=&quot;font-size: 11px;&quot;&gt;汇编代码: _page_fault&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="385" x="4760" y="14613" as="geometry" />
+          <mxGeometry height="60" width="385" x="4995.62" y="14534" as="geometry" />
         </mxCell>
         <mxCell id="Db3O4oTEoKu0owX4F1Cu-3" edge="1" parent="1" source="Db3O4oTEoKu0owX4F1Cu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=11;" target="7bnNVgMgltM_X6Lc1Uql-104">
           <mxGeometry relative="1" as="geometry" />
