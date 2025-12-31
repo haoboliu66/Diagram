@@ -346,6 +346,9 @@
         <mxCell id="OAOri5O5lVqhXFjXqg6s-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Executor" vertex="1">
           <mxGeometry height="30" width="60" x="2098" y="-380" as="geometry" />
         </mxCell>
+        <mxCell id="OAOri5O5lVqhXFjXqg6s-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Spark on Yarn就是把资源管理交给Yarn集群RM和NM, 让Spark的Driver和Executor运行在Yarn的容器内" vertex="1">
+          <mxGeometry height="60" width="216" x="1474" y="-585" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
