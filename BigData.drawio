@@ -208,7 +208,7 @@
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-3" edge="1" parent="1" source="C4LfxKXUKxicq5X8a9r7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="C4LfxKXUKxicq5X8a9r7-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C4LfxKXUKxicq5X8a9r7-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="ApplicationMaster是由RM创建的进程, 那它运行在哪里?&amp;nbsp;&lt;br&gt;1, 运行在RM的节点&lt;br&gt;2, 运行在某个NM的节点&lt;br&gt;&lt;br&gt;RM很忙, 要处理client请求和整个集群的任务管理, 不合适让AM在它的节点运行, AM can be CPU-intensive" vertex="1">
+        <mxCell id="C4LfxKXUKxicq5X8a9r7-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="ApplicationMaster是由RM创建的进程, 那它运行在哪里?&amp;nbsp;&lt;br&gt;运行在RM的节点? or 运行在某个NM的节点?&lt;br&gt;&lt;br&gt;RM很忙, 要处理client请求和整个集群的任务管理, 不合适让AM在它的节点运行, AM can be CPU-intensive" vertex="1">
           <mxGeometry height="90" width="340" x="610" y="-690" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-8" edge="1" parent="1" source="hSEbsjg4EGqtfTA8VIdt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hSEbsjg4EGqtfTA8VIdt-7">
