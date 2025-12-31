@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="U7SpQmy9-2M6FtC-JxG5">
-    <mxGraphModel dx="1855" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2061" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,25 +269,25 @@
           <mxGeometry height="63" width="45" x="810" y="660.25" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="catalog" vertex="1">
-          <mxGeometry height="50" width="80" x="1290" y="666.75" as="geometry" />
+          <mxGeometry height="50" width="80" x="1234" y="666.75" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-31" edge="1" parent="1" source="hSEbsjg4EGqtfTA8VIdt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="hSEbsjg4EGqtfTA8VIdt-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spark SQL" vertex="1">
-          <mxGeometry height="30" width="80" x="1220" y="768" as="geometry" />
+          <mxGeometry height="30" width="80" x="1164" y="768" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="引入catalog, 支持对各种元数据中心的访问, 解耦metadata的存储层" vertex="1">
-          <mxGeometry height="27" width="340" x="1370" y="703" as="geometry" />
+          <mxGeometry height="27" width="340" x="1314" y="703" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="功能类比: JDBC, 同一套接口代码, 可以访问不同的数据库" vertex="1">
-          <mxGeometry height="24.75" width="290" x="1370" y="730" as="geometry" />
+          <mxGeometry height="24.75" width="290" x="1314" y="730" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spark Core" vertex="1">
-          <mxGeometry height="30" width="80" x="1210" y="540" as="geometry" />
+          <mxGeometry height="30" width="80" x="1154" y="540" as="geometry" />
         </mxCell>
         <mxCell id="hSEbsjg4EGqtfTA8VIdt-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RDD" vertex="1">
-          <mxGeometry height="30" width="80" x="1340" y="540" as="geometry" />
+          <mxGeometry height="30" width="80" x="1284" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
