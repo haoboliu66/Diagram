@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="AK-chcKiaeIvA2-BQHq4">
-    <mxGraphModel dx="2100" dy="2577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3238" dy="3189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -528,7 +528,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-17" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="根目录 root" vertex="1">
-          <mxGeometry height="30" width="60" x="1090" y="-1990" as="geometry" />
+          <mxGeometry height="30" width="60" x="1070" y="-1990" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-20" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" target="IGFzGuEiSgirud9OXhFV-17">
           <mxGeometry relative="1" as="geometry" />
@@ -540,28 +540,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-21" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="mounts" vertex="1">
-          <mxGeometry height="30" width="60" x="1085" y="-1950" as="geometry" />
+          <mxGeometry height="30" width="60" x="1070" y="-1950" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="container的root在哪里? 把宿主机的某个path映射为container的root" vertex="1">
-          <mxGeometry height="30" width="210" x="1185" y="-1990" as="geometry" />
+          <mxGeometry height="30" width="210" x="1160" y="-1990" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-25" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="container中的挂载信息" vertex="1">
-          <mxGeometry height="30" width="115" x="1185" y="-1950" as="geometry" />
+          <mxGeometry height="30" width="115" x="1167" y="-1950" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-30" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="IGFzGuEiSgirud9OXhFV-29" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-27" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="process" vertex="1">
-          <mxGeometry height="30" width="55" x="1087.5" y="-1860" as="geometry" />
+          <mxGeometry height="30" width="55" x="1048" y="-1860" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-32" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="IGFzGuEiSgirud9OXhFV-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-29" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="配置容器中init进程(1号进程)的运行环境和启动命令等" vertex="1">
-          <mxGeometry height="30" width="270" x="1177" y="-1860" as="geometry" />
+          <mxGeometry height="30" width="270" x="1130" y="-1860" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-31" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" value="Note: 以前我认为一个容器就是一个单独隔离的进程, 这其实有问题&lt;br&gt;比如我可以用容器来启动一个nginx, 这个nginix一定会包含多个进程, master进程, 一系列worker进程, 他们在同一个container中, 属于同一个PID ns;&amp;nbsp;&lt;br&gt;&lt;br&gt;由于在这个OCI spec中可以指定1号进程的启动方式, 所以nginx的启动命令就是1号进程, 也就是nginx的master进程" vertex="1">
-          <mxGeometry height="80" width="390" x="1486" y="-1885" as="geometry" />
+          <mxGeometry height="80" width="390" x="1433" y="-1885" as="geometry" />
         </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-34" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="IGFzGuEiSgirud9OXhFV-27">
           <mxGeometry relative="1" as="geometry" />
