@@ -352,7 +352,7 @@
         <mxCell id="OAOri5O5lVqhXFjXqg6s-28" edge="1" parent="1" source="OAOri5O5lVqhXFjXqg6s-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OAOri5O5lVqhXFjXqg6s-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OAOri5O5lVqhXFjXqg6s-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Apache Livy" vertex="1">
+        <mxCell id="OAOri5O5lVqhXFjXqg6s-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Apache Livy" vertex="1">
           <mxGeometry height="40" width="310" x="1670" y="-910" as="geometry" />
         </mxCell>
         <mxCell id="OAOri5O5lVqhXFjXqg6s-30" edge="1" parent="1" source="OAOri5O5lVqhXFjXqg6s-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="OAOri5O5lVqhXFjXqg6s-29">
@@ -369,6 +369,15 @@
         </mxCell>
         <mxCell id="OAOri5O5lVqhXFjXqg6s-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Spark Driver" vertex="1">
           <mxGeometry height="50" width="120" x="2098" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="OAOri5O5lVqhXFjXqg6s-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="REST API" vertex="1">
+          <mxGeometry height="40" width="70" x="1684" y="-810" as="geometry" />
+        </mxCell>
+        <mxCell id="OAOri5O5lVqhXFjXqg6s-35" edge="1" parent="1" source="OAOri5O5lVqhXFjXqg6s-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="OAOri5O5lVqhXFjXqg6s-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OAOri5O5lVqhXFjXqg6s-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Livy Client" vertex="1">
+          <mxGeometry height="40" width="116" x="1467" y="-810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
