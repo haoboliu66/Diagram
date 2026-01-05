@@ -448,7 +448,7 @@
           <mxGeometry height="30" width="70" x="3290" y="150" as="geometry" />
         </mxCell>
         <mxCell id="OAOri5O5lVqhXFjXqg6s-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="接入自定义的AM类到yarn有什么协议吗，1，不论如何，首先这个类一定会被打包进NM要执行的jar包内，然后由NM启动这个AM类； 2，这个AM要能通过RPC协议与yarn server通信，注册自己代表的application" vertex="1">
-          <mxGeometry height="60" width="320" x="2950" y="-240" as="geometry" />
+          <mxGeometry height="60" width="320" x="2890" y="-246" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
