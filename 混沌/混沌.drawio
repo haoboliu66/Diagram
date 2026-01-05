@@ -513,13 +513,13 @@
           <mxGeometry height="31" width="125" x="6670" y="1534.5" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-207" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;LLVM一切组件均可独立出来使用, 全部流程均可使用插件机制来进行配置选择, 全部模块化 ---&amp;gt; 高度可定制 ---&amp;gt; 开源后所有的语言均可按照模块化机制接入&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 13px;&quot;&gt;相比之下, GCC的代码没有进行模块化, 耦合度极高, 扩展性差, 所以LLVM更受欢迎&lt;/font&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="126" width="285" x="5840" y="1965.5" as="geometry" />
+          <mxGeometry height="126" width="285" x="5840" y="1959.25" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-208" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" value="eBPF" vertex="1">
           <mxGeometry height="35" width="105" x="6162.5" y="1910" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-212" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=13;fontColor=#000000;" value="&lt;div class=&quot;mind-clipboard&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;LLVM与gcc是同类型的竞争关系, 要替代gcc&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;新东西出来, 必定需要满足: 已存在东西的所有功能, 且要有自己的新特性, 如此才有竞争力; 所以研究新东西时, 可以基于对现有东西的了解 + 新特性来学习和选型&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="63.5" width="435" x="5832.5" y="2106.5" as="geometry" />
+          <mxGeometry height="63.5" width="435" x="5834.5" y="2091.5" as="geometry" />
         </mxCell>
         <mxCell id="2vaMElDyrSs1qIXfbJuE-213" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;" value="Graalvm" vertex="1">
           <mxGeometry height="40" width="120" x="4938.13" y="2426.5" as="geometry" />
