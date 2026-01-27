@@ -933,7 +933,7 @@
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="为了清理内存碎片从而分配足够空间的连续内存, 需要进行内存整理, 即移动现存对象的位置; 弊端: 受对象大小和数量影响" vertex="1">
           <mxGeometry height="60" width="214.67" x="-101.49000000000007" y="5620" as="geometry" />
         </mxCell>
-        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="新生代存活的对象什么时候移动到老年代? 引入GC次数(对象年龄), 到达一定阈值, 进入老年代" vertex="1">
+        <mxCell id="Bh_f7YCbZWuHbUZkmcxa-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="新生代存活的对象什么时候移动到老年代?&amp;nbsp; - 引入GC次数(对象年龄), 到达一定阈值, 进入老年代" vertex="1">
           <mxGeometry height="60" width="214.67" x="211.50999999999993" y="5630" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-6" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bh_f7YCbZWuHbUZkmcxa-5" value="">
