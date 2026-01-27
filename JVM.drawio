@@ -1444,6 +1444,9 @@
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="在task_struct上设置标志位, 即为signal" vertex="1">
           <mxGeometry height="15" width="198.27" x="1118.18" y="820" as="geometry" />
         </mxCell>
+        <mxCell id="iLsoZmOIOqpF-xNCTIE3-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="进程在user space进行信号检测, 并执行signal handler; 那这个检测逻辑什么时候发生? syscall返回时" vertex="1">
+          <mxGeometry height="40" width="214.82" x="966.41" y="920" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
