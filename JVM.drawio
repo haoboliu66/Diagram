@@ -1513,8 +1513,8 @@
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-44" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="或者使用JNA(Java Native Access)" vertex="1">
           <mxGeometry height="25" width="196.93" x="2270" y="2122.5" as="geometry" />
         </mxCell>
-        <mxCell id="iLsoZmOIOqpF-xNCTIE3-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;gcc -shared -fPIC \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include/linux&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; NativeTest.c -o libjnidemo.so&lt;/div&gt;" vertex="1">
-          <mxGeometry height="74" width="187.44" x="2320" y="1975" as="geometry" />
+        <mxCell id="iLsoZmOIOqpF-xNCTIE3-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;gcc -shared -fPIC \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include/linux&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JniDemo.c -o libjnidemo.so&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="190" x="2320" y="1975" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
