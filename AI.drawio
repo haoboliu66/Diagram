@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-23" edge="1" parent="1" source="gWwI2VgyuNLMxNzl3xzC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" target="gWwI2VgyuNLMxNzl3xzC-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" value="LLM" vertex="1">
           <mxGeometry height="50" width="100" x="250" y="140" as="geometry" />
         </mxCell>
@@ -15,15 +18,6 @@
         </mxCell>
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MCP Host" vertex="1">
           <mxGeometry height="50" width="100" x="240" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="gWwI2VgyuNLMxNzl3xzC-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="Prompt" vertex="1">
-          <mxGeometry height="30" width="60" x="130" y="150" as="geometry" />
-        </mxCell>
-        <mxCell id="gWwI2VgyuNLMxNzl3xzC-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="Prompt" vertex="1">
-          <mxGeometry height="30" width="60" x="130" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="gWwI2VgyuNLMxNzl3xzC-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="Answer" vertex="1">
-          <mxGeometry height="30" width="60" x="413.5" y="150" as="geometry" />
         </mxCell>
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" value="LLM" vertex="1">
           <mxGeometry height="50" width="100" x="450" y="510" as="geometry" />
@@ -37,11 +31,8 @@
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" value="MCP Tools" vertex="1">
           <mxGeometry height="30" width="100" x="450" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="gWwI2VgyuNLMxNzl3xzC-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" value="User" vertex="1">
-          <mxGeometry height="50" width="60" x="30" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="gWwI2VgyuNLMxNzl3xzC-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" value="User" vertex="1">
-          <mxGeometry height="50" width="60" x="30" y="390" as="geometry" />
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" value="User Prompt" vertex="1">
+          <mxGeometry height="50" width="60" x="130" y="390" as="geometry" />
         </mxCell>
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="1. MCP Host无法处理用户自然语言的prompt, 要把prompt传递给LLM" vertex="1">
           <mxGeometry height="60" width="140" x="220" y="320" as="geometry" />
@@ -57,6 +48,15 @@
         </mxCell>
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="4. MCP Host把从MCP Server获取的程序结果交回给LLM, 让它翻译成自然语言, 再返回给用户" vertex="1">
           <mxGeometry height="60" width="190" x="730" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-22" edge="1" parent="1" source="gWwI2VgyuNLMxNzl3xzC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" target="gWwI2VgyuNLMxNzl3xzC-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" value="User Prompt" vertex="1">
+          <mxGeometry height="50" width="60" x="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;hachureGap=4;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;fillColor=default;" value="Answer" vertex="1">
+          <mxGeometry height="50" width="60" x="400" y="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
