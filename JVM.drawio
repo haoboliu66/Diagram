@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="1776" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1345,7 +1345,7 @@
         <mxCell id="kipVwJ1cJkasnccq2_MD-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Zero版本就是没有特定ISA汇编代码优化, 全部由C/C++代码实现逻辑, 更方便的跨平台, 但是性能较差" vertex="1">
           <mxGeometry height="47.5" width="216.89" x="-242.78000000000003" y="3514.94" as="geometry" />
         </mxCell>
-        <mxCell id="kipVwJ1cJkasnccq2_MD-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一个.so文件中的方法想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" vertex="1">
+        <mxCell id="kipVwJ1cJkasnccq2_MD-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一个.so中的function想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" vertex="1">
           <mxGeometry height="78.65" width="303.38" x="-213.96000000000004" y="3312.8599999999997" as="geometry" />
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-22" edge="1" parent="1" source="kipVwJ1cJkasnccq2_MD-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="kipVwJ1cJkasnccq2_MD-21" value="">
