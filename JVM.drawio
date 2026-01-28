@@ -1193,6 +1193,9 @@
         <mxCell id="n8bBlmpNvoXPEELPKlnM-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="为什么要有JNI?" vertex="1">
           <mxGeometry height="30" width="93.77" x="1810.82" y="2080" as="geometry" />
         </mxCell>
+        <mxCell id="iLsoZmOIOqpF-xNCTIE3-54" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="如何在32位的机器中实现Java的语义, 即int是4字节, long是8字节, 不随底层平台而改变" vertex="1">
           <mxGeometry height="40" width="202.18" x="1966" y="1999" as="geometry" />
         </mxCell>
@@ -1533,6 +1536,9 @@
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="machine_dependent定义" vertex="1">
           <mxGeometry height="25" width="140" x="2628.82" y="2009" as="geometry" />
+        </mxCell>
+        <mxCell id="iLsoZmOIOqpF-xNCTIE3-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni_md.h" vertex="1">
+          <mxGeometry height="25" width="50" x="2191.6600000000003" y="2006.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
