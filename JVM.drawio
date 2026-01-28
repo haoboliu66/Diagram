@@ -1523,19 +1523,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;gcc -shared -fPIC \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include/linux&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JniDemo.c -o libjnidemo.so&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="170" x="2338.82" y="1975" as="geometry" />
+          <mxGeometry height="65" width="170" x="2490" y="2018" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-47" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni.h" vertex="1">
-          <mxGeometry height="25" width="32.56" x="2558.82" y="1965" as="geometry" />
-        </mxCell>
-        <mxCell id="iLsoZmOIOqpF-xNCTIE3-50" edge="1" parent="1" source="iLsoZmOIOqpF-xNCTIE3-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-49">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="25" width="32.56" x="2710" y="2008" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-48" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni_md.h" vertex="1">
-          <mxGeometry height="25" width="50" x="2558.82" y="2009" as="geometry" />
+          <mxGeometry height="25" width="50" x="2710" y="2052" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="machine_dependent定义" vertex="1">
-          <mxGeometry height="25" width="140" x="2628.82" y="2009" as="geometry" />
+          <mxGeometry height="25" width="140" x="2264.7500000000005" y="2006.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iLsoZmOIOqpF-xNCTIE3-57" edge="1" parent="1" source="iLsoZmOIOqpF-xNCTIE3-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni_md.h" vertex="1">
           <mxGeometry height="25" width="50" x="2191.6600000000003" y="2006.5" as="geometry" />
