@@ -55,6 +55,9 @@
         <mxCell id="gWwI2VgyuNLMxNzl3xzC-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="3. MCP Host拿到LLM的指令后去调用MCP Server中对应的Tool, 得到结果" vertex="1">
           <mxGeometry height="60" width="190" x="560" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="gWwI2VgyuNLMxNzl3xzC-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;fontColor=default;" value="4. MCP Host把从MCP Server获取的程序结果交回给LLM, 让它翻译成自然语言" vertex="1">
+          <mxGeometry height="60" width="190" x="730" y="410" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
