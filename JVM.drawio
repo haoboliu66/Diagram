@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="2198" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1494" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1178,11 +1178,8 @@
         <mxCell id="gU89hB3FzuSCVGNwTUvn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VM主线程" vertex="1">
           <mxGeometry height="40" width="480" x="2743.82" y="3900" as="geometry" />
         </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JNI" vertex="1">
-          <mxGeometry height="27.5" width="98.96" x="2040" y="2256.25" as="geometry" />
-        </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="从Java中调用&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C的函数&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="138" x="2149.83" y="2255" as="geometry" />
+          <mxGeometry height="30" width="138" x="1880.82" y="2290" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-8" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="n8bBlmpNvoXPEELPKlnM-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1197,7 +1194,7 @@
           <mxGeometry height="40" width="202.18" x="2316.27" y="2350" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="libjava.so" vertex="1">
-          <mxGeometry height="30" width="60" x="2056.51" y="2220" as="geometry" />
+          <mxGeometry height="30" width="60" x="2045.0400000000002" y="2220" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Java堆和C堆的数据拷贝; 类似用户空间和内核空间的数据拷贝" vertex="1">
           <mxGeometry height="40" width="202.18" x="2322.61" y="2420" as="geometry" />
