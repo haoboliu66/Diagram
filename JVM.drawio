@@ -1519,8 +1519,8 @@
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNI方法的参数规律: JNIEnv, jobject(non-static) / jclass(static), 后续就是Java的方法参数" vertex="1">
           <mxGeometry height="20" width="431.29" x="-1040" y="4390" as="geometry" />
         </mxCell>
-        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Java调用native方法时, 要加载进一个.so, 它是怎么做到的, 猜测: 这个调用一定是通过JVM内部C++逻辑实现加载的" vertex="1">
-          <mxGeometry height="50" width="224.51" x="-904.51" y="4475" as="geometry" />
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Java调用native方法时, 要加载对应.so进入内存, 它是怎么做到的, 猜测: 这个调用一定是通过JVM内部C++逻辑实现加载的" vertex="1">
+          <mxGeometry height="50" width="256.51" x="-920.4" y="4455" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
