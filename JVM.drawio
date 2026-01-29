@@ -637,32 +637,14 @@
         <mxCell id="CbXacDDCwCM1NCgQEbhs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="全部停下, 进入STW状态" vertex="1">
           <mxGeometry height="25" width="289" x="880.05" y="4012.5" as="geometry" />
         </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-11" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CbXacDDCwCM1NCgQEbhs-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-15" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="CbXacDDCwCM1NCgQEbhs-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="设置一个标志位, 让每个线程自己去检测, 检测到了就停止" vertex="1">
-          <mxGeometry height="30" width="282.87" x="889.28" y="4118.5" as="geometry" />
-        </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="4KB的页" vertex="1">
-          <mxGeometry height="35" width="72" x="995.15" y="4173.5" as="geometry" />
-        </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="正常状态下设置为只读; 需要STW的时候, 设置为不可访问, 线程读的时候就会报错, 在处理函数中把当前线程设置为阻塞" vertex="1">
-          <mxGeometry height="45" width="282.87" x="1070.7100000000003" y="4168.5" as="geometry" />
-        </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="polling_page" vertex="1">
-          <mxGeometry height="30" width="69.43" x="997.72" y="4208.5" as="geometry" />
-        </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="什么时候检测? 线程安全点(safepoints), 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
-          <mxGeometry height="30" width="281.87" x="1229.05" y="4096.28" as="geometry" />
+          <mxGeometry height="30" width="281.87" x="1498.5400000000002" y="4145" as="geometry" />
         </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-17" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-13">
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-5" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n8bBlmpNvoXPEELPKlnM-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="VMThread" vertex="1">
-          <mxGeometry height="30" width="69.43" x="801.72" y="4208.5" as="geometry" />
+          <mxGeometry height="30" width="69.43" x="1673.9099999999999" y="4088.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-23" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1223,7 +1205,7 @@
         <mxCell id="n8bBlmpNvoXPEELPKlnM-17" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="另外一个线程通过mprotect把这个page标记为PROT_NONE" vertex="1">
           <mxGeometry height="30" width="181.93" x="1908.6999999999998" y="4043.67" as="geometry" />
         </mxCell>
-        <mxCell id="kipVwJ1cJkasnccq2_MD-23" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="n8bBlmpNvoXPEELPKlnM-21">
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-8" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D5pn8TQHAbTw4oPb3Yhv-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="其他线程后续访问这个page就发生异常, 内核向线程发生SIGSEGV信号, 当线程执行对应的signal handler时把自己阻塞" vertex="1">
@@ -1231,9 +1213,6 @@
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="polling page" vertex="1">
           <mxGeometry height="30" width="80.2" x="1789.67" y="4088.67" as="geometry" />
-        </mxCell>
-        <mxCell id="n8bBlmpNvoXPEELPKlnM-21" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;" value="JVM Safepoints的原理: JVM中如何让通过polling page让线程进行阻塞" vertex="1">
-          <mxGeometry height="30" width="206.76" x="1896.2800000000002" y="4233.05" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="mmap" vertex="1">
           <mxGeometry height="30" width="50" x="413.99999999999994" y="110" as="geometry" />
@@ -1524,6 +1503,18 @@
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="STW" vertex="1">
           <mxGeometry height="38" width="85" x="588.8199999999999" y="3994.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-9" edge="1" parent="1" source="D5pn8TQHAbTw4oPb3Yhv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="D5pn8TQHAbTw4oPb3Yhv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="那JVM怎么能让所有的线程都恰好去访问这个polling_page呢" vertex="1">
+          <mxGeometry height="30" width="302.19" x="1848.1499999999999" y="4222.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JIT会在线程的指令逻辑中插入对polling_page的访问, 插入的位置叫safepoint, 正常情况下, 线程都会访问这个page无异常, 一旦需要STW, polling_page权限被修改, 线程再访问就出现异常" vertex="1">
+          <mxGeometry height="62" width="315.35" x="2234.65" y="4276.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;" value="JVM Safepoints的原理: JVM中如何让通过polling page让线程进行阻塞" vertex="1">
+          <mxGeometry height="30" width="206.76" x="1256.69" y="4145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
