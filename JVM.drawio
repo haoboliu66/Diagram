@@ -605,37 +605,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="C" vertex="1">
-          <mxGeometry height="35" width="72" x="1893.8199999999997" y="3780" as="geometry" />
+          <mxGeometry height="35" width="72" x="-1334.0500000000002" y="3407.5" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--22" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4pbobgGz6cPiNDc_OvU--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java" vertex="1">
-          <mxGeometry height="35" width="72" x="2049.8199999999997" y="3780" as="geometry" />
+          <mxGeometry height="35" width="72" x="-1178.0500000000002" y="3407.5" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNIEnv" vertex="1">
-          <mxGeometry height="30" width="100" x="1961.3199999999997" y="3760" as="geometry" />
+          <mxGeometry height="30" width="100" x="-1266.5500000000002" y="3387.5" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNI规范" vertex="1">
-          <mxGeometry height="30" width="100" x="1958.8199999999997" y="3840" as="geometry" />
+          <mxGeometry height="30" width="100" x="-1269.0500000000002" y="3467.5" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" vertex="1">
-          <mxGeometry height="50" width="143" x="2061.3199999999997" y="3850" as="geometry" />
+          <mxGeometry height="50" width="143" x="-1166.5500000000002" y="3477.5" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" vertex="1">
-          <mxGeometry height="80" width="282.87" x="1938.3899999999996" y="3900" as="geometry" />
+          <mxGeometry height="80" width="282.87" x="-1289.4800000000002" y="3527.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
-          <mxGeometry height="35" width="72" x="489.32" y="4150" as="geometry" />
+          <mxGeometry height="35" width="72" x="525.9399999999999" y="4136.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
-          <mxGeometry height="35" width="72" x="597.57" y="4150" as="geometry" />
+          <mxGeometry height="35" width="72" x="634.19" y="4136.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
-          <mxGeometry height="35" width="72" x="703.57" y="4150" as="geometry" />
+          <mxGeometry height="35" width="72" x="740.19" y="4136.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="全部停下, 进入STW状态" vertex="1">
-          <mxGeometry height="25" width="289" x="489.57" y="4192.5" as="geometry" />
+          <mxGeometry height="25" width="289" x="526.1899999999999" y="4179" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-11" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CbXacDDCwCM1NCgQEbhs-10">
           <mxGeometry relative="1" as="geometry" />
@@ -644,25 +644,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="设置一个标志位, 让每个线程自己去检测, 检测到了就停止" vertex="1">
-          <mxGeometry height="30" width="282.87" x="793.7" y="4190" as="geometry" />
+          <mxGeometry height="30" width="282.87" x="830.32" y="4176.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="4KB的页" vertex="1">
-          <mxGeometry height="35" width="72" x="899.57" y="4245" as="geometry" />
+          <mxGeometry height="35" width="72" x="936.19" y="4231.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="正常状态下设置为只读; 需要STW的时候, 设置为不可访问, 线程读的时候就会报错, 在处理函数中把当前线程设置为阻塞" vertex="1">
-          <mxGeometry height="45" width="282.87" x="975.1300000000001" y="4240" as="geometry" />
+          <mxGeometry height="45" width="282.87" x="1011.7500000000001" y="4226.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="polling_page" vertex="1">
-          <mxGeometry height="30" width="69.43" x="902.1400000000001" y="4280" as="geometry" />
+          <mxGeometry height="30" width="69.43" x="938.7600000000001" y="4266.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="什么时候检测? 线程安全点(safepoints), 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
-          <mxGeometry height="30" width="281.87" x="1178.13" y="4160" as="geometry" />
+          <mxGeometry height="30" width="281.87" x="1214.75" y="4146.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-17" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="VMThread" vertex="1">
-          <mxGeometry height="30" width="69.43" x="706.1400000000001" y="4280" as="geometry" />
+          <mxGeometry height="30" width="69.43" x="742.7600000000001" y="4266.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-23" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-19">
           <mxGeometry relative="1" as="geometry" />
