@@ -637,8 +637,8 @@
         <mxCell id="CbXacDDCwCM1NCgQEbhs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="全部停下, 进入STW状态" vertex="1">
           <mxGeometry height="25" width="289" x="880.05" y="4012.5" as="geometry" />
         </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="什么时候检测? 线程安全点(safepoints), 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
-          <mxGeometry height="30" width="281.87" x="1498.5400000000002" y="4145" as="geometry" />
+        <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="safepoint都在哪里? 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
+          <mxGeometry height="30" width="281.87" x="1836.3200000000002" y="4329.5" as="geometry" />
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-5" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n8bBlmpNvoXPEELPKlnM-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1514,7 +1514,7 @@
           <mxGeometry height="62" width="315.35" x="2234.65" y="4276.5" as="geometry" />
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;" value="JVM Safepoints的原理: JVM中如何让通过polling page让线程进行阻塞" vertex="1">
-          <mxGeometry height="30" width="206.76" x="1256.69" y="4145" as="geometry" />
+          <mxGeometry height="30" width="206.76" x="1628.81" y="3850" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
