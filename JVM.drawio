@@ -623,7 +623,7 @@
           <mxGeometry height="50" width="143" x="-1138.8700000000001" y="4449.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" vertex="1">
-          <mxGeometry height="80" width="282.87" x="-1261.8000000000002" y="4499.93" as="geometry" />
+          <mxGeometry height="70.07" width="282.87" x="-1261.8" y="4499.93" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
           <mxGeometry height="35" width="72" x="1179.04" y="3991.17" as="geometry" />
