@@ -607,17 +607,11 @@
         <mxCell id="4pbobgGz6cPiNDc_OvU--19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="C++ Native Heap" vertex="1">
           <mxGeometry height="35" width="72" x="-1306.3700000000001" y="4379.93" as="geometry" />
         </mxCell>
-        <mxCell id="4pbobgGz6cPiNDc_OvU--22" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4pbobgGz6cPiNDc_OvU--19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java Heap" vertex="1">
           <mxGeometry height="35" width="72" x="-1150.3700000000001" y="4379.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNIEnv" vertex="1">
           <mxGeometry height="30" width="100" x="-1241.3700000000001" y="4360" as="geometry" />
-        </mxCell>
-        <mxCell id="4pbobgGz6cPiNDc_OvU--24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNI规范" vertex="1">
-          <mxGeometry height="30" width="100" x="-1241.3700000000001" y="4439.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" vertex="1">
           <mxGeometry height="50" width="143" x="-1138.8700000000001" y="4449.93" as="geometry" />
