@@ -638,7 +638,7 @@
           <mxGeometry height="25" width="289" x="880.05" y="4012.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="safepoint都在哪里? 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
-          <mxGeometry height="30" width="281.87" x="2234.65" y="4246.5" as="geometry" />
+          <mxGeometry height="30" width="281.87" x="2558.13" y="4292.5" as="geometry" />
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-5" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n8bBlmpNvoXPEELPKlnM-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1510,6 +1510,9 @@
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="那JVM怎么能让所有的线程都恰好去访问这个polling_page呢" vertex="1">
           <mxGeometry height="30" width="302.19" x="1848.1499999999999" y="4222.5" as="geometry" />
         </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-13" edge="1" parent="1" source="D5pn8TQHAbTw4oPb3Yhv-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="D5pn8TQHAbTw4oPb3Yhv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JIT会在线程的指令逻辑中插入对polling_page的访问, 插入的位置叫safepoint, 正常情况下, 线程都会访问这个page无异常, 一旦需要STW, polling_page权限被修改, 线程再访问就出现异常" vertex="1">
           <mxGeometry height="62" width="315.35" x="2234.65" y="4276.5" as="geometry" />
         </mxCell>
@@ -1517,7 +1520,10 @@
           <mxGeometry height="30" width="206.76" x="1628.81" y="3850" as="geometry" />
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Safe Region" vertex="1">
-          <mxGeometry height="35" width="99.79" x="2099.86" y="4415" as="geometry" />
+          <mxGeometry height="35" width="99.79" x="2510" y="4480" as="geometry" />
+        </mxCell>
+        <mxCell id="D5pn8TQHAbTw4oPb3Yhv-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="那如果一个线程在sleep或者wait等待锁, 暂时不会到达safepoint怎么办?&amp;nbsp;" vertex="1">
+          <mxGeometry height="32" width="200" x="2292.32" y="4380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
