@@ -644,25 +644,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="设置一个标志位, 让每个线程自己去检测, 检测到了就停止" vertex="1">
-          <mxGeometry height="30" width="282.87" x="842.86" y="4125.22" as="geometry" />
+          <mxGeometry height="30" width="282.87" x="889.28" y="4118.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="4KB的页" vertex="1">
-          <mxGeometry height="35" width="72" x="948.73" y="4180.22" as="geometry" />
+          <mxGeometry height="35" width="72" x="995.15" y="4173.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="正常状态下设置为只读; 需要STW的时候, 设置为不可访问, 线程读的时候就会报错, 在处理函数中把当前线程设置为阻塞" vertex="1">
-          <mxGeometry height="45" width="282.87" x="1024.2900000000002" y="4175.22" as="geometry" />
+          <mxGeometry height="45" width="282.87" x="1070.7100000000003" y="4168.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="polling_page" vertex="1">
-          <mxGeometry height="30" width="69.43" x="951.3000000000001" y="4215.22" as="geometry" />
+          <mxGeometry height="30" width="69.43" x="997.72" y="4208.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="什么时候检测? 线程安全点(safepoints), 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
-          <mxGeometry height="30" width="281.87" x="1182.6299999999999" y="4103" as="geometry" />
+          <mxGeometry height="30" width="281.87" x="1229.05" y="4096.28" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-17" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="VMThread" vertex="1">
-          <mxGeometry height="30" width="69.43" x="755.3000000000001" y="4215.22" as="geometry" />
+          <mxGeometry height="30" width="69.43" x="801.72" y="4208.5" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-23" edge="1" parent="1" source="CbXacDDCwCM1NCgQEbhs-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="CbXacDDCwCM1NCgQEbhs-19">
           <mxGeometry relative="1" as="geometry" />
