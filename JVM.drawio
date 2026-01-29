@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="3299" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5180" dy="2257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="325" width="609" x="-1138.98" y="3016.01" as="geometry" />
+          <mxGeometry height="325" width="609" x="-1111.3" y="3988.44" as="geometry" />
         </mxCell>
         <mxCell id="fccx7uLQzCU_dFHS8VNy-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="102" width="320" x="-1460.0000000000002" y="5981" as="geometry" />
@@ -605,25 +605,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="C" vertex="1">
-          <mxGeometry height="35" width="72" x="-1334.0500000000002" y="3407.5" as="geometry" />
+          <mxGeometry height="35" width="72" x="-1306.3700000000001" y="4379.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--22" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4pbobgGz6cPiNDc_OvU--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java" vertex="1">
-          <mxGeometry height="35" width="72" x="-1178.0500000000002" y="3407.5" as="geometry" />
+          <mxGeometry height="35" width="72" x="-1150.3700000000001" y="4379.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--23" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNIEnv" vertex="1">
-          <mxGeometry height="30" width="100" x="-1266.5500000000002" y="3387.5" as="geometry" />
+          <mxGeometry height="30" width="100" x="-1238.8700000000001" y="4359.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNI规范" vertex="1">
-          <mxGeometry height="30" width="100" x="-1269.0500000000002" y="3467.5" as="geometry" />
+          <mxGeometry height="30" width="100" x="-1241.3700000000001" y="4439.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" vertex="1">
-          <mxGeometry height="50" width="143" x="-1166.5500000000002" y="3477.5" as="geometry" />
+          <mxGeometry height="50" width="143" x="-1138.8700000000001" y="4449.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" vertex="1">
-          <mxGeometry height="80" width="282.87" x="-1289.4800000000002" y="3527.5" as="geometry" />
+          <mxGeometry height="80" width="282.87" x="-1261.8000000000002" y="4499.93" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
           <mxGeometry height="35" width="72" x="1179.04" y="3991.17" as="geometry" />
@@ -1155,7 +1155,7 @@
           <mxGeometry height="40" width="480" x="2247.57" y="3800" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="从Java中调用&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C的函数&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="138" x="-1277.68" y="3103.51" as="geometry" />
+          <mxGeometry height="30" width="138" x="-1250" y="4075.94" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-8" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="n8bBlmpNvoXPEELPKlnM-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1167,16 +1167,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="为什么要有JNI?" vertex="1">
-          <mxGeometry height="30" width="93.77" x="-1347.68" y="2893.51" as="geometry" />
+          <mxGeometry height="30" width="93.77" x="-1320" y="3865.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-54" edge="1" parent="1" source="n8bBlmpNvoXPEELPKlnM-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-53" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="如何在32位的机器中实现Java的语义, 即int是4字节, long是8字节, 不随底层平台而改变" vertex="1">
-          <mxGeometry height="40" width="202.18" x="-1192.5" y="2812.51" as="geometry" />
+          <mxGeometry height="40" width="202.18" x="-1164.82" y="3784.94" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Java堆和C堆的数据拷贝; 类似用户空间和内核空间的数据拷贝" vertex="1">
-          <mxGeometry height="40" width="202.18" x="-1188.11" y="2863.51" as="geometry" />
+          <mxGeometry height="40" width="202.18" x="-1160.4299999999998" y="3835.94" as="geometry" />
         </mxCell>
         <mxCell id="n8bBlmpNvoXPEELPKlnM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="物理页 (rw)" vertex="1">
           <mxGeometry height="35" width="99.79" x="1780.4100000000003" y="4043.67" as="geometry" />
@@ -1454,28 +1454,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="JNI" vertex="1">
-          <mxGeometry height="30" width="95.2" x="-1347.68" y="3133.51" as="geometry" />
+          <mxGeometry height="30" width="95.2" x="-1320" y="4105.9400000000005" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-36" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="JNI函数的具体逻辑实现/&lt;span style=&quot;font-size: 11px;&quot;&gt;Native Methods Imp&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="240" x="-998.5" y="3043.51" as="geometry" />
+          <mxGeometry height="30" width="240" x="-970.82" y="4015.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="libjava.so" vertex="1">
-          <mxGeometry height="30" width="95.2" x="-1108.6800000000003" y="3043.51" as="geometry" />
+          <mxGeometry height="30" width="95.2" x="-1081.0000000000002" y="4015.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="libjvm.so" vertex="1">
-          <mxGeometry height="30" width="95.2" x="-1108.6799999999998" y="3073.51" as="geometry" />
+          <mxGeometry height="30" width="95.2" x="-1080.9999999999998" y="4045.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="JNI runtime env" vertex="1">
-          <mxGeometry height="20" width="110" x="-1006.6100000000001" y="3078.51" as="geometry" />
+          <mxGeometry height="20" width="110" x="-978.9300000000002" y="4050.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-45" edge="1" parent="1" source="iLsoZmOIOqpF-xNCTIE3-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-42" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="如果有一个C/C++写的高性能lib, 要让Java调用, 但是这个lib是一个通用lib, 命名不满足JNI规范, 此时必须从Java层面自定义JNI来调用这个.so" vertex="1">
-          <mxGeometry height="50" width="271.27" x="-1188.11" y="2923.51" as="geometry" />
+          <mxGeometry height="50" width="271.27" x="-1160.4299999999998" y="3895.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-44" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="或者使用JNA(Java Native Access)" vertex="1">
-          <mxGeometry height="25" width="196.93" x="-888.5" y="2936.01" as="geometry" />
+          <mxGeometry height="25" width="196.93" x="-860.82" y="3908.44" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-51" edge="1" parent="1" source="iLsoZmOIOqpF-xNCTIE3-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-47">
           <mxGeometry relative="1" as="geometry" />
@@ -1484,22 +1484,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;gcc -shared -fPIC \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; -I&quot;$JAVA_HOME/include/linux&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; JniDemo.c -o libjnidemo.so&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="170" x="-668.5" y="2831.51" as="geometry" />
+          <mxGeometry height="65" width="170" x="-640.82" y="3803.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-47" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni.h" vertex="1">
-          <mxGeometry height="25" width="32.56" x="-448.5" y="2821.51" as="geometry" />
+          <mxGeometry height="25" width="32.56" x="-420.82" y="3793.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-48" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni_md.h" vertex="1">
-          <mxGeometry height="25" width="50" x="-448.5" y="2865.51" as="geometry" />
+          <mxGeometry height="25" width="50" x="-420.82" y="3837.94" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="machine_dependent定义" vertex="1">
-          <mxGeometry height="25" width="140" x="-893.7499999999995" y="2820.01" as="geometry" />
+          <mxGeometry height="25" width="140" x="-866.0699999999996" y="3792.44" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-57" edge="1" parent="1" source="iLsoZmOIOqpF-xNCTIE3-53" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="iLsoZmOIOqpF-xNCTIE3-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni_md.h" vertex="1">
-          <mxGeometry height="25" width="50" x="-966.8399999999997" y="2820.01" as="geometry" />
+          <mxGeometry height="25" width="50" x="-939.1599999999997" y="3792.44" as="geometry" />
         </mxCell>
         <mxCell id="D5pn8TQHAbTw4oPb3Yhv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="STW" vertex="1">
           <mxGeometry height="38" width="85" x="1033.1799999999998" y="4010.67" as="geometry" />
