@@ -333,10 +333,10 @@
           <mxGeometry height="63" width="170" x="2000" y="-2086.5" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-257" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" value="libjvm.so" vertex="1">
-          <mxGeometry height="33.5" width="75" x="3299.5" y="-1404.11" as="geometry" />
+          <mxGeometry height="33.5" width="50.5" x="3268.13" y="-1405.36" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-258" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="共享代码, 数据独立" vertex="1">
-          <mxGeometry height="36" width="147.25" x="3160.38" y="-1405.36" as="geometry" />
+          <mxGeometry height="36" width="99.62" x="3160.38" y="-1405.36" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-259" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;fontStyle=1" value="根据ELF program header创建进程并执行 _start, __libc_start_main, init, main, fini" vertex="1">
           <mxGeometry height="33.59" width="255.25" x="3164.75" y="-1457.0400000000002" as="geometry" />
