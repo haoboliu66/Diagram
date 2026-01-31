@@ -400,9 +400,6 @@
         <mxCell id="onG2acxlvetChBkqUA75-278" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="free" vertex="1">
           <mxGeometry height="24.87" width="109.12" x="3037.57" y="-1126.29" as="geometry" />
         </mxCell>
-        <mxCell id="gwgHYUVU3DYSM8FIDgpD-2" edge="1" parent="1" source="onG2acxlvetChBkqUA75-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="gwgHYUVU3DYSM8FIDgpD-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-279" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="1. mmap分配 (适合大内存)&lt;br style=&quot;font-size: 11px;&quot;&gt;2. 使用edata指针 (适合小内存)" vertex="1">
           <mxGeometry height="36.71" width="185.25" x="3159.63" y="-1168.9999999999998" as="geometry" />
         </mxCell>
@@ -580,11 +577,6 @@
         <mxCell id="5MU1WVkMyFggOG_La4Lw-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="e_shoff" vertex="1">
           <mxGeometry height="30" width="60" x="4922.5" y="-1558.66" as="geometry" />
         </mxCell>
-        <UserObject label="mmap" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FIO.drawio" id="gwgHYUVU3DYSM8FIDgpD-1">
-          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" vertex="1">
-            <mxGeometry height="28.12" width="109.12" x="3400" y="-1179.9999999999998" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="H8lg16Kb9tjHfjLK9gUN-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="1’s complement&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="113.72" x="3009.25" y="-2900" as="geometry" />
         </mxCell>
