@@ -291,25 +291,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-242" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="Sections" vertex="1">
-          <mxGeometry height="30" width="60" x="4048.5" y="-1648" as="geometry" />
+          <mxGeometry height="30" width="60" x="4168.5" y="-1355.45" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-243" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4113.799999999999" y="-1495.42" as="sourcePoint" />
-            <mxPoint x="4175.299999999999" y="-1495.42" as="targetPoint" />
+            <mxPoint x="4233.799999999999" y="-1202.8700000000001" as="sourcePoint" />
+            <mxPoint x="4295.299999999999" y="-1202.8700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-244" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="Segment" vertex="1">
-          <mxGeometry height="30" width="60" x="4048.5" y="-1509.5900000000001" as="geometry" />
+          <mxGeometry height="30" width="60" x="4168.5" y="-1217.0400000000002" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-245" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="VMA" vertex="1">
-          <mxGeometry height="30" width="60" x="4170" y="-1509.5900000000001" as="geometry" />
+          <mxGeometry height="30" width="60" x="4290" y="-1217.0400000000002" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-246" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" vertex="1">
-          <mxGeometry height="57" width="210" x="4121.5" y="-1599.5900000000001" as="geometry" />
+          <mxGeometry height="57" width="210" x="4241.5" y="-1307.0400000000002" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-247" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 11px;&quot;&gt;Segment和Section是从不同角度来划分ELF文件的内容, 是不同的View, 从Section角度看ELF就是Linking View; 从Segment角度来看就是Execution View&lt;/font&gt;" vertex="1">
-          <mxGeometry height="61" width="284" x="3980" y="-1716" as="geometry" />
+          <mxGeometry height="61" width="284" x="4100" y="-1423.45" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-248" edge="1" parent="1" source="onG2acxlvetChBkqUA75-254" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fontSize=11;" target="onG2acxlvetChBkqUA75-165">
           <mxGeometry relative="1" as="geometry" />
@@ -542,43 +542,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="ELF executable" vertex="1">
-          <mxGeometry height="39.15" width="120" x="4412.5" y="-1645.7" as="geometry" />
+          <mxGeometry height="39.15" width="120" x="4532.5" y="-1353.15" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-5" edge="1" parent="1" source="ySqF0t0O-3qDelf5BsEI-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fontSize=11;" target="ySqF0t0O-3qDelf5BsEI-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="ELF Header" vertex="1">
-          <mxGeometry height="34.27" width="120.5" x="4585.25" y="-1642.82" as="geometry" />
+          <mxGeometry height="34.27" width="120.5" x="4705.25" y="-1350.27" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Program Header&lt;br style=&quot;font-size: 11px;&quot;&gt;(Segment信息)" vertex="1">
-          <mxGeometry height="45" width="120.5" x="4585.25" y="-1566.55" as="geometry" />
+          <mxGeometry height="45" width="120.5" x="4705.25" y="-1274" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" value="_start" vertex="1">
-          <mxGeometry height="30" width="70" x="4412.5" y="-1492.9199999999998" as="geometry" />
+          <mxGeometry height="30" width="70" x="4532.5" y="-1200.37" as="geometry" />
         </mxCell>
         <mxCell id="ySqF0t0O-3qDelf5BsEI-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" value="__libc_start_main@plt" vertex="1">
-          <mxGeometry height="31" width="160" x="4532.5" y="-1493.9199999999998" as="geometry" />
+          <mxGeometry height="31" width="160" x="4652.5" y="-1201.37" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="ELF Header" vertex="1">
-          <mxGeometry height="34.27" width="90" x="4832.5" y="-1576.8600000000001" as="geometry" />
+          <mxGeometry height="34.27" width="90" x="4952.5" y="-1284.3100000000002" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Program Header Table" vertex="1">
-          <mxGeometry height="36" width="120.5" x="5102.5" y="-1631.8700000000001" as="geometry" />
+          <mxGeometry height="36" width="120.5" x="5222.5" y="-1339.3200000000002" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Section Header Table" vertex="1">
-          <mxGeometry height="36" width="120.5" x="5102.5" y="-1509.5900000000001" as="geometry" />
+          <mxGeometry height="36" width="120.5" x="5222.5" y="-1217.0400000000002" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-6" edge="1" parent="1" source="5MU1WVkMyFggOG_La4Lw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="5MU1WVkMyFggOG_La4Lw-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="e_phoff" vertex="1">
-          <mxGeometry height="30" width="60" x="4922.5" y="-1595.8700000000001" as="geometry" />
+          <mxGeometry height="30" width="60" x="5042.5" y="-1303.3200000000002" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-8" edge="1" parent="1" source="5MU1WVkMyFggOG_La4Lw-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="5MU1WVkMyFggOG_La4Lw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5MU1WVkMyFggOG_La4Lw-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="e_shoff" vertex="1">
-          <mxGeometry height="30" width="60" x="4922.5" y="-1558.66" as="geometry" />
+          <mxGeometry height="30" width="60" x="5042.5" y="-1266.1100000000001" as="geometry" />
         </mxCell>
         <mxCell id="H8lg16Kb9tjHfjLK9gUN-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="1’s complement&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="113.72" x="3009.25" y="-2900" as="geometry" />
