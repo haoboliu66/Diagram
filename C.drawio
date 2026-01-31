@@ -259,8 +259,8 @@
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-233" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;fontColor=#000000;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3053.630000000001" y="-1356.4600000000003" as="sourcePoint" />
-            <mxPoint x="3053.630000000001" y="-1356.4600000000003" as="targetPoint" />
+            <mxPoint x="3060.690000000001" y="-1280.0000000000002" as="sourcePoint" />
+            <mxPoint x="3060.690000000001" y="-1280.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-234" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="缺点: 1.一旦library更新了, 就要重新编译链接;&amp;nbsp;&lt;br style=&quot;font-size: 11px;&quot;&gt;2. 浪费内存空间(进程的text segment的duplicate代码)" vertex="1">
@@ -348,7 +348,7 @@
           <mxGeometry height="37.5" width="169" x="2677.88" y="-1081.7499999999998" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-262" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="去除elf文件中的.symtab&lt;br style=&quot;font-size: 11px;&quot;&gt;.symtab就是目标文件中数据, 代码的索引" vertex="1">
-          <mxGeometry height="40" width="240" x="2979" y="-1346.41" as="geometry" />
+          <mxGeometry height="40" width="240" x="2986.06" y="-1269.95" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-263" edge="1" parent="1" source="onG2acxlvetChBkqUA75-264" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" target="onG2acxlvetChBkqUA75-265" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -370,11 +370,11 @@
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-269" edge="1" parent="1" source="onG2acxlvetChBkqUA75-270" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" target="onG2acxlvetChBkqUA75-262" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2988.88" y="-1326.43" as="targetPoint" />
+            <mxPoint x="2995.94" y="-1249.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-270" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="strip" vertex="1">
-          <mxGeometry height="30" width="80.87" x="2839.13" y="-1341.43" as="geometry" />
+          <mxGeometry height="30" width="80.87" x="2846.19" y="-1264.97" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-271" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="Type" vertex="1">
           <mxGeometry height="32.5" width="79.5" x="2848" y="-1485.2" as="geometry" />
@@ -591,6 +591,9 @@
         </mxCell>
         <mxCell id="H8lg16Kb9tjHfjLK9gUN-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="2’s complement&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="113.72" x="3009.25" y="-2860" as="geometry" />
+        </mxCell>
+        <mxCell id="GDnOz3t81LmDPMGGNwp2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="FileFormat" vertex="1">
+          <mxGeometry height="32.5" width="79.5" x="2855" y="-1340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
