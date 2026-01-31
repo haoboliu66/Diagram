@@ -29,10 +29,7 @@
           <mxGeometry height="60" width="93.32" x="516.52" y="2872.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="汇编和ISA强相关, 由于不同的CPU的不同ISA, 所以C和C++的程序需要编写不同的代码来适应不同的CPU平台" vertex="1">
-          <mxGeometry height="40" width="310" x="133.82" y="1420" as="geometry" />
-        </mxCell>
-        <mxCell id="ld9Qwx5qpbUsMiMYAhv9-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="高级语言或多或少都是为了解决C和C++指针的问题" vertex="1">
-          <mxGeometry height="30" width="230" x="502.09" y="1420" as="geometry" />
+          <mxGeometry height="40" width="310" x="277.88" y="1375" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="第6期 - 第8节" vertex="1">
           <mxGeometry height="30" width="640" x="123.82" y="1310" as="geometry" />
@@ -41,64 +38,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="执行速度: C++解释字节码 &amp;lt; 机器码解释字节码 &amp;lt; 编译优化(JIT)" vertex="1">
-          <mxGeometry height="40" width="310" x="113.82" y="1560" as="geometry" />
+          <mxGeometry height="40" width="310" x="123.82" y="1430" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-7" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="ld9Qwx5qpbUsMiMYAhv9-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="启动速度: 编译优化 &amp;lt; 解释执行" vertex="1">
-          <mxGeometry height="40" width="150" x="243.82" y="1610" as="geometry" />
+          <mxGeometry height="40" width="150" x="253.82" y="1480" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-8" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ld9Qwx5qpbUsMiMYAhv9-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="如何选择达成平衡? 选择热点(Hotspot)的代码进行编译" vertex="1">
-          <mxGeometry height="40" width="255" x="503.82" y="1590" as="geometry" />
+          <mxGeometry height="40" width="255" x="513.82" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-20" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="1, 按解释执行的模式启动&lt;br style=&quot;font-size: 10px;&quot;&gt;2, 根据方法的调用频率, 调用JIT编译优化热点代码" vertex="1">
-          <mxGeometry height="40" width="244.5" x="803.82" y="1590" as="geometry" />
+          <mxGeometry height="40" width="244.5" x="813.82" y="1460" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="gcc 有O1 O2 O3的编译优化等级, 每级的程度和性能表现不一样,&lt;br style=&quot;font-size: 10px;&quot;&gt;那么JIT也引入类似的技术, 分层编译, 达成执行速度和启动速度的折中" vertex="1">
-          <mxGeometry height="70" width="280" x="509.3" y="1640" as="geometry" />
+          <mxGeometry height="70" width="280" x="504.22" y="1520" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-45" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="JVM是一个概念, 可以有多种实现, 所以需要一个规范, 来规定字节码的格式: JVM规范手册" vertex="1">
-          <mxGeometry height="50" width="420" x="945.82" y="1870" as="geometry" />
+          <mxGeometry height="50" width="420" x="532.57" y="1792.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-28" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="C" vertex="1">
-          <mxGeometry height="40" width="70" x="945.82" y="1925" as="geometry" />
+          <mxGeometry height="40" width="70" x="532.57" y="1847.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-29" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="汇编" vertex="1">
-          <mxGeometry height="40" width="70" x="945.82" y="1995" as="geometry" />
+          <mxGeometry height="40" width="70" x="532.57" y="1917.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Intel手册" vertex="1">
-          <mxGeometry height="40" width="70" x="945.82" y="2065" as="geometry" />
+          <mxGeometry height="40" width="70" x="532.57" y="1987.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-30" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java" vertex="1">
-          <mxGeometry height="40" width="70" x="1075.82" y="1925" as="geometry" />
+          <mxGeometry height="40" width="70" x="662.5699999999999" y="1847.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-32" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Bytecode" vertex="1">
-          <mxGeometry height="40" width="70" x="1075.82" y="1995" as="geometry" />
+          <mxGeometry height="40" width="70" x="662.5699999999999" y="1917.5" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-10" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="gsRuYBzsou2JwsS9meuW-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="JVM手册" vertex="1">
-          <mxGeometry height="40" width="70" x="1075.82" y="2065" as="geometry" />
+          <mxGeometry height="40" width="70" x="662.5699999999999" y="1987.5" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-38" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-36">
           <mxGeometry relative="1" as="geometry" />
@@ -128,13 +125,13 @@
           <mxGeometry height="40" width="80" x="29.999999999999986" y="1834" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF3333;" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个byte" vertex="1">
-          <mxGeometry height="50" width="410" x="1411.82" y="1870" as="geometry" />
+          <mxGeometry height="50" width="410" x="998.5699999999999" y="1792.5" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="C -&amp;gt; 汇编 -&amp;gt; ISA -&amp;gt; CPU" vertex="1">
           <mxGeometry height="30" width="120" x="133.82" y="1380" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="HotSpot" vertex="1">
-          <mxGeometry height="40" width="70" x="1075.82" y="2137.5" as="geometry" />
+          <mxGeometry height="40" width="70" x="662.5699999999999" y="2060" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;" value="KCLASS" vertex="1">
           <mxGeometry height="230" width="320" x="705.1800000000001" y="2490" as="geometry" />
@@ -158,13 +155,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="JVM规范手册定义了" vertex="1">
-          <mxGeometry height="30" width="100" x="1185.46" y="2071" as="geometry" />
+          <mxGeometry height="30" width="100" x="772.21" y="1993.5" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="class文件格式" vertex="1">
-          <mxGeometry height="31" width="75.02" x="1384.98" y="2031.5" as="geometry" />
+          <mxGeometry height="31" width="75.02" x="971.73" y="1954" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="对于一个class文件如何loading, linking, initializing" vertex="1">
-          <mxGeometry height="30" width="220" x="1395.46" y="2090" as="geometry" />
+          <mxGeometry height="30" width="220" x="982.21" y="2012.5" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-14" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-8">
           <mxGeometry relative="1" as="geometry" />
