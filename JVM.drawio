@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="2676" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3218" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,13 +107,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="JVM启动流程" vertex="1">
-          <mxGeometry height="40" width="80" x="147.76" y="2009" as="geometry" />
+          <mxGeometry height="40" width="80" x="29.999999999999986" y="1914" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="执行引擎" vertex="1">
-          <mxGeometry height="40" width="70" x="297.76" y="1969" as="geometry" />
+          <mxGeometry height="40" width="70" x="180" y="1874" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="GC" vertex="1">
-          <mxGeometry height="40" width="70" x="297.76" y="2039" as="geometry" />
+          <mxGeometry height="40" width="70" x="180" y="1944" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-42" edge="1" parent="1" source="ld9Qwx5qpbUsMiMYAhv9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fontSize=10;" target="ld9Qwx5qpbUsMiMYAhv9-41" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -122,10 +122,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="JVM" vertex="1">
-          <mxGeometry height="40" width="70" x="7.759999999999998" y="1969" as="geometry" />
+          <mxGeometry height="40" width="70" x="-110" y="1874" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="JVM整体架构" vertex="1">
-          <mxGeometry height="40" width="80" x="147.76" y="1929" as="geometry" />
+          <mxGeometry height="40" width="80" x="29.999999999999986" y="1834" as="geometry" />
         </mxCell>
         <mxCell id="ld9Qwx5qpbUsMiMYAhv9-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF3333;" value="规范定义了什么就是什么, 与底层的OS和机器架构无关, 比如java的long, 不论底层是32位机还是64位机, 都是8个byte" vertex="1">
           <mxGeometry height="50" width="410" x="1411.82" y="1870" as="geometry" />
@@ -149,7 +149,7 @@
           <mxGeometry height="40" width="70" x="925.1800000000001" y="2550" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="sa-jdi.jar" vertex="1">
-          <mxGeometry height="30" width="60" x="527.88" y="1890" as="geometry" />
+          <mxGeometry height="30" width="60" x="313.8" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-4" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="ZQSZpk1MqrzrfTvxaXEu-2">
           <mxGeometry relative="1" as="geometry" />
@@ -472,13 +472,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="C++" vertex="1">
-          <mxGeometry height="35" width="70" x="7.759999999999998" y="2160" as="geometry" />
+          <mxGeometry height="35" width="70" x="-110" y="2065" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="malloc" vertex="1">
-          <mxGeometry height="35" width="70" x="127.50999999999999" y="2120" as="geometry" />
+          <mxGeometry height="35" width="70" x="9.749999999999986" y="2025" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="构造函数" vertex="1">
-          <mxGeometry height="35" width="70" x="127.50999999999999" y="2180" as="geometry" />
+          <mxGeometry height="35" width="70" x="9.749999999999986" y="2085" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-22" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="65GQX2ZP_li7XujquGb2-14">
           <mxGeometry relative="1" as="geometry" />
@@ -487,15 +487,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java" vertex="1">
-          <mxGeometry height="35" width="70" x="9.759999999999998" y="2310" as="geometry" />
+          <mxGeometry height="35" width="70" x="-108" y="2215" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-26" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="162.51" y="2390" as="targetPoint" />
+            <mxPoint x="44.749999999999986" y="2295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="堆内存" vertex="1">
-          <mxGeometry height="35" width="70" x="127.50999999999999" y="2265" as="geometry" />
+          <mxGeometry height="35" width="70" x="9.749999999999986" y="2170" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-24" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="65GQX2ZP_li7XujquGb2-16">
           <mxGeometry relative="1" as="geometry" />
@@ -504,22 +504,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="构造函数" vertex="1">
-          <mxGeometry height="35" width="70" x="128.51" y="2400" as="geometry" />
+          <mxGeometry height="35" width="70" x="10.749999999999986" y="2305" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="类构造器" vertex="1">
-          <mxGeometry height="35" width="70" x="240.26" y="2380" as="geometry" />
+          <mxGeometry height="35" width="70" x="122.49999999999999" y="2285" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="对象构造器" vertex="1">
-          <mxGeometry height="35" width="70" x="240.26" y="2435" as="geometry" />
+          <mxGeometry height="35" width="70" x="122.49999999999999" y="2340" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="static成员变量和代码块 &amp;lt;clinit&amp;gt;" vertex="1">
-          <mxGeometry height="30" width="171.38" x="311.13" y="2385" as="geometry" />
+          <mxGeometry height="30" width="171.38" x="193.37" y="2290" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="把分配的类的内容清零&lt;br&gt;并赋Java的默认值" vertex="1">
-          <mxGeometry height="30" width="126" x="165.26" y="2320" as="geometry" />
+          <mxGeometry height="30" width="126" x="47.499999999999986" y="2225" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="普通代码块和构造器 &amp;lt;init&amp;gt;" vertex="1">
-          <mxGeometry height="30" width="171.38" x="317.51" y="2437.5" as="geometry" />
+          <mxGeometry height="30" width="171.38" x="199.75" y="2342.5" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="LauncherHelper" vertex="1">
           <mxGeometry height="28.5" width="108" x="1507.1799999999998" y="3473.72" as="geometry" />
