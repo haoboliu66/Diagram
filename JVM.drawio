@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="2568" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1581,8 +1581,8 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="GetFieldID是怎么做到的, this是对象的首地址, 那么offset去哪里获取?" vertex="1">
           <mxGeometry height="50" width="153" x="-128.61" y="5483" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="猜测大概率是对象的元数据信息中" vertex="1">
-          <mxGeometry height="50" width="153" x="-124.05000000000001" y="5535.93" as="geometry" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="猜测大概率是对象的元数据信息中 -&amp;gt; InstanceKlass" vertex="1">
+          <mxGeometry height="34.07" width="153" x="-124.05" y="5535.93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
