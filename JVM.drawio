@@ -901,10 +901,10 @@
           <mxGeometry height="20" width="73.59" x="849.82" y="5199" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="为了清理内存碎片从而分配足够空间的连续内存, 需要进行内存整理, 即移动现存对象的位置; 弊端: 受对象大小和数量影响" vertex="1">
-          <mxGeometry height="60" width="214.67" x="-21.050000000000068" y="5730" as="geometry" />
+          <mxGeometry height="60" width="214.67" x="430.88999999999993" y="5860" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="新生代存活的对象什么时候移动到老年代?&amp;nbsp; - 引入GC次数(对象年龄), 到达一定阈值, 进入老年代" vertex="1">
-          <mxGeometry height="50.5" width="214.67" x="285.86" y="5739.5" as="geometry" />
+          <mxGeometry height="50.5" width="214.67" x="737.8" y="5869.5" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-6" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bh_f7YCbZWuHbUZkmcxa-5" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1107,37 +1107,37 @@
           <mxGeometry height="49" width="207.93" x="1316.7099999999998" y="5434" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="serial GC" vertex="1">
-          <mxGeometry height="30" width="104.38" x="-16.18" y="5830" as="geometry" />
+          <mxGeometry height="30" width="104.38" x="435.76" y="5960" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="parallel GC" vertex="1">
-          <mxGeometry height="20" width="120" x="-31.580000000000005" y="5900" as="geometry" />
+          <mxGeometry height="20" width="120" x="420.36" y="6030" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="简单高效 标记整理" vertex="1">
-          <mxGeometry height="30" width="104.38" x="113.82" y="5830" as="geometry" />
+          <mxGeometry height="30" width="104.38" x="565.76" y="5960" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="简单高效 标记整理, 对CPU核心数敏感" vertex="1">
-          <mxGeometry height="30" width="234.06" x="79.76" y="5890" as="geometry" />
+          <mxGeometry height="30" width="234.06" x="531.7" y="6020" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="整理时 STW时间较长, 且与堆内存大小和存活对象大小有关; 因为需要大量复制对象, 修改饮用" vertex="1">
-          <mxGeometry height="30" width="234.06" x="353.82" y="5890" as="geometry" />
+          <mxGeometry height="30" width="234.06" x="805.76" y="6020" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="分阶段 + 去掉整理, 标记清除" vertex="1">
-          <mxGeometry height="20" width="153.15" x="-177.14000000000001" y="5960" as="geometry" />
+          <mxGeometry height="20" width="153.15" x="274.79999999999995" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="CMS" vertex="1">
-          <mxGeometry height="20" width="87.81" x="-16.18" y="5960" as="geometry" />
+          <mxGeometry height="20" width="87.81" x="435.76" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="尽可能让GC线程与业务线程并发执行" vertex="1">
-          <mxGeometry height="30" width="184.08" x="101.78" y="5960" as="geometry" />
+          <mxGeometry height="30" width="184.08" x="553.72" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="与CPU数量和CMS线程数量强相关" vertex="1">
-          <mxGeometry height="30" width="184.08" x="351.78" y="5960" as="geometry" />
+          <mxGeometry height="30" width="184.08" x="803.72" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="分阶段 + 重新引入整理, 但分区域, 减少时间" vertex="1">
-          <mxGeometry height="30" width="222.04" x="95.47" y="6020" as="geometry" />
+          <mxGeometry height="30" width="222.04" x="547.41" y="6150" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="G1" vertex="1">
-          <mxGeometry height="20" width="87.81" x="-16.18" y="6030" as="geometry" />
+          <mxGeometry height="20" width="87.81" x="435.76" y="6160" as="geometry" />
         </mxCell>
         <mxCell id="-AFqSvW5HeClOfHXBUgt-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="GetLauncherHelperClass" vertex="1">
           <mxGeometry height="30" width="150" x="1072.21" y="3647.33" as="geometry" />
