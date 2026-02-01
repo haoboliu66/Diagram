@@ -808,28 +808,28 @@
           <mxGeometry height="18" width="130" x="1360.1599999999999" y="4983" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-45" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="freelist内存管理" vertex="1">
-          <mxGeometry height="18" width="88.04" x="88.63999999999999" y="5350" as="geometry" />
+          <mxGeometry height="18" width="88.04" x="369.44" y="5522.93" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-49" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ba8ecJ08sKL8nfvFcPny-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="ReserverSpace类" vertex="1">
-          <mxGeometry height="30" width="90.44" x="32.14000000000011" y="5407" as="geometry" />
+          <mxGeometry height="30" width="90.44" x="312.9400000000001" y="5579.93" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-53" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ba8ecJ08sKL8nfvFcPny-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="描述了一段连续地址空间" vertex="1">
-          <mxGeometry height="18" width="123" x="130.14" y="5413" as="geometry" />
+          <mxGeometry height="18" width="123" x="410.93999999999994" y="5585.93" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="VirtualSpace类" vertex="1">
-          <mxGeometry height="30" width="76.72" x="-31.580000000000034" y="5477" as="geometry" />
+          <mxGeometry height="30" width="76.72" x="249.21999999999997" y="5649.93" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="ReserverSpace的一个chunk" vertex="1">
-          <mxGeometry height="18" width="145" x="56.42999999999996" y="5483" as="geometry" />
+          <mxGeometry height="18" width="145" x="337.22999999999996" y="5655.93" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-52" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="mmap" vertex="1">
-          <mxGeometry height="18" width="36.2" x="313.8" y="5413" as="geometry" />
+          <mxGeometry height="18" width="36.2" x="594.6" y="5585.93" as="geometry" />
         </mxCell>
         <mxCell id="usRdK2nxqx9m8HePPgZj-6" edge="1" parent="1" source="Tm4NwiCWIj8hjFslevJF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="usRdK2nxqx9m8HePPgZj-2">
           <mxGeometry relative="1" as="geometry" />
@@ -901,10 +901,10 @@
           <mxGeometry height="20" width="73.59" x="849.82" y="5199" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="为了清理内存碎片从而分配足够空间的连续内存, 需要进行内存整理, 即移动现存对象的位置; 弊端: 受对象大小和数量影响" vertex="1">
-          <mxGeometry height="60" width="214.67" x="-101.49000000000007" y="5620" as="geometry" />
+          <mxGeometry height="60" width="214.67" x="-21.050000000000068" y="5730" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="新生代存活的对象什么时候移动到老年代?&amp;nbsp; - 引入GC次数(对象年龄), 到达一定阈值, 进入老年代" vertex="1">
-          <mxGeometry height="60" width="214.67" x="211.50999999999993" y="5630" as="geometry" />
+          <mxGeometry height="50.5" width="214.67" x="285.86" y="5739.5" as="geometry" />
         </mxCell>
         <mxCell id="Bh_f7YCbZWuHbUZkmcxa-6" edge="1" parent="1" source="Bh_f7YCbZWuHbUZkmcxa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Bh_f7YCbZWuHbUZkmcxa-5" value="">
           <mxGeometry relative="1" as="geometry" />
