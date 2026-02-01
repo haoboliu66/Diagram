@@ -1107,10 +1107,10 @@
           <mxGeometry height="49" width="207.93" x="1316.7099999999998" y="5434" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="serial GC" vertex="1">
-          <mxGeometry height="30" width="104.38" x="435.76" y="5960" as="geometry" />
+          <mxGeometry height="20" width="64.24" x="447.33" y="5965" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="parallel GC" vertex="1">
-          <mxGeometry height="20" width="120" x="420.36" y="6030" as="geometry" />
+          <mxGeometry height="20" width="69.64" x="447.33000000000004" y="6025" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="简单高效 标记整理" vertex="1">
           <mxGeometry height="30" width="104.38" x="565.76" y="5960" as="geometry" />
@@ -1125,7 +1125,7 @@
           <mxGeometry height="20" width="153.15" x="274.79999999999995" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="CMS" vertex="1">
-          <mxGeometry height="20" width="87.81" x="435.76" y="6090" as="geometry" />
+          <mxGeometry height="20" width="44.24" x="461.68" y="6090" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="尽可能让GC线程与业务线程并发执行" vertex="1">
           <mxGeometry height="30" width="184.08" x="553.72" y="6090" as="geometry" />
@@ -1137,7 +1137,7 @@
           <mxGeometry height="30" width="222.04" x="547.41" y="6150" as="geometry" />
         </mxCell>
         <mxCell id="Eor-d0XokNbYYvg7DIs7-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="G1" vertex="1">
-          <mxGeometry height="20" width="87.81" x="435.76" y="6160" as="geometry" />
+          <mxGeometry height="20" width="34.24" x="469.98" y="6155" as="geometry" />
         </mxCell>
         <mxCell id="-AFqSvW5HeClOfHXBUgt-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="GetLauncherHelperClass" vertex="1">
           <mxGeometry height="30" width="150" x="1072.21" y="3647.33" as="geometry" />
