@@ -1754,6 +1754,15 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="linking主要功能就是给symbolic reference解析出Direct References, 就是把这些符号替换成真实的JVM中对象的地址" vertex="1">
           <mxGeometry height="30" width="340" x="-906.5100000000001" y="6400" as="geometry" />
         </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-78" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-76" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value=".class文件中的符号" vertex="1">
+          <mxGeometry height="30" width="101.26" x="-606.4499999999999" y="6754.47" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="JVM中真实的entity表示" vertex="1">
+          <mxGeometry height="30" width="122.42" x="-480.09000000000003" y="6754.47" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
