@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="2469" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2469" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1674,8 +1674,8 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一路向上查找, 发现是link_method设置了这个方法入口地址" vertex="1">
           <mxGeometry height="30" width="192.2" x="-378.12" y="6070" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="所以一切都来自类的linking, linking就是给symbol解析出真实的地址" vertex="1">
-          <mxGeometry height="30" width="192.2" x="-421.64" y="6140" as="geometry" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="所以一切都来自类的linking, linking就是给symbol解析出真实的地址, 就是给类中的field和method解析" vertex="1">
+          <mxGeometry height="50" width="211.64" x="-420.82" y="6140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
