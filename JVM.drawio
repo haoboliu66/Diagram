@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="530" width="800" x="-1070" y="6460" as="geometry" />
+        </mxCell>
         <mxCell id="iLsoZmOIOqpF-xNCTIE3-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;" value="" vertex="1">
           <mxGeometry height="325" width="609" x="-1111.3" y="3988.44" as="geometry" />
         </mxCell>
@@ -1674,8 +1677,13 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一路向上查找, 发现是link_method设置了这个方法入口地址" vertex="1">
           <mxGeometry height="30" width="192.2" x="-327.31" y="6070" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-73" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-71">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-73" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-50" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;dashed=1;" target="Ogj8mwZ5Ayx5R66H3SxN-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-400" y="6149" />
+              <mxPoint x="-400" y="6345" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-50" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="所以一切都来自class的linking过程" vertex="1">
           <mxGeometry height="22.77" width="187.03" x="-324.79999999999995" y="6137.23" as="geometry" />
@@ -1737,11 +1745,14 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="堆内存中的String对象地址" vertex="1">
           <mxGeometry height="20" width="141.02" x="-475.8999999999999" y="6922.77" as="geometry" />
         </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-75" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-71" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=none;fontColor=default;" value="Class Linking" vertex="1">
           <mxGeometry height="50" width="108.91" x="-579.73" y="6320" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="linking就是给symbolic reference解析出Direct References, 就是把这些符号替换成真实的JVM中对象的地址" vertex="1">
-          <mxGeometry height="30" width="340" x="-802.5400000000001" y="6270" as="geometry" />
+          <mxGeometry height="30" width="340" x="-827.0000000000001" y="6280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
