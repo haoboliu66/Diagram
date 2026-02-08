@@ -1794,8 +1794,11 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="这里能看出这个entry是查表得来的, 也就意味着, 每个method_kind都有一个固定的entry" vertex="1">
           <mxGeometry height="32" width="234.63" x="707.87" y="6463.45" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-91" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Interpreter" vertex="1">
-          <mxGeometry height="18" width="70.75" x="1399.25" y="5206" as="geometry" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-93" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-92" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" value="Interpreter" vertex="1">
+          <mxGeometry height="33" width="91" x="1411.21" y="5244" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
