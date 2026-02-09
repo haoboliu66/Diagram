@@ -634,6 +634,9 @@
         <mxCell id="GDnOz3t81LmDPMGGNwp2-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="segment是execution view, 每个segment是一个或多个section的组合" vertex="1">
           <mxGeometry height="48.61" width="151.56" x="3549.5" y="-1200" as="geometry" />
         </mxCell>
+        <mxCell id="TVMfRcY_klQ5Y0JguivG-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#FF0000;" value="一个动态链接的C程序如何知道它依赖哪些.so?&amp;nbsp;&lt;br&gt;在elf的.dynamic中存储的就是依赖的.so, 可以通过readelf -s 或者 ldd来读取依赖的.so" vertex="1">
+          <mxGeometry height="57.71" width="231" x="3759" y="-1753" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
