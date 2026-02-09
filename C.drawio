@@ -348,7 +348,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-261" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="Glibc函数库(C-Runtime)" vertex="1">
-          <mxGeometry height="37.5" width="169" x="2677.88" y="-1081.7499999999998" as="geometry" />
+          <mxGeometry height="37.5" width="169" x="2662.08" y="-896.7499999999998" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-262" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="去除elf文件中的.symtab&lt;br style=&quot;font-size: 11px;&quot;&gt;.symtab就是目标文件中数据, 代码的索引" vertex="1">
           <mxGeometry height="40" width="240" x="2986.06" y="-1269.95" as="geometry" />
@@ -366,10 +366,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-267" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="Debug原理" vertex="1">
-          <mxGeometry height="32.5" width="79.5" x="2699" y="-1203.19" as="geometry" />
+          <mxGeometry height="32.5" width="79.5" x="2683.2" y="-1018.19" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-268" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="把要执行的指令地址改为Int 3" vertex="1">
-          <mxGeometry height="36.12" width="169" x="2804.5" y="-1205" as="geometry" />
+          <mxGeometry height="36.12" width="169" x="2788.7" y="-1020" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-269" edge="1" parent="1" source="onG2acxlvetChBkqUA75-270" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" target="onG2acxlvetChBkqUA75-262" value="">
           <mxGeometry relative="1" as="geometry">
@@ -386,7 +386,7 @@
           <mxGeometry height="41.5" width="330" x="2949.5" y="-2107.25" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-273" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="malloc" vertex="1">
-          <mxGeometry height="28.12" width="109.12" x="3037.57" y="-1164.7099999999998" as="geometry" />
+          <mxGeometry height="28.12" width="109.12" x="3021.77" y="-979.7099999999998" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-274" edge="1" parent="1" source="onG2acxlvetChBkqUA75-277" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF8000;fontSize=11;" target="onG2acxlvetChBkqUA75-273">
           <mxGeometry relative="1" as="geometry" />
@@ -398,13 +398,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-277" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="内存管理" vertex="1">
-          <mxGeometry height="33.12" width="105.37" x="2890.38" y="-1130.4099999999999" as="geometry" />
+          <mxGeometry height="33.12" width="105.37" x="2874.58" y="-945.4099999999999" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-278" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="free" vertex="1">
-          <mxGeometry height="24.87" width="109.12" x="3037.57" y="-1126.29" as="geometry" />
+          <mxGeometry height="24.87" width="109.12" x="3021.77" y="-941.29" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-279" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="1. mmap分配 (适合大内存)&lt;br style=&quot;font-size: 11px;&quot;&gt;2. 使用edata指针 (适合小内存)" vertex="1">
-          <mxGeometry height="36.71" width="185.25" x="3159.63" y="-1168.9999999999998" as="geometry" />
+          <mxGeometry height="36.71" width="185.25" x="3143.83" y="-983.9999999999998" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-280" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="library interpositioning" vertex="1">
           <mxGeometry height="30" width="105.5" x="3330.5" y="-1716" as="geometry" />
@@ -495,25 +495,25 @@
           <mxGeometry height="24.44" width="201" x="3621" y="-2603.44" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-307" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="malloc, calloc, realloc" vertex="1">
-          <mxGeometry height="27.33" width="138.74" x="3041.1400000000003" y="-1090.04" as="geometry" />
+          <mxGeometry height="27.33" width="138.74" x="3025.34" y="-905.04" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-2" edge="1" parent="1" source="qvjmshA6DQtf6-69wwgu-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF8000;fontSize=11;" target="qvjmshA6DQtf6-69wwgu-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="malloc.h 函数原型" vertex="1">
-          <mxGeometry height="33.12" width="132.12" x="3030.4100000000008" y="-750" as="geometry" />
+          <mxGeometry height="33.12" width="132.12" x="3655.1900000000005" y="-760" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="内存管理算法1" vertex="1">
-          <mxGeometry height="33.12" width="132.12" x="2869.2200000000003" y="-572.8199999999999" as="geometry" />
+          <mxGeometry height="33.12" width="132.12" x="3494" y="-582.8199999999999" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="内存管理算法2" vertex="1">
-          <mxGeometry height="33.12" width="132.12" x="3030.4100000000008" y="-572.8199999999999" as="geometry" />
+          <mxGeometry height="33.12" width="132.12" x="3655.1900000000005" y="-582.8199999999999" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontFamily=Verdana;align=center;fontSize=11;" value="内存管理算法3" vertex="1">
-          <mxGeometry height="33.12" width="132.12" x="3196.960000000001" y="-572.8199999999999" as="geometry" />
+          <mxGeometry height="33.12" width="132.12" x="3821.7400000000007" y="-582.8199999999999" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value="LD_PRELOAD" vertex="1">
-          <mxGeometry height="27.96" width="153.62" x="3019.6600000000008" y="-620.78" as="geometry" />
+          <mxGeometry height="27.96" width="153.62" x="3644.4400000000005" y="-630.78" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-8" edge="1" parent="1" source="qvjmshA6DQtf6-69wwgu-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF8000;fontSize=11;" target="qvjmshA6DQtf6-69wwgu-5">
           <mxGeometry relative="1" as="geometry" />
@@ -525,13 +525,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF6666;fontFamily=Verdana;align=center;fontSize=11;" value="动态链接器" vertex="1">
-          <mxGeometry height="28.12" width="132.12" x="3030.4100000000008" y="-685.94" as="geometry" />
+          <mxGeometry height="28.12" width="132.12" x="3655.1900000000005" y="-695.94" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" value=".dynsym &lt;br style=&quot;font-size: 11px;&quot;&gt;动态链接符号 malloc" vertex="1">
-          <mxGeometry height="40" width="150.5" x="3018.5300000000007" y="-497.81999999999994" as="geometry" />
+          <mxGeometry height="40" width="150.5" x="3643.3100000000004" y="-507.81999999999994" as="geometry" />
         </mxCell>
         <mxCell id="qvjmshA6DQtf6-69wwgu-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=11;" value="Symbol table &#39;.dynsym&#39; contains 8 entries:&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;Num:&amp;nbsp; &amp;nbsp; Value&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Size Type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Bind&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Vis&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Ndx&amp;nbsp; &amp;nbsp;Name&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;0: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; LOCAL&amp;nbsp; DEFAULT&amp;nbsp; UND&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;1: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_deregisterTMCloneTab&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;2: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND puts@GLIBC_2.2.5 (2)&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;3: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND __libc_start_main@GLIBC_2.2.5 (2)&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;4: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __gmon_start__&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;5: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; GLOBAL DEFAULT&amp;nbsp; UND malloc@GLIBC_2.2.5 (2)&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;6: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 NOTYPE&amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND _ITM_registerTMCloneTable&lt;br style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;7: 0000000000000000&amp;nbsp; &amp;nbsp; &amp;nbsp;0 FUNC&amp;nbsp; &amp;nbsp; WEAK&amp;nbsp; &amp;nbsp;DEFAULT&amp;nbsp; UND __cxa_finalize@GLIBC_2.2.5 (2)" vertex="1">
-          <mxGeometry height="172.82" width="566.72" x="3192.2799999999997" y="-522.8199999999999" as="geometry" />
+          <mxGeometry height="172.82" width="566.72" x="3817.0599999999995" y="-532.8199999999999" as="geometry" />
         </mxCell>
         <UserObject label="e.g. redisObject" link="https://app.diagrams.net/?mode=github#Hhaoboliu66%2FDiagram%2Fmain%2FRedis.drawio" id="eivDgg5kd7hcaZVspzo9-1">
           <mxCell parent="1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1" vertex="1">
