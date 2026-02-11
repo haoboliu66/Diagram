@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="550" width="1124.41" x="1855.59" y="2270" as="geometry" />
+        </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="" vertex="1">
           <mxGeometry height="311" width="745.57" x="1261.36" y="6530" as="geometry" />
         </mxCell>
@@ -436,28 +439,28 @@
           <mxGeometry height="30" width="132.75" x="856.8000000000001" y="2980" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="Java库函数" vertex="1">
-          <mxGeometry height="35" width="70" x="2443.57" y="2380" as="geometry" />
+          <mxGeometry height="35" width="70" x="1892.1000000000001" y="2367.5" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-144" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="PlatformClassloader" vertex="1">
-          <mxGeometry height="35" width="132.09" x="2565.79" y="2452.5" as="geometry" />
+          <mxGeometry height="35" width="132.09" x="2014.32" y="2440" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-9" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="65GQX2ZP_li7XujquGb2-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-139" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="为了保证安全: 引入层级结构, 所有的classloader永远满足约束: classloader的父类永远优先于当前的classloader进行类的加载" vertex="1">
-          <mxGeometry height="80" width="193" x="2526.4900000000002" y="2300" as="geometry" />
+          <mxGeometry height="80" width="193" x="1975.0200000000002" y="2287.5" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-140" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="SystemDictionary" vertex="1">
-          <mxGeometry height="30" width="99.75" x="2737.2999999999997" y="2452.5" as="geometry" />
+          <mxGeometry height="30" width="99.75" x="2185.83" y="2440" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-143" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-142" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="BootstrapClassloader" vertex="1">
-          <mxGeometry height="35" width="124.18" x="2569.7400000000002" y="2380" as="geometry" />
+          <mxGeometry height="35" width="124.18" x="2018.2700000000002" y="2367.5" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni.cpp" vertex="1">
           <mxGeometry height="30" width="79" x="1039.18" y="2980" as="geometry" />
@@ -466,7 +469,7 @@
           <mxGeometry height="30" width="76" x="1228.1799999999998" y="2980" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Hotspot中并没有BootLoader这个实体, 只是一个概念; 是使用JVM自身的C++代码直接加载" vertex="1">
-          <mxGeometry height="47.47" width="193" x="2778.8100000000004" y="2316.26" as="geometry" />
+          <mxGeometry height="47.47" width="193" x="2227.34" y="2303.76" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-20" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="65GQX2ZP_li7XujquGb2-11">
           <mxGeometry relative="1" as="geometry" />
@@ -560,31 +563,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="URLClassloader" vertex="1">
-          <mxGeometry height="35" width="90" x="2107.34" y="2672.5" as="geometry" />
+          <mxGeometry height="35" width="90" x="2208.9500000000003" y="2688.62" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="定义了findClass, 即给定一组url路径, 根据传入的class name, 返回一个Class&amp;lt;?&amp;gt;" vertex="1">
-          <mxGeometry height="51.87" width="224.75" x="2231.7700000000004" y="2663.13" as="geometry" />
+          <mxGeometry height="51.87" width="224.75" x="2333.3800000000006" y="2679.25" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="ExtClassLoader" vertex="1">
-          <mxGeometry height="35" width="90" x="1938.09" y="2620" as="geometry" />
+          <mxGeometry height="35" width="90" x="2039.7" y="2636.12" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--7" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pbobgGz6cPiNDc_OvU--5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="AppClassLoader" vertex="1">
-          <mxGeometry height="35" width="90" x="1937.34" y="2712.5" as="geometry" />
+          <mxGeometry height="35" width="90" x="2038.95" y="2728.62" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="loadClass" vertex="1">
-          <mxGeometry height="30" width="81.75" x="1855.59" y="2620" as="geometry" />
+          <mxGeometry height="30" width="81.75" x="1957.2" y="2636.12" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="loadClass" vertex="1">
-          <mxGeometry height="30" width="81.75" x="1855.59" y="2715" as="geometry" />
+          <mxGeometry height="30" width="81.75" x="1957.2" y="2731.12" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="loadClass执行后, 这个类就被JVM加入到了SystemDictionary" vertex="1">
-          <mxGeometry height="30" width="220.25" x="2002.59" y="2572.5" as="geometry" />
+          <mxGeometry height="30" width="220.25" x="1974.7400000000002" y="2565" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="method signature&amp;nbsp; =&amp;gt; [Ljava/lang/String;V" vertex="1">
-          <mxGeometry height="40" width="260.25" x="2067.09" y="2736.88" as="geometry" />
+          <mxGeometry height="40" width="260.25" x="2168.7000000000003" y="2753" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Hotspot" vertex="1">
           <mxGeometry height="80" width="80" x="1335.5699999999997" y="3447.97" as="geometry" />
@@ -1817,14 +1820,14 @@
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-104" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-101" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2631.834999999999" y="2490" as="targetPoint" />
+            <mxPoint x="2080.364999999999" y="2477.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="SystemClassloader" vertex="1">
-          <mxGeometry height="35" width="132.09" x="2565.79" y="2527.5" as="geometry" />
+          <mxGeometry height="35" width="132.09" x="2014.32" y="2515" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-102" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=none;fillColor=#fff2cc;fontStyle=1" value="" vertex="1">
-          <mxGeometry height="177" width="20" x="2708.92" y="2380" as="geometry" />
+          <mxGeometry height="177" width="20" x="2157.45" y="2367.5" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="Classloader" vertex="1">
           <mxGeometry height="30" width="68.59" x="1731.41" y="2400" as="geometry" />
