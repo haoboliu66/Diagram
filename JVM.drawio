@@ -534,27 +534,27 @@
           <mxGeometry height="30" width="171.38" x="131.2" y="2182.5" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="LauncherHelper" vertex="1">
-          <mxGeometry height="28.5" width="108" x="1496.7899999999997" y="3502.1899999999996" as="geometry" />
+          <mxGeometry height="28.5" width="108" x="1488.3999999999996" y="3500.9599999999996" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-35" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="65GQX2ZP_li7XujquGb2-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1395.1799999999996" y="3495.4399999999996" as="sourcePoint" />
+            <mxPoint x="1386.7899999999995" y="3494.2099999999996" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="bootstrap loader" vertex="1">
-          <mxGeometry height="30" width="100" x="1398.1799999999996" y="3475.4399999999996" as="geometry" />
+          <mxGeometry height="30" width="100" x="1389.7899999999995" y="3474.2099999999996" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-42" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-41" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="65GQX2ZP_li7XujquGb2-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value=".class" vertex="1">
-          <mxGeometry height="21" width="55.61" x="1682.2899999999997" y="3516.3799999999997" as="geometry" />
+          <mxGeometry height="21" width="55.61" x="1673.8999999999996" y="3515.1499999999996" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;LauncherHelper java类提供了加载字节码和其他功能函数, bootloader打破了需要第一个加载器的鸡生蛋问题, 也保证了安全机制&lt;/span&gt;" vertex="1">
-          <mxGeometry height="32" width="319" x="1457.4299999999996" y="3443.4399999999996" as="geometry" />
+          <mxGeometry height="32" width="319" x="1449.0399999999995" y="3442.2099999999996" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="JNIEnv **env" vertex="1">
-          <mxGeometry height="30" width="91" x="1304.1799999999996" y="3445.4399999999996" as="geometry" />
+          <mxGeometry height="30" width="91" x="1295.7899999999995" y="3444.2099999999996" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-50" edge="1" parent="1" source="65GQX2ZP_li7XujquGb2-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="65GQX2ZP_li7XujquGb2-1">
           <mxGeometry relative="1" as="geometry" />
@@ -596,7 +596,7 @@
           <mxGeometry height="40" width="260.25" x="2168.7000000000003" y="2753" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--12" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Hotspot" vertex="1">
-          <mxGeometry height="80" width="80" x="1325.1799999999996" y="3476.4399999999996" as="geometry" />
+          <mxGeometry height="80" width="80" x="1316.7899999999995" y="3475.2099999999996" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--17" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="4pbobgGz6cPiNDc_OvU--14">
           <mxGeometry relative="1" as="geometry" />
