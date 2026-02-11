@@ -1327,7 +1327,7 @@
           <mxGeometry height="47.5" width="216.89" x="-242.78000000000003" y="3514.94" as="geometry" />
         </mxCell>
         <mxCell id="kipVwJ1cJkasnccq2_MD-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="一个.so中的function想要被外部调用, 那么一定要把这个符号暴露出去, i.e. 体现在.dynsym section&lt;br&gt;&lt;br&gt;__attribute__((visibility(&quot;hidden&quot;))) 可以让linker不把这个符号导出到最终的动态链接库中&amp;nbsp;" vertex="1">
-          <mxGeometry height="78.65" width="303.38" x="-213.96000000000004" y="3312.8599999999997" as="geometry" />
+          <mxGeometry height="78.65" width="303.38" x="-32.38000000000004" y="3299.9999999999995" as="geometry" />
         </mxCell>
         <mxCell id="fccx7uLQzCU_dFHS8VNy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="OS&lt;br&gt;native&lt;br&gt;Thread" vertex="1">
           <mxGeometry height="70" width="50" x="1450.3399999999997" y="7746" as="geometry" />
