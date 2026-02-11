@@ -626,7 +626,7 @@
           <mxGeometry height="30" width="148" x="-1253.34" y="4349.93" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="native方法所在类的c文件, 比如java类System, 对应的jvm文件就是System.c" vertex="1">
-          <mxGeometry height="50" width="143" x="-1138.8700000000001" y="4449.93" as="geometry" />
+          <mxGeometry height="50" width="143" x="-1150.3700000000001" y="4448" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="1. dlopen 打开动态链接库&lt;br&gt;2. 根据JNI规范的命名规则, 通过dlsyn找到符号函数的地址&lt;br&gt;3. 保存动态链接库的引用, 以备再调用&lt;br&gt;4. 根据地址, 调用函数" vertex="1">
           <mxGeometry height="65.03" width="282.87" x="-1253.34" y="4517.48" as="geometry" />
