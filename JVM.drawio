@@ -1855,7 +1855,7 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;fillColor=#fff2cc;" value="GC" vertex="1">
           <mxGeometry height="46" width="92" x="2900" y="5290.92" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="他们既然都指向同一个JNINativeInterface_,&amp;nbsp;为什么JNIEnv还需要每个线程独享一个" vertex="1">
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="所有的JNIEnv都指向同一个JNINativeInterface_, 那为什么JNIEnv还需要每个线程独享一个" vertex="1">
           <mxGeometry height="30" width="260" x="-1486.23" y="4283.44" as="geometry" />
         </mxCell>
       </root>
