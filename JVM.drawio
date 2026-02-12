@@ -1889,7 +1889,7 @@
           <mxGeometry height="40" width="184" x="222.25999999999996" y="6961.77" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="Mirror 就是 java.lang.Class 的一个实例, 由于是一个Java类的对象, 所以它位于java heap, 它是暴露给Java访问的元数据对象, Java访问的元数据对象并非C++底层的Klass, 但是JVM内部可以通过mirror关联到真实的元数据Klass对象; 可以把mirror对象看作是一个Klass的view, 它提供了limited元数据访问功能" vertex="1">
-          <mxGeometry height="84.25" width="292.04" x="1255.17" y="2505.75" as="geometry" />
+          <mxGeometry height="84.25" width="292.04" x="1261.17" y="2512.75" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;" value="Mirror Klass" vertex="1">
           <mxGeometry height="33" width="113.02" x="1126.98" y="2597" as="geometry" />
