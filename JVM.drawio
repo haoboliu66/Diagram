@@ -1862,16 +1862,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="JNIEnv只定义/包含了一个指针, 所有的JNIEnv都包含一个JNINativeInterface_* 指向同一套JNI函数table, 既然背后都是同一套函数, 那为什么JNIEnv还需要每个线程独享一个" vertex="1">
-          <mxGeometry height="55.5" width="260" x="-1550" y="4432.75" as="geometry" />
+          <mxGeometry height="55.5" width="260" x="-1620" y="4411.68" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;&amp;nbsp;struct JNIEnv_ {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const struct JNINativeInterface_ *functions;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; };&lt;/div&gt;" vertex="1">
           <mxGeometry height="47" width="240" x="-1370" y="4313.4400000000005" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="可以通过JNIEnv反推当前的thread信息" vertex="1">
-          <mxGeometry height="32" width="190" x="-1800" y="4401" as="geometry" />
+          <mxGeometry height="32" width="190" x="-1870" y="4379.93" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-120" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="JNI函数table可以修改/自定义, i.e.不一定所有线程都是同一套相同的函数" vertex="1">
-          <mxGeometry height="32" width="190" x="-1800" y="4471" as="geometry" />
+          <mxGeometry height="32" width="190" x="-1870" y="4449.93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
