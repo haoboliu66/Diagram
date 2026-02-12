@@ -640,8 +640,8 @@
         <mxCell id="CbXacDDCwCM1NCgQEbhs-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Java thread" vertex="1">
           <mxGeometry height="35" width="72" x="1393.2900000000002" y="3991.17" as="geometry" />
         </mxCell>
-        <mxCell id="CbXacDDCwCM1NCgQEbhs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="全部停下, 进入STW状态" vertex="1">
-          <mxGeometry height="25" width="289" x="1179.29" y="4033.67" as="geometry" />
+        <mxCell id="CbXacDDCwCM1NCgQEbhs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="全部停下, 进入STW状态" vertex="1">
+          <mxGeometry height="25" width="289" x="1179.1399999999999" y="4026.17" as="geometry" />
         </mxCell>
         <mxCell id="CbXacDDCwCM1NCgQEbhs-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" value="safepoint都在哪里? 通常在大循环的结尾, 方法调用和返回处(call &amp;amp; return), 异常处理等地方" vertex="1">
           <mxGeometry height="30" width="281.87" x="2558.13" y="4292.5" as="geometry" />
