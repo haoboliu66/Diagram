@@ -1873,7 +1873,7 @@
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-120" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="JNI函数table可以修改/自定义, i.e.不一定所有线程都是同一套相同的函数" vertex="1">
           <mxGeometry height="32" width="190" x="-1870" y="4449.93" as="geometry" />
         </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="并发机制的优化:&lt;br&gt;1, 大锁&lt;br&gt;2, 细粒度锁&lt;br&gt;3, for循环 + CAS, 单个原子操作保证 并发多个操作的原子性&lt;br&gt;4, TLS (Thread Local Storage)" vertex="1">
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="并发机制的优化:&lt;br&gt;1, 大锁&lt;br&gt;2, 细粒度锁&lt;br&gt;3, for循环 + CAS, 单个原子操作保证 并发多个操作的原子性&lt;br&gt;4, TLS (Thread Local Storage) 无锁化" vertex="1">
           <mxGeometry height="88.88" width="230" x="1070" y="5311.12" as="geometry" />
         </mxCell>
       </root>
