@@ -148,7 +148,7 @@
         <mxCell id="gsRuYBzsou2JwsS9meuW-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="HotSpot" vertex="1">
           <mxGeometry height="40" width="70" x="603.0999999999999" y="1947.5" as="geometry" />
         </mxCell>
-        <mxCell id="gsRuYBzsou2JwsS9meuW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;" value="KCLASS" vertex="1">
+        <mxCell id="gsRuYBzsou2JwsS9meuW-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" value="KCLASS" vertex="1">
           <mxGeometry height="200" width="320" x="705.18" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="gsRuYBzsou2JwsS9meuW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" value="ConstantPool" vertex="1">
@@ -1889,22 +1889,10 @@
           <mxGeometry height="40" width="184" x="222.25999999999996" y="6961.77" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="Mirror 就是 java.lang.Class 的一个实例, 由于是一个Java类的对象, 所以它位于java heap, 它是暴露给Java访问的元数据对象, Java访问的元数据对象并非C++底层的Klass, 但是JVM内部可以通过mirror关联到真实的元数据Klass对象; 可以把mirror对象看作是一个Klass的view, 它提供了limited元数据访问功能" vertex="1">
-          <mxGeometry height="84.25" width="292.04" x="1223.07" y="2550" as="geometry" />
-        </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-133" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-129" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-130">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="84.25" width="292.04" x="1267.1399999999999" y="2550" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;" value="Mirror Klass" vertex="1">
-          <mxGeometry height="40" width="104" x="1592.81" y="2542.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#f8cecc;" value="Klass" vertex="1">
-          <mxGeometry height="40" width="104" x="1592.2599999999998" y="2620" as="geometry" />
-        </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-132" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-131" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-129">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#fff2cc;" value="bytecode" vertex="1">
-          <mxGeometry height="40" width="104" x="1592.81" y="2460" as="geometry" />
+          <mxGeometry height="40" width="104" x="1126.9799999999998" y="2597" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
