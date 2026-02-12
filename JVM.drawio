@@ -1865,7 +1865,7 @@
           <mxGeometry height="55.5" width="260" x="-1620" y="4411.68" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="&lt;div&gt;&amp;nbsp;struct JNIEnv_ {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;const struct JNINativeInterface_ *functions;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; };&lt;/div&gt;" vertex="1">
-          <mxGeometry height="47" width="240" x="-1370" y="4313.4400000000005" as="geometry" />
+          <mxGeometry height="47" width="240" x="-1610" y="4316.000000000001" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="可以通过JNIEnv反推当前的thread信息" vertex="1">
           <mxGeometry height="32" width="190" x="-1870" y="4379.93" as="geometry" />
