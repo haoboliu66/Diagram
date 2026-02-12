@@ -709,9 +709,6 @@
         <mxCell id="N7LM669aN5bGux0-eh_w-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="code stub" vertex="1">
           <mxGeometry height="30" width="64.75" x="1620.27" y="5990" as="geometry" />
         </mxCell>
-        <mxCell id="ba8ecJ08sKL8nfvFcPny-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="每个字节码在JVM中都等同于底层一段汇编或C++代码" vertex="1">
-          <mxGeometry height="30" width="273" x="1884.4499999999998" y="6660" as="geometry" />
-        </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-4" edge="1" parent="1" source="ba8ecJ08sKL8nfvFcPny-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="ba8ecJ08sKL8nfvFcPny-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -748,8 +745,8 @@
         <mxCell id="ba8ecJ08sKL8nfvFcPny-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="slot" vertex="1">
           <mxGeometry height="30" width="34.5" x="1718.31" y="4508" as="geometry" />
         </mxCell>
-        <mxCell id="ba8ecJ08sKL8nfvFcPny-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速" vertex="1">
-          <mxGeometry height="50" width="329" x="1542.8300000000002" y="6650" as="geometry" />
+        <mxCell id="ba8ecJ08sKL8nfvFcPny-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="虽然Java/字节码与平台无关, 但是JVM是与平台耦合的;&lt;br&gt;JVM知道底层是什么平台, 所以会把bytecode转成平台对应的汇编, 直接操作寄存器, 完成加速; i.e. 每个字节码在JVM中都等同于底层一段汇编或C++代码" vertex="1">
+          <mxGeometry height="50" width="329" x="1540.8700000000001" y="6650" as="geometry" />
         </mxCell>
         <mxCell id="ba8ecJ08sKL8nfvFcPny-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" value="template interpreter" vertex="1">
           <mxGeometry height="30" width="110.25" x="1415.5700000000002" y="6660" as="geometry" />
