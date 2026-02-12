@@ -182,52 +182,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&amp;lt;clinit&amp;gt;" vertex="1">
-          <mxGeometry height="30" width="55.5" x="831.6800000000001" y="2160" as="geometry" />
+          <mxGeometry height="30" width="55.5" x="936.73" y="2160" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value=".init" vertex="1">
-          <mxGeometry height="30" width="40" x="937.1800000000001" y="2160" as="geometry" />
+          <mxGeometry height="30" width="40" x="1042.23" y="2160" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-13" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="static代码块 + static成员变量" vertex="1">
-          <mxGeometry height="30" width="140" x="647.1800000000001" y="2160" as="geometry" />
+          <mxGeometry height="30" width="140" x="752.23" y="2160" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-17" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="ConstantPool" vertex="1">
-          <mxGeometry height="30" width="78" x="657.1800000000001" y="2200" as="geometry" />
+          <mxGeometry height="30" width="78" x="762.23" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-18" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="symbol table" vertex="1">
-          <mxGeometry height="30" width="78" x="777.1800000000001" y="2200" as="geometry" />
+          <mxGeometry height="30" width="78" x="882.23" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-31" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="ZQSZpk1MqrzrfTvxaXEu-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="dynamic symtab" vertex="1">
-          <mxGeometry height="30" width="78" x="898.1800000000001" y="2200" as="geometry" />
+          <mxGeometry height="30" width="78" x="1003.23" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="KCLASS是整个class file读入内存后的存放容器" vertex="1">
           <mxGeometry height="24.5" width="250" x="878.68" y="2338" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-27" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Method" vertex="1">
-          <mxGeometry height="30" width="60" x="657.1800000000001" y="2240" as="geometry" />
+          <mxGeometry height="30" width="60" x="762.23" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-29" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="FieldInfo" vertex="1">
-          <mxGeometry height="30" width="60" x="657.1800000000001" y="2280" as="geometry" />
+          <mxGeometry height="30" width="60" x="762.23" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-30" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="C++类, 表示Java字节码所操作的 对象符号信息" vertex="1">
-          <mxGeometry height="30" width="160" x="1007.18" y="2200" as="geometry" />
+          <mxGeometry height="30" width="160" x="1112.23" y="2200" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="C++类, 表示Java字节码所在的方法信息" vertex="1">
-          <mxGeometry height="30" width="160" x="1007.18" y="2240" as="geometry" />
+          <mxGeometry height="30" width="160" x="1112.23" y="2240" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="C++类, 表示成员变量的信息" vertex="1">
-          <mxGeometry height="20" width="160" x="1007.18" y="2285" as="geometry" />
+          <mxGeometry height="20" width="160" x="1112.23" y="2285" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ConstantPool" vertex="1">
           <mxGeometry height="40" width="70" x="867.68" y="2408" as="geometry" />
