@@ -438,7 +438,7 @@
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-130" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="CreateJavaVM" vertex="1">
           <mxGeometry height="23" width="72" x="746.1800000000001" y="3079" as="geometry" />
         </mxCell>
-        <mxCell id="65GQX2ZP_li7XujquGb2-6" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="65GQX2ZP_li7XujquGb2-1">
+        <mxCell id="65GQX2ZP_li7XujquGb2-6" edge="1" parent="1" source="ZQSZpk1MqrzrfTvxaXEu-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="65GQX2ZP_li7XujquGb2-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZQSZpk1MqrzrfTvxaXEu-131" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="&amp;nbsp;是JVM给原生C的一个handle, 通过这个handle来沟通C和JVM的数据" vertex="1">
@@ -469,10 +469,10 @@
           <mxGeometry height="35" width="124.18" x="1615.3500000000001" y="5007.5" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jni.cpp" vertex="1">
-          <mxGeometry height="30" width="79" x="1039.18" y="2980" as="geometry" />
+          <mxGeometry height="30" width="51.23" x="1070" y="3007" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="jvm.cpp" vertex="1">
-          <mxGeometry height="30" width="76" x="1228.1799999999998" y="2980" as="geometry" />
+          <mxGeometry height="30" width="48.77" x="1231.23" y="3007" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" value="Hotspot中并没有BootLoader这个实体, 只是一个概念; 是使用JVM自身的C++代码直接加载" vertex="1">
           <mxGeometry height="47.47" width="193" x="1824.42" y="4943.76" as="geometry" />
@@ -563,7 +563,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="65GQX2ZP_li7XujquGb2-48" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="hotspot两大核心文件" vertex="1">
-          <mxGeometry height="30" width="120" x="1118.1799999999998" y="2895" as="geometry" />
+          <mxGeometry height="22" width="120" x="1121.23" y="2930" as="geometry" />
         </mxCell>
         <mxCell id="4pbobgGz6cPiNDc_OvU--4" edge="1" parent="1" source="4pbobgGz6cPiNDc_OvU--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4pbobgGz6cPiNDc_OvU--2" value="">
           <mxGeometry relative="1" as="geometry" />
