@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="IPRoEMp-fuJRhj8DFN1m">
-    <mxGraphModel dx="3304" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3509" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1611,40 +1611,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Java Class Dog" vertex="1">
-          <mxGeometry height="50" width="80" x="-62.69999999999993" y="2547" as="geometry" />
+          <mxGeometry height="50" width="80" x="-388.37999999999994" y="2544.5" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="InstanceKlass (Dog)" vertex="1">
-          <mxGeometry height="60" width="111.05" x="498.79" y="2547.5" as="geometry" />
+          <mxGeometry height="60" width="111.05" x="173.11" y="2545" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-34" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-19" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="oop (Class)" vertex="1">
-          <mxGeometry height="50" width="67.17" x="207.42000000000002" y="2507.5" as="geometry" />
+          <mxGeometry height="50" width="67.17" x="-118.25999999999999" y="2505" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-26" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Dog.class" vertex="1">
-          <mxGeometry height="35" width="79.22" x="88.08000000000004" y="2514.5" as="geometry" />
+          <mxGeometry height="35" width="79.22" x="-237.59999999999997" y="2512" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-27" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="new Dog()" vertex="1">
-          <mxGeometry height="40" width="79.22" x="87.08000000000004" y="2587" as="geometry" />
+          <mxGeometry height="40" width="79.22" x="-238.59999999999997" y="2584.5" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-33" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="oop (Dog)" vertex="1">
-          <mxGeometry height="50" width="74.02" x="203.99000000000007" y="2582.5" as="geometry" />
+          <mxGeometry height="50" width="74.02" x="-121.68999999999994" y="2580" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-32" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="InstanceKlass (Class)" vertex="1">
-          <mxGeometry height="40" width="120" x="308.82" y="2512.5" as="geometry" />
+          <mxGeometry height="40" width="120" x="-16.860000000000014" y="2510" as="geometry" />
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-41" edge="1" parent="1" source="Ogj8mwZ5Ayx5R66H3SxN-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="Ogj8mwZ5Ayx5R66H3SxN-40">
           <mxGeometry relative="1" as="geometry" />
@@ -1905,6 +1905,15 @@
         </mxCell>
         <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Reflection" vertex="1">
           <mxGeometry height="23" width="113.02" x="1126.98" y="2547" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Loading" vertex="1">
+          <mxGeometry height="35" width="70" x="883.5" y="2815" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Linking" vertex="1">
+          <mxGeometry height="35" width="70" x="1003.1" y="2860" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogj8mwZ5Ayx5R66H3SxN-143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="Initializing" vertex="1">
+          <mxGeometry height="35" width="70" x="1118.1799999999998" y="2860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
