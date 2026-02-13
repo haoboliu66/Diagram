@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="Page-1" id="kx9mjVeSApdWlKxNlJxu">
-    <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,10 +23,10 @@
           <mxGeometry height="30" width="80" x="530" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="43K7ntACY7Cuz89I6Wnu-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stack" vertex="1">
-          <mxGeometry height="30" width="90" x="160" y="220" as="geometry" />
+          <mxGeometry height="30" width="90" x="250" y="60" as="geometry" />
         </mxCell>
         <mxCell id="43K7ntACY7Cuz89I6Wnu-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Queue" vertex="1">
-          <mxGeometry height="30" width="90" x="160" y="270" as="geometry" />
+          <mxGeometry height="30" width="90" x="250" y="110" as="geometry" />
         </mxCell>
         <mxCell id="o0_eqoiUarZh7IGMuA8S-11" edge="1" parent="1" source="43K7ntACY7Cuz89I6Wnu-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="o0_eqoiUarZh7IGMuA8S-3">
           <mxGeometry relative="1" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="43K7ntACY7Cuz89I6Wnu-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sorting" vertex="1">
-          <mxGeometry height="30" width="90" x="190" y="40" as="geometry" />
+          <mxGeometry height="30" width="90" x="200" y="-280" as="geometry" />
         </mxCell>
         <mxCell id="o0_eqoiUarZh7IGMuA8S-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Union Find" vertex="1">
           <mxGeometry height="30" width="90" x="860" y="360" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry height="30" width="90" x="420" y="625" as="geometry" />
         </mxCell>
         <mxCell id="o0_eqoiUarZh7IGMuA8S-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Heap Sort" vertex="1">
-          <mxGeometry height="30" width="90" x="430" y="110" as="geometry" />
+          <mxGeometry height="30" width="90" x="440" y="-210" as="geometry" />
         </mxCell>
         <mxCell id="o0_eqoiUarZh7IGMuA8S-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DFS" vertex="1">
           <mxGeometry height="30" width="90" x="350" y="870" as="geometry" />
@@ -95,7 +95,13 @@
           <mxGeometry height="30" width="90" x="350" y="1170" as="geometry" />
         </mxCell>
         <mxCell id="o0_eqoiUarZh7IGMuA8S-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Quick Sort" vertex="1">
-          <mxGeometry height="30" width="90" x="430" y="40" as="geometry" />
+          <mxGeometry height="30" width="90" x="440" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="o0_eqoiUarZh7IGMuA8S-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LinkedList" vertex="1">
+          <mxGeometry height="30" width="90" x="250" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="o0_eqoiUarZh7IGMuA8S-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Array" vertex="1">
+          <mxGeometry height="30" width="90" x="250" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
