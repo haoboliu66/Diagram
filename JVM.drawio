@@ -1987,8 +1987,8 @@
         <mxCell id="fPOOpr0pJ1Jsc0h8LrbX-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Handle" vertex="1">
           <mxGeometry height="40" width="103" x="257.38" y="7132.77" as="geometry" />
         </mxCell>
-        <mxCell id="fPOOpr0pJ1Jsc0h8LrbX-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ValueObj通常是嵌在某个内存区域中的内容" vertex="1">
-          <mxGeometry height="25" width="280" x="3000" y="4695" as="geometry" />
+        <mxCell id="fPOOpr0pJ1Jsc0h8LrbX-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ValueObj通常是嵌在某个内存区域中的内容, 依赖于宿主对象存活 e.g. struct中的某个值类型字段" vertex="1">
+          <mxGeometry height="35" width="269.5" x="3250.5" y="4747.32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
