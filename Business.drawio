@@ -452,11 +452,17 @@
         <mxCell id="rXXCu0t5F-NEfAZ1b15N-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="DataX Batch Api" vertex="1">
           <mxGeometry height="60" width="174" x="3409" y="-820" as="geometry" />
         </mxCell>
-        <mxCell id="rXXCu0t5F-NEfAZ1b15N-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="Old SQS" vertex="1">
-          <mxGeometry height="60" width="174" x="3020" y="-900" as="geometry" />
+        <mxCell id="rXXCu0t5F-NEfAZ1b15N-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="SQS" vertex="1">
+          <mxGeometry height="60" width="144" x="3050" y="-900" as="geometry" />
         </mxCell>
-        <mxCell id="rXXCu0t5F-NEfAZ1b15N-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="new SQS" vertex="1">
-          <mxGeometry height="60" width="174" x="3020" y="-750" as="geometry" />
+        <mxCell id="rXXCu0t5F-NEfAZ1b15N-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="SQS" vertex="1">
+          <mxGeometry height="60" width="144" x="3050" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="rXXCu0t5F-NEfAZ1b15N-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="event publisher Lambda" vertex="1">
+          <mxGeometry height="60" width="144" x="2822" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="rXXCu0t5F-NEfAZ1b15N-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" value="event publisher Lambda" vertex="1">
+          <mxGeometry height="60" width="144" x="2822" y="-900" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
