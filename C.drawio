@@ -291,7 +291,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-242" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="Sections" vertex="1">
-          <mxGeometry height="30" width="60" x="4168.5" y="-1355.45" as="geometry" />
+          <mxGeometry height="24.55" width="60" x="4168.5" y="-1350" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-243" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -303,7 +303,7 @@
           <mxGeometry height="30" width="60" x="4168.5" y="-1217.0400000000002" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-245" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="VMA" vertex="1">
-          <mxGeometry height="30" width="60" x="4290" y="-1217.0400000000002" as="geometry" />
+          <mxGeometry height="30" width="50" x="4290" y="-1217.04" as="geometry" />
         </mxCell>
         <mxCell id="onG2acxlvetChBkqUA75-246" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="在ELF可执行文件中, 相同属性的Section会被归类为同一个Segment, 便于OS进行装载, 把一个Segment映射到一个VMA, OS通过划分VMA来管理进程的虚拟空间" vertex="1">
           <mxGeometry height="57" width="210" x="4241.5" y="-1307.0400000000002" as="geometry" />
