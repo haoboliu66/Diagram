@@ -1000,22 +1000,22 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-44" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PREROUTING" vertex="1">
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="PREROUTING" vertex="1">
           <mxGeometry height="30" width="95" x="456.1" y="95" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="INPUT" vertex="1">
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="INPUT" vertex="1">
           <mxGeometry height="25" width="68" x="607" y="5" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-47" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OUTPUT" vertex="1">
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="OUTPUT" vertex="1">
           <mxGeometry height="30" width="68" x="890" y="-1.25" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-39" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-38" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="POSTROUTING" vertex="1">
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="POSTROUTING" vertex="1">
           <mxGeometry height="30" width="98" x="876" y="95" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NIC" vertex="1">
@@ -1024,7 +1024,7 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-45" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FORWARD" vertex="1">
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="FORWARD" vertex="1">
           <mxGeometry height="30" width="95" x="705" y="95" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-42" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-40">
