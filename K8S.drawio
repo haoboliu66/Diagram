@@ -1028,7 +1028,16 @@
           <mxGeometry height="30" width="70" x="1010" y="95" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FORWARD" vertex="1">
-          <mxGeometry height="30" width="95" x="666.75" y="95" as="geometry" />
+          <mxGeometry height="30" width="95" x="705" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-42" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-43" edge="1" parent="1" source="KUuIteZOhjmnz2zXRHqr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="KUuIteZOhjmnz2zXRHqr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Routing Decision" vertex="1">
+          <mxGeometry height="80" width="80" x="601.44" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
