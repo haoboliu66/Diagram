@@ -896,28 +896,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Overlay Network" vertex="1">
-          <mxGeometry height="40" width="105" x="1212.5" y="-20" as="geometry" />
+          <mxGeometry height="40" width="105" x="1292" y="-16.25" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-49" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-43" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RhC7_PFTb0shiWphTRB5-48" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-43" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPIP&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25" width="55" x="1395" y="-70" as="geometry" />
+          <mxGeometry height="25" width="55" x="1474.5" y="-66.25" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-51" edge="1" parent="1" source="RhC7_PFTb0shiWphTRB5-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="RhC7_PFTb0shiWphTRB5-50" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-44" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VXLAN&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25" width="55" x="1395" y="30" as="geometry" />
+          <mxGeometry height="25" width="55" x="1474.5" y="33.75" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-47" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IPIP设备, VXLAN设备&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="25" width="120.5" x="1362.25" y="-20" as="geometry" />
+          <mxGeometry height="25" width="120.5" x="1441.75" y="-16.25" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-48" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宿主机拿到容器发来packet的目标地址, 进行路由匹配, 如果路由规则指向一个IPIP设备, 那么内核就要用&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;宿主机的IP&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;进行额外的L3数据封装; IP Header&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Protocol = 4&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="282" x="1484.5" y="-87.5" as="geometry" />
+          <mxGeometry height="60" width="282" x="1564" y="-83.75" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-50" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;VXLAN datagram = VXLAN header + Ethernet frame&lt;/div&gt;" vertex="1">
-          <mxGeometry height="27.5" width="282" x="1490" y="28.75" as="geometry" />
+          <mxGeometry height="27.5" width="282" x="1569.5" y="32.5" as="geometry" />
         </mxCell>
         <mxCell id="RhC7_PFTb0shiWphTRB5-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ethernet Frame" vertex="1">
           <mxGeometry height="40" width="112" x="1833.5" y="90" as="geometry" />
