@@ -525,6 +525,15 @@
         <mxCell id="6FSzktAzoFCJBHPJ_IoM-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;&amp;nbsp; - Worker — JVM 进程，有独立的堆内存，一个 slot 对应一个 Worker&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Executor — Worker 内的线程，一个 Worker 可以跑多个 Executor&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Task — Spout/Bolt 的实例，默认一个 Executor 跑一个 Task&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="355" x="255" y="-1169" as="geometry" />
         </mxCell>
+        <mxCell id="6FSzktAzoFCJBHPJ_IoM-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Resource management" vertex="1">
+          <mxGeometry height="50" width="70" x="-30" y="-1480" as="geometry" />
+        </mxCell>
+        <mxCell id="6FSzktAzoFCJBHPJ_IoM-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Backpressure" vertex="1">
+          <mxGeometry height="50" width="70" x="-31.25" y="-1390" as="geometry" />
+        </mxCell>
+        <mxCell id="6FSzktAzoFCJBHPJ_IoM-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Exactly-Once" vertex="1">
+          <mxGeometry height="50" width="70" x="-30" y="-1300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
