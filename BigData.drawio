@@ -537,6 +537,9 @@
         <mxCell id="6FSzktAzoFCJBHPJ_IoM-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Resource Granularity" vertex="1">
           <mxGeometry height="50" width="70" x="-30" y="-1210" as="geometry" />
         </mxCell>
+        <mxCell id="6FSzktAzoFCJBHPJ_IoM-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="提交topology时设置的executor数量决定整个topology的并行度, 然后分布到所有的worker进程中" vertex="1">
+          <mxGeometry height="30" width="308.75" x="230" y="-1340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
