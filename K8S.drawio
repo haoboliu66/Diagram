@@ -1104,6 +1104,9 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;SEP = Service EndPoint&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;每个 Pod 对应一个 SEP 链，命名规律:&lt;/div&gt;&lt;div&gt;KUBE-SVC-XXXXX&amp;nbsp; &amp;nbsp;→ 某个 Service&lt;/div&gt;&lt;div&gt;KUBE-SEP-XXXXX&amp;nbsp; &amp;nbsp;→ 该 Service 下的某个具体 Pod (Endpoint)&lt;/div&gt;" vertex="1">
           <mxGeometry height="86.25" width="365" x="160" y="-90" as="geometry" />
         </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="所以一个Pod就可以理解为一个进程组, Pod中运行的app容器, sidecar容器, 他们其实都是一个个独立的进程" vertex="1">
+          <mxGeometry height="65" width="149" x="2011" y="-1865" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
