@@ -1113,8 +1113,8 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="所以一个Pod就可以理解为一个进程组, Pod中运行的app容器, sidecar容器, 他们其实都是一个个独立的进程, 位于同一个netns中, 因为K8s中最小的network通信单位就是Pod" vertex="1">
           <mxGeometry height="70" width="249" x="1960" y="-1880" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="那外部数据进入Pod, 如何知道应该交给哪个容器?&amp;nbsp;&lt;br&gt;由于Pod的所有容器在同一个Netns中, 那意味着它们有同一套网络栈配置, i.e. port不能重复, 那数据进入Pod后还是遵循传统的TCP/IP交付方法, 根据port对应到某个容器/进程" vertex="1">
-          <mxGeometry height="70" width="249" x="2266.44" y="-1880" as="geometry" />
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="那外部数据进入Pod, 如何知道应该交给哪个容器?&amp;nbsp;&lt;br&gt;&lt;br&gt;由于Pod的所有容器在同一个Netns中, 那意味着它们有同一套网络栈配置, i.e. port不能重复, 那数据进入Pod后还是遵循传统的TCP/IP交付方法, 根据port对应到某个容器/进程" vertex="1">
+          <mxGeometry height="80" width="249" x="2266.44" y="-1885" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
