@@ -560,6 +560,9 @@
         <mxCell id="IGFzGuEiSgirud9OXhFV-29" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="配置容器中init进程(1号进程)的运行环境和启动命令等" vertex="1">
           <mxGeometry height="30" width="270" x="1130" y="-1860" as="geometry" />
         </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-97" edge="1" parent="1" source="IGFzGuEiSgirud9OXhFV-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="KUuIteZOhjmnz2zXRHqr-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IGFzGuEiSgirud9OXhFV-31" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#9933FF;labelBackgroundColor=default;fontStyle=1" value="Note: 以前我认为一个容器就是一个单独隔离的进程, 这其实有问题&lt;br&gt;比如我可以用容器来启动一个nginx, 这个nginix一定会包含多个进程, master进程, 一系列worker进程, 他们在同一个container中, 属于同一个PID ns;&amp;nbsp;&lt;br&gt;所以正确的说法是: 容器是一个受限的、拥有独立视图(Namespace)的进程组&lt;br&gt;&lt;br&gt;由于在这个OCI spec中可以指定1号进程的启动方式, 所以nginx的启动命令就是1号进程, 也就是nginx的master进程" vertex="1">
           <mxGeometry height="80" width="390" x="1433" y="-1885" as="geometry" />
         </mxCell>
@@ -1105,7 +1108,7 @@
           <mxGeometry height="86.25" width="365" x="160" y="-90" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="所以一个Pod就可以理解为一个进程组, Pod中运行的app容器, sidecar容器, 他们其实都是一个个独立的进程, 位于同一个netns中, 因为K8s中最小的network通信单位就是Pod" vertex="1">
-          <mxGeometry height="70" width="249" x="1951" y="-1860" as="geometry" />
+          <mxGeometry height="70" width="249" x="1960" y="-1880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
