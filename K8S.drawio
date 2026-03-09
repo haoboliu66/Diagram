@@ -1116,6 +1116,9 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="那外部数据进入Pod, 如何知道应该交给哪个容器?&amp;nbsp;&lt;br&gt;&lt;br&gt;由于Pod的所有容器在同一个Netns中, 那意味着它们有同一套网络栈配置, i.e. port不能重复, 那数据进入Pod后还是遵循传统的TCP/IP交付方法, 根据port对应到某个容器/进程" vertex="1">
           <mxGeometry height="80" width="249" x="2261.44" y="-1885" as="geometry" />
         </mxCell>
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Custom Resource" vertex="1">
+          <mxGeometry height="30" width="100" x="-310" y="-71.25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
