@@ -523,20 +523,26 @@
         <mxCell id="rXXCu0t5F-NEfAZ1b15N-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=17;fontColor=default;labelBackgroundColor=default;fontStyle=1" value="New" vertex="1">
           <mxGeometry height="30" width="50" x="1700" y="-660" as="geometry" />
         </mxCell>
+        <mxCell id="4Da5Sq2wO3Gz3fqew1-_-9" edge="1" parent="1" source="4Da5Sq2wO3Gz3fqew1-_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="4Da5Sq2wO3Gz3fqew1-_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4Da5Sq2wO3Gz3fqew1-_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Static Feeds (SF)" vertex="1">
           <mxGeometry height="50" width="110" x="230" y="950" as="geometry" />
         </mxCell>
+        <mxCell id="4Da5Sq2wO3Gz3fqew1-_-10" edge="1" parent="1" source="4Da5Sq2wO3Gz3fqew1-_-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="4Da5Sq2wO3Gz3fqew1-_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4Da5Sq2wO3Gz3fqew1-_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Quotes Feeds (QF)" vertex="1">
           <mxGeometry height="50" width="110" x="230" y="1050" as="geometry" />
-        </mxCell>
-        <mxCell id="4Da5Sq2wO3Gz3fqew1-_-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="real-time data" vertex="1">
-          <mxGeometry height="30" width="80" x="350" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="4Da5Sq2wO3Gz3fqew1-_-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="In the finance world, a quote (or &quot;quotation&quot;) is the most recent price at which a security—like a stock, bond, or commodity—was traded or is currently being offered. It isn’t just a &quot;query&quot;; it&#39;s the specific data point that tells you what something is worth right now." vertex="1">
           <mxGeometry height="100" width="290" x="230" y="780" as="geometry" />
         </mxCell>
         <mxCell id="4Da5Sq2wO3Gz3fqew1-_-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Feed Providers" vertex="1">
           <mxGeometry height="80" width="80" x="70" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="4Da5Sq2wO3Gz3fqew1-_-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Comet / DQMR" vertex="1">
+          <mxGeometry height="60" width="120" x="457" y="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
