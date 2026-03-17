@@ -1092,8 +1092,8 @@
         <mxCell id="KUuIteZOhjmnz2zXRHqr-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="PREROUTING" vertex="1">
           <mxGeometry height="30" width="95" x="1573.87" y="810" as="geometry" />
         </mxCell>
-        <mxCell id="KUuIteZOhjmnz2zXRHqr-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="DNAT: node ip -&amp;gt; pod ip" vertex="1">
-          <mxGeometry height="30" width="125.94" x="721.4399999999999" y="390" as="geometry" />
+        <mxCell id="KUuIteZOhjmnz2zXRHqr-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="DNAT: node ip: NodePort -&amp;gt; pod ip: containerPort" vertex="1">
+          <mxGeometry height="30" width="248.56" x="721.44" y="390" as="geometry" />
         </mxCell>
         <mxCell id="KUuIteZOhjmnz2zXRHqr-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="OUTPUT" vertex="1">
           <mxGeometry height="30" width="68" x="407.94" y="390" as="geometry" />
