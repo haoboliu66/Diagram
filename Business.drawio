@@ -585,14 +585,20 @@
         <mxCell id="1U2JPbya5v-uwZF4j-Gz-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Athenz ZTS" vertex="1">
           <mxGeometry height="60" width="120" x="1640" y="-860" as="geometry" />
         </mxCell>
-        <mxCell id="1U2JPbya5v-uwZF4j-Gz-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Athenz role&amp;nbsp;" vertex="1">
+        <mxCell id="pXW_2fifZD-EriKkBx60-14" edge="1" parent="1" source="1U2JPbya5v-uwZF4j-Gz-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="1U2JPbya5v-uwZF4j-Gz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1U2JPbya5v-uwZF4j-Gz-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Athenz role&amp;nbsp;" vertex="1">
           <mxGeometry height="80" width="80" x="1734" y="-1130" as="geometry" />
+        </mxCell>
+        <mxCell id="pXW_2fifZD-EriKkBx60-15" edge="1" parent="1" source="1U2JPbya5v-uwZF4j-Gz-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="1U2JPbya5v-uwZF4j-Gz-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1U2JPbya5v-uwZF4j-Gz-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Trust Policy / assume-role" vertex="1">
           <mxGeometry height="60" width="120" x="1868" y="-1120" as="geometry" />
         </mxCell>
-        <mxCell id="1U2JPbya5v-uwZF4j-Gz-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="AWS role&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="80" x="2040" y="-1130" as="geometry" />
+        <mxCell id="1U2JPbya5v-uwZF4j-Gz-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" value="AWS role&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="2050" y="-1130" as="geometry" />
         </mxCell>
         <mxCell id="pXW_2fifZD-EriKkBx60-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Athenz ZTS" vertex="1">
           <mxGeometry height="60" width="120" x="1440" y="-1240" as="geometry" />
