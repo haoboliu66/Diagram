@@ -8,7 +8,7 @@
           <mxGeometry height="180" width="250" x="5410" y="330" as="geometry" />
         </mxCell>
         <mxCell id="b35-3CjVeE-SZWzxtDrd-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
-          <mxGeometry height="340" width="313" x="5550" y="610" as="geometry" />
+          <mxGeometry height="340" width="313" x="5110" y="670" as="geometry" />
         </mxCell>
         <mxCell id="kN55YoPe5K_Antq_4-WD-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;" value="EC2" vertex="1">
           <mxGeometry height="213.75" width="670" x="3400" y="2076.25" as="geometry" />
@@ -634,13 +634,13 @@
           <mxGeometry height="60" width="120" x="1241" y="-1350" as="geometry" />
         </mxCell>
         <mxCell id="b35-3CjVeE-SZWzxtDrd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GlobalSymbology.security_master" vertex="1">
-          <mxGeometry height="60" width="200" x="5598" y="670" as="geometry" />
+          <mxGeometry height="60" width="200" x="5158" y="730" as="geometry" />
         </mxCell>
         <mxCell id="b35-3CjVeE-SZWzxtDrd-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GlobalSymbology.provider_mic_acronym" vertex="1">
-          <mxGeometry height="60" width="228" x="5598" y="770" as="geometry" />
+          <mxGeometry height="60" width="228" x="5158" y="830" as="geometry" />
         </mxCell>
         <mxCell id="b35-3CjVeE-SZWzxtDrd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GlobalSymbology.manual_mapping" vertex="1">
-          <mxGeometry height="60" width="200" x="5598" y="860" as="geometry" />
+          <mxGeometry height="60" width="200" x="5158" y="920" as="geometry" />
         </mxCell>
         <mxCell id="HcIRxCu_-Ceh9oX1wYLl-4" edge="1" parent="1" source="b35-3CjVeE-SZWzxtDrd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HcIRxCu_-Ceh9oX1wYLl-3">
           <mxGeometry relative="1" as="geometry" />
@@ -659,6 +659,11 @@
         </mxCell>
         <mxCell id="HcIRxCu_-Ceh9oX1wYLl-7" edge="1" parent="1" source="HcIRxCu_-Ceh9oX1wYLl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HcIRxCu_-Ceh9oX1wYLl-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcIRxCu_-Ceh9oX1wYLl-9" connectable="0" parent="HcIRxCu_-Ceh9oX1wYLl-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.2457" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HcIRxCu_-Ceh9oX1wYLl-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="crypto ?" vertex="1">
           <mxGeometry height="100" width="100" x="5190" y="370" as="geometry" />
