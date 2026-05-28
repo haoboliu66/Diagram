@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="aglCG6y4qYpq39_KEeoC">
-    <mxGraphModel dx="1230" dy="3000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1010" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,6 +673,15 @@
         </mxCell>
         <mxCell id="HcIRxCu_-Ceh9oX1wYLl-10" edge="1" parent="1" source="HcIRxCu_-Ceh9oX1wYLl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="b35-3CjVeE-SZWzxtDrd-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SELECT DISTINCT symbol FROM GlobalHistoricalData.idc_api_symbol_history" vertex="1">
+          <mxGeometry height="30" width="500" x="210" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SELECT DISTINCT head_symbol FROM GlobalHistoricalData.future_mapping WHERE head_symbol NOT IN" vertex="1">
+          <mxGeometry height="30" width="549" x="178" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select symbol, DATEDIFF(now(),max(DATE_FORMAT(date,&#39;%Y-%m-%d&#39;)))&amp;nbsp; from GlobalHistoricalData.idc_api_symbol_history ish, GlobalHistoricalData.future_mapping fm where fm.head_symbol = ish.symbol group by symbol" vertex="1">
+          <mxGeometry height="70" width="780" x="220" y="1700" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
