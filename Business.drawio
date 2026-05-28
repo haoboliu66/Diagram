@@ -681,7 +681,10 @@
           <mxGeometry height="30" width="549" x="178" y="1510" as="geometry" />
         </mxCell>
         <mxCell id="5GLPm7FPh-brj-HgHZv2-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select symbol, DATEDIFF(now(),max(DATE_FORMAT(date,&#39;%Y-%m-%d&#39;)))&amp;nbsp; from GlobalHistoricalData.idc_api_symbol_history ish, GlobalHistoricalData.future_mapping fm where fm.head_symbol = ish.symbol group by symbol" vertex="1">
-          <mxGeometry height="70" width="780" x="220" y="1700" as="geometry" />
+          <mxGeometry height="70" width="780" x="220" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select symbol&amp;nbsp; from GlobalHistoricalData.idc_api_symbol_history ish, GlobalHistoricalData.future_mapping fm where fm.head_symbol = ish.symbol&amp;nbsp; &amp;nbsp; group by symbol" vertex="1">
+          <mxGeometry height="70" width="780" x="760" y="1590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
