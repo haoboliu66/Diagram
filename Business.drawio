@@ -689,6 +689,9 @@
         <mxCell id="5GLPm7FPh-brj-HgHZv2-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private static final String SELECT_SUPPORTING_CRYPTO =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SELECT id, fiat_currencies&amp;nbsp; FROM cryptocompare.supporting_cryptocurrencies;&quot;;&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="420" x="1170" y="880" as="geometry" />
         </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private static final String SELECT_SYMBOLS_TABLE =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SELECT DISTINCT BaseSymbol FROM cryptocompare.symbols;&quot;;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71" width="355" x="800" y="1014.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
