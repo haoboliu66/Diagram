@@ -675,7 +675,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5GLPm7FPh-brj-HgHZv2-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SELECT DISTINCT symbol FROM GlobalHistoricalData.idc_api_symbol_history" vertex="1">
-          <mxGeometry height="30" width="500" x="210" y="1590" as="geometry" />
+          <mxGeometry height="30" width="500" x="190" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="5GLPm7FPh-brj-HgHZv2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SELECT DISTINCT head_symbol FROM GlobalHistoricalData.future_mapping WHERE head_symbol NOT IN" vertex="1">
           <mxGeometry height="30" width="549" x="178" y="1510" as="geometry" />
@@ -684,7 +684,7 @@
           <mxGeometry height="70" width="780" x="220" y="1750" as="geometry" />
         </mxCell>
         <mxCell id="5GLPm7FPh-brj-HgHZv2-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select symbol&amp;nbsp; from GlobalHistoricalData.idc_api_symbol_history ish, GlobalHistoricalData.future_mapping fm where fm.head_symbol = ish.symbol&amp;nbsp; &amp;nbsp; group by symbol" vertex="1">
-          <mxGeometry height="70" width="780" x="760" y="1590" as="geometry" />
+          <mxGeometry height="70" width="780" x="70" y="1630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
