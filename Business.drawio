@@ -684,7 +684,10 @@
           <mxGeometry height="70" width="780" x="70" y="1630" as="geometry" />
         </mxCell>
         <mxCell id="5GLPm7FPh-brj-HgHZv2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private static final String SELECT_SYMBOLID_SYMBOL =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SELECT id, name, cmc_symbol, y_symbol FROM cryptocompare.coinmarketcap_cryptocurrencies;&quot;;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="64.48" width="550" x="780.5" y="885.52" as="geometry" />
+          <mxGeometry height="64.48" width="550" x="670" y="895.52" as="geometry" />
+        </mxCell>
+        <mxCell id="5GLPm7FPh-brj-HgHZv2-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private static final String SELECT_SUPPORTING_CRYPTO =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;SELECT id, fiat_currencies&amp;nbsp; FROM cryptocompare.supporting_cryptocurrencies;&quot;;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="420" x="1170" y="880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
